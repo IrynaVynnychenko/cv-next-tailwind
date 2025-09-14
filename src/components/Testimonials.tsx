@@ -41,7 +41,7 @@ export default function Testimonials() {
                 ))}
               </div>
               <blockquote className="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed">
-                "{testimonial.text}"
+                &ldquo;{testimonial.text}&rdquo;
               </blockquote>
               <div className="flex items-center justify-between">
                 <div>
