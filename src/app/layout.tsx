@@ -14,9 +14,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Iryna Vynnychenko - Frontend Web Developer",
-  description: "Professional resume and portfolio of Iryna Vynnychenko, Frontend Web Developer with 6+ years of experience. Specializing in HTML, CSS, JavaScript, React, and responsive design.",
-  keywords: "Frontend Developer, HTML, CSS, JavaScript, React, Vue.js, Web Development, Ukraine, Upwork",
+  title: "Iryna Vynnychenko - Frontend Web Developer | +380931844615",
+  description: "Professional resume and portfolio of Iryna Vynnychenko, Frontend Web Developer with 7+ years of experience. Specializing in HTML, CSS, JavaScript, React, and responsive design.",
+  keywords: "Frontend Developer, HTML, CSS, JavaScript, React, Next.js, Web Development, Ukraine, Upwork, react developer, HTML/CSS, html5, scss, Professional, js developer, web app developer, web app, tailwind css, tailwindcss, developer, front-end-development, Tailwind CSS, interface developer, web development, development, experienced, web developer, React.js, expert front end developer, site development, site, website, typescript, Typescript developer, Responsive web, Responsive Design, Material, UI, HTML Expert, mobile-first",
   authors: [{ name: "Iryna Vynnychenko" }],
   openGraph: {
     title: "Iryna Vynnychenko - Frontend Web Developer",
