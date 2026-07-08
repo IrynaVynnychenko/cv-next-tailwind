@@ -1,23 +1,47 @@
 export default function Experience() {
   const experiences = [
     {
-      title: "Freelance Frontend Developer",
+      title: "Frontend Web Developer",
       company: "Upwork",
       period: "2018 - Present",
-      description: "Working as a freelancer on Upwork platform since 2018, developing professional websites and landing pages for clients worldwide. Specializing in pixel-perfect coding and responsive design.",
+      description: "Freelance senior frontend developer on Upwork — full-cycle delivery from design to live product. High-performance React/Next.js apps, product engineering, and long-term collaboration with clients worldwide.",
       achievements: [
-        "3750+ hours of work on Upwork with 100% Job Success Rate",
-        "Developed 50+ websites, landing pages, and e-commerce stores",
-        "Expert in PSD to HTML / Figma to HTML / Figma to React.js / Figma to Next.js",
-        "Specialization in long-term projects and flexible schedules"
+        "4,200+ Upwork hours · 100+ launched projects · 100% Job Success Rate",
+        "Full-stack Next.js: Server Components, Server Actions, API Routes",
+        "Performance optimization targeting Core Web Vitals for SEO & conversion",
+        "SSR / SSG / CSR, code splitting, lazy loading, debugging & profiling"
       ],
-      technologies: ["HTML5", "CSS3", "JavaScript", "React", "Next.js", "Webflow", "SCSS", "Bootstrap", "Tailwind CSS"],
+      technologies: ["TypeScript", "React", "Next.js", "TanStack Query", "Redux", "Zustand", "GraphQL", "Tailwind CSS", "GSAP", "Framer Motion", "Jest", "Git"],
       projects: [
         "https://www.niunkina.com/ - Business website for German cosmetologist (Next.js + TailwindCSS)",
         "https://plowguys.com/ - Snow & ice management website (Webflow)",
         "https://wellwheel.com.ua/ - Taxi service website for Kyiv drivers",
         "https://www.8host.com/en/ - Cloud hosting platform for VPS/VDS services"
       ]
+    },
+    {
+      title: "Frontend Web Developer",
+      company: "ETNA Network",
+      period: "Apr 2021 - Jul 2022",
+      description: "Frontend development for a DeFi, gaming, and NFT ecosystem with interconnected products across blockchain and web3.",
+      achievements: [
+        "Built user-facing interfaces for DeFi and NFT products",
+        "Developed responsive, interactive UI for crypto ecosystem",
+        "Collaborated with cross-functional team on multi-utility platform"
+      ],
+      technologies: ["React", "JavaScript", "HTML5", "CSS3", "SCSS", "Git"],
+    },
+    {
+      title: "Frontend Web Developer",
+      company: "LexStatus",
+      period: "Feb 2019 - Nov 2020",
+      description: "Frontend development for a legal services company specializing in real estate documentation and property assessment in Ukraine.",
+      achievements: [
+        "Developed and maintained corporate website and client-facing interfaces",
+        "Implemented responsive layouts for legal services platform",
+        "Worked with design team on pixel-perfect implementations"
+      ],
+      technologies: ["HTML5", "CSS3", "JavaScript", "jQuery", "SCSS", "Bootstrap"],
     }
   ]
 

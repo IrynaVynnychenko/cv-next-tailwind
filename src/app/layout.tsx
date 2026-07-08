@@ -14,13 +14,13 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Iryna Vynnychenko - Frontend Web Developer | +380931844615",
-  description: "Professional resume and portfolio of Iryna Vynnychenko, Frontend Web Developer with 7+ years of experience. Specializing in HTML, CSS, JavaScript, React, and responsive design.",
-  keywords: "Frontend Developer, HTML, CSS, JavaScript, React, Next.js, Web Development, Ukraine, Upwork, react developer, HTML/CSS, html5, scss, Professional, js developer, web app developer, web app, tailwind css, tailwindcss, developer, front-end-development, Tailwind CSS, interface developer, web development, development, experienced, web developer, React.js, expert front end developer, site development, site, website, typescript, Typescript developer, Responsive web, Responsive Design, Material, UI, HTML Expert, mobile-first",
+  title: "Iryna Vynnychenko - React / Next.js Development & Product Engineering",
+  description: "High-Performance React / Next.js Development. 4,200+ Upwork hours, 8+ years, 100+ launched projects. TypeScript, TanStack Query, GSAP, Core Web Vitals optimization.",
+  keywords: "React, Next.js, TypeScript, Product Engineering, TanStack Query, Redux, Zustand, GraphQL, Tailwind CSS, GSAP, Framer Motion, SSR, SSG, Core Web Vitals, Senior Frontend Developer, Ukraine, Upwork",
   authors: [{ name: "Iryna Vynnychenko" }],
   openGraph: {
-    title: "Iryna Vynnychenko - Frontend Web Developer",
-    description: "Professional resume and portfolio of Iryna Vynnychenko, Frontend Web Developer",
+    title: "Iryna Vynnychenko - React / Next.js Development & Product Engineering",
+    description: "4,200+ Upwork hours · 8+ years · 100+ launched projects. High-performance React / Next.js product engineering.",
     type: "website",
   },
 };

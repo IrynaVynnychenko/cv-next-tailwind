@@ -64,6 +64,12 @@ export default function Header() {
               About
             </button>
             <button
+              onClick={() => scrollToSection('skills')}
+              className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
+            >
+              Skills
+            </button>
+            <button
               onClick={() => scrollToSection('experience')}
               className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
             >

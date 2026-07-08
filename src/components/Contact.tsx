@@ -19,7 +19,7 @@ export default function Contact() {
         </svg>
       ),
       label: "Location",
-      value: "Ukraine",
+      value: "Kyiv, Ukraine",
       link: null
     },
     {

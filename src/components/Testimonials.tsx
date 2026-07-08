@@ -1,6 +1,12 @@
 export default function Testimonials() {
   const testimonials = [
     {
+      text: "Iryna turned our Figma design into a live page flawlessly and ahead of schedule.",
+      author: "Client",
+      rating: 5,
+      project: "Figma to Live Page"
+    },
+    {
       text: "Iryna made a great job transforming design from Figma to the real landing page. We definitely will work with her again.",
       author: "Upwork Client",
       rating: 5,
@@ -67,7 +73,7 @@ export default function Testimonials() {
               100% Job Success Rate on Upwork
             </a>
           </div>
-          <p className="text-gray-600 dark:text-gray-300 mt-2 text-sm">Over 3750 hours of work with satisfied clients</p>
+          <p className="text-gray-600 dark:text-gray-300 mt-2 text-sm">4,200+ Upwork hours · 100+ launched projects</p>
         </div>
       </div>
     </section>
