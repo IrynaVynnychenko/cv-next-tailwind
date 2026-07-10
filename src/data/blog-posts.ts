@@ -335,6 +335,21 @@ export const blogPosts: BlogPost[] = [
   },
 ]
 
+export const BLOG_POSTS_PER_PAGE = 4
+
+export function getBlogPageCount(): number {
+  return Math.ceil(blogPosts.length / BLOG_POSTS_PER_PAGE)
+}
+
+export function getBlogPostsForPage(page: number): BlogPost[] {
+  const start = (page - 1) * BLOG_POSTS_PER_PAGE
+  return blogPosts.slice(start, start + BLOG_POSTS_PER_PAGE)
+}
+
+export function getBlogPagePath(page: number): string {
+  return page === 1 ? '/blog/' : `/blog/page/${page}/`
+}
+
 export function getBlogPost(slug: string): BlogPost | undefined {
   return blogPosts.find((post) => post.slug === slug)
 }
