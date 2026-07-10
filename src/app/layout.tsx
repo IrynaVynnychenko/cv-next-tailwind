@@ -14,13 +14,13 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Iryna Vynnychenko - React / Next.js Development & Product Engineering",
-  description: "High-Performance React / Next.js Development. 4,200+ Upwork hours, 8+ years, 100+ launched projects. TypeScript, TanStack Query, GSAP, Core Web Vitals optimization.",
-  keywords: "React, Next.js, TypeScript, Product Engineering, TanStack Query, Redux, Zustand, GraphQL, Tailwind CSS, GSAP, Framer Motion, SSR, SSG, Core Web Vitals, Senior Frontend Developer, Ukraine, Upwork",
+  title: "Iryna Vynnychenko - Senior Web Developer | React / Next.js Development",
+  description: "Senior Web Developer specializing in high-performance React / Next.js development. 4,200+ Upwork hours, 8+ years, 100+ launched projects. TypeScript, TanStack Query, GSAP, Core Web Vitals optimization.",
+  keywords: "Web Developer, Senior Web Developer, React, Next.js, TypeScript, Product Engineering, TanStack Query, Redux, Zustand, GraphQL, Tailwind CSS, GSAP, Framer Motion, SSR, SSG, Core Web Vitals, Senior Frontend Developer, Ukraine, Upwork",
   authors: [{ name: "Iryna Vynnychenko" }],
   openGraph: {
-    title: "Iryna Vynnychenko - React / Next.js Development & Product Engineering",
-    description: "4,200+ Upwork hours · 8+ years · 100+ launched projects. High-performance React / Next.js product engineering.",
+    title: "Iryna Vynnychenko - Senior Web Developer | React / Next.js Development",
+    description: "4,200+ Upwork hours · 8+ years · 100+ launched projects. Senior Web Developer — high-performance React / Next.js product engineering.",
     type: "website",
   },
 };

@@ -1,9 +1,20 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+
+const navItems = [
+  { id: 'about', label: 'About' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'contact', label: 'Contact' },
+]
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
+  const pathname = usePathname()
+  const isHome = pathname === '/'
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,9 +37,14 @@ export default function Header() {
     }`}>
       <nav className="max-w-5xl mx-auto px-6 py-4">
         <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
-          <div className="text-xl font-semibold text-gray-900 dark:text-white tracking-tight">
-            Iryna Vynnychenko
-          </div>
+          <Link href="/" className="group">
+            <div className="text-xl font-semibold text-gray-900 dark:text-white tracking-tight group-hover:text-gray-700 dark:group-hover:text-gray-200 transition-colors">
+              Iryna Vynnychenko
+            </div>
+            <div className="text-xs text-gray-500 dark:text-gray-400 font-medium mt-0.5">
+              Senior Web Developer
+            </div>
+          </Link>
           
           {/* Contact Info */}
           <div className="flex flex-wrap items-center gap-4 text-xs text-gray-600 dark:text-gray-400">
@@ -67,31 +83,36 @@ export default function Header() {
           </div>
           
           {/* Navigation */}
-          <div className="hidden md:flex space-x-6">
-            <button
-              onClick={() => scrollToSection('about')}
-              className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
+          <div className="hidden md:flex items-center space-x-6">
+            {navItems.map((item) =>
+              isHome ? (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
+                >
+                  {item.label}
+                </button>
+              ) : (
+                <Link
+                  key={item.id}
+                  href={`/#${item.id}`}
+                  className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
+                >
+                  {item.label}
+                </Link>
+              )
+            )}
+            <Link
+              href="/blog/"
+              className={`text-sm transition-colors font-medium ${
+                pathname.startsWith('/blog')
+                  ? 'text-green-700 dark:text-green-400'
+                  : 'text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
+              }`}
             >
-              About
-            </button>
-            <button
-              onClick={() => scrollToSection('skills')}
-              className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
-            >
-              Skills
-            </button>
-            <button
-              onClick={() => scrollToSection('experience')}
-              className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
-            >
-              Experience
-            </button>
-            <button
-              onClick={() => scrollToSection('contact')}
-              className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
-            >
-              Contact
-            </button>
+              Blog
+            </Link>
           </div>
         </div>
       </nav>
