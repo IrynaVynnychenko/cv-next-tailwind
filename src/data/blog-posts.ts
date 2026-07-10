@@ -16,6 +16,68 @@ export type BlogSection = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'why-your-business-needs-a-website',
+    title: 'Why Instagram and TikTok Are Not Enough — Your Business Still Needs a Website',
+    excerpt:
+      'Social media brings attention. A website brings trust. Here is why serious businesses invest in their own home on the web.',
+    date: '2026-07-01',
+    readTime: '5 min',
+    tags: ['Business', 'Website', 'Strategy'],
+    content: [
+      {
+        paragraphs: [
+          'Instagram and TikTok are powerful for reach. They help you show personality, run campaigns, and meet customers where they already scroll. But when someone is deciding whether to trust you with their money, their time, or a real project — they look for more than a feed.',
+          'A website is not a luxury add-on. It is the signal that your business is established, intentional, and worth taking seriously.',
+        ],
+      },
+      {
+        heading: 'Social media builds visibility. A website builds credibility.',
+        paragraphs: [
+          'Profiles come and go. Algorithms change. Accounts get restricted. A website you own is stable ground — your name, your offer, your proof, in one place you control.',
+          'Clients, partners, and investors expect it. A clear, fast, professional site answers the questions social posts never fully cover: who you are, what you do, how you work, and why they should choose you.',
+        ],
+      },
+      {
+        heading: 'What a business website should communicate',
+        paragraphs: [
+          'You do not need dozens of pages. You need a focused presence that sounds confident and reads easily — even on a phone between two TikToks.',
+        ],
+        list: [
+          'What you do — in plain language, without buzzwords',
+          'Who you help — and what problem you solve for them',
+          'Proof — case studies, results, reviews, or shipped work',
+          'How to start — one clear contact path, not five scattered links',
+        ],
+      },
+      {
+        heading: 'Trust signals that social alone cannot provide',
+        paragraphs: [],
+        list: [
+          'A custom domain (yourbrand.com) — not just a link-in-bio page',
+          'Structured service pages that show depth, not just highlights',
+          'SEO visibility — so people find you when they search, not only when you post',
+          'Professional email and contact flow tied to your brand',
+          'A foundation for payments, booking, forms, and future product features',
+        ],
+      },
+      {
+        heading: 'The best setup: social + website, working together',
+        paragraphs: [
+          'Use Instagram and TikTok to attract attention. Send that traffic to a website that converts interest into action — a call, a quote request, a signup, a sale.',
+          'Think of social as the handshake. The website is the meeting room where business actually happens.',
+        ],
+      },
+      {
+        heading: 'What this looks like in practice',
+        paragraphs: [
+          'A strong business site does not need to be huge. It needs to be clear, fast, and credible. That means sharp copy, mobile-first layout, fast load times, and a structure that grows with you — from a landing page today to a full product tomorrow.',
+          'I build exactly that: lean, high-performance websites and web products with React and Next.js. 4,200+ Upwork hours, 8+ years in production, 100+ launched projects — from business landing pages to complex frontend platforms. TypeScript, performance optimization, SEO-ready architecture, and clean code you can maintain long after launch.',
+          'If your business lives on social but your website is missing, outdated, or just a template — that gap is costing you trust. Reach out via the contacts below. We can map what you need in one short call.',
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-to-find-web-developer',
     title: 'How to Find a Web Developer for Your Project (Without Wasting Time or Budget)',
     excerpt:
