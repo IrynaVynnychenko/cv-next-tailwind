@@ -16,6 +16,83 @@ export type BlogSection = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'how-to-find-web-developer',
+    title: 'How to Find a Web Developer for Your Project (Without Wasting Time or Budget)',
+    excerpt:
+      'Searching for a web developer can feel overwhelming. Here is a practical guide to finding the right person — fast, safely, and with confidence.',
+    date: '2026-04-01',
+    readTime: '6 min',
+    tags: ['Web Developer', 'Hiring', 'Freelance'],
+    content: [
+      {
+        paragraphs: [
+          'Whether you need a landing page, a full product rebuild, or ongoing maintenance, finding the right web developer is one of the most important decisions you will make. The market is full of options — agencies, freelancers, offshore teams — and not all of them deliver what they promise.',
+          'This guide helps you cut through the noise and hire a web developer who actually fits your project, timeline, and budget.',
+        ],
+      },
+      {
+        heading: 'Define what you need before you search',
+        paragraphs: [
+          'Vague briefs attract vague proposals. Before posting a job or reaching out, clarify:',
+        ],
+        list: [
+          'Project type — website, web app, redesign, or ongoing support',
+          'Must-have features — forms, payments, user accounts, CMS, integrations',
+          'Tech preferences — or openness to recommendations (React, Next.js, WordPress)',
+          'Timeline and budget range — even a rough estimate saves weeks of back-and-forth',
+        ],
+      },
+      {
+        heading: 'Where to look for a web developer',
+        paragraphs: [
+          'Each channel has trade-offs. Choose based on how much control and direct communication you want.',
+        ],
+        list: [
+          'Freelance platforms (Upwork, Toptal) — large talent pool, reviews, escrow protection',
+          'LinkedIn — good for senior developers with verifiable work history',
+          'Referrals — trusted recommendations from founders or product teams',
+          'Developer portfolios — find someone whose shipped work matches your vision',
+        ],
+      },
+      {
+        heading: 'What to check in a web developer\'s profile',
+        paragraphs: [
+          'Do not hire based on price alone. A cheap developer who delivers broken code costs more than a senior one who ships right the first time.',
+        ],
+        list: [
+          'Live projects you can visit — not just Dribbble mockups',
+          'Relevant stack experience (React, Next.js, TypeScript for modern products)',
+          'Client reviews mentioning communication, deadlines, and post-launch support',
+          'Willingness to jump on a video call before signing anything',
+        ],
+      },
+      {
+        heading: 'Questions to ask on the first call',
+        paragraphs: [],
+        list: [
+          'How would you approach this project technically?',
+          'What is included in your estimate — and what is not?',
+          'How do you handle revisions, bugs, and post-launch support?',
+          'Can you share a similar project you have shipped recently?',
+        ],
+      },
+      {
+        heading: 'Red flags when hiring a web developer',
+        paragraphs: [
+          'No questions about your business goals, unrealistically low bids, refusal to sign an NDA, or no staging environment for review — these are signs to keep looking.',
+          'A reliable web developer will be transparent about scope, communicate proactively, and treat your project like a long-term partnership, not a one-off ticket.',
+        ],
+      },
+      {
+        heading: 'Working with a senior freelance web developer',
+        paragraphs: [
+          'If you are looking for a web developer who handles the full cycle — from architecture to deployment and ongoing improvements — working directly with a senior freelancer cuts agency overhead and keeps communication fast.',
+          'I work with clients worldwide on React and Next.js projects: 4,200+ Upwork hours, 100+ launched products, and a focus on performance, clean code, and long-term collaboration. Reach out via the contacts below — happy to discuss your project on a quick call.',
+        ],
+      },
+    ],
+  },
+  {
     slug: 'why-your-business-needs-nextjs',
     title: 'Why Your Business Needs a High-Performance Next.js Website',
     excerpt:
