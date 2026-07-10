@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { LocationIcon, EmailIcon, LinkIcon, LinkedInIcon } from './Icons'
+import { LocationIcon, EmailIcon, LinkIcon, LinkedInIcon, WhatsAppIcon } from './Icons'
 
 const whyWorkWithMe = [
   'Full-cycle delivery — from design to live product',
@@ -89,6 +89,12 @@ export default function About() {
                 <LinkedInIcon className="w-4 h-4 mr-3 flex-shrink-0" />
                 <a href="https://www.linkedin.com/in/iryna-vynnychenko-287202141/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 dark:hover:text-white transition-colors">
                   LinkedIn Profile
+                </a>
+              </div>
+              <div className="flex items-center text-gray-600 dark:text-gray-400">
+                <WhatsAppIcon className="w-4 h-4 mr-3 flex-shrink-0" />
+                <a href="https://wa.me/380931844615" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 dark:hover:text-white transition-colors">
+                  WhatsApp
                 </a>
               </div>
             </div>
