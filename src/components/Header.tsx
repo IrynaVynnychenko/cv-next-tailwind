@@ -42,7 +42,7 @@ export default function Header() {
               Iryna Vynnychenko
             </div>
             <div className="text-xs text-gray-500 dark:text-gray-400 font-medium mt-0.5">
-              Senior Web Developer
+              Senior Web & Frontend Developer
             </div>
           </Link>
           

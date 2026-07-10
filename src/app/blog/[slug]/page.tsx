@@ -23,7 +23,7 @@ export function generateMetadata({ params }: BlogPostPageProps): Metadata {
   }
 
   return {
-    title: `${post.title} — Iryna Vynnychenko | Web Developer`,
+    title: `${post.title} — Iryna Vynnychenko | Senior Web & Frontend Developer`,
     description: post.excerpt,
     openGraph: {
       title: post.title,

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import { blogPosts } from '@/data/blog-posts'
 
 export const metadata: Metadata = {
-  title: 'Blog — Iryna Vynnychenko | Senior Web Developer',
+  title: 'Blog — Iryna Vynnychenko | Senior Web & Frontend Developer',
   description:
     'Practical insights on web development, performance, and hiring — written for founders and product owners building digital products.',
 }
@@ -26,7 +26,7 @@ export default function BlogPage() {
         <section className="pt-32 pb-12">
           <div className="border-b border-gray-200 dark:border-gray-700 pb-12">
             <p className="text-sm font-medium text-green-700 dark:text-green-400 mb-3">
-              Senior Web Developer · Insights for Clients
+              Senior Web & Frontend Developer · Insights for Clients
             </p>
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
               Blog

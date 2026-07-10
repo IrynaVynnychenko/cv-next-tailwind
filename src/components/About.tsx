@@ -36,7 +36,7 @@ export default function About() {
               Iryna Vynnychenko
             </h1>
             <h2 className="text-xl text-gray-600 dark:text-gray-400 mb-4 font-medium leading-snug">
-              Senior Web Developer — High-Performance React / Next.js Development & Product Engineering
+              Senior Web & Frontend Developer — High-Performance React / Next.js Development & Product Engineering
             </h2>
 
             <p className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-6">
