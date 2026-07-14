@@ -56,7 +56,7 @@ export const contactItems: ContactItem[] = [
     ),
     label: 'Telegram',
     value: '+380931844615',
-    link: 'https://t.me/+380931844615',
+    link: 'https://telegram.me/+380931844615',
   },
   {
     icon: <WhatsAppIcon />,

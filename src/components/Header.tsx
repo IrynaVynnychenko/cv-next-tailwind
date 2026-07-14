@@ -59,7 +59,7 @@ export default function Header() {
               i.vynnychenko@gmail.com
             </a>
             <a 
-              href="https://t.me/+380931844615"
+              href="https://telegram.me/+380931844615"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 hover:text-gray-900 dark:hover:text-white transition-colors"
