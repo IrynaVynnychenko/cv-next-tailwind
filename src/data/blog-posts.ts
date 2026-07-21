@@ -37,8 +37,148 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'figma-to-code-hiring-guide',
+    date: '2026-07-22',
+    title: {
+      en: 'Figma to Code: How to Hire a Developer Who Translates Complex Design into a Pixel-Perfect Site Without Surprises',
+      ua: 'Figma to Code: Як обрати розробника, який перетворить складний дизайн на піксель-перфект сайт без «сюрпризів»',
+    },
+    excerpt: {
+      en: 'Design agencies invest hundreds of hours into Figma designs. But finding a developer who can bring it to life pixel-for-pixel without constant micro-management is a challenge. Here is your hiring checklist.',
+      ua: 'Дизайн-агентства витрачають сотні годин на ідеальні макети у Figma. Але знайти розробника, який перетворить дизайн на живий код піксель-в-піксель без потреби в постійному контролі — це той ще виклик. Ось ваш чек-лист.',
+    },
+    readTime: {
+      en: '5 min read',
+      ua: '5 хв читання',
+    },
+    tags: {
+      en: ['Figma to Code', 'Hiring Guide', 'UX/UI', 'Freelance'],
+      ua: ['Figma to Code', 'Гайд з найму', 'UX/UI', 'Фриланс'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Every design studio, digital agency, or independent UX/UI designer has experienced this pain: you spend weeks perfecting shadows, alignments, font hierarchies, and responsive grids in Figma. Then you hand it over to a developer. When the live version comes back, it is a disappointment. Spacings are off, fonts are distorted, responsive transitions look broken, and the page feels rigid. Worst of all, you have to spend days taking screenshots and marking errors because the developer did not test their own work.',
+            ua: 'Кожна дизайн-студія, діджитал-агенція чи незалежний UX/UI дизайнер проходили через цей біль: ви тижнями відшліфовуєте тіні, вирівнювання, ієрархію шрифтів та адаптивні сітки у Figma. Потім передаєте це розробнику. Коли повертається готова версія, настає розчарування. Відступи «попливли», шрифти виглядають інакше, адаптив під мобільні виглядає криво, а інтерфейс відчувається дерев’яним. Гірше за все те, що вам доводиться витрачати дні на скріншоти та описи помилок, бо розробник просто не перевірив власну роботу.',
+          },
+          {
+            en: 'Hiring a frontend engineer who truly understands design fidelity is not just about checking their resume for "React" or "CSS". It is about verifying their workflow, component discipline, and attention to detail. This guide provides a direct checklist and questions to ask potential developers to ensure your designs remain premium in production.',
+            ua: 'Найм фронтенд-інженера, який дійсно розуміє важливість точного відтворення дизайну, — це не просто перевірка резюме на наявність ключових слів на кшталт "React" чи "CSS". Це перевірка їхнього робочого процесу, компонентної дисципліни та уваги до деталей. Цей посібник пропонує практичний чек-лист та запитання, які варто поставити кандидатам, щоб гарантувати, що ваші макети залишаться преміальними в живому коді.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Ask: "How do you handle intermediate responsive screen sizes?"',
+          ua: '1. Запитайте: «Як ви працюєте з проміжними адаптивними розмірами екранів?»',
+        },
+        paragraphs: [
+          {
+            en: 'Most Figma layouts are static, typically designed for 1440px desktop, 768px tablet, and 375px mobile. But what happens at 1200px or 1024px? What about wide 1920px screens?',
+            ua: 'Більшість макетів у Figma є статичними — зазвичай намальованими під десктоп 1440px, планшет 768px та мобільний 375px. Але що відбувається на ширині 1200px чи 1024px? А на широких моніторах 1920px?',
+          },
+          {
+            en: 'A mediocre developer will simply use strict media queries for the exact sizes, leaving the layout broken or clipped on intermediate viewports. A design-conscious developer writes fluid responsive styles using relative units (rem, em, percentages, vw/vh) and Tailwind config variables. They ensure that elements scale proportionally and gracefully between breakpoints.',
+            ua: 'Посередній розробник просто застосує жорсткі медіа-запити під конкретні роздільні здатності, через що верстка «попливе» або обріжеться на проміжних екранах. Розробник з чуттям дизайну створює гнучкі адаптивні стилі, використовуючи відносні одиниці (rem, em, відсотки, vw/vh) та налаштування Tailwind. Вони гарантують, що елементи масштабуються пропорційно та гармонійно між усіма брекпоїнтами.',
+          },
+          {
+            en: 'What to listen for: They should mention fluid typography, flexbox/grid containers, and viewport units instead of hardcoded pixel coordinates.',
+            ua: 'На що звернути увагу у відповіді: Вони мають згадати адаптивну типографіку (fluid typography), контейнери flexbox/grid та відносні одиниці замість зафіксованих піксельних розмірів.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Check Their Component and Design System Discipline',
+          ua: '2. Оцініть їхню компонентну дисципліну та роботу з дизайн-системами',
+        },
+        paragraphs: [
+          {
+            en: 'A premium website is built on a design system. In Figma, this means colors, typography, buttons, and input fields are components and variables. In code, it must be the same.',
+            ua: 'Преміальний вебсайт будується на основі дизайн-системи. У Figma це означає, що кольори, типографіка, кнопки та текстові поля є компонентами та змінними. У коді все має бути організовано так само.',
+          },
+          {
+            en: 'If a developer writes inline, hardcoded colors and margins for every single page, they are creating spaghetti code. Ask them if they map Figma styles to CSS design tokens or Tailwind configurations. A clean codebase should have all brand variables central, ensuring that if you change a shade of blue in the design, the developer can update it in a single line of code, not in a hundred files.',
+            ua: 'Якщо розробник прописує кольори та відступи вручну для кожної сторінки окремо, він створює спагеті-код. Запитайте його, чи переносить він стилі з Figma у дизайн-токени CSS або файли конфігурації Tailwind. У чистій кодовій базі всі бренд-змінні мають зберігатися централізовано. Тоді у разі зміни відтінку синього в дизайні розробник оновить його в одному рядку коду, а не у сотні файлів.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Verify Animation and Interactive State Skills (GSAP & Framer Motion)',
+          ua: '3. Перевірте навички роботи з анімаціями та інтерактивними станами (GSAP та Framer Motion)',
+        },
+        paragraphs: [
+          {
+            en: 'A static image in the browser looks cheap. A premium digital product feels alive. Buttons should have custom hover, active, and focus transitions. Timelines and cards should animate into place smoothly when scrolled into view.',
+            ua: 'Статична картинка в браузері виглядає дешево. Преміальний цифровий продукт має відчуватися «живим». Кнопки повинні мати плавні переходи при наведенні, натисканні та фокусі. Списки, картки та таймлайни мають плавно з’являтися під час скролу сторінки.',
+          },
+          {
+            en: 'Ask developers: "How do you implement micro-interactions and scroll animations?" For complex, high-performance scroll storytelling, they should be using industry-standard libraries like GSAP and ScrollTrigger. For interactive React component UI, they should use Framer Motion. If they rely on default, stiff CSS transitions or outdated jQuery libraries, the site will lack that premium polish.',
+            ua: 'Запитайте розробників: «Як ви реалізуєте мікро-інтеракції та анімації скролу?». Для складних інтерактивних презентацій вони мають використовувати професійні бібліотеки на кшталт GSAP та ScrollTrigger. Для анімацій інтерфейсу в React — Framer Motion. Якщо вони використовують лише стандартні жорсткі переходи CSS або застарілий jQuery, сайту не вистачатиме тієї самої «преміальності».',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Ask About Their Internal Design QA Process',
+          ua: '4. Запитайте про процес внутрішнього контролю якості (Design QA)',
+        },
+        paragraphs: [
+          {
+            en: 'You should not be the developer\'s tester. Ask the candidate how they verify that the coded page matches the Figma layout before they show it to you.',
+            ua: 'Ви не маєте бути тестувальником для свого розробника. Запитайте кандидата, як він переконується, що верстка відповідає макету у Figma перед тим, як показати вам результат.',
+          },
+          {
+            en: 'Professional frontend developers use overlay tools (like PerfectPixel), capture screenshots, check spacing margins, and test forms for edge cases (like very long text or missing images) on real mobile devices and browsers (Safari, Chrome, Firefox). If their QA process is just "opening the page once in Chrome on desktop," you will end up spending hours debugging and correcting details.',
+            ua: 'Професійні фронтенд-розробники використовують інструменти накладання макетів (як-от PerfectPixel), роблять скріншоти, перевіряють відступи та тестують форми на крайні випадки (наприклад, надто довгий текст чи відсутність картинок) на реальних мобільних пристроях та у різних браузерах (Safari, Chrome, Firefox). Якщо процес перевірки кандидата — це просто «один раз відкрити сторінку у Chrome на комп’ютері», ви витратите безліч годин на пошук багів.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'How I Bring Figma to Life for Design Teams',
+          ua: 'Як я втілюю макети Figma в життя для дизайнерів та агенцій',
+        },
+        paragraphs: [
+          {
+            en: 'Over the last 8+ years, with 4,200+ hours logged on Upwork and over 100 launched projects, I have specialized in bridging the gap between pixel-perfect design and clean production code. My technical stack is tailored specifically for high-fidelity frontend delivery:',
+            ua: 'Протягом останніх 8+ років, з понад 4200 годинами роботи на Upwork та 100+ запущеними проєктами, я спеціалізуюся на перенесенні піксель-перфект дизайну в чистий продакшен-код. Мій технологічний стек створений для точного фронтенд-виконання:',
+          },
+        ],
+        list: [
+          {
+            en: 'Next.js & React: Setting up modular, clean component hierarchies matching your Figma frames.',
+            ua: 'Next.js та React: Створення чистих модульних компонентів, що відповідають вашим фреймам у Figma.',
+          },
+          {
+            en: 'Tailwind CSS: Translating Figma colors, sizes, and fonts into a centralized, scalable design system configuration.',
+            ua: 'Tailwind CSS: Перенесення кольорів, шрифтів та відступів у централізовані змінні дизайн-системи.',
+          },
+          {
+            en: 'GSAP & Framer Motion: Implementing premium micro-interactions, scroll-based animations, and smooth transitions that make your interfaces feel premium and responsive.',
+            ua: 'GSAP та Framer Motion: Додавання ефектних мікро-анімацій та скрол-ефектів, що роблять інтерфейс преміальним.',
+          },
+          {
+            en: 'Strict Design QA: Testing across multiple viewports and real devices so the page looks perfect in every hand, iOS or Android, Safari or Chrome.',
+            ua: 'Прискіпливий Design QA: Тестування на реальних смартфонах та браузерах, щоб сайт виглядав ідеально в будь-яких руках.',
+          },
+        ],
+      },
+      {
+        paragraphs: [
+          {
+            en: 'If you have a Figma design and are looking for a frontend developer who respects your creative vision and delivers clean, bug-free, and high-performance React code without micro-management, let’s talk! Reach out through the contact section below for a free technical consultation or review of your Figma file.',
+            ua: 'Якщо ви маєте дизайн у Figma та шукаєте фронтенд-розробника, який поважає ваше художнє бачення і створює чистий, швидкий код без потреби в мікроменеджменті — давайте поспілкуємося! Зв’яжіться зі мною у розділі контактів для консультації або аудиту вашого макета.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'common-mistakes-in-web-platform-development',
-    date: '2026-07-21',
+    date: '2026-07-15',
     title: {
       en: 'Common Mistakes in Web Platform Development and How to Avoid Them at the Start',
       ua: 'Найпоширеніші помилки при розробці вебплатформ та як їх уникнути на старті',
@@ -196,7 +336,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'scalable-nextjs-typescript-architecture',
-    date: '2026-07-21',
+    date: '2026-07-08',
     title: {
       en: 'Scalable Next.js / TypeScript Application Architecture: Practical Tips',
       ua: 'Архітектура Next.js / TypeScript додатків, яка легко масштабується: практичні поради',
@@ -354,7 +494,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'from-design-mockup-to-production-quality',
-    date: '2026-07-21',
+    date: '2026-06-25',
     title: {
       en: "From Design Mockup to Production: How to Avoid 'Loss of Quality' When Implementing Complex Interfaces",
       ua: 'Від дизайн-макета до продакшену: як уникнути «втрати якості» при реалізації складного інтерфейсу',
@@ -524,7 +664,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'refactoring-legacy-ui-without-downtime',
-    date: '2026-07-21',
+    date: '2026-06-15',
     title: {
       en: 'Refactoring Legacy UI: How to Update the Interface Without Product Downtime',
       ua: 'Рефакторинг застарілого UI: як оновити інтерфейс без зупинки роботи продукту',
@@ -694,7 +834,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'online-booking-system-benefits-2026',
-    date: '2026-07-21',
+    date: '2026-05-28',
     title: {
       en: 'Why Online Booking on Your Website Boosts Business Revenue in 2026',
       ua: 'Чому онлайн-бронювання на сайті збільшує прибуток бізнесу у 2026 році',
@@ -838,7 +978,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'how-to-increase-course-sales-2026',
-    date: '2026-07-21',
+    date: '2026-05-14',
     title: {
       en: 'How to Increase Online Course Sales in 2026 — From Social Hype to Own Platform',
       ua: 'Як збільшити продажі онлайн-курсів у 2026 році — Від прогревів у соцмережах до власної навчальної платформи',
@@ -986,7 +1126,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'why-cosmetologist-needs-website-2026',
-    date: '2026-07-21',
+    date: '2026-04-30',
     title: {
       en: 'Why a Cosmetologist Needs a Personal Website in 2026 — Beyond Instagram & DMs',
       ua: 'Чому косметологу потрібен власний сайт у 2026 році — Більше ніж Instagram та дірект',
@@ -1138,7 +1278,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'mobile-first-approach-explained',
-    date: '2026-07-21',
+    date: '2026-04-18',
     title: {
       en: 'What Is Mobile-First Approach — Why It Is the Modern Web Standard',
       ua: 'Що таке Mobile-First підхід — Чому це сучасний стандарт веб-розробки',
@@ -1260,7 +1400,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'when-business-needs-a-website',
-    date: '2026-07-21',
+    date: '2026-04-05',
     title: {
       en: 'When Does Your Business Need a Website — And Why It Is Essential',
       ua: 'Коли потрібен сайт — сторінка в інтернеті вашого бізнесу і чому',
@@ -1438,7 +1578,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'why-your-business-needs-a-website',
-    date: '2026-07-01',
+    date: '2026-03-25',
     title: {
       en: 'Why Instagram and TikTok Are Not Enough — Your Business Still Needs a Website',
       ua: 'Чому Instagram та TikTok недостатньо — Вашому бізнесу все одно потрібен власний сайт',
@@ -1583,7 +1723,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'how-to-find-web-developer',
-    date: '2026-04-01',
+    date: '2026-03-10',
     title: {
       en: 'How to Find a Web Developer for Your Project (Without Wasting Time or Budget)',
       ua: 'Як знайти веб-розробника для вашого проєкту (без втрати часу та бюджету)',
@@ -1723,7 +1863,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'why-your-business-needs-nextjs',
-    date: '2026-03-15',
+    date: '2026-02-25',
     title: {
       en: 'Why Your Business Needs a High-Performance Next.js Website',
       ua: 'Чому вашому бізнесу потрібен високопродуктивний сайт на Next.js',
@@ -1798,7 +1938,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'how-to-choose-frontend-developer',
-    date: '2026-03-08',
+    date: '2026-02-12',
     title: {
       en: 'How to Choose the Right Frontend Developer for Your Project',
       ua: 'Як обрати правильного Frontend-розробника для вашого проєкту',
@@ -1862,7 +2002,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'core-web-vitals-and-revenue',
-    date: '2026-02-22',
+    date: '2026-01-28',
     title: {
       en: 'Core Web Vitals: Why Website Speed Directly Affects Revenue',
       ua: 'Core Web Vitals: Чому швидкість сайту напряму впливає на прибуток',
@@ -1918,7 +2058,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'react-vs-wordpress-for-business',
-    date: '2026-02-10',
+    date: '2026-01-15',
     title: {
       en: 'React vs WordPress: What Is Better for Your Business Website?',
       ua: 'React проти WordPress: Що краще обрати для сайту вашого бізнесу?',
@@ -1973,7 +2113,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'working-with-freelance-web-developer',
-    date: '2026-01-28',
+    date: '2025-12-28',
     title: {
       en: 'What to Expect When Working with a Freelance Web Developer',
       ua: 'Чого очікувати від співпраці з фриланс веб-розробником',
