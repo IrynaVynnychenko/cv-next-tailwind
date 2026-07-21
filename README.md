@@ -10,34 +10,6 @@ A modern, responsive CV website built with Next.js 14, TypeScript, and Tailwind 
 - 💼 Professional sections: About, Experience, Education, Testimonials, Contact
 - ⭐ Client testimonials with 100% Job Success Rate on Upwork
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 16.13.0 or higher
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd cv-next-tailwind
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run the development server:
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-
 ## Customization
 
 Update your information in the component files:
