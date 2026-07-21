@@ -81,24 +81,24 @@ export const rawBlogPosts: RawBlogPost[] = [
         ],
         list: [
           {
-            en: '1. Structured info needed — your pricing, detailed service list, portfolio, or FAQs get buried in social feeds.',
-            ua: '1. Потрібна структурована інформація — прайс, детальний опис послуг, портфоліо чи FAQ губляться у стрічці соцмереж.',
+            en: 'Structured info needed — your pricing, detailed service list, portfolio, or FAQs get buried in social feeds.',
+            ua: 'Потрібна структурована інформація — прайс, детальний опис послуг, портфоліо чи FAQ губляться у стрічці соцмереж.',
           },
           {
-            en: '2. Automation required — you need automated bookings, inquiry forms, or payments without managing DM messages manually.',
-            ua: '2. Потрібна автоматизація — ви хочете приймати заявки, бронювання чи оплату без постійної участі менеджера в чаті.',
+            en: 'Automation required — you need automated bookings, inquiry forms, or payments without managing DM messages manually.',
+            ua: 'Потрібна автоматизація — ви хочете приймати заявки, бронювання чи оплату без постійної участі менеджера в чаті.',
           },
           {
-            en: '3. Google Search & Ads — you want to capture high-intent search traffic from Google (SEO & Google Ads).',
-            ua: '3. Пошук у Google та реклама — ви хочете залучати гарячий трафік із пошуку Google (SEO) та контекстної реклами.',
+            en: 'Google Search & Ads — you want to capture high-intent search traffic from Google (SEO & Google Ads).',
+            ua: 'Пошук у Google та реклама — ви хочете залучати гарячий трафік із пошуку Google (SEO) та контекстної реклами.',
           },
           {
-            en: '4. B2B & Enterprise partners — corporate clients, B2B partners, and investors expect a professional website as proof of credibility.',
-            ua: '4. Робота в B2B або з корпоративними клієнтами — партнери та інвестори вважають наявність сайту обов\'язковим стандартом довіри.',
+            en: 'B2B & Enterprise partners — corporate clients, B2B partners, and investors expect a professional website as proof of credibility.',
+            ua: 'Робота в B2B або з корпоративними клієнтами — партнери та інвестори вважають наявність сайту обов\'язковим стандартом довіри.',
           },
           {
-            en: '5. Overwhelmed DMs — order volume is growing and social messages create operational friction and lost sales.',
-            ua: '5. Перевантажені месенджери — обсяг замовлень зростає і хаос у приватних повідомленнях призводить до втрати клієнтів.',
+            en: 'Overwhelmed DMs — order volume is growing and social messages create operational friction and lost sales.',
+            ua: 'Перевантажені месенджери — обсяг замовлень зростає і хаос у приватних повідомленнях призводить до втрати клієнтів.',
           },
         ],
       },
