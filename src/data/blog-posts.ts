@@ -37,6 +37,184 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'when-business-needs-a-website',
+    date: '2026-07-21',
+    title: {
+      en: 'When Does Your Business Need a Website — And Why It Is Essential',
+      ua: 'Коли потрібен сайт — сторінка в інтернеті вашого бізнесу і чому',
+    },
+    excerpt: {
+      en: 'Social media brings attention, but a website builds trust and scales your business. Learn when your business critically needs a website and why.',
+      ua: 'Соціальні мережі привертають увагу, але власний сайт будує довіру та масштабує бізнес. Розбираємо, коли бізнесу критично потрібен сайт і чому.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Business', 'Website', 'Strategy', 'Development'],
+      ua: ['Бізнес', 'Вебсайт', 'Стратегія', 'Розробка'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Many small businesses and entrepreneurs start selling their products or services through Instagram, TikTok, or Telegram. It is fast, easy, and low-cost. However, as your business grows, there comes a point where a social media profile alone is no longer enough.',
+            ua: 'Багато підприємців-початківців та малого бізнесу починають продавати свої послуги чи товари через Instagram, TikTok або Telegram. Це швидко, зручно та не потребує стартових інвестицій. Проте з ростом бізнесу настає момент, коли одного профілю в соціальних мережах стає замало.',
+          },
+          {
+            en: 'In 2026, a website is not just a luxury add-on — it is your digital headquarters that belongs 100% to you, works 24/7 without days off, and systematically turns visitors into paying clients.',
+            ua: 'У 2026 році власний сайт — це не додаткова розкіш чи статусна річ. Це цифровий офіс вашої компанії, який належить вам на 100%, працює без вихідних 24/7 і системно перетворює відвідувачів на клієнтів.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'When does a business critically need a website?',
+          ua: 'Коли бізнесу критично потрібен власний сайт?',
+        },
+        paragraphs: [
+          {
+            en: 'Here are the key signals that tell you it is time to move beyond social media profiles and launch your own web platform:',
+            ua: 'Ось головні сигнали того, що вашому бізнесу час виходити за межі соціальних мереж та створювати власну веб-платформу:',
+          },
+        ],
+        list: [
+          {
+            en: '1. Structured info needed — your pricing, detailed service list, portfolio, or FAQs get buried in social feeds.',
+            ua: '1. Потрібна структурована інформація — прайс, детальний опис послуг, портфоліо чи FAQ губляться у стрічці соцмереж.',
+          },
+          {
+            en: '2. Automation required — you need automated bookings, inquiry forms, or payments without managing DM messages manually.',
+            ua: '2. Потрібна автоматизація — ви хочете приймати заявки, бронювання чи оплату без постійної участі менеджера в чаті.',
+          },
+          {
+            en: '3. Google Search & Ads — you want to capture high-intent search traffic from Google (SEO & Google Ads).',
+            ua: '3. Пошук у Google та реклама — ви хочете залучати гарячий трафік із пошуку Google (SEO) та контекстної реклами.',
+          },
+          {
+            en: '4. B2B & Enterprise partners — corporate clients, B2B partners, and investors expect a professional website as proof of credibility.',
+            ua: '4. Робота в B2B або з корпоративними клієнтами — партнери та інвестори вважають наявність сайту обов\'язковим стандартом довіри.',
+          },
+          {
+            en: '5. Overwhelmed DMs — order volume is growing and social messages create operational friction and lost sales.',
+            ua: '5. Перевантажені месенджери — обсяг замовлень зростає і хаос у приватних повідомленнях призводить до втрати клієнтів.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Why social media alone is not enough',
+          ua: 'Чому соцмережі не замінять власний сайт?',
+        },
+        paragraphs: [
+          {
+            en: 'Social media channels are great for awareness and top-of-funnel reach. But relying exclusively on third-party platforms creates major vulnerabilities:',
+            ua: 'Соціальні мережі — це чудова площадка для залучення уваги та першого знайомства. Проте покладатися виключно на них ризиковано з кількох важливих причин:',
+          },
+        ],
+        list: [
+          {
+            en: 'You do not own your profile — algorithm updates, reach drops, or account bans can halt your revenue overnight.',
+            ua: 'Акаунт вам не належить — зміни алгоритмів, падіння охоплень або раптове блокування акаунту можуть миттєво зупинити всі ваші продажі.',
+          },
+          {
+            en: 'Limited navigation — prospective clients struggle to find older posts, detailed terms, or exact pricing.',
+            ua: 'Складна навігація — у соцмережах важко знайти інформацію, опубліковану місяць тому, а ціни та деталі швидко губляться.',
+          },
+          {
+            en: 'No organic Google SEO search presence — people search Google when they are ready to buy, not Instagram.',
+            ua: 'Відсутність пошукового трафіку — коли люди шукають вирішення конкретної проблеми, вони йдуть у Google, а не в пошук Instagram.',
+          },
+          {
+            en: 'Constrained branding — social feeds look identical for every profile; a website offers a unique brand experience.',
+            ua: 'Обмежений брендинг — у соцмережах ваш бренд обмежений рамками стандартного інтерфейсу платформи.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Why a website converts interest into real business',
+          ua: 'Чому саме сайт перетворює зацікавленість на реальні угоди',
+        },
+        paragraphs: [
+          {
+            en: 'A dedicated website acts as the central hub for all your digital marketing efforts and sales funnels:',
+            ua: 'Власний сайт виконує роль головного хабу всієї вашої маркетингової активності та воронок продажів:',
+          },
+        ],
+        list: [
+          {
+            en: 'Total ownership & stability — your own domain name (yourcompany.dev), custom design, and full data control.',
+            ua: 'Незалежність та повний контроль — власний домен (yourcompany.dev), свій дизайн, ваші правила та цілковита стабільність.',
+          },
+          {
+            en: 'Instant credibility & trust — a fast, modern website shows clients that your business is legitimate and established.',
+            ua: 'Формування довіри — якісний та швидкий сайт миттєво підвищує статус вашої компанії в очах клієнтів.',
+          },
+          {
+            en: 'Business process automation — direct integrations with CRMs, payment gateways, calendar schedulers, and analytics.',
+            ua: 'Автоматизація процесів — інтеграція з CRM-системами, платіжними шлюзами, онлайн-записом та аналітикою.',
+          },
+          {
+            en: '24/7 availability — clients can explore options, calculate prices, and place orders at any hour of the day.',
+            ua: '24/7 доступність — клієнт може ознайомитися з пропозицією та залишити заявку чи здійснити покупку навіть уночі.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Which type of website does your business need?',
+          ua: 'Який формат сайту підійде саме вашому бізнесу?',
+        },
+        paragraphs: [
+          {
+            en: 'You do not need to build a massive portal from day one. Choose a site structure based on your current business stage:',
+            ua: 'Вам не обов\'язково одразу будувати складну та дороговартісну систему. Формат сайту залежить від конкретних завдань вашого бізнесу:',
+          },
+        ],
+        list: [
+          {
+            en: 'Landing Page (One-page site) — ideal for showcasing a specific product, service, or lead magnet with max conversion focus.',
+            ua: 'Landing Page (Односторінковий сайт) — ідеально для презентації конкретного товару, послуги чи спецпропозиції з фокусом на високу конверсію.',
+          },
+          {
+            en: 'Business Card / Portfolio — concise presentation of specialist skills, agency services, project cases, and contact paths.',
+            ua: 'Сайт-візитка / Портфоліо — презентація компанії, фахівця чи студії з переліком послуг, кейсів та зручними контактами.',
+          },
+          {
+            en: 'Corporate Website — multi-page platform for growing companies with service hubs, blog/news, and team profiles.',
+            ua: 'Корпоративний сайт — багатосторінковий ресурс для середнього та великого бізнесу із деталізацією всіх напрямків діяльності.',
+          },
+          {
+            en: 'Web Application / E-commerce — interactive platforms featuring custom user portals, shopping carts, and dynamic workflows.',
+            ua: 'Web Application / E-commerce — складні ресурси з інтернет-магазином, особистими кабінетами та інтерактивними функціями.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'How to build a website that delivers real revenue',
+          ua: 'Як створити сайт, який реально працюватиме та приноситиме прибуток',
+        },
+        paragraphs: [
+          {
+            en: 'A successful business site must be fast, mobile-friendly, accessible, and optimized for search engine algorithms (SEO). Slow sites lose visitors before they even read the first paragraph.',
+            ua: 'Щоб сайт працював і приносити результати, він має бути не просто красивим, а й технічно досконалим: миттєво завантажуватися (Google PageSpeed 90+), мати зручну мобільну версію та продуманий UX/UI.',
+          },
+          {
+            en: 'I specialize in building lean, ultra-fast websites and web applications using Next.js and React. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched projects, I make sure your website looks premium and converts traffic into customers.',
+            ua: 'Я спеціалізуюся на створенні сучасних, надшвидких та оптимізованих сайтів на технологіях React та Next.js. Понад 8 років досвіду, 4 200+ годин на Upwork та 100+ реалізованих проєктів гарантують, що ваш сайт стане потужним інструментом зростання вашого бізнесу.',
+          },
+          {
+            en: 'If your business is ready for its own digital home or needs a modern upgrade for an existing site — feel free to reach out via the contacts below for a free initial consultation!',
+            ua: 'Якщо ви хочете створити свій перший сайт або оновити застарілий — зв\'яжіться зі мною через контакти нижче, і ми обговоримо найкраще рішення для вашого проєкту!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'why-your-business-needs-a-website',
     date: '2026-07-01',
     title: {
