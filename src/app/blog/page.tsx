@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import BlogIndex from '@/components/BlogIndex'
 
 export const metadata: Metadata = {
-  title: 'Blog — Iryna Vynnychenko | Senior Web & Frontend Developer',
+  title: 'Blog — Iryna Vynnychenko | +380931844615 | Senior Web & Frontend Developer',
   description:
     'Practical insights on web development, performance, and hiring — written for founders and product owners building digital products.',
 }

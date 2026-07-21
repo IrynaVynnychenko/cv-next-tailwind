@@ -19,7 +19,7 @@ export default function About() {
           <div className="flex-shrink-0 w-full lg:w-auto">
             <div className="w-full max-w-sm mx-auto lg:max-w-none lg:w-80 h-80 lg:h-[464px] rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800 flex items-center justify-center relative">
               <Image
-                src="images/profile-photo.jpg"
+                src="/images/profile-photo.jpg"
                 alt="Iryna Vynnychenko"
                 width={320}
                 height={384}

@@ -14,12 +14,13 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Iryna Vynnychenko - Senior Web & Frontend Developer | React / Next.js Development",
+  metadataBase: new URL('https://vynnychenko.dev'),
+  title: "Iryna Vynnychenko | +380931844615 | Senior Web & Frontend Developer | React / Next.js Development",
   description: "Senior Web & Frontend Developer specializing in high-performance React / Next.js development. 4,200+ Upwork hours, 8+ years, 100+ launched projects. TypeScript, TanStack Query, GSAP, Core Web Vitals optimization.",
   keywords: "Web Developer, Senior Web Developer, React, Next.js, TypeScript, Product Engineering, TanStack Query, Redux, Zustand, GraphQL, Tailwind CSS, GSAP, Framer Motion, SSR, SSG, Core Web Vitals, Senior Frontend Developer, Ukraine, Upwork",
   authors: [{ name: "Iryna Vynnychenko" }],
   openGraph: {
-    title: "Iryna Vynnychenko - Senior Web & Frontend Developer | React / Next.js Development",
+    title: "Iryna Vynnychenko | +380931844615 | Senior Web & Frontend Developer | React / Next.js Development",
     description: "4,200+ Upwork hours · 8+ years · 100+ launched projects. Senior Web & Frontend Developer — high-performance React / Next.js product engineering.",
     type: "website",
   },
