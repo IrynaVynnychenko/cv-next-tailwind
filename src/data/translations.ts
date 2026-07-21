@@ -117,12 +117,13 @@ export const translations = {
           title: 'Frontend Web Developer',
           company: 'Upwork',
           period: '2018 - Present',
-          description: 'Freelance senior frontend developer on Upwork — full-cycle delivery from design to live product. High-performance React/Next.js apps, product engineering, and long-term collaboration with clients worldwide.',
+          description: 'Freelance senior frontend developer on Upwork — full-cycle delivery from design to live product. High-performance React/Next.js apps, product engineering, NDA-ready for secure projects, and long-term collaboration with clients worldwide.',
           achievements: [
             '4,200+ Upwork hours · 100+ launched projects · 100% Job Success Rate',
             'Full-stack Next.js: Server Components, Server Actions, API Routes',
             'Performance optimization targeting Core Web Vitals for SEO & conversion',
             'SSR / SSG / CSR, code splitting, lazy loading, debugging & profiling',
+            'NDA-ready for secure/confidential corporate & enterprise projects',
           ],
           technologies: ['TypeScript', 'React', 'Next.js', 'TanStack Query', 'Redux', 'Zustand', 'GraphQL', 'Tailwind CSS', 'GSAP', 'Framer Motion', 'Jest', 'Git'],
           projects: [
@@ -382,12 +383,13 @@ export const translations = {
           title: 'Frontend Web Developer',
           company: 'Upwork',
           period: '2018 - Дотепер',
-          description: 'Senior frontend розробниця-фрилансерка на Upwork — повний цикл розробки від дизайну до релізу. Високопродуктивні React/Next.js додатки, продуктова інженерія та довгострокова співпраця з клієнтами по всьому світу.',
+          description: 'Senior frontend розробниця-фрилансерка на Upwork — повний цикл розробки від дизайну до релізу. Високопродуктивні React/Next.js додатки, продуктова інженерія, готовність до роботи під NDA (NDA-ready) для безпечних проєктів та довгострокова співпраця з клієнтами по всьому світу.',
           achievements: [
             '4,200+ годин на Upwork · 100+ запущених проєктів · 100% Job Success Rate',
             'Full-stack Next.js: Server Components, Server Actions, API Routes',
             'Оптимізація продуктивності та Core Web Vitals для SEO і конверсій',
             'SSR / SSG / CSR, розбиття коду, ледаче завантаження, дебагінг та профільування',
+            'Готовність до роботи під NDA (NDA-ready) для безпечних та корпоративних проєктів',
           ],
           technologies: ['TypeScript', 'React', 'Next.js', 'TanStack Query', 'Redux', 'Zustand', 'GraphQL', 'Tailwind CSS', 'GSAP', 'Framer Motion', 'Jest', 'Git'],
           projects: [
