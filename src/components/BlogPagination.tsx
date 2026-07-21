@@ -48,11 +48,11 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
           href={getBlogPagePath(currentPage - 1, language)}
           className="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-lg hover:border-gray-300 dark:hover:border-gray-600 hover:text-gray-900 dark:hover:text-white transition-colors"
         >
-          ← {t.previous}
+          ← <span className="hidden sm:inline">{t.previous}</span>
         </Link>
       ) : (
         <span className="px-3 py-2 text-sm font-medium text-gray-300 dark:text-gray-600 border border-gray-100 dark:border-gray-800 rounded-lg cursor-not-allowed">
-          ← {t.previous}
+          ← <span className="hidden sm:inline">{t.previous}</span>
         </span>
       )}
 
@@ -89,11 +89,11 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
           href={getBlogPagePath(currentPage + 1, language)}
           className="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-lg hover:border-gray-300 dark:hover:border-gray-600 hover:text-gray-900 dark:hover:text-white transition-colors"
         >
-          {t.next} →
+          <span className="hidden sm:inline">{t.next}</span> →
         </Link>
       ) : (
         <span className="px-3 py-2 text-sm font-medium text-gray-300 dark:text-gray-600 border border-gray-100 dark:border-gray-800 rounded-lg cursor-not-allowed">
-          {t.next} →
+          <span className="hidden sm:inline">{t.next}</span> →
         </span>
       )}
     </nav>
