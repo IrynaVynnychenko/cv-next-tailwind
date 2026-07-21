@@ -37,6 +37,128 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'mobile-first-approach-explained',
+    date: '2026-07-21',
+    title: {
+      en: 'What Is Mobile-First Approach — Why It Is the Modern Web Standard',
+      ua: 'Що таке Mobile-First підхід — Чому це сучасний стандарт веб-розробки',
+    },
+    excerpt: {
+      en: 'Designing for mobile first is no longer optional. Learn how Progressive Enhancement boosts user experience, speed, and Google SEO rankings.',
+      ua: 'Проектування спочатку під мобільні — це не вибір, а стандарт. Як Mobile-First підхід підвищує зручність, швидкість та позиції в Google.',
+    },
+    readTime: {
+      en: '5 min read',
+      ua: '5 хв читання',
+    },
+    tags: {
+      en: ['Mobile-First', 'UX/UI', 'Web Development', 'SEO'],
+      ua: ['Mobile-First', 'UX/UI', 'Веб-розробка', 'SEO'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'In modern web development, the "Mobile-First" strategy has evolved from a trend into an essential industry standard. For years, websites were designed for large desktop monitors, while mobile versions were slapped together as an afterthought. Today, that workflow is completely reversed.',
+            ua: 'У сучасній веб-розробці стратегія «Mobile-First» перетворилася з тренду на фундаментальний стандарт галузі. Тривалий час сайти проектувалися під великі монітори комп’ютерів, а мобільна версія робилася за залишковим принципом. Сьогодні цей процес розвернувся на 180 градусів.',
+          },
+          {
+            en: 'Mobile-First means designing and building the web experience for small touch screens first, then progressively enhancing it for tablets, laptops, and wide monitors.',
+            ua: 'Mobile-First означає, що інтерфейс сайту спочатку проектується та верстається для пристроїв з маленьким екраном (смартфонів), а вже потім масштабується для планшетів та десктопів.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Mobile-First vs Desktop-First (Graceful Degradation)',
+          ua: 'Mobile-First проти Desktop-First: У чому відмінність?',
+        },
+        paragraphs: [
+          {
+            en: 'To understand the core advantage, compare how these two engineering mindsets handle screen responsiveness:',
+            ua: 'Щоб зрозуміти головну перевагу, порівняємо два підходи до адаптивності:',
+          },
+        ],
+        list: [
+          {
+            en: 'Desktop-First (Graceful Degradation): Starts with a complex 1920px desktop layout, then hides or cuts elements to squeeze into a 375px mobile view. CSS relies on max-width rules.',
+            ua: 'Desktop-First (Поступове спрощення): Починається зі складного макету 1920px, а потім намагається втиснути його у 375px, приховуючи або зрізаючи елементи. CSS використовує max-width.',
+          },
+          {
+            en: 'Mobile-First (Progressive Enhancement): Starts with a clean, fast mobile layout (375px), then layers on additional columns, animations, and desktop sidebars as screen real estate grows. CSS relies on min-width rules.',
+            ua: 'Mobile-First (Прогресивне покращення): Починається з чистої та швидкої версії під 375px, а при збільшенні екрана нарощує складність — додає колонки та бічні панелі. CSS використовує min-width.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Key reasons why Mobile-First is critical for business',
+          ua: 'Головні причини, чому Mobile-First критично важливий для бізнесу',
+        },
+        paragraphs: [
+          {
+            en: 'Adopting a mobile-first philosophy delivers direct advantages for user engagement and search visibility:',
+            ua: 'Впровадження Mobile-First філософії дає прямі переваги для залучення користувачів та просування в пошуку:',
+          },
+        ],
+        list: [
+          {
+            en: '60%+ of global web traffic: Over 60% of all web traffic comes from smartphones. For most service and e-commerce niches, that number reaches 80-90%.',
+            ua: 'Понад 60% мобільного трафіку: Понад 60% усього світового веб-трафіку припадає на смартфони, а в багатьох нішах цей показник сягає 80–90%.',
+          },
+          {
+            en: 'Content clarity: Small screens force developers and designers to cut clutter, focusing strictly on clear headlines, core offers, and high-converting CTAs.',
+            ua: 'Фокус на головному: Обмежений екран змушує прибрати візуальний шум і зосередитися на головній пропозиції та чітких закликах до дії (CTA).',
+          },
+          {
+            en: 'Touch-first UX: Ensures comfortable touch targets (44x44px min), intuitive gesture navigation, and avoids hover-dependent interactive traps.',
+            ua: 'Зручний Touch UX: Гарантує великі зони кліку (від 44х44px), зручне меню для пальця та відсутність залежності від курсора миші.',
+          },
+          {
+            en: 'Google Mobile-First Indexing: Google indexes and ranks websites based primarily on their mobile version. A slow mobile site loses organic rankings everywhere.',
+            ua: 'Mobile-First Indexing від Google: Пошукові роботи індексують сайт за його мобільною версією. Повільний мобільний сайт втрачає позиції в Google.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'How to implement Mobile-First in modern code',
+          ua: 'Як Mobile-First реалізується у коді (CSS & Tailwind)',
+        },
+        paragraphs: [
+          {
+            en: 'When writing Tailwind CSS or modern CSS media queries, standard styling applies to mobile devices by default, while screen breakpoints scale upward:',
+            ua: 'У Tailwind CSS та сучасному CSS за замовчуванням стилі застосовуються до мобільних пристроїв, а брейкпоінти розширюють макет на більших екранах:',
+          },
+          {
+            en: 'In Tailwind CSS, default utilities (without prefixes) target mobile. Classes like md: (768px) and lg: (1024px) specify how the design adapts for tablet and desktop viewports.',
+            ua: 'У Tailwind CSS базові класи без префіксів описують мобільний вигляд, а префікси md: (768px) та lg: (1024px) задають трансформацію під планшети та комп’ютери.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Building high-performance Mobile-First web applications',
+          ua: 'Створення високопродуктивних Mobile-First веб-сайтів',
+        },
+        paragraphs: [
+          {
+            en: 'Mobile-first is not just about responsive layout breakpoints — it is about asset optimization, ultra-fast load times, and delivering seamless user experience across all devices.',
+            ua: 'Mobile-First — це не лише про адаптивні блоки у верстці, а й про оптимізацію ресурсів, високу швидкість завантаження та бездоганну роботу на будь-якому гаджеті.',
+          },
+          {
+            en: 'I build modern, mobile-optimized web applications with Next.js, Tailwind CSS, and TypeScript. With 8+ years of production experience and 100+ launched projects, I make sure your web platform loads lightning fast and converts mobile visitors into loyal clients.',
+            ua: 'Я спеціалізуюся на створенні сучасних мобільних веб-додатків та сайтів на Next.js, Tailwind CSS та TypeScript. Понад 8 років досвіду та 100+ запущених проєктів гарантують, що ваш ресурс буде працювати миттєво та конвертувати мобільний трафік у продажі.',
+          },
+          {
+            en: 'Need a mobile-first website rebuild or a new web product? Reach out via the contacts section for a consultation on your project!',
+            ua: 'Потрібно створити або оновити сайт із фокусом на Mobile-First? Зв\'яжіться зі мною у розділі контактів для обговорення вашого проєкту!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'when-business-needs-a-website',
     date: '2026-07-21',
     title: {
