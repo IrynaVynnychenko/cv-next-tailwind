@@ -127,7 +127,7 @@ export const translations = {
           technologies: ['TypeScript', 'React', 'Next.js', 'TanStack Query', 'Redux', 'Zustand', 'GraphQL', 'Tailwind CSS', 'GSAP', 'Framer Motion', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Ukrainian Massage School & Training Center',
-            'https://www.niunkina.com/ - Business website for German cosmetologist (Next.js + TailwindCSS)',
+            'https://niunkina.com/ - Business website for German cosmetologist (Next.js + TailwindCSS)',
             'https://plowguys.com/ - Snow & ice management website (Webflow)',
             'https://wellwheel.com.ua/ - Taxi service website for Kyiv drivers',
             'https://www.8host.com/en/ - Cloud hosting platform for VPS/VDS services',
@@ -389,7 +389,7 @@ export const translations = {
           technologies: ['TypeScript', 'React', 'Next.js', 'TanStack Query', 'Redux', 'Zustand', 'GraphQL', 'Tailwind CSS', 'GSAP', 'Framer Motion', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Українська Школа Масажу та навчальний центр',
-            'https://www.niunkina.com/ - Вебсайт для німецького косметолога (Next.js + TailwindCSS)',
+            'https://niunkina.com/ - Вебсайт для німецького косметолога (Next.js + TailwindCSS)',
             'https://plowguys.com/ - Сайт компанії зі снігоприбирання (Webflow)',
             'https://wellwheel.com.ua/ - Сайт служб таксі для водіїв Києва',
             'https://www.8host.com/en/ - Хмарна хостинг-платформа для VPS/VDS послуг',
