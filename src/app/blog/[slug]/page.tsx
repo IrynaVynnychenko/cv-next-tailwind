@@ -2,14 +2,14 @@ import type { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import BlogPostDetailClient from '@/components/BlogPostDetailClient'
-import { blogPosts, getBlogPost } from '@/data/blog-posts'
+import { getBlogPost, rawBlogPosts } from '@/data/blog-posts'
 
 type BlogPostPageProps = {
   params: { slug: string }
 }
 
 export function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }))
+  return rawBlogPosts.map((post) => ({ slug: post.slug }))
 }
 
 export function generateMetadata({ params }: BlogPostPageProps): Metadata {
