@@ -259,6 +259,9 @@ export const translations = {
       next: 'Next',
       page: 'Page',
       of: 'of',
+      searchPlaceholder: 'Search articles by title, tag, or content...',
+      noResults: 'No articles found matching your query.',
+      clearSearch: 'Clear search',
     },
   },
   ua: {
@@ -521,6 +524,9 @@ export const translations = {
       next: 'Наступна',
       page: 'Сторінка',
       of: 'з',
+      searchPlaceholder: 'Пошук статей за заголовком, тегами чи текстом...',
+      noResults: 'Статей за вашим запитом не знайдено.',
+      clearSearch: 'Очистити пошук',
     },
   },
 } as const

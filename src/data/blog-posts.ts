@@ -1406,6 +1406,10 @@ export function getBlogPostsForPage(page: number, lang: 'en' | 'ua' = 'en'): Blo
   return rawBlogPosts.slice(start, start + BLOG_POSTS_PER_PAGE).map((raw) => getBlogPost(raw.slug, lang)!)
 }
 
+export function getAllBlogPosts(lang: 'en' | 'ua' = 'en'): BlogPost[] {
+  return rawBlogPosts.map((raw) => getBlogPost(raw.slug, lang)!)
+}
+
 export function getBlogPagePath(page: number, lang: 'en' | 'ua' = 'en'): string {
   const prefix = lang === 'ua' ? '/ua' : ''
   return page === 1 ? `${prefix}/blog/` : `${prefix}/blog/page/${page}/`
