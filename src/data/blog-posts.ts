@@ -37,6 +37,662 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'common-mistakes-in-web-platform-development',
+    date: '2026-07-21',
+    title: {
+      en: 'Common Mistakes in Web Platform Development and How to Avoid Them at the Start',
+      ua: 'Найпоширеніші помилки при розробці вебплатформ та як їх уникнути на старті',
+    },
+    excerpt: {
+      en: 'Why do most web platforms exceed budget and timelines before launch? Analyze critical engineering and product mistakes at the start and how to prevent them.',
+      ua: 'Чому більшість вебплатформ перевищують бюджет та терміни ще до запуску? Аналізуємо критичні інженерні та продуктові помилки на старті та способи їх запобігання.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Mistakes', 'Business', 'Development', 'Product Strategy'],
+      ua: ['Помилки', 'Бізнес', 'Розробка', 'Продуктова стратегія'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Building a new web platform is a major milestone for any business. Whether it is a custom booking platform, an e-commerce hub, or a client dashboard, the choices made in the first few weeks will dictate the speed of feature delivery and project success for years to come. Yet, many startups and companies exceed their budgets and timelines because of predictable architecture or scoping errors on day one.',
+            ua: 'Створення нової вебплатформи — це важливий етап для будь-якого бізнесу. Незалежно від того, чи це сервіс онлайн-запису, кастомний інтернет-магазин чи кабінет клієнта, рішення, прийняті в перші тижні, визначатимуть швидкість запуску фіч та успіх проєкту на роки вперед. Проте багато стартапів та компаній перевищують бюджети та зривають терміни через одні й ті самі прогнозовані помилки на старті.',
+          },
+          {
+            en: 'Avoiding these critical engineering and product management pitfalls at the outset ensures a faster time-to-market, keeps development costs predictable, and protects user experiences.',
+            ua: 'Уникнення цих критичних інженерних та продуктових пасток на початковому етапі гарантує швидший запуск продукту на ринок, зберігає бюджети прогнозованими та захищає досвід користувачів.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Mistake 1: Choosing a Tech Stack Based on "Hype" (Over-engineering)',
+          ua: 'Помилка 1: Вибір технологій на основі «хайпу» (Over-engineering)',
+        },
+        paragraphs: [
+          {
+            en: 'Many product owners and developers fall into the trap of using overly complex configurations for early MVPs, thinking that what works for Netflix or Google is necessary for their scale:',
+            ua: 'Багато власників продуктів та розробників обирають надто складні архітектурні рішення для ранніх версій продукту (MVP), вважаючи, що технології Netflix чи Google необхідні для їхнього масштабу:',
+          },
+        ],
+        list: [
+          {
+            en: 'Premature Microservices: Splitting a simple database and frontend into dozens of separate microservices too early creates massive network latency and slows down feature updates.',
+            ua: 'Передчасні мікросервіси: Розподіл простої бази даних та фронтенду на десятки окремих мікросервісів ускладнює розробку та створює проблеми із затримкою мережі.',
+          },
+          {
+            en: 'Overly Trendy Tools: Relying on hyper-new frameowrks or database structures that lack community support, documentation, or developer availability.',
+            ua: 'Надто нові інструменти: Використання бібліотек без сформованої спільноти, документації чи достатньої кількості спеціалістів на ринку.',
+          },
+          {
+            en: 'How to avoid: Stick to proven, productive stack ecosystems. Next.js, React, and modular monolithic backend setups allow rapid prototyping without sacrificing scalability.',
+            ua: 'Як уникнути: Обирайте перевірені та продуктивні екосистеми. Наприклад, стек Next.js, React та модульний бекенд дозволяють швидко створити прототип та масштабувати його в майбутньому.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Mistake 2: Neglecting Performance and Mobile UX (Ignoring Mobile-First)',
+          ua: 'Помилка 2: Ігнорування швидкості роботи та мобільного UX',
+        },
+        paragraphs: [
+          {
+            en: 'A web platform designed exclusively on wide monitors without mobile consideration is bound to lose customers. Over 60% of global web traffic comes from mobile viewports:',
+            ua: 'Вебплатформа, розроблена лише під великі десктопні монітори без урахування мобільних реалій, приречена на втрату клієнтів. Понад 60% світового трафіку припадає на смартфони:',
+          },
+        ],
+        list: [
+          {
+            en: 'Desktop-first layouts: Attempting to squeeze a complex 3-column desktop layout into a small screen as an afterthought results in broken spacing and unclickable targets.',
+            ua: 'Desktop-first мислення: Спроби втиснути складний триколонковий інтерфейс комп’ютера на маленький екран призводять до спотворених відступів та незручних дрібних кнопок.',
+          },
+          {
+            en: 'Ignoring Core Web Vitals: Bulky, unoptimized images, heavy external fonts, and uncompressed script bundles cause slow page loads, increasing bounce rates and hurting Google SEO rankings.',
+            ua: 'Нехтування показниками Core Web Vitals: Неоптимізовані зображення, важкі шрифти та нестиснуті скрипти уповільнюють сайт, дратують користувачів та знижують позиції в Google.',
+          },
+          {
+            en: 'How to avoid: Build layouts mobile-first using min-width queries, optimize media assets, and check Core Web Vitals speed scores from day one.',
+            ua: 'Як уникнути: Верстайте інтерфейси за принципом Mobile-First, оптимізуйте медіаресурси та перевіряйте швидкість сайту через Google PageSpeed з перших днів розробки.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Mistake 3: Lack of Scalable Architecture and Coding Standards',
+          ua: 'Помилка 3: Відсутність масштабованої архітектури та стандартів коду',
+        },
+        paragraphs: [
+          {
+            en: 'Rushing to launch without coding standards creates a "ball of mud" codebase, where adding a simple feature requires rewriting unrelated parts:',
+            ua: 'Поспішний запуск без стандартів кодування створює хаотичну архітектуру, де додавання простої функції вимагає переписування інших незв’язаних частин:',
+          },
+        ],
+        list: [
+          {
+            en: 'Flat component structures: Placing all layout elements, API requests, and utility code into single giant files makes debugging a nightmare.',
+            ua: 'Пласкі та великі компоненти: Написання всього коду (верстка, запити до бази, функції) в одному великому файлі робить налагодження жахом.',
+          },
+          {
+            en: 'No typing contracts: Writing JavaScript or loose TypeScript with "any" types creates runtime errors that could have been caught instantly at compile time.',
+            ua: 'Відсутність суворих контрактів: Використання JavaScript або недбалого TypeScript з типом "any" призводить до помилок прямо під час роботи користувача на сайті.',
+          },
+          {
+            en: 'How to avoid: Implement modular features directories, colocate assets close to pages, set strict compiler flags, and build decoupled, stateless components.',
+            ua: 'Як уникнути: Використовуйте модульну структуру папок, тримайте пов\'язані файли разом, налаштовуйте строгу типізацію та створюйте незалежні чисті компоненти.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Mistake 4: Not Integrating Analytics and Security Features Early',
+          ua: 'Помилка 4: Відсутність аналітики та безпеки на початковому етапі',
+        },
+        paragraphs: [
+          {
+            en: 'Many products launch blindly without security protocols or traffic insights, leaving founders unable to explain drops in signups:',
+            ua: 'Багато продуктів запускаються «наосліп» — без базових протоколів безпеки чи збору аналітики, через що власники не можуть зрозуміти поведінку користувачів:',
+          },
+        ],
+        list: [
+          {
+            en: 'No marketing and product trackers: Launching without Google Analytics, Facebook pixel, or click events leaves the team guessing how visitors behave or where they drop off in the conversion funnel.',
+            ua: 'Відсутність трекерів: Без налаштованої аналітики (Google Analytics, пікселі соцмереж) неможливо оцінити ефективність реклами чи знайти етапи, на яких користувачі залишають сайт.',
+          },
+          {
+            en: 'Neglecting basic web security: Missing HTTPS, weak CORS headers, unvalidated API inputs, and exposed API keys invite data leaks.',
+            ua: 'Слабкий захист даних: Відсутність HTTPS, відкриті API-ключі в клієнтському коді та неперевірені форми створюють ризики зламу продукту.',
+          },
+          {
+            en: 'How to avoid: Setup tracking tags during development, perform security validation checks on inputs, and implement headers early in the build pipeline.',
+            ua: 'Як уникнути: Налаштовуйте трекери аналітики під час розробки, перевіряйте дані з форм на сервері та дбайте про безпеку передачі даних від початку.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'How I Help You Build Web Platforms the Right Way',
+          ua: 'Як я допомагаю створювати вебплатформи без помилок',
+        },
+        paragraphs: [
+          {
+            en: 'Launching a successful web application requires setting up a solid architectural foundation, utilizing modern web frameworks, and planning clear feature scopes.',
+            ua: 'Запуск успішного вебдодатку вимагає створення надійного архітектурного фундаменту, використання сучасних технологій та чіткого планування обсягу робіт.',
+          },
+          {
+            en: 'I specialize in developing custom, ultra-fast websites and web applications with Next.js, React, and TypeScript. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched systems, I design clean architectures that scale cleanly, look premium on mobile, integrate robust tracking, and secure your business data.',
+            ua: 'Я спеціалізуюся на створенні сучасних сайтів та веб-додатків на Next.js, React та TypeScript. Понад 8 років досвіду та 100+ реалізованих проєктів гарантують, що ваш продукт отримає чисту архітектуру, миттєве завантаження на смартфонах, надійний захист та повну аналітику від першого дня.',
+          },
+          {
+            en: 'Ready to launch a new web platform or want to check your current codebase for architectural gaps? Reach out via the contacts section below for a free technical consultation!',
+            ua: 'Плануєте запуск нової вебплатформи або хочете провести аудит наявної кодової бази? Зв\'яжіться зі мною у розділі контактів для безкоштовної консультації!',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'scalable-nextjs-typescript-architecture',
+    date: '2026-07-21',
+    title: {
+      en: 'Scalable Next.js / TypeScript Application Architecture: Practical Tips',
+      ua: 'Архітектура Next.js / TypeScript додатків, яка легко масштабується: практичні поради',
+    },
+    excerpt: {
+      en: "How to design a Next.js project structure that won't turn into spaghetti code in a year? Practical tips on folder organization, strict typing, state management, and rendering optimization.",
+      ua: 'Як побудувати структуру Next.js проєкту, яка не перетвориться на спагеті-код через рік? Практичні поради щодо структурування папок, типізації, управління станом та оптимізації рендерингу.',
+    },
+    readTime: {
+      en: '7 min read',
+      ua: '7 хв читання',
+    },
+    tags: {
+      en: ['Next.js', 'TypeScript', 'Architecture', 'Web Development'],
+      ua: ['Next.js', 'TypeScript', 'Архітектура', 'Веб-розробка'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Next.js provides developers with incredible flexibility, offering static site generation, server-side rendering, and client-side updates out of the box. However, this flexibility is a double-edged sword. Without a strict, thoughtful architecture from day one, rapidly growing projects quickly accumulate technical debt, turning into unmaintainable "spaghetti code" folders within months.',
+            ua: 'Next.js надає розробникам неймовірну гнучкість, поєднуючи генерацію статики, серверний рендеринг та клієнтський інтерактив. Проте ця гнучкість — палиця з двома кінцями. Без продуманої архітектури з першого дня великі проєкти швидко накопичують технічний борг, перетворюючись на заплутаний спагеті-код, у якому важко розібратися навіть авторам.',
+          },
+          {
+            en: 'Building a scalable Next.js and TypeScript application requires establishing clear rules for file organization, strict compiler settings, segregated state management layers, and smart hybrid rendering boundaries.',
+            ua: 'Створення масштабованого Next.js / TypeScript додатку вимагає впровадження чітких правил структурування папок, строгих налаштувань компілятора, розмежування шарів управління станом та грамотного використання гібридного рендерингу.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Directory Structure: Moving Beyond Simple flat folders',
+          ua: 'Структура папок: Переходимо від пласких директорій до модульних',
+        },
+        paragraphs: [
+          {
+            en: 'As applications scale, flat directories like placing all components in a single `/components` folder break down. Instead, adopt a feature-based structure where related components, hooks, assets, and api hooks live together:',
+            ua: 'У міру зростання проєкту зберігати всі компоненти в єдиній папці `/components` стає незручно. Натомість варто перейти до модульної (feature-based) структури, де пов\'язані компоненти, хуки та API-функції групуються навколо бізнес-фіч:',
+          },
+        ],
+        list: [
+          {
+            en: 'Shared UI Components (/src/components): Keep this directory clean, holding strictly reusable, generic UI components (buttons, badges, inputs, modals) that do not import any domain-specific business logic.',
+            ua: 'Загальні UI компоненти (/src/components): Папка виключно для перевикористовуваних елементів (кнопки, інпути, модалки), які не містять бізнес-логіки конкретної предметної області.',
+          },
+          {
+            en: 'Feature Modules (/src/features or /src/modules): Group components, custom hooks, and api services by business domains (e.g., /features/auth, /features/checkout, /features/dashboard). This encapsulates logic, making code easy to move or refactor.',
+            ua: 'Модулі фіч (/src/features): Групуйте компоненти, хуки, типи та API-запити навколо конкретних доменів бізнесу (наприклад, /auth, /checkout, /dashboard). Це ізолює логіку і полегшує переписування коду.',
+          },
+          {
+            en: 'Page Colocation (App Router): Place page-specific client components, schemas, or server actions directly in the route folder. Keep code near where it is used to avoid hunting through massive trees.',
+            ua: 'Колокація в App Router: Зберігайте специфічні для конкретного роуту компоненти чи схеми прямо в папці цього роуту, поруч із файлом page.tsx, замість винесення їх у глобальні папки.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Strict TypeScript: Your Shield Against Production Errors',
+          ua: 'Строгий TypeScript: Ваш захист від помилок у продакшені',
+        },
+        paragraphs: [
+          {
+            en: 'TypeScript is not just a syntax tool; it is a live contract of your application data flow. A scalable architecture uses strict configurations to identify bugs at compile time:',
+            ua: 'TypeScript — це не просто декорація для автодоповнення, це архітектурний контракт вашого додатку. Масштабований проєкт має використовувати строгі правила типізації:',
+          },
+        ],
+        list: [
+          {
+            en: 'Enable strict mode: Ensure "strict": true is set in tsconfig.json to prevent implicit types and null-pointer exceptions.',
+            ua: 'Увімкніть strict mode: Переконайтеся, що в tsconfig.json активовано "strict": true, що забороняє неявні типи any та захищає від null-помилок.',
+          },
+          {
+            en: 'Ban the "any" type completely: Always type inputs and api returns. Use "unknown" for external api responses, validating them at runtime using schemas (Zod or Valibot).',
+            ua: 'Повна заборона на any: Завжди описуйте типи вхідних даних. Для відповідей з API використовуйте unknown разом із валідацією схем у рантаймі (Zod / Valibot).',
+          },
+          {
+            en: 'Leverage utility types: Use TypeScript utility types (Pick, Omit, Partial, Record) to maintain clean type inheritance and avoid duplicating declarations.',
+            ua: 'Використовуйте Utility Types: Залучайте вбудовані утиліти TypeScript (Pick, Omit, Partial, Record) для побудови зв\'язаних типів і уникнення дублювання інтерфейсів.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Clean State Management Strategy',
+          ua: 'Стратегія управління станом (State Management)',
+        },
+        paragraphs: [
+          {
+            en: 'A common architectural mistake is putting all data into a single global client-side store (like Redux or Zustand). Segregate states by their nature:',
+            ua: 'Часта помилка архітектури — звалювати всі дані в один глобальний клієнтський стор (наприклад, Redux чи Zustand). Натомість розділяйте стани за їхньою природою:',
+          },
+        ],
+        list: [
+          {
+            en: 'Server State (API Data): Use server caching tools like Next.js fetch or TanStack Query (React Query). Do not sync api payloads to global client states manually.',
+            ua: 'Серверний стан (дані з API): Використовуйте інструменти кешування, як-от вбудований fetch у Next.js або TanStack Query (React Query). Не копіюйте ці дані вручную в глобальні клієнтські стори.',
+          },
+          {
+            en: 'Global UI State: For states that affect multiple distant components (authentication, cart, dark mode toggles), use lightweight client stores like Zustand.',
+            ua: 'Глобальний клієнтський UI стан: Для станів, що впливають на різні частини інтерфейсу (кошик, теми, авторизація), використовуйте легкі бібліотеки на кшталт Zustand.',
+          },
+          {
+            en: 'Local Component State: Keep state as close to the element as possible using useState/useReducer. Avoid premature global optimization.',
+            ua: 'Локальний стан компонентів: Зберігайте стан якомога ближче до місця його використання через useState та useReducer, уникаючи передчасної глобалізації.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Maximizing Server Components (RSC) and Client Boundaries',
+          ua: 'Розумне балансування: Server Components та Client Boundaries',
+        },
+        paragraphs: [
+          {
+            en: 'Next.js App Router relies on React Server Components (RSC). A clean scale-ready design puts Server Components by default, pushing interactivity to the leaves of the render tree:',
+            ua: 'App Router у Next.js побудований на концепції React Server Components (RSC). Масштабована архітектура використовує серверні компоненти за замовчуванням, опускаючи клієнтський інтерактив нижче по дереву:',
+          },
+        ],
+        list: [
+          {
+            en: 'Server Components by default: Fetch data, render static grids, headers, and footer wrappers on the server to keep the client bundle size small.',
+            ua: 'Серверні компоненти за замовчуванням: Завантажуйте дані з бази, рендерите сітки, шапку та підвал на сервері — це зменшує обсяг JavaScript, який завантажує користувач.',
+          },
+          {
+            en: 'Isolate Client Components: Put the "use client" directive only at the leaf components that require events, browser APIs, or state (e.g., a search button, an interactive slider).',
+            ua: 'Клієнтські компоненти на листі дерева рендерингу: Помічайте директивою "use client" лише невеликі інтерактивні блоки (кнопки, слайдери, форми), залишаючи їхні батьківські контейнери серверними.',
+          },
+          {
+            en: 'Composition pattern: Pass Client Components as children or props into Server Components to render dynamic client UI inside static server layouts.',
+            ua: 'Паттерн композиції: Передавайте клієнтські компоненти як children або через props у серверні контейнери, щоб зберегти переваги швидкого SSR для всієї сторінки.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'How I Build Enterprise-Ready Frontend Architectures',
+          ua: 'Як я допомагаю створювати масштабовану архітектуру',
+        },
+        paragraphs: [
+          {
+            en: 'Setting up a clean, scalable Next.js and TypeScript codebase requires seasoned technical foresight, custom-tailored configuration settings, and component consistency.',
+            ua: 'Налаштування чистої та масштабованої кодової бази на Next.js та TypeScript вимагає практичного архітектурного досвіду, чіткої конфігурації інструментів та компонентної дисципліни.',
+          },
+          {
+            en: 'I specialize in setting up, auditing, and refactoring large Next.js and React products. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched systems, I help businesses replace legacy technical debt with clean, module-driven architectures that accelerate feature delivery, improve core web vitals, and scale smoothly for years.',
+            ua: 'Я спеціалізуюся на розробці, аудиті та рефакторингу великих продуктів на React та Next.js. Понад 8 років досвіду та 100+ запущених веб-систем дозволяють мені створювати для бізнесу модульні архітектури, які легко підтримувати, швидко розвивати та масштабувати без втрати продуктивності.',
+          },
+          {
+            en: 'Starting a new web product or looking to restructure your current Next.js application codebase? Contact me in the connections section below for a professional architectural audit and project plan!',
+            ua: 'Запускаєте новий веб-продукт або бажаєте навести лад в архітектурі поточного проєкту на Next.js? Зв\'яжіться зі мною у розділі контактів для обговорення оптимальних рішень!',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'from-design-mockup-to-production-quality',
+    date: '2026-07-21',
+    title: {
+      en: "From Design Mockup to Production: How to Avoid 'Loss of Quality' When Implementing Complex Interfaces",
+      ua: 'Від дизайн-макета до продакшену: як уникнути «втрати якості» при реалізації складного інтерфейсу',
+    },
+    excerpt: {
+      en: 'Why does a perfect Figma design often turn into a mediocre layout in the browser? Discover how to structure handoffs and code implementation to preserve every design detail.',
+      ua: 'Чому ідеальний дизайн у Figma часто перетворюється на посередню верстку в браузері? Розбираємося, як побудувати процес передачі макетів та контролю розробки, щоб зберегти кожну деталь.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Frontend', 'UX/UI', 'Design System', 'Pixel Perfect'],
+      ua: ['Верстка', 'UX/UI', 'Дизайн-система', 'Фронтенд'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Every product designer and founder knows the disappointment: a stunning, pixel-perfect layout in Figma with smooth spacing and clean typography ends up looking misaligned, stiff, or simply cheap in the live browser environment. This "quality leakage" is a common bottleneck in web product development.',
+            ua: 'Кожен дизайнер інтерфейсів та засновник продукту знає це розчарування: чудовий, вилизаний до пікселя макет у Figma з вишуканими відступами та ідеальною типографікою після розробки перетворюється на криву, статичну або просто візуально «дешеву» версію в браузері. Ця «втрата якості» — одна з найпоширеніших проблем при створенні веб-продуктів.',
+          },
+          {
+            en: 'Ensuring design fidelity in production requires more than just frontend skills — it demands component-driven engineering, a unified design system vocabulary, and a collaborative verification process between design and development.',
+            ua: 'Збереження якості макета в реальному продукті потребує більше ніж просто вміння верстати — воно вимагає компонентного підходу до коду, єдиної мови дизайн-системи та злагодженого процесу перевірки результату перед релізом.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Why Design Fidelity Gets Lost in Translation',
+          ua: 'Чому макети «ламаються» при перенесенні в код',
+        },
+        paragraphs: [
+          {
+            en: 'The transition from vector layers to responsive code is complex. Quality is typically lost in these primary areas:',
+            ua: 'Перехід від векторних шарів до адаптивного коду — складний процес. Найчастіше якість втрачається на таких етапах:',
+          },
+        ],
+        list: [
+          {
+            en: 'Ignoring responsive fluid behavior: Figma is static. Static widths and coordinates in mockups fail to account for how elements stretch, shrink, and wrap on actual devices.',
+            ua: 'Ігнорування адаптивності: Figma — статична. Коли макет малюється під один фіксований розмір, розробнику доводиться самостійно додумувати, як блоки мають поводитися на проміжних ширинах екранів.',
+          },
+          {
+            en: 'Missing interactive states: Designers often forget to specify styles for hover, focus, disabled, active, loading, and form validation error states. Developers then build default browser styles or guess them.',
+            ua: 'Відсутність інтерактивних станів: Якщо дизайнер не намалював вигляд елементів при наведенні (hover), фокусі, помилках або завантаженні (loading), розробник робить їх на свій розсуд або залишає стандартними.',
+          },
+          {
+            en: 'Ignoring micro-interactions and transitions: Static mockups fail to display the timings, curves, and animations of dropdowns, modals, and page transitions. Without definition, the interface feels rigid and unresponsive.',
+            ua: 'Нехтування мікро-анімаціями: Статичний макет не показує, як саме мають відкриватися випадаючі списки, вилітати модальні вікна чи переходити сторінки. Без цього UI здається «дерев’яним».',
+          },
+          {
+            en: 'Lack of design tokens: If the designer selects colors and spacing on the fly without a system, developers create ad-hoc values, quickly bloating the CSS stylesheets with inconsistencies.',
+            ua: 'Відсутність системних констант (дизайн-токенів): Коли кольори та відступи підбираються «на око», розробники створюють окремі класи під кожен елемент, що засмічує CSS і ламає гармонію.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'How to Build a High-Fidelity Pipeline',
+          ua: 'Як побудувати процес без втрати візуальної якості',
+        },
+        paragraphs: [
+          {
+            en: 'To bridge the gap between design concepts and real code, successful teams establish structured pipelines and common design-code guidelines:',
+            ua: 'Щоб зблизити бачення дизайнера та фінальний результат у коді, успішні команди впроваджують такі кроки:',
+          },
+        ],
+        list: [
+          {
+            en: 'Use Design Tokens: Translate brand assets (colors, fonts, spacings, shadows) into variables (CSS custom properties or Tailwind configs). Both the designer in Figma and the developer in code must use the exact same variable names.',
+            ua: 'Використовуйте дизайн-токени: Колірна палітра, відступи, тіні та шрифтова сітка мають бути описані змінними (дизайн-токенами). І дизайнер у Figma, і розробник у коді мають посилатися на ті самі назви змінних.',
+          },
+          {
+            en: 'Component-Driven Collaboration: Figma frames should map directly to React components. If a Card exists in design, it must exist as a single configurable component in code, sharing the exact same properties (props).',
+            ua: 'Синхронізація компонентів: Структура компонентів у Figma має відповідати структурі в коді. Картка товару, кнопка чи інпут мають створюватися як універсальні компоненти зі схожими налаштуваннями.',
+          },
+          {
+            en: 'Design with Auto-Layout in Figma: Figma Auto-Layout mimics modern CSS Flexbox and Grid. Designing with auto-layout ensures layouts are structurally buildable in code and respond naturally to viewport changes.',
+            ua: 'Проектування через Auto-Layout: Використання інструменту Auto-Layout у Figma змушує мислити правилами CSS Flexbox та Grid. Це гарантує, що верстка буде поводитися так само природно, як і дизайн-макет.',
+          },
+          {
+            en: 'Define Interaction Specifications: Write clear rules for animation timings (e.g., cubic-bezier, 300ms transitions) and state changes before handoff.',
+            ua: 'Специфікація анімацій та переходів: Дизайнер має чітко описувати поведінку рухомих елементів (час затримки, криві анімацій), щоб інтерфейс відчувався живим та приємним.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Modern Frontend Engineering Standards',
+          ua: 'Технічні прийоми розробника для ідеального UI',
+        },
+        paragraphs: [
+          {
+            en: 'From the coding side, frontend engineers use modern tools and patterns to bring design to life with maximum precision:',
+            ua: 'Зі сторони програмування, фронтенд-розробник використовує сучасні техніки для перенесення дизайну з максимальною точністю:',
+          },
+        ],
+        list: [
+          {
+            en: 'Vector graphics optimization: Exporting icons as clean, optimized SVGs prevents pixelation and keeps page weight lightweight.',
+            ua: 'Оптимізація векторної графіки: Використання SVG для іконок та ілюстрацій запобігає розмиттю на Retina-дисплеях та економить трафік.',
+          },
+          {
+            en: 'Premium animation engines: Leveraging libraries like GSAP for complex scroll-driven animations and Framer Motion for smooth state transitions.',
+            ua: 'Використання професійних анімаційних бібліотек: Залучення GSAP (ScrollTrigger) для складних інтерактивних прокруток та Framer Motion для плавних мікро-анімацій.',
+          },
+          {
+            en: 'Relative units for responsive layout: Building layouts with rem, em, percentages, and viewport units (vw/vh) ensures the design scales proportionally across screens.',
+            ua: 'Відносні одиниці виміру: Верстка за допомогою rem, em, % та viewport-одиниць дозволяє сайту масштабуватися пропорційно розміру шрифту пристрою.',
+          },
+          {
+            en: 'Strict font rendering settings: Correctly configuring antialiasing and line-heights to guarantee that typography renders cleanly on macOS, Windows, and mobile viewports alike.',
+            ua: 'Налаштування згладжування шрифтів: Застосування правил CSS-згладжування, щоб типографіка виглядала однаково чітко на macOS, Windows та смартфонах.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Design QA: Closing the Handoff Loop',
+          ua: 'Процес Design QA (Візуальний контроль якості)',
+        },
+        paragraphs: [
+          {
+            en: 'Functional testing ensures the code works; Design QA ensures the code looks right. A structured visual verification process is key to preventing quality leaks:',
+            ua: 'Звичайне тестування перевіряє працездатність кнопок, а Design QA — те, як вони виглядають. Без візуального контролю якості неможливо завершити проєкт преміум-класу:',
+          },
+        ],
+        list: [
+          {
+            en: 'Visual comparisons: Comparing browser renderings and Figma mockups side-by-side using overlay tools or screenshot matching.',
+            ua: 'Порівняння «макет-код»: Накладання напівпрозорого дизайну поверх реальної сторінки в браузері для виявлення розбіжностей у геометрії.',
+          },
+          {
+            en: 'Testing under extreme data states: Checking how cards and lists look when strings are extremely long, images are missing, or text wraps to multiple lines.',
+            ua: 'Перевірка на «крайні» випадки даних: Тестування вигляду блоків при дуже довгому тексті, порожньому вмісті чи відсутності завантажених фото.',
+          },
+          {
+            en: 'Cross-browser rendering check: Ensuring shadows, gradients, and layouts render identically across Safari, Chrome, Firefox, and mobile engines.',
+            ua: 'Сумісність браузерів: Перевірка відображення складних тіней, градієнтів та анімацій у Safari, Chrome, Firefox та на мобільних пристроях.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'How I Bridge the Gap Between Design and Production',
+          ua: 'Як я забезпечую точність реалізації дизайну',
+        },
+        paragraphs: [
+          {
+            en: 'As a Senior Web & Frontend Developer, I specialize in translating complex Figma layouts, high-fidelity landing pages, and interactive UI systems into pixel-perfect, clean production code.',
+            ua: 'Як Senior Frontend-розробниця, я спеціалізуюся на переносі складного дизайну, ефектних лендингів та інтерактивних інтерфейсів у чистий та швидкий код.',
+          },
+          {
+            en: 'Using React, Next.js, and Tailwind CSS, I build modern web platforms with 100% design fidelity, fluid responsiveness, smooth animations, and high performance. With 8+ years of production experience and 100+ launched projects, I make sure the product you launch looks exactly as premium and professional as you envisioned it in design.',
+            ua: 'Завдяки використанню React, Next.js та Tailwind CSS я створюю продукти, що повністю зберігають задум дизайнера, плавно анімуються та швидко завантажуються. Понад 8 років досвіду та 100+ реалізованих проєктів гарантують бездоганну якість кожного пікселя.',
+          },
+          {
+            en: 'Have a complex Figma design ready for development or want to review your current site implementation? Reach out via the contacts section below for a visual audit and project consultation!',
+            ua: 'Маєте готовий дизайн у Figma, що потребує якісної розробки, або хочете покращити поточну верстку сайту? Зв\'яжіться зі мною у розділі контактів для консультації!',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'refactoring-legacy-ui-without-downtime',
+    date: '2026-07-21',
+    title: {
+      en: 'Refactoring Legacy UI: How to Update the Interface Without Product Downtime',
+      ua: 'Рефакторинг застарілого UI: як оновити інтерфейс без зупинки роботи продукту',
+    },
+    excerpt: {
+      en: 'Updating the UI of a live product is like repairing a plane mid-flight. Discover safe UI refactoring strategies that protect user retention and avoid tech debt.',
+      ua: 'Оновлення інтерфейсу працюючого продукту — це як ремонт літака під час польоту. Розбираємо стратегії безпечного рефакторингу UI без втрати клієнтів та технічного боргу.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Refactoring', 'UX/UI', 'Frontend', 'Web Development'],
+      ua: ['Рефакторинг', 'UX/UI', 'Фронтенд', 'Веб-розробка'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Every successful digital product eventually faces the challenge of legacy UI. Technology stacks age, design languages evolve, and user expectations shift. What looked modern three years ago can feel slow and clunky today. However, for a live business application with thousands of active users, stopping operations to perform a complete visual redesign is never a realistic option.',
+            ua: 'Кожен успішний цифровий продукт рано чи пізно стикається з проблемою застарілого інтерфейсу. Технологічні стеки старіють, дизайн-системи еволюціонують, а очікування користувачів зростають. Те, що виглядало сучасно три роки тому, сьогодні може здаватися повільним та незручним. Проте для працюючого бізнесу з тисячами активних користувачів повна зупинка системи для масштабного редизайну — це неприпустима розкіш.',
+          },
+          {
+            en: 'UI refactoring is the process of updating the user interface, improving accessibility, and rewriting outdated frontend code without breaking existing functionality or interrupting the user journey. It is the art of repairing a plane while it is in the air.',
+            ua: 'Рефакторинг UI — це процес оновлення користувацького інтерфейсу, покращення доступності та переписування застарілого фронтенд-коду без порушення поточної функціональності та зупинки бізнес-процесів. Це мистецтво ремонтувати літак прямо під час польоту.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'The High Risk of the "Big Bang" Redesign',
+          ua: 'Ризики «Big Bang» редизайну (все й одразу)',
+        },
+        paragraphs: [
+          {
+            en: 'Many product owners fall into the trap of the "Big Bang" approach: locking developers in a branch for six months to build a completely new website from scratch. This strategy carries severe risks:',
+            ua: 'Багато власників продуктів припускаються помилки, обираючи підхід «Big Bang»: закрити розробників у окремій гілці на пів року, щоб написати повністю новий сайт із нуля. Така стратегія несе великі ризики для бізнесу:',
+          },
+        ],
+        list: [
+          {
+            en: 'User rejection: Radical overnight interface changes trigger immediate cognitive friction and complaints from loyal customers.',
+            ua: 'Опір користувачів: Різка зміна інтерфейсу за одну ніч викликає когнітивний дисонанс та роздратування навіть у лояльних клієнтів.',
+          },
+          {
+            en: 'Lack of feedback loops: Building in isolation for months means you discover usability issues only after the final deployment.',
+            ua: 'Відсутність зворотного зв’язку: Розробка в ізоляції протягом місяців призводить до того, що проблеми зручності виявляються лише після релізу.',
+          },
+          {
+            en: 'Massive merge conflicts: The live system continues to receive feature updates and bug fixes, creating integration nightmares when merging the redesign branch.',
+            ua: 'Гігантські конфлікти злиття (merge conflicts): Поки пишеться нова версія, в стару вносяться правки, що ускладнює подальше об\'єднання коду.',
+          },
+          {
+            en: 'Severe regression bugs: Rewriting everything at once inevitably introduces old bugs back into the system.',
+            ua: 'Нові баги в старій логіці: Написання всього з нуля неминуче повертає в систему помилки, які вже колись були виправлені.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'The Incremental Approach: Strangler Fig Pattern for UI',
+          ua: 'Інкрементальний рефакторинг: Паттерн «Strangler Fig» для UI',
+        },
+        paragraphs: [
+          {
+            en: 'The safest way to upgrade a legacy interface is incremental refactoring. Inspired by the "Strangler Fig" pattern, we progressively replace old views and components with new ones until the legacy UI is completely phased out. The system remains fully operational at every single step:',
+            ua: 'Найбільш безпечний шлях — це поступовий рефакторинг. Запозичений із бекенд-архітектури паттерн «Strangler Fig» (фікус-душитель) передбачає покрокову заміну старих сторінок та компонентів новими. Система залишається повністю робочою на кожному етапі:',
+          },
+        ],
+        list: [
+          {
+            en: 'Audit and Componentization: Break down the UI into standalone reusable elements (buttons, inputs, cards) and establish a strict CSS/design system.',
+            ua: 'Аудит та компонентний підхід: Поділ інтерфейсу на незалежні перевикористовувані блоки (кнопки, інпути, картки) та створення чіткої дизайн-системи.',
+          },
+          {
+            en: 'Top-Level Infrastructure First: Replace global elements first — headers, footers, navigation, and sidebars — establishing the new visual framing.',
+            ua: 'Оновлення глобальної структури: Почніть із загальних елементів (шапка сайту, футер, бічне меню), які створюють новий візуальний каркас.',
+          },
+          {
+            en: 'Side-by-Side Execution via Feature Flags: Use toggle states to display the new UI to a subset of users (e.g., 5% beta testers) while keeping the original layout active for the rest.',
+            ua: 'Паралельний запуск через Feature Flags: Використання перемикачів функцій (feature flags) для показу нового UI обмеженій групі користувачів (наприклад, 5% бета-тестерів).',
+          },
+          {
+            en: 'Page-by-Page Migration: Focus on low-risk pages (e.g., settings, profile) before moving to high-impact transaction funnels or dashboards.',
+            ua: 'Посторінкова міграція: Перенесення спочатку простіших сторінок (налаштування, профілі), і лише потім — складних аналітичних дашбордів.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Technical Best Practices for Safe Frontend Migration',
+          ua: 'Технічні стандарти безпечної фронтенд-міграції',
+        },
+        paragraphs: [
+          {
+            en: 'To ensure that legacy code and modern components live together harmoniously without visual pollution or compilation breakages, frontend engineers follow these technical practices:',
+            ua: 'Щоб старий та новий код могли мирно співіснувати в одному проєкті, не створюючи візуального хаосу та помилок компіляції, використовуються такі технічні практики:',
+          },
+        ],
+        list: [
+          {
+            en: 'Utility-first styles: Using Tailwind CSS encapsulates classes within components, preventing global stylesheet leaks from distorting legacy views.',
+            ua: 'Ізоляція стилів за допомогою Tailwind CSS: Утилітарні класи застосовуються локально, що запобігає впливу нових стилів на старі сторінки.',
+          },
+          {
+            en: 'Isolated Sandbox Environments: Build and test components in isolation using tools like Storybook before importing them into legacy templates.',
+            ua: 'Розробка в ізольованому середовищі: Створення та тестування нових компонентів в інструментах на кшталт Storybook перед інтеграцією в систему.',
+          },
+          {
+            en: 'Strict Adapter Layers: Maintain data contract compatibility by writing adapters that transform old backend API formats into strict TypeScript props required by new components.',
+            ua: 'Шари адаптерів (Adapters): Написання проміжних функцій, які трансформують старі формати даних з API під строгі типи TypeScript нових компонентів.',
+          },
+          {
+            en: 'Automated Visual Regression Testing: Run automated screenshot comparisons during CI/CD to detect accidental layout shifts in untouched areas of the application.',
+            ua: 'Тести на візуальний регрес: Автоматичне порівняння скріншотів інтерфейсу в CI/CD процесі для виявлення випадкових зсувів верстки.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Managing the Human Factor in Redesigns',
+          ua: 'Управління людським фактором під час редизайну',
+        },
+        paragraphs: [
+          {
+            en: 'Even the best technical implementation will fail if users reject the new design. Successful UI modernizations focus on human-centered rollouts:',
+            ua: 'Навіть найкраща технічна реалізація зазнає фіаско, якщо користувачі не приймуть новий інтерфейс. Успішна модернізація UI враховує психологію клієнтів:',
+          },
+        ],
+        list: [
+          {
+            en: 'Provide a Choice: Give users a "Try the new version" banner with a prominent option to temporarily revert to the classic view if they feel lost.',
+            ua: 'Надайте право вибору: Додайте банер «Спробувати нову версію» з можливістю легко повернутися до старого вигляду, якщо клієнт відчуває дискомфорт.',
+          },
+          {
+            en: 'Gather Feedback Instantly: Place a feedback widget directly on the new pages to collect immediate reports on friction, bugs, or missing features.',
+            ua: 'Швидкий збір відгуків: Розмістіть кнопку зворотного зв\'язку прямо в новому інтерфейсі для збору повідомлень про незручності чи помилки.',
+          },
+          {
+            en: 'Value over Aesthetics: Never change layouts just for decoration. Ensure every UI update either reduces user steps, increases font legibility, or improves loading speeds.',
+            ua: 'Користь замість краси: Не змінюйте розташування елементів лише заради декору. Кожне оновлення має прискорювати шлях користувача або полегшувати читання даних.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'How I Can Help You Modernize Your Legacy Web Application',
+          ua: 'Як я можу допомогти модернізувати ваш застарілий веб-проєкт',
+        },
+        paragraphs: [
+          {
+            en: 'Redesigning a live web platform requires a careful balance of high-performance frontend engineering, strict component architecture, and systematic release planning.',
+            ua: 'Оновлення працюючого веб-інтерфейсу вимагає особливого балансу між якісною фронтенд-архітектурою, оптимізацією продуктивності та продуманим планом випуску.',
+          },
+          {
+            en: 'I specialize in building and refactoring high-performance React and Next.js applications. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched products, I help businesses move from outdated legacy codebases to clean, lightning-fast design systems — maintaining 100% platform uptime throughout the entire migration.',
+            ua: 'Я спеціалізуюся на розробці та рефакторингу веб-додатків на React та Next.js. Понад 8 років практичного досвіду, 4 200+ годин на Upwork та 100+ успішно запущених проєктів гарантують, що міграція вашого UI пройде непомітно для користувачів, а продукт отримає сучасну швидкість завантаження та чистий код.',
+          },
+          {
+            en: 'Planning to update your product UI or tackle years of accumulated frontend technical debt? Contact me today via the connections section below for a free technical consultation!',
+            ua: 'Плануєте редизайн вашої системи чи хочете позбутися накопиченого роками технічного боргу у фронтенді? Зв\'яжіться зі мною у розділі контактів для обговорення оптимальної стратегії міграції!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'online-booking-system-benefits-2026',
     date: '2026-07-21',
     title: {

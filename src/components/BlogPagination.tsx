@@ -9,6 +9,24 @@ type BlogPaginationProps = {
   currentPage: number
 }
 
+function getPaginationRange(currentPage: number, totalPages: number) {
+  const delta = 1 // number of pages to show around current page
+  const range: (number | string)[] = []
+
+  for (let i = 1; i <= totalPages; i++) {
+    if (
+      i === 1 ||
+      i === totalPages ||
+      (i >= currentPage - delta && i <= currentPage + delta)
+    ) {
+      range.push(i)
+    } else if (range[range.length - 1] !== '...') {
+      range.push('...')
+    }
+  }
+  return range
+}
+
 export default function BlogPagination({ currentPage }: BlogPaginationProps) {
   const totalPages = getBlogPageCount()
   const { language } = useLanguage()
@@ -18,7 +36,7 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
     return null
   }
 
-  const pages = Array.from({ length: totalPages }, (_, index) => index + 1)
+  const pages = getPaginationRange(currentPage, totalPages)
 
   return (
     <nav
@@ -38,11 +56,22 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
         </span>
       )}
 
-      <div className="flex flex-wrap items-center gap-1">
-        {pages.map((page) => (
+      {pages.map((page, index) => {
+        if (page === '...') {
+          return (
+            <span
+              key={`ellipsis-${index}`}
+              className="px-3 py-2 text-sm font-medium text-gray-400 dark:text-gray-500"
+            >
+              ...
+            </span>
+          )
+        }
+
+        return (
           <Link
             key={page}
-            href={getBlogPagePath(page, language)}
+            href={getBlogPagePath(page as number, language)}
             aria-current={page === currentPage ? 'page' : undefined}
             className={`min-w-10 px-3 py-2 text-sm font-medium text-center rounded-lg transition-colors ${
               page === currentPage
@@ -52,8 +81,8 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
           >
             {page}
           </Link>
-        ))}
-      </div>
+        )
+      })}
 
       {currentPage < totalPages ? (
         <Link
