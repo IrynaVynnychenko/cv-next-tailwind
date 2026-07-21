@@ -1,56 +1,20 @@
+'use client'
+
+import { useLanguage } from '@/context/LanguageContext'
+import { translations } from '@/data/translations'
+
 export default function Experience() {
-  const experiences = [
-    {
-      title: "Frontend Web Developer",
-      company: "Upwork",
-      period: "2018 - Present",
-      description: "Freelance senior frontend developer on Upwork — full-cycle delivery from design to live product. High-performance React/Next.js apps, product engineering, and long-term collaboration with clients worldwide.",
-      achievements: [
-        "4,200+ Upwork hours · 100+ launched projects · 100% Job Success Rate",
-        "Full-stack Next.js: Server Components, Server Actions, API Routes",
-        "Performance optimization targeting Core Web Vitals for SEO & conversion",
-        "SSR / SSG / CSR, code splitting, lazy loading, debugging & profiling"
-      ],
-      technologies: ["TypeScript", "React", "Next.js", "TanStack Query", "Redux", "Zustand", "GraphQL", "Tailwind CSS", "GSAP", "Framer Motion", "Jest", "Git"],
-      projects: [
-        "https://www.niunkina.com/ - Business website for German cosmetologist (Next.js + TailwindCSS)",
-        "https://plowguys.com/ - Snow & ice management website (Webflow)",
-        "https://wellwheel.com.ua/ - Taxi service website for Kyiv drivers",
-        "https://www.8host.com/en/ - Cloud hosting platform for VPS/VDS services"
-      ]
-    },
-    {
-      title: "Frontend Web Developer",
-      company: "ETNA Network",
-      period: "Apr 2021 - Jul 2022",
-      description: "Frontend development for a DeFi, gaming, and NFT ecosystem with interconnected products across blockchain and web3.",
-      achievements: [
-        "Built user-facing interfaces for DeFi and NFT products",
-        "Developed responsive, interactive UI for crypto ecosystem",
-        "Collaborated with cross-functional team on multi-utility platform"
-      ],
-      technologies: ["React", "JavaScript", "HTML5", "CSS3", "SCSS", "Git"],
-    },
-    {
-      title: "Frontend Web Developer",
-      company: "LexStatus",
-      period: "Feb 2019 - Nov 2020",
-      description: "Frontend development for a legal services company specializing in real estate documentation and property assessment in Ukraine.",
-      achievements: [
-        "Developed and maintained corporate website and client-facing interfaces",
-        "Implemented responsive layouts for legal services platform",
-        "Worked with design team on pixel-perfect implementations"
-      ],
-      technologies: ["HTML5", "CSS3", "JavaScript", "jQuery", "SCSS", "Bootstrap"],
-    }
-  ]
+  const { language } = useLanguage()
+  const t = translations[language].experience
 
   return (
     <section id="experience" className="pt-4">
       <div className="border-b border-gray-200 dark:border-gray-700 pb-12">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">Work Experience</h2>
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
+          {t.title}
+        </h2>
         <div className="space-y-10">
-          {experiences.map((exp, index) => (
+          {t.items.map((exp, index) => (
             <div key={index} className="relative">
               <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4">
                 <div className="flex-1">
@@ -72,7 +36,9 @@ export default function Experience() {
               </div>
               
               <div className="mb-4">
-                <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">Key Achievements:</h5>
+                <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">
+                  {t.keyAchievements}
+                </h5>
                 <ul className="list-none space-y-1">
                   {exp.achievements.map((achievement, idx) => (
                     <li key={idx} className="text-sm text-gray-600 dark:text-gray-300 flex items-start">
@@ -84,7 +50,9 @@ export default function Experience() {
               </div>
               
               <div className="mb-4">
-                <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">Technologies:</h5>
+                <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">
+                  {t.technologies}
+                </h5>
                 <div className="flex flex-wrap gap-2">
                   {exp.technologies.map((tech, idx) => (
                     <span
@@ -99,7 +67,9 @@ export default function Experience() {
               
               {exp.projects && (
                 <div>
-                  <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">Key Projects:</h5>
+                  <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">
+                    {t.keyProjects}
+                  </h5>
                   <div className="space-y-1">
                     {exp.projects.map((project, idx) => (
                       <div key={idx} className="text-sm">

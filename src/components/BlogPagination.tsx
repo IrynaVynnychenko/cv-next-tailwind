@@ -1,5 +1,9 @@
+'use client'
+
 import Link from 'next/link'
 import { getBlogPageCount, getBlogPagePath } from '@/data/blog-posts'
+import { useLanguage } from '@/context/LanguageContext'
+import { translations } from '@/data/translations'
 
 type BlogPaginationProps = {
   currentPage: number
@@ -7,6 +11,8 @@ type BlogPaginationProps = {
 
 export default function BlogPagination({ currentPage }: BlogPaginationProps) {
   const totalPages = getBlogPageCount()
+  const { language } = useLanguage()
+  const t = translations[language].blog
 
   if (totalPages <= 1) {
     return null
@@ -21,14 +27,14 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
     >
       {currentPage > 1 ? (
         <Link
-          href={getBlogPagePath(currentPage - 1)}
+          href={getBlogPagePath(currentPage - 1, language)}
           className="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-lg hover:border-gray-300 dark:hover:border-gray-600 hover:text-gray-900 dark:hover:text-white transition-colors"
         >
-          ← Previous
+          ← {t.previous}
         </Link>
       ) : (
         <span className="px-3 py-2 text-sm font-medium text-gray-300 dark:text-gray-600 border border-gray-100 dark:border-gray-800 rounded-lg cursor-not-allowed">
-          ← Previous
+          ← {t.previous}
         </span>
       )}
 
@@ -36,7 +42,7 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
         {pages.map((page) => (
           <Link
             key={page}
-            href={getBlogPagePath(page)}
+            href={getBlogPagePath(page, language)}
             aria-current={page === currentPage ? 'page' : undefined}
             className={`min-w-10 px-3 py-2 text-sm font-medium text-center rounded-lg transition-colors ${
               page === currentPage
@@ -51,14 +57,14 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
 
       {currentPage < totalPages ? (
         <Link
-          href={getBlogPagePath(currentPage + 1)}
+          href={getBlogPagePath(currentPage + 1, language)}
           className="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-lg hover:border-gray-300 dark:hover:border-gray-600 hover:text-gray-900 dark:hover:text-white transition-colors"
         >
-          Next →
+          {t.next} →
         </Link>
       ) : (
         <span className="px-3 py-2 text-sm font-medium text-gray-300 dark:text-gray-600 border border-gray-100 dark:border-gray-800 rounded-lg cursor-not-allowed">
-          Next →
+          {t.next} →
         </span>
       )}
     </nav>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import BlogPostDetailClient from '@/components/BlogPostDetailClient'
+import { SetLanguageClient } from '@/components/SetLanguageClient'
 import { blogPosts, getBlogPost } from '@/data/blog-posts'
 
 type BlogPostPageProps = {
@@ -13,14 +14,14 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: BlogPostPageProps): Metadata {
-  const post = getBlogPost(params.slug, 'en')
+  const post = getBlogPost(params.slug, 'ua')
 
   if (!post) {
-    return { title: 'Post Not Found' }
+    return { title: 'Статтю не знайдено' }
   }
 
   return {
-    title: `${post.title} — Iryna Vynnychenko | Senior Web & Frontend Developer`,
+    title: `${post.title} — Ірина Винниченко | Senior Web & Frontend Розробниця`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -30,9 +31,10 @@ export function generateMetadata({ params }: BlogPostPageProps): Metadata {
   }
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
+export default function UaBlogPostPage({ params }: BlogPostPageProps) {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
+      <SetLanguageClient lang="ua" />
       <Header />
       <main className="max-w-5xl mx-auto px-6 py-8">
         <BlogPostDetailClient slug={params.slug} />

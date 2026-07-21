@@ -1,46 +1,23 @@
+'use client'
+
+import { useLanguage } from '@/context/LanguageContext'
+import { translations } from '@/data/translations'
+
 export default function Testimonials() {
-  const testimonials = [
-    {
-      text: "Iryna turned our Figma design into a live page flawlessly and ahead of schedule.",
-      author: "Client",
-      rating: 5,
-      project: "Figma to Live Page"
-    },
-    {
-      text: "Iryna made a great job transforming design from Figma to the real landing page. We definitely will work with her again.",
-      author: "Upwork Client",
-      rating: 5,
-      project: "Landing Page Development"
-    },
-    {
-      text: "Great communication. Was proactive about asking questions. By being interactive, asking questions, and making suggestions, it made the project better than if they just literally followed the instructions. Worked very quickly and finished ahead of schedule.",
-      author: "Upwork Client",
-      rating: 5,
-      project: "E-commerce Website"
-    },
-    {
-      text: "Iryna was able to handle all of our change requests and keep projects moving forward. She worked great with our team. I wish she was able to be a full-time team member.",
-      author: "Upwork Client",
-      rating: 5,
-      project: "Long-term Collaboration"
-    },
-    {
-      text: "Excellent collaboration experience. Iryna understands client needs and offers better solutions. The responsive design works perfectly on all devices.",
-      author: "Upwork Client",
-      rating: 5,
-      project: "Responsive Web Design"
-    }
-  ]
+  const { language } = useLanguage()
+  const t = translations[language].testimonials
 
   return (
     <section id="testimonials" className="pt-4">
       <div className="border-b border-gray-200 dark:border-gray-700 pb-12">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">Client Testimonials</h2>
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
+          {t.title}
+        </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {testimonials.map((testimonial, index) => (
+          {t.items.map((testimonial, index) => (
             <div key={index} className="border border-gray-200 dark:border-gray-700 rounded-lg p-6">
               <div className="flex items-center mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
+                {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-4 h-4 text-gray-400 fill-current" viewBox="0 0 20 20">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
@@ -70,13 +47,12 @@ export default function Testimonials() {
               rel="noopener noreferrer"
               className="font-medium text-sm hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
             >
-              100% Job Success Rate on Upwork
+              {t.jobSuccess}
             </a>
           </div>
-          <p className="text-gray-600 dark:text-gray-300 mt-2 text-sm">4,200+ Upwork hours · 100+ launched projects</p>
+          <p className="text-gray-600 dark:text-gray-300 mt-2 text-sm">{t.stats}</p>
         </div>
       </div>
     </section>
   )
 }
-

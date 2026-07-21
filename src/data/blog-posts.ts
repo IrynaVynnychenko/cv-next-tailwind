@@ -1,3 +1,9 @@
+export type BlogSection = {
+  heading?: string
+  paragraphs: string[]
+  list?: string[]
+}
+
 export type BlogPost = {
   slug: string
   title: string
@@ -8,352 +14,662 @@ export type BlogPost = {
   content: BlogSection[]
 }
 
-export type BlogSection = {
-  heading?: string
-  paragraphs: string[]
-  list?: string[]
+type LocalizedText = {
+  en: string
+  ua: string
 }
 
-export const blogPosts: BlogPost[] = [
+type LocalizedSection = {
+  heading?: LocalizedText
+  paragraphs: LocalizedText[]
+  list?: LocalizedText[]
+}
+
+type RawBlogPost = {
+  slug: string
+  date: string
+  title: LocalizedText
+  excerpt: LocalizedText
+  readTime: LocalizedText
+  tags: { en: string[]; ua: string[] }
+  content: LocalizedSection[]
+}
+
+export const rawBlogPosts: RawBlogPost[] = [
   {
     slug: 'why-your-business-needs-a-website',
-    title: 'Why Instagram and TikTok Are Not Enough — Your Business Still Needs a Website',
-    excerpt:
-      'Social media brings attention. A website brings trust. Here is why serious businesses invest in their own home on the web.',
     date: '2026-07-01',
-    readTime: '5 min',
-    tags: ['Business', 'Website', 'Strategy'],
+    title: {
+      en: 'Why Instagram and TikTok Are Not Enough — Your Business Still Needs a Website',
+      ua: 'Чому Instagram та TikTok недостатньо — Вашому бізнесу все одно потрібен власний сайт',
+    },
+    excerpt: {
+      en: 'Social media brings attention. A website brings trust. Here is why serious businesses invest in their own home on the web.',
+      ua: 'Соціальні мережі привертають увагу, а сайт будує довіру. Чому серйозні компанії інвестують у власну веб-платформу.',
+    },
+    readTime: {
+      en: '5 min read',
+      ua: '5 хв читання',
+    },
+    tags: {
+      en: ['Business', 'Website', 'Strategy'],
+      ua: ['Бізнес', 'Вебсайт', 'Стратегія'],
+    },
     content: [
       {
         paragraphs: [
-          'Instagram and TikTok are powerful for reach. They help you show personality, run campaigns, and meet customers where they already scroll. But when someone is deciding whether to trust you with their money, their time, or a real project — they look for more than a feed.',
-          'A website is not a luxury add-on. It is the signal that your business is established, intentional, and worth taking seriously.',
+          {
+            en: 'Instagram and TikTok are powerful for reach. They help you show personality, run campaigns, and meet customers where they already scroll. But when someone is deciding whether to trust you with their money, their time, or a real project — they look for more than a feed.',
+            ua: 'Instagram та TikTok дають чудове охоплення. Вони допомагають показати брендовость, запускати кампанії та знаходити клієнтів там, де вони гортають стрічку. Але коли людина вирішує, чи довірити вам свої гроші, час або реальний проєкт — вона шукає більше, ніж просто сторінку в соцмережах.',
+          },
+          {
+            en: 'A website is not a luxury add-on. It is the signal that your business is established, intentional, and worth taking seriously.',
+            ua: 'Власний сайт — це не додаткова розкіш. Це показник того, що ваш бізнес стабільний, системний та вартий довіри.',
+          },
         ],
       },
       {
-        heading: 'Social media builds visibility. A website builds credibility.',
+        heading: {
+          en: 'Social media builds visibility. A website builds credibility.',
+          ua: 'Соцмережі дають видимість. Сайт створює авторитет.',
+        },
         paragraphs: [
-          'Profiles come and go. Algorithms change. Accounts get restricted. A website you own is stable ground — your name, your offer, your proof, in one place you control.',
-          'Clients, partners, and investors expect it. A clear, fast, professional site answers the questions social posts never fully cover: who you are, what you do, how you work, and why they should choose you.',
+          {
+            en: 'Profiles come and go. Algorithms change. Accounts get restricted. A website you own is stable ground — your name, your offer, your proof, in one place you control.',
+            ua: 'Профілі з\'являються і зникають. Алгоритми змінюються. Акаунти можуть блокуватися. Сайт, яким володієте ви — це стабільний фундамент: ваше ім\'я, ваші послуги та докази якості в одному місці, яке контролюєте ви.',
+          },
+          {
+            en: 'Clients, partners, and investors expect it. A clear, fast, professional site answers the questions social posts never fully cover: who you are, what you do, how you work, and why they should choose you.',
+            ua: 'Клієнти, партнери та інвестори очікують цього. Зрозумілий, швидкий та професійний сайт дає відповіді на питання, які соцмережі не можуть розкрити повністю: хто ви, що робите, як працюєте та чому варто обрати саме вас.',
+          },
         ],
       },
       {
-        heading: 'What a business website should communicate',
+        heading: {
+          en: 'What a business website should communicate',
+          ua: 'Що повинен доносити якісний сайт бізнесу',
+        },
         paragraphs: [
-          'You do not need dozens of pages. You need a focused presence that sounds confident and reads easily — even on a phone between two TikToks.',
+          {
+            en: 'You do not need dozens of pages. You need a focused presence that sounds confident and reads easily — even on a phone between two TikToks.',
+            ua: 'Вам не потрібні десятки складних сторінок. Потрібна чітка та переконлива презентація, яка легко читається навіть зі смартфона.',
+          },
         ],
         list: [
-          'What you do — in plain language, without buzzwords',
-          'Who you help — and what problem you solve for them',
-          'Proof — case studies, results, reviews, or shipped work',
-          'How to start — one clear contact path, not five scattered links',
+          {
+            en: 'What you do — in plain language, without buzzwords',
+            ua: 'Чим ви займаєтеся — простою та зрозумілою мовою',
+          },
+          {
+            en: 'Who you help — and what problem you solve for them',
+            ua: 'Кому ви допомагаєте — і яку саме проблему вирішуєте',
+          },
+          {
+            en: 'Proof — case studies, results, reviews, or shipped work',
+            ua: 'Докази — кейси, результати, відгуки та реальні проєкти',
+          },
+          {
+            en: 'How to start — one clear contact path, not five scattered links',
+            ua: 'Як почати співпрацю — один чіткий спосіб зв\'язку',
+          },
         ],
       },
       {
-        heading: 'Trust signals that social alone cannot provide',
+        heading: {
+          en: 'Trust signals that social alone cannot provide',
+          ua: 'Фактори довіри, які не дадуть самі соцмережі',
+        },
         paragraphs: [],
         list: [
-          'A custom domain (yourbrand.com) — not just a link-in-bio page',
-          'Structured service pages that show depth, not just highlights',
-          'SEO visibility — so people find you when they search, not only when you post',
-          'Professional email and contact flow tied to your brand',
-          'A foundation for payments, booking, forms, and future product features',
+          {
+            en: 'A custom domain (yourbrand.com) — not just a link-in-bio page',
+            ua: 'Власний домен (yourbrand.com) — а не просто посилання в профілі',
+          },
+          {
+            en: 'Structured service pages that show depth, not just highlights',
+            ua: 'Структуровані сторінки послуг, які показують експертність',
+          },
+          {
+            en: 'SEO visibility — so people find you when they search, not only when you post',
+            ua: 'SEO-оптимізація — щоб вас знаходили через Google пошук',
+          },
+          {
+            en: 'Professional email and contact flow tied to your brand',
+            ua: 'Професійна корпоративна пошта та зручні контакти',
+          },
+          {
+            en: 'A foundation for payments, booking, forms, and future product features',
+            ua: 'Готова основа для оплати, бронювання, форм та функціоналу',
+          },
         ],
       },
       {
-        heading: 'The best setup: social + website, working together',
+        heading: {
+          en: 'The best setup: social + website, working together',
+          ua: 'Найкраща зв\'язка: соцмережі + сайт разом',
+        },
         paragraphs: [
-          'Use Instagram and TikTok to attract attention. Send that traffic to a website that converts interest into action — a call, a quote request, a signup, a sale.',
-          'Think of social as the handshake. The website is the meeting room where business actually happens.',
+          {
+            en: 'Use Instagram and TikTok to attract attention. Send that traffic to a website that converts interest into action — a call, a quote request, a signup, a sale.',
+            ua: 'Використовуйте Instagram та TikTok для залучення уваги. І направляйте цей трафік на сайт, який перетворює зацікавленість у дію — заявку, дзвінок або покупку.',
+          },
+          {
+            en: 'Think of social as the handshake. The website is the meeting room where business actually happens.',
+            ua: 'Уявіть соцмережі як знайомство та рукостискання. А сайт — це кімната переговорів, де укладаються угоди.',
+          },
         ],
       },
       {
-        heading: 'What this looks like in practice',
+        heading: {
+          en: 'What this looks like in practice',
+          ua: 'Як це працює на практиці',
+        },
         paragraphs: [
-          'A strong business site does not need to be huge. It needs to be clear, fast, and credible. That means sharp copy, mobile-first layout, fast load times, and a structure that grows with you — from a landing page today to a full product tomorrow.',
-          'I build exactly that: lean, high-performance websites and web products with React and Next.js. 4,200+ Upwork hours, 8+ years in production, 100+ launched projects — from business landing pages to complex frontend platforms. TypeScript, performance optimization, SEO-ready architecture, and clean code you can maintain long after launch.',
-          'If your business lives on social but your website is missing, outdated, or just a template — that gap is costing you trust. Reach out via the contacts below. We can map what you need in one short call.',
+          {
+            en: 'A strong business site does not need to be huge. It needs to be clear, fast, and credible. That means sharp copy, mobile-first layout, fast load times, and a structure that grows with you.',
+            ua: 'Сильний сайт для бізнесу не має бути громіздким. Він повинен бути чітким, швидким та переконливим — із мобільною адаптацією та високою швидкістю завантаження.',
+          },
+          {
+            en: 'I build exactly that: lean, high-performance websites and web products with React and Next.js. 4,200+ Upwork hours, 8+ years in production, 100+ launched projects. TypeScript, performance optimization, SEO-ready architecture, and clean code.',
+            ua: 'Я створюю саме такі сайти: швидкі, сучасні та надійні веб-проєкти на React та Next.js. Понад 4 200+ годин на Upwork, 8+ років досвіду, 100+ запущених проєктів. TypeScript, оптимізація швидкості, готове SEO та чистий код.',
+          },
+          {
+            en: 'If your business lives on social but your website is missing, outdated, or just a template — reach out via the contacts below. We can map what you need in one short call.',
+            ua: 'Якщо ваш бізнес є в соцмережах, але сайту немає або він застарів — зв\'яжіться зі мною через контакти нижче. Ми обговоримо ваші завдання під час короткого дзвінка.',
+          },
         ],
       },
     ],
   },
   {
     slug: 'how-to-find-web-developer',
-    title: 'How to Find a Web Developer for Your Project (Without Wasting Time or Budget)',
-    excerpt:
-      'Searching for a web developer can feel overwhelming. Here is a practical guide to finding the right person — fast, safely, and with confidence.',
     date: '2026-04-01',
-    readTime: '6 min',
-    tags: ['Web Developer', 'Hiring', 'Freelance'],
+    title: {
+      en: 'How to Find a Web Developer for Your Project (Without Wasting Time or Budget)',
+      ua: 'Як знайти веб-розробника для вашого проєкту (без втрати часу та бюджету)',
+    },
+    excerpt: {
+      en: 'Searching for a web developer can feel overwhelming. Here is a practical guide to finding the right person — fast, safely, and with confidence.',
+      ua: 'Пошук веб-розробника може здаватися складним завданням. Ось практичний посібник, як знайти потрібного фахівця швидко та надійно.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Web Developer', 'Hiring', 'Freelance'],
+      ua: ['Веб-розробник', 'Найм', 'Фриланс'],
+    },
     content: [
       {
         paragraphs: [
-          'Whether you need a landing page, a full product rebuild, or ongoing maintenance, finding the right web developer is one of the most important decisions you will make. The market is full of options — agencies, freelancers, offshore teams — and not all of them deliver what they promise.',
-          'This guide helps you cut through the noise and hire a web developer who actually fits your project, timeline, and budget.',
+          {
+            en: 'Whether you need a landing page, a full product rebuild, or ongoing maintenance, finding the right web developer is one of the most important decisions you will make. The market is full of options — agencies, freelancers, offshore teams.',
+            ua: 'Незалежно від того, чи потрібен вам лендинг, перезапуск продукту чи постійна підтримка сайту, вибір веб-розробника — одне з найважливіших рішень для вашого бізнесу.',
+          },
+          {
+            en: 'This guide helps you cut through the noise and hire a web developer who actually fits your project, timeline, and budget.',
+            ua: 'Цей посібник допоможе відсіяти зайве та знайти фахівця, який ідеально підійде під ваш проєкт, терміни та бюджет.',
+          },
         ],
       },
       {
-        heading: 'Define what you need before you search',
+        heading: {
+          en: 'Define what you need before you search',
+          ua: 'Визначте свої потреби перед пошуком',
+        },
         paragraphs: [
-          'Vague briefs attract vague proposals. Before posting a job or reaching out, clarify:',
+          {
+            en: 'Vague briefs attract vague proposals. Before posting a job or reaching out, clarify:',
+            ua: 'Нечітке завдання веде до нечітких пропозицій. Перед публікацією або зверненням сформулюйте:',
+          },
         ],
         list: [
-          'Project type — website, web app, redesign, or ongoing support',
-          'Must-have features — forms, payments, user accounts, CMS, integrations',
-          'Tech preferences — or openness to recommendations (React, Next.js, WordPress)',
-          'Timeline and budget range — even a rough estimate saves weeks of back-and-forth',
+          {
+            en: 'Project type — website, web app, redesign, or ongoing support',
+            ua: 'Тип проєкту — сайт, веб-додаток, редизайн чи підтримка',
+          },
+          {
+            en: 'Must-have features — forms, payments, user accounts, CMS, integrations',
+            ua: 'Обов\'язковий функціонал — форми, оплата, кабінети, інтеграції',
+          },
+          {
+            en: 'Tech preferences — React, Next.js, or openness to recommendations',
+            ua: 'Побажання щодо технологій — React, Next.js або відкритість до порад',
+          },
+          {
+            en: 'Timeline and budget range — even a rough estimate saves weeks',
+            ua: 'Орієнтовні терміни та бюджет — це зекономить тижні обговорень',
+          },
         ],
       },
       {
-        heading: 'Where to look for a web developer',
+        heading: {
+          en: 'Where to look for a web developer',
+          ua: 'Де шукати веб-розробника',
+        },
         paragraphs: [
-          'Each channel has trade-offs. Choose based on how much control and direct communication you want.',
+          {
+            en: 'Choose based on how much control and direct communication you want.',
+            ua: 'Обирайте майданчик залежно від того, наскільки пряма комунікація вам потрібна.',
+          },
         ],
         list: [
-          'Freelance platforms (Upwork, Toptal) — large talent pool, reviews, escrow protection',
-          'LinkedIn — good for senior developers with verifiable work history',
-          'Referrals — trusted recommendations from founders or product teams',
-          'Developer portfolios — find someone whose shipped work matches your vision',
+          {
+            en: 'Freelance platforms (Upwork, Toptal) — large talent pool, reviews, escrow protection',
+            ua: 'Фриланс-платформи (Upwork, Toptal) — велика база, відгуки, захист угод',
+          },
+          {
+            en: 'LinkedIn — good for senior developers with verifiable work history',
+            ua: 'LinkedIn — чудово підходить для пошуку досвідчених розробників',
+          },
+          {
+            en: 'Referrals — trusted recommendations from founders or product teams',
+            ua: 'Рекомендації — випробувані поради від знайомих підприємців',
+          },
+          {
+            en: 'Developer portfolios — find someone whose shipped work matches your vision',
+            ua: 'Портфоліо — знайдіть розробника, чиї роботи відповідають вашому баченню',
+          },
         ],
       },
       {
-        heading: 'What to check in a web developer\'s profile',
+        heading: {
+          en: 'What to check in a web developer\'s profile',
+          ua: 'На що звертати увагу в профілі розробника',
+        },
         paragraphs: [
-          'Do not hire based on price alone. A cheap developer who delivers broken code costs more than a senior one who ships right the first time.',
+          {
+            en: 'Do not hire based on price alone. A cheap developer who delivers broken code costs more than a senior one who ships right the first time.',
+            ua: 'Не орієнтуйтеся лише на низьку ціну. Недосвідчений розробник із помилками в коді зрештою коштуватиме дорожче, ніж Senior-фахівець, який зробить усе якісно з першого разу.',
+          },
         ],
         list: [
-          'Live projects you can visit — not just Dribbble mockups',
-          'Relevant stack experience (React, Next.js, TypeScript for modern products)',
-          'Client reviews mentioning communication, deadlines, and post-launch support',
-          'Willingness to jump on a video call before signing anything',
+          {
+            en: 'Live projects you can visit — not just static mockups',
+            ua: 'Реальні працюючі сайти — а не лише картинки дизайну',
+          },
+          {
+            en: 'Relevant stack experience (React, Next.js, TypeScript for modern products)',
+            ua: 'Досвід у потрібному стеку (React, Next.js, TypeScript)',
+          },
+          {
+            en: 'Client reviews mentioning communication, deadlines, and support',
+            ua: 'Відгуки клієнтів про дотримання термінів та комунікацію',
+          },
+          {
+            en: 'Willingness to jump on a video call before signing anything',
+            ua: 'Готовність провести відеодзвінок до початку співпраці',
+          },
         ],
       },
       {
-        heading: 'Questions to ask on the first call',
-        paragraphs: [],
-        list: [
-          'How would you approach this project technically?',
-          'What is included in your estimate — and what is not?',
-          'How do you handle revisions, bugs, and post-launch support?',
-          'Can you share a similar project you have shipped recently?',
-        ],
-      },
-      {
-        heading: 'Red flags when hiring a web developer',
+        heading: {
+          en: 'Working with a senior freelance web developer',
+          ua: 'Співпраця з досвідченим фриланс-розробником',
+        },
         paragraphs: [
-          'No questions about your business goals, unrealistically low bids, refusal to sign an NDA, or no staging environment for review — these are signs to keep looking.',
-          'A reliable web developer will be transparent about scope, communicate proactively, and treat your project like a long-term partnership, not a one-off ticket.',
-        ],
-      },
-      {
-        heading: 'Working with a senior freelance web developer',
-        paragraphs: [
-          'If you are looking for a web developer who handles the full cycle — from architecture to deployment and ongoing improvements — working directly with a senior freelancer cuts agency overhead and keeps communication fast.',
-          'I work with clients worldwide on React and Next.js projects: 4,200+ Upwork hours, 100+ launched products, and a focus on performance, clean code, and long-term collaboration. Reach out via the contacts below — happy to discuss your project on a quick call.',
+          {
+            en: 'If you are looking for a web developer who handles the full cycle — from architecture to deployment and ongoing improvements — working directly with a senior freelancer cuts agency overhead and keeps communication fast.',
+            ua: 'Якщо ви шукаєте фахівця для повного циклу розробки — від архітектури до запуску — пряма співпраця з Senior фрилансером заощаджує бюджет та забезпечує швидкий зв\'язок.',
+          },
+          {
+            en: 'I work with clients worldwide on React and Next.js projects: 4,200+ Upwork hours, 100+ launched products, and a focus on performance, clean code, and long-term collaboration.',
+            ua: 'Я працюю з клієнтами по всьому світу над React та Next.js проєктами: 4 200+ годин на Upwork, 100+ запущених сайтів, акцент на швидкості, чистому коді та довготривалій підтримці.',
+          },
         ],
       },
     ],
   },
   {
     slug: 'why-your-business-needs-nextjs',
-    title: 'Why Your Business Needs a High-Performance Next.js Website',
-    excerpt:
-      'Slow websites lose customers before they even see your offer. Here is why Next.js is the smart choice for business growth.',
     date: '2026-03-15',
-    readTime: '5 min',
-    tags: ['Next.js', 'Performance', 'Business'],
+    title: {
+      en: 'Why Your Business Needs a High-Performance Next.js Website',
+      ua: 'Чому вашому бізнесу потрібен високопродуктивний сайт на Next.js',
+    },
+    excerpt: {
+      en: 'Slow websites lose customers before they even see your offer. Here is why Next.js is the smart choice for business growth.',
+      ua: 'Повільні сайти втрачають клієнтів ще до того, як вони побачать пропозицію. Чому Next.js — розумний вибір для зростання бізнесу.',
+    },
+    readTime: {
+      en: '5 min read',
+      ua: '5 хв читання',
+    },
+    tags: {
+      en: ['Next.js', 'Performance', 'Business'],
+      ua: ['Next.js', 'Продуктивність', 'Бізнес'],
+    },
     content: [
       {
         paragraphs: [
-          'Your website is often the first impression potential clients get. If it loads slowly, looks outdated on mobile, or breaks during traffic spikes, you lose trust — and revenue — before a conversation even starts.',
-          'Next.js gives you a modern foundation: fast page loads, SEO-friendly rendering, and a stack that scales from landing pages to full product platforms.',
+          {
+            en: 'Your website is often the first impression potential clients get. If it loads slowly, looks outdated on mobile, or breaks during traffic spikes, you lose trust and revenue.',
+            ua: 'Ваш сайт — це перше враження для потенційних клієнтів. Якщо він повільно завантажується або виглядає застарілим на мобільному, ви втрачаєте замовлення.',
+          },
+          {
+            en: 'Next.js gives you a modern foundation: fast page loads, SEO-friendly rendering, and a stack that scales from landing pages to full product platforms.',
+            ua: 'Next.js дає сучасну основу: миттєве завантаження сторінок, чудове SEO та можливість легко масштабувати проєкт у майбутньому.',
+          },
         ],
       },
       {
-        heading: 'What you gain with Next.js',
+        heading: {
+          en: 'What you gain with Next.js',
+          ua: 'Переваги розробки на Next.js',
+        },
         paragraphs: [],
         list: [
-          'Faster load times that improve conversion rates and search rankings',
-          'Server-side rendering and static generation for better SEO',
-          'A maintainable codebase that grows with your product',
-          'Smooth mobile experience — where most of your traffic lives',
+          {
+            en: 'Faster load times that improve conversion rates and search rankings',
+            ua: 'Висока швидкість завантаження, що підвищує конверсію та позиції в Google',
+          },
+          {
+            en: 'Server-side rendering and static generation for better SEO',
+            ua: 'Серверний рендеринг (SSR) та генерація статики (SSG) для ідеального SEO',
+          },
+          {
+            en: 'A maintainable codebase that grows with your product',
+            ua: 'Чиста та надійна кодова база, яку легко розвивати та підтримувати',
+          },
+          {
+            en: 'Smooth mobile experience — where most of your traffic lives',
+            ua: 'Бездоганна робота на мобільних пристроях',
+          },
         ],
       },
       {
-        heading: 'When it makes sense to invest',
+        heading: {
+          en: 'When it makes sense to invest',
+          ua: 'Коли варто інвестувати у Next.js',
+        },
         paragraphs: [
-          'If you are launching a new product, redesigning an outdated site, or struggling with poor Core Web Vitals scores, a Next.js rebuild pays off quickly. Clients typically see measurable improvements in bounce rate and lead quality within weeks of launch.',
-          'I help businesses move from slow WordPress themes or legacy React apps to lean, high-performance Next.js products — without disrupting your live operations.',
+          {
+            en: 'If you are launching a new product, redesigning an outdated site, or struggling with poor performance scores, a Next.js rebuild pays off quickly.',
+            ua: 'Якщо ви запускаєте новий продукт, робите редизайн або маєте проблеми зі швидкістю на старому сайті — перехід на Next.js швидко виправдовує інвестиції.',
+          },
+          {
+            en: 'I help businesses move from slow themes to lean, high-performance Next.js products — without disrupting your live operations.',
+            ua: 'Я допомагаю бізнесу переходити зі повільних шаблонів на швидкі веб-проєкти Next.js без зупинки поточних продажів.',
+          },
         ],
       },
     ],
   },
   {
     slug: 'how-to-choose-frontend-developer',
-    title: 'How to Choose the Right Frontend Developer for Your Project',
-    excerpt:
-      'Not all developers deliver the same value. A practical checklist for founders and product owners hiring for web projects.',
     date: '2026-03-08',
-    readTime: '6 min',
-    tags: ['Hiring', 'Freelance', 'Tips'],
+    title: {
+      en: 'How to Choose the Right Frontend Developer for Your Project',
+      ua: 'Як обрати правильного Frontend-розробника для вашого проєкту',
+    },
+    excerpt: {
+      en: 'Not all developers deliver the same value. A practical checklist for founders and product owners hiring for web projects.',
+      ua: 'Не всі розробники дають однаковий результат. Практичний чекліст для засновників та власників продуктів.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Hiring', 'Freelance', 'Tips'],
+      ua: ['Найм', 'Фриланс', 'Поради'],
+    },
     content: [
       {
         paragraphs: [
-          'Hiring a web developer is one of the highest-impact decisions for your digital product. The wrong choice costs months of rework; the right one accelerates everything — from launch timeline to long-term maintenance.',
+          {
+            en: 'Hiring a web developer is one of the highest-impact decisions for your digital product. The wrong choice costs months of rework; the right one accelerates launch and maintenance.',
+            ua: 'Найм веб-розробника — це відповідальне рішення. Помилка може коштувати місяців переробок, а правильний вибір прискорює запуск та економить кошти.',
+          },
         ],
       },
       {
-        heading: 'Look beyond the portfolio screenshot',
+        heading: {
+          en: 'Look beyond the portfolio screenshot',
+          ua: 'Дивіться глибше за гарні скріншоти',
+        },
         paragraphs: [
-          'Ask how the project performs today, not just how it looked on launch day. Can they explain architecture decisions? Do they mention accessibility, performance budgets, or deployment strategy?',
+          {
+            en: 'Ask how the project performs today, not just how it looked on launch day. Do they mention accessibility, performance budgets, or deployment strategy?',
+            ua: 'Поцікавтеся, як працює проєкт зараз, а не лише тим, як він виглядав у макеті. Чи враховує розробник швидкість, адаптивність та безпеку?',
+          },
         ],
         list: [
-          'Clear communication and proactive updates during the project',
-          'Experience with your stack (React, Next.js, TypeScript)',
-          'Proof of shipped, live products — not just mockups',
-          'Willingness to sign an NDA and work within your timezone',
-          'A mindset for long-term support, not one-off delivery',
-        ],
-      },
-      {
-        heading: 'Red flags to watch for',
-        paragraphs: [
-          'Vague estimates, no questions about your business goals, or reluctance to do a video call are warning signs. A senior developer will challenge assumptions, suggest better approaches, and document what they build.',
-          'On platforms like Upwork, look at total hours, repeat clients, and detailed reviews — not just a top rating.',
+          {
+            en: 'Clear communication and proactive updates during the project',
+            ua: 'Прозора комунікація та регулярні звіти про хід роботи',
+          },
+          {
+            en: 'Experience with your stack (React, Next.js, TypeScript)',
+            ua: 'Досвід у потрібних технологіях (React, Next.js, TypeScript)',
+          },
+          {
+            en: 'Proof of shipped, live products — not just mockups',
+            ua: 'Реальні запущені сайти, якими можна скористатися',
+          },
+          {
+            en: 'Willingness to sign an NDA and work within your timezone',
+            ua: 'Готовність підписати NDA та працювати у зручному часовому поясі',
+          },
+          {
+            en: 'A mindset for long-term support, not one-off delivery',
+            ua: 'Орієнтація на довгострокову підтримку та партнерство',
+          },
         ],
       },
     ],
   },
   {
     slug: 'core-web-vitals-and-revenue',
-    title: 'Core Web Vitals: Why Website Speed Directly Affects Revenue',
-    excerpt:
-      'Google measures user experience — and so do your customers. Learn how performance metrics tie to real business outcomes.',
     date: '2026-02-22',
-    readTime: '4 min',
-    tags: ['Performance', 'SEO', 'Core Web Vitals'],
+    title: {
+      en: 'Core Web Vitals: Why Website Speed Directly Affects Revenue',
+      ua: 'Core Web Vitals: Чому швидкість сайту напряму впливає на прибуток',
+    },
+    excerpt: {
+      en: 'Google measures user experience — and so do your customers. Learn how performance metrics tie to real business outcomes.',
+      ua: 'Google оцінює зручність сайту для користувачів — і ваші клієнти теж. Як показники швидкості впливають на продажі.',
+    },
+    readTime: {
+      en: '4 min read',
+      ua: '4 хв читання',
+    },
+    tags: {
+      en: ['Performance', 'SEO', 'Core Web Vitals'],
+      ua: ['Продуктивність', 'SEO', 'Core Web Vitals'],
+    },
     content: [
       {
         paragraphs: [
-          'Core Web Vitals (LCP, INP, CLS) are Google\'s way of scoring how real users experience your site. Poor scores mean lower search visibility and frustrated visitors who leave before converting.',
+          {
+            en: 'Core Web Vitals (LCP, INP, CLS) are Google\'s metrics for user experience. Poor scores mean lower search visibility and frustrated visitors who leave before converting.',
+            ua: 'Core Web Vitals — це показники Google для оцінки зручності сайту. Низькі бали призводять до падіння позицій у пошуку та втрати клієнтів.',
+          },
         ],
       },
       {
-        heading: 'The business impact',
+        heading: {
+          en: 'The business impact',
+          ua: 'Вплив на бізнес-результати',
+        },
         paragraphs: [
-          'Studies consistently show that every second of delay increases bounce rate. For e-commerce and SaaS, that translates directly into lost signups and sales. Speed is not a technical nice-to-have — it is a revenue lever.',
+          {
+            en: 'Studies consistently show that every second of delay increases bounce rate. Speed is not a technical nice-to-have — it is a revenue lever.',
+            ua: 'Дослідження доводять: кожна секунда затримки підвищує відсоток відмов. Швидкість сайту — це важіль вашого прибутку.',
+          },
         ],
         list: [
-          'Largest Contentful Paint (LCP): how fast main content appears',
-          'Interaction to Next Paint (INP): how responsive the site feels',
-          'Cumulative Layout Shift (CLS): visual stability while loading',
-        ],
-      },
-      {
-        heading: 'What a performance-focused developer does',
-        paragraphs: [
-          'Optimizing images, lazy-loading non-critical assets, reducing JavaScript bundles, and choosing the right rendering strategy are not buzzwords — they are the work that moves the needle.',
-          'I audit existing sites and build new ones with performance budgets from day one, so you do not pay twice to fix speed issues after launch.',
+          {
+            en: 'Largest Contentful Paint (LCP): how fast main content appears',
+            ua: 'Largest Contentful Paint (LCP): швидкість появи основного контенту',
+          },
+          {
+            en: 'Interaction to Next Paint (INP): how responsive the site feels',
+            ua: 'Interaction to Next Paint (INP): швидкість відгуку на кліки',
+          },
+          {
+            en: 'Cumulative Layout Shift (CLS): visual stability while loading',
+            ua: 'Cumulative Layout Shift (CLS): стабільність макету під час завантаження',
+          },
         ],
       },
     ],
   },
   {
     slug: 'react-vs-wordpress-for-business',
-    title: 'React vs WordPress: What Is Better for Your Business Website?',
-    excerpt:
-      'WordPress is familiar; React is flexible. Here is an honest comparison to help you pick the right platform.',
     date: '2026-02-10',
-    readTime: '5 min',
-    tags: ['React', 'WordPress', 'Strategy'],
+    title: {
+      en: 'React vs WordPress: What Is Better for Your Business Website?',
+      ua: 'React проти WordPress: Що краще обрати для сайту вашого бізнесу?',
+    },
+    excerpt: {
+      en: 'WordPress is familiar; React is flexible. Here is an honest comparison to help you pick the right platform.',
+      ua: 'WordPress звичний, а React дає повну гнучкість. Чесне порівняння, яке допоможе обрати правильну платформу.',
+    },
+    readTime: {
+      en: '5 min read',
+      ua: '5 хв читання',
+    },
+    tags: {
+      en: ['React', 'WordPress', 'Strategy'],
+      ua: ['React', 'WordPress', 'Стратегія'],
+    },
     content: [
       {
         paragraphs: [
-          'WordPress powers a huge share of the web — and for good reason. It is fast to set up for simple blogs and brochure sites. But when your needs grow beyond templates and plugins, its limitations show up quickly.',
+          {
+            en: 'WordPress powers a huge share of the web. It is fast to set up for simple sites. But when your needs grow beyond templates and plugins, its limitations show up quickly.',
+            ua: 'WordPress популярний і підходить для простих блогів. Але коли бізнес виростає з готових шаблонів та плагінів, обмеження платформи стають очевидними.',
+          },
         ],
       },
       {
-        heading: 'When WordPress still makes sense',
+        heading: {
+          en: 'When React / Next.js is the better investment',
+          ua: 'Коли React / Next.js є кращою інвестицією',
+        },
         paragraphs: [],
         list: [
-          'Small content sites with minimal custom functionality',
-          'Teams that need non-technical editors updating pages daily',
-          'Tight budgets and no plans to scale features',
-        ],
-      },
-      {
-        heading: 'When React / Next.js is the better investment',
-        paragraphs: [],
-        list: [
-          'Custom dashboards, booking flows, or user accounts',
-          'Integrations with APIs, CRMs, or payment systems',
-          'Performance and security requirements plugins cannot meet',
-          'A product roadmap that will evolve over years',
-        ],
-      },
-      {
-        heading: 'The hybrid path',
-        paragraphs: [
-          'Many clients start on WordPress and migrate once they outgrow it. I help plan that transition so you keep SEO equity and avoid downtime. The goal is always the right tool for where your business is heading — not where it was three years ago.',
+          {
+            en: 'Custom dashboards, booking flows, or user accounts',
+            ua: 'Кастомні кабінети, системи бронювання або високі навантаження',
+          },
+          {
+            en: 'Integrations with APIs, CRMs, or payment systems',
+            ua: 'Складні інтеграції з API, CRM або платіжними системами',
+          },
+          {
+            en: 'Performance and security requirements plugins cannot meet',
+            ua: 'Вимоги до швидкості та безпеки, які не гарантують плагіни',
+          },
+          {
+            en: 'A product roadmap that will evolve over years',
+            ua: 'Довгострокові плани розвитку цифрового продукту',
+          },
         ],
       },
     ],
   },
   {
     slug: 'working-with-freelance-web-developer',
-    title: 'What to Expect When Working with a Freelance Web Developer',
-    excerpt:
-      'A transparent look at the process — from first call to launch and ongoing support — so you know exactly what you are signing up for.',
     date: '2026-01-28',
-    readTime: '5 min',
-    tags: ['Process', 'Collaboration', 'Freelance'],
+    title: {
+      en: 'What to Expect When Working with a Freelance Web Developer',
+      ua: 'Чого очікувати від співпраці з фриланс веб-розробником',
+    },
+    excerpt: {
+      en: 'A transparent look at the process — from first call to launch and ongoing support — so you know exactly what you are signing up for.',
+      ua: 'Прозорий огляд процесу розробки — від першого дзвінка до запуску та підтримки.',
+    },
+    readTime: {
+      en: '5 min read',
+      ua: '5 хв читання',
+    },
+    tags: {
+      en: ['Process', 'Collaboration', 'Freelance'],
+      ua: ['Процес', 'Співпраця', 'Фриланс'],
+    },
     content: [
       {
         paragraphs: [
-          'Working with a freelancer should feel like adding a senior team member, not managing an agency black box. Here is how I structure projects so clients stay informed and in control.',
+          {
+            en: 'Working with a freelancer should feel like adding a senior team member. Here is how I structure projects so clients stay informed and in control.',
+            ua: 'Співпраця з фрилансером має відчуватися як залучення досвідченого члена команди. Ось як я структурую роботу для комфорту та контролю клієнта.',
+          },
         ],
       },
       {
-        heading: 'Typical project flow',
+        heading: {
+          en: 'Typical project flow',
+          ua: 'Типовий процес розробки',
+        },
         paragraphs: [],
         list: [
-          'Discovery call — goals, timeline, tech constraints, and budget alignment',
-          'Scope document — clear deliverables, milestones, and communication channels',
-          'Design & build — iterative updates with regular demos (video calls welcome)',
-          'QA & launch — cross-browser testing, performance check, deployment',
-          'Post-launch support — bug fixes, improvements, and scaling as you grow',
-        ],
-      },
-      {
-        heading: 'How I keep collaboration smooth',
-        paragraphs: [
-          'Fast response times, written summaries after calls, and access to staging environments so you can review progress anytime. NDA and direct communication via email, Telegram, or WhatsApp — no middlemen.',
-          'With 4,200+ hours on Upwork and 100+ launched projects, I have seen what derails projects (unclear requirements, scope creep without documentation) and what makes them succeed (trust, consistency, and a developer who thinks like a product partner).',
+          {
+            en: 'Discovery call — goals, timeline, tech constraints, and budget alignment',
+            ua: 'Перший дзвінок — обговорення цілей, термінів, технологій та бюджету',
+          },
+          {
+            en: 'Scope document — clear deliverables, milestones, and communication channels',
+            ua: 'ТЗ та етапи — фіксація завдань, результатів та каналів зв\'язку',
+          },
+          {
+            en: 'Design & build — iterative updates with regular demos',
+            ua: 'Розробка — регулярні демонстрації та проміжні звіти',
+          },
+          {
+            en: 'QA & launch — cross-browser testing, performance check, deployment',
+            ua: 'Тестування та запуск — перевірка на пристроях, оптимізація та реліз',
+          },
+          {
+            en: 'Post-launch support — bug fixes, improvements, and scaling as you grow',
+            ua: 'Підтримка після запуску — усунення зауважень та розвиток проекту',
+          },
         ],
       },
     ],
   },
 ]
 
+export function getBlogPost(slug: string, lang: 'en' | 'ua' = 'en'): BlogPost | undefined {
+  const raw = rawBlogPosts.find((post) => post.slug === slug)
+  if (!raw) return undefined
+
+  return {
+    slug: raw.slug,
+    date: raw.date,
+    title: raw.title[lang] || raw.title.en,
+    excerpt: raw.excerpt[lang] || raw.excerpt.en,
+    readTime: raw.readTime[lang] || raw.readTime.en,
+    tags: raw.tags[lang] || raw.tags.en,
+    content: raw.content.map((sec) => ({
+      heading: sec.heading ? sec.heading[lang] || sec.heading.en : undefined,
+      paragraphs: sec.paragraphs.map((p) => p[lang] || p.en),
+      list: sec.list ? sec.list.map((l) => l[lang] || l.en) : undefined,
+    })),
+  }
+}
+
 export const BLOG_POSTS_PER_PAGE = 4
 
 export function getBlogPageCount(): number {
-  return Math.ceil(blogPosts.length / BLOG_POSTS_PER_PAGE)
+  return Math.ceil(rawBlogPosts.length / BLOG_POSTS_PER_PAGE)
 }
 
-export function getBlogPostsForPage(page: number): BlogPost[] {
+export function getBlogPostsForPage(page: number, lang: 'en' | 'ua' = 'en'): BlogPost[] {
   const start = (page - 1) * BLOG_POSTS_PER_PAGE
-  return blogPosts.slice(start, start + BLOG_POSTS_PER_PAGE)
+  return rawBlogPosts.slice(start, start + BLOG_POSTS_PER_PAGE).map((raw) => getBlogPost(raw.slug, lang)!)
 }
 
-export function getBlogPagePath(page: number): string {
-  return page === 1 ? '/blog/' : `/blog/page/${page}/`
-}
-
-export function getBlogPost(slug: string): BlogPost | undefined {
-  return blogPosts.find((post) => post.slug === slug)
+export function getBlogPagePath(page: number, lang: 'en' | 'ua' = 'en'): string {
+  const prefix = lang === 'ua' ? '/ua' : ''
+  return page === 1 ? `${prefix}/blog/` : `${prefix}/blog/page/${page}/`
 }
 
 export function getAllBlogSlugs(): string[] {
-  return blogPosts.map((post) => post.slug)
+  return rawBlogPosts.map((post) => post.slug)
 }
+
+// Fallback legacy blogPosts array for backward compatibility
+export const blogPosts: BlogPost[] = rawBlogPosts.map((raw) => getBlogPost(raw.slug, 'en')!)

@@ -1,14 +1,19 @@
+'use client'
+
 import type { ReactNode } from 'react'
 import { WhatsAppIcon } from './Icons'
+import { useLanguage } from '@/context/LanguageContext'
+import { translations } from '@/data/translations'
 
 export type ContactItem = {
   icon: ReactNode
-  label: string
-  value: string
+  key: 'email' | 'location' | 'upwork' | 'telegram' | 'whatsapp' | 'linkedin'
+  valueKey?: 'locationValue' | 'viewProfile' | 'connect'
+  rawVal?: string
   link: string | null
 }
 
-export const contactItems: ContactItem[] = [
+const contactItemDefs: ContactItem[] = [
   {
     icon: (
       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
@@ -16,8 +21,8 @@ export const contactItems: ContactItem[] = [
         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
       </svg>
     ),
-    label: 'Email',
-    value: 'i.vynnychenko@gmail.com',
+    key: 'email',
+    rawVal: 'i.vynnychenko@gmail.com',
     link: 'mailto:i.vynnychenko@gmail.com',
   },
   {
@@ -30,8 +35,8 @@ export const contactItems: ContactItem[] = [
         />
       </svg>
     ),
-    label: 'Location',
-    value: 'Kyiv, Ukraine',
+    key: 'location',
+    valueKey: 'locationValue',
     link: null,
   },
   {
@@ -44,8 +49,8 @@ export const contactItems: ContactItem[] = [
         />
       </svg>
     ),
-    label: 'Upwork',
-    value: 'View Profile',
+    key: 'upwork',
+    valueKey: 'viewProfile',
     link: 'https://www.upwork.com/freelancers/irynavynnychenko',
   },
   {
@@ -54,14 +59,14 @@ export const contactItems: ContactItem[] = [
         <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
       </svg>
     ),
-    label: 'Telegram',
-    value: '+380931844615',
+    key: 'telegram',
+    rawVal: '+380931844615',
     link: 'https://telegram.me/+380931844615',
   },
   {
     icon: <WhatsAppIcon />,
-    label: 'WhatsApp',
-    value: '+380931844615',
+    key: 'whatsapp',
+    rawVal: '+380931844615',
     link: 'https://wa.me/380931844615',
   },
   {
@@ -70,8 +75,8 @@ export const contactItems: ContactItem[] = [
         <path d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" />
       </svg>
     ),
-    label: 'LinkedIn',
-    value: 'Connect with me',
+    key: 'linkedin',
+    valueKey: 'connect',
     link: 'https://www.linkedin.com/in/iryna-vynnychenko-287202141/',
   },
 ]
@@ -82,40 +87,49 @@ type ContactInfoProps = {
 }
 
 export default function ContactInfo({
-  title = 'Contact Information',
+  title,
   description,
 }: ContactInfoProps) {
+  const { language } = useLanguage()
+  const labels = translations[language].contact.labels
+  const defaultTitle = translations[language].contact.infoTitle
+
   return (
     <div>
-      <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{title}</h3>
+      <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{title || defaultTitle}</h3>
       {description && (
         <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">{description}</p>
       )}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {contactItems.map((info) => (
-          <div key={info.label} className="flex items-center space-x-4">
-            <div className="flex-shrink-0 w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400">
-              {info.icon}
+        {contactItemDefs.map((info) => {
+          const labelText = labels[info.key]
+          const displayValue = info.rawVal || (info.valueKey ? labels[info.valueKey] : '')
+
+          return (
+            <div key={info.key} className="flex items-center space-x-4">
+              <div className="flex-shrink-0 w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400">
+                {info.icon}
+              </div>
+              <div>
+                <p className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide font-medium">
+                  {labelText}
+                </p>
+                {info.link ? (
+                  <a
+                    href={info.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors text-sm"
+                  >
+                    {displayValue}
+                  </a>
+                ) : (
+                  <p className="text-gray-900 dark:text-white text-sm">{displayValue}</p>
+                )}
+              </div>
             </div>
-            <div>
-              <p className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide font-medium">
-                {info.label}
-              </p>
-              {info.link ? (
-                <a
-                  href={info.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors text-sm"
-                >
-                  {info.value}
-                </a>
-              ) : (
-                <p className="text-gray-900 dark:text-white text-sm">{info.value}</p>
-              )}
-            </div>
-          </div>
-        ))}
+          )
+        })}
       </div>
     </div>
   )
