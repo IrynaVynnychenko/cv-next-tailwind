@@ -37,6 +37,172 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'how-to-contact-me-and-ordering-options',
+    date: '2026-07-22',
+    title: {
+      en: 'How to Contact Me and Ordering Options: Complete Client Cooperation Guide',
+      ua: 'Як зі мною зв’язатися та які є можливості замовлення: Повний гайд для клієнтів',
+    },
+    excerpt: {
+      en: 'A detailed overview of contact channels, service offerings (turnkey web apps, Figma to Code, optimization & support), project estimation steps, and collaboration formats.',
+      ua: 'Детальний огляд способів зв’язку, видів послуг (вебдодатки під ключ, верстка Figma, оптимізація та підтримка), етапів оцінки та форматів замовлення проєктів.',
+    },
+    readTime: {
+      en: '5 min read',
+      ua: '5 хв читання',
+    },
+    tags: {
+      en: ['Contact', 'Services', 'Cooperation', 'Freelance', 'Ordering'],
+      ua: ['Контакти', 'Послуги', 'Співпраця', 'Фриланс', 'Замовлення'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Building a high-quality website or web application starts with clear, simple communication. If you need a Senior Web & Frontend Developer with 8+ years of production experience (4,200+ Upwork hours, 100+ launched projects) handling full-cycle React / Next.js development, this guide explains how to get in touch, what ordering options exist, and how project evaluation works.',
+            ua: 'Створення якісного вебсайту чи додатку починається з простого та зрозумілого першого контакту. Якщо вам потрібен веброзробник Senior-рівня з досвідом понад 8 років (4 200+ годин на Upwork, 100+ успішних проєктів), який бере на себе повний цикл фронтенд-розробки на React / Next.js — ця стаття допоможе зрозуміти, як швидко почати співпрацю, які формати замовлень доступні та як відбувається процес оцінки й розробки.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Convenient Contact Channels',
+          ua: '1. Зручні канали зв’язку',
+        },
+        paragraphs: [
+          {
+            en: 'You can choose the communication channel that suits you best. I am responsive during business hours and ready to discuss your inquiry quickly:',
+            ua: 'Ви можете обрати найзручніший для вас спосіб комунікації. Я завжди на зв’язку у робочі дні та оперативно відповідаю на ваші повідомлення:',
+          },
+        ],
+        list: [
+          {
+            en: 'Email: Primary channel for detailed technical specifications, project files, and initial reviews (i.vynnychenko@gmail.com).',
+            ua: 'Email: Основний канал для офіційних ТЗ, надсилання файлів та первинної оцінки (i.vynnychenko@gmail.com).',
+          },
+          {
+            en: 'Upwork Profile: Ideal for secure international contracting with escrow protection, hourly tracking, and verified reviews.',
+            ua: 'Профіль на Upwork: Найкращий варіант для безпечної контрактної співпраці через міжнародну платформу із захистом угод (Escrow / Hourly Tracker).',
+          },
+          {
+            en: 'Telegram & WhatsApp: Perfect for quick questions, fast async syncs, and real-time project updates.',
+            ua: 'Telegram та WhatsApp: Ідеально для швидких обговорень, уточнюючих питань та оперативного зв’язку в режимі реального часу.',
+          },
+          {
+            en: 'LinkedIn: For professional networking, recommendation reviews, and checking career history.',
+            ua: 'LinkedIn: Для професійного зв’язку, перегляду рекомендацій та ознайомлення з кар’єрним шляхом.',
+          },
+          {
+            en: 'Direct Contact Form: Located at the bottom of every page on this website for one-click outreach.',
+            ua: 'Форма зворотного зв’язку на сайті: Розділ «Контакти» внизу кожної сторінки дозволяє швидко відправити повідомлення в один клік.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Key Services & Ordering Possibilities',
+          ua: '2. Основні послуги та напрямки замовлень',
+        },
+        paragraphs: [
+          {
+            en: 'Depending on your business needs and current product stage, you can order full-cycle development or specialized technical solutions:',
+            ua: 'Залежно від стадії вашого продукту та потреб бізнесу, ви можете замовити як повний цикл розробки з нуля, так і окремі спеціалізовані послуги:',
+          },
+        ],
+        list: [
+          {
+            en: 'Full-Cycle Web & Application Development (Next.js / React): From architecture design and responsive coding to SSR/SSG setup, SEO optimization, API integrations, and production server deployment (Vercel, AWS, VPS).',
+            ua: 'Розробка сайтів та вебдодатків «під ключ» (Full-Cycle Next.js / React): Від опрацювання структури й адаптивної верстки до налаштування SSR/SSG, SEO-оптимізації, підключення API та деплою на сервер (Vercel, AWS, VPS).',
+          },
+          {
+            en: 'Figma to Code (Pixel-Perfect Conversion): Exact, high-fidelity translation of your Figma mockups into clean TypeScript and Tailwind CSS code with smooth micro-interactions (GSAP / Framer Motion).',
+            ua: 'Перенесення дизайну з Figma у живий код (Figma to Code / Pixel Perfect): Точне відтворення ваших макетів з Figma у чистий TypeScript / Tailwind CSS код із бездоганною мобільною версткою та анімаціями (GSAP / Framer Motion).',
+          },
+          {
+            en: 'Performance Optimization & Core Web Vitals Audit: Speeding up existing React/Next.js platforms, resolving layout issues, and elevating Google PageSpeed metrics to the green zone.',
+            ua: 'Рефакторинг, оптимізація та Core Web Vitals: Покращення швидкості завантаження наявних React/Next.js сайтів, виправлення помилок верстки, підтягування показників Google PageSpeed до «зеленої зони».',
+          },
+          {
+            en: 'Long-Term Support & Feature Iterations (Maintenance): Iterative feature rollouts, package updates, performance monitoring, and prompt bug fixes.',
+            ua: 'Довгострокова підтримка та доопрацювання (Maintenance): Регулярне додавання нових фіч, підтримка актуальності бібліотек, моніторинг та оперативне виправлення зауважень.',
+          },
+          {
+            en: 'Technical Code Audit & Consulting: Architecture evaluation of existing codebases before scaling teams or launching major updates.',
+            ua: 'Консультація та технічний аудит коду: Оцінка архітектури наявного проєкту перед розширенням команди або перед великим релізом.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Flexible Cooperation Formats',
+          ua: '3. Гнучкі формати співпраці',
+        },
+        paragraphs: [
+          {
+            en: 'To ensure maximum predictability and convenience for clients worldwide, I offer flexible cooperation frameworks tailored to your project goals:',
+            ua: 'Для максимальної прозорості та зручності ми можемо обрати один із трьох зручних форматів роботи:',
+          },
+        ],
+        list: [
+          {
+            en: 'Fixed Price (Milestone-based): Best for projects with clear specifications. Budget and timelines are locked upfront before development begins.',
+            ua: 'Fixed Price (Фіксована ціна за проєкт або етап): Ідеально підходить для проєктів з чітким ТЗ. Бюджет і терміни погоджуються до початку розробки.',
+          },
+          {
+            en: 'Hourly Rate: Optimal choice for dynamic projects where task scope evolves during development. Work is strictly based on tracked development hours.',
+            ua: 'Hourly Rate (Погодинна оплата): Оптимально для гнучких проєктів із завданнями, що змінюються в процесі. Розрахунок здійснюється за фактично відпрацьовані години.',
+          },
+          {
+            en: 'Monthly Retainer: Dedicated developer hours reserved each month for continuous maintenance, feature rollouts, and priority support.',
+            ua: 'Monthly Retainer (Щомісячна підтримка): Фіксований обсяг годин на місяць для стабільного розвитку продукту та пріоритетної підтримки.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Step-by-Step Project Order Roadmap',
+          ua: '4. Етапи замовлення та розробки проєкту',
+        },
+        paragraphs: [
+          {
+            en: 'Here is how your project goes from initial message to a fully published product:',
+            ua: 'Ось як ваш проєкт проходить шлях від першого повідомлення до працюючого продукту:',
+          },
+        ],
+        list: [
+          {
+            en: 'Step 1. Initial Contact: Send your project outline, Figma design links, or existing website URL.',
+            ua: 'Крок 1. Первинний контакт: Ви надсилаєте опис задачі, макети Figma чи посилання на поточний сайт.',
+          },
+          {
+            en: 'Step 2. Discovery & Estimation: Short sync or async text Q&A to review details, followed by a formal price and timeline estimate.',
+            ua: 'Крок 2. Обговорення та оцінка: Проводимо короткий зідзвон або текстове обговорення, уточнюємо деталі й готуємо попередній розрахунок вартості та термінів.',
+          },
+          {
+            en: 'Step 3. Agreement & NDA: Finalize collaboration format (Fixed or Hourly), establish milestones, and sign an NDA if required.',
+            ua: 'Крок 3. Узгодження умов та NDA: Узгоджуємо формат (Fixed Price чи Hourly), етапи (milestones), за потреби підписуємо угоду про нерозголошення (NDA).',
+          },
+          {
+            en: 'Step 4. Iterative Development & Staging Demos: Work proceeds with regular preview links on a staging server so you keep full visibility.',
+            ua: 'Крок 4. Ітеративна розробка: Я демонструю проміжні результати на тестовому домені (Staging), ви маєте повний контроль над процесом.',
+          },
+          {
+            en: 'Step 5. Design QA, Deployment & Guarantee Support: Cross-device testing on real mobile hardware, deployment to production domain, and warranty support.',
+            ua: 'Крок 5. Тестування, деплой та підтримка: Фінальне тестування на різних смартфонах і браузерах, перенесення на основний домен та надання гарантійної підтримки.',
+          },
+        ],
+      },
+      {
+        paragraphs: [
+          {
+            en: 'Ready to launch your project or want to estimate development scope? Send me a message using the form below or pick your preferred channel — let’s build a high-performance web product together!',
+            ua: 'Готові обговорити ваш проєкт або бажаєте оцінити обсяг розробки? Напишіть мені через форму нижче або оберіть зручний месенджер — і ми створимо швидкий, надійний та сучасний вебпродукт!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'multicultural-client-collaboration-and-communication',
     date: '2026-07-22',
     title: {

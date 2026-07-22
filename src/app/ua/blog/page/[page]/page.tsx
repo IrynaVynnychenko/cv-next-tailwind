@@ -10,9 +10,10 @@ type BlogPageProps = {
 }
 
 export function generateStaticParams() {
-  const pageCount = getBlogPageCount()
-  return Array.from({ length: pageCount }, (_, i) => ({
-    page: String(i + 1),
+  const totalPages = getBlogPageCount()
+
+  return Array.from({ length: Math.max(totalPages - 1, 0) }, (_, index) => ({
+    page: String(index + 2),
   }))
 }
 
@@ -20,7 +21,7 @@ export default function UaBlogPaginationPage({ params }: BlogPageProps) {
   const pageNumber = parseInt(params.page, 10)
   const totalPages = getBlogPageCount()
 
-  if (isNaN(pageNumber) || pageNumber < 1 || pageNumber > totalPages) {
+  if (isNaN(pageNumber) || pageNumber < 2 || pageNumber > totalPages) {
     notFound()
   }
 
