@@ -130,8 +130,8 @@ export const translations = {
             'https://massageschool.com.ua/ - Ukrainian Massage School & Training Center',
             'https://niunkina.com/ - Business website for German cosmetologist (Next.js + TailwindCSS)',
             'https://plowguys.com/ - Snow & ice management website (Webflow)',
-            'https://wellwheel.com.ua/ - Taxi service website for Kyiv drivers',
-            'https://www.8host.com/en/ - Cloud hosting platform for VPS/VDS services',
+            'https://franchise.plowguys.com/ - Commercial snow & ice franchise landing page',
+            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Interactive React dashboard built from Figma',
           ],
         },
         {
@@ -396,8 +396,8 @@ export const translations = {
             'https://massageschool.com.ua/ - Українська Школа Масажу та навчальний центр',
             'https://niunkina.com/ - Вебсайт для німецького косметолога (Next.js + TailwindCSS)',
             'https://plowguys.com/ - Сайт компанії зі снігоприбирання (Webflow)',
-            'https://wellwheel.com.ua/ - Сайт служб таксі для водіїв Києва',
-            'https://www.8host.com/en/ - Хмарна хостинг-платформа для VPS/VDS послуг',
+            'https://franchise.plowguys.com/ - Лендинг франшизи з прибирання снігу',
+            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Інтерактивний React-дашборд з Figma',
           ],
         },
         {
