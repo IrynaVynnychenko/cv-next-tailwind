@@ -114,7 +114,7 @@ export const translations = {
       keyProjects: 'Key Projects:',
       items: [
         {
-          title: 'Frontend Web Engineer',
+          title: 'Frontend Web Developer',
           company: 'Upwork',
           period: '2018 - Present',
           description: 'Freelance senior frontend engineer on Upwork — full-cycle delivery from design to live product. High-performance React/Next.js apps, product engineering, NDA-ready for secure projects, and long-term collaboration with clients worldwide.',
@@ -135,7 +135,7 @@ export const translations = {
           ],
         },
         {
-          title: 'Frontend Web Engineer',
+          title: 'Frontend Web Developer',
           company: 'ETNA Network',
           period: 'Apr 2021 - Jul 2022',
           description: 'Frontend development for a DeFi, gaming, and NFT ecosystem with interconnected products across blockchain and web3.',
@@ -148,7 +148,7 @@ export const translations = {
           projects: [],
         },
         {
-          title: 'Frontend Web Engineer',
+          title: 'Frontend Web Developer',
           company: 'LexStatus',
           period: 'Feb 2019 - Nov 2020',
           description: 'Frontend development for a legal services company specializing in real estate documentation and property assessment in Ukraine.',
@@ -380,7 +380,7 @@ export const translations = {
       keyProjects: 'Ключові проєкти:',
       items: [
         {
-          title: 'Frontend Web Engineer',
+          title: 'Frontend Web Developer',
           company: 'Upwork',
           period: '2018 - Дотепер',
           description: 'Senior frontend розробник-фрилансер на Upwork — повний цикл розробки від дизайну до релізу. Високопродуктивні React/Next.js додатки, продуктова інженерія, готовність до роботи під NDA (NDA-ready) для безпечних проєктів та довгострокова співпраця з клієнтами по всьому світу.',
@@ -401,7 +401,7 @@ export const translations = {
           ],
         },
         {
-          title: 'Frontend Web Engineer',
+          title: 'Frontend Web Developer',
           company: 'ETNA Network',
           period: 'Кві 2021 - Лип 2022',
           description: 'Frontend-розробка для DeFi, геймінгу та NFT-екосистеми з взаємопов’язаними продуктами у сферах blockchain та web3.',
@@ -414,7 +414,7 @@ export const translations = {
           projects: [],
         },
         {
-          title: 'Frontend Web Engineer',
+          title: 'Frontend Web Developer',
           company: 'LexStatus',
           period: 'Лют 2019 - Лис 2020',
           description: 'Frontend-розробка для юридичної компанії, що спеціалізується на документації для нерухомості та оцінці майна в Україні.',
