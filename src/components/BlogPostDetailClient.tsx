@@ -32,8 +32,8 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
 
   const ctaTitle = language === 'ua' ? 'Готові обговорити ваш проєкт?' : 'Ready to discuss your project?'
   const ctaDesc = language === 'ua' 
-    ? 'Я senior веб-розробниця, що спеціалізується на React та Next.js — відкрита до нових проєктів.'
-    : "I'm a senior web developer specializing in React and Next.js — available for freelance projects worldwide."
+    ? 'Я senior веб-розробник, що спеціалізується на React та Next.js — відкрита до нових проєктів.'
+    : "I'm a senior web engineer specializing in React and Next.js — available for freelance projects worldwide."
 
   return (
     <article className="pt-32 pb-12">

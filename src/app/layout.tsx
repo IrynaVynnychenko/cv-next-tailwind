@@ -16,9 +16,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Iryna Vynnychenko | +380931844615 | Senior Web & Frontend Developer | React / Next.js Development",
-  description: "Senior Web & Frontend Developer specializing in high-performance React / Next.js development. 4,200+ Upwork hours, 8+ years, 100+ launched projects. TypeScript, TanStack Query, GSAP, Core Web Vitals optimization.",
-  keywords: "Web Developer, Senior Web Developer, React, Next.js, TypeScript, Product Engineering, TanStack Query, Redux, Zustand, GraphQL, Tailwind CSS, GSAP, Framer Motion, SSR, SSG, Core Web Vitals, Senior Frontend Developer, Ukraine, Upwork",
+  title: "Iryna Vynnychenko | Senior Web & Frontend Engineer | React / Next.js Development",
+  description: "Senior Web & Frontend Engineer specializing in high-performance React / Next.js development. 4,200+ Upwork hours, 8+ years, 100+ launched projects. TypeScript, TanStack Query, GSAP, Core Web Vitals optimization.",
+  keywords: "Web Engineer, Senior Web Engineer, React, Next.js, TypeScript, Product Engineering, TanStack Query, Redux, Zustand, GraphQL, Tailwind CSS, GSAP, Framer Motion, SSR, SSG, Core Web Vitals, Senior Frontend Engineer, Ukraine, Upwork",
   authors: [{ name: "Iryna Vynnychenko" }],
   alternates: {
     canonical: 'https://vynnychenko.dev/',
@@ -39,10 +39,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Iryna Vynnychenko | +380931844615 | Senior Web & Frontend Developer | React / Next.js Development",
-    description: "4,200+ Upwork hours · 8+ years · 100+ launched projects. Senior Web & Frontend Developer — high-performance React / Next.js product engineering.",
+    title: "Iryna Vynnychenko | Senior Web & Frontend Engineer | React / Next.js Development",
+    description: "4,200+ Upwork hours · 8+ years · 100+ launched projects. Senior Web & Frontend Engineer — high-performance React / Next.js product engineering.",
     url: 'https://vynnychenko.dev',
-    siteName: 'Iryna Vynnychenko — Senior Web & Frontend Developer',
+    siteName: 'Iryna Vynnychenko — Senior Web & Frontend Engineer',
     type: "website",
   },
 };

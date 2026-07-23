@@ -181,7 +181,7 @@ export const rawBlogPosts: RawBlogPost[] = [
             ua: 'За останні роки штучний інтелект перетворився з футуристичного тренду на практичний інструмент для розвитку бізнесу. Сьогодні автоматизація — це не про заміну людей, а про надання їм потужного важеля. Автоматизуючи рутинні завдання, компанії можуть суттєво знизити операційні витрати, усунути людські помилки та вивільнити креативну енергію команди для стратегічного зростання.',
           },
           {
-            en: 'As a web developer building modern applications, I frequently integrate AI services into client products. Let’s look at the most impactful business areas you can automate with AI today, along with a concrete roadmap to get started.',
+            en: 'As a web engineer building modern applications, I frequently integrate AI services into client products. Let’s look at the most impactful business areas you can automate with AI today, along with a concrete roadmap to get started.',
             ua: 'Як веброзробник, який створює сучасні вебдодатки, я часто інтегрую ШІ-сервіси у продукти клієнтів. Давайте розглянемо найбільш ефективні бізнес-сфери, які можна автоматизувати за допомогою AI вже сьогодні, а також конкретний покроковий план впровадження.',
           },
         ],
@@ -349,7 +349,7 @@ export const rawBlogPosts: RawBlogPost[] = [
       {
         paragraphs: [
           {
-            en: 'Building a high-quality website or web application starts with clear, simple communication. If you need a Senior Web & Frontend Developer with 8+ years of production experience (4,200+ Upwork hours, 100+ launched projects) handling full-cycle React / Next.js development, this guide explains how to get in touch, what ordering options exist, and how project evaluation works.',
+            en: 'Building a high-quality website or web application starts with clear, simple communication. If you need a Senior Web & Frontend Engineer with 8+ years of production experience (4,200+ Upwork hours, 100+ launched projects) handling full-cycle React / Next.js development, this guide explains how to get in touch, what ordering options exist, and how project evaluation works.',
             ua: 'Створення якісного вебсайту чи додатку починається з простого та зрозумілого першого контакту. Якщо вам потрібен веброзробник Senior-рівня з досвідом понад 8 років (4 200+ годин на Upwork, 100+ успішних проєктів), який бере на себе повний цикл фронтенд-розробки на React / Next.js — ця стаття допоможе зрозуміти, як швидко почати співпрацю, які формати замовлень доступні та як відбувається процес оцінки й розробки.',
           },
         ],
@@ -1227,8 +1227,8 @@ export const rawBlogPosts: RawBlogPost[] = [
         },
         paragraphs: [
           {
-            en: 'As a Senior Web & Frontend Developer, I specialize in translating complex Figma layouts, high-fidelity landing pages, and interactive UI systems into pixel-perfect, clean production code.',
-            ua: 'Як Senior Frontend-розробниця, я спеціалізуюся на переносі складного дизайну, ефектних лендингів та інтерактивних інтерфейсів у чистий та швидкий код.',
+            en: 'As a Senior Web & Frontend Engineer, I specialize in translating complex Figma layouts, high-fidelity landing pages, and interactive UI systems into pixel-perfect, clean production code.',
+            ua: 'Як Senior Frontend-розробник, я спеціалізуюся на переносі складного дизайну, ефектних лендингів та інтерактивних інтерфейсів у чистий та швидкий код.',
           },
           {
             en: 'Using React, Next.js, and Tailwind CSS, I build modern web platforms with 100% design fidelity, fluid responsiveness, smooth animations, and high performance. With 8+ years of production experience and 100+ launched projects, I make sure the product you launch looks exactly as premium and professional as you envisioned it in design.',

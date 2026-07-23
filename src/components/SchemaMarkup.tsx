@@ -9,10 +9,10 @@ interface SchemaProps {
 export function ProfilePageSchema({ lang }: SchemaProps) {
   const isUa = lang === 'ua';
   const name = isUa ? 'Ірина Винниченко' : 'Iryna Vynnychenko';
-  const jobTitle = isUa ? 'Senior Web & Frontend Розробниця' : 'Senior Web & Frontend Developer';
+  const jobTitle = isUa ? 'Senior Web & Frontend Розробник' : 'Senior Web & Frontend Engineer';
   const description = isUa 
-    ? 'Senior Web & Frontend Розробниця — розробка високопродуктивних React / Next.js вебдодатків та продуктова інженерія. 4,200+ годин на Upwork, 8+ років, 100+ запущених проєктів.'
-    : 'Senior Web & Frontend Developer specializing in high-performance React / Next.js development. 4,200+ Upwork hours, 8+ years, 100+ launched projects.';
+    ? 'Senior Web & Frontend Розробник — розробка високопродуктивних React / Next.js вебдодатків та продуктова інженерія. 4,200+ годин на Upwork, 8+ років, 100+ запущених проєктів.'
+    : 'Senior Web & Frontend Engineer specializing in high-performance React / Next.js development. 4,200+ Upwork hours, 8+ years, 100+ launched projects.';
   
   const skills = isUa 
     ? [
@@ -79,8 +79,8 @@ export function ProfilePageSchema({ lang }: SchemaProps) {
 export function WebSiteSchema({ lang }: SchemaProps) {
   const isUa = lang === 'ua';
   const name = isUa 
-    ? 'Ірина Винниченко — Senior Web & Frontend Розробниця'
-    : 'Iryna Vynnychenko — Senior Web & Frontend Developer';
+    ? 'Ірина Винниченко — Senior Web & Frontend Розробник'
+    : 'Iryna Vynnychenko — Senior Web & Frontend Engineer';
   const description = isUa 
     ? 'Портфоліо та блог Ірини Винниченко. Розробка високопродуктивних React / Next.js вебдодатків та продуктова інженерія.'
     : 'Portfolio and blog of Iryna Vynnychenko. High-performance React / Next.js development & product engineering.';
@@ -111,7 +111,7 @@ export function BlogSchema({ posts, lang }: BlogSchemaProps) {
   const name = isUa ? 'Блог Ірини Винниченко' : "Iryna Vynnychenko's Blog";
   const description = isUa
     ? 'Практичні статті про продуктивність, вибір технологій та співпрацю з фриланс-розробником.'
-    : 'Practical articles on performance, technology choices, and working with a freelance web developer.';
+    : 'Practical articles on performance, technology choices, and working with a freelance web engineer.';
   const blogUrl = isUa ? 'https://vynnychenko.dev/ua/blog/' : 'https://vynnychenko.dev/blog/';
   const authorName = isUa ? 'Ірина Винниченко' : 'Iryna Vynnychenko';
 

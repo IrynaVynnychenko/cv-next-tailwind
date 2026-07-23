@@ -15,7 +15,7 @@ export default function Testimonials() {
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {t.items.map((testimonial, index) => (
-            <div key={index} className="border border-gray-200 dark:border-gray-700 rounded-lg p-6">
+            <div key={index} className="border border-gray-200 dark:border-gray-700 rounded-lg p-6 flex flex-col">
               <div className="flex items-center mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-4 h-4 text-gray-400 fill-current" viewBox="0 0 20 20">
@@ -26,7 +26,7 @@ export default function Testimonials() {
               <blockquote className="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed">
                 &ldquo;{testimonial.text}&rdquo;
               </blockquote>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between mt-auto">
                 <div>
                   <p className="font-medium text-gray-900 dark:text-white text-sm">{testimonial.author}</p>
                   <p className="text-xs text-gray-500 dark:text-gray-400">{testimonial.project}</p>
@@ -35,15 +35,15 @@ export default function Testimonials() {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-10 text-center">
           <div className="inline-flex items-center bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-6 py-3 rounded-md">
             <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <a 
-              href="https://www.upwork.com/freelancers/irynavynnychenko" 
-              target="_blank" 
+            <a
+              href="https://www.upwork.com/freelancers/irynavynnychenko"
+              target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-sm hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
             >

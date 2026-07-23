@@ -9,11 +9,11 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Senior Web & Frontend Developer',
+      role: 'Senior Web & Frontend Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Senior Web & Frontend Developer — High-Performance React / Next.js Development & Product Engineering',
+      subtitle: 'Senior Web & Frontend Engineer — High-Performance React / Next.js Development & Product Engineering',
       stats: '4,200+ Upwork hours · 8+ years · 100+ launched projects',
       whyTitle: 'Why Work With Me',
       whyItems: [
@@ -23,7 +23,7 @@ export const translations = {
         'Fast response & NDA-ready',
         'Long-term collaboration mindset',
       ],
-      bio1: `I believe successful projects need more than code — they need care, consistency, and a developer who thinks ahead. That's why I focus on long-term collaboration: maintaining, improving, and scaling your website with bug-free code, flawless mobile adaptation, and smooth UX. If you're looking for someone to stand by your side and support your project's growth — I'm that person.`,
+      bio1: `I believe successful projects need more than code — they need care, consistency, and an engineer who thinks ahead. That's why I focus on long-term collaboration: maintaining, improving, and scaling your website with bug-free code, flawless mobile adaptation, and smooth UX. If you're looking for someone to stand by your side and support your project's growth — I'm that person.`,
       bio2: `Direct, reliable, and always available for video calls & fast communication — let's build something.`,
       location: 'Kyiv, Ukraine',
       upworkProfile: 'Upwork Profile',
@@ -114,10 +114,10 @@ export const translations = {
       keyProjects: 'Key Projects:',
       items: [
         {
-          title: 'Frontend Web Developer',
+          title: 'Frontend Web Engineer',
           company: 'Upwork',
           period: '2018 - Present',
-          description: 'Freelance senior frontend developer on Upwork — full-cycle delivery from design to live product. High-performance React/Next.js apps, product engineering, NDA-ready for secure projects, and long-term collaboration with clients worldwide.',
+          description: 'Freelance senior frontend engineer on Upwork — full-cycle delivery from design to live product. High-performance React/Next.js apps, product engineering, NDA-ready for secure projects, and long-term collaboration with clients worldwide.',
           achievements: [
             '4,200+ Upwork hours · 100+ launched projects · 100% Job Success Rate',
             'Full-stack Next.js: Server Components, Server Actions, API Routes',
@@ -135,7 +135,7 @@ export const translations = {
           ],
         },
         {
-          title: 'Frontend Web Developer',
+          title: 'Frontend Web Engineer',
           company: 'ETNA Network',
           period: 'Apr 2021 - Jul 2022',
           description: 'Frontend development for a DeFi, gaming, and NFT ecosystem with interconnected products across blockchain and web3.',
@@ -148,7 +148,7 @@ export const translations = {
           projects: [],
         },
         {
-          title: 'Frontend Web Developer',
+          title: 'Frontend Web Engineer',
           company: 'LexStatus',
           period: 'Feb 2019 - Nov 2020',
           description: 'Frontend development for a legal services company specializing in real estate documentation and property assessment in Ukraine.',
@@ -168,7 +168,7 @@ export const translations = {
       certificationsTitle: 'Certifications',
       items: [
         {
-          degree: 'Junior Frontend JS Developer',
+          degree: 'Junior Frontend JS Engineer',
           institution: 'DAN.IT education',
           period: '2020 - 2021',
           description: 'Intensive frontend JavaScript development program.',
@@ -182,7 +182,7 @@ export const translations = {
           relevantCourses: ['JavaScript ES6+', 'DOM Manipulation', 'Async Programming'],
         },
         {
-          degree: 'HTML, CSS, jQuery — Front End Developer',
+          degree: 'HTML, CSS, jQuery — Front End Engineer',
           institution: 'freeCodeCamp',
           period: '2018 - 2019',
           description: 'Self-paced frontend development curriculum with hands-on projects.',
@@ -248,12 +248,12 @@ export const translations = {
       },
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko — Senior Web & Frontend Developer',
+      text: '© 2026 Iryna Vynnychenko — Senior Web & Frontend Engineer',
     },
     blog: {
-      headerTag: 'Senior Web & Frontend Developer · Insights for Clients',
+      headerTag: 'Senior Web & Frontend Engineer · Insights for Clients',
       title: 'Blog',
-      description: 'Practical articles on performance, technology choices, and working with a freelance web developer — so you can make confident decisions for your project.',
+      description: 'Practical articles on performance, technology choices, and working with a freelance web engineer — so you can make confident decisions for your project.',
       readMore: 'Read article →',
       backToBlog: '← Back to Blog',
       previous: 'Previous',
@@ -275,11 +275,11 @@ export const translations = {
     },
     header: {
       name: 'Ірина Винниченко',
-      role: 'Senior Web & Frontend Розробниця',
+      role: 'Senior Web & Frontend Розробник',
     },
     about: {
       title: 'Ірина Винниченко',
-      subtitle: 'Senior Web & Frontend Розробниця — Розробка високопродуктивних React / Next.js вебдодатків та продуктова інженерія',
+      subtitle: 'Senior Web & Frontend Розробник — Розробка високопродуктивних React / Next.js вебдодатків та продуктова інженерія',
       stats: '4,200+ годин на Upwork · 8+ років · 100+ запущених проєктів',
       whyTitle: 'Чому варто працювати зі мною',
       whyItems: [
@@ -380,10 +380,10 @@ export const translations = {
       keyProjects: 'Ключові проєкти:',
       items: [
         {
-          title: 'Frontend Web Developer',
+          title: 'Frontend Web Engineer',
           company: 'Upwork',
           period: '2018 - Дотепер',
-          description: 'Senior frontend розробниця-фрилансерка на Upwork — повний цикл розробки від дизайну до релізу. Високопродуктивні React/Next.js додатки, продуктова інженерія, готовність до роботи під NDA (NDA-ready) для безпечних проєктів та довгострокова співпраця з клієнтами по всьому світу.',
+          description: 'Senior frontend розробник-фрилансер на Upwork — повний цикл розробки від дизайну до релізу. Високопродуктивні React/Next.js додатки, продуктова інженерія, готовність до роботи під NDA (NDA-ready) для безпечних проєктів та довгострокова співпраця з клієнтами по всьому світу.',
           achievements: [
             '4,200+ годин на Upwork · 100+ запущених проєктів · 100% Job Success Rate',
             'Full-stack Next.js: Server Components, Server Actions, API Routes',
@@ -401,7 +401,7 @@ export const translations = {
           ],
         },
         {
-          title: 'Frontend Web Developer',
+          title: 'Frontend Web Engineer',
           company: 'ETNA Network',
           period: 'Кві 2021 - Лип 2022',
           description: 'Frontend-розробка для DeFi, геймінгу та NFT-екосистеми з взаємопов’язаними продуктами у сферах blockchain та web3.',
@@ -414,7 +414,7 @@ export const translations = {
           projects: [],
         },
         {
-          title: 'Frontend Web Developer',
+          title: 'Frontend Web Engineer',
           company: 'LexStatus',
           period: 'Лют 2019 - Лис 2020',
           description: 'Frontend-розробка для юридичної компанії, що спеціалізується на документації для нерухомості та оцінці майна в Україні.',
@@ -434,7 +434,7 @@ export const translations = {
       certificationsTitle: 'Сертифікати',
       items: [
         {
-          degree: 'Junior Frontend JS Developer',
+          degree: 'Junior Frontend JS Engineer',
           institution: 'DAN.IT education',
           period: '2020 - 2021',
           description: 'Інтенсивна програма з frontend-розробки на JavaScript.',
@@ -448,7 +448,7 @@ export const translations = {
           relevantCourses: ['JavaScript ES6+', 'DOM Manipulation', 'Async Programming'],
         },
         {
-          degree: 'HTML, CSS, jQuery — Front End Developer',
+          degree: 'HTML, CSS, jQuery — Front End Engineer',
           institution: 'freeCodeCamp',
           period: '2018 - 2019',
           description: 'Навчальна програма з frontend розробки з практичними проєктами.',
@@ -514,10 +514,10 @@ export const translations = {
       },
     },
     footer: {
-      text: '© 2026 Ірина Винниченко — Senior Web & Frontend Розробниця',
+      text: '© 2026 Ірина Винниченко — Senior Web & Frontend Розробник',
     },
     blog: {
-      headerTag: 'Senior Web & Frontend Розробниця · Корисне для клієнтів',
+      headerTag: 'Senior Web & Frontend Розробник · Корисне для клієнтів',
       title: 'Блог',
       description: 'Практичні статті про продуктивність, вибір технологій та співпрацю з фриланс-розробником — щоб ви могли приймати впевнені рішення для вашого проєкту.',
       readMore: 'Читати статтю →',
