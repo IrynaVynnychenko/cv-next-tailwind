@@ -37,6 +37,116 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'local-first-web-applications-future-of-ux',
+    date: '2026-07-24',
+    title: {
+      en: 'Local-First Web Applications: The Future of Instant UX and Offline-First Architecture',
+      ua: 'Вебдодатки Local-First: Майбутнє миттєвого інтерфейсу та архітектури Offline-First',
+    },
+    excerpt: {
+      en: 'Explore the paradigm shift to Local-First web development. Learn how CRDTs, client-side databases, and real-time sync engines eliminate latency and enable offline functionality.',
+      ua: 'Дослідіть зміну парадигми в бік веброзробки Local-First. Дізнайтеся, як CRDT, бази даних на стороні клієнта та синхронізація в реальному часі усувають затримки і дозволяють працювати офлайн.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Local-First', 'Web Architecture', 'CRDT', 'React', 'Offline-First'],
+      ua: ['Local-First', 'Веб-архітектура', 'CRDT', 'React', 'Offline-First'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'For decades, web applications have relied on a thin-client, thick-server paradigm. Every button click, search query, or form submission had to round-trip to a remote server before updating the UI. While high-speed internet has made this bearable, it introduces inevitable latency, fragile offline experiences, and heavy server loads. Enter the Local-First architecture—a shift that treats client-side storage as the source of truth, synchronizing data with the cloud in the background.',
+            ua: 'Десятиліттями вебдодатки покладалися на парадигму «тонкого клієнта» та «товстого сервера». Кожен клік кнопки, пошуковий запит чи надсилання форми вимагали запиту до віддаленого сервера перед оновленням інтерфейсу. Хоча швидкісний інтернет згладив цю проблему, він не усунув неминучі затримки, нестабільну роботу без мережі та високе навантаження на сервери. Тут на сцену виходить архітектура Local-First — підхід, де локальне сховище клієнта є основним джерелом правди, а синхронізація з хмарою відбувається у фоновому режимі.',
+          },
+          {
+            en: 'By bringing the database directly into the browser and using conflict resolution algorithms, local-first applications offer sub-millisecond response times and full offline capabilities. Let’s explore how this paradigm works and how you can implement it today.',
+            ua: 'Переносячи базу даних безпосередньо у браузер та використовуючи алгоритми вирішення конфліктів, додатки Local-First забезпечують субмілісекундний відгук та повноцінну роботу офлайн. Давайте розберемося, як працює ця парадигма і як впровадити її сьогодні.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. What Makes an Application "Local-First"?',
+          ua: '1. Що робить додаток «Local-First»?',
+        },
+        paragraphs: [
+          {
+            en: 'Local-first is not just about using LocalStorage or caching API responses. It is a fundamental architecture where the primary copy of the data resides on the user\'s local device (laptop, phone, or tablet). The application remains fully functional even without any network connection.',
+            ua: 'Local-first — це не просто використання LocalStorage або кешування відповідей API. Це фундаментальна архітектура, в якій основна копія даних зберігається на локальному пристрої користувача (ноутбуку, телефоні чи планшеті). Додаток залишається повністю функціональним навіть без підключення до мережі.',
+          },
+        ],
+        list: [
+          {
+            en: 'Zero Latency: Reads and writes happen instantly in memory or to the local disk, without waiting for network requests.',
+            ua: 'Нульова затримка: Операції читання та запису виконуються миттєво в пам\'яті або на локальний диск, без очікування мережевих запитів.',
+          },
+          {
+            en: 'Offline by Default: The application works perfectly in tunnels, airplanes, or areas with poor cellular reception.',
+            ua: 'Офлайн за замовчуванням: Додаток чудово працює в тунелях, літаках або в місцях зі слабким мобільним зв\'язком.',
+          },
+          {
+            en: 'Seamless Synchronization: When connection is restored, changes are merged in the background without disturbing the user.',
+            ua: 'Безшовна синхронізація: Після відновлення з\'єднання зміни об\'єднуються у фоновому режимі, не заважаючи користувачеві.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. The Core Building Blocks of Local-First Tech Stack',
+          ua: '2. Основні компоненти технологічного стека Local-First',
+        },
+        paragraphs: [
+          {
+            en: 'Building a local-first application requires a shift in how we manage state, databases, and network communication. Instead of REST or GraphQL APIs, developers use client-side databases and specialized sync engines.',
+            ua: 'Створення додатку local-first вимагає зміни підходу до управління станом, базами даних та мережевою взаємодією. Замість класичних REST або GraphQL API розробники використовують клієнтські бази даних та спеціалізовані рушії синхронізації.',
+          },
+        ],
+        list: [
+          {
+            en: 'Client-Side Databases: Technologies like SQLite (via WebAssembly), RxDB, PouchDB, or WatermelonDB allow running queryable databases directly in the browser tab.',
+            ua: 'Клієнтські бази даних: Технології на кшталт SQLite (через WebAssembly), RxDB, PouchDB або WatermelonDB дозволяють запускати повноцінні бази даних безпосередньо у вкладці браузера.',
+          },
+          {
+            en: 'CRDTs (Conflict-Free Replicated Data Types): Algorithms (like Yjs or Automerge) that mathematically guarantee different devices can modify the same document independently and merge changes without conflicts.',
+            ua: 'CRDT (Conflict-Free Replicated Data Types): Алгоритми (як-от Yjs або Automerge), які математично гарантують, що різні пристрої можуть незалежно змінювати один і той самий документ і об\'єднувати зміни без конфліктів.',
+          },
+          {
+            en: 'Sync Gateways/Engines: Server-side components (like Electric SQL, Replicache, or Supabase Sync) that manage replication streams and route updates between clients and the central database.',
+            ua: 'Шлюзи/рушії синхронізації: Серверні компоненти (наприклад, Electric SQL, Replicache або Supabase Sync), які управляють потоками реплікації та маршрутизують оновлення між клієнтами та центральною БД.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. When Should You Go Local-First?',
+          ua: '3. Коли варто переходити на Local-First?',
+        },
+        paragraphs: [
+          {
+            en: 'While local-first has huge advantages, it is not a silver bullet. It is highly suited for productivity tools, collaborative editors, and personal organizers. However, applications requiring central authority (like banking, ticket booking, or real-time inventory management) still require a server-first validation strategy.',
+            ua: 'Хоча local-first має величезні переваги, це не срібна куля. Цей підхід ідеально підходить для інструментів продуктивності, спільних редакторів та персональних органайзерів. Проте додатки, що вимагають централізованого контролю (як-от банкінг, купівля квитків чи управління залишками товарів), усе ще потребують серверної перевірки транзакцій.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Summary',
+          ua: '4. Підсумки',
+        },
+        paragraphs: [
+          {
+            en: 'Local-first is shaping the next decade of web development. By delivering instant interaction, complete offline resilience, and robust multi-device synchronization, it sets a new gold standard for user experience. As the ecosystem matures, tools like WASM SQLite and CRDT libraries are making local-first development more accessible than ever.',
+            ua: 'Local-first визначає наступне десятиліття веброзробки. Завдяки миттєвому відгуку, стійкості до відсутності мережі та надійній синхронізації між пристроями, цей підхід задає новий золотий стандарт користувацького досвіду. З розвитком екосистеми такі інструменти як WASM SQLite та бібліотеки CRDT роблять розробку local-first доступнішою, ніж будь-коли.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'optimizing-service-business-with-web-solutions',
     date: '2026-07-24',
     title: {
