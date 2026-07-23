@@ -47,26 +47,6 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: 'Iryna Vynnychenko',
-  jobTitle: 'Senior Web & Frontend Developer',
-  url: 'https://vynnychenko.dev',
-  sameAs: [
-    'https://www.linkedin.com/in/iryna-vynnychenko-287202141/',
-    'https://www.upwork.com/freelancers/irynavynnychenko',
-  ],
-  knowsAbout: [
-    'Web Development',
-    'React',
-    'Next.js',
-    'TypeScript',
-    'Frontend Architecture',
-    'Core Web Vitals Optimization',
-  ],
-}
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -74,12 +54,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

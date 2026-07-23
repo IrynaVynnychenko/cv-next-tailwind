@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import BlogPostDetailClient from '@/components/BlogPostDetailClient'
 import { getBlogPost, rawBlogPosts } from '@/data/blog-posts'
+import { BlogPostingSchema } from '@/components/SchemaMarkup'
 
 type BlogPostPageProps = {
   params: { slug: string }
@@ -31,8 +32,11 @@ export function generateMetadata({ params }: BlogPostPageProps): Metadata {
 }
 
 export default function BlogPostPage({ params }: BlogPostPageProps) {
+  const post = getBlogPost(params.slug, 'en')
+
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+      {post && <BlogPostingSchema post={post} lang="en" />}
       <Header />
       <main className="max-w-5xl mx-auto px-6 py-8 w-full">
         <BlogPostDetailClient slug={params.slug} />

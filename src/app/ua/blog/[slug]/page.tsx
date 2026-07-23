@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import BlogPostDetailClient from '@/components/BlogPostDetailClient'
 import { SetLanguageClient } from '@/components/SetLanguageClient'
 import { getBlogPost, rawBlogPosts } from '@/data/blog-posts'
+import { BlogPostingSchema } from '@/components/SchemaMarkup'
 
 type BlogPostPageProps = {
   params: { slug: string }
@@ -32,8 +33,11 @@ export function generateMetadata({ params }: BlogPostPageProps): Metadata {
 }
 
 export default function UaBlogPostPage({ params }: BlogPostPageProps) {
+  const post = getBlogPost(params.slug, 'ua')
+
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+      {post && <BlogPostingSchema post={post} lang="ua" />}
       <SetLanguageClient lang="ua" />
       <Header />
       <main className="max-w-5xl mx-auto px-6 py-8 w-full">

@@ -2,8 +2,9 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import BlogIndex from '@/components/BlogIndex'
 import { SetLanguageClient } from '@/components/SetLanguageClient'
-import { getBlogPageCount } from '@/data/blog-posts'
+import { getBlogPageCount, getBlogPostsForPage } from '@/data/blog-posts'
 import { notFound } from 'next/navigation'
+import { BlogSchema } from '@/components/SchemaMarkup'
 
 type BlogPageProps = {
   params: { page: string }
@@ -25,8 +26,11 @@ export default function UaBlogPaginationPage({ params }: BlogPageProps) {
     notFound()
   }
 
+  const posts = getBlogPostsForPage(pageNumber, 'ua')
+
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+      <BlogSchema posts={posts} lang="ua" />
       <SetLanguageClient lang="ua" />
       <Header />
       <main className="max-w-5xl mx-auto px-6 py-8 w-full">

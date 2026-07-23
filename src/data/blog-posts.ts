@@ -37,6 +37,124 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'telegram-bots-utility-service-payments-integration',
+    date: '2026-07-23',
+    title: {
+      en: 'Custom Telegram Bots for Utility and Service Payments: Integrating Mono, Privat24, and Portmone',
+      ua: 'Розробка Telegram-ботів для оплати комунальних та послуг: Інтеграція онлайн-оплат Mono, Privat24, Portmone',
+    },
+    excerpt: {
+      en: 'Discover how custom Telegram bots can automate utility bill payments and service ordering by integrating popular Ukrainian payment systems like Monobank, LiqPay, Portmone, and WayForPay.',
+      ua: 'Дізнайтеся, як кастомні Telegram-боти можуть автоматизувати оплату комунальних послуг та рахунків завдяки інтеграції популярних українських платіжних систем: Monobank, LiqPay, Portmone та WayForPay.',
+    },
+    readTime: {
+      en: '5 min read',
+      ua: '5 хв читання',
+    },
+    tags: {
+      en: ['Telegram Bots', 'Payments', 'Automation', 'Monobank', 'LiqPay'],
+      ua: ['Telegram-боти', 'Платежі', 'Автоматизація', 'Monobank', 'LiqPay'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Telegram has evolved into a powerful business tool. Millions of users prefer to perform daily tasks directly inside the messenger. Creating a custom Telegram bot for paying utility bills, internet services, subscription feeds, or local service orders is a game-changer for businesses and service providers. It simplifies customer interaction and speeds up payment collection.',
+            ua: 'Telegram давно перетворився на потужний інструмент для бізнесу. Мільйони користувачів воліють виконувати щоденні завдання прямо в месенджері. Створення кастомного Telegram-бота для оплати комунальних послуг, інтернету, передплат чи локальних сервісів — це серйозний крок уперед для будь-го постачальника послуг. Це спрощує комунікацію з клієнтом та прискорює збір коштів.',
+          },
+          {
+            en: 'By bringing payment options directly into user chats, you lower the barrier to checkout, reduce reminders, and automate manual invoicing routines.',
+            ua: 'Надаючи можливість оплати безпосередньо у вікні чату, ви знижуєте бар\'єр для оплати, зменшуєте кількість нагадувань та повністю автоматизуєте виписку рахунків.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. What Can a Utility/Service Payment Bot Do?',
+          ua: '1. Що вміє бот для оплати послуг та комунальних платежів?',
+        },
+        paragraphs: [
+          {
+            en: 'An interactive chatbot acts as a virtual manager. Here are the core features I implement when building utility payment bots:',
+            ua: 'Інтерактивний чат-бот виступає у ролі віртуального менеджера. Ось основні функції, які я реалізую при створенні таких ботів:',
+          },
+        ],
+        list: [
+          {
+            en: 'Utility Bill Checks: Fetching billing details, monthly readings, or outstanding balances by account number or address.',
+            ua: 'Перевірка балансу: Отримання інформації про нарахування, покази лічильників чи заборгованість за номером особового рахунку.',
+          },
+          {
+            en: 'Automatic Notifications: Reminding users about monthly due dates, new invoices, or urgent alerts via push-like telegram messages.',
+            ua: 'Автоматичні нагадування: Розсилка сповіщень про нові рахунки, необхідність передати покази лічильників або терміни оплати.',
+          },
+          {
+            en: 'Multi-Service Checkout: Combining multiple utilities (electricity, water, maintenance) or service items into a single checkout flow.',
+            ua: 'Комплексний розрахунок: Об\'єднання оплати кількох послуг (наприклад, квартплата, опалення, інтернет) в один платіж.',
+          },
+          {
+            en: 'Order History & Receipts: Instant access to transaction history, allowing users to view logs or download PDF receipts directly in the chat.',
+            ua: 'Історія та квитанції: Швидкий доступ до історії транзакцій та можливість завантажити офіційні PDF-чеки безпосередньо в чаті.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Payment Integrations: Monobank, Privat24, Portmone, and LiqPay',
+          ua: '2. Платіжні інтеграції: Monobank, Privat24, Portmone та LiqPay',
+        },
+        paragraphs: [
+          {
+            en: 'To make the payment process seamless, I integrate popular acquiring systems and APIs. This gives customers the freedom to pay with their preferred bank or card provider (Visa, Mastercard, Apple Pay, Google Pay).',
+            ua: 'Для безшовного процесу оплати я інтегрую популярні еквайринг-системи та платіжні API. Це дає користувачам можливість платити зручною картою або банком за допомогою Apple Pay чи Google Pay.',
+          },
+        ],
+        list: [
+          {
+            en: 'Monobank (Mono Pay): Extremely popular for its sleek interface. Supports split payments, easy redirect to the Mono app for one-click confirmation, and instant webhook notifications.',
+            ua: 'Monobank (Mono Pay): Неймовірно популярний завдяки зручному інтерфейсу. Підтримує оплату в один клік із перенаправленням у додаток Mono та миттєву фіксацію оплати через вебхуки.',
+          },
+          {
+            en: 'LiqPay (PrivatBank): The largest acquiring network in Ukraine. Allows payment via Privat24, credit cards, or scanning QR codes, offering robust security and high transaction success rates.',
+            ua: 'LiqPay (ПриватБанк): Найбільша еквайрингова мережа в Україні. Дозволяє проводити платежі через Приват24, картками будь-яких банків та забезпечує максимальну надійність.',
+          },
+          {
+            en: 'Portmone API: Specifically tailored for regular billing. Excellent for housing cooperatives (OSBB), utility companies, and recurring monthly subscriptions.',
+            ua: 'Portmone API: Спеціалізований сервіс для регулярних нарахувань. Чудовий вибір для ОСББ, інтернет-провайдерів та сервісів із щомісячною передплатою.',
+          },
+          {
+            en: 'WayForPay & EasyPay: Great alternatives with easy onboarding, versatile checkout forms, and low transaction commissions.',
+            ua: 'WayForPay та EasyPay: Зручні альтернативні шлюзи з гнучкими налаштуваннями, різноманітними способами оплати та вигідними тарифами.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Under the Hood: Secure and Reliable Architecture',
+          ua: '3. Надійна та безпечна архітектура бота',
+        },
+        paragraphs: [
+          {
+            en: 'Building a payment-enabled bot requires strict security standards. I develop these bots using high-performance backends (Node.js or Python) communicating securely with payment APIs via HTTPS. We implement webhook validation to verify payment signatures and prevent fraudulent actions. User records are stored safely in secure databases like PostgreSQL, ensuring user data privacy and complete transparency.',
+            ua: 'Розробка платіжних ботів вимагає суворого дотримання стандартів безпеки. Я створюю ботів на базі високопродуктивних технологій (Node.js або Python), що безпечно комунікують з платіжними API через HTTPS. Обов\'язково реалізується валідація підписів вебхуків для уникнення шахрайства, а персональні дані клієнтів зберігаються у захищених базах даних (наприклад, PostgreSQL).',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion: Let\'s Build Your Payment Bot',
+          ua: 'Висновок: давайте створимо вашого платіжного бота',
+        },
+        paragraphs: [
+          {
+            en: 'If you run a utility cooperative (OSBB), an internet provider, a subscription service, or want to automate booking checkouts, a customized Telegram payment bot will save time for your support team and accelerate your billing cycles. Reach out using the contact form below for a free consultation and project estimate — let\'s build a high-performance automation tool for your business!',
+            ua: 'Якщо ви є головою ОСББ, керуєте інтернет-провайдером, сервісною компанією чи хочете автоматизувати прийом оплат за свої послуги — власний Telegram-бот заощадить години роботи підтримки та прискорить оплату рахунків. Напишіть мені через форму контактів нижче для безкоштовної консультації та розрахунку вартості розробки — створімо якісний інструмент автоматизації разом!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-to-automate-business-processes-with-ai',
     date: '2026-07-23',
     title: {

@@ -2,10 +2,15 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import BlogIndex from '@/components/BlogIndex'
 import { SetLanguageClient } from '@/components/SetLanguageClient'
+import { getBlogPostsForPage } from '@/data/blog-posts'
+import { BlogSchema } from '@/components/SchemaMarkup'
 
 export default function UaBlogPage() {
+  const posts = getBlogPostsForPage(1, 'ua')
+
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+      <BlogSchema posts={posts} lang="ua" />
       <SetLanguageClient lang="ua" />
       <Header />
       <main className="max-w-5xl mx-auto px-6 py-8 w-full">
