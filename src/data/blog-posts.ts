@@ -37,6 +37,436 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'behavioral-analytics-ai-microinteractions-ux-feedback-collector',
+    date: '2026-07-29',
+    title: {
+      en: 'Behavioral Analytics & AI-Microinteractions: Building an AI-UX Feedback Collector',
+      ua: 'Аналітика поведінки та AI-мікроінтерфейси: створення розумного AI-UX Feedback Collector',
+    },
+    excerpt: {
+      en: 'Learn how to build a client-side behavioral engine that tracks user hesitation, click patterns, and latency to trigger context-aware AI hints and interactive tooltips at the perfect moment.',
+      ua: 'Дізнайтеся, як створити клієнтську систему аналітики поведінки, яка відстежує вагання користувача, кліки та затримки, щоб вчасно виводити контекстні AI-підказки та поповери.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['AI Integration', 'UX Design', 'React', 'Behavioral Tracking', 'Micro-interactions', 'Frontend Logic'],
+      ua: ['Інтеграція ШІ', 'UX дизайн', 'React', 'Аналітика поведінки', 'Мікроінтерфейси', 'Фронтенд-логіка'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Traditional web analytics tools are passive. They record user behavior—like scroll depths, click heatmaps, and session replays—but they only provide data in hindsight. If a potential customer gets confused by a pricing plan, opens and closes shipping terms three times out of hesitation, and eventually abandons their shopping cart, that lead is lost forever. Traditional systems just report the loss; they do nothing to active assist the user in the moment of friction.',
+            ua: 'Традиційні інструменти веб-аналітики є пасивними. Вони фіксують поведінку користувача — глибину прокрутки, карти кліків та записи сесій — проте надають ці дані вже постфактум. Якщо потенційний клієнт заплутався в тарифах, тричі від вагання відкрив і закрив умови доставки й зрештою залишив кошик, цей лід втрачено назавжди. Звичайні системи лише констатують втрату, але ніяк не допомагають користувачеві в момент виникнення труднощів.',
+          },
+          {
+            en: 'Enter the AI-UX Feedback Collector. By tracking client-side interaction events in real-time, frontend applications can analyze behavioral metrics—such as mouse movements, toggle loops, and dwell latency. When the system detects user hesitation, it can instantly invoke a lightweight AI helper or show a targeted popover to address the exact question holding them back. In this article, we will look at how to implement this real-time behavioral tracking, build smooth micro-interfaces, and deploy context-aware micro-interactions that boost conversion rates.',
+            ua: 'Тут на допомогу приходить AI-UX Feedback Collector. Відстежуючи події взаємодії на клієнтській стороні в реальному часі, фронтенд-додатки можуть аналізувати поведінкові метрики: рухи миші, цикли відкриття/закриття елементів та затримки. Щойно система виявляє вагання, вона може миттєво підключити легкого ШІ-помічника або вивести точкову підказку, яка відповідає саме на те питання, що гальмує користувача. У цій статті ми розберемо, як реалізувати таке відстеження в реальному часі, побудувати плавні мікроінтерфейси та інтегрувати розумні мікроінтерactions, які збільшують конверсію.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Defining User Hesitation: What Behavioral Signals Are We Tracking?',
+          ua: '1. Визначення вагань користувача: які поведінкові сигнали ми відстежуємо?',
+        },
+        paragraphs: [
+          {
+            en: 'To make micro-interactions feel smart and intuitive rather than annoying, the frontend application must accurately distinguish normal browsing from hesitation. We look for three main telemetry signals:',
+            ua: 'Щоб мікроінтерфейси сприймалися розумними й доречними, а не дратівливими, фронтенд має точно розрізняти звичайний перегляд сторінки від реального вагання. Ми виділяємо три основні телеметричні сигнали:',
+          },
+        ],
+        list: [
+          {
+            en: 'Interaction Loops: The user toggles the same interactive widget (e.g. accordion, modal, dropdown) repeatedly. For example, opening and closing delivery conditions three times within one minute is a clear indicator of cognitive load.',
+            ua: 'Цикли взаємодії (Interaction Loops): Користувач кілька разів поспіль відкриває й закриває один і той самий віджет (акордеон, модальне вікно, випадний список). Наприклад, відкриття умов доставки тричі за хвилину чітко свідчить про сумніви.',
+          },
+          {
+            en: 'Rage Clicks: Multiple clicks in a small pixel radius within a short timeframe, especially on non-clickable or confusing elements. This suggests frustration with the interface layout or latency.',
+            ua: 'Люті кліки (Rage Clicks): Серія швидких натискань у невеликому радіусі за короткий час, часто по неактивних або заплутаних елементах. Це вказує на роздратування дизайном або затримками інтерфейсу.',
+          },
+          {
+            en: 'Dwell & Hover Latency: Cursor hover time on a specific text block or input field exceeding 5 to 10 seconds without any active progress (like typing or proceeding to the next step), indicating the user is stuck reading and re-reading details.',
+            ua: 'Затримка наведення (Dwell & Hover Latency): Утримання курсора на певному текстовому блоці або полі введення понад 5–10 секунд без будь-яких активних дій (введення тексту, переходу далі). Це сигнал, що користувач застряг на складному описі.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Implementing Client-Side Event Collectors in React',
+          ua: '2. Реалізація клієнтських збирачів подій на React',
+        },
+        paragraphs: [
+          {
+            en: 'To monitor these patterns without degrading page performance, we use React state hooks and references. Storing counts and timestamps in useRef ensures that our behavioral tracker does not trigger unnecessary renders during active mouse tracking.',
+            ua: 'Щоб відстежувати ці поведінкові патерни й не перевантажувати сторінку, ми використовуємо React-хуки та референси. Зберігання лічильників та міток часу у useRef дозволяє уникнути непотрібних рендерів під час активного руху миші.',
+          },
+          {
+            en: 'Here is a custom React hook approach to detect repeated toggles: We track interaction timestamps and increments. If the count reaches a limit (e.g. 3) within a cooldown window, the hook updates the hesitation state, allowing the layout to render the AI tooltip.',
+            ua: 'Ось як виглядає логіка кастомного хука для фіксації повторюваних дій: ми записуємо час кожної дії та збільшуємо лічильник. Якщо ліміт (наприклад, 3 кліки) перевищено протягом хвилини, хук переводить стан вагання в true, сигналізуючи інтерфейсу про необхідність показати AI-підказку.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Technical Hook Blueprint: useUserHesitation',
+          ua: '3. Архітектурний шаблон хука: useUserHesitation',
+        },
+        paragraphs: [
+          {
+            en: 'A standard implementation of our hesitation detection hook manages a click counter, a last-interaction timestamp, and a trigger threshold. By wrapping this in a reusable Hook, we can attach tracking to any element—such as accordion headers, info blocks, or checkout sections.',
+            ua: 'Стандартна реалізація хука відстеження вагань керує лічильником кліків, міткою останньої взаємодії та пороговим значенням. Завдяки винесенню цієї логіки в хук, ми можемо прив\'язати відстеження до будь-якого компонента — від заголовка акордеона до деталей оформлення замовлення.',
+          },
+          {
+            en: 'In practice, we check if the difference between the current time and the last click is within a defined threshold (e.g. 60 seconds). If it is, we increment the interaction count. Once the limit is met, we trigger a callback or set a state flag. We can also measure mouse stay time using standard onMouseEnter and onMouseLeave event handlers, checking if the hover duration exceeds our threshold.',
+            ua: 'На практиці ми перевіряємо, чи різниця між поточним часом та попереднім кліком вкладається у ліміт (наприклад, 60 секунд). Якщо так, ми збільшуємо лічильник. При досягненні ліміту встановлюється відповідний стейт. Аналогічно за допомогою обробників onMouseEnter та onMouseLeave можна вимірювати тривалість наведення курсора на елемент.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Serving Dynamic, Context-Aware AI Hints',
+          ua: '4. Відображення динамічних і контекстних AI-підказок',
+        },
+        paragraphs: [
+          {
+            en: 'Once a hesitation signal is captured, the system needs to serve the appropriate feedback. There are two primary deployment models for these real-time hints:',
+            ua: 'Коли сигнал про вагання отримано, система має вивести релевантну підказку. Існує дві основні моделі реалізації таких відповідей:',
+          },
+        ],
+        list: [
+          {
+            en: 'Serverless Real-Time LLM Call: The app triggers an API request to a fast LLM (such as Gemini 1.5 Flash). We feed it the current page name, the element ID, and user behavior context. The LLM returns a tailored, short (under 120 characters) clarifying response to ease the user\'s mind immediately.',
+            ua: 'Serverless API-запит до LLM: Фронтенд робить запит до швидкої мовної моделі (як-от Gemini 1.5 Flash), передаючи назву сторінки, ID елемента та контекст поведінки. Модель генерує коротке (до 120 символів) роз\'яснення, адаптоване під конкретну ситуацію.',
+          },
+          {
+            en: 'Hybrid Local Lookup: To avoid network latency and minimize token costs, we pre-generate AI-written copy blocks for each potential hesitation point (e.g., shipping FAQs, refund policies, secure checkout security). The frontend simply resolves the element ID against a local static dictionary, displaying a highly optimized response instantly.',
+            ua: 'Гібридний локальний пошук: Щоб усунути затримку мережі та знизити витрати, мы заздалегідь генеруємо варіанти підказок за допомогою AI для кожної проблемної точки. Фронтенд миттєво вибирає потрібний текст із локального словника за ID елемента.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. UX Principles for Smooth, Non-Intrusive Microinteractions',
+          ua: '5. UX-принципи для створення привабливих та ненав\'язливих підказок',
+        },
+        paragraphs: [
+          {
+            en: 'Poorly designed popups and tooltips can feel like intrusive spam, frustrating the user and increasing bounce rates. To ensure your feedback loop feels like a premium, helpful assistant, follow these rules:',
+            ua: 'Непродумані спливаючі вікна та інтерфейси можуть сприйматися як спам, що дратує користувача й підвищує показник відмов. Щоб підказки виглядали як преміальний та корисний помічник, варто дотримуватися правил:',
+          },
+        ],
+        list: [
+          {
+            en: 'Subtle Fade-In Animations: Avoid sudden layout jumps. Render the popovers using CSS transforms and opacity transitions. Transitioning from opacity-0 to opacity-100 with a slight upward translation creates a organic, premium feeling.',
+            ua: 'Плавна поява (Transitions): Уникайте різких зсувів. Відображайте поповери за допомогою CSS-трансформацій та прозорості. Плавне з\'явлення знизу вгору з opacity-0 до opacity-100 виглядає природно та преміально.',
+          },
+          {
+            en: 'Easy, Explicit Dismissal: Make it effortless to close the helper. Provide a clear "Got it" button or a subtle close icon, and auto-dismiss the tooltip if the user clicks anywhere else on the page or moves their mouse away.',
+            ua: 'Легке закриття: Дайте користувачу можливість швидко прибрати підказку. Додайте кнопку «Зрозуміло» чи іконку хрестика, а також приховуйте вікно, якщо користувач клікає поза ним або забирає курсор.',
+          },
+          {
+            en: 'Frequency Capping with Storage: Do not annoy users by showing the same hint multiple times. Once a tooltip is closed or shown, set a flag in sessionStorage or localStorage to prevent it from triggering again during the user\'s session.',
+            ua: 'Обмеження частоти (Frequency Capping): Не показуйте ту саму підказку багаторазово. Щойно користувач закрив її, збережіть відповідний прапорець у sessionStorage або localStorage, щоб заблокувати повторні покази в цій сесії.',
+          },
+          {
+            en: 'By mapping subtle client-side behavioral events to targeted AI micro-interactions, developers can transform static websites into dynamic, empathetic digital spaces that understand and guide users precisely when they need it most.',
+            ua: 'Поєднуючи тонкі сигнали поведінки на фронтенді з точковими AI-підказками, розробники перетворюють статичні веб-сторінки на інтерактивні емпатичні простори, які розуміють користувача й допомагають йому саме тоді, коли це необхідно.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'ai-calculator-b2b-estimator-structured-json-react',
+    date: '2026-07-29',
+    title: {
+      en: 'Building an AI Cost Estimator: Parsing LLM Outputs into Interactive UI Components',
+      ua: 'Створення AI-калькулятора вартості: парсинг відповідей LLM в інтерактивний інтерфейс React',
+    },
+    excerpt: {
+      en: 'Learn how to build an interactive B2B cost estimator. We show how to parse unstructured user input into typed JSON using LLM Structured Outputs, and bind it to React sliders, charts, and accordions.',
+      ua: 'Дізнайтеся, як створити інтерактивний калькулятор послуг. Розбираємо парсинг неструктурованого тексту в типізований JSON через LLM Structured Outputs та зв\'язку зі слайдерами, графіками й акордеонами.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['AI Integration', 'React', 'Zod', 'Structured Outputs', 'UI Components', 'Web Development'],
+      ua: ['Інтеграція ШІ', 'React', 'Zod', 'Structured Outputs', 'Інтерфейси', 'Веб-розробка'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'In B2B and service-oriented industries, getting a price estimate is the most critical step of a customer journey. However, traditional cost estimators are often tedious, requiring users to fill out complex forms with dozens of checkboxes, dropdowns, and text fields. This friction leads to low completion rates. What if users could simply describe their requirements in plain text, and have the system instantly generate a detailed, interactive estimate?',
+            ua: 'У сферах B2B та послуг розрахунок вартості є найважливішим кроком на шляху клієнта. Проте традиційні калькулятори часто занадто складні: вони вимагають заповнення десятків полів, чекбоксів та випадних списків. Це призводить до низької конверсії. Що, якби користувачі могли просто описати свої вимоги звичайним текстом, а система миттєво формувала б детальний інтерактивний кошторис?',
+          },
+          {
+            en: 'This is the power of an AI Cost Estimator. By using Large Language Models (LLMs), we can take unstructured natural language inputs and parse them into structured, reliable data structures. In this article, we will walk through the frontend and backend architecture required to make this work, focusing on LLM Structured Outputs, schema validation with Zod, and binding the parsed data to React UI controls.',
+            ua: 'Це реалізується за допомогою AI-калькулятора вартості. Використовуючи великі мовні моделі (LLM), ми можемо приймати неструктурований текст природною мовою та перетворювати його на структуровані й надійні дані. У цій статті ми розберемо архітектуру бекенду та фронтенду для такої системи, зосередившись на Structured Outputs в LLM, валідації схем через Zod та зв\'язці отриманих даних із контролерами в React.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Backend: Enforcing Strict JSON with LLM Structured Outputs',
+          ua: '1. Бекенд: гарантування чистого JSON через Structured Outputs',
+        },
+        paragraphs: [
+          {
+            en: 'The greatest challenge in AI-powered tools is reliability. If you simply prompt an LLM to "return JSON," it may occasionally output text wraps, invalid formats, or change key names. In production, this breaks your frontend parsing logic.',
+            ua: 'Найбільша проблема інструментів на базі ШІ — це стабільність відповідей. Якщо просто попросити LLM «повернути JSON», вона періодично видаватиме супровідний текст, невалідний формат або змінюватиме назви ключів. У продакшені це ламає логіку парсингу на фронтенді.',
+          },
+          {
+            en: 'To solve this, modern APIs (like OpenAI, Gemini, and Anthropic) offer Structured Outputs. This feature forces the model to respond strictly according to a JSON Schema. We define this schema using Zod, a TypeScript-first schema declaration and validation library. The LLM acts as an extraction engine, mapping the user\'s free-form description directly into our defined structure.',
+            ua: 'Для вирішення цієї проблеми сучасні API (як-от OpenAI, Gemini, Anthropic) підтримують функцію Structured Outputs. Вона змушує модель відповідати строго за заданою JSON-схемою. Ми описуємо цю схему за допомогою Zod — бібліотеки для оголошення та валідації схем у TypeScript. Модель працює як двигун екстракції: вона розкладає вільний опис користувача за нашими поличками-ключами.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Defining the Estimator Zod Schema',
+          ua: '2. Опис схеми калькулятора за допомогою Zod',
+        },
+        paragraphs: [
+          {
+            en: 'For a construction or renovation estimate, we describe a schema that captures the project dimensions (e.g. area, number of rooms), specific requirements (wiring replacement, demolition), and a list of estimated cost items. Here is a TypeScript example of how we define the target JSON structure:',
+            ua: 'Для кошторису ремонту ми описуємо схему, яка фіксує параметри проекту (площу, кількість кімнат), специфічні вимоги (заміна проводки, демонтаж стін) та масив розрахованих послуг. Ось приклад опису такої структури на TypeScript:',
+          },
+          {
+            en: 'First, we define `EstimateSchema` containing basic parameters like `area` and `rooms`, boolean flags for `demolition` and `rewiring`, and an array `estimateItems` where each item has a `task`, `category`, and `baseCost`. We attach descriptions to fields (e.g., `describe("Area in square meters")`) to help the LLM understand what data should be extracted into each property.',
+            ua: 'Спершу ми створюємо `EstimateSchema`, яка містить базові параметри: `area` та `rooms`, булеві прапорці для `demolition` та `rewiring`, а також масив `estimateItems`, де кожен елемент має поля `task`, `category` та `baseCost`. Ми додаємо описи до кожного поля (наприклад, `.describe("Площа в кв.м")`), щоб допомогти моделі зрозуміти, яку саме інформацію туди записувати.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Connecting AI Data to React UI State',
+          ua: '3. Зв\'язка даних AI з реактивним стейтом React',
+        },
+        paragraphs: [
+          {
+            en: 'Once the backend parses the input and returns the validated JSON object, the frontend application loads it into React state. This creates a highly responsive, interactive flow:',
+            ua: 'Коли бекенд опрацьовує запит і повертає перевірений JSON, фронтенд завантажує його в локальний стейт React. Це дозволяє побудувати надзвичайно швидкий та інтерактивний інтерфейс:',
+          },
+        ],
+        list: [
+          {
+            en: 'Initial Load: The user submits their text description. We show a loading indicator. Once the API returns the JSON, we populate the local component state with the AI extraction values.',
+            ua: 'Початкове завантаження: Користувач надсилає свій опис. Ми показуємо індикатор завантаження. Щойно API повертає JSON, мы заповнюємо локальний стейт компонента отриманими значеннями.',
+          },
+          {
+            en: 'Formula-Based Calculations: While the AI provides the initial estimate items and baseline prices, the final cost math is computed locally using React formulas. If the user changes variables, the cost updates instantly without sending requests back to the LLM.',
+            ua: 'Математичні розрахунки формулами: Хоча AI формує початковий набір робіт і базові ціни, кінцева вартість рахується локально за допомогою React-формул. Якщо користувач змінює параметри, сума оновлюється миттєво без повторних запитів до LLM.',
+          },
+          {
+            en: 'Hybrid Control System: The UI renders controls (sliders, toggles, and dropdowns) that are bound directly to the state. This allows the user to correct the AI. If the AI missed that they need wiring replacement, the user simply turns on the "Rewiring" toggle switch.',
+            ua: 'Гібридна система керування: Інтерфейс рендерить слайдери, перемикачі та випадні списки, які прив\'язані до стейту. Це дозволяє користувачеві «виправляти» штучний інтелект. Якщо модель не помітила вимогу про заміну проводки, користувач просто вмикає відповідний тумблер.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Rendering Interactive Visual Widgets',
+          ua: '4. Візуалізація даних: слайдери, діаграми та списки',
+        },
+        paragraphs: [
+          {
+            en: 'To deliver a high-quality experience, the interface should transform raw numbers into visually appealing charts and easy-to-use widgets:',
+            ua: 'Щоб створити преміальний досвід, інтерфейс має перетворювати сухі цифри на привабливі віджети та графіки:',
+          },
+        ],
+        list: [
+          {
+            en: 'Interactive Sliders: Map the `area` parameter to a custom HTML range slider. Dragging the slider increases the area multiplier, dynamically scaling the labor and materials cost of each line item.',
+            ua: 'Слайдери: Прив\'язуємо параметр площі `area` до повзунка (range slider). Перетягування повзунка збільшує множник площі, динамічно масштабуючи вартість матеріалів та робіт у реальному часі.',
+          },
+          {
+            en: 'Dynamic Charts: Group items by category (e.g. Demolition, Finishes, Electrical) and display them in a dynamic SVG circle chart or progress bars. This visually communicates budget breakdown at a glance.',
+            ua: 'Діаграми: Групуємо елементи кошторису за категоріями (наприклад, Демонтаж, Електрика, Фінішне оздоблення) і відображаємо їх у вигляді кругової діаграми або прогрес-барів. Це дає розуміння структури витрат.',
+          },
+          {
+            en: 'Editable Accordions: Present the estimate items grouped by category inside collapsible accordion lists. Allow the user to adjust the unit price, remove redundant tasks, or add custom notes to individual items.',
+            ua: 'Редаговані списки-акордеони: Відображаємо детальні роботи в розгортних списках. Даємо можливість користувачеві самостійно коригувати ціни окремих пунктів або видаляти непотрібні завдання.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. Technical Implementation Blueprint',
+          ua: '5. Архітектурний шаблон коду',
+        },
+        paragraphs: [
+          {
+            en: 'The frontend setup consists of a text area for description input, followed by the estimator dashboard. We manage the state of variables like `area` and `wiring` using React hook states. In the render function, we calculate the totals: we multiply base costs by the current area slider value, adding flat rates for demolition if selected. A summary panel displays the recalculated sum alongside interactive sliders.',
+            ua: 'Фронтенд-частина складається з текстового поля для введення опису та панелі калькулятора. Ми керуємо станом змінних площі `area` та прапорців за допомогою хуків React. При рендерингу ми вираховуємо підсумки: множимо базові ціни на поточне значення слайдера площі й додаємо фіксовані послуги демонтажу. Слайдери та перемикачі дають можливість гнучко змінювати параметри в реальному часі.',
+          },
+          {
+            en: 'By combining the flexible context extraction of LLMs with the strict constraints and fast feedback loop of React and TypeScript, businesses can create automated B2B quote engines that feel smart, fast, and completely reliable.',
+            ua: 'Поєднуючи гнучку екстракцію контексту через LLM із жорсткою логікою розрахунків та швидким фідбеком на React, бізнеси отримують автоматизовані B2B-калькулятори, які працюють розумно, швидко й безпомилково.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'dynamic-landing-pages-ai-copy-adapt-cls-prevention',
+    date: '2026-07-29',
+    title: {
+      en: 'Dynamic Landing Pages: Real-Time AI Copy Adaptation without Layout Shifts (CLS)',
+      ua: 'Динамічні цільові сторінки: адаптація контенту в реальному часі під UTM-мітки без зсувів верстки (CLS)',
+    },
+    excerpt: {
+      en: 'Learn how to build high-converting landing pages that adapt headlines and CTAs to traffic sources in real time. We explore both Edge Middleware (SSR) and Client-Side hydration techniques that prevent Cumulative Layout Shift (CLS).',
+      ua: 'Дізнайтеся, як будувати лендинги з високою конверсією, які підлаштовують заголовки та CTA під джерело трафіку в реальному часі. Розглядаємо Edge Middleware (SSR) та клієнтську гідратацію без зсувів верстки (CLS).',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Web Development', 'Next.js', 'Conversion Optimization', 'Core Web Vitals', 'AI Integration'],
+      ua: ['Веб-розробка', 'Next.js', 'Оптимізація конверсії', 'Core Web Vitals', 'Штучний Інтелект'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'In modern digital marketing, personalization is no longer optional—it is a competitive necessity. When users click an ad promising "Affordable SaaS Solutions" and land on a generic page saying "Enterprise Software Platform," they experience a disconnect. This mismatch leads to high bounce rates. To maximize conversion rates (CR), the landing page content must adapt in real time to match the traffic source, ad group, or specific search query (using UTM parameters).',
+            ua: 'У сучасному цифровому маркетингу персоналізація вже не є додатковою опцією — це критична перевага. Коли користувач клікає на рекламу з обіцянкою «Доступна SaaS-платформа для бізнесу» та переходить на сайт із заголовком «Ми створюємо масштабні корпоративні рішення», він відчуває невідповідність. Це веде до високого показника відмов. Для максимальної конверсії (CR) вміст сторінки має адаптуватися під джерело трафіку, рекламну групу чи пошуковий запит (через UTM-мітки) в реальному часі.',
+          },
+          {
+            en: 'Implementing this dynamic adaptation (often called AI Copy-Adapt) requires close integration between marketing strategy and frontend engineering. In this article, we will examine the technical challenges of dynamic personalization—specifically Cumulative Layout Shift (CLS) and Hydration Mismatches—and how to solve them using React and Next.js, whether you run server-side rendering or a static export site.',
+            ua: 'Впровадження такої динамічної адаптації (її часто називають AI Copy-Adapt) вимагає тісної взаємодії маркетингу та frontend-розробки. У цій статті ми розглянемо технічні виклики динамічної персоналізації — зокрема Cumulative Layout Shift (CLS) та помилки гідратації (Hydration Mismatch) — та способи їх вирішення за допомогою React та Next.js для сайтів як із серверним рендерингом (SSR), так і з повністю статичним експортом (static export).',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. The Challenge: Cumulative Layout Shift and React Hydration',
+          ua: '1. Головний виклик: Зсув верстки (CLS) та гідратація React',
+        },
+        paragraphs: [
+          {
+            en: 'Dynamic text replacement is easy in plain HTML/jQuery: you read `window.location.search`, find the H1 element, and replace its `innerText`. However, in modern frameworks like Next.js, this causes two severe issues:',
+            ua: 'Динамічна заміна тексту здається простою за допомогою звичайного JS чи jQuery: ви зчитуєте `window.location.search`, знаходите H1 та замінюєте `innerText`. Але в сучасних фреймворках на кшталт Next.js це призводить до двох серйозних проблем:',
+          },
+        ],
+        list: [
+          {
+            en: 'Hydration Mismatch Error: Next.js pre-renders HTML on the server (or during static build) with a default headline. In the browser, React compares the pre-rendered HTML with the client-rendered state. If you try to swap the headline before hydration finishes, React will throw a mismatch error and might fail to load the rest of the application.',
+            ua: 'Помилка Hydration Mismatch: Next.js генерує HTML на сервері (або під час білду) з дефолтним заголовком. У браузері React порівнює цей HTML із першим рендером клієнта. Якщо підставити новий заголовок до завершення гідратації, React видасть помилку невідповідності та може зламати роботу інтерактивних елементів.',
+          },
+          {
+            en: 'Cumulative Layout Shift (CLS): If the personalized text is longer than the default text, it can wrap to a new line, pushing the entire layout downward. Since CLS is a critical SEO factor in Google Core Web Vitals, this layout jumping will negatively impact your search rankings.',
+            ua: 'Зсув верстки (CLS): Якщо персоналізований заголовок виявиться довшим за дефолтний, він може перескочити на новий рядок, зсунувши всю сторінку вниз. Оскільки CLS є важливим фактором SEO в Google Core Web Vitals, таке стрибання верстки погіршить позиції сайту в пошуку.',
+          },
+          {
+            en: 'Flicker Effect: If text swap happens client-side with a delay (e.g. after a fetch request), the user will see the default headline flash for a fraction of a second before changing, which looks unprofessional.',
+            ua: 'Ефект мерехтіння: Якщо підміна тексту відбувається на стороні клієнта із затримкою (наприклад, після запиту до API), користувач на мить побачить дефолтний заголовок перед тим, як він перемкнеться, що виглядає непрофесійно.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Solution for Static Sites: Smooth Client-Side Hydration',
+          ua: '2. Рішення для статичних сайтів: плавна клієнтська гідратація',
+        },
+        paragraphs: [
+          {
+            en: 'If your site uses static export (e.g., `output: "export"`), server-side redirects are not available at runtime. The personalization must happen entirely on the client, but it needs to be designed carefully to prevent layout shifts.',
+            ua: 'Якщо ваш сайт використовує статичний експорт (`output: "export"`), серверні редиректи під час запиту недоступні. Персоналізація має відбуватися суто на клієнті, але її потрібно реалізувати так, щоб уникнути стрибків інтерфейсу.',
+          },
+          {
+            en: 'To solve this, we can build a custom React hook that prevents hydration mismatch by deferring rendering until mount, and uses CSS variables or utility classes (like Tailwind) to reserve space and hide layout changes. Here is the implementation approach:',
+            ua: 'Для вирішення цієї проблеми ми можемо створити кастомний React-хук. Він запобігає помилкам гідратації шляхом відкладення рендеру до моменту монтування та використовує CSS або класи Tailwind для резервування місця й плавного відображення тексту. Ось як це працює:',
+          },
+        ],
+        list: [
+          {
+            en: 'Avoid Hydration Mismatches with isMounted: We use a state variable `isMounted` which is set to true in `useEffect`. Before `useEffect` fires, we only render the generic layout (or empty skeletons), ensuring the server HTML matches the initial client HTML.',
+            ua: 'Запобігання помилкам через isMounted: Ми використовуємо змінну стану `isMounted`, яку встановлюємо в `true` в `useEffect`. До запуску ефекту ми рендеримо нейтральний макет (або скелетони), забезпечуючи повний збіг початкового HTML.',
+          },
+          {
+            en: 'Use Skeletons or Pre-allocated Containers: Set a fixed minimum height (`min-h-[120px]`) for the H1 container. This acts as a physical slot that accommodates both short and long text options without forcing the layout below to move.',
+            ua: 'Використання скелетонів або зарезервованих контейнерів: Задаємо фіксовану мінімальну висоту (`min-h-[120px]`) для H1. Це діє як контейнер-резерв, що вміщує як короткі, так і довгі заголовки, не зміщуючи блоки нижче.',
+          },
+          {
+            en: 'Apply Transition Opacity: Keep the text container at `opacity-0` until the segment is determined and mounted, then transition it smoothly to `opacity-100`. This hides the text-swapping action behind a neat, professional micro-animation.',
+            ua: 'Плавна поява через Opacity: Тримаємо блок тексту з `opacity-0` до моменту визначення сегмента та монтування, після чого плавно показуємо його через `opacity-100`. Це маскує підміну тексту за допомогою акуратної мікро-анімації.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. React Hook Implementation Code Example',
+          ua: '3. Приклад коду: кастомний React-хук для адаптації',
+        },
+        paragraphs: [
+          {
+            en: 'Here is how to write a client-side hook `useCopyAdapt` that reads UTM parameters from the URL and maps them to custom marketing copy blocks:',
+            ua: 'Ось як виглядає реалізація клієнтського хука `useCopyAdapt`, який зчитує UTM-параметри та зіставляє їх із відповідними варіантами маркетингового копірайтингу:',
+          },
+          {
+            en: 'First, we define copy variants: a default version, an "AI consulting" version for traffic coming from tech ads, and a "budget-friendly" version for ads focused on pricing. In the hook, we use `useEffect` to safely parse `window.location.search` and update the local state with the matched variant, setting `isMounted` to true to trigger the fade-in effect.',
+            ua: 'Спершу ми визначаємо варіанти тексту: дефолтний, варіант під «AI-консалтинг» (для трафіку з технологічної реклами) та варіант «Бюджетна розробка» (для оголошень про вартість). У хуку ми використовуємо `useEffect` для безпечного парсингу `window.location.search` і оновлення локального стану сторінки, водночас перемикаючи `isMounted` в `true` для запуску ефекту плавного з\'явлення.',
+          },
+          {
+            en: 'In the component rendering the title, we wrap the H1 in a container with a fixed min-height and Tailwind classes `transition-opacity duration-300` combined with `isMounted ? "opacity-100" : "opacity-0"`. When the page mounts and the UTM tags are parsed, the dynamic copy fades in seamlessly.',
+            ua: 'У компоненті, який відображає заголовок, ми огортаємо H1 в контейнер із фіксованою мінімальною висотою та класами Tailwind `transition-opacity duration-300` у комбінації з `isMounted ? "opacity-100" : "opacity-0"`. Коли сторінка монтується та UTM-мітки розпізнаються, динамічний текст з\'являється плавно й непомітно.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Server-Side Alternative: Next.js Edge Middleware',
+          ua: '4. Серверна альтернатива: Next.js Edge Middleware',
+        },
+        paragraphs: [
+          {
+            en: 'For applications hosted on Node.js servers or modern serverless runtimes (like Vercel or AWS Amplify) without static export constraints, server-side dynamic adaptation is the gold standard.',
+            ua: 'Для додатків, які хостяться на серверах Node.js або сучасних serverless-платформах (як-от Vercel або AWS Amplify) без обмежень статичного експорту, серверна адаптація є золотим стандартом.',
+          },
+          {
+            en: 'Using Next.js Middleware running on the Edge, we can intercept requests at the closest server location before they reach the user. The middleware extracts the `utm_campaign` or `utm_content` from the URL, writes a client cookie (e.g. `user-segment=ai`), and forwards the request. The React Server Component reads the cookie on the server and generates the exact personalized HTML. The browser receives pre-rendered, final text, achieving 0 CLS and 0 hydration delays.',
+            ua: 'Використовуючи Next.js Middleware на Edge Runtime, ми можемо перехоплювати запити на найближчих до користувача серверах ще до того, як HTML почне надсилатися в браузер. Middleware вилучає `utm_campaign` або `utm_content` з URL, записує клієнтський Cookie (наприклад, `user-segment=ai`) та пропускає запит далі. React Server Component зчитує куки на сервері й віддає повністю персоналізовану сторінку. Браузер одразу отримує готовий текст: CLS дорівнює нулю, а затримок гідратації немає взагалі.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. Business Impact: Personalization and ROI',
+          ua: '5. Вплив на бізнес: персоналізація та окупність реклами',
+        },
+        paragraphs: [
+          {
+            en: 'Connecting ad creatives directly to the landing page headlines yields substantial benefits for businesses:',
+            ua: 'Поєднання рекламного креативу безпосередньо із заголовком цільової сторінки дає відчутні переваги для бізнесу:',
+          },
+        ],
+        list: [
+          {
+            en: 'Higher Conversion Rates (CR): Direct matching of user expectations to H1 eliminates confusion, often boosting landing page conversion rates by 20% to 45%.',
+            ua: 'Вища конверсія (CR): Пряма відповідність очікувань користувача заголовку сторінки усуває плутанину, що часто збільшує конверсію лендингу на 20-45%.',
+          },
+          {
+            en: 'Lower Ad Costs (CPC/CPA): Search engines and social media ad platforms evaluate landing page relevance (Quality Score). Matches between ad copy and page content reduce cost-per-click (CPC) and acquisition cost (CPA).',
+            ua: 'Зниження вартості реклами (CPC/CPA): Рекламні платформи оцінюють релевантність цільової сторінки (Quality Score). Збіг тексту оголошення та заголовку сторінки знижує вартість кліка (CPC) та вартість залучення ліда (CPA).',
+          },
+          {
+            en: 'Better Ad Budget Utilization: Instead of building 10 separate landing pages for 10 ad groups, developers can maintain a single highly-optimized codebase, saving engineering time and cloud costs.',
+            ua: 'Економія бюджету на розробку: Замість створення 10 окремих лендингів під 10 рекламних груп розробники підтримують одну високооптимізовану сторінку, заощаджуючи час на інжиніринг та хостинг.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'why-your-business-needs-site-search-in-2026',
     date: '2026-07-29',
     title: {
