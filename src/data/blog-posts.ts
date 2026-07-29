@@ -37,6 +37,300 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'prompt-engineering-for-developers-guide',
+    date: '2026-07-29',
+    title: {
+      en: 'Prompt Engineering for Developers: How to Leverage LLMs for Coding and Refactoring',
+      ua: 'Промпт-інжиніринг для розробників: як використовувати LLM для написання та рефакторингу коду',
+    },
+    excerpt: {
+      en: 'Master prompt engineering to accelerate your development workflow. Learn practical techniques for generating clean code, debugging complex errors, writing unit tests, and how AI shifts the role of frontend engineers.',
+      ua: 'Опануйте промпт-інжиніринг для прискорення розробки. Практичні техніки написання коду, пошуку багів, написання тестів та аналіз того, як ШІ змінює роль сучасного фронтендера.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['AI', 'Prompt Engineering', 'Web Development', 'ChatGPT', 'Claude'],
+      ua: ['ШІ', 'Промпт-інжиніринг', 'Веб-розробка', 'ChatGPT', 'Claude'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Artificial intelligence and Large Language Models (LLMs) like ChatGPT and Claude have completely changed the way software is written. Today, AI is not just a tool for generating boilerplate code; it is a collaborative partner for architecture design, refactoring, debugging, and testing. However, the quality of AI assistance depends directly on how you formulate your requests.',
+            ua: 'Штучний інтелект та великі мовні моделі (LLM), такі як ChatGPT та Claude, повністю змінили процес розробки програмного забезпечення. Сьогодні ШІ — це не просто автодоповнення коду, а повноцінний напарник для проектування архітектури, рефакторингу, пошуку багів та написання тестів. Однак ефективність цієї співпраці безпосередньо залежить від того, як ви формулюєте свої запити.',
+          },
+          {
+            en: 'In this article, we will examine the core principles of prompt engineering for developers and explore practical strategies to turn LLMs into powerful code assistants.',
+            ua: 'У цій статті ми розберемо ключові принципи промпт-інжинірингу для розробників та розглянемо практичні стратегії, які дозволять перетворити LLM на ваших найефективніших помічників.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Core Principles of Code Prompting',
+          ua: '1. Базові принципи промптингу для коду',
+        },
+        paragraphs: [
+          {
+            en: 'To get predictable, production-ready code from an LLM, you must follow three golden rules:',
+            ua: 'Щоб отримати від моделі передбачуваний і готовий до використання в продакшені код, потрібно дотримуватися трьох золотих правил:',
+          },
+        ],
+        list: [
+          {
+            en: 'Provide Detailed Context: AI doesn\'t know your codebase. Specify the framework version, coding standards, styling choices (e.g., Tailwind CSS, TypeScript), and any constraints beforehand.',
+            ua: 'Надавайте детальний контекст: ШІ не бачить весь ваш проект. Заздалегідь вказуйте версії фреймворків, мову (наприклад, TypeScript), стандарти кодування та обмеження (наприклад, без використання сторонніх бібліотек).',
+          },
+          {
+            en: 'Assign a Specific Role: Start your prompt by giving the AI a professional persona. For example: "Act as an expert React developer specializing in performance optimization and clean architecture."',
+            ua: 'Призначайте конкретну роль: Починайте запит із визначення ролі для ШІ. Наприклад: «Дій як експерт із React, який спеціалізується на оптимізації продуктивності та чистій архітектурі».',
+          },
+          {
+            en: 'Iterate and Refine: Treat the first response as a draft. Ask the LLM to optimize edge cases, refactor logic, or explain potential security vulnerabilities in the generated snippet.',
+            ua: 'Працюйте ітеративно: Ставтеся до першої відповіді як до чернетки. Просіть ШІ доопрацювати крайні випадки (edge cases), розділити великі функції або знайти потенційні проблеми з безпекою.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Actionable Techniques for Developers',
+          ua: '2. Практичні техніки промпт-інжинірингу',
+        },
+        paragraphs: [
+          {
+            en: 'Using structured techniques can dramatically improve the quality of AI-generated code:',
+            ua: 'Використання структурованих підходів дозволяє значно покращити якість генерованого коду:',
+          },
+        ],
+        list: [
+          {
+            en: 'Few-Shot Prompting: Show the LLM examples of your preferred input and output. If you want a specific testing structure, feed the AI one of your existing test files as a reference.',
+            ua: 'Few-Shot Prompting (навчання на прикладах): Покажіть моделі 1-2 приклади вашого стилю написання коду. Якщо вам потрібні тести певного формату, спочатку надішліть ШІ приклад готового файлу тестів як референс.',
+          },
+          {
+            en: 'Chain of Thought (CoT): Instruct the LLM to write a step-by-step logic plan before writing any code. For instance: "First, outline the algorithm in plain English, and only then write the TypeScript implementation."',
+            ua: 'Chain of Thought (ланцюжок міркувань): Просіть модель спочатку описати логіку словами, а вже потім писати код. Наприклад: «Спершу розпиши кроки алгоритму текстом, а потім надай реалізацію на TypeScript».',
+          },
+          {
+            en: 'System Constraints: Clearly declare what NOT to do. E.g., "Do not use external dependencies. Write custom Tailwind CSS styles instead of installing components."',
+            ua: 'Жорсткі обмеження (Constraints): Чітко вказуйте, чого робити НЕ варто. Наприклад: «Не використовуй зовнішні NPM-пакети для анімації, використовуй лише чистий CSS».',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Generation, Refactoring, and Writing Unit Tests',
+          ua: '3. Генерація, рефакторинг та написання тестів',
+        },
+        paragraphs: [
+          {
+            en: 'LLMs excel at routine tasks like refactoring and writing test suites, freeing up your time for architecture decisions:',
+            ua: 'Великі мовні моделі чудово справляються з рутинними задачами, звільняючи ваш час для проектування архітектури:',
+          },
+        ],
+        list: [
+          {
+            en: 'Refactoring: Provide legacy code and ask the model to improve readability, dry up repeated patterns, or convert complex nested conditions into readable early returns.',
+            ua: 'Рефакторинг коду: Передайте застарілий шматок коду і попросіть модель зробити його компактнішим, позбутися дублювання або спростити вкладені конструкції `if-else` за допомогою `early returns`.',
+          },
+          {
+            en: 'Debugging: Instead of just pasting the error stack trace, provide both the code snippet and the error output. Ask the model: "Explain the cause of this runtime exception and suggest a fix."',
+            ua: 'Пошук багів: Замість того, щоб просто вставляти помилку, додайте контекст: код та сам опис помилки із консолі. Запитайте: «Чому виникає ця помилка під час виконання і як її виправити?»',
+          },
+          {
+            en: 'Automated Testing: Ask the LLM to write unit tests for your functions using libraries like Jest or Vitest. Specify that it must cover boundary conditions, empty values, and error states.',
+            ua: 'Написання тестів: Просіть ШІ написати модульні тести (наприклад, для Jest або Vitest). Вказуйте, що обов’язково потрібно протестувати граничні значення та обробку помилок.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. How AI Shifts the Role of Frontend Engineers',
+          ua: '4. Як ШІ змінює роль фронтенд-розробника',
+        },
+        paragraphs: [
+          {
+            en: 'AI is not replacing developers; it is replacing developers who do not use AI. The focus is shifting from syntax memorization to software design and integration:',
+            ua: 'Штучний інтелект не замінить розробників, але розробники, які використовують ШІ, замінять тих, хто цього не робить. Фокус уваги зміщується з запам\'ятовування синтаксису на проектування та інтеграцію:',
+          },
+        ],
+        list: [
+          {
+            en: 'From Coders to Architects: Developers spend less time typing boilerplate and more time designing scalable API schemas, analyzing performance, and coordinating system integrations.',
+            ua: 'Від кодерів до архітекторів: Ми витрачаємо менше часу на написання шаблонного коду (boilerplate) і більше — на проектування масштабованих API, оптимізацію швидкості та архітектурні рішення.',
+          },
+          {
+            en: 'Higher Requirement for Verification: Since AI can hallucinate or produce code with subtle bugs, developers must act as meticulous reviewers, understanding exactly what the generated code does.',
+            ua: 'Вища відповідальність за перевірку: Оскільки ШІ може галюцинувати або допускати непомітні логічні помилки, розробник стає рев\'юером, який має досконало розуміти кожен рядок згенерованого коду.',
+          },
+          {
+            en: 'Accelerated Learning Curve: AI acts as a 24/7 personal tutor, explaining complex concepts, framework features, and design patterns on demand with tailored examples.',
+            ua: 'Прискорене навчання: ШІ виступає як персональний ментор, готовий у будь-який час простими словами пояснити складну тему чи алгоритм і навести зрозумілі приклади.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion: Build Smarter and Faster',
+          ua: 'Висновок: розробляйте швидше та розумніше',
+        },
+        paragraphs: [
+          {
+            en: 'Embracing prompt engineering allows you to write high-quality code in a fraction of the time, transforming LLMs from a simple search alternative into an indispensable development partner. By formulating clear context, structured commands, and verified constraints, you can boost your daily productivity.',
+            ua: 'Опанування промпт-інжинірингу дозволяє створювати якісний код значно швидше, перетворюючи мовні моделі з простого інструменту пошуку на незамінного партнера. Формулюючи чіткий контекст, структуровані команди та правила перевірки, ви виведете свою щоденну продуктивність на новий рівень.',
+          },
+          {
+            en: 'Need to implement complex custom solutions, automate business flows, or build scalable web systems using modern AI integrations? Fill out the contact form below and let\'s discuss your project!',
+            ua: 'Потрібно розробити складне кастомне рішення, інтегрувати штучний інтелект у ваш бізнес чи створити швидкий веб-додаток на чистому коді? Заповніть форму зв\'язку внизу сторінки, і ми втілимо вашу ідею в життя!',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'integrating-ai-chatbots-streaming-nextjs',
+    date: '2026-07-29',
+    title: {
+      en: 'Integrating AI Chatbots into Web Apps: From Basic API to Streaming Responses in Next.js',
+      ua: 'Інтеграція AI-чатботів у веб-інтерфейси: від базового API до Streaming-відповідей у Next.js',
+    },
+    excerpt: {
+      en: 'Learn how to integrate AI models like OpenAI and Anthropic into web applications. We cover simple API calls, Server-Sent Events (SSE) for real-time response streaming, and building chat interfaces in Next.js.',
+      ua: 'Дізнайтеся, як інтегрувати моделі ШІ (OpenAI, Anthropic) у веб-додатки: від звичайних API-запитів до потокової передачі відповідей (SSE) у реальному часі та побудови інтесів чату в Next.js.',
+    },
+    readTime: {
+      en: '7 min read',
+      ua: '7 хв читання',
+    },
+    tags: {
+      en: ['AI Integration', 'Next.js', 'Server-Sent Events', 'WebSockets', 'OpenAI'],
+      ua: ['Інтеграція ШІ', 'Next.js', 'Server-Sent Events', 'WebSockets', 'OpenAI'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Integrating artificial intelligence into web applications is one of the most requested features today. From automated customer support bots to smart personal assistants, chat interfaces are becoming standard. However, waiting for an LLM to generate a full response can take 10 to 30 seconds, causing a poor user experience. Streaming response generation solves this issue by displaying words as they are generated.',
+            ua: 'Інтеграція штучного інтелекту у веб-додатки є однією з найпопулярніших функцій сьогодні. Від автоматизованої підтримки клієнтів до розумних асистентів — чат-інтерфейси стають новим стандартом. Проте повна генерація відповіді моделі може займати 10–30 секунд, що змушує користувача чекати біля пустого екрана. Потокова передача (streaming) вирішує цю проблему, показуючи слова в міру їх генерації.',
+          },
+          {
+            en: 'In this article, we will explore the differences between simple JSON responses and streaming, and learn how to build a real-time chatbot interface in Next.js using Server-Sent Events (SSE) and OpenAI SDK.',
+            ua: 'У цій статті ми детально розглянемо різницю між звичайними запитами та стримінгом і навчимося створювати інтерфейс чату в реальному часі на базі Next.js, використовуючи Server-Sent Events (SSE) та офіційний SDK OpenAI.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Standard JSON API Calls vs. Real-Time Streaming',
+          ua: '1. Стандартні JSON-запити проти потокового стримінгу',
+        },
+        paragraphs: [
+          {
+            en: 'When a user triggers an AI request, two main approaches can be used to deliver the response:',
+            ua: 'Коли користувач робить запит до штучного інтелекту, є два основні шляхи отримання відповіді:',
+          },
+        ],
+        list: [
+          {
+            en: 'Standard JSON Fetch: The client sends a request and waits. The server communicates with OpenAI, waits for the entire sentence to complete, compiles it into a JSON block, and sends it back. This causes a long loading indicator and high bounce rates.',
+            ua: 'Звичайний Fetch-запит: Клієнт робить запит і чекає. Сервер звертається до API моделі, очікує завершення генерації всієї відповіді, формує JSON і надсилає назад. Результат — тривале очікування користувача та поганий UX.',
+          },
+          {
+            en: 'Streaming with Server-Sent Events (SSE): The server opens a persistent HTTP connection. As soon as the AI model generates a new token (a word or part of it), the server pushes it to the browser. The user sees text appearing immediately, reducing perceived loading time to milliseconds.',
+            ua: 'Потокова передача (SSE): Сервер відкриває тривале HTTP-з\'єднання. Як тільки модель генерує новий токен (слово або його частину), сервер миттєво відправляє його браузеру. Користувач одразу бачить текст, що зводить очікування до мінімуму.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Backend Implementation in Next.js Route Handlers',
+          ua: '2. Реалізація бекенду в Route Handlers (Next.js)',
+        },
+        paragraphs: [
+          {
+            en: 'Next.js App Router supports streaming responses natively using Web Streams. Here is how a simplified Route Handler for streaming look like:',
+            ua: 'Next.js App Router підтримує потокову передачу відповідей нативно за допомогою Web Streams. Ось як виглядає спрощений обробник маршруту для стримінгу:',
+          },
+          {
+            en: 'First, we configure the OpenAI client and trigger the chat completion with the `stream: true` flag. Then, we transform the OpenAI readable stream into a standard HTTP Response stream. The browser reads the chunks and processes them on the fly.',
+            ua: 'Спочатку ми ініціалізуємо клієнт OpenAI та робимо запит до моделі з прапорцем `stream: true`. Далі ми перетворюємо потік даних від OpenAI у стандартний потік HTTP Response. Браузер зчитує ці чанки (шматочки тексту) в міру їх надходження.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Building the Chat UI and Processing Stream on Client',
+          ua: '3. Створення клієнтської частини: читання потоку',
+        },
+        paragraphs: [
+          {
+            en: 'On the frontend, we use React state to hold the messages and manage the response stream. Standard `fetch` API is capable of reading streaming data using the `ReadableStream` reader:',
+            ua: 'На фронтенді ми використовуємо стан React для збереження історії повідомлень. Стандартний API `fetch` дозволяє читати потокові дані за допомогою інтерфейсу `ReadableStream`:',
+          },
+        ],
+        list: [
+          {
+            en: 'Read the response body reader. Using a `while(true)` loop, read incoming chunks using `reader.read()`. Decode these binary chunks into text strings using `TextDecoder`.',
+            ua: 'Отримуємо рідер з відповіді сервера. За допомогою циклу `while(true)` зчитуємо нові чанки через `reader.read()`. Декодуємо бінарні дані в текст за допомогою `TextDecoder`.',
+          },
+          {
+            en: 'Update the message state in real-time, appending the new tokens to the last message as they arrive, which causes React to re-render and dynamically display the word stream.',
+            ua: 'Оновлюємо стан повідомлень у реальному часі, додаючи нові слова до останнього повідомлення, що змушує React перерендерити інтерфейс та створювати ефект плавного друку.',
+          },
+          {
+            en: 'Auto-scroll to the bottom of the chat container as new content is printed so that the latest lines are always visible to the user.',
+            ua: 'Автоматично прокручуємо чат вниз по мірі появи нового контенту, щоб останні речення завжди були перед очима користувача.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Handling Edge Cases and Error Management',
+          ua: '4. Оптимізація та обробка помилок',
+        },
+        paragraphs: [
+          {
+            en: 'Building production-grade chat applications requires extra attention to detail:',
+            ua: 'Створення надійних чат-додатків вимагає уваги до деталей:',
+          },
+        ],
+        list: [
+          {
+            en: 'Connection Interruptions: Implement reconnect logic and alert states if the HTTP stream breaks unexpectedly during generation.',
+            ua: 'Втрата з\'єднання: Реалізуйте логіку повторного підключення та інформаційні повідомлення, якщо мережевий потік несподівано перерветься.',
+          },
+          {
+            en: 'Abort Requests: Provide a "Stop generating" button on the UI. Use `AbortController` in your Fetch requests to tell the server to cancel the LLM request and stop wasting API costs.',
+            ua: 'Скасування запиту: Додайте кнопку «Зупинити генерацію». Використовуйте `AbortController` у Fetch-запиті, щоб повідомити сервер про зупинку та не витрачати кошти на зайві токени API.',
+          },
+          {
+            en: 'Markdown and Code Rendering: LLM answers often contain Markdown tables or formatted code blocks. Use components like `react-markdown` and syntax highlighters to render structured layouts.',
+            ua: 'Рендеринг коду та розмітки: Відповіді ШІ часто містять Markdown чи блоки коду. Використовуйте плагіни на кшталт `react-markdown` та бібліотеки підсвічування коду для їх красивого відображення.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion: Upgrade Your UX with Streaming AI',
+          ua: 'Висновок: виведіть UX на новий рівень завдяки потоковому ШІ',
+        },
+        paragraphs: [
+          {
+            en: 'Real-time response streaming is a necessity for modern AI-driven web apps. By utilizing Server-Sent Events, Next.js route streaming, and responsive React chat containers, you can build interactive interfaces that feel fast, alive, and polished.',
+            ua: 'Потокова передача відповідей у реальному часі є необхідністю для сучасних веб-додатків із підтримкою ШІ. Використання Server-Sent Events, можливостей Next.js та інтерактивних інтерфейсів на React дозволяє створювати додатки, які відчуваються миттєвими, живими та професійними.',
+          },
+          {
+            en: 'Looking to integrate OpenAI, Anthropic, or custom local LLM solutions with streaming features into your business app? Reach out using the contact form below and let\'s build it properly!',
+            ua: 'Хочете інтегрувати моделі OpenAI, Anthropic чи локальні LLM з функцією стримінгу у ваш бізнес-додаток? Заповніть контактну форму внизу сторінки, і ми розробимо якісне рішення під ваші потреби!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'telegram-bot-web-app-food-delivery-guide',
     date: '2026-07-29',
     title: {
