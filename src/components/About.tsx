@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { LocationIcon, EmailIcon, LinkIcon, LinkedInIcon, WhatsAppIcon } from './Icons'
+import { LocationIcon, EmailIcon, LinkIcon, LinkedInIcon, WhatsAppIcon, UpworkIcon } from './Icons'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
 
@@ -53,6 +53,18 @@ export default function About() {
                     </li>
                   ))}
                 </ul>
+              </div>
+
+              <div className="mb-6 flex justify-start">
+                <a
+                  href="https://www.upwork.com/freelancers/irynavynnychenko"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold rounded-xl text-white bg-[#14a800] hover:bg-[#129600] active:bg-[#108400] transition-all duration-300 transform hover:scale-[1.02] hover:shadow-lg hover:shadow-green-500/10 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 font-sans"
+                >
+                  <UpworkIcon className="w-5 h-5 mr-2" />
+                  {t.hireMeOnUpwork}
+                </a>
               </div>
 
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">

@@ -6,6 +6,7 @@ import BlogPagination from '@/components/BlogPagination'
 import { getBlogPostsForPage, getAllBlogPosts } from '@/data/blog-posts'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
+import { UpworkIcon } from '@/components/Icons'
 
 type BlogIndexProps = {
   currentPage: number
@@ -55,6 +56,19 @@ export default function BlogIndex({ currentPage }: BlogIndexProps) {
         <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl leading-relaxed">
           {t.description}
         </p>
+
+        {/* Hire me on Upwork button */}
+        <div className="mt-6 flex justify-start">
+          <a
+            href="https://www.upwork.com/freelancers/irynavynnychenko"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold rounded-xl text-white bg-[#14a800] hover:bg-[#129600] active:bg-[#108400] transition-all duration-300 transform hover:scale-[1.02] hover:shadow-lg hover:shadow-green-500/10 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 font-sans"
+          >
+            <UpworkIcon className="w-5 h-5 mr-2" />
+            {translations[language].about.hireMeOnUpwork}
+          </a>
+        </div>
 
         {/* Search Input */}
         <div className="mt-8 relative max-w-md">

@@ -29,6 +29,7 @@ export const translations = {
       upworkProfile: 'Upwork Profile',
       linkedinProfile: 'LinkedIn Profile',
       whatsapp: 'WhatsApp',
+      hireMeOnUpwork: 'Hire me on Upwork',
     },
     skills: {
       title: 'Skills & Expertise',
@@ -295,6 +296,7 @@ export const translations = {
       upworkProfile: 'Профіль на Upwork',
       linkedinProfile: 'Профіль на LinkedIn',
       whatsapp: 'WhatsApp',
+      hireMeOnUpwork: 'Найняти мене на Upwork',
     },
     skills: {
       title: 'Навички та експертиза',
