@@ -1,9 +1,16 @@
+import type { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import BlogIndex from '@/components/BlogIndex'
 import { SetLanguageClient } from '@/components/SetLanguageClient'
 import { getBlogPostsForPage } from '@/data/blog-posts'
 import { BlogSchema } from '@/components/SchemaMarkup'
+
+export const metadata: Metadata = {
+  title: 'Блог — Ірина Винниченко | Senior Web & Frontend Розробник',
+  description:
+    'Корисні статті про веб-розробку, оптимізацію продуктивності та найм розробників — для фаундерів та власників продуктів.',
+}
 
 export default function UaBlogPage() {
   const posts = getBlogPostsForPage(1, 'ua')

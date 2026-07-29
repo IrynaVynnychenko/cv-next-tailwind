@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
       alternates: {
         languages: {
+          'en': `${baseUrl}/`,
           'en-US': `${baseUrl}/`,
           'uk-UA': `${baseUrl}/ua/`,
           'x-default': `${baseUrl}/`,
@@ -26,6 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       alternates: {
         languages: {
+          'en': `${baseUrl}/`,
           'en-US': `${baseUrl}/`,
           'uk-UA': `${baseUrl}/ua/`,
           'x-default': `${baseUrl}/`,
@@ -39,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: {
         languages: {
+          'en': `${baseUrl}/blog/`,
           'en-US': `${baseUrl}/blog/`,
           'uk-UA': `${baseUrl}/ua/blog/`,
           'x-default': `${baseUrl}/blog/`,
@@ -52,6 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: {
         languages: {
+          'en': `${baseUrl}/blog/`,
           'en-US': `${baseUrl}/blog/`,
           'uk-UA': `${baseUrl}/ua/blog/`,
           'x-default': `${baseUrl}/blog/`,
@@ -68,6 +72,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
       alternates: {
         languages: {
+          'en': `${baseUrl}/blog/${post.slug}/`,
           'en-US': `${baseUrl}/blog/${post.slug}/`,
           'uk-UA': `${baseUrl}/ua/blog/${post.slug}/`,
           'x-default': `${baseUrl}/blog/${post.slug}/`,
@@ -81,6 +86,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
       alternates: {
         languages: {
+          'en': `${baseUrl}/blog/${post.slug}/`,
           'en-US': `${baseUrl}/blog/${post.slug}/`,
           'uk-UA': `${baseUrl}/ua/blog/${post.slug}/`,
           'x-default': `${baseUrl}/blog/${post.slug}/`,
