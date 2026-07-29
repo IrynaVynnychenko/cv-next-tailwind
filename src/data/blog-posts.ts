@@ -37,6 +37,196 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'telegram-mini-apps-fintech-development-guide',
+    date: '2026-07-29',
+    title: {
+      en: 'What is a Telegram Mini App and How to Build a Fintech Application with It',
+      ua: 'Що таке Telegram Mini App та як створити Fintech-додаток на його базі',
+    },
+    excerpt: {
+      en: 'Learn what Telegram Mini Apps (TMAs) are, why they are perfect for fintech solutions, how their architecture works, and how to build a secure, interactive financial app inside the messenger.',
+      ua: 'Дізнайтеся, що таке Telegram Mini Apps (TMA), чому вони ідеально підходять для фінтех-рішень, як влаштована їхня архітектура та як побудувати безпечний і зручний фінансовий додаток у месенджері.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Telegram Mini Apps', 'Fintech', 'Payments', 'Web Development', 'Mobile Apps'],
+      ua: ['Telegram Mini Apps', 'Fintech', 'Платежі', 'Веб-розробка', 'Мобільні додатки'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Telegram has transcended from a simple messaging platform into a rich application ecosystem. At the heart of this transformation are Telegram Mini Apps (TMAs) — lightweight web applications that run directly inside the messenger. For businesses, and particularly for the fintech industry, this opens up massive opportunities to interact with users without the friction of app store downloads.',
+            ua: 'Telegram вже давно переріс статус звичайного месенджера, перетворившись на повноцінну екосистему для додатків. Ключовим елементом цієї еволюції стали Telegram Mini Apps (TMA) — легковагові веб-додатки, які запускаються безпосередньо всередині месенджера. Для бізнесу, а особливо для сфери фінтеху (fintech), це відкриває колосальні можливості для взаємодії з клієнтами без зайвих бар’єрів на кшталт завантаження програм з App Store чи Google Play.',
+          },
+          {
+            en: 'In this article, we will break down what Telegram Mini Apps are, why they are a perfect fit for financial products, how to structure their architecture, and what it takes to build a secure, user-friendly fintech solution.',
+            ua: 'У цій статті ми детально розберемося, що таке Telegram Mini Apps, чому вони є ідеальним вибором для фінансових продуктів, як влаштована їхня технічна архітектура та що потрібно для створення безпечного й зручного фінтех-додатку.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. What is a Telegram Mini App (TMA)?',
+          ua: '1. Що таке Telegram Mini App?',
+        },
+        paragraphs: [
+          {
+            en: 'Technically, a Telegram Mini App is a standard web application (built using React, Next.js, Vue, Angular, or even vanilla HTML/JS) that is loaded inside an in-app browser within Telegram. However, unlike a generic browser window, TMAs are tightly integrated with the Telegram platform via the Telegram WebApp SDK.',
+            ua: 'З технічної точки зору, Telegram Mini App — це звичайний веб-додаток (створений на React, Next.js, Vue, Angular або навіть на чистій верстці HTML/JS), який завантажується у вбудованому браузері Telegram. Проте, на відміну від простого відкриття сайту в браузері, TMA глибоко інтегрований із платформою завдяки Telegram WebApp SDK.',
+          },
+          {
+            en: 'This SDK gives developers access to native platform features: customized theme styles matching the user\'s Telegram theme (dark or light mode), haptic feedback (vibration), cloud storage, secure user data and authentication parameters, contact sharing, native main buttons, and payment triggers.',
+            ua: 'Цей SDK надає розробникам доступ до нативних функцій платформи: колірної палітри інтерфейсу користувача (темна або світла теми Telegram), тактильного відгуку (вібрації), хмарного сховища, безпечних даних користувача та параметрів автентифікації, надсилання контактів, нативних системних кнопок та запусків оплати.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Why TMAs are Perfect for Fintech Solutions',
+          ua: '2. Чому TMA ідеально підходять для Fintech-рішень',
+        },
+        paragraphs: [
+          {
+            en: 'Fintech products usually suffer from high user acquisition costs (CAC) and complex onboarding. Telegram Mini Apps dramatically lower these barriers:',
+            ua: 'Фінтех-продукти зазвичай стикаються з високою вартістю залучення клієнтів (CAC) та складним процесом онбордингу. Telegram Mini Apps кардинально змінюють правила гри:',
+          },
+        ],
+        list: [
+          {
+            en: 'Zero-Click Install: Users don\'t need to install anything from an app store. They open the app instantly via a chat button, link, or attachment menu.',
+            ua: 'Встановлення в один клік: Користувачам не потрібно переходити в App Store чи Google Play. Додаток відкривається миттєво через кнопку в чаті, посилання або меню.',
+          },
+          {
+            en: 'Instant Authentication: Telegram passes cryptographically signed user data on launch. You can automatically identify the user without requiring them to type passwords or verify emails initially.',
+            ua: 'Миттєва авторизація: При запуску Telegram передає криптографічно підписані дані користувача. Ви можете автоматично ідентифікувати юзера без необхідності введення паролів чи підтвердження пошти на першому кроці.',
+          },
+          {
+            en: 'Viral Sharing & Social Mechanics: Integrating bill splitting, money transfers to contacts, request-to-pay links, or referral programs is extremely easy because users can share links directly to their Telegram chats and groups.',
+            ua: 'Вірусний ефект та соціальні механіки: Реалізація спільного розділення рахунків (split-bill), переказів контактам зі списку, запитів на оплату або реферальних програм стає надзвичайно простою, оскільки користувачі можуть ділитися посиланнями безпосередньо у свої чати та групи.',
+          },
+          {
+            en: 'High Engagement: Push notifications can be simulated via Telegram bot messages, bringing users back to the app with high open rates.',
+            ua: 'Високий рівень залучення: Нагадування та пуш-сповіщення можна надсилати у вигляді повідомлень від імені бота, що забезпечує значно вищий показник відкриття (open rate) порівняно зі звичайними email чи класичними пушами.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Key Fintech Use Cases for Telegram Mini Apps',
+          ua: '3. Основні сценарії використання Fintech у Telegram',
+        },
+        paragraphs: [
+          {
+            en: 'The combination of web technologies and messenger features allows implementing a wide range of financial services:',
+            ua: 'Поєднання веб-технологій та функцій месенджера дозволяє реалізувати широкий спектр фінансових послуг:',
+          },
+        ],
+        list: [
+          {
+            en: 'Digital Neo-banking & Wallets: Users can view account balances, order virtual cards, track expenditures with charts, and perform peer-to-peer (P2P) transfers.',
+            ua: 'Цифровий банкінг та гаманці: Перегляд балансу, замовлення віртуальних карток, аналітика витрат за допомогою красивих графіків та швидкі P2P-перекази.',
+          },
+          {
+            en: 'Group Expense Splitting: A bot in a group chat generates a link to a Mini App where participants select items from a receipt and pay their share directly inside Telegram.',
+            ua: 'Спільний збір коштів та розділення чеків: Бот у груповому чаті створює посилання на Mini App, де учасники відмічають свої позиції з чека та оплачують свою частку.',
+          },
+          {
+            en: 'Crypto & Web3 Integration: Creating non-custodial or custodial crypto wallets (like Telegram\'s native Wallet), interacting with TON (The Open Network) blockchain, swapping tokens, and managing NFTs.',
+            ua: 'Інтеграція з Web3 та криптовалютами: Створення кастодіальних та некастодіальних криптогаманців, взаємодія з блокчейном TON (The Open Network), обмін токенів та управління NFT.',
+          },
+          {
+            en: 'Micro-loans and Express Financing: Quick onboarding with identity verification (e.g., using BankID or Diia APIs in Ukraine), automated scoring, and instant disbursement of funds to a card.',
+            ua: 'Мікрокредитування та швидке фінансування: Швидка реєстрація з верифікацією особи (наприклад, через BankID або Дія), автоматичний скоринг та миттєве зарахування кредитних коштів на картку.',
+          },
+          {
+            en: 'Loyalty Programs & Gift Cards: Buying, storing, and gifting loyalty vouchers, gift cards, or promo codes with instant payments.',
+            ua: 'Програми лояльності та подарункові сертифікати: Купівля, зберігання та дарування сертифікатів, бонусних карток чи промокодів із миттєвою оплатою.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. High-Level Technical Architecture of a Fintech TMA',
+          ua: '4. Технічна архітектура фінтех-додатка в Telegram',
+        },
+        paragraphs: [
+          {
+            en: 'A standard fintech Telegram Mini App consists of four key layers:',
+            ua: 'Стандартний фінтех-додаток у Telegram складається з чотирьох основних рівнів:',
+          },
+        ],
+        list: [
+          {
+            en: 'Frontend (TMA Client): Built with modern frameworks (React/Next.js/Vite) and optimized for mobile screens. It uses the Telegram WebApp SDK to interact with the messenger interface and access user details.',
+            ua: 'Frontend (TMA-клієнт): Розробляється за допомогою сучасних фреймворків (React/Next.js/Vite) та оптимізується під мобільні екрани. Використовує Telegram WebApp SDK для взаємодії з інтерфейсом месенджера.',
+          },
+          {
+            en: 'Backend API: A secure server application (Node.js, Go, Python, or NestJS) that processes business logic, handles database operations, and integrates with financial providers.',
+            ua: 'Backend API: Безпечний серверний додаток (Node.js, Go, Python чи NestJS), який обробляє бізнес-логіку, працює з базою даних та інтегрується з фінансовими провайдерами.',
+          },
+          {
+            en: 'Payment Gateway / Bank Acquirer: Integrates APIs of banks or platforms like Stripe, Monobank, LiqPay, Portmone, or Web3 payment processors for money processing.',
+            ua: 'Платіжний шлюз / Еквайринг: Інтеграція API банків або платіжних систем (Stripe, Monobank, LiqPay, Portmone) або Web3-процесингів для безпосереднього проведення платежів.',
+          },
+          {
+            en: 'Telegram Bot (Gateway): Serves as the entry point. The bot sends keyboard buttons or inline links that trigger the Mini App and handles background notifications.',
+            ua: 'Telegram-бот (шлюз): Слугує точкою входу. Бот надсилає кнопки або посилання для відкриття Mini App, а також відповідає за фонові сервісні повідомлення та чеки.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. Security in Fintech Mini Apps (Critical Rules)',
+          ua: '5. Безпека у фінтех Mini Apps (Критичні правила)',
+        },
+        paragraphs: [
+          {
+            en: 'Fintech applications demand strict security protocols. Here are the mandatory security practices when developing a TMA:',
+            ua: 'Робота з фінансами вимагає сувого дотримання правил безпеки. Ось критичні практики, які є обов\'язковими при розробці фінтех-додатків:',
+          },
+        ],
+        list: [
+          {
+            en: 'Cryptographic Validation of initData: Every request from the frontend to your backend must include the `initData` string. The backend MUST validate this string using HMAC-SHA256 with your Telegram Bot Token. This ensures that the request actually came from a genuine Telegram client and has not been tampered with.',
+            ua: 'Криптографічна валідація initData: Кожен запит від клієнта до вашого бекенду повинен супроводжуватися рядком `initData`. Бекенд ОБОВ\'ЯЗКОВО має валідувати цей рядок за допомогою алгоритму HMAC-SHA256, використовуючи токен вашого Telegram-бота. Це гарантує, що дані не були підроблені і запит надійшов від реального користувача.',
+          },
+          {
+            en: 'Data Storage: Sensitive financial data, personal identifiers, and access tokens must be stored on your secure server database, never in the local storage of the Mini App (which could be accessed or cleared).',
+            ua: 'Зберігання даних: Чутливі фінансові дані, персональні дані та токени доступу мають зберігатися виключно у вашій безпечній базі даних, а не в локальному сховищі (localStorage) Mini App, яке можна переглянути чи очистити.',
+          },
+          {
+            en: 'PCI-DSS Compliance: When handling card details, never collect or store raw card numbers on your servers. Use tokenization services provided by secure payment gateways like Stripe or Monobank. They handle the compliance, while you only store secure transaction tokens.',
+            ua: 'Відповідність вимогам PCI-DSS: Працюючи з банківськими картками, ніколи не збирайте та не зберігайте сирі номери карт на своїх серверах. Використовуйте токенізацію платіжних шлюзів (Stripe, Monobank тощо). Вони беруть на себе всі ризики безпеки, а ви отримуєте лише безпечний токен транзакції.',
+          },
+          {
+            en: 'HTTPS Only: Telegram strictly requires all Mini App URLs to use secure HTTPS connections with valid SSL certificates.',
+            ua: 'Тільки HTTPS: Telegram суворо вимагає, щоб усі URL-адреси Mini App працювали виключно через захищене з\'єднання HTTPS із дійсними SSL-сертифікатами.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion: Building the Future of Mobile Finance',
+          ua: 'Висновок: Створюючи майбутнє мобільних фінансів',
+        },
+        paragraphs: [
+          {
+            en: 'Telegram Mini Apps are transforming how users interact with online services, eliminating onboarding friction and bringing powerful financial operations right to where people chat. By leveraging web technologies combined with Telegram\'s vast user base, businesses can create innovative, viral, and highly efficient fintech products.',
+            ua: 'Telegram Mini Apps трансформують те, як користувачі взаємодіють з онлайн-сервісами, усуваючи складнощі онбордингу та переносячи фінансові операції прямо туди, де люди спілкуються. Використовуючи веб-технології в поєднанні з величезною базою користувачів Telegram, бізнес може створювати інноваційні, вірусні та високоефективні фінтех-продукти.',
+          },
+          {
+            en: 'If you want to create a custom Telegram Mini App, launch a fintech wallet, or integrate secure online payments into your messenger chat flow, let\'s schedule a call to build a robust and high-performing solution for your business!',
+            ua: 'Якщо вас цікавить розробка кастомного Telegram Mini App, запуск фінтех-гаманця або інтеграція безпечних онлайн-платежів безпосередньо в месенджер — звертайтеся, і ми створимо надійне та ефективне рішення для вашого бізнесу!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'what-aws-knowledge-means-for-frontend-developer',
     date: '2026-07-29',
     title: {
