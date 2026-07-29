@@ -1,4 +1,5 @@
 import { BlogPost } from '@/data/blog-posts';
+import { translations } from '@/data/translations';
 
 type Lang = 'en' | 'ua';
 
@@ -184,6 +185,30 @@ export function BlogPostingSchema({ post, lang }: BlogPostingSchemaProps) {
       url: 'https://vynnychenko.dev',
       image: 'https://vynnychenko.dev/images/profile-photo.jpg',
     },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function FAQSchema({ lang }: SchemaProps) {
+  const t = translations[lang].faq;
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: t.items.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
   };
 
   return (

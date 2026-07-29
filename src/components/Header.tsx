@@ -74,7 +74,7 @@ export default function Header() {
       <Link
         href={getEquivalentPath('ua', pathname)}
         onClick={() => setLanguage('ua')}
-        className={`transition-colors ${
+        className={`transition-colors focus:outline-none ${
           isUa
             ? 'font-bold text-gray-900 dark:text-white'
             : 'text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'
@@ -87,7 +87,7 @@ export default function Header() {
       <Link
         href={getEquivalentPath('en', pathname)}
         onClick={() => setLanguage('en')}
-        className={`transition-colors ${
+        className={`transition-colors focus:outline-none ${
           !isUa
             ? 'font-bold text-gray-900 dark:text-white'
             : 'text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'
@@ -167,7 +167,7 @@ export default function Header() {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
+                  className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium focus:outline-none"
                 >
                   {item.label}
                 </button>
@@ -175,7 +175,7 @@ export default function Header() {
                 <Link
                   key={item.id}
                   href={isUa ? `/ua/#${item.id}` : `/#${item.id}`}
-                  className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
+                  className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium focus:outline-none"
                 >
                   {item.label}
                 </Link>
@@ -183,7 +183,7 @@ export default function Header() {
             )}
             <Link
               href={blogHref}
-              className={`text-sm transition-colors font-medium ${
+              className={`text-sm transition-colors font-medium focus:outline-none ${
                 pathname.includes('/blog')
                   ? 'text-green-700 dark:text-green-400 font-semibold'
                   : 'text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
@@ -229,7 +229,7 @@ export default function Header() {
                   <button
                     key={item.id}
                     onClick={() => scrollToSection(item.id)}
-                    className="text-left text-base text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white transition-colors font-medium py-1.5 px-1"
+                    className="text-left text-base text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white transition-colors font-medium py-1.5 px-1 focus:outline-none"
                   >
                     {item.label}
                   </button>
@@ -238,7 +238,7 @@ export default function Header() {
                     key={item.id}
                     href={isUa ? `/ua/#${item.id}` : `/#${item.id}`}
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className="text-left text-base text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white transition-colors font-medium py-1.5 px-1"
+                    className="text-left text-base text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white transition-colors font-medium py-1.5 px-1 focus:outline-none"
                   >
                     {item.label}
                   </Link>
@@ -247,7 +247,7 @@ export default function Header() {
               <Link
                 href={blogHref}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className={`text-base transition-colors font-medium py-1.5 px-1 ${
+                className={`text-base transition-colors font-medium py-1.5 px-1 focus:outline-none ${
                   pathname.includes('/blog')
                     ? 'text-green-700 dark:text-green-400 font-semibold'
                     : 'text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white'

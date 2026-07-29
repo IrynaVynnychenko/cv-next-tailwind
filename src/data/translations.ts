@@ -248,6 +248,32 @@ export const translations = {
         connect: 'Connect with me',
       },
     },
+    faq: {
+      title: 'Frequently Asked Questions',
+      subtitle: 'Answers to common questions about working together',
+      items: [
+        {
+          q: 'What is your typical project workflow?',
+          a: 'My workflow is direct and transparent: we start with requirements gathering and Figma review, followed by milestone planning, iterative development with daily updates, QA testing, and finally, deployment to Vercel/AWS. You work directly with me — no middle managers.',
+        },
+        {
+          q: 'Do you work under NDA (Non-Disclosure Agreement)?',
+          a: 'Yes, absolutely. I value my clients\' security and intellectual property. I am fully ready to sign a standard NDA before we discuss any confidential project details or share source code.',
+        },
+        {
+          q: 'Which technologies do you specialize in?',
+          a: 'I specialize in the modern React and Next.js stack, TypeScript, Tailwind CSS, custom UI Kits, and state management solutions (Zustand, Redux, Context API). I also build fast full-stack solutions with Server Actions and Edge APIs.',
+        },
+        {
+          q: 'How do we get started?',
+          a: 'We can schedule a video call or chat via Upwork/Telegram/WhatsApp to discuss your project scope. Once we align on requirements, I can provide a fixed-price estimate or start on an hourly basis.',
+        },
+        {
+          q: 'Do you work with Ukrainian companies as a registered private entrepreneur?',
+          a: 'Yes, absolutely. I am officially registered as a private entrepreneur (Group 3) in Ukraine, meaning we can sign an official contract for web development services, issue invoices, and sign acceptance acts.',
+        },
+      ],
+    },
     footer: {
       text: '© 2026 Iryna Vynnychenko — Senior Web & Frontend Engineer',
     },
@@ -514,6 +540,32 @@ export const translations = {
         viewProfile: 'Переглянути профіль',
         connect: 'Зв’язатися в LinkedIn',
       },
+    },
+    faq: {
+      title: 'Часті запитання',
+      subtitle: 'Відповіді на поширені запитання про співпрацю',
+      items: [
+        {
+          q: 'Який ваш типовий процес роботи над проєктом?',
+          a: 'Мій процес є прямим та прозорим: ми починаємо зі збору вимог та аналізу Figma макетів, плануємо етапи, розробляємо з щоденними оновленнями, тестуємо якість та завантажуємо на Vercel/AWS. Ви працюєте безпосередньо зі мною, без посередників.',
+        },
+        {
+          q: 'Чи працюєте ви за договором про нерозголошення (NDA)?',
+          a: 'Так, обов\'язково. Я ціную безпеку та інтелектуальну власність моїх клієнтів. Готова підписати стандартний NDA перед обговоренням конфіденційних деталей проєкту чи доступу до коду.',
+        },
+        {
+          q: 'На яких технологіях ви спеціалізуєтесь?',
+          a: 'Я спеціалізуюсь на сучасному React та Next.js стеку, TypeScript, Tailwind CSS, створенні власних UI Kits та управлінні станом (Zustand, Redux, Context API). Також розробляю швидкі full-stack рішення з Server Actions та Edge APIs.',
+        },
+        {
+          q: 'Як розпочати співпрацю?',
+          a: 'Ми можемо провести відеодзвінок або поспілкуватися в Upwork/Telegram/WhatsApp, щоб обговорити обсяг робіт. Після узгодження вимог я надам фіксовану оцінку вартості або ми почнемо роботу з погодинною оплатою.',
+        },
+        {
+          q: 'Чи співпрацюєте ви через ФОП в Україні?',
+          a: 'Так, звичайно. Я зареєстрована як ФОП (3-тя група), тому ми можемо укласти офіційний договір про надання послуг з розробки, підписувати акти виконаних робіт та проводити безготівкову оплату на рахунок ФОП.',
+        },
+      ],
     },
     footer: {
       text: '© 2026 Ірина Винниченко — Senior Web & Frontend Розробник',

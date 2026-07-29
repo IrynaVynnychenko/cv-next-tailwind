@@ -4,6 +4,7 @@ import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
 import Testimonials from '@/components/Testimonials'
+import FAQ from '@/components/FAQ'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import { WebSiteSchema, ProfilePageSchema } from '@/components/SchemaMarkup'
@@ -20,6 +21,7 @@ export default function Home() {
         <Experience />
         <Education />
         <Testimonials />
+        <FAQ />
         <Contact />
       </main>
       <Footer />
