@@ -37,6 +37,140 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'what-aws-knowledge-means-for-frontend-developer',
+    date: '2026-07-29',
+    title: {
+      en: 'What Does "AWS Knowledge" Actually Mean for a Frontend Developer?',
+      ua: 'Що насправді означає «знання AWS» для фронтенд-розробника?',
+    },
+    excerpt: {
+      en: 'Many frontend job descriptions list AWS as a key requirement. Let’s demystify what specific services and configurations (S3, CloudFront, Lambda, Cognito, SDK) are actually expected from a frontend engineer.',
+      ua: 'Часто у вакансіях для фронтенд-розробників можна зустріти вимогу знати AWS. Розберемося, які саме сервіси (S3, CloudFront, Lambda, Cognito, SDK) дійсно потрібно вміти налаштовувати та підключати.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['AWS', 'Cloud Hosting', 'Serverless', 'DevOps'],
+      ua: ['AWS', 'Хмарний хостинг', 'Serverless', 'DevOps'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Seeing "AWS experience" or "AWS connection and configuration" in frontend vacancies can feel intimidating. Developers often assume they need to be certified DevOps specialists who know how to set up complex VPC networks, orchestrate Kubernetes clusters, or manage low-level infrastructure.',
+            ua: 'Вимоги на кшталт «знання AWS» або «вміння підключати хмарні сервіси» у вакансіях для Frontend-розробників часто викликають тривогу. Здається, що від кандидата очікують сертифікації DevOps-інженера, вміння будувати складні віртуальні мережі (VPC), керувати Kubernetes чи налаштовувати права доступу на рівні інфраструктури.',
+          },
+          {
+            en: 'In reality, for most product companies and startups, AWS knowledge for a frontend engineer is about self-sufficiency and bridging the gap between design and final deployment. It refers to a specific subset of hosting, authentication, storage, and serverless tools. Let\'s break down exactly what services you need to know and how they are used.',
+            ua: 'Насправді ж, у більшості продуктових компаній та стартапів під цим формулюванням криється цілком приземлений набір інструментів. Для фронтендера знання AWS — це про автономність, оптимізацію швидкості завантаження сайту та вміння інтегрувати готові хмарні рішення. Давайте розберемося, які саме сервіси маються на увазі та для чого вони потрібні.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Frontend Hosting & Content Delivery (S3, CloudFront, Route 53)',
+          ua: '1. Хостинг та швидка доставка контенту (S3, CloudFront, Route 53)',
+        },
+        paragraphs: [
+          {
+            en: 'This is the most common use case. Modern Single Page Applications (SPAs) built with React, Vue, or Angular are static bundles of HTML, JS, and CSS files. Instead of renting a heavy server, these files are hosted on Amazon S3 (Simple Storage Service) buckets.',
+            ua: 'Це найпоширеніший сценарій. Сучасні Single Page Applications (SPA) на React, Vue чи Angular — це просто статичний набір HTML, JS та CSS файлів. Замість оренди повноцінного віртуального сервера, ці файли завантажуються в Amazon S3 (Simple Storage Service) — швидке та дешеве сховище об\'єктів.',
+          },
+          {
+            en: 'However, raw S3 is not optimized for production hosting because it lacks fast global caching and SSL (HTTPS) support out of the box. That is where Amazon CloudFront (CDN) comes in. It caches your static assets globally at edge locations, ensuring fast load times worldwide and providing SSL certificates. Finally, Route 53 is used to link your custom domain names to the CloudFront distribution.',
+            ua: 'Але сам по собі S3 не підходить для продакшену: він повільний для віддалених користувачів та не надає зручного налаштування HTTPS. Тому поверх S3 завжди підключають Amazon CloudFront — мережу доставки контенту (CDN). Вона кешує файли на серверах по всьому світу, гарантуючи швидке завантаження сайту, і забезпечує SSL-сертифікати. Доменні імена для цього всього налаштовуються через Route 53.',
+          },
+          {
+            en: 'As a frontend developer, you are expected to understand how to configure access control (OAI/OAC) so that only CloudFront can read from the S3 bucket, configure redirection (routing all non-file requests to index.html for SPA router support), and set up cache invalidations during deployments.',
+            ua: 'Від фронтендера очікують розуміння, як працює ця зв\'язка: як налаштувати права доступу (щоб файли з S3 роздавалися тільки через CDN), як налаштувати редіректи (щоб роутинг SPA працював коректно при оновленні сторінок) та як очищувати кеш (CloudFront Invalidation) після нового деплою.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Modern Full-Stack Platforms: AWS Amplify & SST',
+          ua: '2. Сучасні full-stack платформи: AWS Amplify та SST',
+        },
+        paragraphs: [
+          {
+            en: 'If manually configuring S3 and CloudFront feels too low-level, AWS offers Amplify. Think of AWS Amplify as Amazon\'s answer to Vercel or Netlify. It connects to your Git repository, automatically detects your framework (Next.js, Vite, Nuxt), and deploys it globally.',
+            ua: 'Якщо ручне налаштування S3 та CloudFront здається надто складним, AWS пропонує рішення Amplify. AWS Amplify — це, по суті, відповідь Amazon на платформи на кшталт Vercel чи Netlify. Сервіс підключається до Git-репозиторію, самостійно визначає фреймворк (Next.js, Vite, Nuxt) і автоматично деплоїть його.',
+          },
+          {
+            en: 'Frontend developers often use AWS Amplify to manage hosting, server-side rendering (SSR), and continuous integration (CI/CD) pipelines. Additionally, tools like SST (Serverless Stack) are becoming popular for deploying Next.js or Remix apps to AWS using infrastructure-as-code, allowing developers to manage backend services directly in TypeScript.',
+            ua: 'Фронтенд-розробники часто працюють з Amplify для налаштування CI/CD та рендерингу на стороні сервера (SSR). Крім цього, популярності набуває інструмент SST (Serverless Stack), який дозволяє деплоїти Next.js чи Remix додатки на власну інфраструктуру AWS за допомогою концепції Infrastructure as Code (IaC), описуючи хмарні ресурси прямо в коді на TypeScript.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Secure File Uploads: S3 Pre-signed URLs',
+          ua: '3. Робота з медіафайлами та S3 Pre-signed URLs',
+        },
+        paragraphs: [
+          {
+            en: 'When building web applications where users upload avatars, documents, or media files, passing large files through your primary backend server is highly inefficient. It increases server load and memory usage.',
+            ua: 'Коли ви розробляєте додаток, де користувачі мають завантажувати аватари, документи чи медіафайли, передавати ці великі файли через ваш основний бекенд-сервер дуже неефективно. Це навантажує сервер і забиває оперативну пам\'ять.',
+          },
+          {
+            en: 'The industry-standard approach is to upload files directly from the browser to Amazon S3. To keep the bucket secure, the frontend requests a temporary, authenticated URL (a "pre-signed URL") from the backend, and then performs a PUT request directly to S3. Understanding how to handle CORS on S3, manage direct file uploads in JavaScript, and track upload progress is a crucial frontend skill when working with AWS.',
+            ua: 'Стандартним підходом є завантаження файлів з браузера клієнта напряму в Amazon S3. Для цього фронтенд спочатку робить легкий запит до бекенду, отримує тимчасове безпечне посилання (Pre-signed URL) і потім виконує POST/PUT запит з файлом безпосередньо на сервери S3. Розуміння політики CORS для S3 та вміння обробляти завантаження файлів через JS — ключова навичка для фронтендера.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. User Authentication and API Integration (Cognito & AppSync)',
+          ua: '4. Авторизація користувачів та робота з API (Cognito та AppSync)',
+        },
+        paragraphs: [
+          {
+            en: 'Many enterprises use Amazon Cognito to handle user registration, logins, MFA (multi-factor authentication), and session tokens. Rather than writing custom auth logic, frontend developers integrate with Cognito using the Amplify Auth library or NextAuth.',
+            ua: 'Багато компаній використовують Amazon Cognito для керування користувачами, авторизації, двофакторної автентифікації (MFA) та сесій. Замість розробки власної системи входу, фронтендери інтегрують додаток із Cognito за допомогою бібліотеки Amplify SDK або NextAuth.',
+          },
+          {
+            en: 'Furthermore, AWS AppSync (a managed GraphQL service) and API Gateway (REST API manager) are commonly used to expose backend microservices to the client. Frontend developers need to know how to connect their GraphQL clients (like Apollo or Urql) or REST libraries, inject IAM authorization headers, or use Cognito JWT tokens to authorize requests.',
+            ua: 'Також для побудови API часто використовують AWS AppSync (керований GraphQL) та API Gateway (для REST API). Фронтенд-розробнику важливо розуміти, як надіслати токен авторизації, як підключити GraphQL-клієнт (Apollo чи Urql) та як обробити помилки авторизації на клієнті.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. Serverless Functions and Troubleshooting (Lambda & CloudWatch)',
+          ua: '5. Serverless-функції та відлагодження помилок (Lambda та CloudWatch)',
+        },
+        paragraphs: [
+          {
+            en: 'When working with modern meta-frameworks like Next.js, every API route or server component (SSR) gets compiled under the hood into serverless AWS Lambda functions.',
+            ua: 'У сучасних фреймворках на кшталт Next.js кожен API-роут чи серверний компонент (SSR) під капотом компілюється в окрему serverless-функцію — AWS Lambda.',
+          },
+          {
+            en: 'Knowing how AWS Lambda functions execute and where to find their execution logs in Amazon CloudWatch is incredibly helpful. If a page fails with a 500 Internal Server Error in production, a frontend developer should be able to log into the AWS Console, locate CloudWatch logs for the failed Lambda function, and inspect the stack trace to diagnose the bug.',
+            ua: 'Розуміння того, як працюють ці функції, які ліміти за часом вони мають (timeout) та де шукати логи їх виконання в Amazon CloudWatch — суперсила для розробника. Якщо на продакшені сторінка падає з помилкою 500, фронтендер повинен вміти зайти в AWS Console, знайти потрібний лог-стрім у CloudWatch та прочитати stack trace помилки.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Summary',
+          ua: 'Підсумок',
+        },
+        paragraphs: [
+          {
+            en: 'When you see "AWS configuration and connection" in frontend vacancies, don\'t panic. You don\'t need to build virtual private networks or configure load balancers. Instead, focus on understanding static hosting via S3 + CloudFront, handling direct file uploads, integrating with Cognito for auth, and reading CloudWatch server logs.',
+            ua: 'Коли ви бачите «налаштування та підключення AWS» у фронтенд-вакансії, не лякайтеся. Від вас не вимагають розгортання складних мережевих топологій чи балансувальників навантаження. Натомість зосередьтеся на статичному хостингу (S3 + CloudFront), прямому завантаженні файлів через Pre-signed URLs, підключенні Cognito для авторизації та роботі з логами CloudWatch.',
+          },
+          {
+            en: 'Gaining familiarity with these services bridges the gap between client code and cloud infrastructure, making you a highly autonomous and competitive developer in today\'s market.',
+            ua: 'Опанування цих інструментів робить вас автономним спеціалістом, здатним самостійно довести фічу від дизайну до робочого релізу в хмарі, що значно підвищує вашу цінність на ринку.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-ai-transforms-email-marketing-and-development',
     date: '2026-07-29',
     title: {
