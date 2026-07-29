@@ -37,6 +37,168 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'telegram-bot-web-app-food-delivery-guide',
+    date: '2026-07-29',
+    title: {
+      en: 'How to Build an Interactive Telegram Bot with Web App for Restaurants and Food Delivery',
+      ua: 'Як створити інтерактивного Telegram-бота з Web App для ресторанного бізнесу чи доставки їжі',
+    },
+    excerpt: {
+      en: 'Discover how to build a modern food delivery system in Telegram. Learn how to combine a responsive Telegram Bot with an interactive Web App for ordering, payment integration, and real-time updates.',
+      ua: 'Дізнайтеся, як створити сучасну систему доставки їжі в Telegram. Ми розберемо поєднання функціонального чат-бота з інтерактивним Web App для вибору страв, оплати та сповіщень у реальному часі.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Telegram Mini Apps', 'Food Delivery', 'Web Development', 'React', 'Node.js'],
+      ua: ['Telegram Mini Apps', 'Доставка їжі', 'Веб-розробка', 'React', 'Node.js'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'The restaurant and food delivery market is highly competitive, and customer convenience is a primary differentiator. Traditional mobile apps are expensive to develop and require users to download them, which creates friction. Telegram Mini Apps (TMA) solve this issue by offering a seamless app-like interface directly inside the chat window, accessible with a single click.',
+            ua: 'Ринок ресторанного бізнесу та доставки їжі є надзвичайно конкурентним, і зручність для клієнта є головною перевагою. Розробка традиційних мобільних додатків коштує дорого, а необхідність їх завантаження створює додаткові перешкоди для користувача. Telegram Mini Apps (TMA) вирішують цю проблему, пропонуючи повноцінний мобільний інтерфейс прямо у вікні чату, доступний в один клік.',
+          },
+          {
+            en: 'In this step-by-step guide, we will look at how to build an interactive food ordering bot with an embedded web application, examine its architecture, and explore how to implement payments and order tracking.',
+            ua: 'У цьому покроковому посібнику ми розглянемо, як створити інтерактивного бота для замовлення їжі зі вбудованим веб-додатком, розберемо архітектуру такого рішення та процес підключення оплат і сповіщень.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Why Telegram Web Apps are a Game-Changer for Food Delivery',
+          ua: '1. Чому Telegram Web Apps — це прорив для доставки їжі',
+        },
+        paragraphs: [
+          {
+            en: 'Using a standard chat-bot interface (with text messages and buttons) for selecting items from a restaurant menu is clunky. However, combining a chatbot with a Web App provides the best of both worlds:',
+            ua: 'Використання звичайного текстового інтерфейсу бота (з повідомленнями та кнопками) для вибору страв із меню ресторану є незручним. Проте поєднання чат-бота з Web App дає найкраще з обох світів:',
+          },
+        ],
+        list: [
+          {
+            en: 'Interactive Visual Menu: A beautiful catalog with food categories, high-resolution images, description of ingredients, and options to customize ingredients (e.g., extra cheese or double patty).',
+            ua: 'Інтерактивне візуальне меню: Гарний каталог із категоріями страв, якісними фото, описом інгредієнтів та можливістю додавання добавок (наприклад, подвійний сир чи соус).',
+          },
+          {
+            en: 'Frictionless Cart and Checkout: Users can manage cart items, specify a delivery address, choose a delivery time, and leave comments with standard web UI components.',
+            ua: 'Зручний кошик та оформлення: Користувачі можуть легко змінювати кількість страв, вказувати адресу доставки, час отримання та залишати коментарі через звичні елементи інтерфейсу.',
+          },
+          {
+            en: 'Built-in Payments: Telegram supports Apple Pay, Google Pay, and major local card processors (like Monobank or Stripe) directly within the app, allowing users to pay in seconds.',
+            ua: 'Вбудовані платежі: Підтримка Apple Pay, Google Pay та популярних еквайрингів (Monobank, Stripe) безпосередньо в інтерфейсі дозволяє клієнту сплатити за замовлення за лічені секунди.',
+          },
+          {
+            en: 'Direct Re-engagement: Once a user places an order, the bot can send status updates ("Order accepted", "Courier is on the way") and future promotional campaigns.',
+            ua: 'Пряма комунікація: Після оформлення замовлення бот може надсилати повідомлення про його статус («Замовлення прийнято», «Кур\'єр уже в дорозі»), а також маркетингові пропозиції в майбутньому.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. System Architecture: How It Works',
+          ua: '2. Архітектура системи: як це працює',
+        },
+        paragraphs: [
+          {
+            en: 'The system consists of three main components working together in real time:',
+            ua: 'Система складається з трьох основних компонентів, які взаємодіють між собою в реальному часі:',
+          },
+        ],
+        list: [
+          {
+            en: 'The Telegram Bot: Serves as the entry point and marketing hub. It sends a welcome message with a prominent "Open Menu" button that launches the Web App.',
+            ua: 'Telegram-бот: Точка входу та інструмент комунікації. Він надсилає вітальне повідомлення з кнопкою «Відкрити меню», яка запускає Web App.',
+          },
+          {
+            en: 'The Frontend Web App: A fast, mobile-optimized Single Page Application (SPA) built with React/Next.js/Vite. It reads category and item data, manages cart state, and collects client information.',
+            ua: 'Frontend Web App: Швидкий, мобільний веб-додаток (SPA) на React, Next.js або Vite, який відображає категорії страв, керує кошиком та збирає дані доставки.',
+          },
+          {
+            en: 'The Backend Server: A Node.js (NestJS/Express) or Python database engine. It verifies order authenticity, calculates delivery costs, communicates with POS systems (like Poster or iiko), and initiates payment transactions.',
+            ua: 'Backend-сервер: Серверна частина (Node.js чи Python), яка перевіряє безпеку запитів, розраховує вартість доставки, інтегрується з CRM/POS-системами (наприклад, Poster чи iiko) та ініціює платіжні транзакції.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Step-by-Step Implementation Guide',
+          ua: '3. Покрокове керівництво з реалізації',
+        },
+        paragraphs: [
+          {
+            en: 'Here are the key technical steps to set up and launch your delivery bot:',
+            ua: 'Ось основні технічні кроки для створення та запуска вашого бота доставки:',
+          },
+        ],
+        list: [
+          {
+            en: 'Step 1: Create the Bot via @BotFather. Register a new bot, upload a high-quality profile picture, and configure a Menu Button pointing to your Web App URL (HTTPS is mandatory).',
+            ua: 'Крок 1: Створення бота через @BotFather. Реєструємо нового бота, завантажуємо аватар і налаштовуємо Menu Button, вказавши посилання на ваш Web App (обов’язково HTTPS).',
+          },
+          {
+            en: 'Step 2: Build the Interactive Menu UI. Create a responsive frontend with clean category filtering, smooth animations, and a persistence state for the shopping cart. Utilize Telegram WebApp SDK to detect theme changes and adjust button colors.',
+            ua: 'Крок 2: Розробка інтерфейсу меню. Створюємо адаптивний інтерфейс з фільтрацією страв за категоріями, плавними анімаціями та збереженням кошика. Використовуємо Telegram WebApp SDK для адаптації кольорів під тему месенджера.',
+          },
+          {
+            en: 'Step 3: Secure Order Submission. When the user clicks "Checkout", the Web App sends the order details and the cryptographically signed cryptostring (initData) to your backend API for validation and storage.',
+            ua: 'Крок 3: Безпечне оформлення замовлення. При натисканні «Оформити замовлення» Web App надсилає деталі кошика та криптографічний підпис (initData) на ваш бекенд для валідації та збереження в базі даних.',
+          },
+          {
+            en: 'Step 4: Integrate Payments. Connect a local payment service. The backend generates a payment invoice link (using Stripe or Monobank API) and passes it back to the client, or uses Telegram\'s native invoice system.',
+            ua: 'Крок 4: Підключення оплати. Інтегруємо платіжний сервіс. Сервер створює платіжне посилання (через API Monobank чи Stripe) та передає його клієнту, або використовує нативні інвойси Telegram.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Critical Integrations and Best Practices',
+          ua: '4. Важливі інтеграції та найкращі практики',
+        },
+        paragraphs: [
+          {
+            en: 'To make your delivery bot a successful business tool, you should consider the following best practices:',
+            ua: 'Щоб бот доставки став успішним інструментом для реального бізнесу, варто врахувати кілька важливих нюансів:',
+          },
+        ],
+        list: [
+          {
+            en: 'POS / CRM Integration: Automate flow by pushing orders directly to POS systems (like Poster or iiko) so the kitchen starts preparing the meal instantly without manual copy-paste by managers.',
+            ua: 'Інтеграція з POS / CRM: Налаштуйте передачу замовлень безпосередньо в систему автоматизації закладу (наприклад, Poster), щоб кухня миттєво бачила нове замовлення без ручного перенесення менеджером.',
+          },
+          {
+            en: 'Geolocation Verification: Allow users to pin their location on a map inside the Web App, which can be matched against your custom delivery zones to prevent ordering outside the service area.',
+            ua: 'Верифікація геолокації: Дозвольте користувачу обрати точку на мапі всередині Web App. Це допоможе автоматично перевірити, чи входить адреса в зону доставки закладу, та розрахувати точну вартість.',
+          },
+          {
+            en: 'Clear Feedback and Loading States: Mobile network speeds vary. Implement skeletons, spinners, and disable double-clicks on payment buttons to ensure smooth operation even on slower connections.',
+            ua: 'Чіткий зворотний зв\'язок: Швидкість мобільного інтернету може змінюватися. Використовуйте скелетони завантаження, анімації кнопок та блокуйте повторні кліки при оплаті, щоб інтерфейс працював без помилок.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion: Build Your Custom Restaurant App Today!',
+          ua: 'Висновок: створіть власний додаток для ресторану вже сьогодні!',
+        },
+        paragraphs: [
+          {
+            en: 'Telegram Mini Apps offer restaurants a powerful, cost-effective alternative to native app development. By eliminating the friction of downloads and providing a premium, interactive user interface, you can boost order volume, retain customer loyalty, and simplify delivery logistics.',
+            ua: 'Telegram Mini Apps пропонують ресторанам потужну та економічно вигідну alternatifу традиційним мобільним додаткам. Усуваючи бар\'єри встановлення та пропонуючи преміальний інтерактивний інтерфейс, ви зможете збільшити кількість замовлень, підвищити лояльність клієнтів та спростити логістику.',
+          },
+          {
+            en: 'If you want to launch a custom Telegram Delivery Bot with a visual catalog, secure payment options, and CRM/POS integration for your business — fill out the contact form below, and let\'s build the perfect solution together!',
+            ua: 'Якщо ви хочете запустити кастомного Telegram-бота для доставки із візуальним каталогом, безпечною оплатою та інтеграцією з вашою CRM/POS системою — заповніть форму внизу сторінки, і ми розробимо ідеальне рішення для вашого бізнесу!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'why-you-need-fast-simple-website-or-blog',
     date: '2026-07-29',
     title: {
