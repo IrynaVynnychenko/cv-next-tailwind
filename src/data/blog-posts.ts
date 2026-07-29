@@ -37,6 +37,148 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'google-maps-api-customization-guide',
+    date: '2026-07-30',
+    title: {
+      en: 'Customizing Google Maps: Advanced Techniques with the Google Maps API',
+      ua: 'Кастомізація Google Maps: Просунуті методи роботи з Google Maps API',
+    },
+    excerpt: {
+      en: 'Learn how to transform default Google Maps into highly customized, brand-aligned visual experiences. We explore custom styling, Advanced Markers with custom HTML/SVG, performance optimizations, and interactive overlays.',
+      ua: 'Дізнайтеся, як перетворити стандартні Google Maps на унікальні інтерактивні карти, що відповідають стилю вашого бренду. Розглядаємо кастомізацію стилів, Advanced Markers з HTML/SVG, оптимізацію швидкості та роботу з API.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Google Maps API', 'Frontend Development', 'UX Design', 'JavaScript', 'Web Performance', 'Interactive Maps'],
+      ua: ['Google Maps API', 'Фронтенд-розробка', 'UX-дизайн', 'JavaScript', 'Продуктивність', 'Інтерактивні карти'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Google Maps is the gold standard for integrating location-based features into web applications. Whether you are building a real estate platform, a delivery service tracker, or a store locator, maps provide immediate geographic context. However, the default Google Map design—with its bright yellow roads, saturated green parks, and generic red pin markers—often clashes with modern, carefully curated brand identities. A sleek dark-mode website or a minimalist corporate portal can feel instantly cheapened by embedding an unstyled map widget.',
+            ua: 'Google Maps є золотим стандартом для інтеграції геолокаційних функцій у веб-додатки. Незалежно від того, чи створюєте ви платформу для нерухомості, трекер служби доставки чи карту мережі магазинів, карти забезпечують миттєвий географічний контекст. Проте стандартний дизайн Google Map — із його яскраво-жовтими дорогами, насиченими зеленими парками та стандартними червоними шпильками — часто дисонує з сучасною, ретельно продуманою айдентикою бренду. Стильний темний сайт або мінімалістичний корпоративний портал можуть миттєво втратити свою преміальність через інтеграцію нестилізованого віджета карти.',
+          },
+          {
+            en: 'To resolve this, Google Maps Platform offers robust APIs to fully customize the map\'s visual appearance and interactive behaviors. By mastering map styling, implementing the modern Advanced Markers API, and applying critical web performance optimizations, frontend developers can elevate a generic map into a seamless, high-end design element. In this guide, we will walk through the techniques and code architectures needed to build fully customized, production-ready Google Maps.',
+            ua: 'Щоб вирішити цю проблему, Google Maps Platform пропонує потужні API для повної кастомізації зовнішнього вигляду та інтерактивної поведінки карт. Завдяки стилізації карти, впровадженню сучасного Advanced Markers API та оптимізації веб-продуктивності, фронтенд-розробники можуть перетворити стандартну карту на безшовний, преміальний елемент дизайну. У цьому посібнику ми детально розглянемо методи та архітектуру коду, необхідні для створення повністю кастомізованих Google Maps.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Cloud-Based Map Styling vs. Code-Driven JSON Styling',
+          ua: '1. Хмарна стилізація карт проти локальних JSON-стилів',
+        },
+        paragraphs: [
+          {
+            en: 'Traditionally, developers styled Google Maps by passing a massive JSON array of style rules directly to the map instance using the `styles` parameter in `MapOptions`. These rules allowed you to target specific map features (like highways, water bodies, or transit lines) and override their fill colors, borders, and label visibility. While effective, this approach meant that any design tweak—like changing a park\'s color from light green to dark forest green—required updating the codebase, committing changes, and redeploying the application.',
+            ua: 'Традиційно розробники стилізували Google Maps, передаючи масивний JSON-масив правил безпосередньо в екземпляр карти за допомогою параметра `styles` в `MapOptions`. Ці правила дозволяли обирати конкретні елементи карти (шосе, водойми, ліній метро) та перевизначати їхній колір заповнення, межі та видимість міток. Хоча цей метод є робочим, він означав, що будь-яка дизайнерська зміна (наприклад, перефарбування парків у темно-зелений) вимагала редагування коду, комміту та повторного деплою додатку.',
+          },
+          {
+            en: 'Today, Google Maps Platform promotes Cloud-Based Map Styling. Instead of hardcoding style rules in JavaScript, you create and manage Map Styles in the Google Cloud Console. Designers can customize colors, hide POIs (Points of Interest), and adjust zoom-dependent features in a visual editor. You link the map to your code using a single Map ID (`mapId: \'YOUR_MAP_ID\'`). When a style update is published in the console, it is instantly reflected on your live site without any code modifications, dramatically improving workflow efficiency and separating design from development.',
+            ua: 'Сьогодні Google Maps Platform пропонує Cloud-Based Map Styling (хмарну стилізацію). Замість жорсткого прописування правил у JavaScript, ви створюєте та керуєте стилями безпосередньо в консолі Google Cloud. Дизайнери можуть налаштовувати кольори, приховувати POI (пам\'ятки) та регулювати деталізацію елементів залежно від масштабу у візуальному редакторі. Ви прив\'язуєте стиль до коду за допомогою унікального ідентифікатора `mapId: \'YOUR_MAP_ID\'`. Коли зміни публікуються в консолі, вони миттєво з\'являються на робочому сайті без перекомпіляції, що кардинально спрощує робочий процес і розділяє дизайн та розробку.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Elevating Pins with the Advanced Markers API',
+          ua: '2. Еволюція позначок: Робота з Advanced Markers API',
+        },
+        paragraphs: [
+          {
+            en: 'For years, developers were forced to use the default red pin or load static PNG images as markers. The legacy `google.maps.Marker` was extremely limited—it did not support CSS animations, dynamic vector rendering, or accessible HTML structures. In 2024, Google formally deprecated the legacy marker class in favor of `AdvancedMarkerElement`. This new API represents a monumental shift for frontend UI development by allowing developers to inject arbitrary HTML, React components, or raw SVG elements directly into the map viewport.',
+            ua: 'Роками розробники були змушені використовувати стандартні червоні шпильки або завантажувати статичні зображення PNG як іконки. Застарілий клас `google.maps.Marker` мав суттєві обмеження — він не підтримував CSS-анімації, динамічний рендеринг векторної графіки (SVG) чи доступну розмітку. У 2024 році Google офіційно оголосив цей клас застарілим і представив `AdvancedMarkerElement`. Цей новий API став проривом у розробці фронтенду, оскільки дозволяє розробникам вставляти довільний HTML, компоненти React або чисті SVG-елементи прямо на карту.',
+          },
+          {
+            en: 'Using `AdvancedMarkerElement`, you can create markers that feel like native, dynamic web components. For instance, you can render a price badge for a real estate listing that changes background color when clicked, or a pulsating circular dot to show real-time shipping positions. Here is a brief look at how developers implement HTML markers:',
+            ua: 'Завдяки `AdvancedMarkerElement` ви можете створювати маркери, які поводяться як звичайні, динамічні веб-компоненти. Наприклад, ви можете відобразити цінник для об\'єкта нерухомості, який змінює колір фону при натисканні, або пульсуючу крапку для трекінгу доставки в реальному часі. Ось як виглядає базове впровадження HTML-маркерів:',
+          },
+        ],
+        list: [
+          {
+            en: 'Create a DOM element in JavaScript: Instantiating a plain div (e.g. `const pin = document.createElement(\'div\')`) and applying custom Tailwind CSS styles for gradients, borders, and animations.',
+            ua: 'Створення DOM-елемента в JS: Оголошуємо звичайний div (наприклад, `const pin = document.createElement(\'div\')`) і застосовуємо до нього стилі Tailwind CSS для створення градієнтів, меж та анімацій.',
+          },
+          {
+            en: 'Pass the DOM element to the marker: Assigning your element to the `content` property of the `AdvancedMarkerElement` options object.',
+            ua: 'Передача DOM-елемента в маркер: Призначаємо наш елемент властивості `content` у налаштуваннях `AdvancedMarkerElement`.',
+          },
+          {
+            en: 'Enable interactive states: Attaching standard click event listeners directly to the DOM element to toggle state variables, trigger modals, or show details side-by-side with the map.',
+            ua: 'Інтерактивні стани: Додаємо стандартні слухачі подій кліку безпосередньо до DOM-елемента для керування станом, відкриття модальних вікон чи виведення інформації.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Protecting Core Web Vitals: Performance Optimizations',
+          ua: '3. Захист Core Web Vitals: Оптимізація швидкості завантаження карти',
+        },
+        paragraphs: [
+          {
+            en: 'While customized maps look spectacular, they come with a high performance cost. Loading the Google Maps JavaScript SDK, parsing map styles, and fetching satellite imagery requires downloading multiple megabytes of JS and triggering dozens of network requests. If loaded eagerly on page load, a map can destroy your website\'s performance scores by blocking the main thread (increasing Total Blocking Time - TBT) and delaying the display of meaningful content (impacting Largest Contentful Paint - LCP).',
+            ua: 'Хоча кастомізовані карти виглядають ефектно, вони мають високу ціну з точки зору продуктивності. Завантаження Google Maps SDK, рендеринг стилів та підвантаження супутникових знімків вимагають скачування мегабайтів коду та десятків мережевих запитів. Якщо завантажувати карту одразу під час завантаження сторінки, вона може зруйнувати показники Core Web Vitals, блокуючи головний потік (Total Blocking Time) та затримуючи рендеринг основного вмісту (Largest Contentful Paint).',
+          },
+          {
+            en: 'To prevent these issues and maintain excellent performance, developers use three key engineering strategies:',
+            ua: 'Щоб запобігти цим проблемам і зберегти високу швидкість роботи сайту, розробники використовують три ключові інженерні стратегії:',
+          },
+        ],
+        list: [
+          {
+            en: 'Lazy Loading via Intersection Observer: Do not load the Google Maps API script or mount the container until the user scrolls within 300px of the map. This keeps initial page loads fast and light.',
+            ua: 'Ліниве завантаження (Intersection Observer): Не підвантажуємо скрипти Google Maps API та не монтуємо контейнер, доки користувач не проскролить сторінку майже до самої карти (наприклад, на відстань 300px). Це зберігає первинне завантаження швидким і легким.',
+          },
+          {
+            en: 'Static Map Fallbacks (Click-to-Load): Display a static, lightweight image generated by the Google Static Maps API first. When the user interacts with the image (e.g. hovers or clicks), instantly replace the image with the fully interactive dynamic map.',
+            ua: 'Заглушка зі статичної карти (Click-to-Load): Спочатку показуємо легке статичне зображення карти, згенероване через Google Static Maps API. Лише тоді, коли користувач взаємодіє з областю (натискає або наводить курсор), ми підміняємо її інтерактивною картою.',
+          },
+          {
+            en: 'Dynamic Import of Maps SDK: In React/Next.js, load the maps container components dynamically (`next/dynamic` with `ssr: false`) to split the JavaScript bundle and prevent loading the map code in primary page bundles.',
+            ua: 'Динамічний імпорт SDK: У React/Next.js завантажуємо компоненти карти динамічно (`next/dynamic` з параметром `ssr: false`), щоб відокремити важкі бібліотеки від основного бандлу та не вантажити код карти без потреби.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Mastering Marker Clustering and Search Integration',
+          ua: '4. Кластеризація маркерів та інтеграція пошуку місць',
+        },
+        paragraphs: [
+          {
+            en: 'A common design mistake is showing too many markers at once. If you load 500 branch locations on a country-wide map view, the screen is cluttered with overlapping pins, which slows down the browser rendering (causing severe layout stuttering during zoom) and creates cognitive overload for the user. To maintain interface clarity, you should use the `@googlemaps/markerclusterer` library. This library groups nearby markers into a single cluster node that displays the number of items within it. As the user zooms in, the cluster smoothly expands into individual markers.',
+            ua: 'Поширеною дизайнерською помилкою є виведення занадто великої кількості позначок одночасно. Якщо відобразити 500 точок на оглядовій карті країни, екран буде переповнений маркерами, що перекривають один одного. Це сповільнює рендеринг у браузері та створює інформаційний хаос. Для чистоти інтерфейсу використовують бібліотеку `@googlemaps/markerclusterer`. Вона об\'єднує близькі маркери в один кластер із цифрою. При наближенні масштабу кластери плавно розпадаються на окремі крапки.',
+          },
+          {
+            en: 'Additionally, integrating the Google Places Autocomplete API with your map creates a highly effective user flow. When users search for an address, the Autocomplete input validates the text, offers smart predictions, and provides precise coordinates. The map can then dynamically center and focus its zoom on the selected area, filtering nearby markers and providing an intuitive search experience comparable to premium mapping platforms.',
+            ua: 'Крім того, поєднання інтерактивної карти з Google Places Autocomplete API створює ідеальний інтерфейс пошуку. Коли користувач починає вводити адресу, інпут пропонує підказки й повертає точні координати. Карта динамічно фокусується на вибраній точці, а супутні фільтри виводять найближчі відділення чи об\'єкти, забезпечуючи високу зручність взаємодії.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Transforming Map UX into Business Value',
+          ua: 'Перетворення карти на інструмент для залучення клієнтів',
+        },
+        paragraphs: [
+          {
+            en: 'A customized map is not just visual polish; it is a critical touchpoint in the user journey. By matching the map\'s aesthetic to your brand, using dynamic HTML markers to guide actions, and keeping page loads lightning-fast with lazy loading, you create a direct pathway to higher user trust and conversion rates. Whether users are finding physical stores or exploring property locations, a seamless map experience directly reflects the quality of your business.',
+            ua: 'Кастомізована карта — це не просто декоративний елемент, а важлива точка взаємодії з користувачем. Адаптуючи дизайн карти під ваш фірмовий стиль, використовуючи інтерактивні HTML-маркери для залучення уваги та зберігаючи швидкість завантаження сторінки завдяки лінивому підвантаженню, ви безпосередньо підвищуєте рівень довіри та конверсію сайту.',
+          },
+          {
+            en: 'If you want to integrate customized maps, build real-time location tracking interfaces, or optimize Google Maps performance on your website, feel free to get in touch. Let\'s design and build an intuitive, high-performance geolocated experience for your users.',
+            ua: 'Якщо ви хочете інтегрувати кастомізовані карти, реалізувати відстеження геолокації в реальному часі або оптимізувати роботу Google Maps на вашому сайті, напишіть мені. Давайте разом створимо зручний та швидкий геосервіс для вашого бізнесу!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-to-process-5x-more-orders-without-expanding-staff',
     date: '2026-07-29',
     title: {
