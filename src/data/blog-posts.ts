@@ -37,6 +37,124 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'frontend-developer-value-for-backend-ml-llm',
+    date: '2026-07-29',
+    title: {
+      en: 'Why Backend & ML Engineers Need a Frontend Partner: The AI-UX Synergy',
+      ua: 'У чому користь Frontend-розробника для Backend/ML-інженера в епоху LLM',
+    },
+    excerpt: {
+      en: 'Discover how Frontend developers act as strategic partners for ML and Backend engineers. From building AI playgrounds and evaluation tools to optimizing SSE streaming and human-in-the-loop annotation.',
+      ua: 'Дізнайтеся, як Frontend-розробники стають стратегічними партнерами для ML та Backend-інженерів. Від створення AI-плейграундів до оптимізації SSE-стрімінгу та систем анотації.',
+    },
+    readTime: {
+      en: '5 min read',
+      ua: '5 хв читання',
+    },
+    tags: {
+      en: ['Web Development', 'AI/ML', 'Developer Experience', 'UX/UI', 'LLM'],
+      ua: ['Веб-розробка', 'AI/ML', 'Досвід розробника', 'UX/UI', 'LLM'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'With the rise of Large Language Models (LLMs) and complex backend architectures, it often seems like the core value of an AI application lies solely in model training, parameters, and infrastructure. However, a model is only as good as the interface that exposes it. In high-stakes engineering teams, a skilled Frontend developer is not just someone who designs forms, but a strategic partner to ML and Backend engineers.',
+            ua: 'Зі стрімким розвитком великих мовних моделей (LLM) та складних бекенд-архітектур часто здається, що вся цінність AI-додатків зосереджена виключно в навчанні моделей, параметрах та інфраструктурі. Однак модель корисна лише тоді, коли користувач або розробник може зручно з нею взаємодіяти. У сучасних інженерних командах сильний Frontend-розробник є стратегічним партнером для ML- та Backend-інженерів.',
+          },
+          {
+            en: 'From building internal visualization playgrounds to managing network latency during token streaming, let’s explore why backend-focused teams need frontend expertise to succeed.',
+            ua: 'Від створення внутрішніх інструментів візуалізації до обробки мережевих затримок під час стрімінгу токенів — давайте розберемося, чому бекенд-командам потрібна експертиза фронтенду для досягнення успіху.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Debug & Evaluation Playgrounds',
+          ua: '1. Інструменти для дебагу та оцінки моделей',
+        },
+        paragraphs: [
+          {
+            en: 'Developing LLM applications is inherently non-deterministic. A backend engineer tuning a prompt or modifying an embedding chunking strategy needs to compare outputs quickly. Without a frontend developer, they are left with CLI logs or raw JSON dumps.',
+            ua: 'Розробка додатків з використанням LLM є недетермінованою. Бекенд-інженеру, який налаштовує промпт або змінює стратегію поділу тексту на шматки (chunking), потрібно швидко порівнювати результати. Без фронтенд-розробника вони залишаються сам на сам із логами в CLI або сирим JSON.',
+          },
+          {
+            en: 'Frontend developers build custom playgrounds: side-by-side completion checkers, interactive token probability visualizers, and step-by-step RAG retrieval viewers. Seeing exactly which document segment matched a query in a clean UI accelerates model debugging by orders of magnitude.',
+            ua: 'Фронтендери створюють спеціалізовані інструменти: інтерфейси для порівняння генерації пліч-о-пліч, візуалізатори ймовірності токенів та крокові схеми вибірки RAG. Можливість наочно побачити, який сегмент документа збігся із запитом, прискорює налагодження моделі в рази.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Accelerating Human-in-the-Loop (RLHF)',
+          ua: '2. Оптимізація розмітки та оцінки (RLHF)',
+        },
+        paragraphs: [
+          {
+            en: 'Reinforcement Learning from Human Feedback (RLHF) and fine-tuning require clean interfaces for human annotators to rank model outputs, label datasets, or flag hallucinations. The quality of the model depends directly on the volume and quality of this human input.',
+            ua: 'Навчання з підкріпленням на основі відгуків людей (RLHF) та тонке налаштування моделей потребують чистих інтерфейсів для розмітки даних асесорами. Якість моделі безпосередньо залежить від обсягу та чистоти зворотного зв\'язку.',
+          },
+          {
+            en: 'A frontend engineer designs ergonomic annotation tools with keyboard shortcuts, rapid rendering, and state management. By removing micro-delays and friction from the labeler’s workflow, they significantly increase the speed and quality of data collection.',
+            ua: 'Фронтенд-інженер розробляє ергономічні інструменти для анотування з гарячими клавішами, швидким рендером та оптимізованим управлінням станом. Усуваючи затримки в роботі асесора, вони значно підвищують швидкість і якість збору навчальних даних.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Handling LLM Latency & Non-Determinism',
+          ua: '3. Робота з затримками моделі та її нестабільністю',
+        },
+        paragraphs: [
+          {
+            en: 'AI models introduce unique frontend challenges. Generating responses token-by-token requires Server-Sent Events (SSE) or WebSockets. Implementing this smoothly—without freezing the UI, handling sudden disconnections, and auto-scrolling correctly—is a complex client-side problem.',
+            ua: 'ШІ-моделі приносять унікальні виклики для клієнтської частини. Посимвольна генерація відповідей вимагає стрімінгу через Server-Sent Events (SSE) або WebSockets. Реалізувати це плавно — без зависання інтерфейсу, з обробкою раптових розривів зв\'язку та коректним автопрокручуванням — це серйозне клієнтське завдання.',
+          },
+          {
+            en: 'Furthermore, LLMs can return unexpected formats or break markdown schemas midway. An experienced frontend developer implements intelligent fallbacks, partial JSON parsers, and loading states that mask backend latency, ensuring a premium UX.',
+            ua: 'Крім того, LLM можуть повертати непередбачувані формати або обривати схему JSON посеред генерації. Досвідчений фронтендер впроваджує інтелектуальні резервні сценарії (fallbacks), парсери часткового JSON та лоадери, які маскують затримку бекенду, забезпечуючи високу якість UX.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Transforming Raw Outputs into Rich UX',
+          ua: '4. Перетворення сирих даних на зручний продукт',
+        },
+        paragraphs: [
+          {
+            en: 'Users rarely want to read long walls of text. A great frontend dev interprets raw LLM output and presents it visually—turning structural text into interactive charts, editable tables, or clickable maps. They build multimodal tools where users can interact with images, upload docs, and see highlighted citations directly within source PDFs.',
+            ua: 'Користувачі рідко хочуть читати довгі простирадла тексту. Хороший фронтендер інтерпретує сирий вивід моделі та представляє його візуально — перетворюючи структурований текст на інтерактивні графіки, таблиці чи карти. Вони будують мультимодальні інструменти, де можна взаємодіяти із зображеннями, завантажувати документи й бачити підсвічені джерела цитат безпосередньо у PDF.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. Productivity Boost for Backend & Research',
+          ua: '5. Фокус на головному для бекендерів',
+        },
+        paragraphs: [
+          {
+            en: 'When a dedicated frontend partner builds the user interface, backend and ML engineers are freed from writing CSS, wrangling React components, or settling for restrictive prototyping tools like Streamlit. They can focus 100% of their time on what they do best: optimising models, tuning hyper-parameters, scaling databases, and designing robust system architectures.',
+            ua: 'Коли окремий фронтенд-партнер будує користувацький інтерфейс, бекенд- і ML-інженери звільняються від написання стилів, налаштування React-компонентів або обмежень інструментів прототипування на кшталт Streamlit. Они можуть повністю зосередитися на своїй спеціалізації: оптимізації моделей, масштабуванні баз даних та проєктуванні надійних систем.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Summary',
+          ua: 'Підсумок',
+        },
+        paragraphs: [
+          {
+            en: 'AI is a team sport. While backend developers and data scientists train the brain of the application, frontend developers construct the nervous system and the senses. By working in synergy, both sides ensure that deep technical capabilities translate into outstanding user experiences and high-quality products.',
+            ua: 'Штучний інтелект — це командна гра. Поки бекендери та ML-інженери тренують «мозок» додатку, фронтендери будують нервову систему та органи чуття. Працюючи в синергії, обидві сторони гарантують, що глибокі технічні можливості перетворяться на чудовий досвід користувача та якісний продукт.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'local-first-web-applications-future-of-ux',
     date: '2026-07-24',
     title: {
