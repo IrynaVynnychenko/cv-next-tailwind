@@ -17,7 +17,7 @@ export const translations = {
       stats: '4,200+ Upwork hours · 8+ years · 100+ launched projects',
       whyTitle: 'Why Work With Me',
       whyItems: [
-        'Full-cycle delivery — from design to live product',
+        'Full-cycle delivery — from Figma to live product',
         'Senior-level frontend architecture',
         'Clear communication, no agencies',
         'Fast response & NDA-ready',
@@ -118,7 +118,7 @@ export const translations = {
           title: 'Frontend Web Developer',
           company: 'Upwork',
           period: '2018 - Present',
-          description: 'Freelance senior frontend engineer on Upwork — full-cycle delivery from design to live product. High-performance React/Next.js apps, product engineering, NDA-ready for secure projects, and long-term collaboration with clients worldwide.',
+          description: 'Freelance senior frontend & full-stack engineer on Upwork — full-cycle development from Figma to live product. High-performance React/Next.js apps, product engineering, NDA-ready for secure projects, and long-term collaboration with clients worldwide.',
           achievements: [
             '4,200+ Upwork hours · 100+ launched projects · 100% Job Success Rate',
             'Full-stack Next.js: Server Components, Server Actions, API Routes',
@@ -284,7 +284,7 @@ export const translations = {
       stats: '4,200+ годин на Upwork · 8+ років · 100+ запущених проєктів',
       whyTitle: 'Чому варто працювати зі мною',
       whyItems: [
-        'Повний цикл розробки — від дизайну до готового продукту',
+        'Повний цикл розробки — від Figma до готового продукту',
         'Senior-рівень фронтенд архітектури',
         'Пряма комунікація, без посередників та агенцій',
         'Швидкий відгук та готовність до підписання NDA',
@@ -385,7 +385,7 @@ export const translations = {
           title: 'Frontend Web Developer',
           company: 'Upwork',
           period: '2018 - Дотепер',
-          description: 'Senior frontend розробник-фрилансер на Upwork — повний цикл розробки від дизайну до релізу. Високопродуктивні React/Next.js додатки, продуктова інженерія, готовність до роботи під NDA (NDA-ready) для безпечних проєктів та довгострокова співпраця з клієнтами по всьому світу.',
+          description: 'Senior frontend & full-stack розробник-фрилансер на Upwork — повний цикл розробки від Figma до релізу. Високопродуктивні React/Next.js додатки, продуктова інженерія, готовність до роботи під NDA (NDA-ready) для безпечних проєктів та довгострокова співпраця з клієнтами по всьому світу.',
           achievements: [
             '4,200+ годин на Upwork · 100+ запущених проєктів · 100% Job Success Rate',
             'Full-stack Next.js: Server Components, Server Actions, API Routes',

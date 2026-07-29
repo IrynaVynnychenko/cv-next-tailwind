@@ -182,7 +182,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'ai-calculator-b2b-estimator-structured-json-react',
-    date: '2026-07-29',
+    date: '2026-07-26',
     title: {
       en: 'Building an AI Cost Estimator: Parsing LLM Outputs into Interactive UI Components',
       ua: 'Створення AI-калькулятора вартості: парсинг відповідей LLM в інтерактивний інтерфейс React',
@@ -316,7 +316,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'dynamic-landing-pages-ai-copy-adapt-cls-prevention',
-    date: '2026-07-29',
+    date: '2026-07-23',
     title: {
       en: 'Dynamic Landing Pages: Real-Time AI Copy Adaptation without Layout Shifts (CLS)',
       ua: 'Динамічні цільові сторінки: адаптація контенту в реальному часі під UTM-мітки без зсувів верстки (CLS)',
@@ -468,7 +468,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'why-your-business-needs-site-search-in-2026',
-    date: '2026-07-29',
+    date: '2026-07-20',
     title: {
       en: 'Why Your Business Needs an Advanced Site Search in 2026: From Search Bar to Sales Engine',
       ua: 'Чому вашому бізнесу потрібен розумний пошук на сайті у 2026 році: від простого рядка до двигуна продажів',
@@ -628,7 +628,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'online-calculator-lead-generator-website-telegram',
-    date: '2026-07-29',
+    date: '2026-07-17',
     title: {
       en: 'How an Online Calculator on Your Website Attracts Leads and How Bringing It to Telegram Can Explode Your Sales',
       ua: 'Як онлайн-калькулятор на сайті залучає лідів та чому його перенесення в Telegram здатне подвоїти ваші продажі',
@@ -790,7 +790,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'upwork-solo-developer-vs-agency-trend-2026',
-    date: '2026-07-29',
+    date: '2026-07-14',
     title: {
       en: 'The Rise of Solo Developers and the Decline of Agencies on Upwork in 2026: Why Direct Communication Wins',
       ua: 'Тренд на Solo-розробників та відмову від агенцій на Upwork у 2026: чому пряма комунікація перемагає',
@@ -904,7 +904,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'lazy-lead-phenomenon-2026-attraction-strategies',
-    date: '2026-07-29',
+    date: '2026-07-11',
     title: {
       en: 'The "Lazy Lead" Phenomenon in 2026: How to Attract High-Quality Leads Instantly',
       ua: 'Феномен «лінивого ліда» у 2026 році: як залучати якісних клієнтів миттєво',
@@ -1018,7 +1018,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'benefits-of-using-upwork-for-foreign-clients',
-    date: '2026-07-29',
+    date: '2026-07-08',
     title: {
       en: 'Why Foreign Clients Prefer Upwork: Security, Contracts, and Hassle-Free Payments',
       ua: 'Чому іноземні замовники обирають Upwork: безпека, контракти та безтурботні оплати',
@@ -1112,7 +1112,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'prompt-engineering-for-developers-guide',
-    date: '2026-07-29',
+    date: '2026-07-05',
     title: {
       en: 'Prompt Engineering for Developers: How to Leverage LLMs for Coding and Refactoring',
       ua: 'Промпт-інжиніринг для розробників: як використовувати LLM для написання та рефакторингу коду',
@@ -1266,7 +1266,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'integrating-ai-chatbots-streaming-nextjs',
-    date: '2026-07-29',
+    date: '2026-07-02',
     title: {
       en: 'Integrating AI Chatbots into Web Apps: From Basic API to Streaming Responses in Next.js',
       ua: 'Інтеграція AI-чатботів у веб-інтерфейси: від базового API до Streaming-відповідей у Next.js',
@@ -1406,7 +1406,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'telegram-bot-web-app-food-delivery-guide',
-    date: '2026-07-29',
+    date: '2026-06-29',
     title: {
       en: 'How to Build an Interactive Telegram Bot with Web App for Restaurants and Food Delivery',
       ua: 'Як створити інтерактивного Telegram-бота з Web App для ресторанного бізнесу чи доставки їжі',
@@ -1568,7 +1568,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'why-you-need-fast-simple-website-or-blog',
-    date: '2026-07-29',
+    date: '2026-06-26',
     title: {
       en: 'Need a Fast and Simple Website or Blog? Why Page Speed Matters and How to Get Started',
       ua: 'Хочете простий сайт чи блог, який швидко завантажується? Чому швидкість завантаження вирішує все та як її отримати',
@@ -1730,7 +1730,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'telegram-mini-apps-fintech-development-guide',
-    date: '2026-07-29',
+    date: '2026-06-23',
     title: {
       en: 'What is a Telegram Mini App and How to Build a Fintech Application with It',
       ua: 'Що таке Telegram Mini App та як створити Fintech-додаток на його базі',
@@ -1920,7 +1920,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'what-aws-knowledge-means-for-frontend-developer',
-    date: '2026-07-29',
+    date: '2026-06-20',
     title: {
       en: 'What Does "AWS Knowledge" Actually Mean for a Frontend Developer?',
       ua: 'Що насправді означає «знання AWS» для фронтенд-розробника?',
@@ -2054,7 +2054,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'how-ai-transforms-email-marketing-and-development',
-    date: '2026-07-29',
+    date: '2026-06-17',
     title: {
       en: 'How to Leverage AI in Email Development and Newsletter Distribution',
       ua: 'Як використовувати ШІ у розробці та розсилці електронних листів',
@@ -2164,7 +2164,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'frontend-developer-value-for-backend-ml-llm',
-    date: '2026-07-29',
+    date: '2026-06-14',
     title: {
       en: 'Why Backend & ML Engineers Need a Frontend Partner: The AI-UX Synergy',
       ua: 'У чому користь Frontend-розробника для Backend/ML-інженера в епоху LLM',
@@ -2282,7 +2282,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'local-first-web-applications-future-of-ux',
-    date: '2026-07-24',
+    date: '2026-06-11',
     title: {
       en: 'Local-First Web Applications: The Future of Instant UX and Offline-First Architecture',
       ua: 'Вебдодатки Local-First: Майбутнє миттєвого інтерфейсу та архітектури Offline-First',
@@ -2392,7 +2392,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'optimizing-service-business-with-web-solutions',
-    date: '2026-07-24',
+    date: '2026-06-08',
     title: {
       en: 'Optimizing Service and Beauty Businesses with Custom Web Solutions',
       ua: 'Оптимізація сфери послуг та б\'юті-бізнесу за допомогою веб-рішень',
@@ -2536,7 +2536,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'telegram-bots-utility-service-payments-integration',
-    date: '2026-07-23',
+    date: '2026-06-05',
     title: {
       en: 'Custom Telegram Bots for Utility and Service Payments: Integrating Stripe, PayPal, and Global Payment Gateways',
       ua: 'Розробка Telegram-ботів для оплати комунальних та послуг (телеграм бот оплата): Інтеграція онлайн-оплат Mono, Privat24, Portmone',
@@ -2654,7 +2654,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'how-to-automate-business-processes-with-ai',
-    date: '2026-07-23',
+    date: '2026-06-02',
     title: {
       en: 'How to Automate Business Processes with AI: A Practical Guide for Modern Companies',
       ua: 'Як автоматизувати бізнес-процеси за допомогою AI: Практичний посібник для сучасних компаній',
@@ -2826,7 +2826,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'how-to-contact-me-and-ordering-options',
-    date: '2026-07-22',
+    date: '2026-05-30',
     title: {
       en: 'How to Contact Me and Ordering Options: Complete Client Cooperation Guide',
       ua: 'Як зі мною зв’язатися та які є можливості замовлення: Повний гайд для клієнтів',
@@ -2992,7 +2992,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'multicultural-client-collaboration-and-communication',
-    date: '2026-07-22',
+    date: '2026-05-27',
     title: {
       en: 'The Power of Communication: How I Work with Clients Across Different Countries and Diverse Businesses',
       ua: 'Сила комунікації: Як я працюю із замовниками з різних країн та різних бізнесів',
@@ -3124,7 +3124,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'figma-to-code-hiring-guide',
-    date: '2026-07-22',
+    date: '2026-05-24',
     title: {
       en: 'Figma to Code: How to Hire a Developer Who Translates Complex Design into a Pixel-Perfect Site Without Surprises',
       ua: 'Figma to Code: Як обрати розробника, який перетворить складний дизайн на піксель-перфект сайт без «сюрпризів»',
@@ -3264,7 +3264,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'common-mistakes-in-web-platform-development',
-    date: '2026-07-15',
+    date: '2026-05-21',
     title: {
       en: 'Common Mistakes in Web Platform Development and How to Avoid Them at the Start',
       ua: 'Найпоширеніші помилки при розробці вебплатформ та як їх уникнути на старті',
@@ -3422,7 +3422,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'scalable-nextjs-typescript-architecture',
-    date: '2026-07-08',
+    date: '2026-05-18',
     title: {
       en: 'Scalable Next.js / TypeScript Application Architecture: Designing a Production-Ready Next.js Architecture',
       ua: 'Архітектура Next.js / TypeScript додатків, яка легко масштабується: практичні поради',
@@ -3580,7 +3580,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'from-design-mockup-to-production-quality',
-    date: '2026-06-25',
+    date: '2026-05-15',
     title: {
       en: "From Design Mockup to Production: How to Avoid 'Loss of Quality' When Implementing Complex Interfaces",
       ua: 'Від дизайн-макета до продакшену: як уникнути «втрати якості» при реалізації складного інтерфейсу',
@@ -3750,7 +3750,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'refactoring-legacy-ui-without-downtime',
-    date: '2026-06-15',
+    date: '2026-05-12',
     title: {
       en: 'Refactoring Legacy UI: How to Update the Interface Without Product Downtime',
       ua: 'Рефакторинг застарілого UI: як оновити інтерфейс без зупинки роботи продукту',
@@ -3920,7 +3920,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'online-booking-system-benefits-2026',
-    date: '2026-05-28',
+    date: '2026-05-09',
     title: {
       en: 'Why Online Booking on Your Website Boosts Business Revenue in 2026',
       ua: 'Чому онлайн-бронювання на сайті збільшує прибуток бізнесу у 2026 році',
@@ -4064,7 +4064,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'how-to-increase-course-sales-2026',
-    date: '2026-05-14',
+    date: '2026-05-06',
     title: {
       en: 'How to Increase Online Course Sales in 2026 — From Social Hype to Own Platform',
       ua: 'Як збільшити продажі онлайн-курсів у 2026 році — Від прогревів у соцмережах до власної навчальної платформи',
@@ -4212,7 +4212,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'why-cosmetologist-needs-website-2026',
-    date: '2026-04-30',
+    date: '2026-05-03',
     title: {
       en: 'Why a Cosmetologist Needs a Personal Website in 2026 — Beyond Instagram & DMs',
       ua: 'Чому косметологу потрібен власний сайт у 2026 році — Більше ніж Instagram та дірект',
@@ -4364,7 +4364,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'mobile-first-approach-explained',
-    date: '2026-04-18',
+    date: '2026-04-30',
     title: {
       en: 'What Is Mobile-First Approach — Why It Is the Modern Web Standard',
       ua: 'Що таке Mobile-First підхід — Чому це сучасний стандарт веб-розробки',
@@ -4486,7 +4486,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'when-business-needs-a-website',
-    date: '2026-04-05',
+    date: '2026-04-27',
     title: {
       en: 'When Does Your Business Need a Website — And Why It Is Essential',
       ua: 'Коли потрібен сайт — сторінка в інтернеті вашого бізнесу і чому',
@@ -4664,7 +4664,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'why-your-business-needs-a-website',
-    date: '2026-03-25',
+    date: '2026-04-24',
     title: {
       en: 'Why Instagram and TikTok Are Not Enough — Your Business Still Needs a Website',
       ua: 'Чому Instagram та TikTok недостатньо — Вашому бізнесу все одно потрібен власний сайт',
@@ -4809,7 +4809,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'how-to-find-web-developer',
-    date: '2026-03-10',
+    date: '2026-04-21',
     title: {
       en: 'How to Find a Web Developer for Your Project (Without Wasting Time or Budget)',
       ua: 'Як знайти веб-розробника для вашого проєкту (без втрати часу та бюджету)',
@@ -4949,7 +4949,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'why-your-business-needs-nextjs',
-    date: '2026-02-25',
+    date: '2026-04-18',
     title: {
       en: 'Why Your Business Needs a High-Performance Next.js Website',
       ua: 'Чому вашому бізнесу потрібен високопродуктивний сайт на Next.js',
@@ -5024,7 +5024,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'how-to-choose-frontend-developer',
-    date: '2026-02-12',
+    date: '2026-04-15',
     title: {
       en: 'How to Choose the Right Frontend Developer for Your Project',
       ua: 'Як обрати правильного Frontend-розробника для вашого проєкту',
@@ -5088,7 +5088,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'core-web-vitals-and-revenue',
-    date: '2026-01-28',
+    date: '2026-04-12',
     title: {
       en: 'Core Web Vitals: Why Website Speed Directly Affects Revenue',
       ua: 'Core Web Vitals: Чому швидкість сайту напряму впливає на прибуток',
@@ -5144,7 +5144,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'react-vs-wordpress-for-business',
-    date: '2026-01-15',
+    date: '2026-04-09',
     title: {
       en: 'React vs WordPress: Is React Better Than WordPress for Your Business Website?',
       ua: 'React проти WordPress: Що краще обрати для сайту вашого бізнесу?',
@@ -5248,7 +5248,7 @@ export const rawBlogPosts: RawBlogPost[] = [
   },
   {
     slug: 'working-with-freelance-web-developer',
-    date: '2025-12-28',
+    date: '2026-04-06',
     title: {
       en: 'What to Expect When Working with a Freelance Web Developer',
       ua: 'Чого очікувати від співпраці з фриланс веб-розробником',
