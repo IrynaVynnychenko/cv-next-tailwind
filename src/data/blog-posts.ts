@@ -37,6 +37,150 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'frontend-engineering-trends-2026',
+    date: '2026-07-30',
+    title: {
+      en: 'Frontend Engineering Trends in 2026: AI Builders, Full-Stack, and QA Automation',
+      ua: 'Напрямки розвитку Frontend-інженерів у 2026 році: AI Builders, Full-Stack та QA Automation',
+    },
+    excerpt: {
+      en: 'Explore the key career paths and technical directions for Frontend Engineers in 2026, focusing on AI-driven interfaces, full-stack capabilities, and modern QA automation.',
+      ua: 'Огляд ключових кар’єрних шляхів та технічних напрямків для Frontend-інженерів у 2026 році: від інтеграції штучного інтелекту та розширення до Full-Stack до автоматизації тестування.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Frontend Development', 'Web Development', 'Artificial Intelligence', 'Full-Stack', 'QA Automation', 'Tech Trends'],
+      ua: ['Фронтенд розробка', 'Веб-розробка', 'Штучний інтелект', 'Full-Stack', 'Автоматизація тестування', 'Тренди'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: "The role of a Frontend Engineer has experienced a profound shift. The traditional division between writing client-side user interfaces and managing database operations or quality assurance pipelines has blurred. Driven by the rapid maturity of generative AI models, server-side execution paradigms, and modern browser APIs, today's frontend developer must adapt to three prominent career directions: AI Builder, Full-Stack developer, and QA Automation specialist. Embracing these roles is no longer optional; it is essential to stay highly competitive in the modern tech market.",
+            ua: "Роль Frontend-інженерів зазнала кардинальних змін. Традиційний розподіл між написанням клієнтського інтерфейсу користувача, керуванням операціями з базами даних та пайплайнами забезпечення якості розмився. Під впливом стрімкого розвитку генеративних моделей штучного інтелекту, парадигм виконання на серверній стороні та сучасних браузерних API, сьогоднішній фронтенд-розробник має адаптуватися до трьох основних напрямків кар'єри: AI Builder, Full-Stack розробник та фахівець із QA Automation. Освоєння цих ролей більше не є опціональним; це необхідно для підтримки конкурентоспроможності на сучасному ринку праці.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. AI Builder: Designing Interfaces for and with AI',
+          ua: '1. AI Builder: Проектування інтерфейсів для ШІ та з його допомогою',
+        },
+        paragraphs: [
+          {
+            en: "An AI Builder in frontend engineering focuses on two primary paradigms: developing application features that integrate machine learning capabilities, and leveraging advanced AI systems to dynamically adapt layouts. Instead of building static forms and static page hierarchies, engineers design 'Agentic' or 'Dynamic' UIs. These interfaces adapt in real time to the user's intent by interpreting raw text, voice, or behavioral cues through client-side LLMs or API endpoints.",
+            ua: "AI Builder у фронтенд-інженерії зосереджується на двох основних парадигмах: розробці функцій додатків, що інтегрують можливості машинного навчання, та використанні передових систем ШІ для динамічної адаптації інтерфейсів. Замість побудови статичних форм та ієрархій сторінок, інженери проектують «Agentic UI» або «Dynamic UI». Ці інтерфейси адаптуються в реальному часі до намірів користувача, інтерпретуючи текст, голос або поведінкові сигнали через клієнтські LLM чи серверні API.",
+          },
+          {
+            en: "Frontend developers acting as AI builders are expected to master AI SDKs, orchestration layers, and prompt structures. For instance, using tools like the Vercel AI SDK, developers can stream components directly from the server to the browser based on a model's structured JSON output. This shift demands a strong understanding of prompt engineering, model temperature, and JSON parsing.",
+            ua: "Від фронтенд-розробників, які виступають у ролі AI-білдерів, очікується володіння інструментами інтеграції (SDK), шарами оркестрації та структурами промптів. Наприклад, використовуючи Vercel AI SDK, розробники можуть стрімити компоненти безпосередньо з сервера в браузер на основі структурованого JSON-виводу моделі. Цей зсув вимагає глибокого розуміння промпт-інжинірингу, температури моделей та парсингу JSON.",
+          },
+        ],
+        list: [
+          {
+            en: 'Dynamic components rendering based on structured LLM output (Generative UI).',
+            ua: 'Динамічний рендеринг компонентів на основі структурованого виводу LLM (Generative UI).',
+          },
+          {
+            en: 'Client-side ML model execution using WebGPU and WebNN for low-latency, offline interactions.',
+            ua: 'Запуск моделей машинного навчання на клієнті за допомогою WebGPU та WebNN для швидкої офлайн-взаємодії.',
+          },
+          {
+            en: 'Optimizing prompt tokens and managing context windows for UI state.',
+            ua: 'Оптимізація токенів у промптах та керування вікнами контексту для стану інтерфейсу.',
+          },
+          {
+            en: 'Designing accessible and readable interfaces for AI conversational threads.',
+            ua: 'Проектування доступних та зручних інтерфейсів для діалогових гілок із ШІ.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Full-Stack Frontend: Blurring the Server-Client Boundary',
+          ua: '2. Full-Stack Frontend: Розмиття кордонів між клієнтом та сервером',
+        },
+        paragraphs: [
+          {
+            en: 'The rise of modern meta-frameworks like Next.js, Remix, Astro, and SolidStart has democratized backend development for frontend engineers. Features like React Server Components (RSC) and Server Actions allow frontend developers to write server-side code without managing a standalone backend codebase. As a result, the transition to full-stack is easier than ever, but it requires deeper knowledge of system architecture, security, and caching.',
+            ua: 'Поява сучасних мета-фреймворків, таких як Next.js, Remix, Astro та SolidStart, демократувала бекенд-розробку для фронтенд-інженерів. Технології на кшталт React Server Components (RSC) та Server Actions дозволяють фронтендерам писати серверний код без необхідності адміністрування окремого бекенд-додатка. В результаті перехід до full-stack стає легшим, ніж будь-коли, але він вимагає глибших знань системної архітектури, безпеки та кешування.',
+          },
+          {
+            en: 'Full-stack frontend engineers write serverless edge functions, manage relational or document databases using modern type-safe ORMs (like Drizzle and Prisma), and design robust API structures. Rather than relying on dedicated backend teams, they own the entire product vertical—from visual design and state management to server routing, database queries, and deployment pipeline configuration.',
+            ua: 'Full-stack frontend інженери пишуть безсерверні edge-функції, керують реляційними та нереляційними базами даних за допомогою типізованих ORM (наприклад, Drizzle та Prisma) та розробляють архітектуру API. Замість того щоб покладатися на окремі команди бекенду, вони володіють усім вертикальним зрізом продукту — від візуального дизайну та управління станом до серверного роутингу, запитів до бази даних та конфігурації деплою.',
+          },
+        ],
+        list: [
+          {
+            en: 'Server-side rendering (SSR), Static Site Generation (SSG), and React Server Components optimization.',
+            ua: 'Оптимізація серверного рендерингу (SSR), статичної генерації (SSG) та React Server Components.',
+          },
+          {
+            en: 'Database integration using serverless database platforms (e.g., Supabase, Neon, CockroachDB) and ORMs.',
+            ua: 'Інтеграція баз даних за допомогою безсерверних хмарних платформ (Supabase, Neon, CockroachDB) та сучасних ORM.',
+          },
+          {
+            en: 'Developing lightweight Edge Middleware and Edge Functions for low-latency requests.',
+            ua: 'Розробка легких Edge Middleware та Edge Functions для запитів з низькою затримкою.',
+          },
+          {
+            en: 'Securing user input and implementing robust authentication flows (e.g., Auth.js, Clerk, Kinde).',
+            ua: 'Захист даних користувачів та впровадження надійних рішень авторизації (наприклад, Auth.js, Clerk, Kinde).',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. QA Automation: Engineering for Reliability',
+          ua: '3. QA Automation: Інженерія для забезпечення надійності',
+        },
+        paragraphs: [
+          {
+            en: 'With code generation tools allowing developers to produce code faster than ever, the major bottleneck in software delivery is no longer writing the code, but verifying it. High-performing engineering teams require developers who write their own high-quality tests. A frontend engineer skilled in automated testing provides massive business value by preventing visual regressions, functional bugs, and performance degradation.',
+            ua: 'Оскільки генеративні інструменти дозволяють розробникам створювати код швидше, ніж будь-коли, головним вузьким місцем у доставці ПЗ став не процес написання коду, а його верифікація. Високоефективні команди потребують розробників, які здатні самостійно писати якісні тести. Фронтенд-інженер із навичками автоматизації тестування приносить бізнесу величезну цінність, запобігаючи візуальним багам, функціональним помилкам та зниженню продуктивності.',
+          },
+          {
+            en: 'Instead of relying on basic unit tests, modern frontend automated testing focuses on End-to-End (E2E) flows and component testing using Playwright or Cypress. Developers also implement visual regression testing with tools like Chromatic or Percy to ensure style integrity across different responsive breakpoints, browsers, and devices.',
+            ua: 'Замість того щоб покладатися виключно на прості юніт-тести, сучасне тестування фронтенду зосереджується на End-to-End (E2E) сценаріях та тестуванні компонентів за допомогою Playwright або Cypress. Розробники також впроваджують візуальне тестування регресії з інструментами Chromatic або Percy для збереження цілісності дизайну на різних екранах, браузерах та пристроях.',
+          },
+        ],
+        list: [
+          {
+            en: 'Writing stable, maintainable End-to-End (E2E) test suites using Playwright or Cypress.',
+            ua: 'Написання стабільних E2E тестів за допомогою Playwright або Cypress.',
+          },
+          {
+            en: 'Implementing component-level tests to verify isolated component behaviors.',
+            ua: 'Впровадження компонентного тестування для перевірки поведінки окремих частин інтерфейсу.',
+          },
+          {
+            en: 'Setting up Visual Regression Testing to verify styling layouts automatically on deployment.',
+            ua: 'Налаштування Visual Regression Testing для автоматичної перевірки макетів під час деплою.',
+          },
+          {
+            en: 'Integrating automated tests into continuous integration (CI) pipelines (e.g., GitHub Actions).',
+            ua: 'Інтеграція автоматизованих тестів у конвеєри безперервної інтеграції (CI) (наприклад, GitHub Actions).',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion: Choosing and Blending Your Paths',
+          ua: "Висновок: Вибір та комбінування кар'єрних шляхів",
+        },
+        paragraphs: [
+          {
+            en: 'The frontend engineering role in 2026 is richer, more versatile, and more impactful than ever. Whether you choose to focus on building intelligent user interfaces (AI Builder), mastering server-to-client operations (Full-Stack), or safeguarding quality and speed (QA Automation), the key is to build a T-shaped profile. Develop deep expertise in one specific area while maintaining a strong working knowledge of the others. By combining these skills, you ensure your relevance and success in the rapidly evolving technology landscape.',
+            ua: "Роль фронтенд-інженера у 2026 році стала значно ширшою, універсальнішою та впливовішою. Незалежно від того, чи вирішите ви зосередитися на створенні інтелектуальних інтерфейсів (AI Builder), опануванні взаємодії клієнта та сервера (Full-Stack) чи забезпеченні якості розробки (QA Automation), ключ до успіху — побудова T-shaped профілю. Розвивайте глибоку експертизу в одній обраній сфері, зберігаючи міцні знання в інших. Поєднання цих навичок гарантує вашу затребуваність та успіх у технологічному середовищі, що стрімко розвивається.",
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'maximizing-ai-value-marketing-sales-management',
     date: '2026-07-30',
     title: {
