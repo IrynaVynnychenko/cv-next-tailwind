@@ -160,13 +160,13 @@ export const rawBlogPosts: RawBlogPost[] = [
       },
       {
         heading: {
-          en: 'Conclusion: Building with the Right Telegram Mini App Developer',
-          ua: 'Висновок: Співпраця з досвідченим розробником Telegram Mini App',
+          en: 'Conclusion: Work with an Expert Telegram Mini App Developer',
+          ua: 'Висновок: Співпраця з експертом у розробці Telegram Mini Apps',
         },
         paragraphs: [
           {
-            en: 'A successful Telegram Mini App relies on a seamless frontend layout, robust backend security, and a deep understanding of Telegram\'s SDK and API boundaries. Partnering with an expert telegram mini app developer ensures that your application complies with UX guidelines, performs optimally, and integrates securely with payment processors to convert visitors into loyal clients.',
-            ua: 'Успіх Telegram Mini App залежить від адаптивного інтерфейсу, надійного бекенду та глибокого розуміння лімітів SDK й API Telegram. Партнерство з досвідченим telegram mini app developer гарантує, що ваш додаток відповідатиме вимогам зручності (UX), працюватиме швидко та прийматиме платежі безпечно, перетворюючи читачів на клієнтів.',
+            en: 'A successful Telegram Mini App requires a seamless frontend layout, robust backend validation, and a deep understanding of the Telegram WebApp SDK limits. As a Senior Web Developer, I build high-performance, custom Telegram Mini Apps tailored to your business operations. While I focus purely on development, I collaborate with talented UI/UX designers to bring your product from concept to production. Let\'s schedule a call to discuss your Telegram Mini App project!',
+            ua: 'Успіх Telegram Mini App залежить від адаптивного інтерфейсу, надійного бекенду та глибокого знання Telegram WebApp SDK. Як досвідчений Senior Web Developer, я розробляю швидкі та безпечні рішення для бізнесу будь-якої складності. Хоча я фокусуюся виключно на програмуванні, я співпрацюю з талановитими UI/UX-дизайнерами, що дозволяє запустити проект під ключ від ідеї до релізу. Зв\'яжіться зі мною, щоб обговорити ваш проект Telegram Mini App!',
           },
         ],
       },
@@ -274,13 +274,13 @@ export const rawBlogPosts: RawBlogPost[] = [
       },
       {
         heading: {
-          en: 'Summary',
-          ua: 'Резюме',
+          en: 'Conclusion: Let\'s Build Your Custom Telegram Mini App',
+          ua: 'Висновок: Створіть свій Telegram Mini App разом зі мною',
         },
         paragraphs: [
           {
-            en: 'Choosing the right partner is critical to launching a smooth, bug-free, and profitable Telegram Mini App. Always check past portfolios, ask technical screening questions regarding WebApp SDK security, and opt for direct development communication to optimize your project timeline.',
-            ua: 'Вибір правильного розробника — це ключ до запуску стабільного та прибуткового додатка в Telegram. Перевіряйте портфоліо, запитуйте про методи захисту даних через SDK та обирайте пряму комунікацію для прискорення розробки.',
+            en: 'Choosing the right developer is critical to launching a stable, secure, and profitable Telegram Mini App. By working directly with me as your solo full-stack developer, you eliminate administrative overhead, speed up the deployment pipeline, and ensure senior-level quality at every stage. Check my portfolio and contact me today to get an estimate for your Telegram project!',
+            ua: 'Вибір розробника — це ключ до запуску стабільного, безпечного та прибуткового додатка. Працюючи безпосередньо зі мною як із вашим Full-stack розробником, ви уникаєте зайвих витрат на менеджмент, прискорюєте запуск проекту та отримуєте senior-рівень коду на кожному етапі. Перегляньте моє портфоліо та зв\'яжіться зі мною, щоб отримати оцінку вашого проекту в Telegram!',
           },
         ],
       },
@@ -402,13 +402,13 @@ export const rawBlogPosts: RawBlogPost[] = [
       },
       {
         heading: {
-          en: 'Conclusion',
-          ua: 'Висновок',
+          en: 'Conclusion: Secure Checkout for Your Telegram Bot or Mini App',
+          ua: 'Висновок: Налаштування безпечної оплати для вашого бота чи Mini App',
         },
         paragraphs: [
           {
-            en: 'Integrating payments is a crucial step to monetize your Telegram Bot or Mini App. By choosing a suitable payment provider and implementing a secure backend architecture, you can provide users with a seamless shopping experience directly in their favorite messenger.',
-            ua: 'Підключення оплати — важливий крок для монетизації вашого Telegram-бота чи Mini App. Правильний вибір платіжного провайдера та побудова надійного бекенду забезпечать покупцям приємний і безперешкодний досвід шопінгу прямо в месенджері.',
+            en: 'Integrating payments is a crucial step to monetize your Telegram Bot or Mini App. As an expert web engineer, I regularly build secure checkout flows, connecting Monobank, LiqPay, Stripe, and Web3/crypto wallets for clients worldwide. If you want to enable seamless payments (`телеграм бот оплата`) and automate receipt delivery for your customers, reach out to me, and let\'s build it together!',
+            ua: 'Підключення оплат — це фундаментальний крок для монетизації вашого проекту в Telegram. Як досвідчений веб-інженер, я допомагаю бізнесу підключати надійні платіжні системи (Monobank, LiqPay, Stripe, крипту) та налаштовувати захищений бекенд із вебхуками. Бажаєте автоматизувати прийом платежів та видачу квитанцій? Зв\'яжіться зі мною, і ми реалізуємо це рішення разом!',
           },
         ],
       },
