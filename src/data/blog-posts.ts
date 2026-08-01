@@ -37,6 +37,384 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'telegram-mini-app-development-services-complete-guide',
+    date: '2026-08-01',
+    title: {
+      en: 'Telegram Mini App Development Services: The Future of Mobile Engagement',
+      ua: 'Послуги з розробки Telegram Mini App: Майбутнє мобільної взаємодії з клієнтами',
+    },
+    excerpt: {
+      en: 'Discover why businesses are switching from native applications to Telegram Mini App development services. Learn about key integration features, cost savings, and how to start building your custom solution today.',
+      ua: 'Дізнайтеся, чому бізнес масово переходить від нативних додатків до послуг з розробки Telegram Mini Apps. Переваги інтеграції, скорочення витрат та покроковий старт проекту.',
+    },
+    readTime: {
+      en: '7 min read',
+      ua: '7 хв читання',
+    },
+    tags: {
+      en: ['Telegram Mini Apps', 'Mobile Development', 'Web Applications', 'Business Automation', 'UI/UX Design'],
+      ua: ['Telegram Mini Apps', 'Мобільна розробка', 'Веб-додатки', 'Автоматизація бізнесу', 'Дизайн інтерфейсів'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: "In today's fast-paced digital ecosystem, the friction of downloading a mobile application from an app store is a major barrier to user acquisition. Businesses lose up to 50% of potential customers during the onboarding funnel simply because of the steps required to search, download, open, and register in a traditional native app. Telegram Mini App development services offer a modern alternative that eliminates this friction completely, serving full-fledged web applications directly inside a messenger with over 900 million active users.",
+            ua: 'У сучасному цифровому світі необхідність завантажувати додатки з App Store чи Google Play є великим бар\'єром для залучення користувачів. Бізнес втрачає до 50% потенційних клієнтів на етапі онбордингу лише через складність пошуку, встановлення та реєстрації в нативному додатку. Послуги з розробки Telegram Mini App пропонують сучасну альтернативу, яка повністю усуває цей бар\'єр, запускаючи повноцінні веб-додатки прямо всередині месенджера з аудиторією понад 900 мільйонів користувачів.',
+          },
+          {
+            en: 'Telegram Mini Apps (TMAs) combine the flexibility of web technologies (React, Next.js, Vue, Tailwind CSS) with native mobile features. Let\'s explore what professional TMA development services entail, their business advantages, and how they transform user experience.',
+            ua: 'Telegram Mini Apps (TMA) поєднують гнучкість веб-технологій (React, Next.js, Vue, Tailwind CSS) із нативними мобільними функціями. Розглянемо детальніше, що входить у професійні послуги розробки TMA, їхні переваги для бізнесу та як вони трансформують користувацький досвід.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. What are Telegram Mini App Development Services?',
+          ua: '1. Що включають послуги з розробки Telegram Mini App?',
+        },
+        paragraphs: [
+          {
+            en: 'Professional TMA development is not just about creating a mobile-responsive website. It involves building a secure, high-performance web application designed specifically for the Telegram WebApp environment, using the Telegram WebApp SDK to connect with the host app. Key services include:',
+            ua: 'Професійна розробка TMA — це не просто створення адаптивного веб-сайту. Вона передбачає побудову безпечного, високопродуктивного додатка, спеціально спроектованого для середовища Telegram WebApp та інтегрованого через Telegram WebApp SDK. Основні етапи та послуги:',
+          },
+        ],
+        list: [
+          {
+            en: 'Custom WebApp Development: Designing and coding the frontend utilizing modern React, Next.js, TypeScript, or Vite stack combined with light/dark theme adaptation.',
+            ua: 'Індивідуальна розробка WebApp: Проектування та програмування фронтенду на стеку React, Next.js, TypeScript або Vite з адаптацією під темну та світлу теми Telegram.',
+          },
+          {
+            en: 'SDK & API Integration: Connecting the frontend to the Telegram WebApp SDK for haptic feedback, native dialog prompts, Main Button, Back Button, and sharing tools.',
+            ua: 'Інтеграція SDK та API: Підключення фронтенду до Telegram WebApp SDK для використання тактильної вібрації (haptics), системних діалогових вікон, кнопок Main Button та Back Button, а також інструментів реферальних посилань.',
+          },
+          {
+            en: 'Secure Backend & Auth: Implementing authentication utilizing cryptographically verified initData passed by Telegram on launch to guarantee security.',
+            ua: 'Безпечний бекенд та авторизація: Реалізація перевірки справжності сесії за допомогою криптографічного підпису параметрів initData, що гарантує надійність передачі даних.',
+          },
+          {
+            en: 'Payment Gateway Integration: Adding built-in Telegram checkout or integrating external payment processors (LiqPay, Monobank, Stripe) for frictionless commercial checkouts.',
+            ua: 'Інтеграція платіжних систем: Підключення вбудованих платежів Telegram або інтеграція зовнішніх еквайрингів (Monobank, LiqPay, Stripe) для швидкої оплати товарів чи послуг.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Major Advantages of Telegram Mini Apps over Native Apps',
+          ua: '2. Головні переваги Telegram Mini Apps порівняно з нативними додатками',
+        },
+        paragraphs: [
+          {
+            en: 'Choosing telegram mini app development allows startups and enterprises to launch faster and achieve higher conversion rates due to several critical factors:',
+            ua: 'Вибір розробки додатків для Telegram дозволяє стартапам та зрілим компаніям запускатися швидше та отримувати вищу конверсію завдяки кільком факторам:',
+          },
+        ],
+        list: [
+          {
+            en: 'Frictionless Entry: No downloads, updates, or app store approvals are required. A user is just one click away from launching the app from a link or group chat.',
+            ua: 'Вхід без перешкод: Не потрібні завантаження з маркетів, оновлення чи очікування апрувів App Store. Користувач запускає додаток одним кліком за посиланням або в чаті.',
+          },
+          {
+            en: 'Reduced Development Costs: Instead of developing separate Android (Kotlin/Java) and iOS (Swift) native apps, you build a single web application that runs flawlessly on all operating systems.',
+            ua: 'Зниження вартості розробки: Замість створення окремих додатків для Android (Kotlin) та iOS (Swift) розробляється один веб-додаток, який бездоганно працює на обох операційних системах.',
+          },
+          {
+            en: 'Viral Features: Built-in sharing mechanics, referral tracking, and invite keys make it extremely simple for users to share the app with friends, driving organic growth.',
+            ua: 'Вірусне поширення: Нативні кнопки для надсилання повідомлень друзям, реферальні програми та інтеграція в групи роблять віральний маркетинг простим і безкоштовним.',
+          },
+          {
+            en: 'Instant Updates: Since the app is a hosted website, push updates to code are immediate. No waiting for app stores to approve bug fixes or new features.',
+            ua: 'Миттєве оновлення: Оскільки додаток хоститься на вашому сервері, будь-які багфікси та нові функції з’являються у користувачів миттєво після деплою.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. When Does Your Business Need Telegram Mini App Development?',
+          ua: '3. Коли вашому бізнесу потрібна розробка Telegram Mini App?',
+        },
+        paragraphs: [
+          {
+            en: 'While TMAs are incredibly versatile, they are exceptionally effective in specific business domains where speed of access and social collaboration are key:',
+            ua: 'Хоча TMA підходять для багатьох сфер, є ніші, де вони показують виняткову ефективність завдяки швидкості та інтерактивності:',
+          },
+        ],
+        list: [
+          {
+            en: 'E-commerce & Food Delivery: Catalog browsing, interactive cart, orders, and payment in under a minute without leaving the chat window.',
+            ua: 'E-commerce та доставка їжі: Зручний каталог товарів, інтерактивний кошик, оформлення замовлення та оплата менш ніж за хвилину без виходу з месенджера.',
+          },
+          {
+            en: 'Service Booking: Barber shops, medical clinics, and beauty salons can embed schedules and reservation systems with instant reminder notifications via the bot.',
+            ua: 'Бронювання послуг: Салони краси, медичні центри та студії можуть інтегрувати календар та систему бронювання з нагадуванням через бота.',
+          },
+          {
+            en: 'Community Games & Web3 (TAP-to-Earn): Telegram is the absolute hub for crypto projects, Web3 games, token drops, and community engagement mechanics.',
+            ua: 'Ігри та Web3 (Tap-to-Earn): Telegram став головним центром для криптопроектів, Web3-ігор, роздач токенів та інтерактивних механік залучення спільноти.',
+          },
+          {
+            en: 'B2B Dashboards & CRM: Simplified toolsets for remote employees, order management systems, or sales statistics monitoring for business owners on the go.',
+            ua: 'B2B-панелі та CRM: Зручні інтерфейси для кур’єрів, менеджерів з продажу або моніторинг бізнес-статистики для власників.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion: Building with the Right Telegram Mini App Developer',
+          ua: 'Висновок: Співпраця з досвідченим розробником Telegram Mini App',
+        },
+        paragraphs: [
+          {
+            en: 'A successful Telegram Mini App relies on a seamless frontend layout, robust backend security, and a deep understanding of Telegram\'s SDK and API boundaries. Partnering with an expert telegram mini app developer ensures that your application complies with UX guidelines, performs optimally, and integrates securely with payment processors to convert visitors into loyal clients.',
+            ua: 'Успіх Telegram Mini App залежить від адаптивного інтерфейсу, надійного бекенду та глибокого розуміння лімітів SDK й API Telegram. Партнерство з досвідченим telegram mini app developer гарантує, що ваш додаток відповідатиме вимогам зручності (UX), працюватиме швидко та прийматиме платежі безпечно, перетворюючи читачів на клієнтів.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'choosing-telegram-mini-app-development-company',
+    date: '2026-08-01',
+    title: {
+      en: 'How to Choose a Telegram Mini App Development Company in 2026',
+      ua: 'Як обрати компанію з розробки Telegram Mini App у 2026 році',
+    },
+    excerpt: {
+      en: 'Looking for the best telegram mini app development company? Read our professional checklist on vetting developers, analyzing portfolios, choosing a tech stack, and planning your project budget.',
+      ua: 'Шукаєте надійного партнера для розробки додатків в Telegram? Професійний чек-лист з оцінки розробників, вибору стеку технологій та планування бюджету проекту.',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['Telegram Mini Apps', 'Outsourcing', 'Project Management', 'Software Architecture', 'Hiring Guide'],
+      ua: ['Telegram Mini Apps', 'Аутсорсинг', 'Управління проектами', 'Архітектура ПЗ', 'Поради з найму'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'As the popularity of Telegram Mini Apps (TMAs) grows exponentially, more businesses are seeking specialists to build interactive mini-programs. However, because this ecosystem is relatively new, finding the right telegram mini app development company or a freelance developer can be challenging. Many general web agencies claim they can build TMAs, but lack the specific knowledge of the Telegram WebApp SDK, bot protocols, and platform security requirements.',
+            ua: 'Популярність Telegram Mini Apps (TMA) зростає експоненціально, і дедалі більше компаній шукають фахівців для створення інтерактивних міні-програм. Проте, через відносну новизну екосистеми, вибір надійної telegram mini app development company або розробника-фрілансера може бути складним завданням. Багато веб-студій загального профілю стверджують, що вміють створювати TMA, але не мають досвіду роботи з Telegram WebApp SDK, протоколами ботів та безпекою платформи.',
+          },
+          {
+            en: 'In this article, we outline a checklist to help you select a professional partner for your project, identify red flags, and understand how custom development fits into your budget.',
+            ua: 'У цій статті ми пропонуємо чек-лист для оцінки потенційних партнерів, виявлення критичних помилок (red flags) та розуміння того, як планувати бюджет і терміни.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. The Crucial Tech Stack of a Telegram Mini App',
+          ua: '1. Який стек технологій повинен використовувати розробник?',
+        },
+        paragraphs: [
+          {
+            en: 'Since a TMA is technically a web application displayed within Telegram, the development team must have strong experience in standard frontend web engineering. Make sure your developer is skilled in:',
+            ua: 'Оскільки TMA — це веб-додаток усередині Telegram, команда розробників повинна володіти сучасними технологіями веб-інженерії. Переконайтеся, що ваш розробник знає:',
+          },
+        ],
+        list: [
+          {
+            en: 'Modern Frameworks: Next.js or React for dynamic state management, smooth routing, and fast load times. Standard HTML5, CSS3, and tailwind for layout.',
+            ua: 'Сучасні фреймворки: Next.js або React для управління станом, швидкого роутингу та швидкого завантаження. Стандартні HTML5, CSS3 та Tailwind для верстки.',
+          },
+          {
+            en: 'Telegram WebApp SDK: Expertise in integrating native UI components (MainButton, BackButton, SettingsButton), handling color themes, triggering haptics, and reading user parameters securely.',
+            ua: 'Telegram WebApp SDK: Досвід підключення нативних елементів (MainButton, BackButton, SettingsButton), роботи з палітрою месенджера, виклику вібрації та читання параметрів користувача.',
+          },
+          {
+            en: 'Secure Backend: Secure data exchange validation using cryptographically signed query parameters (initData validation with bot token hash).',
+            ua: 'Безпечний бекенд: Валідація переданих даних від клієнта за допомогою криптографічного підпису (перевірка initData за допомогою бота-хешу).',
+          },
+          {
+            en: 'Database & Caching: PostgreSQL, MongoDB, or Redis to support lightning-fast user sessions, state preservation, and order storage.',
+            ua: 'Бази даних та кешування: PostgreSQL, MongoDB або Redis для швидкої роботи сесій користувача, збереження прогресу та замовлень.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Key Evaluation Questions for a Development Team',
+          ua: '2. Питання для перевірки розробників перед початком роботи',
+        },
+        paragraphs: [
+          {
+            en: 'Before signing a contract or starting an hourly project, ask potential candidates these questions to ensure they have the hands-on expertise:',
+            ua: 'Перед підписанням контракту або початком погодинної роботи поставте кандидатам наступні запитання для перевірки практичного досвіду:',
+          },
+        ],
+        list: [
+          {
+            en: '"How do you validate the data received from the Telegram client on the backend?" (Correct answer: We calculate the SHA-256 HMAC of the data using our bot token as the secret).',
+            ua: '"Як ви перевіряєте дані, отримані від клієнта Telegram, на бекенді?" (Правильна відповідь: Ми розраховуємо SHA-256 HMAC цих даних, використовуючи токен бота як секретний ключ).',
+          },
+          {
+            en: '"How do you handle light and dark modes?" (Correct answer: We read the Telegram theme parameters dynamically from the SDK and apply classes to support colors automatically).',
+            ua: '"Як ви реалізуєте підтримку темної та світлої тем месенджера?" (Правильна відповідь: Ми зчитуємо колірні параметри теми безпосередньо з SDK та застосовуємо класи для авто-адаптації).',
+          },
+          {
+            en: '"What payment providers do you have experience integrating inside Telegram?" (Correct answer: Telegram Bot Payments for native cards, Stripe, Monobank, or Web3 wallets for crypto transactions).',
+            ua: '"Які платіжні провайдери ви інтегрували в Telegram?" (Правильна відповідь: Нативні платежі Telegram Bot Payments, Monobank, LiqPay, Stripe або Web3-гаманці для криптоплатежів).',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Solo Freelance Developer vs. Agency: What is Better?',
+          ua: '3. Розробник-фрілансер чи компанія: Що краще?',
+        },
+        paragraphs: [
+          {
+            en: 'For standard business automation tools, online stores, and booking apps, a highly skilled solo frontend developer with full-stack capability is often more efficient and cost-effective than an agency. You get direct communication, avoid administrative overhead, and speed up iteration loops. For massive scale Web3 games or complex enterprise ERP systems with continuous support, hiring a dedicated telegram mini app development company might be preferred to cover multiple roles (designer, QA, DevOps, project manager).',
+            ua: 'Для типових рішень (інтернет-магазини, системи запису, автоматизація бізнесу) зазвичай ефективніше й вигідніше наймати досвідченого соло-розробника з навичками Full-stack. Це забезпечує прямий зв’язок, відсутність бюрократії та швидкі ітерації. Для масштабних проектів, таких як Web3-ігри чи великі корпоративні ERP-системи, краще обрати послуги telegram mini app development company, оскільки там потрібна команда з дизайнера, QA-тестувальника та DevOps-інженера.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Summary',
+          ua: 'Резюме',
+        },
+        paragraphs: [
+          {
+            en: 'Choosing the right partner is critical to launching a smooth, bug-free, and profitable Telegram Mini App. Always check past portfolios, ask technical screening questions regarding WebApp SDK security, and opt for direct development communication to optimize your project timeline.',
+            ua: 'Вибір правильного розробника — це ключ до запуску стабільного та прибуткового додатка в Telegram. Перевіряйте портфоліо, запитуйте про методи захисту даних через SDK та обирайте пряму комунікацію для прискорення розробки.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'telegram-bot-payment-integration-guide',
+    date: '2026-08-01',
+    title: {
+      en: 'Telegram Bot Payment Integration: A Complete Developer & Business Guide',
+      ua: 'Оплата в Телеграм-ботах та Mini Apps: Повний посібник з інтеграції платіжних систем',
+    },
+    excerpt: {
+      en: 'Want to sell products directly in Telegram? Learn about Telegram Bot Payments API, setting up Monobank, LiqPay, Stripe, and crypto payments, and implementing a secure checkout flow.',
+      ua: 'Бажаєте продавати товари прямо в Telegram? Все про Telegram Bot Payments API, підключення Monobank, LiqPay, Stripe та криптоплатежів із прикладами інтеграції.',
+    },
+    readTime: {
+      en: '8 min read',
+      ua: '8 хв читання',
+    },
+    tags: {
+      en: ['Payments', 'Telegram Bots', 'Monobank', 'Stripe', 'LiqPay', 'Crypto', 'Fintech'],
+      ua: ['Платежі', 'Телеграм-боти', 'Monobank', 'Stripe', 'LiqPay', 'Криптовалюта', 'Фінтех'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Accepting payments directly inside Telegram is one of the most powerful features for businesses looking to monetize their audience. Whether you operate a delivery service, sell subscriptions to premium content, or run a modern Telegram Mini App (TMA), having a seamless checkout flow is critical for conversion. The search query "телеграм бот оплата" is highly searched, highlighting that both merchants and developers are actively seeking reliable checkout solutions.',
+            ua: 'Прийом оплати безпосередньо всередині Telegram — одна з найважливіших функцій для монетизації аудиторії. Незалежно від того, чи у вас сервіс доставки, продаж підписок на контент чи сучасний Telegram Mini App, зручний процес оплати є критичним для конверсії. Пошуковий запит "телеграм бот оплата" свідчить про високий інтерес бізнесу та розробників до підключення надійного еквайрингу.',
+          },
+          {
+            en: 'In this guide, we will cover how Telegram payments work, compare top payment providers (Monobank, LiqPay, Stripe, Crypto), and outline a step-by-step developer integration flow.',
+            ua: 'У цьому посібнику ми розповімо, як працює система платежів у Telegram, порівняємо популярних провайдерів (Monobank, LiqPay, Stripe, Crypto) та опишемо технічний процес інтеграції.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. How Do Payments Work in Telegram?',
+          ua: '1. Як працюють платежі в Telegram?',
+        },
+        paragraphs: [
+          {
+            en: 'Telegram supports two primary methods for accepting customer payments:',
+            ua: 'Telegram підтримує два основні способи прийому платежів від клієнтів:',
+          },
+        ],
+        list: [
+          {
+            en: 'Telegram Bot Payments API (Native Checkout): This allows bots to send invoice messages. When the user clicks the "Pay" button, a native, secure credit card form opens directly in the Telegram interface. Telegram acts as a middleman and passes card details directly to your payment processor (e.g., Stripe, Portmone).',
+            ua: 'Telegram Bot Payments API (Нативна оплата): Бот надсилає повідомлення-інвойс. При натисканні кнопки "Оплатити" відкривається нативна безпечна форма для введення картки безпосередньо в Telegram. Месенджер не зберігає дані картки, а передає їх напряму вашому платіжному шлюзу (Stripe, Portmone тощо).',
+          },
+          {
+            en: 'Web-based Checkout (via Mini Apps): A user opens a Telegram Mini App, selects items, and clicks "Pay." The app opens a customized checkout screen, redirects them to a web checkout page (like Monobank / LiqPay checkout page, Apple Pay, Google Pay), or triggers a Web3 wallet confirmation, returning the user to the app after success.',
+            ua: 'Оплата через веб-інтерфейс (у Mini Apps): Користувач відкриває Telegram Mini App, обирає товари, переходить до оплати. Додаток перенаправляє його на платіжну сторінку банку (Monobank, LiqPay, Apple Pay, Google Pay) або викликає Web3-гаманець для криптотранзакцій, повертаючи користувача в додаток після успіху.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Top Payment Providers for Ukrainian and Global Markets',
+          ua: '2. Популярні платіжні системи для України та світу',
+        },
+        paragraphs: [
+          {
+            en: 'Depending on your target audience, you should choose a provider that matches local currency and user preferences:',
+            ua: 'Залежно від вашої аудиторії, варто вибрати платіжного провайдера, що підтримує відповідну валюту та методи розрахунку:',
+          },
+        ],
+        list: [
+          {
+            en: 'Monobank API (Ukraine): Excellent developer friendly API. Allows creating digital invoices (Mono Acquiring) with support for Apple Pay, Google Pay, and easy webhook integration.',
+            ua: 'Monobank API (Україна): Чудовий вибір для українського ринку. Дозволяє генерувати інвойси (еквайринг від Монобанк) з підтримкою Apple Pay, Google Pay та зручними вебхуками.',
+          },
+          {
+            en: 'LiqPay (Ukraine / PrivatBank): The most popular acquiring service in Ukraine, supporting cards, QR codes, and Privat24. Highly documented and reliable.',
+            ua: 'LiqPay (Україна / ПриватБанк): Найбільш поширений еквайринг в Україні. Підтримує оплату картками, QR-кодами та через додаток Приват24.',
+          },
+          {
+            en: 'Stripe (Global): The industry standard for international card processing, subscriptions, and multi-currency billing.',
+            ua: 'Stripe (Глобальний ринок): Світовий стандарт для прийому карткових платежів, регулярних підписок та підтримки багатьох валют.',
+          },
+          {
+            en: 'Crypto Payments (TON, USDT): Ideal for borderless digital products. Using blockchain transactions via TON space wallets or USDT payment processors without traditional banking fees.',
+            ua: 'Криптоплатежі (TON, USDT): Чудовий варіант для цифрових продуктів. Оплата здійснюється через блокчейн-транзакції TON, USDT або сторонні криптопроцесинги.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Technical Integration Flow for Developers',
+          ua: '3. Технічний процес інтеграції оплат для розробника',
+        },
+        paragraphs: [
+          {
+            en: 'To implement a secure payment flow inside your Telegram Mini App or Bot, follow these key architectural steps:',
+            ua: 'Щоб реалізувати безпечний процес прийому оплати в Telegram-боті або Mini App, дотримуйтесь наступних кроків:',
+          },
+        ],
+        list: [
+          {
+            en: 'Create a Pending Order: When a user clicks checkout, generate a unique transaction ID and save the order in your database with a "pending" status.',
+            ua: 'Створення замовлення: Коли користувач ініціює оплату, створіть у базі даних замовлення зі статусом "очікує оплати" (pending) та унікальним ID.',
+          },
+          {
+            en: 'Call Payment API: Make a secure backend call to your payment provider (Stripe, Monobank, LiqPay) to create an invoice. Receive the payment URL.',
+            ua: 'Запит до платіжного API: Сервер робить безпечний запит до платіжної системи для створення рахунку та отримує унікальне посилання на оплату.',
+          },
+          {
+            en: 'Redirect User: Send the link to the client. In a TMA, you can use the `Telegram.WebApp.openInvoice()` or open the payment URL in the browser.',
+            ua: 'Перенаправлення користувача: Надайте посилання клієнту. В TMA можна використовувати метод `Telegram.WebApp.openInvoice()` або відкрити платіжну лінку.',
+          },
+          {
+            en: 'Handle Webhook: The payment provider will send a POST request (webhook) to your server when the transaction is completed. Update the order status to "paid" and trigger fulfillment.',
+            ua: 'Обробка Вебхука: Платіжна система надішле POST-запит (webhook) на ваш сервер після завершення оплати. Оновіть статус замовлення на "оплачено" (paid).',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion',
+          ua: 'Висновок',
+        },
+        paragraphs: [
+          {
+            en: 'Integrating payments is a crucial step to monetize your Telegram Bot or Mini App. By choosing a suitable payment provider and implementing a secure backend architecture, you can provide users with a seamless shopping experience directly in their favorite messenger.',
+            ua: 'Підключення оплати — важливий крок для монетизації вашого Telegram-бота чи Mini App. Правильний вибір платіжного провайдера та побудова надійного бекенду забезпечать покупцям приємний і безперешкодний досвід шопінгу прямо в месенджері.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'what-is-web-application-modern-guide',
     date: '2026-07-30',
     title: {
