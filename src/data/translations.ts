@@ -249,6 +249,7 @@ export const translations = {
         locationValue: 'Kyiv, Ukraine',
         viewProfile: 'View Profile',
         connect: 'Connect with me',
+        contactMe: 'Contact me',
       },
     },
     faq: {
@@ -565,6 +566,7 @@ export const translations = {
         locationValue: 'Київ, Україна',
         viewProfile: 'Переглянути профіль',
         connect: 'Зв’язатися в LinkedIn',
+        contactMe: "Зв'яжіться зі мною",
       },
     },
     faq: {

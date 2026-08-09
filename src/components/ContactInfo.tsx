@@ -8,7 +8,7 @@ import { translations } from '@/data/translations'
 export type ContactItem = {
   icon: ReactNode
   key: 'email' | 'location' | 'upwork' | 'telegram' | 'whatsapp' | 'linkedin'
-  valueKey?: 'locationValue' | 'viewProfile' | 'connect'
+  valueKey?: 'locationValue' | 'viewProfile' | 'connect' | 'contactMe'
   rawVal?: string
   link: string | null
 }
@@ -60,13 +60,13 @@ const contactItemDefs: ContactItem[] = [
       </svg>
     ),
     key: 'telegram',
-    rawVal: '+380931844615',
+    valueKey: 'contactMe',
     link: 'https://telegram.me/+380931844615',
   },
   {
     icon: <WhatsAppIcon />,
     key: 'whatsapp',
-    rawVal: '+380931844615',
+    valueKey: 'contactMe',
     link: 'https://wa.me/380931844615',
   },
   {
