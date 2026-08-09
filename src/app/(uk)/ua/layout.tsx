@@ -17,19 +17,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Ірина Винниченко | Senior Web & Frontend Розробник | Розробка React / Next.js",
-  description: "Senior Web & Frontend Розробник, що спеціалізується на високопродуктивній розробці React / Next.js. 4,200+ годин на Upwork, 8+ років досвіду, 100+ запущених проєктів. TypeScript, TanStack Query, GSAP, оптимізація Core Web Vitals.",
-  keywords: "Web Розробник, Senior Web Engineer, React, Next.js, TypeScript, Продуктова Інженерія, Frontend Розробник, Україна, Upwork",
+  title: "Ірина Винниченко | Frontend & Full-Stack Розробник | Next.js, React, Node.js, AI",
+  description: "Frontend & Full-Stack розробник зі спеціалізацією на кастомних CRM та складних вебдодатках. Next.js, React, Node.js, AI, APIs. 4,200+ годин на Upwork, 8+ років, 100+ запущених проєктів.",
+  keywords: "Frontend Розробник, Full-Stack Розробник, React, Next.js, Node.js, TypeScript, Custom CRM, AI, OpenAI, Prisma, PostgreSQL, Tailwind CSS, Shadcn/ui, GSAP, Україна, Upwork",
   authors: [{ name: "Ірина Винниченко" }],
-  alternates: {
-    canonical: 'https://vynnychenko.dev/ua/',
-    languages: {
-      'en': 'https://vynnychenko.dev/',
-      'en-US': 'https://vynnychenko.dev/',
-      'uk-UA': 'https://vynnychenko.dev/ua/',
-      'x-default': 'https://vynnychenko.dev/',
-    },
-  },
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
   },
@@ -45,10 +36,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Ірина Винниченко | Senior Web & Frontend Розробник | Розробка React / Next.js",
-    description: "4,200+ годин на Upwork · 8+ років досвіду · 100+ запущених проєктів. Senior Web & Frontend Розробник — високопродуктивна фронтенд-інженерія.",
+    title: "Ірина Винниченко | Frontend & Full-Stack Розробник | Next.js, React, Node.js, AI",
+    description: "4,200+ годин на Upwork · 8+ років · 100+ запущених проєктів. Кастомні CRM, складні вебдодатки, Next.js / React / Node.js / AI.",
     url: 'https://vynnychenko.dev/ua/',
-    siteName: 'Ірина Винниченко — Senior Web & Frontend Розробник',
+    siteName: 'Ірина Винниченко — Frontend & Full-Stack Розробник',
     type: "website",
   },
 };

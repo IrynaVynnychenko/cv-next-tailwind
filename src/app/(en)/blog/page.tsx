@@ -4,11 +4,13 @@ import Footer from '@/components/Footer'
 import BlogIndex from '@/components/BlogIndex'
 import { getBlogPostsForPage } from '@/data/blog-posts'
 import { BlogSchema } from '@/components/SchemaMarkup'
+import { getBlogIndexAlternates } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Blog — Iryna Vynnychenko | Senior Web & Frontend Engineer',
   description:
     'Practical insights on web development, performance, and hiring — written for founders and product owners building digital products.',
+  alternates: getBlogIndexAlternates('en'),
 }
 
 export default function BlogPage() {

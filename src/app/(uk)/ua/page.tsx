@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import Header from '@/components/Header'
 import About from '@/components/About'
 import Skills from '@/components/Skills'
@@ -9,6 +10,11 @@ import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import { SetLanguageClient } from '@/components/SetLanguageClient'
 import { WebSiteSchema, ProfilePageSchema } from '@/components/SchemaMarkup'
+import { getPageAlternates } from '@/lib/seo'
+
+export const metadata: Metadata = {
+  alternates: getPageAlternates('/', '/ua/', '/ua/'),
+}
 
 export default function UaHome() {
   return (

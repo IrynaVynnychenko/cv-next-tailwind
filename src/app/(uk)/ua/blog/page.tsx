@@ -5,11 +5,13 @@ import BlogIndex from '@/components/BlogIndex'
 import { SetLanguageClient } from '@/components/SetLanguageClient'
 import { getBlogPostsForPage } from '@/data/blog-posts'
 import { BlogSchema } from '@/components/SchemaMarkup'
+import { getBlogIndexAlternates } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Блог — Ірина Винниченко | Senior Web & Frontend Розробник',
   description:
     'Корисні статті про веб-розробку, оптимізацію продуктивності та найм розробників — для фаундерів та власників продуктів.',
+  alternates: getBlogIndexAlternates('ua'),
 }
 
 export default function UaBlogPage() {

@@ -5,6 +5,7 @@ import BlogPostDetailClient from '@/components/BlogPostDetailClient'
 import { SetLanguageClient } from '@/components/SetLanguageClient'
 import { getBlogPost, rawBlogPosts } from '@/data/blog-posts'
 import { BlogPostingSchema } from '@/components/SchemaMarkup'
+import { getBlogPostAlternates } from '@/lib/seo'
 
 type BlogPostPageProps = {
   params: { slug: string }
@@ -21,13 +22,17 @@ export function generateMetadata({ params }: BlogPostPageProps): Metadata {
     return { title: 'Статтю не знайдено' }
   }
 
+  const alternates = getBlogPostAlternates(params.slug, 'ua')
+
   return {
     title: `${post.title} — Ірина Винниченко | Senior Web & Frontend Розробник`,
     description: post.excerpt,
+    alternates,
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: 'article',
+      url: alternates.canonical,
     },
   }
 }

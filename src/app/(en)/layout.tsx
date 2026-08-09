@@ -17,19 +17,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Iryna Vynnychenko | Senior Web & Frontend Engineer | React / Next.js Development",
-  description: "Senior Web & Frontend Engineer specializing in high-performance React / Next.js development. 4,200+ Upwork hours, 8+ years, 100+ launched projects. TypeScript, TanStack Query, GSAP, Core Web Vitals optimization.",
-  keywords: "Web Engineer, Senior Web Engineer, React, Next.js, TypeScript, Product Engineering, TanStack Query, Redux, Zustand, GraphQL, Tailwind CSS, GSAP, Framer Motion, SSR, SSG, Core Web Vitals, Senior Frontend Engineer, Ukraine, Upwork",
+  title: "Iryna Vynnychenko | Frontend & Full-Stack Developer | Next.js, React, Node.js, AI",
+  description: "Frontend & Full-Stack Developer specializing in custom CRMs and complex web apps. Next.js, React, Node.js, AI, APIs. 4,200+ Upwork hours, 8+ years, 100+ launched projects.",
+  keywords: "Frontend Developer, Full-Stack Developer, React, Next.js, Node.js, TypeScript, Custom CRM, AI, OpenAI, Prisma, PostgreSQL, TanStack Query, Redux, Zustand, GraphQL, Tailwind CSS, Shadcn/ui, GSAP, SSR, SSG, ISR, Core Web Vitals, Ukraine, Upwork",
   authors: [{ name: "Iryna Vynnychenko" }],
-  alternates: {
-    canonical: 'https://vynnychenko.dev/',
-    languages: {
-      'en': 'https://vynnychenko.dev/',
-      'en-US': 'https://vynnychenko.dev/',
-      'uk-UA': 'https://vynnychenko.dev/ua/',
-      'x-default': 'https://vynnychenko.dev/',
-    },
-  },
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
   },
@@ -45,10 +36,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Iryna Vynnychenko | Senior Web & Frontend Engineer | React / Next.js Development",
-    description: "4,200+ Upwork hours · 8+ years · 100+ launched projects. Senior Web & Frontend Engineer — high-performance React / Next.js product engineering.",
+    title: "Iryna Vynnychenko | Frontend & Full-Stack Developer | Next.js, React, Node.js, AI",
+    description: "4,200+ Upwork hours · 8+ years · 100+ launched projects. Custom CRMs, complex web apps, Next.js / React / Node.js / AI.",
     url: 'https://vynnychenko.dev',
-    siteName: 'Iryna Vynnychenko — Senior Web & Frontend Engineer',
+    siteName: 'Iryna Vynnychenko — Frontend & Full-Stack Developer',
     type: "website",
   },
 };

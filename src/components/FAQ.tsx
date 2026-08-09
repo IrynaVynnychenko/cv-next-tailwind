@@ -28,6 +28,7 @@ export default function FAQ() {
         <div className="space-y-4">
           {t.items.map((item, index) => {
             const isOpen = openIndex === index
+            const list = 'list' in item ? item.list : undefined
             return (
               <div
                 key={index}
@@ -39,11 +40,11 @@ export default function FAQ() {
                   className="w-full flex items-center justify-between p-5 text-left bg-gray-50 dark:bg-gray-800/40 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors focus:outline-none"
                   aria-expanded={isOpen}
                 >
-                  <span className="font-semibold text-gray-900 dark:text-white text-base">
+                  <span className="font-semibold text-gray-900 dark:text-white text-base pr-4">
                     {item.q}
                   </span>
                   <svg
-                    className={`w-5 h-5 text-gray-500 dark:text-gray-400 transform transition-transform duration-200 ${
+                    className={`w-5 h-5 text-gray-500 dark:text-gray-400 flex-shrink-0 transform transition-transform duration-200 ${
                       isOpen ? 'rotate-180' : ''
                     }`}
                     fill="none"
@@ -58,15 +59,21 @@ export default function FAQ() {
                     />
                   </svg>
                 </button>
-                <div
-                  className={`transition-all duration-200 ease-in-out ${
-                    isOpen ? 'max-h-96 opacity-100 border-t border-gray-200 dark:border-gray-700' : 'max-h-0 opacity-0 pointer-events-none'
-                  } overflow-hidden`}
-                >
-                  <div className="p-5 text-gray-700 dark:text-gray-300 text-sm leading-relaxed bg-white dark:bg-gray-900">
-                    {item.a}
+                {isOpen && (
+                  <div className="border-t border-gray-200 dark:border-gray-700 p-5 text-gray-700 dark:text-gray-300 text-sm leading-relaxed bg-white dark:bg-gray-900">
+                    {item.a && <p className={list?.length ? 'mb-3' : undefined}>{item.a}</p>}
+                    {list && list.length > 0 && (
+                      <ul className="space-y-2">
+                        {list.map((entry) => (
+                          <li key={entry} className="flex items-start">
+                            <span className="text-gray-400 dark:text-gray-500 mr-2 mt-0.5">•</span>
+                            <span>{entry}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
-                </div>
+                )}
               </div>
             )
           })}

@@ -32,12 +32,15 @@ export default function About() {
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 tracking-tight">
               {t.title}
             </h1>
-            <h2 className="text-xl text-gray-600 dark:text-gray-400 mb-4 font-medium leading-snug">
+            <h2 className="text-xl text-gray-600 dark:text-gray-400 mb-3 font-medium leading-snug">
               {t.subtitle}
             </h2>
 
-            <p className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-6">
-              {t.stats}
+            <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed mb-3">
+              {t.tagline}
+            </p>
+            <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
+              {t.fullCycle}
             </p>
 
             <div className="prose prose-gray dark:prose-invert max-w-none mb-8">
@@ -66,10 +69,6 @@ export default function About() {
                   {t.hireMeOnUpwork}
                 </a>
               </div>
-
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-                {t.bio1}
-              </p>
 
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed font-medium">
                 {t.bio2}

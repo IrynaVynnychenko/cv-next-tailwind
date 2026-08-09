@@ -10,10 +10,10 @@ interface SchemaProps {
 export function ProfilePageSchema({ lang }: SchemaProps) {
   const isUa = lang === 'ua';
   const name = isUa ? 'Ірина Винниченко' : 'Iryna Vynnychenko';
-  const jobTitle = isUa ? 'Senior Web & Frontend Розробник' : 'Senior Web & Frontend Engineer';
+  const jobTitle = isUa ? 'Frontend & Full-Stack Розробник' : 'Frontend & Full-Stack Developer';
   const description = isUa 
-    ? 'Senior Web & Frontend Розробник — розробка високопродуктивних React / Next.js вебдодатків та продуктова інженерія. 4,200+ годин на Upwork, 8+ років, 100+ запущених проєктів.'
-    : 'Senior Web & Frontend Engineer specializing in high-performance React / Next.js development. 4,200+ Upwork hours, 8+ years, 100+ launched projects.';
+    ? 'Frontend & Full-Stack розробник зі спеціалізацією на кастомних CRM та складних вебдодатках на Next.js, React, Node.js і AI. 4,200+ годин на Upwork, 8+ років, 100+ запущених проєктів.'
+    : 'Frontend & Full-Stack Developer specializing in custom CRMs and complex web apps with Next.js, React, Node.js, and AI. 4,200+ Upwork hours, 8+ years, 100+ launched projects.';
   
   const skills = isUa 
     ? [
@@ -21,22 +21,24 @@ export function ProfilePageSchema({ lang }: SchemaProps) {
         'JavaScript (ES6+)',
         'React',
         'Next.js (App Router / Pages Router)',
-        'Фронтенд архітектура',
-        'Управління станом (Zustand, Redux, Context API)',
-        'UI Інженерія (Tailwind CSS, CSS Modules)',
+        'Node.js',
+        'PostgreSQL / Prisma',
+        'AI Integration (OpenAI, Vercel AI SDK)',
+        'Управління станом (Zustand, Redux, React Query)',
+        'UI (Tailwind CSS, Shadcn/ui, GSAP)',
         'Оптимізація Core Web Vitals для SEO',
-        'Анімація (GSAP, Framer Motion)',
       ]
     : [
         'TypeScript',
         'JavaScript (ES6+)',
         'React',
         'Next.js (App Router / Pages Router)',
-        'Frontend Architecture',
-        'State Management (Zustand, Redux, Context API)',
-        'UI Engineering (Tailwind CSS, CSS Modules)',
+        'Node.js',
+        'PostgreSQL / Prisma',
+        'AI Integration (OpenAI, Vercel AI SDK)',
+        'State Management (Zustand, Redux, React Query)',
+        'UI (Tailwind CSS, Shadcn/ui, GSAP)',
         'Core Web Vitals Optimization for SEO',
-        'Animations (GSAP, Framer Motion)',
       ];
 
   const schema = {
@@ -80,11 +82,11 @@ export function ProfilePageSchema({ lang }: SchemaProps) {
 export function WebSiteSchema({ lang }: SchemaProps) {
   const isUa = lang === 'ua';
   const name = isUa 
-    ? 'Ірина Винниченко — Senior Web & Frontend Розробник'
-    : 'Iryna Vynnychenko — Senior Web & Frontend Engineer';
+    ? 'Ірина Винниченко — Frontend & Full-Stack Розробник'
+    : 'Iryna Vynnychenko — Frontend & Full-Stack Developer';
   const description = isUa 
-    ? 'Портфоліо та блог Ірини Винниченко. Розробка високопродуктивних React / Next.js вебдодатків та продуктова інженерія.'
-    : 'Portfolio and blog of Iryna Vynnychenko. High-performance React / Next.js development & product engineering.';
+    ? 'Портфоліо та блог Ірини Винниченко. Frontend & Full-Stack розробка: Next.js, React, Node.js, AI, кастомні CRM та складні вебдодатки.'
+    : 'Portfolio and blog of Iryna Vynnychenko. Frontend & Full-Stack development: Next.js, React, Node.js, AI, custom CRMs, and complex web apps.';
 
   const schema = {
     '@context': 'https://schema.org',
@@ -201,14 +203,21 @@ export function FAQSchema({ lang }: SchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: t.items.map((item) => ({
-      '@type': 'Question',
-      name: item.q,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: item.a,
-      },
-    })),
+    mainEntity: t.items.map((item) => {
+      const list = 'list' in item && item.list ? item.list : undefined;
+      const text = list?.length
+        ? [item.a, ...list.map((entry) => `• ${entry}`)].filter(Boolean).join('\n')
+        : item.a;
+
+      return {
+        '@type': 'Question',
+        name: item.q,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text,
+        },
+      };
+    }),
   };
 
   return (
