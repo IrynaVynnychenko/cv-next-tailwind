@@ -37,6 +37,594 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'vps-vs-aws-hosting-comparison',
+    date: '2026-08-09',
+    title: {
+      en: 'VPS vs AWS: Which Hosting to Choose for Your Product in 2026',
+      ua: 'VPS vs AWS: що обрати для продукту у 2026 році',
+    },
+    excerpt: {
+      en: 'A practical VPS vs AWS comparison for startups and SMBs: pricing, bandwidth, scaling, ops complexity, and when Lightsail, DigitalOcean, Hetzner, or full EC2 actually make sense.',
+      ua: 'Практичне порівняння VPS і AWS для стартапів та МСБ: ціна, трафік, масштабування, складність підтримки та коли мають сенс Lightsail, DigitalOcean, Hetzner або повноцінний EC2.',
+    },
+    readTime: {
+      en: '8 min read',
+      ua: '8 хв читання',
+    },
+    tags: {
+      en: ['VPS', 'AWS', 'Cloud Hosting', 'DevOps', 'DigitalOcean', 'Hetzner', 'Infrastructure'],
+      ua: ['VPS', 'AWS', 'Хмарний хостинг', 'DevOps', 'DigitalOcean', 'Hetzner', 'Інфраструктура'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: '“VPS vs AWS” is the wrong framing if you treat them as the same product. A VPS is usually one (or a few) virtual machines with flat monthly pricing. AWS is a platform of dozens of services — compute, databases, queues, CDN, IAM, autoscaling — billed by usage. The decision is less “which logo” and more “do you need a server or a cloud platform?”',
+            ua: '«VPS vs AWS» — хибна рамка, якщо ставити їх як один і той самий продукт. VPS зазвичай — одна (чи кілька) віртуальних машин із фіксованою місячною ціною. AWS — платформа з десятками сервісів: compute, бази, черги, CDN, IAM, автоскейлінг — з оплатою за використання. Питання не «який логотип», а «вам потрібен сервер чи хмарна платформа?»',
+          },
+          {
+            en: 'For most websites, CRMs, landing pages, and early SaaS MVPs, a well-managed VPS wins on price and simplicity. AWS starts to pay for itself when you need global reach, elastic traffic spikes, managed data services, compliance tooling, or a team that already speaks CloudFormation / Terraform on AWS.',
+            ua: 'Для більшості сайтів, CRM, лендінгів і ранніх SaaS MVP добресно налаштований VPS виграє за ціною та простотою. AWS починає окупатися, коли потрібні глобальне покриття, еластичні піки трафіку, керовані data-сервіси, compliance або команда, яка вже працює з CloudFormation / Terraform під AWS.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. What You Actually Buy',
+          ua: '1. Що ви насправді купуєте',
+        },
+        paragraphs: [
+          {
+            en: 'Clarify the product boundaries before comparing invoices. “Cheap EC2” is not a fair match for a DigitalOcean Droplet until you add storage, snapshots, egress, and often a load balancer or managed DB.',
+            ua: 'Перед порівнянням рахунків варто чітко розділити продукти. «Дешевий EC2» — нечесне порівняння з Droplet на DigitalOcean, доки ви не додасте диск, снепшоти, egress і часто ще балансувальник чи керовану БД.',
+          },
+        ],
+        list: [
+          {
+            en: 'Classic VPS (Hetzner, Contabo, some OVH plans): VM + disk + generous traffic, minimal managed extras. Lowest $/GB RAM, more DIY ops.',
+            ua: 'Класичний VPS (Hetzner, Contabo, частина OVH): VM + диск + щедрий трафік, мінімум managed-сервісів. Найнижча ціна за GB RAM, більше DIY-операцій.',
+          },
+          {
+            en: 'Developer cloud VPS (DigitalOcean, Vultr, Linode/Akamai): flat VM pricing plus optional managed Postgres, Spaces, K8s — simpler UX than raw AWS.',
+            ua: 'Developer-cloud VPS (DigitalOcean, Vultr, Linode/Akamai): фіксована ціна VM плюс опційні managed Postgres, Spaces, K8s — простіший UX за «сирий» AWS.',
+          },
+          {
+            en: 'AWS Lightsail: AWS’s bundled VPS-like product — predictable monthly price, easy path into the wider AWS ecosystem later.',
+            ua: 'AWS Lightsail: «VPS-подібний» продукт від AWS — передбачувана місячна ціна і легкий міст у ширшу екосистему AWS пізніше.',
+          },
+          {
+            en: 'Full AWS (EC2 + EBS + RDS + ALB + S3 + CloudWatch…): modular cloud. Powerful, flexible, and easy to overspend without FinOps discipline.',
+            ua: 'Повний AWS (EC2 + EBS + RDS + ALB + S3 + CloudWatch…): модульна хмара. Потужно, гнучко — і легко переплатити без FinOps-дисципліни.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Cost Snapshot (August 2026)',
+          ua: '2. Зріз вартості (серпень 2026)',
+        },
+        paragraphs: [
+          {
+            en: 'Headline VM prices move, but the pattern is stable: EU-centric VPS is cheapest per resource; developer clouds are mid; raw AWS looks fine until storage and egress land on the bill. Always recheck vendor pages before locking a budget.',
+            ua: 'Заголовні ціни на VM змінюються, але патерн стабільний: європейський VPS найдешевший за ресурс; developer-cloud — середина; «сирий» AWS виглядає нормально, доки на рахунок не лягають диск і egress. Перед бюджетом завжди звіряйтеся з офіційними прайсами.',
+          },
+        ],
+        list: [
+          {
+            en: 'Hetzner Cloud (~2 vCPU / 4 GB): often ~€4–6/month with ~20 TB EU traffic — best raw price/performance in Europe.',
+            ua: 'Hetzner Cloud (~2 vCPU / 4 GB): часто ~€4–6/міс і ~20 TB трафіку в EU — найкраща «ціна/залізо» в Європі.',
+          },
+          {
+            en: 'DigitalOcean Basic (~2–4 GB RAM): roughly $12–24/month with 1–4 TB transfer — predictable and beginner-friendly.',
+            ua: 'DigitalOcean Basic (~2–4 GB RAM): орієнтовно $12–24/міс з 1–4 TB трафіку — передбачувано й зручно для старту.',
+          },
+          {
+            en: 'AWS Lightsail (2 GB bundle): ~$12/month with disk + several TB transfer bundled — fairest AWS vs VPS apples-to-apples.',
+            ua: 'AWS Lightsail (тариф 2 GB): ~$12/міс з диском і кількома TB трафіку в пакеті — найчесніше порівняння AWS із VPS.',
+          },
+          {
+            en: 'AWS EC2 t-family mid instance: compute-only can look cheap (~$12–30), but EBS, snapshots, public IPv4, ALB, and egress usually push a “simple” stack to $80–150+/month.',
+            ua: 'AWS EC2 t-family середнього рівня: лише compute може виглядати дешево (~$12–30), але EBS, снепшоти, публічний IPv4, ALB і egress часто піднімають «простий» стек до $80–150+/міс.',
+          },
+          {
+            en: 'Bandwidth trap: many VPS plans include terabytes; AWS egress after free allowance is commonly ~$0.09/GB — painful for media, downloads, or chatty APIs.',
+            ua: 'Пастка трафіку: у багатьох VPS у пакеті терабайти; egress в AWS після free allowance часто ~$0.09/GB — боляче для медіа, завантажень і «балакучих» API.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Realistic Monthly Stacks',
+          ua: '3. Реалістичні місячні стеки',
+        },
+        paragraphs: [
+          {
+            en: 'Compare full production shapes, not bare VMs: app server + database + backups + basic monitoring. Approximate ranges for a small business web/SaaS workload:',
+            ua: 'Порівнюйте повні production-контури, а не голі VM: app-сервер + база + бекапи + базовий моніторинг. Орієнтовні діапазони для невеликого веб/SaaS навантаження:',
+          },
+        ],
+        list: [
+          {
+            en: 'Hetzner / cheap VPS single-node (Docker Compose, Postgres on same box, snapshots): often $15–60/month — excellent for MVP and predictable traffic.',
+            ua: 'Hetzner / дешевий VPS на одному вузлі (Docker Compose, Postgres на тій самій машині, снепшоти): часто $15–60/міс — відмінно для MVP і передбачуваного трафіку.',
+          },
+          {
+            en: 'DigitalOcean-style stack (app droplet + managed Postgres + backups): often $50–120/month — pays for less ops pain.',
+            ua: 'Стек у стилі DigitalOcean (app droplet + managed Postgres + бекапи): часто $50–120/міс — платите за менше болю в ops.',
+          },
+          {
+            en: 'AWS Lightsail app + managed DB equivalent / simple multi-service: often $40–100/month if you stay inside bundles.',
+            ua: 'AWS Lightsail app + еквівалент managed DB / простий multi-service: часто $40–100/міс, якщо залишаєтесь у межах бандлів.',
+          },
+          {
+            en: 'AWS “proper” small production (EC2 + RDS + ALB + S3 + logs): commonly $150–400/month on-demand; Reserved/Savings Plans can cut compute, not always egress.',
+            ua: '«Правильний» малий production на AWS (EC2 + RDS + ALB + S3 + логи): зазвичай $150–400/міс on-demand; Reserved/Savings Plans ріжуть compute, але не завжди egress.',
+          },
+          {
+            en: 'Rule of thumb: budget ~1.2–1.4× headline VPS price for extras; ~1.7–2.2× headline EC2 price once AWS add-ons appear.',
+            ua: 'Правило великого пальця: закладайте ~1.2–1.4× заголовної ціни VPS на додатки; ~1.7–2.2× заголовної ціни EC2, коли з’являються AWS add-ons.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Operations, Scaling, and Risk',
+          ua: '4. Операції, масштабування та ризики',
+        },
+        paragraphs: [
+          {
+            en: 'Invoice price is only half the TCO. Who patches the OS, rotates backups, and wakes up at 3 AM matters as much as vCPU count.',
+            ua: 'Ціна в інвойсі — лише половина TCO. Хто патчить ОС, крутить бекапи й прокидається о 3-й ночі, важливо не менше, ніж кількість vCPU.',
+          },
+        ],
+        list: [
+          {
+            en: 'VPS strength: simple mental model, SSH + Docker, fixed bill, fast to ship. Weakness: you own HA, failover, and security hardening.',
+            ua: 'Сила VPS: проста модель, SSH + Docker, фіксований рахунок, швидкий старт. Слабкість: HA, failover і security hardening — на вас.',
+          },
+          {
+            en: 'AWS strength: autoscaling groups, multi-AZ RDS, IAM, private networking, global regions, mature compliance story. Weakness: steep learning curve and surprise bills.',
+            ua: 'Сила AWS: autoscaling groups, multi-AZ RDS, IAM, приватні мережі, глобальні регіони, зрілий compliance. Слабкість: крута крива навчання і «сюрпризи» в рахунку.',
+          },
+          {
+            en: 'Scaling: vertical resize on VPS is fine until one box is not enough; AWS shines for bursty or multi-region demand.',
+            ua: 'Масштабування: вертикальний апгрейд VPS нормальний, доки не потрібен другий вузол; AWS виграє при різких піках або multi-region.',
+          },
+          {
+            en: 'Reliability: a single VPS is one failure domain. AWS does not magically give HA — you still design (and pay) for it.',
+            ua: 'Надійність: один VPS — один failure domain. AWS сам по собі не дає HA — його все одно треба спроєктувати (і оплатити).',
+          },
+          {
+            en: 'Team skill: if nobody knows IAM/VPC, AWS cost includes training or agency hours. A senior who knows Linux may ship safer on VPS sooner.',
+            ua: 'Навички команди: якщо ніхто не знає IAM/VPC, у вартість AWS входить навчання або години агенції. Сильний Linux-інженер часто швидше й безпечніше запустить продукт на VPS.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. When to Choose VPS',
+          ua: '5. Коли обирати VPS',
+        },
+        paragraphs: [
+          {
+            en: 'Pick VPS when predictability and speed of delivery beat platform features.',
+            ua: 'Обирайте VPS, коли передбачуваність і швидкість поставки важливіші за платформені фічі.',
+          },
+        ],
+        list: [
+          {
+            en: 'Marketing sites, company blogs, internal tools, admin panels with steady traffic.',
+            ua: 'Маркетингові сайти, корпоративні блоги, внутрішні інструменти, адмінки зі стабільним трафіком.',
+          },
+          {
+            en: 'MVP / early SaaS under a few thousand DAU where one or two VMs are enough.',
+            ua: 'MVP / ранній SaaS на кілька тисяч DAU, де вистачає однієї-двох VM.',
+          },
+          {
+            en: 'EU-focused products that benefit from Hetzner-class price and traffic allowances.',
+            ua: 'Продукти з фокусом на EU, яким вигідні ціна й трафік рівня Hetzner.',
+          },
+          {
+            en: 'Teams comfortable with Docker, Nginx, Fail2ban, offsite backups, and basic monitoring (Uptime Kuma, Grafana, etc.).',
+            ua: 'Команди, яким комфортно з Docker, Nginx, Fail2ban, offsite-бекапами та базовим моніторингом (Uptime Kuma, Grafana тощо).',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '6. When to Choose AWS',
+          ua: '6. Коли обирати AWS',
+        },
+        paragraphs: [
+          {
+            en: 'Choose AWS when the platform removes constraints you would otherwise rebuild yourself — or when clients/compliance already require it.',
+            ua: 'Обирайте AWS, коли платформа знімає обмеження, які інакше довелося б будувати самостійно — або коли клієнти/compliance уже вимагають саме її.',
+          },
+        ],
+        list: [
+          {
+            en: 'Spiky traffic, event launches, or workloads that must scale out in minutes.',
+            ua: 'Різкі піки трафіку, запуски кампаній або навантаження, яке треба розгорнути за хвилини.',
+          },
+          {
+            en: 'Need managed RDS/Aurora, SQS/SNS, Lambda, Cognito, or tight S3 + CloudFront pipelines.',
+            ua: 'Потрібні managed RDS/Aurora, SQS/SNS, Lambda, Cognito або щільні пайплайни S3 + CloudFront.',
+          },
+          {
+            en: 'Multi-region latency, enterprise procurement, or questionnaires that ask for AWS controls.',
+            ua: 'Multi-region затримки, enterprise-закупівлі або анкети безпеки, де очікують контролі AWS.',
+          },
+          {
+            en: 'You already run IaC on AWS and the opportunity cost of relearning another stack is higher than the extra bill.',
+            ua: 'Ви вже ведете IaC на AWS, і вартість переучування іншого стеку вища за доплату в рахунку.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '7. Practical Decision Path',
+          ua: '7. Практичний шлях рішення',
+        },
+        paragraphs: [
+          {
+            en: 'Most teams should start simple and graduate — not the reverse. Migration from VPS to AWS is common; the reverse often happens after a painful first AWS invoice.',
+            ua: 'Більшості команд варто стартувати просто й ускладнювати пізніше — не навпаки. Міграція з VPS на AWS звична; зворотний шлях часто починається після болючого першого рахунку AWS.',
+          },
+        ],
+        list: [
+          {
+            en: 'Step 1 — Ship on one VPS (or Lightsail) with automated backups and staging on a second small box.',
+            ua: 'Крок 1 — Запуститися на одному VPS (або Lightsail) з автоматичними бекапами і staging на другій маленькій машині.',
+          },
+          {
+            en: 'Step 2 — Split DB when uptime or restore speed matters (managed Postgres on DO/AWS, or a second VPS).',
+            ua: 'Крок 2 — Винести БД, коли важливі аптайм і швидкість відновлення (managed Postgres на DO/AWS або другий VPS).',
+          },
+          {
+            en: 'Step 3 — Move to full AWS only for a concrete trigger: multi-AZ HA, global users, serverless events, or enterprise security requirements.',
+            ua: 'Крок 3 — Переходити на повний AWS лише за конкретним тригером: multi-AZ HA, глобальні користувачі, serverless-події або enterprise-вимоги до безпеки.',
+          },
+          {
+            en: 'Hybrid that works: VPS/Hetzner for staging & workers; AWS S3/CloudFront or SES for files/email; keep the app where ops is cheapest.',
+            ua: 'Робочий гібрид: VPS/Hetzner для staging і воркерів; AWS S3/CloudFront або SES для файлів/пошти; додаток тримайте там, де дешевша експлуатація.',
+          },
+          {
+            en: 'Always set billing alarms (AWS Budgets / DO alerts) and track cost per active user — not vanity uptime alone.',
+            ua: 'Завжди ставте білінг-алерти (AWS Budgets / DO alerts) і дивіться вартість на активного користувача — не лише «аптайм заради аптайму».',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion',
+          ua: 'Висновок',
+        },
+        paragraphs: [
+          {
+            en: 'VPS wins for predictable apps, tight budgets, and small teams that can manage a Linux box. AWS wins when you need elastic scale, deep managed services, or enterprise-grade platform controls — and you accept higher complexity and a bill that is easy to inflate. If you are unsure, start with a flat-priced VPS or Lightsail, instrument real traffic for 30–60 days, then upgrade only when a measured constraint forces it.',
+            ua: 'VPS виграє для передбачуваних додатків, обмеженого бюджету та малих команд, які можуть вести Linux-сервер. AWS виграє, коли потрібні еластичний масштаб, глибокі managed-сервіси чи enterprise-контролі платформи — і ви готові до вищої складності та рахунку, який легко роздути. Якщо сумніваєтесь — стартуйте з flat-price VPS або Lightsail, зберіть реальний трафік за 30–60 днів і апгрейдьтеся лише тоді, коли це змушує виміряне обмеження.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'what-is-llm-business-value-cost-comparison',
+    date: '2026-08-09',
+    title: {
+      en: 'What Is an LLM and Why Businesses Need One: Cost Comparison Including Free Plans',
+      ua: 'Що таке LLM і чому вона потрібна бізнесу: порівняння вартості з урахуванням безкоштовних планів',
+    },
+    excerpt: {
+      en: 'A practical guide to Large Language Models for business owners: what an LLM is, where it creates ROI, and how ChatGPT, Claude, Gemini, and API pricing compare — including free tiers.',
+      ua: 'Практичний гід для власників бізнесу: що таке велика мовна модель (LLM), де вона дає ROI, і як порівнюються ChatGPT, Claude, Gemini та API — включно з безкоштовними планами.',
+    },
+    readTime: {
+      en: '9 min read',
+      ua: '9 хв читання',
+    },
+    tags: {
+      en: ['LLM', 'AI for Business', 'ChatGPT', 'Claude', 'Gemini', 'API Pricing', 'Business Automation'],
+      ua: ['LLM', 'AI для бізнесу', 'ChatGPT', 'Claude', 'Gemini', 'Вартість API', 'Автоматизація бізнесу'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'LLM (Large Language Model) is a neural network trained on massive text corpora to understand and generate human language. In practice, it is the engine behind ChatGPT, Claude, Gemini, and custom AI assistants that draft emails, answer customers, summarize documents, write code, and call your APIs.',
+            ua: 'LLM (Large Language Model, велика мовна модель) — це нейронна мережа, навчена на величезних текстових корпусах розуміти й генерувати людську мову. На практиці це «двигун» ChatGPT, Claude, Gemini та кастомних AI-асистентів, які пишуть листи, відповідають клієнтам, резюмують документи, генерують код і викликають ваші API.',
+          },
+          {
+            en: 'For business, the point is not “having AI for the sake of AI.” An LLM turns unstructured language — chats, emails, PDFs, tickets — into structured actions: classify a lead, draft a reply, extract invoice fields, or route a support case. That is where hours of manual work become minutes.',
+            ua: 'Для бізнесу сенс не в тому, щоб «мати AI заради AI». LLM перетворює неструктуровану мову — чати, листи, PDF, тікети — на структуровані дії: кваліфікувати лід, написати відповідь, витягнути поля з рахунку чи направити звернення в потрібний відділ. Саме тут години ручної роботи стискаються до хвилин.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. What an LLM Actually Does',
+          ua: '1. Що насправді вміє LLM',
+        },
+        paragraphs: [
+          {
+            en: 'Unlike a search engine that returns links, an LLM predicts the next tokens based on context. With a good prompt, tools, and your company data (via RAG), it can reason over your policies, product catalog, and CRM history — not just generic internet knowledge.',
+            ua: 'На відміну від пошуковика, який повертає посилання, LLM передбачає наступні токени на основі контексту. З правильним промптом, інструментами та даними компанії (через RAG) модель працює з вашими політиками, каталогом і історією CRM — а не лише з «загальними знаннями з інтернету».',
+          },
+        ],
+        list: [
+          {
+            en: 'Understand intent: “I need a refund for order #4521” → route to billing + pull order status.',
+            ua: 'Розуміти намір: «Хочу повернення за замовленням #4521» → направити в білінг і підтягнути статус замовлення.',
+          },
+          {
+            en: 'Generate content: proposals, product descriptions, SEO drafts, meeting summaries.',
+            ua: 'Генерувати контент: КП, описи товарів, SEO-чернетки, підсумки зустрічей.',
+          },
+          {
+            en: 'Extract structure: turn free-form text into JSON for CRM, ERP, or analytics.',
+            ua: 'Витягувати структуру: перетворювати вільний текст на JSON для CRM, ERP чи аналітики.',
+          },
+          {
+            en: 'Call tools: check inventory, create a ticket, send a payment link via function calling.',
+            ua: 'Викликати інструменти: перевірити склад, створити тікет, надіслати посилання на оплату через function calling.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Why Businesses Need LLMs',
+          ua: '2. Чому LLM потрібна бізнесу',
+        },
+        paragraphs: [
+          {
+            en: 'The ROI case is usually labor arbitrage plus speed. A support agent handling 40 repetitive tickets a day, a marketer rewriting the same offer for five channels, or a sales manager scoring leads manually — all are cognitive routines that LLMs automate well when guarded by validation and human review on edge cases.',
+            ua: 'ROI зазвичай будується на економії праці та швидкості. Оператор підтримки з 40 однотипними тікетами на день, маркетолог, який переписує одну оферту під п’ять каналів, менеджер продажів, який вручну скорить ліди — це когнітивна рутина, яку LLM добре автоматизує, якщо додати валідацію й людський контроль на складних кейсах.',
+          },
+        ],
+        list: [
+          {
+            en: 'Customer support: 24/7 first-line answers, FAQ deflection, ticket triage before a human joins.',
+            ua: 'Підтримка клієнтів: цілодобова перша лінія, відсікання FAQ, сортування тікетів до підключення оператора.',
+          },
+          {
+            en: 'Sales & CRM: lead scoring, follow-up drafts, call/email summaries synced into the deal card.',
+            ua: 'Продажі та CRM: скоринг лідів, чернетки follow-up, резюме дзвінків/листів у картці угоди.',
+          },
+          {
+            en: 'Marketing: content drafts, ad variants, localization, SEO outlines grounded in brand voice.',
+            ua: 'Маркетинг: чернетки контенту, варіанти креативів, локалізація, SEO-структури з урахуванням голосу бренду.',
+          },
+          {
+            en: 'Operations: contract/invoice extraction, knowledge-base Q&A for employees, report drafts from spreadsheets.',
+            ua: 'Операції: витяг даних з договорів/рахунків, Q&A по внутрішній базі знань, чернетки звітів з таблиць.',
+          },
+          {
+            en: 'Product: in-app assistants, smart search, Generative UI that adapts forms to user intent.',
+            ua: 'Продукт: in-app асистенти, розумний пошук, Generative UI, що адаптує форми під намір користувача.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Two Ways to Pay: Chat Apps vs API',
+          ua: '3. Два способи оплати: чат-застосунки vs API',
+        },
+        paragraphs: [
+          {
+            en: 'Businesses confuse two products. Chat subscriptions (ChatGPT, Claude.ai, Gemini) are for people: writing, research, coding help. APIs are for products and automations: your website bot, CRM workflow, or batch document processing. Free plans exist in both layers — but free chat ≠ free production API at scale.',
+            ua: 'Бізнес часто плутає два продукти. Чат-підписки (ChatGPT, Claude.ai, Gemini) — для людей: тексти, дослідження, допомога з кодом. API — для продуктів і автоматизацій: бот на сайті, сценарій у CRM, пакетна обробка документів. Безкоштовні плани є на обох рівнях — але безкоштовний чат ≠ безкоштовне production API на масштабі.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Chat Plans Comparison (Free + Paid)',
+          ua: '4. Порівняння чат-планів (безкоштовні + платні)',
+        },
+        paragraphs: [
+          {
+            en: 'As of August 2026, individual Pro-tier chat plans cluster around ~$20/month. Free tiers are genuinely usable for light work, but hit message and model caps. Prices and included models change often — always recheck the vendor page before budgeting.',
+            ua: 'Станом на серпень 2026 індивідуальні Pro-плани чатів тримаються близько ~$20/міс. Безкоштовні тарифи реально корисні для легких задач, але мають ліміти повідомлень і моделей. Ціни та склад функцій змінюються часто — перед бюджетом завжди звіряйтеся з офіційною сторінкою вендора.',
+          },
+        ],
+        list: [
+          {
+            en: 'ChatGPT Free ($0): solid for everyday tasks; unlimited chats on the lighter GPT-5.6 Luna tier; limited access to stronger reasoning models, uploads, and tools.',
+            ua: 'ChatGPT Free ($0): зручно для щоденних задач; необмежені чати на легшій моделі GPT-5.6 Luna; обмежений доступ до сильніших reasoning-моделей, завантажень і інструментів.',
+          },
+          {
+            en: 'ChatGPT Plus (~$20/mo): expanded GPT-5.6 access, more messages/uploads, deep research, Projects, custom GPTs — best “all-rounder” for mixed office work.',
+            ua: 'ChatGPT Plus (~$20/міс): розширений доступ до GPT-5.6, більше повідомлень/файлів, deep research, Projects, custom GPTs — найуніверсальніший варіант для змішаної офісної роботи.',
+          },
+          {
+            en: 'ChatGPT Go (~$8/mo): mid tier between Free and Plus for users who need more than Free but not full Plus.',
+            ua: 'ChatGPT Go (~$8/міс): проміжний тариф між Free і Plus для тих, кому Free мало, а Plus ще рано.',
+          },
+          {
+            en: 'Claude Free ($0): strong writing/coding on lighter models; limited Sonnet/Opus usage; no full Projects workflow.',
+            ua: 'Claude Free ($0): сильний текст/код на легших моделях; обмежене використання Sonnet/Opus; немає повноцінного workflow Projects.',
+          },
+          {
+            en: 'Claude Pro (~$20/mo, ~$18/mo annual): ~5× free usage, priority access, Projects, Research, Claude Code — strong for long documents and careful reasoning.',
+            ua: 'Claude Pro (~$20/міс, ~$18/міс при річній оплаті): ~5× більше usage за Free, пріоритетний доступ, Projects, Research, Claude Code — сильний вибір для довгих документів і акуратного міркування.',
+          },
+          {
+            en: 'Gemini Free ($0): Gemini Flash-class models + Google app hooks; good for light research and Workspace-adjacent tasks.',
+            ua: 'Gemini Free ($0): моделі класу Gemini Flash + інтеграції з Google; зручно для легких досліджень і задач поруч із Workspace.',
+          },
+          {
+            en: 'Google AI Pro / Gemini Advanced (~$19.99/mo): Pro models, higher limits, Deep Research, Gemini in Gmail/Docs/Drive, large cloud storage — best if your team already lives in Google Workspace.',
+            ua: 'Google AI Pro / Gemini Advanced (~$19.99/міс): Pro-моделі, вищі ліміти, Deep Research, Gemini у Gmail/Docs/Drive, великий хмарний сторедж — найкраще, якщо команда вже в Google Workspace.',
+          },
+          {
+            en: 'Team/Business seats: ChatGPT Business is typically ~$20–25 per user/month (annual vs monthly). Enterprise is custom — add SSO, admin controls, and data retention terms.',
+            ua: 'Командні тарифи: ChatGPT Business зазвичай ~$20–25 за користувача/міс (річна vs щомісячна оплата). Enterprise — індивідуально: SSO, адмін-контроль, умови зберігання даних.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. API Pricing Comparison (What Products Actually Cost)',
+          ua: '5. Порівняння вартості API (скільки коштує продукт)',
+        },
+        paragraphs: [
+          {
+            en: 'API billing is per million tokens (roughly ~750 words ≈ 1,000 tokens). Output tokens usually cost 2–6× more than input. Snapshot for August 2026 (standard tier, per 1M tokens) — verify on official pricing pages before you commit:',
+            ua: 'API тарифікується за мільйон токенів (орієнтир: ~750 слів ≈ 1 000 токенів). Вихідні токени зазвичай у 2–6 разів дорожчі за вхідні. Зріз на серпень 2026 (standard tier, за 1M токенів) — перед рішенням звіряйте з офіційними прайсами:',
+          },
+        ],
+        list: [
+          {
+            en: 'DeepSeek V4-Flash: ~$0.14 input / $0.28 output — cheapest useful production tier for triage & extraction.',
+            ua: 'DeepSeek V4-Flash: ~$0.14 input / $0.28 output — найдешевший корисний production-рівень для тріажу та витягу даних.',
+          },
+          {
+            en: 'Qwen3.5 Flash: ~$0.10 / $0.40 — competitive for bulk classification.',
+            ua: 'Qwen3.5 Flash: ~$0.10 / $0.40 — конкурентно для масової класифікації.',
+          },
+          {
+            en: 'GPT-5.6 Luna: ~$0.20 / $1.20 — OpenAI’s high-volume, low-latency floor.',
+            ua: 'GPT-5.6 Luna: ~$0.20 / $1.20 — «підлога» OpenAI для високого обсягу й низької затримки.',
+          },
+          {
+            en: 'Gemini 3.1 Flash-Lite: ~$0.25 / $1.50 — strong for bulk text pipelines.',
+            ua: 'Gemini 3.1 Flash-Lite: ~$0.25 / $1.50 — зручно для пакетних текстових пайплайнів.',
+          },
+          {
+            en: 'Claude Haiku 4.5: ~$1.00 / $5.00 — routing, classification, short structured outputs.',
+            ua: 'Claude Haiku 4.5: ~$1.00 / $5.00 — маршрутизація, класифікація, короткі структуровані відповіді.',
+          },
+          {
+            en: 'Claude Sonnet 5: ~$2.00 / $10.00 (intro rate; later ~$3 / $15) — everyday production workhorse.',
+            ua: 'Claude Sonnet 5: ~$2.00 / $10.00 (intro; далі ~$3 / $15) — робоча production-модель «на кожен день».',
+          },
+          {
+            en: 'GPT-5.6 Terra / Gemini 3.1 Pro: ~$2.00 / $12.00 — mid-frontier coding & agent workloads.',
+            ua: 'GPT-5.6 Terra / Gemini 3.1 Pro: ~$2.00 / $12.00 — mid-frontier для коду та агентних сценаріїв.',
+          },
+          {
+            en: 'Claude Opus 5 / GPT-5.6 Sol: ~$5 / $25–30 — hard reasoning and complex agent runs (use selectively).',
+            ua: 'Claude Opus 5 / GPT-5.6 Sol: ~$5 / $25–30 — складне міркування й важкі агентні прогони (використовуйте точково).',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '6. Free API / Trial Reality Check',
+          ua: '6. Реальність безкоштовного API та тріалів',
+        },
+        paragraphs: [
+          {
+            en: 'Free API access is for prototypes, not for a busy production bot. Treat free quotas as R&D budget, then move critical traffic to a paid tier with rate limits and monitoring.',
+            ua: 'Безкоштовне API — для прототипів, а не для завантаженого production-бота. Сприймайте free-квоти як бюджет на R&D, а критичний трафік переводьте на платний тариф з лімітами та моніторингом.',
+          },
+        ],
+        list: [
+          {
+            en: 'Google Gemini: typically the most generous ongoing free API tier (e.g. Flash-class models with RPM/RPD caps) — ideal to validate a chatbot MVP.',
+            ua: 'Google Gemini: зазвичай найщедріший постійний free API-tier (моделі класу Flash з лімітами RPM/RPD) — зручно для валідації MVP-чатбота.',
+          },
+          {
+            en: 'Groq and some open-model hosts: free/low-cost tiers for latency experiments with Llama-class models.',
+            ua: 'Groq та частина хостів open-моделей: free/low-cost tiers для експериментів із затримкою на моделях класу Llama.',
+          },
+          {
+            en: 'OpenAI: often a one-time starter credit for new accounts; no lasting free production quota.',
+            ua: 'OpenAI: часто разові стартові кредити для нових акаунтів; постійної безкоштовної production-квоти зазвичай немає.',
+          },
+          {
+            en: 'Anthropic Claude API: generally pay-as-you-go from the first call (no ongoing free tier).',
+            ua: 'Anthropic Claude API: зазвичай pay-as-you-go з першого запиту (без постійного free tier).',
+          },
+          {
+            en: 'Self-hosting open weights (Ollama, vLLM): $0 model license, but you pay GPU/server ops — cheap at tiny scale, expensive when you need HA and peak traffic.',
+            ua: 'Self-host open-ваг (Ollama, vLLM): ліцензія моделі $0, але ви платите за GPU/сервери — дешево на малому масштабі, дорого при HA і піковому трафіку.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '7. Example Monthly Bills (Support Triage Workload)',
+          ua: '7. Приклад місячного рахунку (тріаж підтримки)',
+        },
+        paragraphs: [
+          {
+            en: 'Assume a support-triage service uses ~8M input + 2M output tokens per month (roughly thousands of short classified tickets). Approximate API cost only:',
+            ua: 'Уявімо сервіс тріажу підтримки на ~8M input + 2M output токенів на місяць (тисячі коротких класифікованих тікетів). Орієнтовна вартість лише API:',
+          },
+        ],
+        list: [
+          {
+            en: 'DeepSeek V4-Flash: ≈ $1.70/month — extreme budget for high-volume routing.',
+            ua: 'DeepSeek V4-Flash: ≈ $1.70/міс — екстремальний бюджет для масової маршрутизації.',
+          },
+          {
+            en: 'GPT-5.6 Terra: ≈ $40/month — comfortable mid-tier quality for mixed automation.',
+            ua: 'GPT-5.6 Terra: ≈ $40/міс — комфортна mid-tier якість для змішаної автоматизації.',
+          },
+          {
+            en: 'Claude Opus 5: ≈ $90/month — premium reasoning; overkill if most tickets are simple.',
+            ua: 'Claude Opus 5: ≈ $90/міс — преміум-міркування; надлишково, якщо більшість тікетів прості.',
+          },
+          {
+            en: 'Team of 5 on chat Plus/Pro only ($20 × 5): ≈ $100/month — great for human productivity, does not replace a product API integration.',
+            ua: 'Команда з 5 людей лише на чат Plus/Pro ($20 × 5): ≈ $100/міс — чудово для продуктивності людей, але не замінює API-інтеграцію в продукт.',
+          },
+          {
+            en: 'Hybrid that often wins: free/cheap chat for employees + cheap Flash/Haiku API for 80% of bot traffic + Sonnet/Terra only on hard escalations.',
+            ua: 'Гібрид, який часто виграє: free/дешевий чат для співробітників + дешеве Flash/Haiku API на 80% бот-трафіку + Sonnet/Terra лише на складних ескалаціях.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '8. How to Choose Without Overpaying',
+          ua: '8. Як обрати без переплати',
+        },
+        paragraphs: [
+          {
+            en: 'Start where risk and volume are low. Measure cost per resolved task, not cost per token — a “cheap” model that retries three times can beat a pricier one-shot model on the bill.',
+            ua: 'Починайте там, де низькі ризик і обсяг. Міряйте вартість за вирішене завдання, а не за токен — «дешева» модель із трьома ретраями може вийти дорожчою за одну дорожчу, але точну відповідь.',
+          },
+        ],
+        list: [
+          {
+            en: 'Solo founder / small team: use Free chat plans first; buy one $20 Pro seat for the person who drafts most content or code.',
+            ua: 'Соло / мала команда: спочатку Free-чати; купіть один Pro (~$20) для людини, яка найбільше генерує контент або код.',
+          },
+          {
+            en: 'Customer-facing bot / CRM automation: prototype on Gemini free API or a cheap Flash model; add caching + batch for night jobs.',
+            ua: 'Бот для клієнтів / автоматизація CRM: прототип на Gemini free API або дешевій Flash-моделі; додайте caching і batch для нічних задач.',
+          },
+          {
+            en: 'Quality-critical workflows (legal, medical advice, complex sales): use mid/frontier models + human approval; never ship unreviewed answers.',
+            ua: 'Критичні до якості сценарії (юридичні, медичні поради, складні продажі): mid/frontier моделі + людське затвердження; не віддавайте відповіді без рев’ю.',
+          },
+          {
+            en: 'Cut bills with routing: Haiku/Luna/Flash for classify → escalate to Sonnet/Terra/Opus only when confidence is low.',
+            ua: 'Ріжте рахунок маршрутизацією: Haiku/Luna/Flash для класифікації → ескалація на Sonnet/Terra/Opus лише при низькій впевненості.',
+          },
+          {
+            en: 'Keep model IDs in config and rebenchmark quarterly — prices and quality rankings move every few months.',
+            ua: 'Тримайте ID моделей у конфігу й переглядайте бенчмарки щокварталу — ціни та якість зміщуються кожні кілька місяців.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion',
+          ua: 'Висновок',
+        },
+        paragraphs: [
+          {
+            en: 'An LLM is useful for business when it shortens a real workflow: fewer tickets for humans, faster proposals, cleaner CRM data, or a product feature customers actually use. You can start at $0 with free chat and free API tiers, pay ~$20/user for serious individual productivity, and run many production automations for well under $50–100/month if you pick Flash-class models and route smartly. The expensive mistake is either ignoring LLMs entirely — or buying the priciest model for every trivial classification task.',
+            ua: 'LLM корисна бізнесу тоді, коли скорочує реальний процес: менше тікетів для людей, швидші КП, чистіші дані в CRM або функція в продукті, якою користуються клієнти. Можна стартувати з $0 на free-чатах і free API, платити ~$20/користувач за серйозну індивідуальну продуктивність і тримати багато production-автоматизацій значно нижче $50–100/міс, якщо брати Flash-клас і розумно маршрутизувати запити. Дорога помилка — або ігнорувати LLM взагалі, або ганяти найдорожчу модель на кожну тривіальну класифікацію.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'ai-chatbot-business-automation-utility-payments',
     date: '2026-08-07',
     title: {
