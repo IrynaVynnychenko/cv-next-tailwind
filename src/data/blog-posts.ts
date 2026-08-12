@@ -37,13 +37,515 @@ type RawBlogPost = {
 
 export const rawBlogPosts: RawBlogPost[] = [
   {
+    slug: 'outdated-ui-losing-customers-safe-redesign',
+    date: '2026-08-12',
+    title: {
+      en: 'Your Outdated Interface Is Quietly Losing Customers — and You Can Fix It Without Stopping Sales',
+      ua: 'Застарілий інтерфейс тихо забирає клієнтів — і його можна оновити, не зупиняючи продажі',
+    },
+    excerpt: {
+      en: 'Users do not complain — they leave. Why a clunky UI kills trust and conversion, and how a safe stepwise redesign refreshes the product without downtime or a risky “big bang” launch.',
+      ua: 'Користувачі не скаржаться — вони йдуть. Чому «важкий» UI вбиває довіру й конверсію, і як безпечний покроковий редизайн освіжає продукт без простою та ризикового запуску «все й одразу».',
+    },
+    readTime: {
+      en: '6 min read',
+      ua: '6 хв читання',
+    },
+    tags: {
+      en: ['UX/UI', 'Conversion', 'Refactoring', 'Business', 'Frontend'],
+      ua: ['UX/UI', 'Конверсія', 'Рефакторинг', 'Бізнес', 'Фронтенд'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Most businesses notice the wrong signal. They wait for angry emails about “ugly design.” In reality, people rarely write those emails. They hesitate on the checkout, abandon the form, open a competitor’s site that feels faster and clearer — and never come back. An outdated interface does not explode. It leaks.',
+            ua: 'Більшість бізнесів чекає неправильного сигналу. Вони чекають злих листів про «поганий дизайн». Насправді люди майже ніколи їх не пишуть. Вони вагаються на checkout, кидають форму, відкривають сайт конкурента, який здається швидшим і зрозумілішим — і не повертаються. Застарілий інтерфейс не вибухає. Він протікає.',
+          },
+          {
+            en: 'The fear that stops owners is valid: “If we redesign, we might break what already works.” The good news — you do not have to shut the product down, freeze feature work for six months, or gamble everything on one overnight launch. You can modernize UI the same way you repair a plane in flight: step by step, with the business still running.',
+            ua: 'Страх власників зрозумілий: «Якщо зробимо редизайн — зламаємо те, що вже працює». Хороша новина — продукт не треба зупиняти, заморожувати фічі на пів року чи ставити все на один нічний запуск. Інтерфейс можна оновлювати так само, як ремонтують літак у польоті: крок за кроком, поки бізнес працює.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'What an “Old” UI Really Costs You',
+          ua: 'Чим насправді коштує «старий» UI',
+        },
+        paragraphs: [
+          {
+            en: 'Legacy UI is not only about fonts and colors. It is about friction that users feel in the first seconds — and about trust that never forms.',
+            ua: 'Legacy UI — це не лише шрифти й кольори. Це тертя, яке користувач відчуває в перші секунди, і довіра, яка так і не з’являється.',
+          },
+        ],
+        list: [
+          {
+            en: 'Lower conversion: Extra clicks, confusing navigation, and slow screens quietly cut leads and sales.',
+            ua: 'Нижча конверсія: зайві кліки, плутана навігація й повільні екрани тихо ріжуть ліди й продажі.',
+          },
+          {
+            en: 'Weaker first impression: A dated look signals “this company may also be outdated in service and reliability.”',
+            ua: 'Слабше перше враження: застарілий вигляд сигналізує «можливо, і сервіс тут такий самий застарілий».',
+          },
+          {
+            en: 'Higher support load: Unclear flows create tickets, chats, and “where do I click?” calls your team should not be answering.',
+            ua: 'Більше навантаження на підтримку: незрозумілі сценарії народжують тікети, чати й дзвінки «куди натиснути?».',
+          },
+          {
+            en: 'Harder hiring and sales demos: Prospects compare you to modern SaaS in the same tab — and your product feels heavy.',
+            ua: 'Складніші демо й продажі: проспект порівнює вас із сучасним SaaS у сусідній вкладці — і ваш продукт здається важким.',
+          },
+          {
+            en: 'Growing tech debt: Every new feature bolted onto old UI becomes slower and more expensive to ship.',
+            ua: 'Зростаючий техборг: кожна нова фіча поверх старого UI виходить довше й дорожче.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Why the “Close for Renovation” Redesign Fails',
+          ua: 'Чому редизайн «закрито на ремонт» провалюється',
+        },
+        paragraphs: [
+          {
+            en: 'The classic trap is the Big Bang: hide the team for half a year, rewrite everything, flip a switch. It feels decisive. It is usually expensive and fragile.',
+            ua: 'Класична пастка — Big Bang: сховати команду на пів року, переписати все, перемкнути тумблер. Це виглядає рішуче. Зазвичай це дорого й крихко.',
+          },
+        ],
+        list: [
+          {
+            en: 'Loyal users hate overnight change — even a prettier UI can feel like “someone moved my furniture.”',
+            ua: 'Лояльні користувачі ненавидять різку зміну — навіть красивіший UI відчувається як «хтось переставив меблі».',
+          },
+          {
+            en: 'You get feedback too late — after months of work, when fixing mistakes costs the most.',
+            ua: 'Фідбек приходить запізно — після місяців роботи, коли виправляти помилки найдорожче.',
+          },
+          {
+            en: 'The live product keeps changing, so the redesign branch becomes a merge nightmare.',
+            ua: 'Живий продукт продовжує змінюватися — гілка редизайну перетворюється на кошмар злиття.',
+          },
+          {
+            en: 'Old bugs return in a “fresh” codebase because everything was rewritten at once.',
+            ua: 'Старі баги повертаються в «свіжому» коді, бо все переписали одним махом.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'The Approach That Keeps Sales Online',
+          ua: 'Підхід, який тримає продажі онлайн',
+        },
+        paragraphs: [
+          {
+            en: 'Safe UI modernization is incremental. You replace pieces of the interface while the rest of the product stays live. Users keep working. Revenue keeps flowing. Quality improves in visible slices.',
+            ua: 'Безпечна модернізація UI — інкрементальна. Ви замінюєте частини інтерфейсу, поки решта продукту лишається живою. Користувачі працюють. Гроші йдуть. Якість росте помітними шматками.',
+          },
+        ],
+        list: [
+          {
+            en: 'Start with shared frames: header, navigation, footer — the product instantly feels newer without rewriting every page.',
+            ua: 'Почніть зі спільного каркаса: шапка, навігація, футер — продукт одразу відчувається новішим без переписування всіх сторінок.',
+          },
+          {
+            en: 'Migrate page by page: low-risk screens first (profile, settings), then money paths (checkout, dashboards, booking).',
+            ua: 'Мігруйте посторінково: спочатку низькоризикові екрани (профіль, налаштування), потім грошові шляхи (checkout, дашборди, бронювання).',
+          },
+          {
+            en: 'Use feature flags: show the new UI to 5–10% of users, measure behavior, then expand.',
+            ua: 'Використовуйте feature flags: покажіть новий UI 5–10% користувачів, виміряйте поведінку, потім розширюйте.',
+          },
+          {
+            en: 'Give an escape hatch: “Try new version” with a clear way back to classic — reduces panic and support spikes.',
+            ua: 'Дайте запасний вихід: «Спробувати нову версію» з легким поверненням до класики — менше паніки й сплесків у сапорті.',
+          },
+          {
+            en: 'Ship value, not decoration: every change should shorten a path, improve readability, or speed up the screen.',
+            ua: 'Відвантажуйте користь, не декор: кожна зміна має скорочувати шлях, покращувати читабельність або прискорювати екран.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Signals It Is Time (Even If “It Still Works”)',
+          ua: 'Сигнали, що час (навіть якщо «ще працює»)',
+        },
+        paragraphs: [
+          {
+            en: 'You do not need a full redesign committee to start. Watch for these patterns:',
+            ua: 'Не потрібен комітет з редизайну, щоб почати. Зверніть увагу на такі патерни:',
+          },
+        ],
+        list: [
+          {
+            en: 'Mobile bounce is high while desktop looks “fine.”',
+            ua: 'На мобільному bounce високий, а на десктопі «начебто нормально».',
+          },
+          {
+            en: 'New features take forever because every screen fights the old layout.',
+            ua: 'Нові фічі тягнуться вічно, бо кожен екран б’ється зі старою версткою.',
+          },
+          {
+            en: 'Competitors look fresher in the same category — and win demos on first impression.',
+            ua: 'Конкуренти в ніші виглядають свіжіше — і виграють демо на першому враженні.',
+          },
+          {
+            en: 'Your team apologizes for the UI during sales calls.',
+            ua: 'Команда вибачається за UI під час продажних дзвінків.',
+          },
+          {
+            en: 'Support keeps answering the same “where is…?” questions.',
+            ua: 'Підтримка знову й знову відповідає на ті самі «де знайти…?».',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'What “Safe” Looks Like Technically (Without the Jargon Overload)',
+          ua: 'Як виглядає «безпечно» технічно (без перевантаження жаргоном)',
+        },
+        paragraphs: [
+          {
+            en: 'Behind the scenes, a careful frontend migration keeps old and new code living together until the old parts are gone:',
+            ua: 'За лаштунками акуратна фронтенд-міграція дозволяє старому й новому коду співіснувати, доки старі частини не зникнуть:',
+          },
+        ],
+        list: [
+          {
+            en: 'Component system first — buttons, inputs, cards become consistent building blocks.',
+            ua: 'Спочатку компонентний каркас — кнопки, інпути, картки стають однаковими «цеглинками».',
+          },
+          {
+            en: 'Isolated styles (e.g. Tailwind utilities) so new pages do not break old ones.',
+            ua: 'Ізольовані стилі (наприклад, утиліти Tailwind), щоб нові сторінки не ламали старі.',
+          },
+          {
+            en: 'Adapters between old API shapes and new typed components.',
+            ua: 'Адаптери між старими форматами API і новими типованими компонентами.',
+          },
+          {
+            en: 'Visual regression checks in CI so untouched screens do not silently shift.',
+            ua: 'Перевірки візуального регресу в CI, щоб «недоторкані» екрани не з’їхали непомітно.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'How I Help Teams Refresh UI Without Drama',
+          ua: 'Як я допомагаю командам освіжити UI без драми',
+        },
+        paragraphs: [
+          {
+            en: 'Modernizing a live product is not a weekend theme swap. It is a mix of frontend architecture, release discipline, and respect for real user habits.',
+            ua: 'Оновлення живого продукту — це не «поміняти тему на вихідних». Це суміш фронтенд-архітектури, дисципліни релізів і поваги до звичок реальних користувачів.',
+          },
+          {
+            en: 'I specialize in React and Next.js products: incremental UI refactoring, design-system rollouts, and performance-minded migrations that keep uptime at 100%. With 8+ years of production work, 4,200+ Upwork hours, and 100+ launched projects, the goal is simple — your interface feels modern, your funnel stays alive, and your team ships faster afterward.',
+            ua: 'Я спеціалізуюся на продуктах на React і Next.js: інкрементальний рефакторинг UI, впровадження дизайн-системи та міграції з фокусом на швидкість і uptime 100%. Понад 8 років у продакшені, 4 200+ годин на Upwork і 100+ запущених проєктів — ціль проста: інтерфейс відчувається сучасним, воронка лишається живою, а команда після цього шипить швидше.',
+          },
+          {
+            en: 'If your product “still works” but no longer feels competitive — or you are afraid a redesign will freeze sales — write via the contacts section. We can map a low-risk migration plan for the screens that matter most.',
+            ua: 'Якщо продукт «ще працює», але вже не відчувається конкурентним — або ви боїтеся, що редизайн заморозить продажі — напишіть у розділі контактів. Можемо скласти низькоризиковий план міграції саме для тих екранів, які дають гроші.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'developer-to-project-manager-career-path',
+    date: '2026-08-12',
+    title: {
+      en: 'How a Developer Can Become a Project Manager — and Which Qualities Actually Matter',
+      ua: 'Як розробнику стати project manager і які якості справді цінні',
+    },
+
+    excerpt: {
+      en: 'How communication and project-management skills raise the quality of full-stack delivery — plus a practical path from engineer to PM and the qualities that actually matter.',
+      ua: 'Як комунікативні та project-manager навички підвищують якість fullstack-послуг — плюс практичний шлях від інженера до PM і якості, які справді цінні.',
+    },
+    readTime: {
+      en: '8 min read',
+      ua: '8 хв читання',
+    },
+    tags: {
+      en: ['Career', 'Project Management', 'Soft Skills', 'Full-stack', 'Communication', 'Leadership'],
+      ua: ['Кар\'єра', 'Project Management', 'Soft Skills', 'Full-stack', 'Комунікація', 'Лідерство'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Many strong developers eventually hit a fork: go deeper into architecture and staff engineering, or move closer to people, delivery, and business outcomes as a project manager (or engineering manager / delivery lead). The second path is not “easier management” — it is a different craft. Your coding background is an advantage only if you use it to reduce ambiguity, not to micromanage tickets.',
+            ua: 'Багато сильних розробників рано чи пізно опиняються на розвилці: йти глибше в архітектуру й staff engineering — або ближче до людей, делівері та бізнес-результатів як project manager (чи engineering manager / delivery lead). Другий шлях — це не «легший менеджмент», а інша професія. Досвід у коді — перевага лише тоді, коли ви знімаєте невизначеність, а не мікроменеджите тікети.',
+          },
+          {
+            en: 'Even if you stay a full-stack developer, communication and PM skills are not “extra soft skills” — they directly shape the quality of the product you ship: fewer rewrites, clearer scope, predictable releases, and services that match the client’s real goal instead of a vague ticket list.',
+            ua: 'Навіть якщо ви лишаєтеся fullstack-розробником, комунікація та PM-навички — це не «додаткові soft skills». Вони напряму впливають на якість послуг: менше переробок, чіткіший скоуп, передбачувані релізи і сервіс, який закриває реальну ціль клієнта, а не розмитий список тікетів.',
+          },
+          {
+            en: 'This article is a practical map: how those skills raise full-stack service quality, why teams hire developers into PM roles, which qualities convert technical credibility into trust, and a step-by-step transition you can start without quitting overnight.',
+            ua: 'Ця стаття — практична карта: як ці навички піднімають якість fullstack-послуг, чому команди беруть розробників у PM-ролі, які якості перетворюють технічну експертизу на довіру, і покроковий перехід без різкого звільнення.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. Why Developers Make Strong PMs',
+          ua: '1. Чому з розробників виходять сильні PM',
+        },
+        paragraphs: [
+          {
+            en: 'Stakeholders often struggle to translate business goals into realistic scope. A developer-turned-PM already knows estimation traps, dependency chains, technical debt, and what “done” actually means in production. That cuts weeks of back-and-forth and prevents commitments that the team cannot keep.',
+            ua: 'Стейкхолдерам часто важко перекласти бізнес-цілі в реалістичний скоуп. Розробник, який став PM, уже знає пастки оцінки, ланцюги залежностей, технічний борг і що насправді означає «готово» в продакшені. Це скорочує тижні листування і не дає обіцяти те, що команда фізично не вивезе.',
+          },
+        ],
+        list: [
+          {
+            en: 'You smell unrealistic deadlines early — and can negotiate scope instead of silently accepting burnout.',
+            ua: 'Ви рано відчуваєте нереалістичні дедлайни — і можете торгуватися за скоуп, а не мовчки погоджуватися на вигорання.',
+          },
+          {
+            en: 'You speak both languages: product intent and engineering constraints.',
+            ua: 'Ви говорите двома мовами: наміром продукту і обмеженнями інженерії.',
+          },
+          {
+            en: 'You facilitate better trade-offs (speed vs quality, MVP vs polish) because you have lived those trade-offs.',
+            ua: 'Ви краще фасилітуєте trade-off’и (швидкість vs якість, MVP vs polish), бо вже через них проходили.',
+          },
+          {
+            en: 'Engineers trust you more when planning is grounded in how systems actually break.',
+            ua: 'Інженери більше довіряють плануванню, коли воно базується на тому, як системи реально ламаються.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Qualities That Matter Most (More Than Certifications)',
+          ua: '2. Які якості цінні найбільше (більше за сертифікати)',
+        },
+        paragraphs: [
+          {
+            en: 'Courses and frameworks help, but teams remember how you behave under pressure. The most valuable qualities for a developer → PM transition are behavioral, not tool-based.',
+            ua: 'Курси й фреймворки допомагають, але команди запам’ятовують, як ви поводитеся під тиском. Найцінніші якості для переходу розробник → PM — поведінкові, а не «знання Jira».',
+          },
+        ],
+        list: [
+          {
+            en: 'Clarity under ambiguity — turn vague requests into written assumptions, options, and a decision.',
+            ua: 'Ясність в умовах невизначеності — перетворювати розмиті запити на письмові припущення, варіанти і рішення.',
+          },
+          {
+            en: 'Communication without ego — explain risk to non-technical stakeholders without hiding behind jargon or blaming the team.',
+            ua: 'Комунікація без его — пояснювати ризик нетехнічним стейкхолдерам без жаргону і без звинувачень команди.',
+          },
+          {
+            en: 'Ownership of outcomes — care about release impact, not only sprint velocity charts.',
+            ua: 'Відповідальність за результат — думати про вплив релізу, а не лише про velocity на борді.',
+          },
+          {
+            en: 'Empathy and facilitation — hear quiet voices in the room; protect focus time; resolve conflict early.',
+            ua: 'Емпатія і фасилітація — чути тих, хто мовчить; захищати focus time; гасити конфлікти рано.',
+          },
+          {
+            en: 'Prioritization discipline — say “not now” with a reason, a date, and an alternative.',
+            ua: 'Дисципліна пріоритетів — казати «не зараз» з причиною, датою і альтернативою.',
+          },
+          {
+            en: 'Reliability — meeting notes, follow-ups, and status updates people can act on.',
+            ua: 'Надійність — нотатки зустрічей, follow-up’и і статуси, за якими можна діяти.',
+          },
+          {
+            en: 'Calm decision-making — when production burns, you sequence triage instead of adding panic.',
+            ua: 'Спокійні рішення — коли горить продакшен, ви вибудовуєте triage, а не додаєте паніку.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. How Communication and PM Skills Raise Full-Stack Service Quality',
+          ua: '3. Як комунікація та PM-навички підвищують якість fullstack-послуг',
+        },
+        paragraphs: [
+          {
+            en: 'For a full-stack developer, “quality of service” is more than clean React and a solid API. Clients judge the whole engagement: how fast you understand the problem, how honestly you estimate, how you handle change requests, and whether the shipped product works in their business context. Communication and project-management skills are the layer that turns strong engineering into a reliable service.',
+            ua: 'Для fullstack-розробника «якість послуг» — це не лише чистий React і міцний API. Клієнт оцінює всю співпрацю: як швидко ви розумієте задачу, наскільки чесно оцінюєте терміни, як реагуєте на зміни вимог і чи працює продукт у його бізнес-контексті. Комунікація та PM-навички — шар, який перетворює сильну інженерію на надійний сервіс.',
+          },
+          {
+            en: 'Without them, even senior code can look like a weak service: endless clarifications, surprise scope, silent delays, and a launch that “works technically” but misses the outcome. With them, the same full-stack skill set delivers higher perceived and real quality.',
+            ua: 'Без них навіть senior-код виглядає як слабкий сервіс: нескінченні уточнення, раптовий скоуп, мовчазні затримки і запуск, який «технічно працює», але мимо цілі. З ними той самий fullstack-стек дає вищу і сприйняту, і реальну якість.',
+          },
+        ],
+        list: [
+          {
+            en: 'Better discovery → fewer rewrites. Asking the right questions early (who uses it, what success looks like, what must not break) prevents building the wrong feature across UI, API, and database.',
+            ua: 'Кращий discovery → менше переробок. Правильні питання на старті (хто користується, як виглядає успіх, що не можна зламати) не дають будувати не ту фічу через UI, API і базу.',
+          },
+          {
+            en: 'Clear written agreements → predictable delivery. Scope, out-of-scope, acceptance criteria, and weekly status turn freelance chaos into a managed engagement clients can trust.',
+            ua: 'Чіткі письмові домовленості → передбачуваний делівері. Скоуп, out-of-scope, acceptance criteria і тижневі статуси перетворюють фриланс-хаос на керовану співпрацю, якій довіряють.',
+          },
+          {
+            en: 'Honest estimation and prioritization → less waste. A PM mindset helps cut nice-to-haves, sequence MVP → polish, and protect the deadline without burning quality on the critical path (auth, payments, data integrity).',
+            ua: 'Чесна оцінка і пріоритезація → менше марної роботи. PM-мислення допомагає відсікати nice-to-have, вибудувати MVP → polish і захистити дедлайн без жертви якості на critical path (auth, платежі, цілісність даних).',
+          },
+          {
+            en: 'Risk communication → fewer production surprises. Naming API, third-party, and migration risks early lets the client choose buffers or simpler architecture instead of discovering blockers mid-build.',
+            ua: 'Комунікація ризиків → менше сюрпризів у продакшені. Раннє називання ризиків API, сторонніх сервісів і міграцій дає клієнту вибір: буфер чи простіша архітектура — замість блокера посеред розробки.',
+          },
+          {
+            en: 'Stakeholder alignment → end-to-end coherence. Full-stack work spans design, frontend, backend, and ops; good facilitation keeps one shared definition of “done,” so UI, contracts, and deploy do not drift apart.',
+            ua: 'Вирівнювання стейкхолдерів → цілісний end-to-end результат. Fullstack охоплює дизайн, фронт, бек і ops; гарна фасилітація тримає спільне визначення «готово», тож UI, контракти й деплой не роз’їжджаються.',
+          },
+          {
+            en: 'Calm incident and change handling → trust after launch. Clear triage, status, and next steps during bugs or scope changes are part of service quality — not separate from the code.',
+            ua: 'Спокійна робота з інцидентами і змінами → довіра після запуску. Чіткий triage, статус і next steps під час багів чи змін скоупу — частина якості послуг, а не «щось окреме від коду».',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. What to Unlearn as an Engineer',
+          ua: '4. Від чого варто відмовитися як інженеру',
+        },
+        paragraphs: [
+          {
+            en: 'The hardest part is identity. As a developer, value often felt like “I shipped the hard part.” As a PM, value is often invisible: a blocked teammate unblocked, a scope cut that saved the deadline, a stakeholder who stopped changing requirements mid-sprint.',
+            ua: 'Найважче — зміна ідентичності. Як розробник ви відчували цінність у «я зробив складну частину». Як PM цінність часто невидима: хтось розблокований, скоуп урізаний і дедлайн врятований, стейкхолдер перестав міняти вимоги посеред спринту.',
+          },
+        ],
+        list: [
+          {
+            en: 'Stop solving every technical debate yourself — coach the team to decide, then back the decision.',
+            ua: 'Не вирішуйте кожну технічну суперечку самі — навчіть команду вирішувати, а потім підтримайте рішення.',
+          },
+          {
+            en: 'Stop optimizing for personal coding output — your bottleneck becomes coordination and clarity.',
+            ua: 'Не оптимізуйте особистий coding output — вузьким місцем стають координація і ясність.',
+          },
+          {
+            en: 'Stop equating “busy calendar” with leadership — protect deep work for engineers; keep meetings short and purposeful.',
+            ua: 'Не плутайте «забитий календар» з лідерством — захищайте глибоку роботу інженерів; тримайте мітинги короткими й цільовими.',
+          },
+          {
+            en: 'Stop treating process as the product — Scrum/Kanban are tools; predictable delivery is the goal.',
+            ua: 'Не робіть процес продуктом — Scrum/Kanban це інструменти; ціль — передбачувана доставка.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. Hard Skills Worth Building',
+          ua: '5. Hard skills, які варто прокачати',
+        },
+        paragraphs: [
+          {
+            en: 'You do not need to become a pure MBA overnight. Focus on skills that multiply your technical background — especially if you sell full-stack delivery as a solo specialist.',
+            ua: 'Не треба за ніч ставати «чистим MBA». Фокусуйтеся на навичках, які множать ваш технічний бекграунд — особливо якщо ви продаєте fullstack-делівері як соло-спеціаліст.',
+          },
+        ],
+        list: [
+          {
+            en: 'Scope writing — problem statement, success metrics, out-of-scope, risks, and acceptance criteria.',
+            ua: 'Опис скоупу — проблема, метрики успіху, out-of-scope, ризики та acceptance criteria.',
+          },
+          {
+            en: 'Estimation systems — story points, t-shirt sizing, or capacity planning; plus buffers for unknowns.',
+            ua: 'Системи оцінки — story points, t-shirt sizing або capacity planning; плюс буфери на невідоме.',
+          },
+          {
+            en: 'Risk and dependency management — RAID logs, critical path, vendor/API blockers.',
+            ua: 'Ризики й залежності — RAID-логи, critical path, блокери від вендорів/API.',
+          },
+          {
+            en: 'Stakeholder management — RACI, decision owners, escalation paths.',
+            ua: 'Робота зі стейкхолдерами — RACI, власники рішень, шляхи ескалації.',
+          },
+          {
+            en: 'Delivery tooling — Jira/Linear, roadmaps, release notes, basic analytics for launch impact.',
+            ua: 'Інструменти делівері — Jira/Linear, роадмапи, release notes, базова аналітика впливу запуску.',
+          },
+          {
+            en: 'Optional credentials — CAPM/PMP, Scrum Master, or product discovery courses help interviews, but real delivery stories matter more.',
+            ua: 'Опційні сертифікати — CAPM/PMP, Scrum Master чи курси з discovery допомагають на інтерв’ю, але сильніше працюють реальні історії делівері.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '6. A Practical Transition Path',
+          ua: '6. Практичний шлях переходу',
+        },
+        paragraphs: [
+          {
+            en: 'You can grow into PM responsibilities gradually — often the safest and most credible route. The same steps also raise the quality of your full-stack freelance or in-house delivery today.',
+            ua: 'У PM-обов’язки можна вростати поступово — часто це найбезпечніший і найпереконливіший шлях. Ті самі кроки вже сьогодні піднімають якість вашого fullstack-делівері на фрилансі чи в команді.',
+          },
+        ],
+        list: [
+          {
+            en: 'Step 1 — Own a feature end-to-end: clarify requirements, break work, sync with design/QA, demos, and rollout.',
+            ua: 'Крок 1 — Візьміть фічу end-to-end: уточніть вимоги, розбийте роботу, синхронізуйтеся з дизайном/QA, демо і реліз.',
+          },
+          {
+            en: 'Step 2 — Run ceremonies well: planning, refinement, standup, retro — with agendas and outcomes, not theater.',
+            ua: 'Крок 2 — Якісно ведіть церемонії: planning, refinement, standup, ретро — з agenda і outcomes, без театру.',
+          },
+          {
+            en: 'Step 3 — Become the status source of truth: weekly written updates for stakeholders (progress, risks, asks).',
+            ua: 'Крок 3 — Станьте джерелом статусу: тижневі письмові апдейти для стейкхолдерів (прогрес, ризики, запити).',
+          },
+          {
+            en: 'Step 4 — Shadow a PM / ask for a hybrid title: Tech Lead + Delivery, Associate PM, Delivery Manager.',
+            ua: 'Крок 4 — Попрацюйте в тіні PM / попросіть гібридний title: Tech Lead + Delivery, Associate PM, Delivery Manager.',
+          },
+          {
+            en: 'Step 5 — Document impact: “shipped X by cutting Y; unblocked Z; improved predictability from A to B.”',
+            ua: 'Крок 5 — Зафіксуйте вплив: «запустили X, урізавши Y; розблокували Z; підвищили передбачуваність з A до B».',
+          },
+          {
+            en: 'Step 6 — Apply with stories, not slogans: interviews reward concrete delivery narratives more than buzzwords.',
+            ua: 'Крок 6 — Ідіть на інтерв’ю з історіями, не слоганами: конкретні наративи делівері б’ють будь-які buzzwords.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '7. When to Stay in Engineering Instead',
+          ua: '7. Коли краще лишитися в інженерії',
+        },
+        paragraphs: [
+          {
+            en: 'PM is the wrong move if you mainly want higher pay, less coding stress, or escape from a toxic team. Management amplifies stress of a different kind — politics, accountability without full control, and constant context switching. Stay (or go staff/principal) if deep technical craft still energizes you more than coordination does — and still invest in communication, because it compounds your full-stack service quality either way.',
+            ua: 'PM — неправильний крок, якщо ви хочете лише вищої зарплати, менше стресу від коду чи втечі з токсичної команди. Менеджмент підсилює інший стрес — політику, відповідальність без повного контролю і постійне перемикання контексту. Лишайтеся (або йдіть у staff/principal), якщо глибока технічна майстерність досі заряджає вас більше, ніж координація — і все одно інвестуйте в комунікацію: вона множить якість fullstack-послуг у будь-якому разі.',
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion',
+          ua: 'Висновок',
+        },
+        paragraphs: [
+          {
+            en: 'A developer becomes a stronger project manager — and a stronger full-stack partner — by keeping technical judgment while building clarity, prioritization, empathy, and reliable communication. Those skills are not a career side quest: they reduce rewrites, align end-to-end delivery, and make the service feel as solid as the code.',
+            ua: 'Розробник стає сильнішим project manager — і сильнішим fullstack-партнером — коли зберігає технічний смак і нарощує ясність, пріоритезацію, емпатію та надійну комунікацію. Це не «побічний квест кар’єри»: ці навички зменшують переробки, вирівнюють end-to-end делівері і роблять сервіс таким же міцним, як код.',
+          },
+          {
+            en: 'Start small: own one delivery stream, write better status, and practice saying “not now” with options. If you need both senior engineering judgment and clear delivery ownership on your next product, that hybrid mindset often beats a process-only PM or a silent coder. Happy to discuss scope, risks, and a realistic roadmap for your next release.',
+            ua: 'Почніть з малого: візьміть один потік делівері, пишіть кращі статуси і тренуйте «не зараз» з варіантами. Якщо на наступному продукті потрібні і senior-інженерне судження, і чітке володіння делівері — такий гібрид часто сильніший за «чистого» PM лише з процесами чи мовчазного кодера. Можу допомогти проговорити скоуп, ризики та реалістичний роадмап наступного релізу.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'vps-vs-aws-hosting-comparison',
     date: '2026-08-09',
     title: {
       en: 'VPS vs AWS: Which Hosting to Choose for Your Product in 2026',
       ua: 'VPS vs AWS: що обрати для продукту у 2026 році',
-    },
-    excerpt: {
+    },    excerpt: {
       en: 'A practical VPS vs AWS comparison for startups and SMBs: pricing, bandwidth, scaling, ops complexity, and when Lightsail, DigitalOcean, Hetzner, or full EC2 actually make sense.',
       ua: 'Практичне порівняння VPS і AWS для стартапів та МСБ: ціна, трафік, масштабування, складність підтримки та коли мають сенс Lightsail, DigitalOcean, Hetzner або повноцінний EC2.',
     },
