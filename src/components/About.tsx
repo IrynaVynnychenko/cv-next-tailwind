@@ -20,7 +20,7 @@ export default function About() {
                 alt={t.title}
                 width={320}
                 height={384}
-                className="w-full h-full object-cover absolute inset-0"
+                className="w-full h-full object-cover object-left absolute inset-0"
                 onError={() => {}}
               />
               <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-8xl font-bold">
