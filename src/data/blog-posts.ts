@@ -1,3 +1,5 @@
+import { itRoleBlogPosts } from './it-role-blog-posts'
+
 export type BlogSection = {
   heading?: string
   paragraphs: string[]
@@ -14,18 +16,18 @@ export type BlogPost = {
   content: BlogSection[]
 }
 
-type LocalizedText = {
+export type LocalizedText = {
   en: string
   ua: string
 }
 
-type LocalizedSection = {
+export type LocalizedSection = {
   heading?: LocalizedText
   paragraphs: LocalizedText[]
   list?: LocalizedText[]
 }
 
-type RawBlogPost = {
+export type RawBlogPost = {
   slug: string
   date: string
   title: LocalizedText
@@ -36,6 +38,7 @@ type RawBlogPost = {
 }
 
 export const rawBlogPosts: RawBlogPost[] = [
+  ...itRoleBlogPosts,
   {
     slug: 'outdated-ui-losing-customers-safe-redesign',
     date: '2026-08-12',
