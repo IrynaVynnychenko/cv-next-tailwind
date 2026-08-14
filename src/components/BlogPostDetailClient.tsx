@@ -26,41 +26,49 @@ const ctaCopy = {
     en: 'Ready to discuss your project?',
     ua: 'Готові обговорити ваш проєкт?',
     de: 'Bereit, Ihr Projekt zu besprechen?',
+    fr: 'Prêt à discuter de votre projet ?',
   },
   desc: {
     en: "I'm a senior web engineer specializing in React and Next.js — available for freelance projects worldwide.",
     ua: 'Я senior веб-розробниця зі спеціалізацією на React та Next.js — відкрита до нових проєктів.',
     de: 'Ich bin Senior-Webentwicklerin mit Fokus auf React und Next.js — verfügbar für Freelance-Projekte weltweit.',
+    fr: 'Je suis ingénieure web senior spécialisée en React et Next.js — disponible pour des projets freelance partout dans le monde.',
   },
   orderApp: {
     en: 'Order a web application',
     ua: 'Замовити розробку веб-додатка',
     de: 'Webanwendung beauftragen',
+    fr: 'Commander une application web',
   },
   oneClick: {
     en: 'Hire in 1 click',
     ua: 'Найм в 1 клік',
     de: 'Mit 1 Klick beauftragen',
+    fr: 'Engager en 1 clic',
   },
   orderAppDesc: {
     en: 'Ready to build a modern, fast, and scalable web application for your business? Start a secure contract on Upwork today.',
     ua: 'Готові створити сучасний, швидкий та масштабований веб-додаток для вашого бізнесу? Розпочнімо безпечну співпрацю на Upwork вже сьогодні.',
     de: 'Bereit, eine moderne, schnelle und skalierbare Webanwendung für Ihr Business zu bauen? Starten Sie noch heute einen sicheren Vertrag auf Upwork.',
+    fr: 'Prêt à construire une application web moderne, rapide et évolutive pour votre entreprise ? Démarrez dès aujourd’hui un contrat sécurisé sur Upwork.',
   },
   oneClickDesc: {
     en: 'Hire me as your developer in 1 click. Start a secure Upwork contract to build high-converting web solutions for your business.',
     ua: 'Найміть мене як розробницю в 1 клік. Почніть безпечний контракт на Upwork, щоб побудувати висококонверсійні рішення для вашого бізнесу.',
     de: 'Beauftragen Sie mich als Entwicklerin mit 1 Klick! Starten Sie einen sicheren Upwork-Vertrag für conversionstarke Web-Lösungen.',
+    fr: 'Engagez-moi comme développeuse en 1 clic. Démarrez un contrat Upwork sécurisé pour construire des solutions web à fort taux de conversion.',
   },
   orderUpwork: {
     en: 'Order a web application',
     ua: 'Замовити на Upwork',
     de: 'Auf Upwork beauftragen',
+    fr: 'Commander sur Upwork',
   },
   hireUpwork: {
     en: 'Hire Me on Upwork',
     ua: 'Найняти мене на Upwork',
     de: 'Auf Upwork beauftragen',
+    fr: 'M’engager sur Upwork',
   },
 } as const
 

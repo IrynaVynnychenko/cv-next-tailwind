@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# translation script cache
+scripts/.fr-translate-cache.json
+scripts/.de-translate-cache.json

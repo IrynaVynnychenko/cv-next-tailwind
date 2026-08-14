@@ -12,7 +12,7 @@ import { WebSiteSchema, ProfilePageSchema } from '@/components/SchemaMarkup'
 import { getPageAlternates } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  alternates: getPageAlternates('/', '/ua/', '/', '/de/'),
+  alternates: getPageAlternates('/', 'en'),
 }
 
 export default function Home() {

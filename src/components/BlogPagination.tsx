@@ -41,7 +41,7 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
   return (
     <nav
       className="pt-12 flex flex-wrap items-center justify-center gap-2"
-      aria-label="Blog pagination"
+      aria-label={translations[language].a11y.blogPagination}
     >
       {currentPage > 1 ? (
         <Link

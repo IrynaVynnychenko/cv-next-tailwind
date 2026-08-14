@@ -13,15 +13,15 @@ import { WebSiteSchema, ProfilePageSchema } from '@/components/SchemaMarkup'
 import { getPageAlternates } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  alternates: getPageAlternates('/', 'de'),
+  alternates: getPageAlternates('/', 'fr'),
 }
 
-export default function DeHome() {
+export default function FrHome() {
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
-      <WebSiteSchema lang="de" />
-      <ProfilePageSchema lang="de" />
-      <SetLanguageClient lang="de" />
+      <WebSiteSchema lang="fr" />
+      <ProfilePageSchema lang="fr" />
+      <SetLanguageClient lang="fr" />
       <Header />
       <main className="max-w-5xl mx-auto px-6 py-8 w-full space-y-12">
         <About />

@@ -10,6 +10,7 @@ import {
   getEquivalentPath,
   getHomePath,
   getLangFromPath,
+  stripLangPrefix,
   type Language,
   withLangPrefix,
 } from '@/lib/i18n'
@@ -18,6 +19,7 @@ const LANG_OPTIONS: { code: Language; short: string; native: string }[] = [
   { code: 'ua', short: 'UA', native: 'Українська' },
   { code: 'en', short: 'EN', native: 'English' },
   { code: 'de', short: 'DE', native: 'Deutsch' },
+  { code: 'fr', short: 'FR', native: 'Français' },
 ]
 
 function LanguageDropdown({
@@ -32,6 +34,7 @@ function LanguageDropdown({
   const [isOpen, setIsOpen] = useState(false)
   const rootRef = useRef<HTMLDivElement>(null)
   const current = LANG_OPTIONS.find((opt) => opt.code === language) ?? LANG_OPTIONS[1]
+  const a11y = translations[language].a11y
 
   useEffect(() => {
     setIsOpen(false)
@@ -65,7 +68,7 @@ function LanguageDropdown({
         className="inline-flex items-center gap-1 rounded-md px-1.5 py-1 text-xs font-medium tracking-wide text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 dark:focus-visible:ring-gray-500"
         aria-haspopup="listbox"
         aria-expanded={isOpen}
-        aria-label="Select language"
+        aria-label={a11y.selectLanguage}
       >
         <svg className="w-3.5 h-3.5 text-gray-500 dark:text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 21a9 9 0 100-18 9 9 0 000 18zm0 0c2.5-3 4-6.5 4-9s-1.5-6-4-9m0 18c-2.5-3-4-6.5-4-9s1.5-6 4-9m-7.5 9h15" />
@@ -85,7 +88,7 @@ function LanguageDropdown({
       {isOpen && (
         <ul
           role="listbox"
-          aria-label="Languages"
+          aria-label={a11y.languages}
           className="absolute right-0 mt-1.5 min-w-[10.5rem] rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 py-1 shadow-lg z-50"
         >
           {LANG_OPTIONS.map((opt) => {
@@ -131,12 +134,7 @@ export default function Header() {
   const pathname = usePathname() || '/'
   const { language, setLanguage } = useLanguage()
 
-  const isHome =
-    pathname === '/' ||
-    pathname === '/ua' ||
-    pathname === '/ua/' ||
-    pathname === '/de' ||
-    pathname === '/de/'
+  const isHome = stripLangPrefix(pathname) === '/'
 
   const t = translations[language]
 
@@ -279,7 +277,7 @@ export default function Header() {
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="p-2 -ml-0.5 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-              aria-label="Toggle navigation menu"
+              aria-label={t.a11y.toggleMenu}
             >
               {isMobileMenuOpen ? (
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

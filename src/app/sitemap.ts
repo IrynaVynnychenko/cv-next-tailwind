@@ -1,112 +1,51 @@
 import { MetadataRoute } from 'next'
 import { rawBlogPosts } from '@/data/blog-posts'
+import { LANGUAGES, withLangPrefix } from '@/lib/i18n'
+import { getLanguageAlternates } from '@/lib/seo'
 
 const baseUrl = 'https://vynnychenko.dev'
 
 function altHome() {
-  return {
-    en: `${baseUrl}/`,
-    'en-US': `${baseUrl}/`,
-    'uk-UA': `${baseUrl}/ua/`,
-    de: `${baseUrl}/de/`,
-    'de-DE': `${baseUrl}/de/`,
-    'x-default': `${baseUrl}/`,
-  }
+  return getLanguageAlternates('/')
 }
 
 function altBlog() {
-  return {
-    en: `${baseUrl}/blog/`,
-    'en-US': `${baseUrl}/blog/`,
-    'uk-UA': `${baseUrl}/ua/blog/`,
-    de: `${baseUrl}/de/blog/`,
-    'de-DE': `${baseUrl}/de/blog/`,
-    'x-default': `${baseUrl}/blog/`,
-  }
+  return getLanguageAlternates('/blog/')
 }
 
 function altPost(slug: string) {
-  return {
-    en: `${baseUrl}/blog/${slug}/`,
-    'en-US': `${baseUrl}/blog/${slug}/`,
-    'uk-UA': `${baseUrl}/ua/blog/${slug}/`,
-    de: `${baseUrl}/de/blog/${slug}/`,
-    'de-DE': `${baseUrl}/de/blog/${slug}/`,
-    'x-default': `${baseUrl}/blog/${slug}/`,
-  }
+  return getLanguageAlternates(`/blog/${slug}/`)
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date().toISOString().split('T')[0]
 
-  const staticRoutes: MetadataRoute.Sitemap = [
+  const staticRoutes: MetadataRoute.Sitemap = LANGUAGES.flatMap((lang) => [
     {
-      url: `${baseUrl}/`,
+      url: `${baseUrl}${withLangPrefix(lang, '/')}`,
       lastModified: currentDate,
-      changeFrequency: 'weekly',
-      priority: 1.0,
+      changeFrequency: 'weekly' as const,
+      priority: lang === 'en' ? 1.0 : 0.9,
       alternates: { languages: altHome() },
     },
     {
-      url: `${baseUrl}/ua/`,
+      url: `${baseUrl}${withLangPrefix(lang, '/blog/')}`,
       lastModified: currentDate,
-      changeFrequency: 'weekly',
-      priority: 0.9,
-      alternates: { languages: altHome() },
-    },
-    {
-      url: `${baseUrl}/de/`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly',
-      priority: 0.9,
-      alternates: { languages: altHome() },
-    },
-    {
-      url: `${baseUrl}/blog/`,
-      lastModified: currentDate,
-      changeFrequency: 'daily',
+      changeFrequency: 'daily' as const,
       priority: 0.8,
       alternates: { languages: altBlog() },
-    },
-    {
-      url: `${baseUrl}/ua/blog/`,
-      lastModified: currentDate,
-      changeFrequency: 'daily',
-      priority: 0.8,
-      alternates: { languages: altBlog() },
-    },
-    {
-      url: `${baseUrl}/de/blog/`,
-      lastModified: currentDate,
-      changeFrequency: 'daily',
-      priority: 0.8,
-      alternates: { languages: altBlog() },
-    },
-  ]
-
-  const blogPostRoutes: MetadataRoute.Sitemap = rawBlogPosts.flatMap((post) => [
-    {
-      url: `${baseUrl}/blog/${post.slug}/`,
-      lastModified: post.date || currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
-      alternates: { languages: altPost(post.slug) },
-    },
-    {
-      url: `${baseUrl}/ua/blog/${post.slug}/`,
-      lastModified: post.date || currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
-      alternates: { languages: altPost(post.slug) },
-    },
-    {
-      url: `${baseUrl}/de/blog/${post.slug}/`,
-      lastModified: post.date || currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
-      alternates: { languages: altPost(post.slug) },
     },
   ])
+
+  const blogPostRoutes: MetadataRoute.Sitemap = rawBlogPosts.flatMap((post) =>
+    LANGUAGES.map((lang) => ({
+      url: `${baseUrl}${withLangPrefix(lang, `/blog/${post.slug}/`)}`,
+      lastModified: post.date || currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+      alternates: { languages: altPost(post.slug) },
+    }))
+  )
 
   return [...staticRoutes, ...blogPostRoutes]
 }

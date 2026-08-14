@@ -1,29 +1,34 @@
-export type Language = 'en' | 'ua' | 'de'
+export type Language = 'en' | 'ua' | 'de' | 'fr'
 
-export const LANGUAGES: Language[] = ['en', 'ua', 'de']
+export const LANGUAGES: Language[] = ['en', 'ua', 'de', 'fr']
 
 export const LOCALE_TAGS: Record<Language, string> = {
   en: 'en-US',
   ua: 'uk-UA',
   de: 'de-DE',
+  fr: 'fr-FR',
 }
 
 export const LANG_PREFIX: Record<Language, string> = {
   en: '',
   ua: '/ua',
   de: '/de',
+  fr: '/fr',
 }
 
 export function getLangFromPath(pathname: string): Language {
-  if (pathname === '/ua' || pathname.startsWith('/ua/')) return 'ua'
-  if (pathname === '/de' || pathname.startsWith('/de/')) return 'de'
+  for (const lang of LANGUAGES) {
+    const prefix = LANG_PREFIX[lang]
+    if (!prefix) continue
+    if (pathname === prefix || pathname.startsWith(`${prefix}/`)) return lang
+  }
   return 'en'
 }
 
 export function stripLangPrefix(pathname: string): string {
-  let clean = pathname
-  if (clean.startsWith('/ua')) clean = clean.slice(3)
-  else if (clean.startsWith('/de')) clean = clean.slice(3)
+  const lang = getLangFromPath(pathname)
+  const prefix = LANG_PREFIX[lang]
+  let clean = prefix && pathname.startsWith(prefix) ? pathname.slice(prefix.length) : pathname
   if (!clean.startsWith('/')) clean = `/${clean}`
   return clean === '' ? '/' : clean
 }
