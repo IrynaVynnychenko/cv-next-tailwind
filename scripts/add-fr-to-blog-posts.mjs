@@ -15,10 +15,11 @@ const BATCH = 12
 const PAUSE_MS = 220
 const CACHE_PATH = path.join(__dirname, '.fr-translate-cache.json')
 
-const FILES = [
-  path.join(__dirname, '../src/data/blog-posts.ts'),
-  path.join(__dirname, '../src/data/it-role-blog-posts.ts'),
-]
+const BLOG_DIR = path.join(__dirname, '../src/data/blog')
+const FILES = fs
+  .readdirSync(BLOG_DIR)
+  .filter((f) => f.startsWith('posts-') && f.endsWith('.ts'))
+  .map((f) => path.join(BLOG_DIR, f))
 
 function loadCache() {
   if (!fs.existsSync(CACHE_PATH)) return new Map()

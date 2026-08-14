@@ -1,4 +1,4 @@
-import type { RawBlogPost } from './blog-posts'
+import type { RawBlogPost } from './types'
 
 /**
  * IT roles series: overview map + one article per major position.

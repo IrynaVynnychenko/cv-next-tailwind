@@ -1,5 +1,5 @@
 /**
- * Faster DE translation for blog-posts.ts:
+ * Faster DE translation for src/data/blog/posts-*.ts:
  * 1) collect unique EN strings
  * 2) translate in parallel batches
  * 3) apply AST inserts once
@@ -11,9 +11,16 @@ import { translate } from 'google-translate-api-x'
 import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const filePath = path.join(__dirname, '../src/data/blog-posts.ts')
+const BLOG_DIR = path.join(__dirname, '../src/data/blog')
 const BATCH = 12
 const PAUSE_MS = 250
+
+function blogPostFiles() {
+  return fs
+    .readdirSync(BLOG_DIR)
+    .filter((f) => f.startsWith('posts-') && f.endsWith('.ts'))
+    .map((f) => path.join(BLOG_DIR, f))
+}
 
 function getProp(obj, name) {
   return obj.properties.find(
@@ -59,9 +66,8 @@ async function translateBatch(texts) {
   return out
 }
 
-async function main() {
+async function processFile(filePath) {
   const sourceText = fs.readFileSync(filePath, 'utf8')
-  // Skip if file already has many de keys from partial run - we still fill missing only
   const sourceFile = ts.createSourceFile(filePath, sourceText, ts.ScriptTarget.Latest, true)
 
   /** @type {{ start: number, enTexts: string[], kind: 'string'|'tags' }[]} */
@@ -95,16 +101,11 @@ async function main() {
   }
 
   visit(sourceFile)
-  console.log(`Jobs needing de: ${jobs.length}, unique EN strings: ${unique.size}`)
+  console.log(`${path.basename(filePath)}: jobs=${jobs.length}, unique EN=${unique.size}`)
 
-  if (jobs.length === 0) {
-    console.log('Nothing to do — all localized objects already have de.')
-    return
-  }
+  if (jobs.length === 0) return
 
   const map = await translateBatch([...unique])
-  console.log('Applying inserts...')
-
   const inserts = jobs
     .map((job) => {
       if (job.kind === 'string') {
@@ -125,7 +126,14 @@ async function main() {
   }
 
   fs.writeFileSync(filePath, out)
-  console.log(`Done. inserts=${inserts.length}`)
+  console.log(`  inserts=${inserts.length}`)
+}
+
+async function main() {
+  for (const filePath of blogPostFiles()) {
+    await processFile(filePath)
+  }
+  console.log('Done.')
 }
 
 main().catch((e) => {

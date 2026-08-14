@@ -8,10 +8,11 @@ import ts from 'typescript'
 import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const FILES = [
-  path.join(__dirname, '../src/data/blog-posts.ts'),
-  path.join(__dirname, '../src/data/it-role-blog-posts.ts'),
-]
+const BLOG_DIR = path.join(__dirname, '../src/data/blog')
+const FILES = fs
+  .readdirSync(BLOG_DIR)
+  .filter((f) => f.startsWith('posts-') && f.endsWith('.ts'))
+  .map((f) => path.join(BLOG_DIR, f))
 
 const MAP = {
   Mobile: 'Mobile',

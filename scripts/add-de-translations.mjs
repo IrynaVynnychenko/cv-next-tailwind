@@ -96,7 +96,7 @@ function serialize(value, indent = 0) {
 }
 
 async function processItRoles() {
-  const file = path.join(root, 'src/data/it-role-blog-posts.ts')
+  const file = path.join(root, 'src/data/blog/posts-it-roles.ts')
   const text = fs.readFileSync(file, 'utf8')
   const marker = 'export const itRoleBlogPosts: RawBlogPost[] = '
   const idx = text.indexOf(marker)
@@ -106,7 +106,7 @@ async function processItRoles() {
   console.log(`Loaded ${posts.length} IT role posts`)
   await localizeNode(posts)
   const out =
-    `import type { RawBlogPost } from './blog-posts'\n\n` +
+    `import type { RawBlogPost } from './types'\n\n` +
     `/**\n * IT roles series: overview map + one article per major position.\n * EN / UA / DE\n */\n` +
     `export const itRoleBlogPosts: RawBlogPost[] = ${serialize(posts, 0)}\n`
   fs.writeFileSync(file, out)
