@@ -1,8 +1,9 @@
 'use client'
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react'
+import { getLangFromPath, type Language } from '@/lib/i18n'
 
-export type Language = 'en' | 'ua'
+export type { Language }
 
 interface LanguageContextType {
   language: Language
@@ -12,13 +13,14 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
+const CYCLE: Language[] = ['en', 'de', 'ua']
+
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>('en')
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const isUaPath = window.location.pathname.startsWith('/ua')
-      setLanguageState(isUaPath ? 'ua' : 'en')
+      setLanguageState(getLangFromPath(window.location.pathname))
     }
   }, [])
 
@@ -27,8 +29,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }
 
   const toggleLanguage = () => {
-    const nextLang = language === 'en' ? 'ua' : 'en'
-    setLanguage(nextLang)
+    const idx = CYCLE.indexOf(language)
+    setLanguage(CYCLE[(idx + 1) % CYCLE.length])
   }
 
   return (

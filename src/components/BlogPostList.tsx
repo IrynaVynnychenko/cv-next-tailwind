@@ -4,10 +4,10 @@ import Link from 'next/link'
 import type { BlogPost } from '@/data/blog-posts'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
+import { getBlogPostPath, LOCALE_TAGS, type Language } from '@/lib/i18n'
 
-function formatDate(dateString: string, lang: 'en' | 'ua') {
-  const locale = lang === 'ua' ? 'uk-UA' : 'en-US'
-  return new Date(dateString).toLocaleDateString(locale, {
+function formatDate(dateString: string, lang: Language) {
+  return new Date(dateString).toLocaleDateString(LOCALE_TAGS[lang], {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
@@ -25,7 +25,7 @@ export default function BlogPostList({ posts }: BlogPostListProps) {
   return (
     <div className="pt-12 space-y-8">
       {posts.map((post) => {
-        const postHref = language === 'ua' ? `/ua/blog/${post.slug}/` : `/blog/${post.slug}/`
+        const postHref = getBlogPostPath(language, post.slug)
 
         return (
           <article
@@ -59,7 +59,7 @@ export default function BlogPostList({ posts }: BlogPostListProps) {
 
             <Link
               href={postHref}
-              className="text-sm font-medium text-green-700 dark:text-green-400 hover:text-green-800 dark:hover:text-green-300 transition-colors"
+              className="text-sm font-medium text-green-700 dark:text-green-400 hover:underline"
             >
               {t.readMore}
             </Link>

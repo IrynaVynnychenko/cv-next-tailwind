@@ -7,19 +7,62 @@ import ContactInfo from '@/components/ContactInfo'
 import { getBlogPost } from '@/data/blog-posts'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
+import { getBlogIndexPath, LOCALE_TAGS, type Language } from '@/lib/i18n'
 
 type BlogPostDetailClientProps = {
   slug: string
 }
 
-function formatDate(dateString: string, lang: 'en' | 'ua') {
-  const locale = lang === 'ua' ? 'uk-UA' : 'en-US'
-  return new Date(dateString).toLocaleDateString(locale, {
+function formatDate(dateString: string, lang: Language) {
+  return new Date(dateString).toLocaleDateString(LOCALE_TAGS[lang], {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
   })
 }
+
+const ctaCopy = {
+  title: {
+    en: 'Ready to discuss your project?',
+    ua: 'Готові обговорити ваш проєкт?',
+    de: 'Bereit, Ihr Projekt zu besprechen?',
+  },
+  desc: {
+    en: "I'm a senior web engineer specializing in React and Next.js — available for freelance projects worldwide.",
+    ua: 'Я senior веб-розробниця зі спеціалізацією на React та Next.js — відкрита до нових проєктів.',
+    de: 'Ich bin Senior-Webentwicklerin mit Fokus auf React und Next.js — verfügbar für Freelance-Projekte weltweit.',
+  },
+  orderApp: {
+    en: 'Order a web application',
+    ua: 'Замовити розробку веб-додатка',
+    de: 'Webanwendung beauftragen',
+  },
+  oneClick: {
+    en: 'Hire in 1 click',
+    ua: 'Найм в 1 клік',
+    de: 'Mit 1 Klick beauftragen',
+  },
+  orderAppDesc: {
+    en: 'Ready to build a modern, fast, and scalable web application for your business? Start a secure contract on Upwork today.',
+    ua: 'Готові створити сучасний, швидкий та масштабований веб-додаток для вашого бізнесу? Розпочнімо безпечну співпрацю на Upwork вже сьогодні.',
+    de: 'Bereit, eine moderne, schnelle und skalierbare Webanwendung für Ihr Business zu bauen? Starten Sie noch heute einen sicheren Vertrag auf Upwork.',
+  },
+  oneClickDesc: {
+    en: 'Hire me as your developer in 1 click. Start a secure Upwork contract to build high-converting web solutions for your business.',
+    ua: 'Найміть мене як розробницю в 1 клік. Почніть безпечний контракт на Upwork, щоб побудувати висококонверсійні рішення для вашого бізнесу.',
+    de: 'Beauftragen Sie mich als Entwicklerin mit 1 Klick! Starten Sie einen sicheren Upwork-Vertrag für conversionstarke Web-Lösungen.',
+  },
+  orderUpwork: {
+    en: 'Order a web application',
+    ua: 'Замовити на Upwork',
+    de: 'Auf Upwork beauftragen',
+  },
+  hireUpwork: {
+    en: 'Hire Me on Upwork',
+    ua: 'Найняти мене на Upwork',
+    de: 'Auf Upwork beauftragen',
+  },
+} as const
 
 export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps) {
   const { language } = useLanguage()
@@ -30,15 +73,10 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
     notFound()
   }
 
-  const ctaTitle = language === 'ua' ? 'Готові обговорити ваш проєкт?' : 'Ready to discuss your project?'
-  const ctaDesc = language === 'ua' 
-    ? 'Я senior веб-розробник, що спеціалізується на React та Next.js — відкрита до нових проєктів.'
-    : "I'm a senior web engineer specializing in React and Next.js — available for freelance projects worldwide."
-
   return (
     <article className="pt-32 pb-12">
       <Link
-        href="/blog/"
+        href={getBlogIndexPath(language)}
         className="inline-flex items-center text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors mb-8"
       >
         {t.backToBlog}
@@ -82,17 +120,13 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
               </span>
               {slug === 'what-is-web-application-modern-guide'
-                ? (language === 'ua' ? 'Замовити розробку веб-додатка' : 'Order Web Application')
-                : (language === 'ua' ? 'Дія в 1 клік' : 'Action in 1 Click')}
+                ? ctaCopy.orderApp[language]
+                : ctaCopy.oneClick[language]}
             </h3>
             <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
               {slug === 'what-is-web-application-modern-guide'
-                ? (language === 'ua'
-                    ? 'Готові створити сучасний, швидкий та масштабований веб-додаток для вашого бізнесу? Розпочнімо безпечну співпрацю на Upwork вже сьогодні.'
-                    : 'Ready to build a modern, fast, and scalable web application for your business? Start a secure contract on Upwork today.')
-                : (language === 'ua'
-                    ? 'Залучіть мене як розробника в 1 клік! Почніть безпечний контракт на Upwork, щоб побудувати висококонверсійні рішення для вашого бізнесу.'
-                    : 'Attract me as your developer in 1 click! Start a secure contract on Upwork to build high-converting web solutions for your business.')}
+                ? ctaCopy.orderAppDesc[language]
+                : ctaCopy.oneClickDesc[language]}
             </p>
           </div>
           <div className="w-full md:w-auto flex-shrink-0">
@@ -103,8 +137,8 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
               className="w-full md:w-auto inline-flex items-center justify-center px-6 py-3.5 text-base font-semibold rounded-xl text-white bg-[#14a800] hover:bg-[#129600] active:bg-[#108400] transition-all duration-300 transform hover:scale-[1.03] hover:shadow-lg hover:shadow-green-500/20 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 font-sans"
             >
               {slug === 'what-is-web-application-modern-guide'
-                ? (language === 'ua' ? 'Замовити на Upwork' : 'Order Web Application')
-                : (language === 'ua' ? 'Найняти мене на Upwork' : 'Hire Me on Upwork')}
+                ? ctaCopy.orderUpwork[language]
+                : ctaCopy.hireUpwork[language]}
             </a>
           </div>
         </div>
@@ -112,8 +146,8 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
 
       <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
         <ContactInfo
-          title={ctaTitle}
-          description={ctaDesc}
+          title={ctaCopy.title[language]}
+          description={ctaCopy.desc[language]}
         />
       </div>
     </article>

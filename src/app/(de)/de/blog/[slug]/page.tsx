@@ -16,16 +16,16 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: BlogPostPageProps): Metadata {
-  const post = getBlogPost(params.slug, 'ua')
+  const post = getBlogPost(params.slug, 'de')
 
   if (!post) {
-    return { title: 'Статтю не знайдено' }
+    return { title: 'Artikel nicht gefunden' }
   }
 
-  const alternates = getBlogPostAlternates(params.slug, 'ua')
+  const alternates = getBlogPostAlternates(params.slug, 'de')
 
   return {
-    title: `${post.title} — Ірина Винниченко | Senior Web & Frontend розробниця`,
+    title: `${post.title} — Iryna Vynnychenko | Senior Web- & Frontend-Entwicklerin`,
     description: post.excerpt,
     alternates,
     openGraph: {
@@ -37,13 +37,13 @@ export function generateMetadata({ params }: BlogPostPageProps): Metadata {
   }
 }
 
-export default function UaBlogPostPage({ params }: BlogPostPageProps) {
-  const post = getBlogPost(params.slug, 'ua')
+export default function DeBlogPostPage({ params }: BlogPostPageProps) {
+  const post = getBlogPost(params.slug, 'de')
 
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
-      {post && <BlogPostingSchema post={post} lang="ua" />}
-      <SetLanguageClient lang="ua" />
+      {post && <BlogPostingSchema post={post} lang="de" />}
+      <SetLanguageClient lang="de" />
       <Header />
       <main className="max-w-5xl mx-auto px-6 py-8 w-full">
         <BlogPostDetailClient slug={params.slug} />

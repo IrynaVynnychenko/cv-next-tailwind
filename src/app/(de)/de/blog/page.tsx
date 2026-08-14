@@ -8,19 +8,19 @@ import { BlogSchema } from '@/components/SchemaMarkup'
 import { getBlogIndexAlternates } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Блог — Ірина Винниченко | Senior Web & Frontend розробниця',
+  title: 'Blog — Iryna Vynnychenko | Senior Web- & Frontend-Entwicklerin',
   description:
-    'Корисні статті про веб-розробку, оптимізацію продуктивності та найм розробників — для фаундерів та власників продуктів.',
-  alternates: getBlogIndexAlternates('ua'),
+    'Praktische Artikel zu Webentwicklung, Performance-Optimierung und Recruiting — für Founder und Product Owner.',
+  alternates: getBlogIndexAlternates('de'),
 }
 
-export default function UaBlogPage() {
-  const posts = getBlogPostsForPage(1, 'ua')
+export default function DeBlogPage() {
+  const posts = getBlogPostsForPage(1, 'de')
 
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
-      <BlogSchema posts={posts} lang="ua" />
-      <SetLanguageClient lang="ua" />
+      <BlogSchema posts={posts} lang="de" />
+      <SetLanguageClient lang="de" />
       <Header />
       <main className="max-w-5xl mx-auto px-6 py-8 w-full">
         <BlogIndex currentPage={1} />

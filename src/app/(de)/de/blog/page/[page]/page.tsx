@@ -25,18 +25,18 @@ export function generateMetadata({ params }: BlogPageProps): Metadata {
   const totalPages = getBlogPageCount()
 
   if (isNaN(pageNumber) || pageNumber < 2 || pageNumber > totalPages) {
-    return { title: 'Сторінку не знайдено' }
+    return { title: 'Seite nicht gefunden' }
   }
 
   return {
-    title: `Блог — Сторінка ${pageNumber} — Ірина Винниченко | Senior Web & Frontend розробниця`,
+    title: `Blog — Seite ${pageNumber} — Iryna Vynnychenko | Senior Web- & Frontend-Entwicklerin`,
     description:
-      'Корисні статті про веб-розробку, оптимізацію продуктивності та найм розробників — для фаундерів та власників продуктів.',
-    alternates: getBlogIndexAlternates('ua', pageNumber),
+      'Praktische Artikel zu Webentwicklung, Performance-Optimierung und Recruiting — für Founder und Product Owner.',
+    alternates: getBlogIndexAlternates('de', pageNumber),
   }
 }
 
-export default function UaBlogPaginationPage({ params }: BlogPageProps) {
+export default function DeBlogPaginationPage({ params }: BlogPageProps) {
   const pageNumber = parseInt(params.page, 10)
   const totalPages = getBlogPageCount()
 
@@ -44,12 +44,12 @@ export default function UaBlogPaginationPage({ params }: BlogPageProps) {
     notFound()
   }
 
-  const posts = getBlogPostsForPage(pageNumber, 'ua')
+  const posts = getBlogPostsForPage(pageNumber, 'de')
 
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
-      <BlogSchema posts={posts} lang="ua" />
-      <SetLanguageClient lang="ua" />
+      <BlogSchema posts={posts} lang="de" />
+      <SetLanguageClient lang="de" />
       <Header />
       <main className="max-w-5xl mx-auto px-6 py-8 w-full">
         <BlogIndex currentPage={pageNumber} />

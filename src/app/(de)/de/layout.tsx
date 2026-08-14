@@ -17,10 +17,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Ірина Винниченко | Frontend & Full-Stack розробниця | Next.js, React, Node.js, AI",
-  description: "Frontend & Full-Stack розробниця зі спеціалізацією на кастомних CRM та складних вебдодатках. Next.js, React, Node.js, AI, APIs. 4 200+ годин на Upwork, 8+ років, 100+ запущених проєктів.",
-  keywords: "Frontend розробниця, Full-Stack розробниця, Frontend розробник, React, Next.js, Node.js, TypeScript, Custom CRM, AI, OpenAI, Prisma, PostgreSQL, Tailwind CSS, Shadcn/ui, GSAP, Україна, Upwork",
-  authors: [{ name: "Ірина Винниченко" }],
+  title: "Iryna Vynnychenko | Frontend- & Full-Stack-Entwicklerin | Next.js, React, Node.js, AI",
+  description: "Frontend- & Full-Stack-Entwicklerin mit Fokus auf Custom-CRMs und komplexe Web-Apps. Next.js, React, Node.js, AI, APIs. 4.200+ Upwork-Stunden, 8+ Jahre, 100+ gelaunchte Projekte.",
+  keywords: "Frontend-Entwicklerin, Full-Stack-Entwicklerin, React, Next.js, Node.js, TypeScript, Custom CRM, AI, OpenAI, Prisma, PostgreSQL, Tailwind CSS, Shadcn/ui, GSAP, Ukraine, Upwork, Deutschland",
+  authors: [{ name: "Iryna Vynnychenko" }],
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
   },
@@ -36,21 +36,21 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Ірина Винниченко | Frontend & Full-Stack розробниця | Next.js, React, Node.js, AI",
-    description: "4 200+ годин на Upwork · 8+ років · 100+ запущених проєктів. Кастомні CRM, складні вебдодатки, Next.js / React / Node.js / AI.",
-    url: 'https://vynnychenko.dev/ua/',
-    siteName: 'Ірина Винниченко — Frontend & Full-Stack розробниця',
+    title: "Iryna Vynnychenko | Frontend- & Full-Stack-Entwicklerin | Next.js, React, Node.js, AI",
+    description: "4.200+ Upwork-Stunden · 8+ Jahre · 100+ gelaunchte Projekte. Custom-CRMs, komplexe Web-Apps, Next.js / React / Node.js / AI.",
+    url: 'https://vynnychenko.dev/de/',
+    siteName: 'Iryna Vynnychenko — Frontend- & Full-Stack-Entwicklerin',
     type: "website",
   },
 };
 
-export default function RootLayout({
+export default function DeRootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="uk" className="scroll-smooth">
+    <html lang="de" className="scroll-smooth">
       <head />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

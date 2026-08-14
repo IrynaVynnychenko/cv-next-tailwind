@@ -1,23 +1,128 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
+import {
+  getBlogIndexPath,
+  getEquivalentPath,
+  getHomePath,
+  getLangFromPath,
+  type Language,
+  withLangPrefix,
+} from '@/lib/i18n'
 
-const getEquivalentPath = (targetLang: 'en' | 'ua', currentPath: string) => {
-  const isCurrentlyUa = currentPath.startsWith('/ua')
-  let cleanPath = isCurrentlyUa ? currentPath.slice(3) : currentPath
-  if (!cleanPath.startsWith('/')) {
-    cleanPath = '/' + cleanPath
-  }
+const LANG_OPTIONS: { code: Language; short: string; native: string }[] = [
+  { code: 'ua', short: 'UA', native: 'Українська' },
+  { code: 'en', short: 'EN', native: 'English' },
+  { code: 'de', short: 'DE', native: 'Deutsch' },
+]
 
-  if (targetLang === 'ua') {
-    return cleanPath === '/' ? '/ua/' : `/ua${cleanPath}`
-  } else {
-    return cleanPath === '' ? '/' : cleanPath
-  }
+function LanguageDropdown({
+  language,
+  pathname,
+  setLanguage,
+}: {
+  language: Language
+  pathname: string
+  setLanguage: (lang: Language) => void
+}) {
+  const [isOpen, setIsOpen] = useState(false)
+  const rootRef = useRef<HTMLDivElement>(null)
+  const current = LANG_OPTIONS.find((opt) => opt.code === language) ?? LANG_OPTIONS[1]
+
+  useEffect(() => {
+    setIsOpen(false)
+  }, [pathname])
+
+  useEffect(() => {
+    if (!isOpen) return
+
+    const onPointerDown = (event: MouseEvent) => {
+      if (rootRef.current && !rootRef.current.contains(event.target as Node)) {
+        setIsOpen(false)
+      }
+    }
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setIsOpen(false)
+    }
+
+    document.addEventListener('mousedown', onPointerDown)
+    document.addEventListener('keydown', onKeyDown)
+    return () => {
+      document.removeEventListener('mousedown', onPointerDown)
+      document.removeEventListener('keydown', onKeyDown)
+    }
+  }, [isOpen])
+
+  return (
+    <div ref={rootRef} className="relative">
+      <button
+        type="button"
+        onClick={() => setIsOpen((open) => !open)}
+        className="inline-flex items-center gap-1 rounded-md px-1.5 py-1 text-xs font-medium tracking-wide text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 dark:focus-visible:ring-gray-500"
+        aria-haspopup="listbox"
+        aria-expanded={isOpen}
+        aria-label="Select language"
+      >
+        <svg className="w-3.5 h-3.5 text-gray-500 dark:text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 21a9 9 0 100-18 9 9 0 000 18zm0 0c2.5-3 4-6.5 4-9s-1.5-6-4-9m0 18c-2.5-3-4-6.5-4-9s1.5-6 4-9m-7.5 9h15" />
+        </svg>
+        <span>{current.short}</span>
+        <svg
+          className={`w-3 h-3 text-gray-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          aria-hidden="true"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {isOpen && (
+        <ul
+          role="listbox"
+          aria-label="Languages"
+          className="absolute right-0 mt-1.5 min-w-[10.5rem] rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 py-1 shadow-lg z-50"
+        >
+          {LANG_OPTIONS.map((opt) => {
+            const isActive = language === opt.code
+            return (
+              <li key={opt.code} role="option" aria-selected={isActive}>
+                <Link
+                  href={getEquivalentPath(opt.code, pathname)}
+                  onClick={() => {
+                    setLanguage(opt.code)
+                    setIsOpen(false)
+                  }}
+                  className={`flex items-center justify-between gap-3 px-3 py-2 text-sm transition-colors ${
+                    isActive
+                      ? 'bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white font-semibold'
+                      : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+                  }`}
+                >
+                  <span className="flex items-center gap-2">
+                    <span className="w-6 text-[11px] font-medium tracking-wide text-gray-400 dark:text-gray-500">
+                      {opt.short}
+                    </span>
+                    <span>{opt.native}</span>
+                  </span>
+                  {isActive && (
+                    <svg className="w-4 h-4 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  )}
+                </Link>
+              </li>
+            )
+          })}
+        </ul>
+      )}
+    </div>
+  )
 }
 
 export default function Header() {
@@ -26,8 +131,12 @@ export default function Header() {
   const pathname = usePathname() || '/'
   const { language, setLanguage } = useLanguage()
 
-  const isUa = language === 'ua'
-  const isHome = pathname === '/' || pathname === '/ua' || pathname === '/ua/'
+  const isHome =
+    pathname === '/' ||
+    pathname === '/ua' ||
+    pathname === '/ua/' ||
+    pathname === '/de' ||
+    pathname === '/de/'
 
   const t = translations[language]
 
@@ -39,11 +148,7 @@ export default function Header() {
   ]
 
   useEffect(() => {
-    if (pathname.startsWith('/ua')) {
-      setLanguage('ua')
-    } else {
-      setLanguage('en')
-    }
+    setLanguage(getLangFromPath(pathname))
   }, [pathname, setLanguage])
 
   useEffect(() => {
@@ -66,37 +171,12 @@ export default function Header() {
     }
   }
 
-  const homeHref = isUa ? '/ua/' : '/'
-  const blogHref = isUa ? '/ua/blog/' : '/blog/'
+  const homeHref = getHomePath(language)
+  const blogHref = getBlogIndexPath(language)
+  const sectionHref = (id: string) => withLangPrefix(language, `/#${id}`)
 
   const langSwitcherMarkup = (
-    <div className="flex items-center gap-1.5 text-xs font-medium tracking-wide">
-      <Link
-        href={getEquivalentPath('ua', pathname)}
-        onClick={() => setLanguage('ua')}
-        className={`transition-colors focus:outline-none ${
-          isUa
-            ? 'font-bold text-gray-900 dark:text-white'
-            : 'text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'
-        }`}
-        aria-label="Українська мова"
-      >
-        UA
-      </Link>
-      <span className="text-gray-300 dark:text-gray-600 select-none">/</span>
-      <Link
-        href={getEquivalentPath('en', pathname)}
-        onClick={() => setLanguage('en')}
-        className={`transition-colors focus:outline-none ${
-          !isUa
-            ? 'font-bold text-gray-900 dark:text-white'
-            : 'text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'
-        }`}
-        aria-label="English language"
-      >
-        EN
-      </Link>
-    </div>
+    <LanguageDropdown language={language} pathname={pathname} setLanguage={setLanguage} />
   )
 
   return (
@@ -105,12 +185,10 @@ export default function Header() {
         ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-md shadow-sm'
         : 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm'
     }`}>
-      {/* Top Banner Contact Bar - Clean & borderless */}
       <div className="w-full py-2">
         <div className="max-w-5xl mx-auto px-6 flex flex-wrap items-center justify-between gap-x-4 gap-y-1.5 text-xs">
-          {/* Prominent Quick Contacts */}
           <div className="flex flex-wrap items-center gap-3 sm:gap-6 font-medium text-gray-600 dark:text-gray-400">
-            <a 
+            <a
               href="mailto:i.vynnychenko@gmail.com"
               className="flex items-center gap-1.5 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
@@ -121,7 +199,7 @@ export default function Header() {
               <span>i.vynnychenko@gmail.com</span>
             </a>
 
-            <a 
+            <a
               href="https://telegram.me/+380931844615"
               target="_blank"
               rel="noopener noreferrer"
@@ -133,7 +211,7 @@ export default function Header() {
               <span>Telegram</span>
             </a>
 
-            <a 
+            <a
               href="https://wa.me/380931844615"
               target="_blank"
               rel="noopener noreferrer"
@@ -148,7 +226,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Main Navigation Bar */}
       <div className="w-full py-3">
         <nav className="max-w-5xl mx-auto px-6 flex items-center justify-between gap-4">
           <Link href={homeHref} className="group flex-shrink-0">
@@ -160,7 +237,6 @@ export default function Header() {
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
             {navItems.map((item) =>
               isHome ? (
@@ -174,7 +250,7 @@ export default function Header() {
               ) : (
                 <Link
                   key={item.id}
-                  href={isUa ? `/ua/#${item.id}` : `/#${item.id}`}
+                  href={sectionHref(item.id)}
                   className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors font-medium focus:outline-none"
                 >
                   {item.label}
@@ -192,19 +268,17 @@ export default function Header() {
               {t.nav.blog}
             </Link>
 
-            {/* Language Switcher next to Menu */}
             <div className="border-l border-gray-200 dark:border-gray-700 pl-4 ml-1">
               {langSwitcherMarkup}
             </div>
           </div>
 
-          {/* Mobile menu toggle & Language Switcher */}
-          <div className="flex md:hidden items-center space-x-4">
+          <div className="flex md:hidden items-center">
             {langSwitcherMarkup}
 
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className="p-2 -ml-0.5 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               aria-label="Toggle navigation menu"
             >
               {isMobileMenuOpen ? (
@@ -220,7 +294,6 @@ export default function Header() {
           </div>
         </nav>
 
-        {/* Mobile menu dropdown */}
         {isMobileMenuOpen && (
           <div className="md:hidden max-w-5xl mx-auto px-6 pt-4 pb-2 border-t border-gray-200 dark:border-gray-800 mt-3 space-y-3">
             <div className="flex flex-col space-y-2">
@@ -236,7 +309,7 @@ export default function Header() {
                 ) : (
                   <Link
                     key={item.id}
-                    href={isUa ? `/ua/#${item.id}` : `/#${item.id}`}
+                    href={sectionHref(item.id)}
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="text-left text-base text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white transition-colors font-medium py-1.5 px-1 focus:outline-none"
                   >
