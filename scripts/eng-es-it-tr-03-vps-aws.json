@@ -1,0 +1,262 @@
+{
+  "VPS vs AWS: Which Hosting to Choose for Your Product in 2026": {
+    "es": "VPS vs AWS: qué hosting elegir para su producto en 2026",
+    "it": "VPS vs AWS: quale hosting scegliere per il vostro prodotto nel 2026",
+    "tr": "VPS vs AWS: 2026’da ürününüz için hangi hosting"
+  },
+  "A practical VPS vs AWS comparison for startups and SMBs: pricing, bandwidth, scaling, ops complexity, and when Lightsail, DigitalOcean, Hetzner, or full EC2 actually make sense.": {
+    "es": "Comparación práctica VPS vs AWS para startups y pymes: precio, ancho de banda, scaling, complejidad de ops, y cuándo Lightsail, DigitalOcean, Hetzner o EC2 completo tienen sentido.",
+    "it": "Confronto pratico VPS vs AWS per startup e PMI: prezzo, banda, scaling, complessità ops, e quando Lightsail, DigitalOcean, Hetzner o EC2 pieno hanno senso.",
+    "tr": "Startup ve KOBİ’ler için pratik VPS vs AWS karşılaştırması: fiyat, bant genişliği, ölçek, ops karmaşıklığı ve Lightsail, DigitalOcean, Hetzner veya tam EC2’nin ne zaman anlamı var."
+  },
+  "“VPS vs AWS” is the wrong framing if you treat them as the same product. A VPS is usually one (or a few) virtual machines with flat monthly pricing. AWS is a platform of dozens of services — compute, databases, queues, CDN, IAM, autoscaling — billed by usage. The decision is less “which logo” and more “do you need a server or a cloud platform?”": {
+    "es": "«VPS vs AWS» es el marco equivocado si los trata como el mismo producto. Un VPS suele ser una (o pocas) máquinas virtuales con precio mensual plano. AWS es una plataforma de decenas de servicios — compute, bases, colas, CDN, IAM, autoscaling — facturada por uso. La decisión no es «qué logo» sino «¿necesita un servidor o una plataforma cloud?»",
+    "it": "«VPS vs AWS» è il frame sbagliato se li trattate come lo stesso prodotto. Un VPS di solito è una (o poche) macchine virtuali a prezzo mensile piatto. AWS è una piattaforma di decine di servizi — compute, database, code, CDN, IAM, autoscaling — fatturata a consumo. La decisione non è «quale logo» ma «vi serve un server o una piattaforma cloud?»",
+    "tr": "Aynı ürün gibi ele alırsanız «VPS vs AWS» yanlış çerçevedir. VPS genelde düz aylık fiyatlı bir (veya birkaç) sanal makinedir. AWS onlarca hizmetin platformudur — compute, veritabanı, kuyruk, CDN, IAM, autoscaling — kullanıma göre faturalanır. Karar «hangi logo» değil: «sunucu mu, cloud platform mu?»"
+  },
+  "For most websites, CRMs, landing pages, and early SaaS MVPs, a well-managed VPS wins on price and simplicity. AWS starts to pay for itself when you need global reach, elastic traffic spikes, managed data services, compliance tooling, or a team that already speaks CloudFormation / Terraform on AWS.": {
+    "es": "Para la mayoría de sitios, CRM, landing y MVP SaaS tempranos, un VPS bien gestionado gana en precio y simplicidad. AWS se paga solo cuando necesita alcance global, picos elásticos, datos gestionados, compliance o un equipo que ya habla CloudFormation / Terraform en AWS.",
+    "it": "Per la maggior parte di siti, CRM, landing e MVP SaaS precoci, un VPS ben gestito vince su prezzo e semplicità. AWS si ripaga quando serve portata globale, picchi elastici, dati gestiti, compliance o un team che già parla CloudFormation / Terraform su AWS.",
+    "tr": "Çoğu site, CRM, landing ve erken SaaS MVP için iyi yönetilen bir VPS fiyat ve sadelikte kazanır. AWS, küresel erişim, esnek trafik sıçraması, managed veri, compliance veya AWS’te CloudFormation / Terraform konuşan bir ekip gerektiğinde kendini öder."
+  },
+  "1. What You Actually Buy": {
+    "es": "1. Qué compra de verdad",
+    "it": "1. Cosa comprate davvero",
+    "tr": "1. Gerçekten ne alıyorsunuz"
+  },
+  "Clarify the product boundaries before comparing invoices. “Cheap EC2” is not a fair match for a DigitalOcean Droplet until you add storage, snapshots, egress, and often a load balancer or managed DB.": {
+    "es": "Aclare los límites del producto antes de comparar facturas. Un «EC2 barato» no es un rival justo de un Droplet de DigitalOcean hasta sumar storage, snapshots, egress y a menudo un load balancer o una DB gestionada.",
+    "it": "Chiarite i confini del prodotto prima di confrontare le fatture. Un «EC2 economico» non è un pari di un Droplet DigitalOcean finché non aggiungete storage, snapshot, egress e spesso un load balancer o un DB gestito.",
+    "tr": "Faturaları karşılaştırmadan ürün sınırlarını netleştirin. Storage, snapshot, egress ve çoğu zaman load balancer veya managed DB eklemeden «ucuz EC2», DigitalOcean Droplet’e adil rakip değildir."
+  },
+  "Classic VPS (Hetzner, Contabo, some OVH plans): VM + disk + generous traffic, minimal managed extras. Lowest $/GB RAM, more DIY ops.": {
+    "es": "VPS clásico (Hetzner, Contabo, algunos planes OVH): VM + disco + tráfico generoso, extras gestionados mínimos. El $/GB RAM más bajo, más ops DIY.",
+    "it": "VPS classico (Hetzner, Contabo, alcuni piani OVH): VM + disco + traffico generoso, extra gestiti minimi. Il $/GB RAM più basso, più ops fai-da-te.",
+    "tr": "Klasik VPS (Hetzner, Contabo, bazı OVH planları): VM + disk + cömert trafik, az managed ekstra. En düşük $/GB RAM, daha fazla DIY ops."
+  },
+  "Developer cloud VPS (DigitalOcean, Vultr, Linode/Akamai): flat VM pricing plus optional managed Postgres, Spaces, K8s — simpler UX than raw AWS.": {
+    "es": "VPS cloud para developers (DigitalOcean, Vultr, Linode/Akamai): precio plano de VM más Postgres gestionado opcional, Spaces, K8s — UX más simple que AWS crudo.",
+    "it": "VPS cloud per developer (DigitalOcean, Vultr, Linode/Akamai): prezzo piatto della VM più Postgres gestito opzionale, Spaces, K8s — UX più semplice dell’AWS crudo.",
+    "tr": "Geliştirici cloud VPS (DigitalOcean, Vultr, Linode/Akamai): düz VM fiyatı artı isteğe bağlı managed Postgres, Spaces, K8s — ham AWS’ten daha sade UX."
+  },
+  "AWS Lightsail: AWS’s bundled VPS-like product — predictable monthly price, easy path into the wider AWS ecosystem later.": {
+    "es": "AWS Lightsail: el producto empaquetado tipo VPS de AWS — precio mensual previsible, camino fácil al ecosistema AWS más adelante.",
+    "it": "AWS Lightsail: il prodotto a pacchetto tipo VPS di AWS — prezzo mensile prevedibile, strada facile verso l’ecosistema AWS dopo.",
+    "tr": "AWS Lightsail: AWS’in paketlenmiş VPS benzeri ürünü — öngörülebilir aylık fiyat, sonra daha geniş AWS ekosistemine kolay yol."
+  },
+  "Full AWS (EC2 + EBS + RDS + ALB + S3 + CloudWatch…): modular cloud. Powerful, flexible, and easy to overspend without FinOps discipline.": {
+    "es": "AWS completo (EC2 + EBS + RDS + ALB + S3 + CloudWatch…): cloud modular. Potente, flexible y fácil de gastar de más sin disciplina FinOps.",
+    "it": "AWS pieno (EC2 + EBS + RDS + ALB + S3 + CloudWatch…): cloud modulare. Potente, flessibile e facile da spendere troppo senza disciplina FinOps.",
+    "tr": "Tam AWS (EC2 + EBS + RDS + ALB + S3 + CloudWatch…): modüler cloud. Güçlü, esnek ve FinOps disiplini olmadan fazla harcaması kolay."
+  },
+  "2. Cost Snapshot (August 2026)": {
+    "es": "2. Instantánea de costes (agosto 2026)",
+    "it": "2. Istantanea dei costi (agosto 2026)",
+    "tr": "2. Maliyet anlık görüntüsü (Ağustos 2026)"
+  },
+  "Headline VM prices move, but the pattern is stable: EU-centric VPS is cheapest per resource; developer clouds are mid; raw AWS looks fine until storage and egress land on the bill. Always recheck vendor pages before locking a budget.": {
+    "es": "Los precios de titular de las VM se mueven, pero el patrón es estable: el VPS centrado en la UE es el más barato por recurso; las clouds de developers, en medio; AWS crudo parece bien hasta que storage y egress aterrizan en la factura. Rechequee las páginas del vendor antes de cerrar presupuesto.",
+    "it": "I prezzi in vetrina delle VM si muovono, ma il pattern è stabile: il VPS centrato sull’UE è il più economico per risorsa; le cloud per developer stanno in mezzo; l’AWS crudo sembra ok finché storage ed egress atterrano in fattura. Ricontrollate le pagine del vendor prima di chiudere un budget.",
+    "tr": "Manşet VM fiyatları oynar ama kalıp sabittir: AB odaklı VPS kaynak başına en ucuz; geliştirici cloud’ları ortada; ham AWS, storage ve egress faturaya düşünceye kadar iyi görünür. Bütçeyi kilitlemeden vendor sayfalarını yeniden kontrol edin."
+  },
+  "Hetzner Cloud (~2 vCPU / 4 GB): often ~€4–6/month with ~20 TB EU traffic — best raw price/performance in Europe.": {
+    "es": "Hetzner Cloud (~2 vCPU / 4 GB): a menudo ~€4–6/mes con ~20 TB de tráfico UE — mejor precio/rendimiento crudo en Europa.",
+    "it": "Hetzner Cloud (~2 vCPU / 4 GB): spesso ~€4–6/mese con ~20 TB di traffico UE — miglior prezzo/performance crudo in Europa.",
+    "tr": "Hetzner Cloud (~2 vCPU / 4 GB): sıkça ~€4–6/ay ve ~20 TB AB trafiği — Avrupa’da en iyi ham fiyat/performans."
+  },
+  "DigitalOcean Basic (~2–4 GB RAM): roughly $12–24/month with 1–4 TB transfer — predictable and beginner-friendly.": {
+    "es": "DigitalOcean Basic (~2–4 GB RAM): unos $12–24/mes con 1–4 TB de transferencia — previsible y amable para empezar.",
+    "it": "DigitalOcean Basic (~2–4 GB RAM): circa $12–24/mese con 1–4 TB di trasferimento — prevedibile e amichevole per iniziare.",
+    "tr": "DigitalOcean Basic (~2–4 GB RAM): kabaca $12–24/ay ve 1–4 TB transfer — öngörülebilir ve başlangıç dostu."
+  },
+  "AWS Lightsail (2 GB bundle): ~$12/month with disk + several TB transfer bundled — fairest AWS vs VPS apples-to-apples.": {
+    "es": "AWS Lightsail (pack 2 GB): ~$12/mes con disco + varios TB de transferencia incluidos — la comparación más justa AWS vs VPS.",
+    "it": "AWS Lightsail (bundle 2 GB): ~$12/mese con disco + diversi TB di trasferimento inclusi — il confronto più onesto AWS vs VPS.",
+    "tr": "AWS Lightsail (2 GB paket): disk + birkaç TB transfer dahil ~$12/ay — AWS vs VPS için en adil elma-elma."
+  },
+  "AWS EC2 t-family mid instance: compute-only can look cheap (~$12–30), but EBS, snapshots, public IPv4, ALB, and egress usually push a “simple” stack to $80–150+/month.": {
+    "es": "AWS EC2 familia t intermedia: solo compute puede parecer barato (~$12–30), pero EBS, snapshots, IPv4 público, ALB y egress suelen empujar una stack «simple» a $80–150+/mes.",
+    "it": "AWS EC2 famiglia t intermedia: solo compute può sembrare economico (~$12–30), ma EBS, snapshot, IPv4 pubblico, ALB ed egress di solito spingono una stack «semplice» a $80–150+/mese.",
+    "tr": "AWS EC2 t-ailesi orta instance: yalnızca compute ucuz görünebilir (~$12–30), ama EBS, snapshot, genel IPv4, ALB ve egress «basit» bir stack’i genelde $80–150+/aya iter."
+  },
+  "Bandwidth trap: many VPS plans include terabytes; AWS egress after free allowance is commonly ~$0.09/GB — painful for media, downloads, or chatty APIs.": {
+    "es": "Trampa del ancho de banda: muchos planes VPS incluyen terabytes; el egress de AWS tras la franquicia suele ser ~$0.09/GB — doloroso para media, descargas o APIs habladoras.",
+    "it": "Trappola della banda: molti piani VPS includono terabyte; l’egress AWS dopo la franchigia è spesso ~$0.09/GB — doloroso per media, download o API chiacchierone.",
+    "tr": "Bant genişliği tuzağı: birçok VPS planı terabayt içerir; AWS egress ücretsiz kotadan sonra genelde ~$0.09/GB — medya, indirme veya konuşkan API’ler için acı."
+  },
+  "3. Realistic Monthly Stacks": {
+    "es": "3. Stacks mensuales realistas",
+    "it": "3. Stack mensili realistiche",
+    "tr": "3. Gerçekçi aylık stack’ler"
+  },
+  "Compare full production shapes, not bare VMs: app server + database + backups + basic monitoring. Approximate ranges for a small business web/SaaS workload:": {
+    "es": "Compare formas de production completas, no VMs desnudas: servidor de app + base + backups + monitorización básica. Rangos aproximados para una carga web/SaaS de pyme:",
+    "it": "Confrontate forme di production complete, non VM nude: server app + database + backup + monitoring di base. Range approssimativi per un carico web/SaaS di PMI:",
+    "tr": "Çıplak VM değil, tam production şekillerini karşılaştırın: app sunucusu + veritabanı + backup + temel izleme. Küçük işletme web/SaaS yükü için yaklaşık aralıklar:"
+  },
+  "Hetzner / cheap VPS single-node (Docker Compose, Postgres on same box, snapshots): often $15–60/month — excellent for MVP and predictable traffic.": {
+    "es": "Hetzner / VPS barato de un nodo (Docker Compose, Postgres en la misma caja, snapshots): a menudo $15–60/mes — excelente para MVP y tráfico previsible.",
+    "it": "Hetzner / VPS economico a un nodo (Docker Compose, Postgres sulla stessa box, snapshot): spesso $15–60/mese — ottimo per MVP e traffico prevedibile.",
+    "tr": "Hetzner / ucuz tek düğüm VPS (Docker Compose, aynı kutuda Postgres, snapshot): sıkça $15–60/ay — MVP ve öngörülebilir trafik için mükemmel."
+  },
+  "DigitalOcean-style stack (app droplet + managed Postgres + backups): often $50–120/month — pays for less ops pain.": {
+    "es": "Stack estilo DigitalOcean (droplet de app + Postgres gestionado + backups): a menudo $50–120/mes — paga menos dolor de ops.",
+    "it": "Stack stile DigitalOcean (droplet app + Postgres gestito + backup): spesso $50–120/mese — paga meno dolore di ops.",
+    "tr": "DigitalOcean tarzı stack (app droplet + managed Postgres + backup): sıkça $50–120/ay — daha az ops acısı için ödersiniz."
+  },
+  "AWS Lightsail app + managed DB equivalent / simple multi-service: often $40–100/month if you stay inside bundles.": {
+    "es": "App Lightsail + equivalente de DB gestionada / multi-servicio simple: a menudo $40–100/mes si se queda dentro de los packs.",
+    "it": "App Lightsail + equivalente di DB gestito / multi-servizio semplice: spesso $40–100/mese se restate nei bundle.",
+    "tr": "AWS Lightsail app + managed DB eşdeğeri / basit çoklu servis: paketlerin içinde kalırsanız sıkça $40–100/ay."
+  },
+  "AWS “proper” small production (EC2 + RDS + ALB + S3 + logs): commonly $150–400/month on-demand; Reserved/Savings Plans can cut compute, not always egress.": {
+    "es": "AWS «de verdad» en production pequeña (EC2 + RDS + ALB + S3 + logs): suele ser $150–400/mes on-demand; Reserved/Savings Plans recortan compute, no siempre el egress.",
+    "it": "AWS «vero» in production piccola (EC2 + RDS + ALB + S3 + log): di solito $150–400/mese on-demand; Reserved/Savings Plans tagliano il compute, non sempre l’egress.",
+    "tr": "AWS «düzgün» küçük production (EC2 + RDS + ALB + S3 + log): on-demand genelde $150–400/ay; Reserved/Savings Plans compute’u keser, egress’i her zaman değil."
+  },
+  "Rule of thumb: budget ~1.2–1.4× headline VPS price for extras; ~1.7–2.2× headline EC2 price once AWS add-ons appear.": {
+    "es": "Regla práctica: presupueste ~1,2–1,4× el precio de titular del VPS para extras; ~1,7–2,2× el de EC2 cuando aparecen los add-ons de AWS.",
+    "it": "Regola pratica: budgetate ~1,2–1,4× il prezzo in vetrina del VPS per gli extra; ~1,7–2,2× quello EC2 quando compaiono gli add-on AWS.",
+    "tr": "Kural: ekstralar için manşet VPS fiyatının ~1,2–1,4 katı; AWS eklentileri belirdiğinde manşet EC2 fiyatının ~1,7–2,2 katı bütçeleyin."
+  },
+  "4. Operations, Scaling, and Risk": {
+    "es": "4. Operaciones, scaling y riesgo",
+    "it": "4. Operazioni, scaling e rischio",
+    "tr": "4. Operasyon, ölçek ve risk"
+  },
+  "Invoice price is only half the TCO. Who patches the OS, rotates backups, and wakes up at 3 AM matters as much as vCPU count.": {
+    "es": "El precio de factura es solo la mitad del TCO. Quién parchea el OS, rota backups y se despierta a las 3 de la madrugada importa tanto como el recuento de vCPU.",
+    "it": "Il prezzo in fattura è solo metà del TCO. Chi patcha l’OS, ruota i backup e si sveglia alle 3 di notte conta quanto il numero di vCPU.",
+    "tr": "Fatura fiyatı TCO’nun yarısıdır. OS’u kim yamalar, backup’ı kim döndürür, gece 3’te kim uyanır — vCPU sayısı kadar önemlidir."
+  },
+  "VPS strength: simple mental model, SSH + Docker, fixed bill, fast to ship. Weakness: you own HA, failover, and security hardening.": {
+    "es": "Fuerza del VPS: modelo mental simple, SSH + Docker, factura fija, rápido de entregar. Debilidad: usted es dueño del HA, el failover y el endurecimiento de seguridad.",
+    "it": "Forza del VPS: modello mentale semplice, SSH + Docker, bolletta fissa, veloce da consegnare. Debolezza: HA, failover e hardening di sicurezza sono vostri.",
+    "tr": "VPS gücü: sade zihinsel model, SSH + Docker, sabit fatura, hızlı teslim. Zayıf yanı: HA, failover ve güvenlik sertleştirmesi sizin."
+  },
+  "AWS strength: autoscaling groups, multi-AZ RDS, IAM, private networking, global regions, mature compliance story. Weakness: steep learning curve and surprise bills.": {
+    "es": "Fuerza de AWS: grupos de autoscaling, RDS multi-AZ, IAM, red privada, regiones globales, compliance maduro. Debilidad: curva de aprendizaje dura y facturas sorpresa.",
+    "it": "Forza di AWS: gruppi di autoscaling, RDS multi-AZ, IAM, rete privata, regioni globali, compliance matura. Debolezza: curva di apprendimento ripida e bollette a sorpresa.",
+    "tr": "AWS gücü: autoscaling grupları, multi-AZ RDS, IAM, özel ağ, küresel bölgeler, olgun compliance. Zayıf yanı: dik öğrenme eğrisi ve sürpriz faturalar."
+  },
+  "Scaling: vertical resize on VPS is fine until one box is not enough; AWS shines for bursty or multi-region demand.": {
+    "es": "Scaling: el resize vertical en VPS vale hasta que una caja no basta; AWS brilla con demanda a ráfagas o multi-región.",
+    "it": "Scaling: il resize verticale sul VPS va finché una box non basta; AWS brilla con domanda a raffiche o multi-regione.",
+    "tr": "Ölçek: VPS’te dikey resize bir kutu yetene kadar iyidir; AWS patlamalı veya çok bölgeli talepte parlar."
+  },
+  "Reliability: a single VPS is one failure domain. AWS does not magically give HA — you still design (and pay) for it.": {
+    "es": "Fiabilidad: un solo VPS es un dominio de fallo. AWS no regala HA por magia — aún lo diseña (y lo paga).",
+    "it": "Affidabilità: un solo VPS è un dominio di fallimento. AWS non regala HA per magia — lo progettate (e lo pagate) ancora.",
+    "tr": "Güvenilirlik: tek VPS tek arıza alanıdır. AWS sihirle HA vermez — yine tasarlarsınız (ve ödersiniz)."
+  },
+  "Team skill: if nobody knows IAM/VPC, AWS cost includes training or agency hours. A senior who knows Linux may ship safer on VPS sooner.": {
+    "es": "Skill del equipo: si nadie sabe IAM/VPC, el coste de AWS incluye formación u horas de agencia. Un senior que sabe Linux puede entregar más seguro en VPS, antes.",
+    "it": "Skill del team: se nessuno sa IAM/VPC, il costo AWS include formazione o ore di agenzia. Un senior che sa Linux può consegnare più sicuro su VPS, prima.",
+    "tr": "Ekip becerisi: kimse IAM/VPC bilmiyorsa AWS maliyeti eğitim veya ajans saatini içerir. Linux bilen bir senior VPS’te daha güvenli ve daha erken teslim edebilir."
+  },
+  "5. When to Choose VPS": {
+    "es": "5. Cuándo elegir VPS",
+    "it": "5. Quando scegliere VPS",
+    "tr": "5. VPS’i ne zaman seçmeli"
+  },
+  "Pick VPS when predictability and speed of delivery beat platform features.": {
+    "es": "Elija VPS cuando la previsibilidad y la velocidad de entrega ganan a las features de plataforma.",
+    "it": "Scegliete VPS quando prevedibilità e velocità di consegna battono le feature di piattaforma.",
+    "tr": "Öngörülebilirlik ve teslim hızı platform feature’larını yendiğinde VPS seçin."
+  },
+  "Marketing sites, company blogs, internal tools, admin panels with steady traffic.": {
+    "es": "Sitios de marketing, blogs de empresa, herramientas internas, paneles admin con tráfico estable.",
+    "it": "Siti marketing, blog aziendali, tool interni, pannelli admin con traffico stabile.",
+    "tr": "Pazarlama siteleri, şirket blogları, iç araçlar, sabit trafikli admin panelleri."
+  },
+  "MVP / early SaaS under a few thousand DAU where one or two VMs are enough.": {
+    "es": "MVP / SaaS temprano por debajo de unos miles de DAU donde bastan una o dos VM.",
+    "it": "MVP / SaaS precoce sotto qualche migliaio di DAU dove bastano una o due VM.",
+    "tr": "Bir veya iki VM’in yettiği, birkaç bin DAU altı MVP / erken SaaS."
+  },
+  "EU-focused products that benefit from Hetzner-class price and traffic allowances.": {
+    "es": "Productos centrados en la UE que aprovechan precio y tráfico de clase Hetzner.",
+    "it": "Prodotti centrati sull’UE che sfruttano prezzo e traffico di classe Hetzner.",
+    "tr": "Hetzner sınıfı fiyat ve trafik kotasından yararlanan AB odaklı ürünler."
+  },
+  "Teams comfortable with Docker, Nginx, Fail2ban, offsite backups, and basic monitoring (Uptime Kuma, Grafana, etc.).": {
+    "es": "Equipos cómodos con Docker, Nginx, Fail2ban, backups offsite y monitorización básica (Uptime Kuma, Grafana, etc.).",
+    "it": "Team a loro agio con Docker, Nginx, Fail2ban, backup offsite e monitoring di base (Uptime Kuma, Grafana, ecc.).",
+    "tr": "Docker, Nginx, Fail2ban, offsite backup ve temel izleme (Uptime Kuma, Grafana vb.) ile rahat ekipler."
+  },
+  "6. When to Choose AWS": {
+    "es": "6. Cuándo elegir AWS",
+    "it": "6. Quando scegliere AWS",
+    "tr": "6. AWS’i ne zaman seçmeli"
+  },
+  "Choose AWS when the platform removes constraints you would otherwise rebuild yourself — or when clients/compliance already require it.": {
+    "es": "Elija AWS cuando la plataforma quite constraints que de otro modo reconstruiría usted — o cuando clientes/compliance ya lo exigen.",
+    "it": "Scegliete AWS quando la piattaforma toglie vincoli che altrimenti ricostruireste voi — o quando clienti/compliance lo richiedono già.",
+    "tr": "Platform, yoksa kendiniz yeniden kuracağınız kısıtları kaldırıyorsa — veya müşteri/compliance zaten istiyorsa AWS seçin."
+  },
+  "Spiky traffic, event launches, or workloads that must scale out in minutes.": {
+    "es": "Tráfico a picos, lanzamientos de eventos o cargas que deben escalar en minutos.",
+    "it": "Traffico a picchi, lanci di eventi o carichi che devono scalare in minuti.",
+    "tr": "Sıçramalı trafik, etkinlik lansmanları veya dakikalar içinde ölçeklenmesi gereken yükler."
+  },
+  "Need managed RDS/Aurora, SQS/SNS, Lambda, Cognito, or tight S3 + CloudFront pipelines.": {
+    "es": "Necesita RDS/Aurora gestionados, SQS/SNS, Lambda, Cognito o pipelines S3 + CloudFront apretados.",
+    "it": "Vi servono RDS/Aurora gestiti, SQS/SNS, Lambda, Cognito o pipeline S3 + CloudFront strette.",
+    "tr": "Managed RDS/Aurora, SQS/SNS, Lambda, Cognito veya sıkı S3 + CloudFront hatları gerekiyorsa."
+  },
+  "Multi-region latency, enterprise procurement, or questionnaires that ask for AWS controls.": {
+    "es": "Latencia multi-región, procurement enterprise o cuestionarios que piden controles AWS.",
+    "it": "Latenza multi-regione, procurement enterprise o questionari che chiedono controlli AWS.",
+    "tr": "Çok bölgeli gecikme, kurumsal satın alma veya AWS kontrolleri soran anketler."
+  },
+  "You already run IaC on AWS and the opportunity cost of relearning another stack is higher than the extra bill.": {
+    "es": "Ya corre IaC en AWS y el coste de oportunidad de reaprender otra stack es mayor que la factura extra.",
+    "it": "Già fate IaC su AWS e il costo-opportunità di reimparare un’altra stack è più alto della bolletta extra.",
+    "tr": "AWS’te zaten IaC çalıştırıyorsunuz ve başka stack öğrenmenin fırsat maliyeti ekstra faturadan yüksek."
+  },
+  "7. Practical Decision Path": {
+    "es": "7. Camino de decisión práctico",
+    "it": "7. Percorso di decisione pratico",
+    "tr": "7. Pratik karar yolu"
+  },
+  "Most teams should start simple and graduate — not the reverse. Migration from VPS to AWS is common; the reverse often happens after a painful first AWS invoice.": {
+    "es": "La mayoría de equipos debería empezar simple y graduarse — no al revés. Migrar de VPS a AWS es común; lo inverso suele pasar tras una primera factura AWS dolorosa.",
+    "it": "La maggior parte dei team dovrebbe partire semplice e laurearsi — non il contrario. Migrare da VPS ad AWS è comune; il contrario succede spesso dopo una prima fattura AWS dolorosa.",
+    "tr": "Çoğu ekip sade başlamalı ve mezun olmalı — tersi değil. VPS’ten AWS’e göç yaygındır; tersi çoğu zaman acı bir ilk AWS faturasından sonra olur."
+  },
+  "Step 1 — Ship on one VPS (or Lightsail) with automated backups and staging on a second small box.": {
+    "es": "Paso 1 — Entregue en un VPS (o Lightsail) con backups automáticos y staging en una segunda caja pequeña.",
+    "it": "Passo 1 — Consegnate su un VPS (o Lightsail) con backup automatici e staging su una seconda box piccola.",
+    "tr": "Adım 1 — Otomatik backup ve ikinci küçük kutuda staging ile bir VPS’te (veya Lightsail’de) teslim edin."
+  },
+  "Step 2 — Split DB when uptime or restore speed matters (managed Postgres on DO/AWS, or a second VPS).": {
+    "es": "Paso 2 — Separe la DB cuando importen el uptime o la velocidad de restore (Postgres gestionado en DO/AWS, o un segundo VPS).",
+    "it": "Passo 2 — Separate il DB quando contano uptime o velocità di restore (Postgres gestito su DO/AWS, o un secondo VPS).",
+    "tr": "Adım 2 — Uptime veya geri yükleme hızı önemliyse DB’yi ayırın (DO/AWS’te managed Postgres veya ikinci VPS)."
+  },
+  "Step 3 — Move to full AWS only for a concrete trigger: multi-AZ HA, global users, serverless events, or enterprise security requirements.": {
+    "es": "Paso 3 — Pase a AWS completo solo por un trigger concreto: HA multi-AZ, usuarios globales, eventos serverless o requisitos de seguridad enterprise.",
+    "it": "Passo 3 — Passate ad AWS pieno solo per un trigger concreto: HA multi-AZ, utenti globali, eventi serverless o requisiti di sicurezza enterprise.",
+    "tr": "Adım 3 — Tam AWS’e yalnızca somut bir tetikle geçin: multi-AZ HA, küresel kullanıcılar, serverless olaylar veya kurumsal güvenlik gereksinimleri."
+  },
+  "Hybrid that works: VPS/Hetzner for staging & workers; AWS S3/CloudFront or SES for files/email; keep the app where ops is cheapest.": {
+    "es": "Híbrido que funciona: VPS/Hetzner para staging y workers; AWS S3/CloudFront o SES para archivos/email; la app donde las ops son más baratas.",
+    "it": "Ibrido che funziona: VPS/Hetzner per staging e worker; AWS S3/CloudFront o SES per file/email; l’app dove le ops costano meno.",
+    "tr": "İşleyen hibrit: staging ve worker için VPS/Hetzner; dosya/e-posta için AWS S3/CloudFront veya SES; app’i ops’un en ucuz olduğu yerde tutun."
+  },
+  "Always set billing alarms (AWS Budgets / DO alerts) and track cost per active user — not vanity uptime alone.": {
+    "es": "Ponga siempre alarmas de facturación (AWS Budgets / alertas DO) y siga el coste por usuario activo — no solo el uptime de vanidad.",
+    "it": "Mettete sempre allarmi di fatturazione (AWS Budgets / alert DO) e tracciate il costo per utente attivo — non solo l’uptime da vetrina.",
+    "tr": "Her zaman fatura alarmı kurun (AWS Budgets / DO uyarıları) ve aktif kullanıcı başına maliyeti izleyin — yalnızca vitrin uptime değil."
+  },
+  "Conclusion": {
+    "es": "Conclusión",
+    "it": "Conclusione",
+    "tr": "Sonuç"
+  },
+  "VPS wins for predictable apps, tight budgets, and small teams that can manage a Linux box. AWS wins when you need elastic scale, deep managed services, or enterprise-grade platform controls — and you accept higher complexity and a bill that is easy to inflate. If you are unsure, start with a flat-priced VPS or Lightsail, instrument real traffic for 30–60 days, then upgrade only when a measured constraint forces it.": {
+    "es": "VPS gana en apps previsibles, presupuestos justos y equipos pequeños que saben gestionar una caja Linux. AWS gana cuando necesita escala elástica, servicios gestionados profundos o controles de plataforma enterprise — y acepta más complejidad y una factura fácil de inflar. Si duda, empiece con un VPS de precio plano o Lightsail, instrumente tráfico real 30–60 días y suba solo cuando un constraint medido lo obligue.",
+    "it": "VPS vince su app prevedibili, budget stretti e team piccoli che sanno gestire una box Linux. AWS vince quando serve scala elastica, servizi gestiti profondi o controlli di piattaforma enterprise — e accettate più complessità e una bolletta facile da gonfiare. Se non siete sicuri, partite da un VPS a prezzo piatto o Lightsail, strumentate traffico reale 30–60 giorni e salite solo quando un vincolo misurato ve lo impone.",
+    "tr": "VPS öngörülebilir app’lerde, sıkı bütçelerde ve bir Linux kutusunu yönetebilen küçük ekiplerde kazanır. AWS esnek ölçek, derin managed hizmetler veya kurumsal platform kontrolleri gerektiğinde kazanır — ve daha yüksek karmaşıklık ile şişmesi kolay bir faturayı kabul edersiniz. Emin değilseniz düz fiyatlı VPS veya Lightsail ile başlayın, 30–60 gün gerçek trafiği ölçün, yalnızca ölçülmüş bir kısıt zorlarsa yükseltin."
+  }
+}

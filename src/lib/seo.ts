@@ -7,6 +7,9 @@ export function getLanguageAlternates(pathWithoutLang: string) {
   const ua = `${BASE_URL}${withLangPrefix('ua', pathWithoutLang)}`
   const de = `${BASE_URL}${withLangPrefix('de', pathWithoutLang)}`
   const fr = `${BASE_URL}${withLangPrefix('fr', pathWithoutLang)}`
+  const es = `${BASE_URL}${withLangPrefix('es', pathWithoutLang)}`
+  const it = `${BASE_URL}${withLangPrefix('it', pathWithoutLang)}`
+  const tr = `${BASE_URL}${withLangPrefix('tr', pathWithoutLang)}`
 
   return {
     en,
@@ -16,6 +19,12 @@ export function getLanguageAlternates(pathWithoutLang: string) {
     [LOCALE_TAGS.de]: de,
     fr,
     [LOCALE_TAGS.fr]: fr,
+    es,
+    [LOCALE_TAGS.es]: es,
+    it,
+    [LOCALE_TAGS.it]: it,
+    tr,
+    [LOCALE_TAGS.tr]: tr,
     'x-default': en,
   }
 }

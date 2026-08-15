@@ -1,0 +1,267 @@
+{
+  "Schema-per-tenant or DB-per-tenant only when a contract, a compliance checklist, or a real noisy neighbor forces it. Migrations across 200 schemas are a product you did not want.": {
+    "es": "Schema-per-tenant o DB-per-tenant solo cuando un contrato, un checklist de compliance o un vecino ruidoso de verdad lo obliga. Migrar 200 schemas es un producto que no quería.",
+    "it": "Schema-per-tenant o DB-per-tenant solo quando un contratto, una checklist di compliance o un vicino rumoroso vero ve lo impone. Migrare 200 schema è un prodotto che non volevate.",
+    "tr": "Schema-per-tenant veya DB-per-tenant yalnızca sözleşme, compliance listesi veya gerçek bir gürültülü komşu zorlarsa. 200 schema üzerinde migration, istemediğiniz bir üründür."
+  },
+  "What constraint is real: four weeks, one developer, a regulated domain, an existing CRM, a Telegram audience?": {
+    "es": "¿Qué constraint es real: cuatro semanas, una desarrolladora, un dominio regulado, un CRM existente, una audiencia en Telegram?",
+    "it": "Quale vincolo è reale: quattro settimane, una sviluppatrice, un dominio regolato, un CRM esistente, un’audience Telegram?",
+    "tr": "Hangi kısıt gerçek: dört hafta, bir geliştirici, regüle bir alan, mevcut bir CRM, Telegram kitlesi?"
+  },
+  "What would make us stop? If we cannot name a kill criterion, we are building a hobby, not an experiment.": {
+    "es": "¿Qué nos haría parar? Si no podemos nombrar un criterio de abandono, estamos construyendo un hobby, no un experimento.",
+    "it": "Cosa ci farebbe fermare? Se non sappiamo nominare un criterio di abbandono, stiamo costruendo un hobby, non un esperimento.",
+    "tr": "Bizi ne durdurur? Bir bırakma kriteri adlandıramıyorsak hobi kuruyoruz, deney değil."
+  },
+  "3. Five filters I use to pick technology": {
+    "es": "3. Cinco filtros para elegir la tecnología",
+    "it": "3. Cinque filtri per scegliere la tecnologia",
+    "tr": "3. Teknoloji seçmek için beş filtre"
+  },
+  "I do not pick tools because they are trending. I pick them because they survive contact with a solo developer, a small budget, and the first angry user. Every technology has to pass these filters.": {
+    "es": "No elijo herramientas porque estén de moda. Las elijo porque sobreviven al contacto con una desarrolladora sola, un presupuesto pequeño y el primer usuario enfadado. Cada tecnología pasa estos filtros.",
+    "it": "Non scelgo i tool perché sono di moda. Li scelgo perché sopravvivono al contatto con una sviluppatrice sola, un budget piccolo e il primo utente arrabbiato. Ogni tecnologia passa questi filtri.",
+    "tr": "Araçları trend oldukları için seçmem. Tek geliştirici, küçük bütçe ve ilk öfkeli kullanıcıyla teması atlattıkları için seçerim. Her teknoloji bu filtrelerden geçer."
+  },
+  "Time to first real user. If the stack adds a week before anyone can click, it is the wrong stack for an MVP. Boring tools that I already ship in production beat a fashionable one I would learn under deadline.": {
+    "es": "Tiempo hasta el primer usuario real. Si la stack añade una semana antes del primer clic, es la stack equivocada para un MVP. Las herramientas aburridas que ya entrego en production ganan a una de moda que aprendería bajo deadline.",
+    "it": "Tempo fino al primo utente vero. Se la stack aggiunge una settimana prima del primo clic, è la stack sbagliata per un MVP. I tool noiosi che già consegno in production battono uno di moda che imparerei sotto deadline.",
+    "tr": "İlk gerçek kullanıcıya süre. Stack ilk tıklamadan önce bir hafta ekliyorsa, MVP için yanlış stack’tir. Production’da zaten teslim ettiğim sıkıcı araçlar, deadline altında öğreneceğim moda olanı yener."
+  },
+  "One-person operability. I should be able to deploy, read logs, restore a backup, and rotate a key without a platform team. Kubernetes fails this test for almost every early product.": {
+    "es": "Operable por una persona. Debo poder desplegar, leer logs, restaurar un backup y rotar una clave sin equipo de plataforma. Kubernetes suspende este test en casi todo producto temprano.",
+    "it": "Operabile da una persona. Devo poter fare deploy, leggere i log, ripristinare un backup e ruotare una chiave senza team di piattaforma. Kubernetes fallisce questo test per quasi ogni prodotto precoce.",
+    "tr": "Tek kişiyle işletilebilirlik. Platform ekibi olmadan deploy, log okuma, backup geri yükleme ve key rotate edebilmeliyim. Kubernetes bu testi neredeyse her erken üründe kaybeder."
+  },
+  "Hireable and replaceable. TypeScript, Postgres, and React are not exciting. They are the languages other good people already speak. An MVP that only I can extend is a hostage, not an asset.": {
+    "es": "Contratables y reemplazables. TypeScript, Postgres y React no son excitantes. Son los lenguajes que ya hablan otras personas buenas. Un MVP que solo yo puedo extender es un rehén, no un activo.",
+    "it": "Assumibili e sostituibili. TypeScript, Postgres e React non sono eccitanti. Sono i linguaggi che altre persone brave parlano già. Un MVP che solo io posso estendere è un ostaggio, non un asset.",
+    "tr": "İşe alınabilir ve değiştirilebilir. TypeScript, Postgres ve React heyecan verici değildir. Başka iyi insanların zaten konuştuğu dillerdir. Yalnızca benim uzatabileceğim bir MVP rehinedir, varlık değil."
+  },
+  "Data gravity. Put the source of truth in a real database with migrations from day one if the product has users and money. Spreadsheets are fine for the experiment next to the product — not inside the checkout.": {
+    "es": "Gravedad de los datos. La fuente de verdad va a una base real con migraciones desde el día uno si hay usuarios y dinero. Las hojas de cálculo valen para el experimento al lado del producto — no dentro del checkout.",
+    "it": "Gravità dei dati. La fonte di verità va in un database vero con migration dal giorno uno se ci sono utenti e soldi. I fogli vanno bene per l’esperimento accanto al prodotto — non dentro il checkout.",
+    "tr": "Veri çekimi. Kullanıcı ve para varsa kaynak gerçek, günden bir migration’lı gerçek bir veritabanındadır. Tablolar ürünün yanındaki deney için iyidir — checkout’un içinde değil."
+  },
+  "Escape hatch. I will use a managed auth, a hosted Postgres, a payment provider. I will not sign a five-year lock-in that makes export painful. Vendor is fine. Trap is not.": {
+    "es": "Escotilla de escape. Usaré un auth gestionado, un Postgres alojado, un proveedor de pagos. No firmaré un lock-in de cinco años cuyo export duele. Un vendor, bien. Una trampa, no.",
+    "it": "Uscita di emergenza. Userò un auth gestito, un Postgres hosted, un payment provider. Non firmerò un lock-in di cinque anni il cui export fa male. Un vendor va. Una trappola no.",
+    "tr": "Kaçış kapağı. Managed auth, hosted Postgres, bir ödeme sağlayıcısı kullanırım. Export’u acıtan beş yıllık lock-in imzalamam. Vendor olur. Tuzak olmaz."
+  },
+  "4. The default web stack I would start with in 2026": {
+    "es": "4. La stack web por defecto con la que empezaría en 2026",
+    "it": "4. La stack web di default con cui inizierei nel 2026",
+    "tr": "4. 2026’da başlayacağım varsayılan web stack"
+  },
+  "For a typical B2B or service MVP — booking, lead capture, a small customer portal, a calculator that turns into a quote — I would start here. Not because it is fashionable. Because I can ship it, SEO it, and still be able to hire someone else in six months.": {
+    "es": "Para un MVP B2B o de servicios típico — reserva, captura de leads, un portal pequeño, un calculador que se vuelve presupuesto — empezaría aquí. No porque esté de moda. Porque puedo entregarlo, hacer SEO y aún contratar a otra persona en seis meses.",
+    "it": "Per un MVP B2B o di servizi tipico — prenotazione, cattura lead, un piccolo portale, un calcolatore che diventa preventivo — inizierei qui. Non perché è di moda. Perché posso consegnare, fare SEO e ancora assumere qualcun altro tra sei mesi.",
+    "tr": "Tipik bir B2B veya hizmet MVP’si için — rezervasyon, lead yakalama, küçük müşteri portalı, teklife dönen hesaplayıcı — buradan başlardım. Moda olduğu için değil. Teslim edebildiğim, SEO yapabildiğim ve altı ay sonra başkasını işe alabildiğim için."
+  },
+  "Next.js + TypeScript + Tailwind: one app for marketing pages (SEO, server rendering) and the product UI. Fewer repos, one deploy, shared types. App Router is fine if the team already knows it; I will not rewrite a working Pages app “for purity.”": {
+    "es": "Next.js + TypeScript + Tailwind: una app para páginas de marketing (SEO, render en servidor) y la UI del producto. Menos repos, un deploy, tipos compartidos. App Router vale si el equipo ya lo conoce; no reescribiré una app Pages que funciona «por pureza».",
+    "it": "Next.js + TypeScript + Tailwind: un’app per le pagine marketing (SEO, render server) e la UI prodotto. Meno repo, un deploy, tipi condivisi. App Router va se il team lo conosce già; non riscriverò un’app Pages che funziona «per purezza».",
+    "tr": "Next.js + TypeScript + Tailwind: pazarlama sayfaları (SEO, sunucu render) ve ürün UI’si için tek app. Daha az repo, bir deploy, paylaşılan tipler. Ekip zaten biliyorsa App Router olur; çalışan bir Pages app’i «saflık için» yeniden yazmam."
+  },
+  "Postgres (often via Supabase, Neon, or a small VPS): relational data, transactions, and SQL I can inspect at 2 a.m. I reach for a document store only when the shape is genuinely document-shaped — not because “NoSQL is faster.”": {
+    "es": "Postgres (a menudo vía Supabase, Neon o un VPS pequeño): datos relacionales, transacciones y SQL que puedo leer a las 2 de la madrugada. Un store documental solo si la forma es de verdad documental — no porque «NoSQL es más rápido».",
+    "it": "Postgres (spesso via Supabase, Neon o un piccolo VPS): dati relazionali, transazioni e SQL che posso leggere alle 2 di notte. Uno store documentale solo se la forma è davvero documentale — non perché «NoSQL è più veloce».",
+    "tr": "Postgres (sıkça Supabase, Neon veya küçük bir VPS ile): ilişkisel veri, transaction ve gece 2’de okuyabileceğim SQL. Belge deposuna yalnızca şekil gerçekten belgeyse uzanırım — «NoSQL daha hızlı» diye değil."
+  },
+  "Auth: a managed provider (Clerk, Auth.js + a known IdP, or Supabase Auth) unless the product is the auth. Rolling custom sessions in week one is how you leak tokens and stall the actual feature.": {
+    "es": "Auth: un proveedor gestionado (Clerk, Auth.js + un IdP conocido, o Supabase Auth), salvo que el producto sea el auth. Sesiones custom en la semana uno es cómo se filtran tokens y se frena la feature de verdad.",
+    "it": "Auth: un provider gestito (Clerk, Auth.js + un IdP noto, o Supabase Auth), salvo che il prodotto sia l’auth. Sessioni custom in settimana uno è come si fanno trapelare token e si blocca la feature vera.",
+    "tr": "Auth: ürün auth değilse managed bir sağlayıcı (Clerk, Auth.js + bilinen bir IdP veya Supabase Auth). İlk hafta özel session yazmak token sızdırmanın ve asıl feature’ı durdurmanın yoludur."
+  },
+  "Payments: Stripe (or the local equivalent the first users actually use). No homemade billing engine. Invoices can wait; a working charge cannot.": {
+    "es": "Pagos: Stripe (o el equivalente local que los primeros usuarios usan de verdad). Nada de motor de billing casero. Las facturas pueden esperar; un cargo que funciona, no.",
+    "it": "Pagamenti: Stripe (o l’equivalente locale che i primi utenti usano davvero). Niente motore di billing fatto in casa. Le fatture possono aspettare; un addebito che funziona, no.",
+    "tr": "Ödemeler: Stripe (veya ilk kullanıcıların gerçekten kullandığı yerel eşdeğer). Ev yapımı billing motoru yok. Faturalar bekleyebilir; çalışan bir çekim bekleyemez."
+  },
+  "Hosting: Vercel for the Next.js app if traffic is web-shaped and the team wants previews; a Hetzner/VPS + Docker Compose if we need a long-running worker, predictable cost, or data residency. I wrote about that trade-off separately — the MVP rule is: one environment you understand, nightly backups, HTTPS, and a domain.": {
+    "es": "Hosting: Vercel para la app Next.js si el tráfico es «web» y el equipo quiere previews; Hetzner/VPS + Docker Compose si hace falta un worker largo, coste previsible o residencia de datos. Ese trade-off lo escribí aparte. Regla MVP: un entorno que entiende, backups nocturnos, HTTPS y un dominio.",
+    "it": "Hosting: Vercel per l’app Next.js se il traffico è «web» e il team vuole preview; Hetzner/VPS + Docker Compose se serve un worker lungo, un costo prevedibile o data residency. Quel trade-off l’ho scritto altrove. Regola MVP: un ambiente che capite, backup notturni, HTTPS e un dominio.",
+    "tr": "Hosting: trafik web şeklindeyse ve ekip preview istiyorsa Next.js app için Vercel; uzun çalışan worker, öngörülebilir maliyet veya data residency varsa Hetzner/VPS + Docker Compose. O trade-off’u ayrıca yazdım. MVP kuralı: anladığınız bir ortam, gece backup’ları, HTTPS ve bir domain."
+  },
+  "Email and files: Resend or a similar transactional API; S3-compatible storage. Not “we will build an attachments module.”": {
+    "es": "Email y archivos: Resend o una API transaccional similar; almacenamiento compatible con S3. No «vamos a construir un módulo de adjuntos».",
+    "it": "Email e file: Resend o un’API transazionale simile; storage compatibile S3. Non «costruiremo un modulo allegati».",
+    "tr": "E-posta ve dosyalar: Resend veya benzer bir transactional API; S3 uyumlu depolama. «Ekler modülü kuracağız» değil."
+  },
+  "5. When I throw the default away": {
+    "es": "5. Cuándo tiro el default",
+    "it": "5. Quando butto il default",
+    "tr": "5. Default’u ne zaman atarım"
+  },
+  "A default is a starting bet, not a religion. I change it when the constraint is the product.": {
+    "es": "Un default es una apuesta de salida, no una religión. Lo cambio cuando el constraint es el producto.",
+    "it": "Un default è una scommessa di partenza, non una religione. Lo cambio quando il vincolo è il prodotto.",
+    "tr": "Default bir başlangıç bahsidir, din değil. Kısıt ürün olduğunda değiştiririm."
+  },
+  "The audience already lives in Telegram: a bot or Mini App can be the whole MVP. A website they will not open is not “more professional.” It is a second empty room.": {
+    "es": "La audiencia ya vive en Telegram: un bot o una Mini App puede ser todo el MVP. Un sitio que no abrirán no es «más profesional». Es una segunda habitación vacía.",
+    "it": "L’audience vive già in Telegram: un bot o una Mini App può essere tutto l’MVP. Un sito che non apriranno non è «più professionale». È una seconda stanza vuota.",
+    "tr": "Kitle zaten Telegram’da yaşıyor: bir bot veya Mini App tüm MVP olabilir. Açmayacakları bir site «daha profesyonel» değildir. İkinci boş bir odadır."
+  },
+  "The job is in the field with bad signal: I consider a local-first or PWA path, not a native rewrite in week one. Native is a distribution decision, not a badge.": {
+    "es": "El trabajo está en el campo con mala señal: miro local-first o PWA, no un rewrite nativo en la semana uno. Native es una decisión de distribución, no una medalla.",
+    "it": "Il lavoro è sul campo con segnale scarso: guardo local-first o PWA, non una riscrittura native in settimana uno. Native è una decisione di distribuzione, non un badge.",
+    "tr": "İş sahada, sinyal kötü: ilk hafta native rewrite değil, local-first veya PWA bakarım. Native bir dağıtım kararıdır, rozet değil."
+  },
+  "The core is language (support, quoting, document extraction): I add an LLM API behind a strict schema and a human review step. I do not wrap a chat widget and call it a product.": {
+    "es": "El núcleo es el lenguaje (soporte, presupuestos, extracción de documentos): añado una API LLM detrás de un schema estricto y un paso de revisión humana. No envuelvo un widget de chat y lo llamo producto.",
+    "it": "Il cuore è il linguaggio (supporto, preventivi, estrazione documenti): aggiungo un’API LLM dietro uno schema stretto e un passo di revisione umana. Non avvolgo un widget chat e lo chiamo prodotto.",
+    "tr": "Çekirdek dildir (destek, teklif, belge çıkarımı): sıkı bir schema ve insan inceleme adımının arkasına bir LLM API eklerim. Bir sohbet widget’ını sarıp ürün demem."
+  },
+  "The founder is the operator and content is the product: a fast site plus a CMS they will actually use can beat a custom admin. WordPress is still allowed if the job is publishing, not an application.": {
+    "es": "El fundador opera y el contenido es el producto: un sitio rápido más un CMS que usarán de verdad puede ganar a un admin a medida. WordPress sigue permitido si el trabajo es publicar, no construir una aplicación.",
+    "it": "Il fondatore opera e il contenuto è il prodotto: un sito veloce più un CMS che useranno davvero può battere un admin custom. WordPress è ancora permesso se il lavoro è pubblicare, non costruire un’applicazione.",
+    "tr": "Kurucu operatördür ve içerik üründür: hızlı bir site artı gerçekten kullanacakları bir CMS, özel admin’i yenebilir. İş yayınlamaksa WordPress hâlâ serbest — uygulama kurmak değilse."
+  },
+  "Two-sided marketplace: I still ship one side first. Supply or demand — whichever is harder to get. A “platform” with empty seats on both sides is a landing page with extra tables.": {
+    "es": "Marketplace a dos caras: igual entrego un lado primero. Oferta o demanda — lo más difícil de conseguir. Una «plataforma» con sillas vacías a ambos lados es un landing con tablas de más.",
+    "it": "Marketplace a due facce: consegno comunque un lato prima. Offerta o domanda — quello più duro da ottenere. Una «piattaforma» con sedie vuote da entrambi i lati è un landing con tabelle in più.",
+    "tr": "İki taraflı marketplace: yine de önce bir tarafı teslim ederim. Arz veya talep — hangisi daha zorsa. İki tarafta boş koltuklu bir «platform», fazla tablolu bir landing’dir."
+  },
+  "6. What I refuse to add before the first users": {
+    "es": "6. Lo que me niego a añadir antes de los primeros usuarios",
+    "it": "6. Ciò che rifiuto di aggiungere prima dei primi utenti",
+    "tr": "6. İlk kullanıcılardan önce eklemeyi reddettiğim şeyler"
+  },
+  "The fastest way to miss the experiment is to build the company around the experiment. This is the list I keep next to the backlog.": {
+    "es": "La forma más rápida de fallar el experimento es construir la empresa alrededor del experimento. Esta lista la tengo al lado del backlog.",
+    "it": "Il modo più veloce per fallire l’esperimento è costruire l’azienda intorno all’esperimento. Questa lista sta accanto al backlog.",
+    "tr": "Deneyi kaçırmanın en hızlı yolu, şirketi deneyin etrafında kurmaktır. Bu liste backlog’un yanında durur."
+  },
+  "Microservices, a message bus, and Kubernetes. One process, one database, one deploy. Split when a real bottleneck or a real team boundary appears — not when a diagram looks senior.": {
+    "es": "Microservicios, un bus de mensajes y Kubernetes. Un proceso, una base, un deploy. Se parte cuando aparece un bottleneck real o una frontera de equipo real — no cuando un diagrama parece senior.",
+    "it": "Microservizi, un message bus e Kubernetes. Un process, un database, un deploy. Si spezza quando compare un bottleneck vero o un confine di team vero — non quando un diagramma sembra senior.",
+    "tr": "Mikroservisler, bir message bus ve Kubernetes. Bir process, bir veritabanı, bir deploy. Gerçek bir darboğaz veya gerçek bir ekip sınırı belirdiğinde bölün — diyagram senior göründüğünde değil."
+  },
+  "A design system with 80 tokens and no screens. Ship the three screens that collect money. Extract components when the third copy-paste hurts.": {
+    "es": "Un design system con 80 tokens y cero pantallas. Entregue las tres pantallas que recogen dinero. Extraiga componentes cuando el tercer copy-paste duela.",
+    "it": "Un design system con 80 token e zero schermate. Consegnate le tre schermate che raccolgono soldi. Estraete i componenti quando il terzo copia-incolla fa male.",
+    "tr": "80 token’lı, ekransız bir design system. Parayı toplayan üç ekranı teslim edin. Üçüncü copy-paste acıtınca bileşen çıkarın."
+  },
+  "Roles, permissions, audit logs, and SSO — unless a paying B2B buyer blocked the deal on them. Then they are the MVP, not a side quest.": {
+    "es": "Roles, permisos, audit logs y SSO — salvo que un comprador B2B de pago haya bloqueado el deal por eso. Entonces son el MVP, no una misión secundaria.",
+    "it": "Ruoli, permessi, audit log e SSO — salvo che un acquirente B2B pagante abbia bloccato il deal lì. Allora sono l’MVP, non una quest secondaria.",
+    "tr": "Roller, izinler, audit log ve SSO — ödeyen bir B2B alıcı deal’i bunlarla kilitlemediyse. O zaman bunlar MVP’dir, yan görev değil."
+  },
+  "A second mobile app. Responsive web or a Mini App covers the first hundred users in most service businesses I see.": {
+    "es": "Una segunda app móvil. Web responsive o una Mini App cubre los primeros cien usuarios en la mayoría de negocios de servicios que veo.",
+    "it": "Una seconda app mobile. Il web responsive o una Mini App copre i primi cento utenti nella maggior parte dei business di servizi che vedo.",
+    "tr": "İkinci bir mobil app. Responsive web veya bir Mini App, gördüğüm çoğu hizmet işinde ilk yüz kullanıcıyı karşılar."
+  },
+  "Perfect test coverage of glue code. I do want tests on money, auth, and the core job. I do not want a week of mocks for a landing form.": {
+    "es": "Cobertura de tests perfecta del código pegamento. Quiero tests en dinero, auth y el trabajo central. No quiero una semana de mocks para un formulario de landing.",
+    "it": "Copertura di test perfetta del codice-colla. Voglio test su soldi, auth e il lavoro centrale. Non voglio una settimana di mock per un form di landing.",
+    "tr": "Yapıştırıcı kodun mükemmel test kapsamı. Para, auth ve çekirdek işte test isterim. Bir landing formu için bir haftalık mock istemem."
+  },
+  "7. How the first four weeks would actually look": {
+    "es": "7. Cómo se verían de verdad las primeras cuatro semanas",
+    "it": "7. Come sarebbero davvero le prime quattro settimane",
+    "tr": "7. İlk dört hafta gerçekten nasıl görünürdü"
+  },
+  "I treat the calendar as a product decision. If we cannot describe weeks, we do not have a plan — we have a wish.": {
+    "es": "Trato el calendario como una decisión de producto. Si no podemos describir las semanas, no hay plan — hay un deseo.",
+    "it": "Tratto il calendario come una decisione di prodotto. Se non sappiamo descrivere le settimane, non abbiamo un piano — abbiamo un desiderio.",
+    "tr": "Takvimi bir ürün kararı gibi ele alırım. Haftaları tarif edemiyorsak planımız yoktur — bir dileğimiz vardır."
+  },
+  "Week 0 (two days, not two weeks): write the one-pager. User, job, kill criterion, non-goals. Sketch the three screens. Agree what “done” means: a stranger can complete the job without a Zoom call from us.": {
+    "es": "Semana 0 (dos días, no dos semanas): el one-pager. Usuario, trabajo, criterio de abandono, non-goals. Boceto de las tres pantallas. Acordar qué es «done»: un desconocido puede terminar el trabajo sin nuestro Zoom.",
+    "it": "Settimana 0 (due giorni, non due settimane): il one-pager. Utente, lavoro, criterio di abbandono, non-goals. Schizzo delle tre schermate. Accordarsi su «done»: uno sconosciuto può finire il lavoro senza il nostro Zoom.",
+    "tr": "Hafta 0 (iki gün, iki hafta değil): one-pager. Kullanıcı, iş, bırakma kriteri, non-goals. Üç ekranı çizin. «Done»un ne olduğu: bir yabancı, bizim Zoom’umuz olmadan işi bitirebilir."
+  },
+  "Week 1: vertical slice. Domain, deploy, database, empty layout, one happy path in production (even if ugly). If we cannot deploy on day three, the stack is already lying.": {
+    "es": "Semana 1: corte vertical. Dominio, deploy, base, layout vacío, un happy path en production (aunque feo). Si no podemos desplegar el día tres, la stack ya miente.",
+    "it": "Settimana 1: fetta verticale. Dominio, deploy, database, layout vuoto, un happy path in production (anche brutto). Se non possiamo fare deploy al giorno tre, la stack sta già mentendo.",
+    "tr": "Hafta 1: dikey dilim. Domain, deploy, veritabanı, boş layout, production’da bir happy path (çirkin olsa bile). Üçüncü günde deploy edemiyorsak stack zaten yalan söylüyor."
+  },
+  "Week 2: the job. Booking, quote, upload, payment — whatever we named in week 0. Manual operations behind the UI are allowed: a Telegram ping to the owner is a feature if it closes the loop.": {
+    "es": "Semana 2: el trabajo. Reserva, presupuesto, upload, pago — lo que nombramos en la semana 0. Las ops manuales detrás de la UI están permitidas: un ping de Telegram al dueño es una feature si cierra el bucle.",
+    "it": "Settimana 2: il lavoro. Prenotazione, preventivo, upload, pagamento — ciò che abbiamo nominato in settimana 0. Le ops manuali dietro la UI sono permesse: un ping Telegram al titolare è una feature se chiude il loop.",
+    "tr": "Hafta 2: iş. Rezervasyon, teklif, upload, ödeme — hafta 0’da adlandırdığımız şey. UI arkasındaki manuel ops serbest: döngüyü kapatıyorsa sahibe bir Telegram ping’i feature’dır."
+  },
+  "Week 3: the ugly edges. Empty states, errors, mobile, emails, basic analytics (where did they drop). Not a data warehouse. A funnel you can read.": {
+    "es": "Semana 3: los bordes feos. Estados vacíos, errores, móvil, emails, analítica básica (dónde se cayeron). No un data warehouse. Un funnel que se puede leer.",
+    "it": "Settimana 3: i bordi brutti. Stati vuoti, errori, mobile, email, analytics di base (dove mollano). Non un data warehouse. Un funnel che si può leggere.",
+    "tr": "Hafta 3: çirkin kenarlar. Boş state’ler, hatalar, mobil, e-postalar, temel analitik (nerede düştüler). Data warehouse değil. Okunabilir bir funnel."
+  },
+  "Week 4: put it in front of the ten named people. Watch. Do not add a feature during the calls. Write down what they did instead of what they said they wanted.": {
+    "es": "Semana 4: póngalo delante de las diez personas con nombre. Mire. No añada una feature durante las llamadas. Anote lo que hicieron, no lo que decían querer.",
+    "it": "Settimana 4: mettetelo davanti alle dieci persone nominate. Guardate. Non aggiungete una feature durante le call. Annotate ciò che hanno fatto, non ciò che dicevano di volere.",
+    "tr": "Hafta 4: adı konmuş on kişinin önüne koyun. İzleyin. Call sırasında feature eklemeyin. İstediklerini söyledikleri şeyi değil, yaptıklarını yazın."
+  },
+  "8. After launch: keep, extract, or rewrite": {
+    "es": "8. Tras el lanzamiento: guardar, extraer o reescribir",
+    "it": "8. Dopo il lancio: tenere, estrarre o riscrivere",
+    "tr": "8. Lansmandan sonra: tut, çıkar veya yeniden yaz"
+  },
+  "A good MVP is allowed to be slightly embarrassing. It is not allowed to be a trap. The stack above is boring on purpose: you can grow into it. You rarely have to grow out of it in the first year.": {
+    "es": "Un buen MVP tiene derecho a ser un poco vergonzoso. No tiene derecho a ser una trampa. La stack de arriba es aburrida a propósito: se puede crecer dentro. Rara vez hay que salir de ella el primer año.",
+    "it": "Un buon MVP ha il diritto di essere un po’ imbarazzante. Non ha il diritto di essere una trappola. La stack sopra è noiosa apposta: ci si può crescere dentro. Raramente bisogna uscirne il primo anno.",
+    "tr": "İyi bir MVP biraz utandırıcı olabilir. Tuzak olamaz. Yukarıdaki stack kasten sıkıcıdır: içine büyüyebilirsiniz. İlk yıl ondan çıkmanız nadirdir."
+  },
+  "Keep: the language, the database, the domain names in code. Those are cheap to live with and expensive to throw away.": {
+    "es": "Guardar: el lenguaje, la base, los nombres de dominio en el código. Barato de convivir, caro de tirar.",
+    "it": "Tenere: il linguaggio, il database, i nomi di dominio nel codice. Economici da convivere, cari da buttare.",
+    "tr": "Tutun: dil, veritabanı, koddaki domain adları. Birlikte yaşaması ucuz, atması pahalı."
+  },
+  "Extract: a worker, a second service, a real queue — when a job is slow, dangerous, or owned by another team. Not before.": {
+    "es": "Extraer: un worker, un segundo servicio, una cola de verdad — cuando un job es lento, peligroso o de otro equipo. No antes.",
+    "it": "Estrarre: un worker, un secondo servizio, una coda vera — quando un job è lento, pericoloso o di un altro team. Non prima.",
+    "tr": "Çıkarın: bir worker, ikinci bir servis, gerçek bir kuyruk — iş yavaş, tehlikeli veya başka ekibin olduğunda. Önce değil."
+  },
+  "Rewrite only the part that learned the wrong lesson. If checkout is wrong, rewrite checkout. If the whole app is a vibe-coded maze, that is a people problem first: someone has to be able to explain it at 2 a.m.": {
+    "es": "Reescriba solo la parte que aprendió la lección equivocada. Checkout mal — reescriba el checkout. Si toda la app es un laberinto vibe-coded, primero es un problema de gente: alguien tiene que poder explicarlo a las 2 de la madrugada.",
+    "it": "Riscrivete solo la parte che ha imparato la lezione sbagliata. Checkout sbagliato — riscrivete il checkout. Se tutta l’app è un labirinto vibe-coded, prima è un problema di persone: qualcuno deve poterlo spiegare alle 2 di notte.",
+    "tr": "Yanlış dersi öğrenen kısmı yeniden yazın. Checkout yanlışsa checkout’u yazın. Tüm app vibe-coded bir labirentse önce insan sorunudur: birinin gece 2’de açıklayabilmesi gerekir."
+  },
+  "Conclusion: pick the stack that survives the first no": {
+    "es": "Conclusión: elija la stack que sobrevive al primer no",
+    "it": "Conclusione: scegliete la stack che sopravvive al primo no",
+    "tr": "Sonuç: ilk hayır’ı atlatan stack’i seçin"
+  },
+  "I would build an MVP the unglamorous way: one job, one database, one deploy, tools I can operate alone, and a date when we decide to continue or stop. The “best” technology is the one that does not distract us from that decision. Next.js, TypeScript, Postgres, a managed auth, and a payment provider are not a personality. They are a way to spend the scarce weeks on the product instead of on the platform.": {
+    "es": "Construiría un MVP sin glamour: un trabajo, una base, un deploy, herramientas que puedo operar sola, y una fecha en la que decidimos seguir o parar. La «mejor» tecnología es la que no nos distrae de esa decisión. Next.js, TypeScript, Postgres, un auth gestionado y un proveedor de pagos no son una personalidad. Son una forma de gastar las semanas escasas en el producto, no en la plataforma.",
+    "it": "Costruirei un MVP senza glamour: un lavoro, un database, un deploy, tool che posso operare da sola, e una data in cui decidiamo di continuare o fermarci. La «migliore» tecnologia è quella che non ci distrae da quella decisione. Next.js, TypeScript, Postgres, un auth gestito e un payment provider non sono una personalità. Sono un modo di spendere le settimane scarse sul prodotto, non sulla piattaforma.",
+    "tr": "Bir MVP’yi ışıltısız kurardım: bir iş, bir veritabanı, bir deploy, tek başıma işletebileceğim araçlar ve devam veya dur diyeceğimiz bir tarih. «En iyi» teknoloji o karardan bizi saptırmayanıdır. Next.js, TypeScript, Postgres, managed auth ve bir ödeme sağlayıcısı bir kişilik değildir. Kıt haftaları platforma değil ürüne harcamanın yoludur."
+  },
+  "If you have an idea, a deadline, and a fear of picking the “wrong” stack — write via the contacts section. We can scope the one job, name the non-goals, and ship a slice you can put in front of real people without building a fake platform first.": {
+    "es": "Si tiene una idea, un deadline y miedo a elegir la stack «equivocada» — escriba por la sección de contactos. Podemos acotar el único trabajo, nombrar los non-goals y entregar un corte que pueda poner delante de gente real sin construir primero una plataforma falsa.",
+    "it": "Se avete un’idea, una deadline e la paura di scegliere la stack «sbagliata» — scrivete dalla sezione contatti. Possiamo perimetrare l’unico lavoro, nominare i non-goals e consegnare una fetta da mettere davanti a persone vere senza costruire prima una piattaforma finta.",
+    "tr": "Bir fikriniz, bir deadline’ınız ve «yanlış» stack seçme korkunuz varsa — iletişim bölümünden yazın. Tek işi çerçeveleyebilir, non-goals’ları adlandırabilir ve önce sahte bir platform kurmadan gerçek insanların önüne koyabileceğiniz bir dilim teslim edebiliriz."
+  },
+  "Every design studio, digital agency, or independent UX/UI designer has experienced this pain: you spend weeks perfecting shadows, alignments, font hierarchies, and responsive grids in Figma. Then you hand it over to a developer. When the live version comes back, it is a disappointment. Spacings are off, fonts are distorted, responsive transitions look broken, and the page feels rigid. Worst of all, you have to spend days taking screenshots and marking errors because the developer did not test their own work.": {
+    "es": "Cada estudio, agencia o diseñador UX/UI independiente conoce este dolor: semanas puliendo sombras, alineaciones, jerarquías de fuentes y grids responsive en Figma. Luego se lo pasa a un desarrollador. Vuelve la versión live y es una decepción. Espaciados torcidos, fuentes distorsionadas, transiciones rotas, la página rígida. Lo peor: días de capturas y marcas porque el desarrollador no probó su propio trabajo.",
+    "it": "Ogni studio, agenzia o designer UX/UI indipendente conosce questo dolore: settimane a limare ombre, allineamenti, gerarchie di font e griglie responsive in Figma. Poi lo passate a uno sviluppatore. Torna la versione live ed è una delusione. Spaziature storte, font distorti, transizioni rotte, la pagina rigida. Il peggio: giorni di screenshot e segni perché lo sviluppatore non ha testato il proprio lavoro.",
+    "tr": "Her stüdyo, ajans veya bağımsız UX/UI tasarımcısı bu acıyı bilir: Figma’da gölge, hizalama, font hiyerarşisi ve responsive grid’i haftalarca cilalarsınız. Sonra geliştiriciye verirsiniz. Canlı sürüm döner: hayal kırıklığı. Boşluklar kaymış, fontlar bozulmuş, geçişler kırık, sayfa sert. En kötüsü: geliştirici kendi işini test etmediği için günlerce ekran görüntüsü alıp hata işaretlersiniz."
+  },
+  "Hiring a frontend engineer who truly understands design fidelity is not just about checking their resume for \"React\" or \"CSS\". It is about verifying their workflow, component discipline, and attention to detail. This guide provides a direct checklist and questions to ask potential developers to ensure your designs remain premium in production.": {
+    "es": "Contratar a un frontend que entienda de verdad la fidelidad de diseño no es buscar «React» o «CSS» en el CV. Es verificar su flujo, su disciplina de componentes y su ojo para el detalle. Esta guía es un checklist directo y las preguntas para que sus diseños sigan siendo premium en production.",
+    "it": "Assumere un frontend che capisca davvero la fedeltà di design non è cercare «React» o «CSS» nel CV. È verificare il flusso, la disciplina dei componenti e l’occhio per il dettaglio. Questa guida è una checklist diretta e le domande perché i vostri design restino premium in production.",
+    "tr": "Tasarım sadakatini gerçekten anlayan bir frontend işe almak, CV’de «React» veya «CSS» aramak değildir. İş akışını, bileşen disiplinini ve detay gözünü doğrulamaktır. Bu rehber, tasarımlarınızın production’da premium kalması için doğrudan bir checklist ve sorulardır."
+  },
+  "1. Ask: \"How do you handle intermediate responsive screen sizes?\"": {
+    "es": "1. Pregunte: «¿Cómo trata los tamaños de pantalla intermedios?»",
+    "it": "1. Chiedete: «Come gestite le dimensioni di schermo intermedie?»",
+    "tr": "1. Sorun: «Ara responsive ekran boyutlarını nasıl ele alıyorsunuz?»"
+  },
+  "Most Figma layouts are static, typically designed for 1440px desktop, 768px tablet, and 375px mobile. But what happens at 1200px or 1024px? What about wide 1920px screens?": {
+    "es": "La mayoría de layouts Figma son estáticos: 1440px desktop, 768px tablet, 375px móvil. ¿Y a 1200px o 1024px? ¿Y en pantallas anchas de 1920px?",
+    "it": "La maggior parte dei layout Figma è statica: 1440px desktop, 768px tablet, 375px mobile. E a 1200px o 1024px? E sugli schermi larghi da 1920px?",
+    "tr": "Çoğu Figma layout statiktir: 1440px masaüstü, 768px tablet, 375px mobil. Peki 1200px veya 1024px’de? 1920px geniş ekranlarda?"
+  },
+  "A mediocre developer will simply use strict media queries for the exact sizes, leaving the layout broken or clipped on intermediate viewports. A design-conscious developer writes fluid responsive styles using relative units (rem, em, percentages, vw/vh) and Tailwind config variables. They ensure that elements scale proportionally and gracefully between breakpoints.": {
+    "es": "Un desarrollador mediocre pone media queries estrictas a esas medidas y deja el layout roto o recortado en viewports intermedios. Quien tiene ojo de diseño escribe estilos fluidos con unidades relativas (rem, em, porcentajes, vw/vh) y variables de Tailwind. Los elementos escalan con proporción y gracia entre breakpoints.",
+    "it": "Uno sviluppatore mediocre mette media query strette su quelle misure e lascia il layout rotto o tagliato sui viewport intermedi. Chi ha occhio da design scrive stili fluidi con unità relative (rem, em, percentuali, vw/vh) e variabili Tailwind. Gli elementi scalano con proporzione e grazia tra i breakpoint.",
+    "tr": "Vasat bir geliştirici tam o ölçülere sıkı media query koyar; ara viewport’larda layout kırılır veya kesilir. Tasarım gözü olan, göreli birimler (rem, em, yüzde, vw/vh) ve Tailwind değişkenleriyle akışkan stiller yazar. Öğeler breakpoint’ler arasında orantılı ve zarif ölçeklenir."
+  },
+  "What to listen for: They should mention fluid typography, flexbox/grid containers, and viewport units instead of hardcoded pixel coordinates.": {
+    "es": "Qué escuchar: tipografía fluida, contenedores flexbox/grid y unidades de viewport, no coordenadas en píxeles clavadas.",
+    "it": "Cosa ascoltare: tipografia fluida, contenitori flexbox/grid e unità di viewport, non coordinate in pixel inchiodate.",
+    "tr": "Nelere kulak verin: akışkan tipografi, flexbox/grid konteynerler ve viewport birimleri — sabit piksel koordinatları değil."
+  }
+}

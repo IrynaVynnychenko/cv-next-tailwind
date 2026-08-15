@@ -20,6 +20,9 @@ const LANG_OPTIONS: { code: Language; short: string; native: string }[] = [
   { code: 'en', short: 'EN', native: 'English' },
   { code: 'de', short: 'DE', native: 'Deutsch' },
   { code: 'fr', short: 'FR', native: 'Français' },
+  { code: 'es', short: 'ES', native: 'Español' },
+  { code: 'it', short: 'IT', native: 'Italiano' },
+  { code: 'tr', short: 'TR', native: 'Türkçe' },
 ]
 
 function LanguageDropdown({

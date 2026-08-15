@@ -1,12 +1,15 @@
-export type Language = 'en' | 'ua' | 'de' | 'fr'
+export type Language = 'en' | 'ua' | 'de' | 'fr' | 'es' | 'it' | 'tr'
 
-export const LANGUAGES: Language[] = ['en', 'ua', 'de', 'fr']
+export const LANGUAGES: Language[] = ['en', 'ua', 'de', 'fr', 'es', 'it', 'tr']
 
 export const LOCALE_TAGS: Record<Language, string> = {
   en: 'en-US',
   ua: 'uk-UA',
   de: 'de-DE',
   fr: 'fr-FR',
+  es: 'es-ES',
+  it: 'it-IT',
+  tr: 'tr-TR',
 }
 
 export const LANG_PREFIX: Record<Language, string> = {
@@ -14,6 +17,9 @@ export const LANG_PREFIX: Record<Language, string> = {
   ua: '/ua',
   de: '/de',
   fr: '/fr',
+  es: '/es',
+  it: '/it',
+  tr: '/tr',
 }
 
 export function getLangFromPath(pathname: string): Language {

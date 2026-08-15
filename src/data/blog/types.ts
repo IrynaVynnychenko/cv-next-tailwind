@@ -21,6 +21,9 @@ export type LocalizedText = {
   ua: string
   de?: string
   fr?: string
+  es?: string
+  it?: string
+  tr?: string
 }
 
 export type LocalizedSection = {
@@ -35,7 +38,7 @@ export type RawBlogPost = {
   title: LocalizedText
   excerpt: LocalizedText
   readTime: LocalizedText
-  tags: { en: string[]; ua: string[]; de?: string[]; fr?: string[] }
+  tags: { en: string[]; ua: string[]; de?: string[]; fr?: string[]; es?: string[]; it?: string[]; tr?: string[] }
   content: LocalizedSection[]
 }
 

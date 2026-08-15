@@ -1,0 +1,447 @@
+{
+  "Refactoring Legacy UI: How to Update the Interface Without Product Downtime": {
+    "es": "Refactorizar UI legacy: cómo actualizar la interfaz sin downtime del producto",
+    "it": "Refactoring della UI legacy: come aggiornare l’interfaccia senza downtime del prodotto",
+    "tr": "Legacy UI refactoring: ürün downtime’ı olmadan arayüz nasıl güncellenir"
+  },
+  "Updating the UI of a live product is like repairing a plane mid-flight. Discover safe UI refactoring strategies that protect user retention and avoid tech debt.": {
+    "es": "Actualizar el UI de un producto live es reparar un avión en vuelo. Estrategias de refactoring seguras que protegen la retención y evitan deuda técnica.",
+    "it": "Aggiornare la UI di un prodotto live è riparare un aereo in volo. Strategie di refactoring sicure che proteggono la retention ed evitano debito tecnico.",
+    "tr": "Canlı bir ürünün UI’sini güncellemek uçuştaki uçağı tamir etmektir. Elde tutmayı koruyan ve teknik borcu önleyen güvenli UI refactoring stratejileri."
+  },
+  "Every successful digital product eventually faces the challenge of legacy UI. Technology stacks age, design languages evolve, and user expectations shift. What looked modern three years ago can feel slow and clunky today. However, for a live business application with thousands of active users, stopping operations to perform a complete visual redesign is never a realistic option.": {
+    "es": "Todo producto digital exitoso acaba enfrentando UI legacy. Las stacks envejecen, el lenguaje de diseño cambia, las expectativas se mueven. Lo que hace tres años era moderno hoy se siente lento. Pero con miles de usuarios activos, parar para un rediseño visual completo no es realista.",
+    "it": "Ogni prodotto digitale di successo finisce per affrontare la UI legacy. Le stack invecchiano, il linguaggio di design cambia, le aspettative si muovono. Ciò che tre anni fa era moderno oggi sembra lento. Ma con migliaia di utenti attivi, fermarsi per un redesign visivo completo non è realistico.",
+    "tr": "Başarılı her dijital ürün er geç legacy UI ile yüzleşir. Stack’ler yaşlanır, tasarım dili evrilir, beklenti kayar. Üç yıl önce modern duran bugün yavaş ve hantal hissedebilir. Ama binlerce aktif kullanıcılı canlı bir iş uygulamasında operasyonu durdurup tam görsel redesign gerçekçi değildir."
+  },
+  "UI refactoring is the process of updating the user interface, improving accessibility, and rewriting outdated frontend code without breaking existing functionality or interrupting the user journey. It is the art of repairing a plane while it is in the air.": {
+    "es": "El refactoring de UI actualiza la interfaz, mejora accesibilidad y reescribe frontend viejo sin romper lo que funciona ni cortar el journey. El arte de reparar el avión en el aire.",
+    "it": "Il refactoring della UI aggiorna l’interfaccia, migliora l’accessibilità e riscrive frontend vecchio senza rompere ciò che funziona né tagliare il journey. L’arte di riparare l’aereo in aria.",
+    "tr": "UI refactoring, mevcut işlevi kırmadan veya kullanıcı yolculuğunu kesmeden arayüzü güncellemek, erişilebilirliği iyileştirmek ve eski frontend kodunu yeniden yazmaktır. Uçağı havadayken tamir etme sanatıdır."
+  },
+  "The High Risk of the \"Big Bang\" Redesign": {
+    "es": "El alto riesgo del rediseño «Big Bang»",
+    "it": "L’alto rischio del redesign «Big Bang»",
+    "tr": "«Big Bang» redesign’ın yüksek riski"
+  },
+  "Many product owners fall into the trap of the \"Big Bang\" approach: locking developers in a branch for six months to build a completely new website from scratch. This strategy carries severe risks:": {
+    "es": "Muchos dueños caen en el «Big Bang»: encerrar al equipo seis meses en una rama para un sitio nuevo desde cero. Riesgos serios:",
+    "it": "Molti titolari cadono nel «Big Bang»: chiudere il team sei mesi in un branch per un sito nuovo da zero. Rischi seri:",
+    "tr": "Birçok ürün sahibi «Big Bang» tuzağına düşer: geliştiricileri altı ay bir dalda kilitleyip sıfırdan yepyeni bir site. Bu stratejinin ağır riskleri var:"
+  },
+  "User rejection: Radical overnight interface changes trigger immediate cognitive friction and complaints from loyal customers.": {
+    "es": "Rechazo: un cambio radical de un día para otro genera fricción cognitiva y quejas de clientes leales.",
+    "it": "Rifiuto: un cambio radicale overnight genera attrito cognitivo e lamentele dai clienti fedeli.",
+    "tr": "Kullanıcı reddi: bir gecelik radikal arayüz değişimi anında bilişsel sürtünme ve sadık müşteri şikayeti yaratır."
+  },
+  "Lack of feedback loops: Building in isolation for months means you discover usability issues only after the final deployment.": {
+    "es": "Sin bucles de feedback: meses en aislamiento y los problemas de usabilidad aparecen en el deploy final.",
+    "it": "Senza loop di feedback: mesi in isolamento e i problemi di usabilità saltano fuori al deploy finale.",
+    "tr": "Geri bildirim döngüsü yok: aylarca izolasyonda kurmak, kullanılabilirlik sorunlarını yalnızca son deploy’da görmek demektir."
+  },
+  "Massive merge conflicts: The live system continues to receive feature updates and bug fixes, creating integration nightmares when merging the redesign branch.": {
+    "es": "Conflictos de merge masivos: el sistema live sigue recibiendo features y fixes; mezclar la rama del rediseño es una pesadilla.",
+    "it": "Conflitti di merge massicci: il sistema live continua a ricevere feature e fix; mescolare il branch del redesign è un incubo.",
+    "tr": "Devasa merge çatışmaları: canlı sistem feature ve bug fix almaya devam eder; redesign dalını birleştirmek entegrasyon kabusu olur."
+  },
+  "Severe regression bugs: Rewriting everything at once inevitably introduces old bugs back into the system.": {
+    "es": "Regresiones graves: reescribirlo todo de golpe devuelve bugs viejos al sistema.",
+    "it": "Regressioni gravi: riscrivere tutto in un colpo riporta i bug vecchi nel sistema.",
+    "tr": "Ağır regresyon bug’ları: her şeyi bir anda yeniden yazmak eski bug’ları kaçınılmaz sisteme geri sokar."
+  },
+  "The Incremental Approach: Strangler Fig Pattern for UI": {
+    "es": "El enfoque incremental: patrón Strangler Fig para UI",
+    "it": "L’approccio incrementale: pattern Strangler Fig per la UI",
+    "tr": "Artımlı yaklaşım: UI için Strangler Fig kalıbı"
+  },
+  "The safest way to upgrade a legacy interface is incremental refactoring. Inspired by the \"Strangler Fig\" pattern, we progressively replace old views and components with new ones until the legacy UI is completely phased out. The system remains fully operational at every single step:": {
+    "es": "La forma más segura de subir un UI legacy es el refactoring incremental. Inspirado en el patrón «Strangler Fig», se sustituyen vistas y componentes viejos hasta que el legacy desaparece. El sistema sigue operativo en cada paso:",
+    "it": "Il modo più sicuro per alzare una UI legacy è il refactoring incrementale. Ispirato al pattern «Strangler Fig», si sostituiscono viste e componenti vecchi finché il legacy sparisce. Il sistema resta operativo a ogni passo:",
+    "tr": "Legacy arayüzü yükseltmenin en güvenli yolu artımlı refactoring’dir. «Strangler Fig» kalıbından esinlenerek eski view ve bileşenler yenileriyle kademeli değişir; legacy UI tamamen çıkar. Sistem her adımda tam çalışır:"
+  },
+  "Audit and Componentization: Break down the UI into standalone reusable elements (buttons, inputs, cards) and establish a strict CSS/design system.": {
+    "es": "Auditoría y componentización: parta el UI en elementos reutilizables (botones, inputs, cards) y fije un CSS/design system estricto.",
+    "it": "Audit e componentizzazione: spezzate la UI in elementi riutilizzabili (bottoni, input, card) e fissate un CSS/design system stretto.",
+    "tr": "Denetim ve bileşenleştirme: UI’yi bağımsız, yeniden kullanılabilir öğelere (buton, input, kart) ayırın ve sıkı bir CSS/design system kurun."
+  },
+  "Top-Level Infrastructure First: Replace global elements first — headers, footers, navigation, and sidebars — establishing the new visual framing.": {
+    "es": "Infra de primer nivel primero: sustituya lo global — headers, footers, navegación, sidebars — y fije el nuevo marco visual.",
+    "it": "Infra di primo livello prima: sostituite il globale — header, footer, navigazione, sidebar — e fissate il nuovo frame visivo.",
+    "tr": "Önce üst düzey altyapı: önce küresel öğeleri değiştirin — header, footer, navigasyon, sidebar — yeni görsel çerçeveyi kurun."
+  },
+  "Side-by-Side Execution via Feature Flags: Use toggle states to display the new UI to a subset of users (e.g., 5% beta testers) while keeping the original layout active for the rest.": {
+    "es": "Ejecución en paralelo con feature flags: muestre el UI nuevo a un subconjunto (p. ej. 5% beta) y deje el layout original al resto.",
+    "it": "Esecuzione in parallelo con feature flag: mostrate la nuova UI a un sottoinsieme (es. 5% beta) e lasciate il layout originale agli altri.",
+    "tr": "Feature flag ile yan yana yürütme: yeni UI’yi bir alt kümeye (ör. %5 beta) gösterin, gerisine orijinal layout kalsın."
+  },
+  "Page-by-Page Migration: Focus on low-risk pages (e.g., settings, profile) before moving to high-impact transaction funnels or dashboards.": {
+    "es": "Migración página a página: primero pantallas de bajo riesgo (ajustes, perfil), luego funnels y dashboards de alto impacto.",
+    "it": "Migrazione pagina per pagina: prima le pagine a basso rischio (impostazioni, profilo), poi funnel e dashboard ad alto impatto.",
+    "tr": "Sayfa sayfa göç: yüksek etkili işlem hunileri veya dashboard’lara geçmeden önce düşük riskli sayfalara (ayarlar, profil) odaklanın."
+  },
+  "Technical Best Practices for Safe Frontend Migration": {
+    "es": "Buenas prácticas técnicas para una migración frontend segura",
+    "it": "Best practice tecniche per una migrazione frontend sicura",
+    "tr": "Güvenli frontend göçü için teknik iyi uygulamalar"
+  },
+  "To ensure that legacy code and modern components live together harmoniously without visual pollution or compilation breakages, frontend engineers follow these technical practices:": {
+    "es": "Para que código legacy y componentes modernos convivan sin contaminación visual ni roturas de compile, estas prácticas:",
+    "it": "Perché codice legacy e componenti moderni convivano senza inquinamento visivo né rotture di compile, queste pratiche:",
+    "tr": "Legacy kod ile modern bileşenlerin görsel kirlilik veya derleme kırılması olmadan uyum içinde yaşaması için frontend şu teknik uygulamaları izler:"
+  },
+  "Utility-first styles: Using Tailwind CSS encapsulates classes within components, preventing global stylesheet leaks from distorting legacy views.": {
+    "es": "Estilos utility-first: Tailwind encapsula clases en el componente y evita que hojas globales distorsionen vistas legacy.",
+    "it": "Stili utility-first: Tailwind incapsula le classi nel componente ed evita che fogli globali distorcano le viste legacy.",
+    "tr": "Utility-first stiller: Tailwind CSS sınıfları bileşenin içinde kapsüller; küresel stylesheet sızıntısının legacy view’ları bozmasını önler."
+  },
+  "Isolated Sandbox Environments: Build and test components in isolation using tools like Storybook before importing them into legacy templates.": {
+    "es": "Sandboxes aislados: construya y pruebe en Storybook antes de importar a plantillas legacy.",
+    "it": "Sandbox isolati: costruite e testate in Storybook prima di importare nei template legacy.",
+    "tr": "İzole sandbox ortamları: legacy şablonlara import etmeden önce Storybook gibi araçlarla bileşenleri izole kurun ve test edin."
+  },
+  "Strict Adapter Layers: Maintain data contract compatibility by writing adapters that transform old backend API formats into strict TypeScript props required by new components.": {
+    "es": "Capas adapter estrictas: transforme formatos de API viejos en props TypeScript estrictas de los componentes nuevos.",
+    "it": "Layer adapter stretti: trasformate formati API vecchi in props TypeScript strette dei nuovi componenti.",
+    "tr": "Sıkı adapter katmanları: eski backend API formatlarını yeni bileşenlerin istediği sıkı TypeScript props’lara çeviren adapter’larla veri sözleşmesini koruyun."
+  },
+  "Automated Visual Regression Testing: Run automated screenshot comparisons during CI/CD to detect accidental layout shifts in untouched areas of the application.": {
+    "es": "Regresión visual automática: comparaciones de capturas en CI/CD para pillar layout shifts en zonas intactas.",
+    "it": "Regressione visiva automatica: confronti di screenshot in CI/CD per beccare layout shift in zone intatte.",
+    "tr": "Otomatik görsel regresyon testi: uygulamanın dokunulmamış bölgelerindeki kazara layout kaymasını yakalamak için CI/CD’de otomatik ekran görüntüsü karşılaştırması."
+  },
+  "Managing the Human Factor in Redesigns": {
+    "es": "Gestionar el factor humano en los rediseños",
+    "it": "Gestire il fattore umano nei redesign",
+    "tr": "Redesign’da insan faktörünü yönetmek"
+  },
+  "Even the best technical implementation will fail if users reject the new design. Successful UI modernizations focus on human-centered rollouts:": {
+    "es": "La mejor implementación técnica falla si el usuario rechaza el diseño. Las modernizaciones que funcionan hacen rollouts centrados en la persona:",
+    "it": "La migliore implementazione tecnica fallisce se l’utente rifiuta il design. Le modernizzazioni che funzionano fanno rollout centrati sulla persona:",
+    "tr": "Kullanıcı yeni tasarımı reddederse en iyi teknik uygulama bile başarısız olur. Başarılı UI modernizasyonları insan merkezli rollout’a odaklanır:"
+  },
+  "Provide a Choice: Give users a \"Try the new version\" banner with a prominent option to temporarily revert to the classic view if they feel lost.": {
+    "es": "Dé elección: un banner «Probar la nueva versión» con vuelta clara a la vista clásica si se sienten perdidos.",
+    "it": "Date una scelta: un banner «Prova la nuova versione» con un ritorno chiaro alla vista classica se si sentono persi.",
+    "tr": "Seçenek verin: kaybolurlarsa klasike geçici dönüşü belirgin olan bir «Yeni sürümü dene» banner’ı."
+  },
+  "Gather Feedback Instantly: Place a feedback widget directly on the new pages to collect immediate reports on friction, bugs, or missing features.": {
+    "es": "Feedback al instante: un widget en las páginas nuevas para fricción, bugs o features que faltan.",
+    "it": "Feedback all’istante: un widget sulle pagine nuove per attrito, bug o feature che mancano.",
+    "tr": "Anında geri bildirim: sürtünme, bug veya eksik feature raporları için yeni sayfalara doğrudan bir geri bildirim widget’ı koyun."
+  },
+  "Value over Aesthetics: Never change layouts just for decoration. Ensure every UI update either reduces user steps, increases font legibility, or improves loading speeds.": {
+    "es": "Valor por encima de estética: no cambie layouts por decorar. Cada update debe recortar pasos, mejorar lectura o acelerar la carga.",
+    "it": "Valore sopra l’estetica: non cambiate layout per decorare. Ogni update deve tagliare passi, migliorare la lettura o accelerare il carico.",
+    "tr": "Estetikten önce değer: layout’u yalnızca süs için değiştirmeyin. Her UI güncellemesi adımı kısaltmalı, yazı okunurluğunu artırmalı veya yüklemeyi hızlandırmalı."
+  },
+  "How I Can Help You Modernize Your Legacy Web Application": {
+    "es": "Cómo le ayudo a modernizar su aplicación web legacy",
+    "it": "Come vi aiuto a modernizzare la vostra applicazione web legacy",
+    "tr": "Legacy web uygulamanızı modernleştirmenize nasıl yardım ederim"
+  },
+  "Redesigning a live web platform requires a careful balance of high-performance frontend engineering, strict component architecture, and systematic release planning.": {
+    "es": "Rediseñar una plataforma live pide equilibrio: frontend de alto rendimiento, arquitectura de componentes estricta y planificación de releases.",
+    "it": "Ridisegnare una piattaforma live chiede equilibrio: frontend ad alte prestazioni, architettura di componenti stretta e pianificazione delle release.",
+    "tr": "Canlı bir web platformunu yeniden tasarlamak yüksek performanslı frontend, sıkı bileşen mimarisi ve sistematik release planının dikkatli dengesini ister."
+  },
+  "I specialize in building and refactoring high-performance React and Next.js applications. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched products, I help businesses move from outdated legacy codebases to clean, lightning-fast design systems — maintaining 100% platform uptime throughout the entire migration.": {
+    "es": "Construyo y refactorizo apps React y Next.js de alto rendimiento. Más de 8 años, 4.200+ horas en Upwork y 100+ productos: de codebases legacy a design systems limpios y rápidos, con uptime 100% en toda la migración.",
+    "it": "Costruisco e refactorizzo app React e Next.js ad alte prestazioni. Oltre 8 anni, 4.200+ ore su Upwork e 100+ prodotti: da codebase legacy a design system puliti e veloci, con uptime 100% in tutta la migrazione.",
+    "tr": "Yüksek performanslı React ve Next.js uygulamaları kurma ve refactor etmede uzmanım. 8+ yıl production, 4.200+ Upwork saati ve 100+ canlı ürün: işletmeleri eski legacy codebase’lerden temiz, şimşek hızlı design system’lere taşırım — tüm göç boyunca platform uptime’ı %100."
+  },
+  "Planning to update your product UI or tackle years of accumulated frontend technical debt? Contact me today via the connections section below for a free technical consultation!": {
+    "es": "¿Va a actualizar el UI o atacar años de deuda frontend? Escríbame para una consulta técnica.",
+    "it": "State per aggiornare la UI o attaccare anni di debito frontend? Scrivetemi per una consulenza tecnica.",
+    "tr": "Ürün UI’sini güncellemeyi veya yılların birikmiş frontend teknik borcunu ele almayı mı planlıyorsunuz? Ücretsiz teknik danışma için aşağıdaki iletişimden yazın."
+  },
+  "What Is Mobile-First Approach — Why It Is the Modern Web Standard": {
+    "es": "Qué es el enfoque mobile-first — por qué es el estándar web moderno",
+    "it": "Cos’è l’approccio mobile-first — perché è lo standard web moderno",
+    "tr": "Mobile-first yaklaşım nedir — neden modern web standardı"
+  },
+  "Designing for mobile first is no longer optional. Learn how Progressive Enhancement boosts user experience, speed, and Google SEO rankings.": {
+    "es": "Diseñar primero para móvil ya no es opcional. Cómo el Progressive Enhancement sube UX, velocidad y rankings SEO de Google.",
+    "it": "Progettare prima per il mobile non è più opzionale. Come il Progressive Enhancement alza UX, velocità e ranking SEO di Google.",
+    "tr": "Önce mobil için tasarlamak artık isteğe bağlı değil. Progressive Enhancement’ın UX, hız ve Google SEO sıralamasını nasıl yükselttiği."
+  },
+  "In modern web development, the \"Mobile-First\" strategy has evolved from a trend into an essential industry standard. For years, websites were designed for large desktop monitors, while mobile versions were slapped together as an afterthought. Today, that workflow is completely reversed.": {
+    "es": "En el desarrollo web moderno, mobile-first pasó de tendencia a estándar. Durante años se diseñaba para monitores grandes y el móvil era un afterthought. Hoy el flujo está invertido.",
+    "it": "Nello sviluppo web moderno, mobile-first è passato da trend a standard. Per anni si progettava per monitor grandi e il mobile era un afterthought. Oggi il flusso è invertito.",
+    "tr": "Modern web geliştirmede «Mobile-First» stratejisi trendden vazgeçilmez endüstri standardına evrildi. Yıllarca siteler büyük masaüstü monitörler için tasarlanır, mobil sonradan yapıştırılırdı. Bugün bu iş akışı tamamen ters."
+  },
+  "Mobile-First means designing and building the web experience for small touch screens first, then progressively enhancing it for tablets, laptops, and wide monitors.": {
+    "es": "Mobile-first significa diseñar y construir primero para pantallas táctiles pequeñas, y luego enriquecer para tablet, portátil y monitores anchos.",
+    "it": "Mobile-first significa progettare e costruire prima per schermi touch piccoli, e poi arricchire per tablet, laptop e monitor larghi.",
+    "tr": "Mobile-first, web deneyimini önce küçük dokunmatik ekranlar için tasarlayıp kurmak, sonra tablet, laptop ve geniş monitörler için kademeli zenginleştirmek demektir."
+  },
+  "Mobile-First vs Desktop-First (Graceful Degradation)": {
+    "es": "Mobile-first vs desktop-first (Graceful Degradation)",
+    "it": "Mobile-first vs desktop-first (Graceful Degradation)",
+    "tr": "Mobile-first vs desktop-first (Graceful Degradation)"
+  },
+  "To understand the core advantage, compare how these two engineering mindsets handle screen responsiveness:": {
+    "es": "Para ver la ventaja, compare cómo estos dos mindsets tratan el responsive:",
+    "it": "Per vedere il vantaggio, confrontate come questi due mindset trattano il responsive:",
+    "tr": "Çekirdek avantajı anlamak için bu iki mühendislik zihniyetinin ekran uyumunu nasıl ele aldığına bakın:"
+  },
+  "Desktop-First (Graceful Degradation): Starts with a complex 1920px desktop layout, then hides or cuts elements to squeeze into a 375px mobile view. CSS relies on max-width rules.": {
+    "es": "Desktop-first (Graceful Degradation): parte de un layout 1920px complejo y recorta o esconde para meterlo en 375px. El CSS vive de max-width.",
+    "it": "Desktop-first (Graceful Degradation): parte da un layout 1920px complesso e taglia o nasconde per infilarlo in 375px. Il CSS vive di max-width.",
+    "tr": "Desktop-first (Graceful Degradation): karmaşık 1920px masaüstü layout ile başlar, sonra öğeleri gizleyip keserek 375px mobile sıkıştırır. CSS max-width kurallarına yaslanır."
+  },
+  "Mobile-First (Progressive Enhancement): Starts with a clean, fast mobile layout (375px), then layers on additional columns, animations, and desktop sidebars as screen real estate grows. CSS relies on min-width rules.": {
+    "es": "Mobile-first (Progressive Enhancement): parte de un layout móvil limpio y rápido (375px) y añade columnas, animaciones y sidebars de desktop al crecer la pantalla. El CSS vive de min-width.",
+    "it": "Mobile-first (Progressive Enhancement): parte da un layout mobile pulito e veloce (375px) e aggiunge colonne, animazioni e sidebar desktop al crescere dello schermo. Il CSS vive di min-width.",
+    "tr": "Mobile-first (Progressive Enhancement): temiz, hızlı bir mobil layout (375px) ile başlar; ekran büyüdükçe sütun, animasyon ve masaüstü sidebar ekler. CSS min-width kurallarına yaslanır."
+  },
+  "Key reasons why Mobile-First is critical for business": {
+    "es": "Por qué mobile-first es crítico para el negocio",
+    "it": "Perché il mobile-first è critico per il business",
+    "tr": "Mobile-first’ün iş için kritik olmasının temel nedenleri"
+  },
+  "Adopting a mobile-first philosophy delivers direct advantages for user engagement and search visibility:": {
+    "es": "Adoptar mobile-first da ventajas directas de engagement y visibilidad en buscadores:",
+    "it": "Adottare il mobile-first dà vantaggi diretti di engagement e visibilità sui motori:",
+    "tr": "Mobile-first felsefesini benimsemek kullanıcı etkileşimi ve arama görünürlüğünde doğrudan avantaj verir:"
+  },
+  "60%+ of global web traffic: Over 60% of all web traffic comes from smartphones. For most service and e-commerce niches, that number reaches 80-90%.": {
+    "es": "Más del 60% del tráfico web global viene de smartphones. En muchos nichos de servicio y e-commerce llega al 80–90%.",
+    "it": "Oltre il 60% del traffico web globale arriva da smartphone. In molti nicchie di servizi ed e-commerce arriva all’80–90%.",
+    "tr": "Küresel web trafiğinin %60’ından fazlası akıllı telefonlardan gelir. Çoğu hizmet ve e-ticaret nişinde bu sayı %80–90’a çıkar."
+  },
+  "Content clarity: Small screens force developers and designers to cut clutter, focusing strictly on clear headlines, core offers, and high-converting CTAs.": {
+    "es": "Claridad de contenido: la pantalla pequeña obliga a cortar ruido y centrarse en titulares claros, oferta núcleo y CTAs que convierten.",
+    "it": "Chiarezza di contenuto: lo schermo piccolo obbliga a tagliare rumore e concentrarsi su titoli chiari, offerta nucleo e CTA che convertono.",
+    "tr": "İçerik netliği: küçük ekran geliştirici ve tasarımcıyı dağınıklığı kesmeye zorlar — net başlık, çekirdek teklif ve yüksek dönüşümlü CTA."
+  },
+  "Touch-first UX: Ensures comfortable touch targets (44x44px min), intuitive gesture navigation, and avoids hover-dependent interactive traps.": {
+    "es": "UX táctil: targets cómodos (mín. 44×44px), gestos intuitivos y sin trampas que dependan del hover.",
+    "it": "UX touch: target comodi (min. 44×44px), gesti intuitivi e senza trappole che dipendono dall’hover.",
+    "tr": "Dokunma öncelikli UX: rahat dokunma hedefleri (min. 44×44px), sezgisel jest navigasyonu ve hover’a bağımlı tuzaklardan kaçınma."
+  },
+  "Google Mobile-First Indexing: Google indexes and ranks websites based primarily on their mobile version. A slow mobile site loses organic rankings everywhere.": {
+    "es": "Google Mobile-First Indexing: Google indexa y rankea sobre todo por la versión móvil. Un móvil lento pierde rankings en todas partes.",
+    "it": "Google Mobile-First Indexing: Google indicizza e ranka soprattutto sulla versione mobile. Un mobile lento perde ranking ovunque.",
+    "tr": "Google Mobile-First Indexing: Google siteleri öncelikle mobil sürüme göre dizinler ve sıralar. Yavaş bir mobil site her yerde organik sıralama kaybeder."
+  },
+  "How to implement Mobile-First in modern code": {
+    "es": "Cómo implementar mobile-first en código moderno",
+    "it": "Come implementare il mobile-first nel codice moderno",
+    "tr": "Modern kodda mobile-first nasıl uygulanır"
+  },
+  "When writing Tailwind CSS or modern CSS media queries, standard styling applies to mobile devices by default, while screen breakpoints scale upward:": {
+    "es": "En Tailwind o media queries modernas, el estilo base es móvil; los breakpoints escalan hacia arriba:",
+    "it": "In Tailwind o media query moderne, lo stile base è mobile; i breakpoint scalano verso l’alto:",
+    "tr": "Tailwind CSS veya modern CSS media query yazarken standart stil varsayılan olarak mobile uygulanır; ekran breakpoint’leri yukarı ölçeklenir:"
+  },
+  "In Tailwind CSS, default utilities (without prefixes) target mobile. Classes like md: (768px) and lg: (1024px) specify how the design adapts for tablet and desktop viewports.": {
+    "es": "En Tailwind, las utilidades sin prefijo apuntan a móvil. `md:` (768px) y `lg:` (1024px) adaptan tablet y desktop.",
+    "it": "In Tailwind, le utility senza prefisso puntano al mobile. `md:` (768px) e `lg:` (1024px) adattano tablet e desktop.",
+    "tr": "Tailwind CSS’te varsayılan utility’ler (önek yok) mobile hedefler. `md:` (768px) ve `lg:` (1024px) tasarımın tablet ve masaüstü viewport’lara nasıl uyum sağladığını belirtir."
+  },
+  "Building high-performance Mobile-First web applications": {
+    "es": "Construir aplicaciones web mobile-first de alto rendimiento",
+    "it": "Costruire applicazioni web mobile-first ad alte prestazioni",
+    "tr": "Yüksek performanslı mobile-first web uygulamaları kurmak"
+  },
+  "Mobile-first is not just about responsive layout breakpoints — it is about asset optimization, ultra-fast load times, and delivering seamless user experience across all devices.": {
+    "es": "Mobile-first no es solo breakpoints: es optimizar assets, loads ultrarrápidos y una UX fluida en todos los dispositivos.",
+    "it": "Il mobile-first non è solo breakpoint: è ottimizzare gli asset, load ultra-rapidi e una UX fluida su tutti i dispositivi.",
+    "tr": "Mobile-first yalnızca responsive layout breakpoint’leri değildir — varlık optimizasyonu, ultra hızlı yükleme ve tüm cihazlarda kesintisiz UX’tir."
+  },
+  "I build modern, mobile-optimized web applications with Next.js, Tailwind CSS, and TypeScript. With 8+ years of production experience and 100+ launched projects, I make sure your web platform loads lightning fast and converts mobile visitors into loyal clients.": {
+    "es": "Construyo aplicaciones web modernas, optimizadas para móvil, con Next.js, Tailwind CSS y TypeScript. Más de 8 años y 100+ proyectos: su plataforma carga en un relámpago y convierte visitantes móviles en clientes leales.",
+    "it": "Costruisco applicazioni web moderne, ottimizzate per il mobile, con Next.js, Tailwind CSS e TypeScript. Oltre 8 anni e 100+ progetti: la vostra piattaforma carica in un lampo e converte i visitatori mobile in clienti fedeli.",
+    "tr": "Next.js, Tailwind CSS ve TypeScript ile modern, mobile optimize web uygulamaları kurarım. 8+ yıl production ve 100+ canlı proje: web platformunuz şimşek hızında yüklenir ve mobil ziyaretçiyi sadık müşteriye çevirir."
+  },
+  "Need a mobile-first website rebuild or a new web product? Reach out via the contacts section for a consultation on your project!": {
+    "es": "¿Necesita un rebuild mobile-first o un producto web nuevo? Escríbame para una consulta.",
+    "it": "Vi serve un rebuild mobile-first o un nuovo prodotto web? Scrivetemi per una consulenza.",
+    "tr": "Mobile-first bir site yeniden yapımı veya yeni bir web ürünü mü lazım? Projeniz için danışma almak üzere iletişimden yazın."
+  },
+  "Why Your Business Needs a High-Performance Next.js Website": {
+    "es": "Por qué su negocio necesita un sitio Next.js de alto rendimiento",
+    "it": "Perché il vostro business ha bisogno di un sito Next.js ad alte prestazioni",
+    "tr": "İşiniz neden yüksek performanslı bir Next.js sitesine ihtiyaç duyar"
+  },
+  "Slow websites lose customers before they even see your offer. Here is why Next.js is the smart choice for business growth.": {
+    "es": "Un sitio lento pierde clientes antes de que vean la oferta. Por qué Next.js es la elección lista para crecer.",
+    "it": "Un sito lento perde clienti prima che vedano l’offerta. Perché Next.js è la scelta smart per crescere.",
+    "tr": "Yavaş siteler teklifinizi görmeden müşteri kaybeder. Next.js’in iş büyümesi için neden akıllı seçim olduğu."
+  },
+  "Your website is often the first impression potential clients get. If it loads slowly, looks outdated on mobile, or breaks during traffic spikes, you lose trust and revenue.": {
+    "es": "El sitio suele ser la primera impresión. Si carga lento, se ve viejo en móvil o se rompe en picos de tráfico, pierde confianza e ingresos.",
+    "it": "Il sito è spesso la prima impressione. Se carica lento, sembra vecchio sul mobile o si rompe nei picchi di traffico, perdete fiducia e ricavi.",
+    "tr": "Siteniz çoğu zaman potansiyel müşterinin ilk izlenimidir. Yavaş yüklenir, mobilde eski durur veya trafik sıçramasında kırılırsa güven ve gelir kaybedersiniz."
+  },
+  "Next.js gives you a modern foundation: fast page loads, SEO-friendly rendering, and a stack that scales from landing pages to full product platforms.": {
+    "es": "Next.js da una base moderna: loads rápidos, render amable con el SEO y una stack que escala de landing a plataformas de producto.",
+    "it": "Next.js dà una base moderna: load rapidi, render amico della SEO e una stack che scala dal landing alle piattaforme di prodotto.",
+    "tr": "Next.js modern bir temel verir: hızlı sayfa yükleme, SEO dostu render ve landing’den tam ürün platformlarına ölçeklenen bir stack."
+  },
+  "What you gain with Next.js": {
+    "es": "Lo que gana con Next.js",
+    "it": "Cosa guadagnate con Next.js",
+    "tr": "Next.js ile kazandığınız"
+  },
+  "Faster load times that improve conversion rates and search rankings": {
+    "es": "Loads más rápidos que suben conversión y rankings",
+    "it": "Load più rapidi che alzano conversione e ranking",
+    "tr": "Dönüşüm ve arama sıralamasını yükselten daha hızlı yükleme"
+  },
+  "Server-side rendering and static generation for better SEO": {
+    "es": "SSR y generación estática para mejor SEO",
+    "it": "SSR e generazione statica per una SEO migliore",
+    "tr": "Daha iyi SEO için sunucu tarafı render ve statik üretim"
+  },
+  "A maintainable codebase that grows with your product": {
+    "es": "Un codebase mantenible que crece con el producto",
+    "it": "Un codebase manutenibile che cresce col prodotto",
+    "tr": "Ürününüzle büyüyen bakılabilir bir codebase"
+  },
+  "Smooth mobile experience — where most of your traffic lives": {
+    "es": "Experiencia móvil fluida — donde vive la mayor parte del tráfico",
+    "it": "Esperienza mobile fluida — dove vive la maggior parte del traffico",
+    "tr": "Akıcı mobil deneyim — trafiğinizin çoğu orada yaşar"
+  },
+  "When it makes sense to invest": {
+    "es": "Cuándo tiene sentido invertir",
+    "it": "Quando ha senso investire",
+    "tr": "Yatırımın ne zaman anlamı var"
+  },
+  "If you are launching a new product, redesigning an outdated site, or struggling with poor performance scores, a Next.js rebuild pays off quickly.": {
+    "es": "Si lanza un producto, rediseña un sitio viejo o pelea con scores de rendimiento flojos, un rebuild Next.js se paga rápido.",
+    "it": "Se lanciate un prodotto, ridisegnate un sito vecchio o lottate con score di performance bassi, un rebuild Next.js si ripaga in fretta.",
+    "tr": "Yeni bir ürün lansmanlıyor, eski bir siteyi yeniden tasarlıyor veya zayıf performans skorlarıyla boğuşuyorsanız Next.js yeniden yapımı hızla karşılığını verir."
+  },
+  "I help businesses move from slow themes to lean, high-performance Next.js products — without disrupting your live operations.": {
+    "es": "Ayudo a pasar de themes lentos a productos Next.js magros y rápidos — sin interrumpir las ops live.",
+    "it": "Aiuto a passare da theme lenti a prodotti Next.js magri e veloci — senza interrompere le ops live.",
+    "tr": "İşletmeleri yavaş temalardan yalın, yüksek performanslı Next.js ürünlerine taşırım — canlı operasyonu bozmadan."
+  },
+  "Core Web Vitals: Why Website Speed Directly Affects Revenue": {
+    "es": "Core Web Vitals: por qué la velocidad del sitio afecta directamente a los ingresos",
+    "it": "Core Web Vitals: perché la velocità del sito tocca direttamente i ricavi",
+    "tr": "Core Web Vitals: site hızı geliri neden doğrudan etkiler"
+  },
+  "Google measures user experience — and so do your customers. Learn how performance metrics tie to real business outcomes.": {
+    "es": "Google mide la experiencia — y sus clientes también. Cómo las métricas de rendimiento se atan a resultados de negocio reales.",
+    "it": "Google misura l’esperienza — e i vostri clienti anche. Come le metriche di performance si legano a risultati di business veri.",
+    "tr": "Google kullanıcı deneyimini ölçer — müşterileriniz de. Performans metriklerinin gerçek iş sonuçlarına nasıl bağlandığı."
+  },
+  "Core Web Vitals (LCP, INP, CLS) are Google's metrics for user experience. Poor scores mean lower search visibility and frustrated visitors who leave before converting.": {
+    "es": "Core Web Vitals (LCP, INP, CLS) son las métricas de Google para la experiencia. Scores flojos: menos visibilidad y visitantes que se van antes de convertir.",
+    "it": "I Core Web Vitals (LCP, INP, CLS) sono le metriche di Google per l’esperienza. Score bassi: meno visibilità e visitatori che se ne vanno prima di convertire.",
+    "tr": "Core Web Vitals (LCP, INP, CLS) Google’ın kullanıcı deneyimi metrikleridir. Zayıf skorlar daha düşük arama görünürlüğü ve dönüşmeden giden sinirli ziyaretçi demektir."
+  },
+  "The business impact": {
+    "es": "El impacto de negocio",
+    "it": "L’impatto di business",
+    "tr": "İş etkisi"
+  },
+  "Studies consistently show that every second of delay increases bounce rate. Speed is not a technical nice-to-have — it is a revenue lever.": {
+    "es": "Los estudios coinciden: cada segundo de retraso sube el bounce. La velocidad no es un nice-to-have técnico — es una palanca de ingresos.",
+    "it": "Gli studi coincidono: ogni secondo di ritardo alza il bounce. La velocità non è un nice-to-have tecnico — è una leva di ricavi.",
+    "tr": "Çalışmalar tutarlı: her saniye gecikme bounce’u artırır. Hız teknik bir hoşluk değildir — bir gelir kaldıraçıdır."
+  },
+  "Largest Contentful Paint (LCP): how fast main content appears": {
+    "es": "Largest Contentful Paint (LCP): qué tan rápido aparece el contenido principal",
+    "it": "Largest Contentful Paint (LCP): quanto in fretta appare il contenuto principale",
+    "tr": "Largest Contentful Paint (LCP): ana içeriğin ne kadar hızlı göründüğü"
+  },
+  "Interaction to Next Paint (INP): how responsive the site feels": {
+    "es": "Interaction to Next Paint (INP): qué tan responsivo se siente el sitio",
+    "it": "Interaction to Next Paint (INP): quanto reattivo sembra il sito",
+    "tr": "Interaction to Next Paint (INP): sitenin ne kadar tepkili hissettirdiği"
+  },
+  "Cumulative Layout Shift (CLS): visual stability while loading": {
+    "es": "Cumulative Layout Shift (CLS): estabilidad visual al cargar",
+    "it": "Cumulative Layout Shift (CLS): stabilità visiva durante il carico",
+    "tr": "Cumulative Layout Shift (CLS): yüklenirken görsel kararlılık"
+  },
+  "React vs WordPress: Is React Better Than WordPress for Your Business Website?": {
+    "es": "React vs WordPress: ¿es React mejor que WordPress para el sitio de su negocio?",
+    "it": "React vs WordPress: React è meglio di WordPress per il sito del vostro business?",
+    "tr": "React vs WordPress: iş siteniz için React, WordPress’ten daha mı iyi?"
+  },
+  "WordPress is familiar; React is flexible. Is React better than WordPress? Explore this honest, detailed comparison of speed, SEO, security, and customizability to pick the right platform for your business.": {
+    "es": "WordPress es familiar; React es flexible. ¿Es React mejor que WordPress? Comparación honesta de velocidad, SEO, seguridad y customización para elegir plataforma.",
+    "it": "WordPress è familiare; React è flessibile. React è meglio di WordPress? Confronto onesto di velocità, SEO, sicurezza e customizzazione per scegliere piattaforma.",
+    "tr": "WordPress tanıdık; React esnek. React, WordPress’ten daha mı iyi? Hız, SEO, güvenlik ve özelleştirilebilirliğin dürüst karşılaştırması — işiniz için doğru platform."
+  },
+  "WordPress powers a huge share of the web, and it remains a popular option for simple websites. However, as business requirements grow and user expectations rise, more companies are asking: is React better than WordPress for modern web projects? Let’s dive into a head-to-head comparison to understand the strengths and weaknesses of both approaches.": {
+    "es": "WordPress mueve una parte enorme de la web y sigue siendo popular para sitios simples. Pero al crecer requisitos y expectativas, más empresas preguntan: ¿es React mejor que WordPress? Cara a cara: fortalezas y debilidades de ambos.",
+    "it": "WordPress muove una fetta enorme del web e resta popolare per siti semplici. Ma al crescere di requisiti e aspettative, più aziende chiedono: React è meglio di WordPress? Testa a testa: forze e debolezze di entrambi.",
+    "tr": "WordPress web’in kocaman bir payını güçlendirir ve basit siteler için popüler kalır. Ama iş gereksinimleri büyüyüp beklenti yükseldikçe daha fazla şirket soruyor: modern web projelerinde React, WordPress’ten daha mı iyi? İki yaklaşımın güç ve zayıflığını baş başa karşılaştıralım."
+  },
+  "WordPress: The Legacy Content Management System": {
+    "es": "WordPress: el CMS legacy",
+    "it": "WordPress: il CMS legacy",
+    "tr": "WordPress: legacy içerik yönetim sistemi"
+  },
+  "WordPress is a monolithic CMS that integrates the backend, database, and frontend into a single PHP-driven platform. It is fantastic for content-heavy sites like news blogs, simple portfolios, and brochure websites.": {
+    "es": "WordPress es un CMS monolítico: backend, base y frontend en una plataforma PHP. Fantástico para sitios de contenido: blogs de noticias, portfolios simples, brochures.",
+    "it": "WordPress è un CMS monolitico: backend, database e frontend in una piattaforma PHP. Fantastico per siti di contenuto: blog di notizie, portfolio semplici, brochure.",
+    "tr": "WordPress, backend, veritabanı ve frontend’i tek bir PHP platformunda birleştiren monolit bir CMS’tir. Haber blogları, sade portfolyolar ve broşür siteleri gibi içerik ağır siteler için harikadır."
+  },
+  "The main drawback of WordPress is its reliance on plugins. To add SEO controls, contact forms, or custom fields, you must install third-party plugins. Over time, these plugins clutter the code, slow down the load times, and introduce critical security vulnerabilities.": {
+    "es": "El gran pero de WordPress son los plugins. SEO, formularios o campos custom: hay que instalar terceros. Con el tiempo ensucian el código, frenan la carga y abren agujeros de seguridad.",
+    "it": "Il grande però di WordPress sono i plugin. SEO, form o campi custom: bisogna installare terze parti. Col tempo sporcano il codice, frenano il carico e aprono buchi di sicurezza.",
+    "tr": "WordPress’in ana zayıf yanı eklentiye yaslanmasıdır. SEO kontrolü, iletişim formu veya özel alan için üçüncü taraf eklenti kurarsınız. Zamanla bunlar kodu kirletir, yüklemeyi yavaşlatır ve kritik güvenlik açığı sokar."
+  },
+  "React and Next.js: The Modern Component-Based Era": {
+    "es": "React y Next.js: la era moderna basada en componentes",
+    "it": "React e Next.js: l’era moderna a componenti",
+    "tr": "React ve Next.js: modern bileşen tabanlı çağ"
+  },
+  "React is a component-driven JavaScript library designed to build highly dynamic and interactive user interfaces. When combined with Next.js, it becomes a powerful full-stack framework offering Server Components, Static Site Generation (SSG), and Server-Side Rendering (SSR).": {
+    "es": "React es una librería JavaScript por componentes para UIs dinámicas e interactivas. Con Next.js se vuelve un framework full-stack: Server Components, SSG y SSR.",
+    "it": "React è una libreria JavaScript a componenti per UI dinamiche e interattive. Con Next.js diventa un framework full-stack: Server Components, SSG e SSR.",
+    "tr": "React, son derece dinamik ve etkileşimli arayüzler kurmak için bileşen güdümlü bir JavaScript kütüphanesidir. Next.js ile birleşince Server Components, SSG ve SSR sunan güçlü bir full-stack framework olur."
+  },
+  "React gives developers total control over the markup, styles, and data flow. It eliminates the overhead of bloated WordPress themes, delivering sub-second loading speeds and perfect Core Web Vitals.": {
+    "es": "React da control total sobre markup, estilos y flujo de datos. Elimina el lastre de themes WordPress hinchados: loads sub-segundo y Core Web Vitals perfectos.",
+    "it": "React dà controllo totale su markup, stili e flusso dati. Elimina il peso dei theme WordPress gonfi: load sotto il secondo e Core Web Vitals perfetti.",
+    "tr": "React, markup, stil ve veri akışı üzerinde tam kontrol verir. Şişmiş WordPress temalarının yükünü siler: saniyenin altında yükleme ve mükemmel Core Web Vitals."
+  },
+  "Is React Better Than WordPress? The Verdict on Key Metrics": {
+    "es": "¿Es React mejor que WordPress? El veredicto en métricas clave",
+    "it": "React è meglio di WordPress? Il verdetto sulle metriche chiave",
+    "tr": "React, WordPress’ten daha mı iyi? Temel metriklerde karar"
+  },
+  "To make an informed decision for your project, let’s compare the two platforms across the most critical areas:": {
+    "es": "Para decidir con criterio, comparemos las dos plataformas en las áreas críticas:",
+    "it": "Per decidere con criterio, confrontiamo le due piattaforme sulle aree critiche:",
+    "tr": "Projeniz için bilinçli karar için iki platformu en kritik alanlarda karşılaştıralım:"
+  },
+  "Speed and SEO: React (Next.js) wins. Because it outputs highly optimized, static HTML, search engine crawlers can index it effortlessly, leading to better rankings. WordPress requires aggressive optimization and caching plugins to compete.": {
+    "es": "Velocidad y SEO: gana React (Next.js). HTML estático muy optimizado: los crawlers indexan sin esfuerzo y suben rankings. WordPress necesita plugins agresivos de caché para competir.",
+    "it": "Velocità e SEO: vince React (Next.js). HTML statico molto ottimizzato: i crawler indicizzano senza fatica e i ranking salgono. WordPress ha bisogno di plugin aggressivi di cache per competere.",
+    "tr": "Hız ve SEO: React (Next.js) kazanır. Yüksek optimize statik HTML ürettiği için crawler’lar zahmetsiz dizinler, sıralama yükselir. WordPress rekabet için agresif optimizasyon ve cache eklentisi ister."
+  },
+  "Security: React wins. Since React sites are often deployed as static assets separated from databases (headless), there is no backend database for hackers to target directly. WordPress databases and login panels are constant targets for brute force and SQL injection attacks.": {
+    "es": "Seguridad: gana React. Sitios a menudo estáticos, separados de la base (headless): no hay DB que atacar de frente. WordPress: bases y paneles de login son blanco constante de brute force e inyección SQL.",
+    "it": "Sicurezza: vince React. Siti spesso statici, separati dal database (headless): non c’è un DB da attaccare di fronte. WordPress: database e pannelli di login sono bersaglio costante di brute force e SQL injection.",
+    "tr": "Güvenlik: React kazanır. React siteleri sıkça veritabanından ayrılmış statik varlık olarak (headless) deploy edilir; hacker’ın doğrudan hedefleyeceği backend DB yoktur. WordPress veritabanı ve login panelleri brute force ve SQL injection’ın sürekli hedefidir."
+  },
+  "Customizability: React wins. If your app requires custom booking flows, interactive dashboards, dynamic calculation tools, or user workspaces, React handles them cleanly. In WordPress, building these requires fighting against database limitations.": {
+    "es": "Customización: gana React. Flujos de reserva, dashboards, calculadoras dinámicas o workspaces: React los resuelve limpio. En WordPress hay que pelear con los límites de la base.",
+    "it": "Customizzazione: vince React. Flussi di prenotazione, dashboard, calcolatori dinamici o workspace: React li risolve pulito. In WordPress bisogna lottare coi limiti del database.",
+    "tr": "Özelleştirilebilirlik: React kazanır. Özel rezervasyon akışı, etkileşimli dashboard, dinamik hesap araçları veya kullanıcı workspace’i gerekiyorsa React bunları temiz çözer. WordPress’te bunları kurmak veritabanı sınırlarıyla kavga etmektir."
+  },
+  "Content Editing Ease: WordPress wins. WordPress has a built-in block editor (Gutenberg) that content managers love. For React, you will need to set up a headless CMS (like Sanity, Strapi, or Contentful) to give non-technical users the same editing experience.": {
+    "es": "Edición de contenido: gana WordPress. El editor de bloques (Gutenberg) encanta a quien gestiona contenido. En React hay que montar un CMS headless (Sanity, Strapi, Contentful) para la misma experiencia no técnica.",
+    "it": "Editing dei contenuti: vince WordPress. L’editor a blocchi (Gutenberg) piace a chi gestisce i contenuti. In React bisogna montare un CMS headless (Sanity, Strapi, Contentful) per la stessa esperienza non tecnica.",
+    "tr": "İçerik düzenleme kolaylığı: WordPress kazanır. WordPress’in yerleşik blok editörü (Gutenberg) içerik yöneticilerinin sevdiği şeydir. React’te teknik olmayan kullanıcıya aynı deneyimi vermek için headless CMS (Sanity, Strapi veya Contentful) kurmanız gerekir."
+  },
+  "Summary: Making Your Choice": {
+    "es": "Resumen: cómo elegir",
+    "it": "Sintesi: come scegliere",
+    "tr": "Özet: seçiminizi yapmak"
+  },
+  "Is React better than WordPress? Yes, if you need a scalable web application, prioritize performance and SEO, need custom integrations, or want a secure site that won’t break on minor updates. However, if you are building a straightforward blog with low complexity and a limited budget, WordPress remains a viable option.": {
+    "es": "¿Es React mejor que WordPress? Sí, si necesita una aplicación web escalable, prioriza rendimiento y SEO, quiere integraciones a medida o un sitio seguro que no se rompa en un update menor. Si es un blog simple, poca complejidad y presupuesto justo, WordPress sigue siendo viable.",
+    "it": "React è meglio di WordPress? Sì, se vi serve un’applicazione web scalabile, priorità a performance e SEO, integrazioni su misura o un sito sicuro che non si rompe su un update minore. Se è un blog semplice, poca complessità e budget stretto, WordPress resta valido.",
+    "tr": "React, WordPress’ten daha mı iyi? Ölçeklenebilir bir web uygulaması, performans ve SEO önceliği, özel entegrasyon veya küçük güncellemede kırılmayan güvenli bir site istiyorsanız evet. Düşük karmaşıklık ve sınırlı bütçeyle düz bir blog kuruyorsanız WordPress hâlâ geçerli bir seçenek."
+  }
+}

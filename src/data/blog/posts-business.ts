@@ -9,24 +9,36 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Сайт для малого та середнього бізнесу: яка користь від нього насправді',
       de: 'Eine Website für KMU — welchen Nutzen Sie wirklich davon haben',
       fr: 'Un site web pour PME : ce que vous en gagnez vraiment',
+      es: 'Una web para pymes: qué gana de verdad su negocio',
+      it: 'Un sito per le PMI: cosa vi dà davvero',
+      tr: 'KOBİ için web sitesi: aslında size ne kazandırır',
     },
     excerpt: {
       en: 'A site is not a status page. For an SMB it is a 24/7 sales desk, a Google listing you own, and a way to grow the number of people who actually order — not only those who already know you from a feed.',
       ua: 'Сайт — не «статусна сторінка». Для малого й середнього бізнесу це відділ продажів 24/7, місце в Google, яке вам належить, і спосіб збільшити кількість тих, хто реально замовляє — не лише тих, хто вже знає вас зі стрічки.',
       de: 'Eine Website ist keine Statusseite. Für KMU ist sie ein Vertrieb 24/7, ein Google-Eintrag, der Ihnen gehört, und ein Weg, die Zahl derer zu steigern, die wirklich bestellen — nicht nur derer, die Sie schon aus dem Feed kennen.',
       fr: "Un site n'est pas une page de statut. Pour une PME, c'est un commercial 24/7, une fiche Google à vous, et un moyen d'augmenter le nombre de ceux qui commandent vraiment — pas seulement ceux qui vous connaissent déjà du fil.",
+      es: 'Una web no es una página de estatus. Para una pyme es un comercial 24/7, una ficha de Google que le pertenece y una forma de hacer crecer a quien pide de verdad — no solo a quien ya le conoce por el feed.',
+      it: "Un sito non è una vetrina di status. Per una PMI è un commerciale 24/7, una scheda Google vostra e un modo per far crescere chi ordina davvero — non solo chi vi conosce già dal feed.",
+      tr: 'Site bir statü vitrini değildir. KOBİ için 7/24 satış masası, size ait bir Google kaydı ve akıştan sizi tanıyanların ötesinde gerçekten sipariş verenlerin sayısını büyütmenin yoludur.',
     },
     readTime: {
       en: '9 min read',
       ua: '9 хв читання',
       de: '9 Min. Lesezeit',
       fr: '9 minutes de lecture',
+      es: '9 min de lectura',
+      it: '9 min di lettura',
+      tr: '9 dk okuma',
     },
     tags: {
       en: ['SMB', 'Website', 'Business', 'Leads', 'SEO', 'Strategy'],
       ua: ['МСБ', 'Сайт', 'Бізнес', 'Ліди', 'SEO', 'Стратегія'],
       de: ['KMU', 'Website', 'Business', 'Leads', 'SEO', 'Strategie'],
       fr: ['PME', 'Site web', 'Business', 'Leads', 'SEO', 'Stratégie'],
+      es: ['Pymes', 'Web', 'Negocio', 'Leads', 'SEO', 'Estrategia'],
+      it: ['PMI', 'Sito web', 'Business', 'Lead', 'SEO', 'Strategia'],
+      tr: ['KOBİ', 'Web sitesi', 'İş', 'Lead', 'SEO', 'Strateji'],
     },
     content: [
       {
@@ -36,12 +48,18 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Більшість малого й середнього бізнесу відкладає сайт з однієї причини: це виглядає як витрата, яку можна перенести. Реклама, оренда, зарплати й товар — «реальні». Сайт — «потім». Це хибна рамка. Рахунок, який ви вже платите, — втрачені дзвінки, час співробітників у месенджерах і клієнти, які порівняли вас із конкурентом, у якого була зрозуміла сторінка й форма заявки.',
             de: 'Die meisten KMU schieben eine Website aus demselben Grund auf: Sie fühlt sich wie eine Kostenstelle an, die warten kann. Ads, Miete, Löhne und Waren sind „real“. Eine Site ist „später schön“. Das ist die falsche Rahmung. Die Rechnung, die Sie schon zahlen, sind verlorene Anrufe, Mitarbeiterzeit in Messengern und Kunden, die Sie mit einem Wettbewerber verglichen haben, der eine klare Seite und ein Formular hatte.',
             fr: "La plupart des PME reportent un site pour la même raison : ça ressemble à un coût qu'on peut remettre. Pubs, loyer, salaires et stock sont « réels ». Un site, c'est « plus tard ». Le cadre est faux. La facture que vous payez déjà, ce sont les appels perdus, le temps d'équipe dans les messageries, et les clients qui vous ont comparés à un concurrent avec une page claire et un formulaire.",
+            es: 'La mayoría de las pymes aplazan la web por la misma razón: parece un gasto que se puede dejar para después. Anuncios, alquiler, nóminas y stock son «reales». La web es «luego». Esa forma de verlo está equivocada. La factura que ya paga son llamadas perdidas, tiempo del equipo en mensajería y clientes que le compararon con un competidor que tenía una página clara y un formulario.',
+            it: "La maggior parte delle PMI rinvia il sito per lo stesso motivo: sembra un costo che si può rimandare. Ads, affitto, stipendi e magazzino sono «reali». Il sito è «dopo, se avanza». È il modo sbagliato di vederla. Il conto che pagate già sono le chiamate perse, il tempo del team in chat e i clienti che vi hanno confrontato con un concorrente che aveva una pagina chiara e un modulo.",
+            tr: "Çoğu KOBİ siteyi aynı nedenle erteler: ertelenebilir bir maliyet gibi durur. Reklam, kira, maaş ve stok «gerçek»tir. Site «sonra bakarız»dır. Bu bakış açısı yanlıştır. Zaten ödediğiniz fatura kayıp aramalar, mesajlaşmada personel zamanı ve sizi net bir sayfası ve formu olan rakiple karşılaştıran müşterilerdir.",
           },
           {
             en: 'I have already written when a business outgrows Instagram, and why a feed is not a home. This piece is narrower: if you run a shop, a clinic, a workshop, a local service, or a 20–80 person company — what does a website actually buy you? Not “digital presence.” Hours, trust, and a larger pool of people who order — because they found you, finished the request, and came back.',
-            ua: 'Я вже писав, коли бізнес переростає Instagram і чому стрічка — не дім. Тут вужче: якщо ви тримаєте магазин, клініку, майстерню, локальний сервіс чи компанію на 20–80 людей — що саме купує сайт? Не «цифрову присутність». Години, довіру й більшу кількість тих, хто замовляє — бо вас знайшли, довели заявку до кінця й повернулися.',
+            ua: 'Я вже писала, коли бізнес переростає Instagram і чому стрічка — не дім. Тут вужче: якщо ви тримаєте магазин, клініку, майстерню, локальний сервіс чи компанію на 20–80 людей — що саме дає сайт? Не «цифрову присутність». Години, довіру й більшу кількість тих, хто замовляє — бо вас знайшли, довели заявку до кінця й повернулися.',
             de: 'Ich habe schon geschrieben, wann ein Business Instagram überwächst und warum ein Feed kein Zuhause ist. Hier enger: wenn Sie einen Laden, eine Praxis, eine Werkstatt, einen lokalen Service oder eine Firma mit 20–80 Leuten führen — was kauft eine Website wirklich? Nicht „digitale Präsenz“. Stunden, Vertrauen und mehr Menschen, die bestellen — weil sie Sie gefunden, die Anfrage zu Ende gebracht und wiedergekommen sind.',
             fr: "J'ai déjà écrit quand une entreprise dépasse Instagram, et pourquoi un fil n'est pas un chez-soi. Ici, plus étroit : si vous tenez un magasin, une clinique, un atelier, un service local ou une société de 20–80 personnes — qu'est-ce qu'un site achète vraiment ? Pas une « présence digitale ». Des heures, de la confiance, et plus de gens qui commandent — parce qu'ils vous ont trouvés, ont fini la demande, et sont revenus.",
+            es: 'Ya he escrito cuándo un negocio se le queda pequeño Instagram y por qué un feed no es un hogar. Aquí el foco es más estrecho: si lleva una tienda, una clínica, un taller, un servicio local o una empresa de 20–80 personas — ¿qué le aporta de verdad una web? No «presencia digital». Horas, confianza y más gente que pide — porque le encontró, terminó la solicitud y volvió.',
+            it: "Ho già scritto quando un’impresa supera Instagram e perché un feed non è una casa. Qui si va più stretti: se gestite un negozio, una clinica, un’officina, un servizio locale o una società di 20–80 persone — cosa vi dà davvero un sito? Non la «presenza digitale». Ore, fiducia e più persone che ordinano — perché vi hanno trovati, hanno chiuso la richiesta e sono tornati.",
+            tr: "Bir işin Instagram’ı ne zaman aştığını ve bir akışın neden ev olmadığını zaten yazdım. Burada daha dar bakıyoruz: dükkân, klinik, atölye, yerel hizmet veya 20–80 kişilik bir şirket yönetiyorsanız — site size aslında ne kazandırır? «Dijital varlık» değil. Saat, güven ve sipariş veren daha geniş bir kitle — çünkü sizi buldular, talebi bitirdiler ve geri geldiler.",
           },
         ],
       },
@@ -51,6 +69,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: '1. Ви перестаєте орендувати єдині двері в бізнес',
           de: '1. Sie hören auf, die einzige Tür ins Geschäft zu mieten',
           fr: "1. Vous arrêtez de louer la seule porte de l'entreprise",
+          es: '1. Deja de alquilar la única puerta del negocio',
+          it: "1. Smettete di affittare l’unica porta dell’impresa",
+          tr: "1. İşletmeye giden tek kapıyı kiralamayı bırakırsınız",
         },
         paragraphs: [
           {
@@ -58,6 +79,9 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Instagram, TikTok, Google Maps, маркетплейси й Telegram корисні. Це ще й орендована земля. Алгоритми ріжуть охоплення. Акаунти обмежують. Маркетплейс підніме комісію або сховає картку. Якщо це єдине місце, де новий клієнт може прочитати, хто ви і як купити, — виручка сидить на чужому вимикачі.',
             de: 'Instagram, TikTok, Google Maps, Marktplätze und Telegram sind nützlich. Es ist auch Pachtland. Algorithmen kürzen Reichweite. Accounts werden limitiert. Ein Marktplatz kann Gebühren erhöhen oder Ihr Listing vergraben. Wenn das der einzige Ort ist, an dem ein neuer Kunde lesen kann, wer Sie sind und wie man kauft, sitzt Ihr Umsatz auf fremdem Schalter.',
             fr: "Instagram, TikTok, Google Maps, marketplaces et Telegram sont utiles. C'est aussi une terre louée. Les algos coupent la portée. Les comptes se font limiter. Une marketplace peut monter les frais ou enterrer votre fiche. Si c'est le seul endroit où un nouveau client peut lire qui vous êtes et comment acheter, votre CA est sur l'interrupteur de quelqu'un d'autre.",
+            es: 'Instagram, TikTok, Google Maps, marketplaces y Telegram son útiles. También son tierra alquilada. Los algoritmos recortan el alcance. Las cuentas se limitan. Un marketplace puede subir comisiones o enterrar su ficha. Si ese es el único sitio donde un cliente nuevo puede leer quién es usted y cómo comprar, la facturación depende del interruptor de otro.',
+            it: "Instagram, TikTok, Google Maps, marketplace e Telegram sono utili. Sono anche terra in affitto. Gli algoritmi tagliano la portata. Gli account vengono limitati. Un marketplace può alzare le commissioni o seppellire la scheda. Se è l’unico posto in cui un nuovo cliente può leggere chi siete e come comprare, il fatturato sta sul rubinetto di qualcun altro.",
+            tr: "Instagram, TikTok, Google Maps, pazaryerleri ve Telegram faydalıdır. Aynı zamanda kiralanmış topraktır. Algoritmalar erişimi keser. Hesaplar kısıtlanır. Bir pazaryeri komisyonu artırabilir veya listenizi gömebilir. Yeni müşterinin kim olduğunuzu ve nasıl satın alacağını okuyabileceği tek yer buysa, cironuz başkasının düğmesine bağlıdır.",
           },
         ],
         list: [
@@ -66,18 +90,27 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Домен, який вам належить (yourbrand.com), працює, коли соцмережа лежить.',
             de: 'Eine Domain, die Ihnen gehört (yourbrand.com), bleibt online, wenn ein Social-Account down ist.',
             fr: "Un domaine à vous (yourbrand.com) reste en ligne quand un compte social tombe.",
+            es: 'Un dominio suyo (yourbrand.com) sigue online cuando la cuenta social cae.',
+            it: 'Un dominio vostro (yourbrand.com) resta online quando un account social cade.',
+            tr: "Size ait bir alan adı (yourbrand.com), sosyal hesap düştüğünde ayakta kalır.",
           },
           {
             en: 'Prices, terms, and a portfolio do not disappear behind last week’s Reels.',
             ua: 'Ціни, умови й портфоліо не зникають за Reels минулого тижня.',
             de: 'Preise, AGB und Portfolio verschwinden nicht hinter den Reels der letzten Woche.',
             fr: "Prix, conditions et portfolio ne disparaissent pas derrière les Reels de la semaine dernière.",
+            es: 'Precios, condiciones y portfolio no desaparecen detrás de los Reels de la semana pasada.',
+            it: 'Prezzi, condizioni e portfolio non spariscono dietro i Reels della settimana scorsa.',
+            tr: "Fiyatlar, koşullar ve portföy geçen haftanın Reels’inin arkasında kaybolmaz.",
           },
           {
             en: 'Social still does the handshake. The site is the address you put on invoices, ads, and Google Business.',
             ua: 'Соцмережі лишаються рукостисканням. Сайт — адреса на рахунках, в рекламі й у Google Business.',
             de: 'Social bleibt der Händedruck. Die Website ist die Adresse auf Rechnungen, Ads und Google Business.',
             fr: "Le social reste la poignée de main. Le site est l'adresse sur les factures, les pubs et Google Business.",
+            es: 'Las redes siguen siendo el apretón de manos. La web es la dirección en facturas, anuncios y Google Business.',
+            it: 'I social restano la stretta di mano. Il sito è l’indirizzo su fatture, ads e Google Business.',
+            tr: "Sosyal medya hâlâ tokalaşmadır. Site faturalara, reklamlara ve Google Business’a yazdığınız adrestir.",
           },
         ],
       },
@@ -87,6 +120,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: '2. Хто готовий купити — гуглить вас, а не чекає поста',
           de: '2. Wer kaufbereit ist, googelt Sie — und wartet nicht auf einen Post',
           fr: "2. Qui est prêt à acheter vous cherche — il n'attend pas un post",
+          es: '2. Quien está listo para comprar le busca — no espera un post',
+          it: "2. Chi è pronto a comprare vi cerca — non aspetta un post",
+          tr: "2. Satın almaya hazır olan sizi arar — bir gönderi beklemez",
         },
         paragraphs: [
           {
@@ -94,6 +130,9 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Пост доходить до тих, хто вже підписаний. Пошук доходить до тих, у кого проблема сьогодні: «сантехнік поруч», «бухгалтерія для ТОВ», «дитячий стоматолог [місто]». Без сторінки під цей запит ви невидимі в момент наміру — або програєте фірмі, чий сайт відкрився на телефоні за дві секунди.',
             de: 'Ein Post erreicht Leute, die Ihnen schon folgen. Suche erreicht Leute mit einem Problem heute: „Klempner in der Nähe“, „Buchhaltung für GmbH“, „Kinderzahnarzt [Stadt]“. Ohne eine Seite zu dieser Query sind Sie unsichtbar im Moment der Absicht — oder Sie verlieren an die Firma, deren Site in zwei Sekunden auf dem Handy lud.',
             fr: "Un post atteint ceux qui vous suivent déjà. La recherche atteint ceux qui ont un problème aujourd'hui : « plombier près de moi », « comptabilité SARL », « dentiste enfants [ville] ». Sans page pour cette requête, vous êtes invisible au moment d'intention — ou vous perdez face à la société dont le site s'est ouvert en deux secondes sur le téléphone.",
+            es: 'Un post llega a quien ya le sigue. La búsqueda llega a quien tiene un problema hoy: «fontanero cerca», «contabilidad para SL», «dentista infantil [ciudad]». Sin una página que responda esa consulta, es invisible en el momento de intención — o pierde frente a la empresa cuya web cargó en el móvil en dos segundos.',
+            it: "Un post raggiunge chi vi segue già. La ricerca raggiunge chi ha un problema oggi: «idraulico vicino a me», «contabilità per SRL», «dentista bambini [città]». Senza una pagina che risponda a quella query siete invisibili proprio quando conta — o perdete contro l’azienda il cui sito si è aperto sul telefono in due secondi.",
+            tr: "Bir gönderi sizi zaten takip edenlere ulaşır. Arama, sorunu bugün olanlara ulaşır: «yakınımda tesisatçı», «limited için muhasebe», «çocuk diş hekimi [şehir]». Bu sorguyu yanıtlayan bir sayfa yoksa niyet anında görünmezsiniz — ya da sitesi telefonda iki saniyede açılan firmaya kaybedersiniz.",
           },
         ],
         list: [
@@ -102,18 +141,27 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Google Business + справжній сайт б’є піну на карті без сайту й трьох відгуків.',
             de: 'Google Business + echte Website schlägt einen Maps-Pin ohne Site und drei Bewertungen.',
             fr: 'Google Business + un vrai site bat une épingle Maps sans site et trois avis.',
+            es: 'Google Business + una web de verdad gana a un pin de Maps sin sitio y tres reseñas.',
+            it: 'Google Business + un sito vero batte un pin Maps senza sito e tre recensioni.',
+            tr: "Google Business + gerçek bir site, sitesiz ve üç yorumlu bir Maps pinini yener.",
           },
           {
             en: 'Ads need a landing page. Sending paid traffic to a profile is paying to leak.',
             ua: 'Рекламі потрібна посадкова сторінка. Гнати платний трафік у профіль — платити за витік.',
             de: 'Ads brauchen eine Landingpage. Paid Traffic auf ein Profil zu schicken heißt: für Leak zahlen.',
             fr: "Les pubs ont besoin d'une landing. Envoyer du trafic payant vers un profil, c'est payer pour fuir.",
+            es: 'La publicidad necesita una landing. Mandar tráfico de pago a un perfil es pagar para que el tráfico se escape.',
+            it: 'Le ads hanno bisogno di una landing. Mandare traffico a pagamento su un profilo è pagare per far evaporare il traffico.',
+            tr: "Reklamın bir landing’i gerekir. Ücretli trafiği bir profile göndermek deliğe para ödemektir.",
           },
           {
             en: 'A service page compounds: one article or FAQ can bring calls for years. A Reel expires in 48 hours.',
             ua: 'Сторінка послуги накопичує: одна стаття чи FAQ може приводити дзвінки роками. Reel згорає за 48 годин.',
             de: 'Eine Leistungsseite compoundiert: ein Artikel oder FAQ kann Jahre Anrufe bringen. Ein Reel ist in 48 Stunden tot.',
             fr: "Une page service capitalise : un article ou une FAQ peut amener des appels pendant des années. Un Reel meurt en 48 h.",
+            es: 'Una página de servicio acumula: un artículo o FAQ puede traer llamadas durante años. Un Reel se apaga en 48 horas.',
+            it: 'Una pagina servizio accumula: un articolo o una FAQ può portare chiamate per anni. Un Reel muore in 48 ore.',
+            tr: "Hizmet sayfası biriktirir: bir yazı veya FAQ yıllarca arama getirebilir. Bir Reel 48 saatte biter.",
           },
         ],
       },
@@ -123,6 +171,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: '3. Вузьке місце конверсії — довіра, особливо від певного чека',
           de: '3. Der Conversion-Engpass ist Vertrauen — besonders ab einer gewissen Ticketgröße',
           fr: "3. Le goulot de conversion, c'est la confiance — surtout au-dessus d'un certain ticket",
+          es: '3. El cuello de botella de la conversión es la confianza — sobre todo a partir de cierto ticket',
+          it: "3. Il collo di bottiglia della conversione è la fiducia — soprattutto sopra un certo ticket",
+          tr: "3. Dönüşümün darboğazı güvendir — özellikle belli bir işlem tutarının üstünde",
         },
         paragraphs: [
           {
@@ -130,6 +181,9 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Каву чи футболку закриє гарна стрічка. Ремонт, юриста, медицину, B2B-контракт чи найм — покупець відкриє другу вкладку. Шукатиме адресу, команду, кейси, умови й спосіб написати без благання в директ. Якщо вкладка порожня або шаблон 2019-го — візьмуть наступний результат.',
             de: 'Für Kaffee oder ein T-Shirt reicht ein hübsches Feed. Für Sanierung, Recht, Medizin, B2B-Vertrag oder eine Einstellung öffnet der Käufer einen zweiten Tab. Er sucht Adresse, Team, Cases, AGB und einen Weg zu schreiben, ohne in DMs zu betteln. Ist der Tab leer oder ein Template von 2019, nimmt er das nächste Ergebnis.',
             fr: "Pour un café ou un t-shirt, un joli fil peut closer. Pour une rénovation, du juridique, du médical, un contrat B2B ou un recrutement — l'acheteur ouvre un second onglet. Il cherche une adresse, une équipe, des cas, des conditions, et un moyen d'écrire sans mendier en DM. Si l'onglet est vide ou un template 2019, il prend le résultat suivant.",
+            es: 'Para un café o una camiseta basta un feed bonito. Una reforma, un abogado, un servicio médico, un contrato B2B o una contratación — el comprador abre otra pestaña. Busca dirección, equipo, casos, condiciones y una forma de escribir sin mendigar en el DM. Si esa pestaña está vacía o es una plantilla de 2019, elige el siguiente resultado.',
+            it: "Per un caffè o una maglietta basta un bel feed. Per una ristrutturazione, un legale, un servizio medico, un contratto B2B o un’assunzione — l’acquirente apre un secondo tab. Cerca indirizzo, team, casi, condizioni e un modo per scrivere senza mendicare in DM. Se il tab è vuoto o è un template del 2019, prende il risultato successivo.",
+            tr: "Kahve veya tişörtü güzel bir akış satar. Tadilat, hukuk, sağlık, B2B sözleşme veya işe alım — alıcı ikinci sekmeyi açar. Adres, ekip, vakalar, koşullar ve DM’de yalvarmadan yazmanın yolunu arar. O sekme boşsa veya 2019 şablonuysa sonraki sonucu seçer.",
           },
         ],
         list: [
@@ -138,18 +192,27 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Корпоративні й державні замовники часто фізично не можуть оплатити підрядника без сайту й сторінки юрособи.',
             de: 'Konzerne und öffentliche Auftraggeber können oft keinen Vendor ohne Website und Impressum bezahlen.',
             fr: "Les acheteurs corporate et publics ne peuvent souvent pas payer un prestataire sans site ni page d'entité légale.",
+            es: 'Compradores corporativos y públicos a menudo no pueden pagar a un proveedor sin web ni página de persona jurídica.',
+            it: 'I buyer corporate e pubblici spesso non possono pagare un fornitore senza sito né pagina della ragione sociale.',
+            tr: "Kurumsal ve kamu alıcıları çoğu zaman sitesi ve tüzel kişi sayfası olmayan bir tedarikçiye ödeme yapamaz.",
           },
           {
             en: 'A clear “how we work / what it costs / what happens next” page cuts the first sales call in half.',
             ua: 'Зрозуміла сторінка «як працюємо / що коштує / що далі» скорочує перший продажний дзвінок удвічі.',
             de: 'Eine klare Seite „so arbeiten wir / was es kostet / was als Nächstes passiert“ halbiert den ersten Sales-Call.',
             fr: "Une page claire « comment on bosse / ça coûte quoi / et après » coupe le premier appel commercial en deux.",
+            es: 'Una página clara de «cómo trabajamos / qué cuesta / qué sigue» reduce a la mitad la primera llamada comercial.',
+            it: 'Una pagina chiara «come lavoriamo / quanto costa / cosa succede dopo» dimezza la prima chiamata commerciale.',
+            tr: "Net bir «nasıl çalışıyoruz / ne kadar / sonra ne olur» sayfası ilk satış aramasını yarıya indirir.",
           },
           {
             en: 'Reviews, photos of real work, and named people beat a logo on a white page.',
             ua: 'Відгуки, фото реальної роботи й імена людей б’ють логотип на білій сторінці.',
             de: 'Reviews, Fotos echter Arbeit und benannte Menschen schlagen ein Logo auf weißer Seite.',
             fr: "Avis, photos de vrai travail et gens nommés battent un logo sur page blanche.",
+            es: 'Reseñas, fotos de trabajo real y personas con nombre ganan a un logo en una página blanca.',
+            it: 'Recensioni, foto di lavori veri e nomi e volti battono un logo su pagina bianca.',
+            tr: "Yorumlar, gerçek iş fotoğrafları ve gerçek isimler beyaz sayfadaki logoyu yener.",
           },
         ],
       },
@@ -159,6 +222,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: '4. Сайт робить повторювану роботу, яку не повинні робити люди',
           de: '4. Die Website erledigt die repetitive Arbeit, die Ihre Leute nicht tun sollten',
           fr: "4. Le site fait le travail répétitif que vos gens ne devraient pas faire",
+          es: '4. La web hace el trabajo repetitivo que su gente no debería hacer',
+          it: "4. Il sito fa il lavoro ripetitivo che il vostro team non dovrebbe fare",
+          tr: "4. Site, ekibinizin yapmaması gereken tekrarlayan işi yapar",
         },
         paragraphs: [
           {
@@ -166,6 +232,9 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'У компанії на 10–50 людей прихована ціна — не «немає сайту». Це менеджер, який щодня відповідає на ті самі п’ять питань: години, вилка цін, що входить, як записатися, де ви. Це не сервіс. Це відсутній FAQ і форма.',
             de: 'In einer Firma mit 10–50 Leuten sind die versteckten Kosten nicht „keine Website“. Es ist ein Manager, der jeden Tag dieselben fünf Fragen beantwortet: Öffnungszeiten, Preisspanne, was inklusive ist, wie man bucht, wo Sie sind. Das ist keine Gastfreundschaft. Das ist ein fehlendes FAQ und ein Formular.',
             fr: "Dans une société de 10–50 personnes, le coût caché n'est pas « pas de site ». C'est un manager qui répond tous les jours aux cinq mêmes questions : horaires, fourchette de prix, ce qui est inclus, comment réserver, où vous êtes. Ce n'est pas de l'hospitalité. C'est une FAQ manquante et un formulaire.",
+            es: 'En una empresa de 10–50 personas el coste oculto no es «no hay web». Es un manager que cada día responde las mismas cinco preguntas: horario, horquilla de precio, qué incluye, cómo reservar, dónde están. Eso no es hospitalidad. Es un FAQ y un formulario que faltan.',
+            it: "In un’azienda di 10–50 persone il costo nascosto non è «non c’è il sito». È un manager che ogni giorno risponde alle stesse cinque domande: orari, fascia di prezzo, cosa è incluso, come prenotare, dove siete. Non è ospitalità. È una FAQ e un modulo che mancano.",
+            tr: "10–50 kişilik bir şirkette gizli maliyet «site yok» değildir. Her gün aynı beş soruyu yanıtlayan bir yöneticidir: saatler, fiyat aralığı, neler dahil, nasıl randevu, neredesiniz. Bu misafirperverlik değildir. Eksik bir FAQ ve formdur.",
           },
         ],
         list: [
@@ -174,18 +243,27 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Форма або календар запису ловить заявку о 22:40, коли в офісі нікого немає.',
             de: 'Ein Formular oder Buchungskalender fängt den Lead um 22:40, wenn niemand im Büro ist.',
             fr: "Un formulaire ou un calendrier de RDV capte le lead à 22h40, quand personne n'est au bureau.",
+            es: 'Un formulario o un calendario de reservas captura el lead a las 22:40, cuando no hay nadie en la oficina.',
+            it: 'Un modulo o un calendario di prenotazione cattura il lead alle 22:40, quando in ufficio non c’è nessuno.',
+            tr: "Bir form veya randevu takvimi, ofiste kimse yokken 22:40’ta lead’i yakalar.",
           },
           {
             en: 'Price lists, service scopes, and PDFs stop living in five chat threads.',
             ua: 'Прайс, склад послуг і PDF перестають жити в п’яти чатах.',
             de: 'Preislisten, Leistungsumfang und PDFs leben nicht mehr in fünf Chat-Threads.',
             fr: "Tarifs, périmètres de service et PDF cessent de vivre dans cinq fils de chat.",
+            es: 'Listas de precios, alcances de servicio y PDF dejan de vivir en cinco hilos de chat.',
+            it: 'Listini, ambiti di servizio e PDF smettono di vivere in cinque thread di chat.',
+            tr: "Fiyat listeleri, hizmet kapsamları ve PDF’ler beş sohbet zincirinde yaşamayı bırakır.",
           },
           {
             en: 'CRM, payments, and reminders can sit behind one page — you do not need a custom ERP on day one.',
             ua: 'CRM, оплата й нагадування можуть стояти за однією сторінкою — на старті не потрібен кастомний ERP.',
             de: 'CRM, Zahlung und Erinnerungen können hinter einer Seite sitzen — Sie brauchen am Tag eins kein Custom-ERP.',
             fr: "CRM, paiement et rappels peuvent tenir derrière une page — pas besoin d'ERP custom au jour un.",
+            es: 'CRM, pagos y recordatorios pueden ir detrás de una página — el primer día no hace falta un ERP a medida.',
+            it: 'CRM, pagamenti e promemoria possono stare dietro una pagina — il primo giorno non serve un ERP su misura.',
+            tr: "CRM, ödemeler ve hatırlatmalar bir sayfanın arkasında durabilir — ilk gün özel ERP gerekmez.",
           },
         ],
       },
@@ -195,6 +273,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: '5. Маркетинг починає накопичуватися, а не обнулятися щопонеділка',
           de: '5. Marketing beginnt zu compounden, statt jeden Montag auf null zu fallen',
           fr: '5. Le marketing commence à capitaliser, au lieu de se remettre à zéro chaque lundi',
+          es: '5. El marketing empieza a acumular, en vez de ponerse a cero cada lunes',
+          it: '5. Il marketing inizia a capitalizzare, invece di azzerarsi ogni lunedì',
+          tr: "5. Pazarlama her pazartesi sıfırlanmak yerine birikmeye başlar",
         },
         paragraphs: [
           {
@@ -202,6 +283,9 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Платна реклама без сайту — оренда: платите, трафік є, перестали платити — померло. Сайт, яким ви керуєте, — актив. Сторінки ранжуються. Старі пости блогу досі знаходять. База email росте з форми, а не з платформи, яка може закрити аудиторію.',
             de: 'Paid Ads ohne Website sind Miete: Sie zahlen, Traffic kommt, Sie hören auf zu zahlen, er stirbt. Eine Site, die Sie kontrollieren, ist ein Asset. Seiten ranken. Alte Blogposts werden noch gefunden. E-Mail-Listen wachsen über ein Formular, nicht über eine Plattform, die das Publikum zusperren kann.',
             fr: "Les pubs payantes sans site, c'est du loyer : vous payez, le trafic arrive, vous arrêtez, ça meurt. Un site que vous contrôlez est un actif. Les pages rankent. Les vieux posts de blog se trouvent encore. La liste email grandit via un formulaire, pas via une plateforme qui peut verrouiller l'audience.",
+            es: 'La publicidad de pago sin web es alquiler: paga, llega tráfico, deja de pagar, muere. Una web que controla es un activo. Las páginas posicionan. Los posts viejos del blog se siguen encontrando. La lista de email crece desde un formulario, no desde una plataforma que puede cerrar la audiencia.',
+            it: "Le ads a pagamento senza sito sono un affitto: pagate, arriva traffico, smettete, muore. Un sito che controllate è un asset. Le pagine si posizionano. I vecchi post del blog si trovano ancora. La lista email cresce da un modulo, non da una piattaforma che può chiudervi l’audience.",
+            tr: "Sitesiz ücretli reklam kiradır: ödersiniz, trafik gelir, ödemeyi kesersiniz, ölür. Kontrol ettiğiniz site bir varlıktır. Sayfalar sıralanır. Eski blog yazıları hâlâ bulunur. E-posta listesi, kitleyi kilitleyebilen bir platformdan değil, bir formdan büyür.",
           },
         ],
         list: [
@@ -210,18 +294,27 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Одна посадкова під офер б’є перевантажену головну, яка намагається продати все.',
             de: 'Eine Landing pro Angebot schlägt eine überladene Homepage, die alles verkaufen will.',
             fr: 'Une landing par offre bat une home surchargée qui veut tout vendre.',
+            es: 'Una landing por oferta gana a una home sobrecargada que intenta venderlo todo.',
+            it: 'Una landing per offerta batte una home sovraccarica che vuole vendere tutto.',
+            tr: "Teklif başına bir landing, her şeyi satmaya çalışan aşırı yüklü bir ana sayfayı yener.",
           },
           {
             en: 'UTM links and a simple analytics setup tell you which channel paid for itself.',
             ua: 'UTM-посилання й проста аналітика показують, який канал відбився.',
             de: 'UTM-Links und ein schlichtes Analytics-Setup sagen Ihnen, welcher Kanal sich bezahlt hat.',
             fr: "Les liens UTM et une analytique simple disent quel canal s'est payé.",
+            es: 'Enlaces UTM y una analítica sencilla le dicen qué canal se pagó solo.',
+            it: 'Link UTM e un’analitica semplice dicono quale canale si è ripagato.',
+            tr: "UTM bağlantıları ve sade bir analitik kurulumu hangi kanalın kendini ödediğini söyler.",
           },
           {
             en: 'You can A/B a headline. You cannot A/B an Instagram bio.',
             ua: 'Заголовок можна A/B-тестувати. Біо в Instagram — ні.',
             de: 'Eine Headline können Sie A/B-testen. Eine Instagram-Bio nicht.',
             fr: "Vous pouvez A/B tester un titre. Pas une bio Instagram.",
+            es: 'Un titular se puede A/B testear. Una bio de Instagram, no.',
+            it: 'Un titolo si può A/B testare. Una bio Instagram no.',
+            tr: "Bir başlığı A/B test edebilirsiniz. Instagram biyografisini edemezsiniz.",
           },
         ],
       },
@@ -231,6 +324,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: '6. Найм, партнери й перевірка «ви взагалі існуєте?»',
           de: '6. Hiring, Partner und der Check „seid ihr überhaupt echt?“',
           fr: "6. Recrutement, partenaires et le check « vous existez vraiment ? »",
+          es: '6. Contratación, partners y la comprobación «¿existen de verdad?»',
+          it: "6. Assunzioni, partner e il check «esistete davvero?»",
+          tr: "6. İşe alım, partnerler ve «gerçekten var mısınız?» kontrolü",
         },
         paragraphs: [
           {
@@ -238,6 +334,9 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Зростання МСБ — не лише клієнти. Кандидати гуглять компанію перед відгуком. Дистриб’ютори просять URL каталогу. Банк чи грант хочуть публічну сторінку. Сайт, який виглядає як жива справа — навіть короткий — знімає тихе вето, про яке ви ніколи не дізнаєтесь.',
             de: 'KMU-Wachstum ist nicht nur Kunden. Kandidaten googeln die Firma vor der Bewerbung. Distributoren wollen eine Katalog-URL. Eine Bank oder ein Förderprogramm will eine öffentliche Seite. Eine Site, die nach laufendem Geschäft aussieht — auch eine kurze — nimmt ein stilles Veto weg, von dem Sie nie hören.',
             fr: "La croissance d'une PME, ce n'est pas que des clients. Les candidats googlent la boîte avant de postuler. Les distributeurs demandent une URL de catalogue. Une banque ou un programme de subvention veut une page publique. Un site qui a l'air d'une affaire vivante — même court — lève un veto silencieux dont vous n'entendrez jamais parler.",
+            es: 'El crecimiento de una pyme no es solo clientes. Los candidatos googlean la empresa antes de postularse. Los distribuidores piden la URL del catálogo. Un banco o un programa de ayudas quiere una página pública. Una web que parece un negocio en marcha — aunque sea corta — quita un veto silencioso del que nunca se entera.',
+            it: "La crescita di una PMI non è solo clienti. I candidati googlano l’azienda prima di candidarsi. I distributori chiedono l’URL del catalogo. Una banca o un bando vuole una pagina pubblica. Un sito che sembra un’azienda in piedi — anche breve — toglie un veto silenzioso di cui non sentirete mai parlare.",
+            tr: "KOBİ büyümesi yalnızca müşteri değildir. Adaylar başvurmadan önce şirketi googlar. Distribütörler katalog URL’si ister. Bir banka veya hibe programı kamuya açık bir sayfa ister. Ayakta duran bir iş gibi görünen bir site — kısa olsa bile — hiç duymadığınız sessiz bir vetoyu kaldırır.",
           },
         ],
       },
@@ -247,6 +346,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: '7. Як реально росте кількість тих, хто замовляє',
           de: '7. Wie die Zahl der Besteller wirklich wächst',
           fr: '7. Comment le nombre de ceux qui commandent grandit vraiment',
+          es: '7. Cómo crece de verdad el número de quienes piden',
+          it: '7. Come cresce davvero il numero di chi ordina',
+          tr: "7. Sipariş verenlerin sayısı gerçekten nasıl büyür",
         },
         paragraphs: [
           {
@@ -254,12 +356,18 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Сайт не додає «+30% продажів» сам по собі. Замовлення ростуть, коли змінюються три цифри: більше людей, які вас не знали; більша частка відвідувачів, які доводять заявку до кінця; більше повторних замовлень від тих, хто вже платив. Сайт зрушує всі три одразу — пошук, конверсію й повернення — без ще однієї людини в чаті.',
             de: 'Eine Website zaubert nicht „+30 % Umsatz“. Bestellungen wachsen, wenn drei Zahlen sich bewegen: mehr Menschen, die Sie nie kannten; ein höherer Anteil Besucher, die die Anfrage zu Ende bringen; mehr Wiederholungsaufträge von Leuten, die schon einmal gezahlt haben. Die Site bewegt alle drei zugleich — Suche, Conversion und Wiederkommen — ohne noch eine Person im Chat.',
             fr: "Un site n'ajoute pas magiquement « +30 % de ventes ». Les commandes montent quand trois chiffres bougent : plus de gens qui ne vous connaissaient pas ; une plus grande part de visiteurs qui finissent la demande ; plus de commandes répétées de ceux qui ont déjà payé. Le site déplace les trois à la fois — recherche, conversion, retour — sans une personne de plus dans le chat.",
+            es: 'Una web no añade por arte de magia «+30 % de ventas». Los pedidos crecen cuando se mueven tres cifras: más gente que no le conocía; una mayor parte de visitantes que terminan la solicitud; más trabajo repetido de quien ya pagó una vez. La web mueve las tres a la vez — búsqueda, conversión y vuelta — sin contratar a otra persona para el chat.',
+            it: "Un sito non aggiunge per magia «+30 % di vendite». Gli ordini crescono quando si muovono tre numeri: più persone che non vi conoscevano; una quota più alta di visitatori che chiudono la richiesta; più ordini ripetuti da chi ha già pagato una volta. Il sito muove tutti e tre insieme — ricerca, conversione e ritorno — senza assumere un’altra persona in chat.",
+            tr: "Bir site sihirle «+%30 satış» eklemez. Siparişler üç rakam yerinden oynadığında büyür: sizi hiç tanımayan daha fazla kişi; talebi bitiren ziyaretçi payının artması; bir kez ödeyenlerden daha fazla tekrar iş. Site üçünü birden hareket ettiren araçtır — arama, dönüşüm ve geri dönüş — sohbette oturacak bir kişi daha işe almadan.",
           },
           {
             en: 'In practice that looks like a wider top of funnel and a shorter path to “yes.” Someone googles the service in your city at 22:40, reads proof, picks a package, and submits a form or pays. Yesterday that person never saw your Reel, or saw it, opened Direct, and left when nobody replied until morning.',
             ua: 'На практиці це ширший верх воронки й коротший шлях до «так». Людина гуглить послугу у вашому місті о 22:40, читає докази, обирає пакет і надсилає форму або платить. Учора ця людина не бачила ваш Reel — або бачила, відкрила директ і пішла, бо відповіді не було до ранку.',
             de: 'In der Praxis heißt das: breiterer Trichter oben und kürzerer Weg zum „Ja“. Jemand googelt die Leistung in Ihrer Stadt um 22:40, liest Beweise, wählt ein Paket und sendet ein Formular oder zahlt. Gestern hat diese Person Ihr Reel nie gesehen — oder gesehen, Direct geöffnet und ist gegangen, weil bis zum Morgen niemand antwortete.',
             fr: "En pratique : un haut d'entonnoir plus large et un chemin plus court vers « oui ». Quelqu'un google le service dans votre ville à 22h40, lit des preuves, choisit un pack et envoie un formulaire ou paie. Hier cette personne n'avait pas vu votre Reel — ou l'avait vu, ouvert Direct, et parti parce que personne n'avait répondu avant le matin.",
+            es: 'En la práctica es un embudo más ancho arriba y un camino más corto al «sí». Alguien busca el servicio en su ciudad a las 22:40, lee pruebas, elige un paquete y envía un formulario o paga. Ayer esa persona no vio su Reel — o lo vio, abrió Direct y se fue porque nadie contestó hasta la mañana.',
+            it: "In pratica: un imbuto più largo in alto e un percorso più corto verso il «sì». Qualcuno googla il servizio nella vostra città alle 22:40, legge le prove, sceglie un pacchetto e invia un modulo o paga. Ieri quella persona non aveva visto il vostro Reel — o l’aveva visto, aperto Direct, e se n’è andata perché nessuno ha risposto fino al mattino.",
+            tr: "Pratikte bu, huninin üstünün daha geniş ve «evet»e giden yolun daha kısa olmasıdır. Biri 22:40’ta şehrinizde hizmeti googlar, kanıt okur, paket seçer ve form gönderir veya öder. Dün o kişi Reel’inizi hiç görmemişti — ya da gördü, Direct’i açtı ve sabaha kadar kimse yanıtlamayınca gitti.",
           },
         ],
         list: [
@@ -268,36 +376,54 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Нові покупці з пошуку й Maps: люди з наміром сьогодні, не лише підписники. Сторінка «послуга + місто» — вітрина, яка не зачиняється після останнього поста.',
             de: 'Neue Käufer aus Suche und Maps: Menschen mit Absicht heute, nicht nur Follower. Eine Seite „Leistung + Stadt“ ist ein Schaufenster, das nach dem letzten Post offen bleibt.',
             fr: "Nouveaux acheteurs depuis la recherche et Maps : des gens avec une intention aujourd'hui, pas seulement des followers. Une page « service + ville » est une vitrine ouverte après le dernier post.",
+            es: 'Compradores nuevos desde búsqueda y Maps: gente con intención hoy, no solo seguidores. Una página «servicio + ciudad» es un escaparate que sigue abierto después del último post.',
+            it: "Nuovi acquirenti da ricerca e Maps: persone con un’intenzione oggi, non solo follower. Una pagina «servizio + città» è una vetrina aperta dopo l’ultimo post.",
+            tr: "Arama ve Maps’ten yeni alıcılar: bugün niyeti olanlar, yalnızca takipçiler değil. «Hizmet + şehir» sayfası, son gönderiden sonra da açık kalan bir vitrindir.",
           },
           {
             en: 'Fewer abandoned requests: a form, booking, or pay button captures the order while the intent is hot. Chat that waits until 09:00 leaks the same people to whoever answered first.',
             ua: 'Менше кинутих заявок: форма, запис або кнопка оплати ловить замовлення, поки намір гарячий. Чат до 09:00 зливає тих самих людей тому, хто відповів першим.',
             de: 'Weniger abgebrochene Anfragen: Formular, Buchung oder Pay-Button fängt die Bestellung, solange die Absicht heiß ist. Chat bis 09:00 verliert dieselben Leute an den, der zuerst antwortet.',
             fr: "Moins de demandes abandonnées : formulaire, RDV ou bouton payer capte la commande tant que l'intention est chaude. Un chat jusqu'à 09h00 fuit les mêmes gens vers celui qui a répondu en premier.",
+            es: 'Menos solicitudes abandonadas: un formulario, reserva o botón de pago captura el pedido mientras la intención está caliente. El chat que espera hasta las 09:00 pierde a esa misma gente ante quien contestó primero.',
+            it: "Meno richieste abbandonate: un modulo, una prenotazione o un pulsante paga cattura l’ordine finché l’intenzione è calda. La chat che aspetta le 09:00 perde le stesse persone verso chi ha risposto per primo.",
+            tr: "Daha az terk edilen talep: form, randevu veya öde düğmesi niyet sıcakken siparişi yakalar. 09:00’a kadar bekleyen sohbet aynı insanları ilk yanıtlayan kişiye kaptırır.",
           },
           {
             en: 'Higher conversion of traffic you already pay for: ads and stories send people to a page with price, proof, and one button — not to a profile where the offer is three swipes down.',
             ua: 'Вища конверсія трафіку, за який уже платите: реклама й сторіз ведуть на сторінку з ціною, доказами й однією кнопкою — не в профіль, де офер на три свайпи нижче.',
             de: 'Höhere Conversion des Traffics, den Sie schon bezahlen: Ads und Stories landen auf einer Seite mit Preis, Beweis und einem Button — nicht auf einem Profil, wo das Angebot drei Swipes tiefer liegt.',
             fr: "Meilleure conversion du trafic que vous payez déjà : pubs et stories envoient vers une page avec prix, preuves et un bouton — pas vers un profil où l'offre est trois swipes plus bas.",
+            es: 'Mayor conversión del tráfico que ya paga: anuncios e stories llevan a una página con precio, pruebas y un botón — no a un perfil donde la oferta está tres swipes más abajo.',
+            it: "Conversione più alta del traffico che pagate già: ads e stories mandano a una pagina con prezzo, prove e un pulsante — non a un profilo dove l’offerta è tre swipe più in basso.",
+            tr: "Zaten ödediğiniz trafiğin daha yüksek dönüşümü: reklamlar ve hikâyeler insanları fiyat, kanıt ve tek düğmeli bir sayfaya gönderir — teklifin üç kaydırma aşağıda olduğu bir profile değil.",
           },
           {
             en: 'Repeat and adjacent orders: a catalog, “order again,” related services, and a saved URL beat asking the client to remember which chat you used last time.',
             ua: 'Повторні й сусідні замовлення: каталог, «замовити ще раз», суміжні послуги й збережене посилання б’ють прохання згадати, у якому чаті ви були минулого разу.',
             de: 'Wiederholungs- und Anschlussaufträge: Katalog, „erneut bestellen“, verwandte Leistungen und eine gespeicherte URL schlagen die Bitte, sich zu erinnern, in welchem Chat Sie letztes Mal waren.',
             fr: "Commandes répétées et adjacentes : catalogue, « commander à nouveau », services liés et une URL enregistrée battent la demande de se souvenir dans quel chat vous étiez la dernière fois.",
+            es: 'Pedidos repetidos y adyacentes: un catálogo, «pedir otra vez», servicios relacionados y una URL guardada ganan a pedirle al cliente que recuerde en qué chat estuvieron la última vez.',
+            it: "Ordini ripetuti e adiacenti: un catalogo, «ordina di nuovo», servizi correlati e un URL salvato battono chiedere al cliente di ricordare in quale chat eravate l’ultima volta.",
+            tr: "Tekrar ve çapraz siparişler: katalog, «yeniden sipariş», ilgili hizmetler ve kayıtlı bir URL, müşteriden geçen sefer hangi sohbeti kullandığınızı hatırlamasını istemekten iyidir.",
           },
           {
             en: 'Referrals that convert: a client forwards yourbrand.com/service, not a screenshot of a story. The next buyer sees the same proof and can order without asking you to “send the price again.”',
             ua: 'Рекомендації, які конвертять: клієнт пересилає yourbrand.com/service, а не скрін сторіз. Наступний покупець бачить ті самі докази й може замовити, не просячи «скиньте прайс ще раз».',
             de: 'Empfehlungen, die konvertieren: ein Kunde schickt yourbrand.com/service weiter, kein Story-Screenshot. Der nächste Käufer sieht denselben Beweis und kann bestellen, ohne „Preis nochmal schicken“ zu bitten.',
             fr: "Parrainages qui convertissent : un client transmet yourbrand.com/service, pas une capture de story. L'acheteur suivant voit les mêmes preuves et peut commander sans demander « renvoyez le tarif ».",
+            es: 'Recomendaciones que convierten: un cliente reenvía yourbrand.com/service, no una captura de una story. El siguiente comprador ve las mismas pruebas y puede pedir sin pedirle «mándeme el precio otra vez».',
+            it: "Referral che convertono: un cliente inoltra yourbrand.com/service, non uno screenshot di una story. Il prossimo acquirente vede le stesse prove e può ordinare senza chiedere «rimandate il listino».",
+            tr: "Dönüşen tavsiyeler: müşteri bir hikâye ekran görüntüsü değil, yourbrand.com/service iletir. Sonraki alıcı aynı kanıtı görür ve «fiyatı bir daha gönderin» demeden sipariş verebilir.",
           },
           {
             en: 'Same team, more closed orders: the site answers hours, scope, and “what’s included.” Staff spend time on quotes that are already warm instead of typing the FAQ into Direct fifty times a week.',
             ua: 'Та сама команда — більше закритих замовлень: сайт відповідає на години, склад і «що входить». Люди витрачають час на теплі комерційні, а не вбивають FAQ у директ п’ятдесят разів на тиждень.',
             de: 'Dasselbe Team, mehr abgeschlossene Aufträge: die Site beantwortet Zeiten, Umfang und „was inklusive ist“. Die Leute arbeiten an warmen Angeboten, statt die FAQ fünfzig Mal pro Woche in Direct zu tippen.',
             fr: "Même équipe, plus de commandes closes : le site répond aux horaires, au périmètre et à « ce qui est inclus ». L'équipe passe du temps sur des devis déjà chauds, au lieu de retaper la FAQ dans Direct cinquante fois par semaine.",
+            es: 'El mismo equipo, más pedidos cerrados: la web responde horario, alcance y «qué incluye». El personal dedica tiempo a presupuestos ya calientes en vez de teclear el FAQ en Direct cincuenta veces por semana.',
+            it: "Stesso team, più ordini chiusi: il sito risponde a orari, ambito e «cosa è incluso». Il personale passa tempo su preventivi già caldi invece di ribattere la FAQ in Direct cinquanta volte a settimana.",
+            tr: "Aynı ekip, daha fazla kapanan sipariş: site saatleri, kapsamı ve «neler dahil»i yanıtlar. Personel FAQ’yu haftada elli kez Direct’e yazmak yerine zaten ısınmış tekliflere zaman ayırır.",
           },
         ],
       },
@@ -307,6 +433,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Як це виглядає в цифрах, які можна рахувати',
           de: 'Wie das in Zahlen aussieht, die Sie zählen können',
           fr: 'À quoi ça ressemble en chiffres que vous pouvez compter',
+          es: 'Cómo se ve en cifras que se pueden contar',
+          it: 'Come appare nei numeri che potete tenere d’occhio',
+          tr: "Bunun takip edebileceğiniz sayılarda hali",
         },
         paragraphs: [
           {
@@ -314,6 +443,9 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Не чекайте красивого стрибка відвідувачів. Дивіться ланцюг від першого заходу до оплаченого замовлення. Якщо якась ланка порожня — там і стопоряться замовлення, а не в «треба більше підписників».',
             de: 'Warten Sie nicht auf einen Eitelkeits-Spike bei Besuchern. Schauen Sie die Kette vom ersten Besuch bis zur bezahlten Bestellung. Ist ein Schritt leer, dort stocken die Aufträge — nicht bei „wir brauchen mehr Follower“.',
             fr: "N'attendez pas un pic de visiteurs pour la galerie. Regardez la chaîne du premier passage à la commande payée. Si un maillon est vide, c'est là que les commandes calent — pas dans « il nous faut plus de followers ».",
+            es: 'No espere un pico de visitas para la galería. Mire la cadena de la primera visita al pedido pagado. Si un eslabón está vacío, ahí se atascan los pedidos — no en «necesitamos más seguidores».',
+            it: "Non aspettate un bel picco di visitatori. Guardate la catena dalla prima visita all’ordine pagato. Se un anello è vuoto, lì si bloccano gli ordini — non in «ci servono più follower».",
+            tr: "Gösteriş için bir ziyaretçi sıçraması beklemeyin. İlk ziyaretten ödenmiş siparişe zinciri izleyin. Bir halka boşsa siparişler orada durur — «daha fazla takipçi lazım»da değil.",
           },
         ],
         list: [
@@ -322,24 +454,36 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Більше нових відвідувачів із наміром: запити в Search Console / Maps на послугу + місто і кліки з реклами на відповідну сторінку.',
             de: 'Mehr Erstbesucher mit Absicht: Search Console / Maps-Queries zu Leistung + Stadt, plus Ad-Klicks auf eine passende Seite.',
             fr: 'Plus de primo-visiteurs avec intention : requêtes Search Console / Maps service + ville, plus clics pub qui atterrissent sur la page correspondante.',
+            es: 'Más visitantes nuevos con intención: consultas en Search Console / Maps de servicio + ciudad, más clics de anuncios que aterrizan en la página adecuada.',
+            it: 'Più visitatori nuovi con intenzione: query Search Console / Maps su servizio + città, più clic ads che atterrano sulla pagina giusta.',
+            tr: "Niyeti olan daha fazla ilk ziyaretçi: Search Console / Maps’te hizmet + şehir sorguları ve eşleşen sayfaya inen reklam tıklamaları.",
           },
           {
             en: 'More completed requests: form submits, booked slots, or checkouts per 100 visits. A slow or vague page kills this even when traffic is fine.',
             ua: 'Більше завершених заявок: форми, записи або оплати на 100 візитів. Повільна чи розмита сторінка вбиває це навіть при нормальному трафіку.',
             de: 'Mehr abgeschlossene Anfragen: Formulare, Slots oder Checkouts pro 100 Besuche. Eine langsame oder vage Seite tötet das, selbst wenn der Traffic stimmt.',
             fr: 'Plus de demandes terminées : formulaires, créneaux ou checkouts pour 100 visites. Une page lente ou floue tue ça même si le trafic est bon.',
+            es: 'Más solicitudes completadas: formularios, reservas o checkouts por 100 visitas. Una página lenta o vaga lo mata aunque el tráfico esté bien.',
+            it: 'Più richieste completate: moduli, slot o checkout ogni 100 visite. Una pagina lenta o vaga lo uccide anche se il traffico è a posto.',
+            tr: "Daha fazla tamamlanan talep: 100 ziyarette form, randevu veya ödeme. Yavaş veya belirsiz bir sayfa trafik iyiyken bile bunu öldürür.",
           },
           {
             en: 'More paid orders from the same staff hours: fewer “what’s the price?” threads, more quotes that already know the package.',
             ua: 'Більше оплачених замовлень за ті самі години команди: менше тредів «яка ціна?», більше комерційних, де пакет уже зрозумілий.',
             de: 'Mehr bezahlte Aufträge bei denselben Personalstunden: weniger „was kostet das?“-Threads, mehr Angebote, die das Paket schon kennen.',
             fr: "Plus de commandes payées pour les mêmes heures d'équipe : moins de fils « c'est combien ? », plus de devis qui connaissent déjà le pack.",
+            es: 'Más pedidos pagados con las mismas horas de equipo: menos hilos de «¿cuánto cuesta?», más presupuestos que ya conocen el paquete.',
+            it: "Più ordini pagati con le stesse ore di team: meno thread «quanto costa?», più preventivi che già conoscono il pacchetto.",
+            tr: "Aynı personel saatinde daha fazla ödenmiş sipariş: daha az «fiyat nedir?» zinciri, paketi zaten bilen daha fazla teklif.",
           },
           {
             en: 'More second orders: returning users, saved numbers, “order again” — the cheapest growth, and the one a chat history cannot productise.',
             ua: 'Більше других замовлень: ті самі люди знову, збережений номер, «замовити ще» — найдешевше зростання, яке історія чату не вміє зробити продуктом.',
             de: 'Mehr Zweitaufträge: wiederkehrende Nutzer, gespeicherte Nummer, „erneut bestellen“ — das billigste Wachstum, und das, was ein Chatverlauf nicht zum Produkt machen kann.',
             fr: "Plus de deuxièmes commandes : les mêmes gens reviennent, numéro enregistré, « commander encore » — la croissance la moins chère, et celle qu'un historique de chat ne sait pas transformer en produit.",
+            es: 'Más segundos pedidos: los mismos usuarios vuelven, número guardado, «pedir otra vez» — el crecimiento más barato, y el que un historial de chat no sabe convertir en producto.',
+            it: "Più secondi ordini: gli stessi utenti tornano, numero salvato, «ordina ancora» — la crescita più economica, e quella che uno storico chat non sa trasformare in prodotto.",
+            tr: "Daha fazla ikinci sipariş: geri gelen kullanıcılar, kayıtlı numara, «yeniden sipariş» — en ucuz büyüme ve sohbet geçmişinin ürüne çeviremeyeceği tür.",
           },
         ],
       },
@@ -349,6 +493,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Як виглядає «достатньо» — портал не потрібен',
           de: 'Wie „genug“ aussieht — Sie brauchen kein Portal',
           fr: "À quoi ressemble « assez » — vous n'avez pas besoin d'un portail",
+          es: 'Cómo se ve «suficiente» — no hace falta un portal',
+          it: "Com’è «abbastanza» — non serve un portale",
+          tr: "«Yeterli» nasıl görünür — bir portala ihtiyacınız yok",
         },
         paragraphs: [
           {
@@ -356,6 +503,9 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Корисний перший сайт для МСБ — маленький і конкретний. Пекарні потрібні години, меню, адреса й спосіб замовити торт. Фірі на 40 людей — послуги, кейси, команда й контакт, який падає в CRM. Обидва провалюються однаково: 40-сторінкова брошура, яку ніхто не оновлює, або тема з конструктора, яка відкривається вісім секунд на телефоні.',
             de: 'Die nützliche erste Site für KMU ist klein und konkret. Eine Bäckerei braucht Zeiten, Speisekarte, Adresse und einen Weg, eine Torte zu bestellen. Eine 40-Personen-Dienstleistungsfirma braucht Leistungen, Cases, Team und einen Kontakt, der im CRM landet. Beide scheitern gleich: eine 40-Seiten-Broschüre, die niemand pflegt, oder ein Builder-Theme, das auf dem Handy acht Sekunden braucht.',
             fr: "Le premier site utile pour une PME est petit et précis. Une boulangerie a besoin d'horaires, menu, adresse et un moyen de commander un gâteau. Une société de services de 40 personnes a besoin de services, cas, équipe et un contact qui tombe dans le CRM. Les deux échouent pareil : une brochure de 40 pages que personne n'entretient, ou un thème builder qui met huit secondes sur mobile.",
+            es: 'La primera web útil para una pyme es pequeña y concreta. Una panadería necesita horario, carta, dirección y una forma de pedir una tarta. Una empresa de servicios de 40 personas necesita servicios, casos, equipo y un contacto que caiga en el CRM. Las dos fallan igual: un folleto de 40 páginas que nadie actualiza, o un tema de constructor que tarda ocho segundos en el móvil.',
+            it: "Il primo sito utile per una PMI è piccolo e concreto. Una panetteria ha bisogno di orari, menu, indirizzo e un modo per ordinare una torta. Una società di servizi di 40 persone ha bisogno di servizi, casi, team e un contatto che finisca nel CRM. Entrambe falliscono allo stesso modo: una brochure di 40 pagine che nessuno aggiorna, o un tema da builder che impiega otto secondi sul telefono.",
+            tr: "KOBİ için işe yarayan ilk site küçük ve somuttur. Fırının saate, menüye, adrese ve pasta sipariş etmenin bir yoluna ihtiyacı vardır. 40 kişilik bir hizmet firmasının hizmetlere, vakalara, ekibe ve CRM’e düşen bir iletişime ihtiyacı vardır. İkisi de aynı şekilde patlar: kimsenin güncellemediği 40 sayfalık bir broşür veya telefonda sekiz saniye süren bir builder teması.",
           },
         ],
         list: [
@@ -364,18 +514,27 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Один чіткий офер, доказ і один наступний крок (дзвінок, форма, запис, оплата).',
             de: 'Ein klares Angebot, Beweis und ein nächster Schritt (Anruf, Formular, buchen, zahlen).',
             fr: 'Une offre claire, une preuve et une seule prochaine étape (appel, formulaire, RDV, paiement).',
+            es: 'Una oferta clara, prueba y un solo siguiente paso (llamar, formulario, reservar, pagar).',
+            it: 'Un’offerta chiara, una prova e un solo passo successivo (chiamata, modulo, prenota, paga).',
+            tr: "Tek net teklif, kanıt ve tek sonraki adım (ara, form, randevu, öde).",
           },
           {
             en: 'Mobile first. Most SMB traffic is a phone in a car park or a kitchen.',
             ua: 'Спочатку мобільний. Більшість трафіку МСБ — телефон на парковці чи на кухні.',
             de: 'Mobile first. Der meiste KMU-Traffic ist ein Handy auf dem Parkplatz oder in der Küche.',
             fr: "Mobile d'abord. La plupart du trafic PME, c'est un téléphone sur un parking ou dans une cuisine.",
+            es: 'Primero el móvil. La mayor parte del tráfico de una pyme es un teléfono en un parking o en una cocina.',
+            it: 'Prima il mobile. Gran parte del traffico PMI è un telefono in un parcheggio o in cucina.',
+            tr: "Önce mobil. KOBİ trafiğinin çoğu otoparkta veya mutfakta bir telefondur.",
           },
           {
             en: 'Fast enough that Google and a tired customer do not bounce. Then add shop, cabinet, or blog when a page is earning its keep.',
             ua: 'Достатньо швидко, щоб Google і втомлений клієнт не пішли. Далі магазин, кабінет чи блог — коли сторінка вже відпрацьовує.',
             de: 'Schnell genug, dass Google und ein müder Kunde nicht abspringen. Dann Shop, Konto oder Blog, wenn eine Seite sich bezahlt macht.',
             fr: "Assez rapide pour que Google et un client fatigué ne partent pas. Ensuite boutique, espace client ou blog — quand une page gagne déjà sa place.",
+            es: 'Lo bastante rápida para que Google y un cliente cansado no se vayan. Luego tienda, área de cliente o blog — cuando una página ya se gana el puesto.',
+            it: 'Abbastanza veloce perché Google e un cliente stanco non se ne vadano. Poi shop, area clienti o blog — quando una pagina si è già guadagnata il posto.',
+            tr: "Google ve yorgun bir müşterinin kaçmayacağı kadar hızlı. Sonra mağaza, müşteri alanı veya blog — bir sayfa yerini kazandığında.",
           },
         ],
       },
@@ -385,6 +544,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Як зрозуміти, що це працює',
           de: 'Woran Sie merken, dass es funktioniert',
           fr: 'Comment savoir que ça marche',
+          es: 'Cómo saber que funciona',
+          it: 'Come capire che funziona',
+          tr: "Çalıştığını nasıl anlarsınız",
         },
         paragraphs: [
           {
@@ -392,6 +554,9 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Не оцінюйте сайт за «виглядає сучасно». Оцінюйте коротким списком через 30–90 днів:',
             de: 'Bewerten Sie eine Site nicht nach „sieht modern aus“. Bewerten Sie sie nach einer kurzen Liste nach 30–90 Tagen:',
             fr: "Ne jugez pas un site à « ça a l'air moderne ». Jugez-le sur une courte liste à 30–90 jours :",
+            es: 'No juzgue una web por «se ve moderna». Júzguela con una lista corta a los 30–90 días:',
+            it: "Non giudicate un sito da «sembra moderno». Giudicatelo con una lista breve a 30–90 giorni:",
+            tr: "Bir siteyi «modern duruyor» diye yargılamayın. 30–90 gün sonra bakabileceğiniz kısa bir listeyle yargılayın:",
           },
         ],
         list: [
@@ -400,30 +565,45 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Вхід: заявки з форми, дзвінки з сайту, записи, оплачені замовлення — не лише підписники.',
             de: 'Inbound: Formular-Absendungen, Anrufe von der Site, gebuchte Slots, bezahlte Bestellungen — nicht nur Follower.',
             fr: 'Inbound : envois de formulaire, appels depuis le site, créneaux bookés, commandes payées — pas seulement des followers.',
+            es: 'Entrada: envíos de formulario, llamadas desde la web, reservas, pedidos pagados — no solo seguidores.',
+            it: 'Inbound: invii di modulo, chiamate dal sito, slot prenotati, ordini pagati — non solo follower.',
+            tr: "Inbound: form gönderimleri, siteden aramalar, alınan randevular, ödenmiş siparişler — yalnızca takipçiler değil.",
           },
           {
             en: 'Order volume: first-time buyers vs repeat, and requests per week versus the month before the site (or before the new landing).',
             ua: 'Обсяг замовлень: нові vs повторні покупці, і заявок на тиждень порівняно з місяцем до сайту (або до нового лендингу).',
             de: 'Auftragsvolumen: Erstkäufer vs. Wiederholer, und Anfragen pro Woche gegenüber dem Monat vor der Site (oder vor der neuen Landing).',
             fr: "Volume de commandes : primo-acheteurs vs répétition, et demandes par semaine vs le mois avant le site (ou avant la nouvelle landing).",
+            es: 'Volumen de pedidos: compradores nuevos vs repetidos, y solicitudes por semana frente al mes anterior a la web (o a la nueva landing).',
+            it: "Volume ordini: nuovi acquirenti vs ripetuti, e richieste a settimana rispetto al mese prima del sito (o della nuova landing).",
+            tr: "Sipariş hacmi: ilk kez alanlar ve tekrarlar, siteden (veya yeni landing’den) önceki aya göre haftalık talepler.",
           },
           {
             en: 'Time saved: fewer identical questions in chat and at the front desk.',
             ua: 'Заощаджений час: менше однакових питань у чаті й на ресепшені.',
             de: 'Zeit gespart: weniger identische Fragen im Chat und am Empfang.',
             fr: 'Temps gagné : moins de questions identiques en chat et à l’accueil.',
+            es: 'Tiempo ahorrado: menos preguntas idénticas en el chat y en recepción.',
+            it: 'Tempo risparmiato: meno domande identiche in chat e in reception.',
+            tr: "Kazanılan zaman: sohbette ve resepsiyonda daha az aynı soru.",
           },
           {
             en: 'Search: impressions for your city + service, even if you are not #1 yet.',
             ua: 'Пошук: покази за місто + послуга, навіть якщо ви ще не перші.',
             de: 'Suche: Impressionen für Stadt + Leistung, auch wenn Sie noch nicht #1 sind.',
             fr: "Recherche : impressions pour ville + service, même si vous n'êtes pas encore n°1.",
+            es: 'Búsqueda: impresiones por ciudad + servicio, aunque aún no sea el nº 1.',
+            it: "Ricerca: impressioni per città + servizio, anche se non siete ancora n°1.",
+            tr: "Arama: henüz 1. olmasanız bile şehir + hizmet gösterimleri.",
           },
           {
             en: 'Ad cost: cheaper leads when traffic lands on a page built for that offer.',
             ua: 'Вартість реклами: дешевші ліди, коли трафік падає на сторінку під цей офер.',
             de: 'Ad-Kosten: günstigere Leads, wenn Traffic auf einer Seite für dieses Angebot landet.',
             fr: "Coût pub : leads moins chers quand le trafic arrive sur une page faite pour cette offre.",
+            es: 'Coste de anuncios: leads más baratos cuando el tráfico aterriza en una página hecha para esa oferta.',
+            it: "Costo ads: lead più economici quando il traffico atterra su una pagina fatta per quell’offerta.",
+            tr: "Reklam maliyeti: trafik o teklif için yapılmış bir sayfaya inince daha ucuz lead.",
           },
         ],
       },
@@ -433,6 +613,9 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Якщо готові перестати відкладати',
           de: 'Wenn Sie aufhören wollen, es aufzuschieben',
           fr: "Si vous êtes prêts à arrêter de le remettre",
+          es: 'Si está listo para dejar de aplazarlo',
+          it: "Se siete pronti a smettere di rimandarlo",
+          tr: "Ertelemeyi bırakmaya hazırsanız",
         },
         paragraphs: [
           {
@@ -440,18 +623,27 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Користь сайту для малого й середнього бізнесу — не в тому, що «є сайт». А в тому, що більше людей знаходять вас без поста, доводять замовлення без директ і повертаються без пошуку старого чату — і адреса належить вам. Так росте кількість тих, хто купує, дешевше за ще рік орендованої уваги.',
             de: 'Der Nutzen einer Website für KMU ist nicht, dass Sie „eine Site haben“. Sondern dass mehr Menschen Sie ohne Post finden, eine Bestellung ohne DM zu Ende bringen und ohne alten Chat zurückkommen — und die Adresse Ihnen gehört. So wächst die Zahl der Käufer, billiger als ein weiteres Jahr gemietete Aufmerksamkeit.',
             fr: "Le bénéfice d'un site pour une PME, ce n'est pas d'« avoir un site ». C'est que plus de gens vous trouvent sans post, finissent une commande sans DM, et reviennent sans chasser l'ancien chat — et l'adresse est à vous. C'est comme ça que le nombre d'acheteurs grandit, moins cher qu'une année de plus d'attention louée.",
+            es: 'El beneficio de una web para una pyme no es «tener web». Es que más gente le encuentre sin un post, termine un pedido sin un DM y vuelva sin buscar el chat viejo — y la dirección es suya. Así crece el número de compradores, más barato que otro año de atención alquilada.',
+            it: "Il beneficio di un sito per una PMI non è «avere un sito». È che più persone vi trovano senza un post, chiudono un ordine senza un DM e tornano senza rincorrere la vecchia chat — e l’indirizzo è vostro. Così cresce il numero di acquirenti, più economico di un altro anno di attenzione in affitto.",
+            tr: "KOBİ için sitenin faydası «siteniz var» değildir. Daha fazla insanın gönderisiz sizi bulması, DM’siz siparişi bitirmesi ve eski sohbeti aramadan geri gelmesidir — adres size aittir. Alıcı sayısı böyle büyür; bir yıl daha kiralanmış dikkatten ucuzdur.",
           },
           {
             en: 'I build lean, fast sites and web apps with Next.js and React: 8+ years in production, 4,200+ Upwork hours, 100+ launched projects. TypeScript, performance, SEO-ready structure, and a contact path that actually gets used.',
             ua: 'Я збираю легкі, швидкі сайти й вебзастосунки на Next.js і React: 8+ років у продакшені, 4 200+ годин на Upwork, 100+ запущених проєктів. TypeScript, швидкість, SEO-готова структура й контакт, яким реально користуються.',
             de: 'Ich baue schlanke, schnelle Sites und Web-Apps mit Next.js und React: 8+ Jahre Produktion, 4.200+ Upwork-Stunden, 100+ gestartete Projekte. TypeScript, Performance, SEO-fähige Struktur und ein Kontaktweg, der wirklich genutzt wird.',
             fr: "Je construis des sites et apps web légers et rapides avec Next.js et React : 8+ ans en production, 4 200+ heures Upwork, 100+ projets lancés. TypeScript, perf, structure prête SEO, et un chemin de contact vraiment utilisé.",
+            es: 'Construyo webs y apps ligeras y rápidas con Next.js y React: 8+ años en producción, más de 4.200 horas en Upwork, 100+ proyectos lanzados. TypeScript, rendimiento, estructura lista para SEO y un camino de contacto que de verdad se usa.',
+            it: "Costruisco siti e app web snelli e veloci con Next.js e React: 8+ anni in produzione, oltre 4.200 ore su Upwork, 100+ progetti lanciati. TypeScript, performance, struttura pronta per la SEO e un percorso di contatto che viene davvero usato.",
+            tr: "Next.js ve React ile yalın, hızlı siteler ve web uygulamaları kuruyorum: üretimde 8+ yıl, 4.200+ Upwork saati, 100+ yayına alınan proje. TypeScript, performans, SEO’ya hazır yapı ve gerçekten kullanılan bir iletişim yolu.",
           },
           {
             en: 'If you need a first site, a replacement for a dead template, or a landing that can take ads — write via the contacts below. We can map the smallest useful version in one short call.',
             ua: 'Якщо потрібен перший сайт, заміна мертвого шаблону або лендинг під рекламу — напишіть через контакти нижче. За короткий дзвінок зберемо найменшу корисну версію.',
             de: 'Wenn Sie eine erste Site brauchen, einen toten Template-Ersatz oder eine Landing für Ads — schreiben Sie über die Kontakte unten. In einem kurzen Call skizzieren wir die kleinste nützliche Version.',
             fr: "Si vous avez besoin d'un premier site, d'un remplacement de template mort, ou d'une landing pour les pubs — écrivez via les contacts ci-dessous. En un court appel, on cadastre la plus petite version utile.",
+            es: 'Si necesita una primera web, sustituir una plantilla muerta o una landing que aguante anuncios — escriba por los contactos de abajo. En una llamada corta dibujamos la versión útil más pequeña.',
+            it: "Se vi serve un primo sito, sostituire un template morto o una landing che regga le ads — scrivete dai contatti sotto. In una breve chiamata tracciamo la versione utile più piccola.",
+            tr: "İlk site, ölü bir şablonun yerine veya reklam taşıyacak bir landing gerekiyorsa — aşağıdaki iletişimlerden yazın. Kısa bir aramada en küçük işe yarar sürümü çizeriz.",
           },
         ],
       },
@@ -465,6 +657,7 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Як розробнику стати project manager і які якості справді цінні',
       de: "Wie ein Entwickler zum Projektmanager werden kann – und welche Eigenschaften wirklich wichtig sind",
       fr: "Comment un développeur peut devenir chef de projet et quelles qualités comptent réellement",
+      es: "Cómo un desarrollador puede convertirse en project manager — y qué cualidades importan de verdad",
     },
 
     excerpt: {
@@ -472,12 +665,14 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Як комунікативні та project-manager навички підвищують якість fullstack-послуг — плюс практичний шлях від інженера до PM і якості, які справді цінні.',
       de: "Wie Kommunikations- und Projektmanagementfähigkeiten die Qualität der Full-Stack-Bereitstellung steigern – plus ein praktischer Weg vom Ingenieur zum PM und die Qualitäten, auf die es wirklich ankommt.",
       fr: "Comment les compétences en communication et en gestion de projet améliorent la qualité de la livraison full-stack, ainsi qu'un parcours pratique d'ingénieur à PM et les qualités qui comptent réellement.",
+      es: "Cómo la comunicación y las habilidades de project manager suben la calidad de la entrega full-stack — más un camino práctico de ingeniero a PM y las cualidades que de verdad importan.",
     },
     readTime: {
       en: '8 min read',
       ua: '8 хв читання',
       de: "8 Min. Lesezeit",
       fr: "8 minutes de lecture",
+      es: "8 min de lectura",
     },
     tags: {
       en: ['Career', 'Project Management', 'Soft Skills', 'Full-stack', 'Communication', 'Leadership'],
@@ -498,6 +693,14 @@ export const businessPosts: RawBlogPost[] = [
         "Communication",
         "Leadership"
       ],
+      es: [
+        "Carrera",
+        "Project management",
+        "Soft skills",
+        "Full-stack",
+        "Comunicación",
+        "Liderazgo"
+      ],
     },
     content: [
       {
@@ -507,18 +710,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Багато сильних розробників рано чи пізно опиняються на розвилці: йти глибше в архітектуру й staff engineering — або ближче до людей, делівері та бізнес-результатів як project manager (чи engineering manager / delivery lead). Другий шлях — це не «легший менеджмент», а інша професія. Досвід у коді — перевага лише тоді, коли ви знімаєте невизначеність, а не мікроменеджите тікети.',
       de: "Viele starke Entwickler stehen irgendwann an einer Weggabelung: tiefer in Architektur und Staff Engineering – oder näher an Menschen, Delivery und Geschäftsergebnisse als Project Manager (oder Engineering Manager / Delivery Lead). Der zweite Weg ist nicht „leichteres Management“ – es ist ein anderes Handwerk. Ihr Coding-Hintergrund hilft nur, wenn Sie damit Unklarheit reduzieren, statt Tickets zu mikromanagen.",
       fr: "De nombreux développeurs talentueux finissent par se trouver à la croisée des chemins : approfondir l'architecture et l'ingénierie du personnel, ou se rapprocher des personnes, de la livraison et des résultats commerciaux en tant que chef de projet (ou responsable de l'ingénierie/responsable de livraison). La deuxième voie n’est pas une « gestion plus facile » – c’est un métier différent. Votre expérience en codage n’est un avantage que si vous l’utilisez pour réduire l’ambiguïté, et non pour microgérer les tickets.",
+      es: "Muchos desarrolladores fuertes llegan antes o después a una encrucijada: profundizar en arquitectura y staff engineering, o acercarse a las personas, la entrega y los resultados de negocio como project manager (o engineering manager / delivery lead). El segundo camino no es «gestión más fácil»: es otro oficio. Su experiencia en código solo es una ventaja si la usa para reducir la ambigüedad, no para microgestionar tickets.",
           },
           {
             en: 'Even if you stay a full-stack developer, communication and PM skills are not “extra soft skills” — they directly shape the quality of the product you ship: fewer rewrites, clearer scope, predictable releases, and services that match the client’s real goal instead of a vague ticket list.',
             ua: 'Навіть якщо ви лишаєтеся fullstack-розробником, комунікація та PM-навички — це не «додаткові soft skills». Вони напряму впливають на якість послуг: менше переробок, чіткіший скоуп, передбачувані релізи і сервіс, який закриває реальну ціль клієнта, а не розмитий список тікетів.',
       de: "Selbst wenn Sie Full-Stack-Entwicklerin oder -Entwickler bleiben, sind Kommunikations- und PM-Fähigkeiten keine „extra Soft Skills“ – sie prägen direkt die Qualität des gelieferten Produkts: weniger Nacharbeiten, klarerer Scope, planbare Releases und Services, die zum echten Ziel des Kunden passen, statt zu einer vagen Ticketliste.",
       fr: "Même si vous restez un développeur full-stack, les compétences en communication et en gestion de projet ne sont pas des « compétences générales supplémentaires » : elles façonnent directement la qualité du produit que vous livrez : moins de réécritures, un périmètre plus clair, des versions prévisibles et des services qui correspondent à l'objectif réel du client au lieu d'une vague liste de tickets.",
+      es: "Aunque siga siendo desarrollador full-stack, la comunicación y las habilidades de PM no son «soft skills de extra». Dan forma directa a la calidad del producto que entrega: menos reescrituras, un alcance más claro, releases previsibles y un servicio que encaja con el objetivo real del cliente, no con una lista vaga de tickets.",
           },
           {
             en: 'This article is a practical map: how those skills raise full-stack service quality, why teams hire developers into PM roles, which qualities convert technical credibility into trust, and a step-by-step transition you can start without quitting overnight.',
             ua: 'Ця стаття — практична карта: як ці навички піднімають якість fullstack-послуг, чому команди беруть розробників у PM-ролі, які якості перетворюють технічну експертизу на довіру, і покроковий перехід без різкого звільнення.',
       de: "Dieser Artikel ist eine praktische Karte: Wie diese Fähigkeiten die Qualität des Full-Stack-Service steigern, warum Teams Entwickler für PM-Rollen einstellen, welche Qualitäten technische Glaubwürdigkeit in Vertrauen umwandeln und ein schrittweiser Übergang, den Sie beginnen können, ohne über Nacht aufzugeben.",
       fr: "Cet article est une carte pratique : comment ces compétences améliorent la qualité du service full-stack, pourquoi les équipes embauchent des développeurs dans des rôles de PM, quelles qualités convertissent la crédibilité technique en confiance et une transition étape par étape que vous pouvez démarrer sans abandonner du jour au lendemain.",
+      es: "Este artículo es un mapa práctico: cómo esas habilidades suben la calidad del servicio full-stack, por qué los equipos contratan desarrolladores para roles de PM, qué cualidades convierten la credibilidad técnica en confianza, y una transición paso a paso que puede empezar sin dejar el puesto de un día para otro.",
           },
         ],
       },
@@ -528,6 +734,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '1. Чому з розробників виходять сильні PM',
       de: "1. Warum aus Entwicklern starke PMs werden",
       fr: "1. Pourquoi les développeurs font de bons PM",
+      es: "1. Por qué los desarrolladores son buenos PM",
         },
         paragraphs: [
           {
@@ -535,6 +742,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Стейкхолдерам часто важко перекласти бізнес-цілі в реалістичний скоуп. Розробник, який став PM, уже знає пастки оцінки, ланцюги залежностей, технічний борг і що насправді означає «готово» в продакшені. Це скорочує тижні листування і не дає обіцяти те, що команда фізично не вивезе.',
       de: "Stakeholder haben oft Schwierigkeiten, Geschäftsziele in einen realistischen Rahmen umzusetzen. Ein Entwickler, der zum PM geworden ist, kennt bereits Schätzfallen, Abhängigkeitsketten, technische Schulden und weiß, was „erledigt“ in der Produktion eigentlich bedeutet. Das erspart wochenlanges Hin und Her und verhindert Verpflichtungen, die das Team nicht einhalten kann.",
       fr: "Les parties prenantes ont souvent du mal à traduire les objectifs commerciaux en une portée réaliste. Un développeur devenu PM connaît déjà les pièges d’estimation, les chaînes de dépendance, la dette technique et ce que « fait » signifie réellement en production. Cela réduit des semaines d'allers-retours et évite des engagements que l'équipe ne peut pas tenir.",
+      es: "A los stakeholders les cuesta a menudo traducir objetivos de negocio en un alcance realista. Un desarrollador convertido en PM ya conoce las trampas de estimación, las cadenas de dependencias, la deuda técnica y qué significa de verdad «hecho» en producción. Eso recorta semanas de idas y venidas y evita compromisos que el equipo no puede cumplir.",
           },
         ],
         list: [
@@ -543,24 +751,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Ви рано відчуваєте нереалістичні дедлайни — і можете торгуватися за скоуп, а не мовчки погоджуватися на вигорання.',
       de: "Sie merken unrealistische Deadlines früh – und können den Scope verhandeln, statt still ein Burnout zu akzeptieren.",
       fr: "Vous sentez très tôt les délais irréalistes et pouvez négocier la portée au lieu d'accepter silencieusement l'épuisement professionnel.",
+      es: "Huele los plazos irreales desde el principio y puede negociar el alcance en vez de aceptar en silencio el burnout.",
           },
           {
             en: 'You speak both languages: product intent and engineering constraints.',
             ua: 'Ви говорите двома мовами: наміром продукту і обмеженнями інженерії.',
       de: "Sie sprechen beide Sprachen: Produktabsicht und technische Einschränkungen.",
       fr: "Vous parlez les deux langues : l'intention du produit et les contraintes d'ingénierie.",
+      es: "Habla los dos idiomas: la intención de producto y las limitaciones de ingeniería.",
           },
           {
             en: 'You facilitate better trade-offs (speed vs quality, MVP vs polish) because you have lived those trade-offs.',
             ua: 'Ви краще фасилітуєте trade-off’и (швидкість vs якість, MVP vs polish), бо вже через них проходили.',
       de: "Sie ermöglichen bessere Trade-offs (Tempo vs. Qualität, MVP vs. Feinschliff), weil Sie diese Trade-offs selbst erlebt haben.",
       fr: "Vous facilitez de meilleurs compromis (vitesse vs qualité, MVP vs polissage) parce que vous avez vécu ces compromis.",
+      es: "Facilita mejores trade-offs (velocidad frente a calidad, MVP frente a pulido) porque ya los ha vivido.",
           },
           {
             en: 'Engineers trust you more when planning is grounded in how systems actually break.',
             ua: 'Інженери більше довіряють плануванню, коли воно базується на тому, як системи реально ламаються.',
       de: "Ingenieure vertrauen Ihnen mehr, wenn die Planung darauf basiert, wie Systeme tatsächlich ausfallen.",
       fr: "Les ingénieurs vous font davantage confiance lorsque la planification est fondée sur la manière dont les systèmes se cassent réellement.",
+      es: "Los ingenieros confían más en usted cuando la planificación se basa en cómo fallan de verdad los sistemas.",
           },
         ],
       },
@@ -570,6 +782,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '2. Які якості цінні найбільше (більше за сертифікати)',
       de: "2. Qualitäten, die am wichtigsten sind (mehr als Zertifizierungen)",
       fr: "2. Les qualités qui comptent le plus (plus que les certifications)",
+      es: "2. Las cualidades que más importan (más que las certificaciones)",
         },
         paragraphs: [
           {
@@ -577,6 +790,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Курси й фреймворки допомагають, але команди запам’ятовують, як ви поводитеся під тиском. Найцінніші якості для переходу розробник → PM — поведінкові, а не «знання Jira».',
       de: "Kurse und Rahmenwerke helfen, aber Teams merken sich, wie Sie sich unter Druck verhalten. Die wertvollsten Eigenschaften für einen Entwickler-PM-Übergang sind verhaltensbezogene und nicht werkzeugbasierte Eigenschaften.",
       fr: "Les cours et les cadres sont utiles, mais les équipes se souviennent de la façon dont vous vous comportez sous pression. Les qualités les plus précieuses pour une transition développeur → PM sont comportementales et non basées sur les outils.",
+      es: "Los cursos y los frameworks ayudan, pero el equipo recuerda cómo se comporta usted bajo presión. Las cualidades más valiosas en el paso de desarrollador a PM son de conducta, no de herramientas.",
           },
         ],
         list: [
@@ -585,42 +799,49 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Ясність в умовах невизначеності — перетворювати розмиті запити на письмові припущення, варіанти і рішення.',
       de: "Klarheit trotz Mehrdeutigkeit – verwandeln Sie vage Anfragen in schriftliche Annahmen, Optionen und eine Entscheidung.",
       fr: "Clarté en cas d'ambiguïté : transformez des demandes vagues en hypothèses écrites, en options et en décision.",
+      es: "Claridad ante la ambigüedad: convierta peticiones vagas en supuestos escritos, opciones y una decisión.",
           },
           {
             en: 'Communication without ego — explain risk to non-technical stakeholders without hiding behind jargon or blaming the team.',
             ua: 'Комунікація без его — пояснювати ризик нетехнічним стейкхолдерам без жаргону і без звинувачень команди.',
       de: "Kommunikation ohne Ego – Erklären Sie Risiken gegenüber technisch nicht versierten Stakeholdern, ohne sich hinter Fachjargon zu verstecken oder dem Team die Schuld zu geben.",
       fr: "Communication sans ego — expliquez le risque aux parties prenantes non techniques sans vous cacher derrière le jargon ni blâmer l'équipe.",
+      es: "Comunicación sin ego: explique el riesgo a stakeholders no técnicos sin esconderse detrás de jerga ni culpar al equipo.",
           },
           {
             en: 'Ownership of outcomes — care about release impact, not only sprint velocity charts.',
             ua: 'Відповідальність за результат — думати про вплив релізу, а не лише про velocity на борді.',
       de: "Verantwortung für die Ergebnisse – achten Sie auf die Auswirkung der Veröffentlichung, nicht nur auf Sprint-Geschwindigkeitsdiagramme.",
       fr: "Propriété des résultats : souciez-vous de l'impact de la version, pas seulement des graphiques de vitesse de sprint.",
+      es: "Propiedad del resultado: preocúpese del impacto del release, no solo de las gráficas de velocity del sprint.",
           },
           {
             en: 'Empathy and facilitation — hear quiet voices in the room; protect focus time; resolve conflict early.',
             ua: 'Емпатія і фасилітація — чути тих, хто мовчить; захищати focus time; гасити конфлікти рано.',
       de: "Empathie und Moderation – hören Sie leise Stimmen im Raum; Fokuszeit schützen; Konflikte frühzeitig lösen.",
       fr: "Empathie et facilitation : entendre des voix calmes dans la pièce ; protéger le temps de mise au point ; résoudre le conflit rapidement.",
+      es: "Empatía y facilitación: escuche las voces calladas de la sala; proteja el tiempo de foco; resuelva el conflicto pronto.",
           },
           {
             en: 'Prioritization discipline — say “not now” with a reason, a date, and an alternative.',
             ua: 'Дисципліна пріоритетів — казати «не зараз» з причиною, датою і альтернативою.',
       de: "Priorisierungsdisziplin – sagen Sie „nicht jetzt“ mit einem Grund, einem Datum und einer Alternative.",
       fr: "Discipline de priorisation : dites « pas maintenant » avec une raison, une date et une alternative.",
+      es: "Disciplina de priorización: diga «ahora no» con un motivo, una fecha y una alternativa.",
           },
           {
             en: 'Reliability — meeting notes, follow-ups, and status updates people can act on.',
             ua: 'Надійність — нотатки зустрічей, follow-up’и і статуси, за якими можна діяти.',
       de: "Zuverlässigkeit – Besprechungsnotizen, Nachverfolgungen und Statusaktualisierungen, auf die die Mitarbeiter reagieren können.",
       fr: "Fiabilité : notes de réunion, suivis et mises à jour de statut sur lesquels les gens peuvent agir.",
+      es: "Fiabilidad: notas de reunión, follow-ups y actualizaciones de estado con las que se puede actuar.",
           },
           {
             en: 'Calm decision-making — when production burns, you sequence triage instead of adding panic.',
             ua: 'Спокійні рішення — коли горить продакшен, ви вибудовуєте triage, а не додаєте паніку.',
       de: "Ruhige Entscheidungsfindung – wenn die Produktion brennt, ordnen Sie die Entscheidungsfindung, anstatt Panik zu erzeugen.",
       fr: "Prise de décision sereine : lorsque la production s'épuise, vous séquencez le tri au lieu d'ajouter de la panique.",
+      es: "Decisiones en calma: cuando arde producción, ordena el triage en vez de sumar pánico.",
           },
         ],
       },
@@ -630,6 +851,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '3. Як комунікація та PM-навички підвищують якість fullstack-послуг',
       de: "3. Wie Kommunikation und PM-Fähigkeiten die Qualität des Full-Stack-Services steigern",
       fr: "3. Comment les compétences en communication et en gestion de projet améliorent la qualité du service full-stack",
+      es: "3. Cómo la comunicación y las habilidades de PM suben la calidad del servicio full-stack",
         },
         paragraphs: [
           {
@@ -637,12 +859,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Для fullstack-розробника «якість послуг» — це не лише чистий React і міцний API. Клієнт оцінює всю співпрацю: як швидко ви розумієте задачу, наскільки чесно оцінюєте терміни, як реагуєте на зміни вимог і чи працює продукт у його бізнес-контексті. Комунікація та PM-навички — шар, який перетворює сильну інженерію на надійний сервіс.',
       de: "Für einen Full-Stack-Entwickler bedeutet „Servicequalität“ mehr als sauberes React und eine solide API. Kunden beurteilen das gesamte Engagement: wie schnell Sie das Problem verstehen, wie ehrlich Sie einschätzen, wie Sie mit Änderungswünschen umgehen und ob das gelieferte Produkt in ihrem Geschäftskontext funktioniert. Kommunikations- und Projektmanagementfähigkeiten sind die Grundlage, die starkes Engineering in einen zuverlässigen Service verwandelt.",
       fr: "Pour un développeur full-stack, la « qualité de service » est bien plus qu'un React propre et une API solide. Les clients jugent l'ensemble de l'engagement : la rapidité avec laquelle vous comprenez le problème, l'honnêteté de votre estimation, la manière dont vous gérez les demandes de changement et si le produit expédié fonctionne dans leur contexte commercial. Les compétences en communication et en gestion de projet constituent la couche qui transforme une solide ingénierie en un service fiable.",
+      es: "Para un desarrollador full-stack, la «calidad de servicio» es más que un React limpio y una API sólida. El cliente juzga toda la colaboración: qué tan rápido entiende el problema, con qué honestidad estima, cómo gestiona los change requests y si el producto entregado funciona en su contexto de negocio. La comunicación y las habilidades de project manager son la capa que convierte una ingeniería fuerte en un servicio fiable.",
           },
           {
             en: 'Without them, even senior code can look like a weak service: endless clarifications, surprise scope, silent delays, and a launch that “works technically” but misses the outcome. With them, the same full-stack skill set delivers higher perceived and real quality.',
             ua: 'Без них навіть senior-код виглядає як слабкий сервіс: нескінченні уточнення, раптовий скоуп, мовчазні затримки і запуск, який «технічно працює», але мимо цілі. З ними той самий fullstack-стек дає вищу і сприйняту, і реальну якість.',
       de: "Ohne sie kann selbst älterer Code wie ein schwacher Dienst aussehen: endlose Klarstellungen, überraschender Umfang, stille Verzögerungen und ein Start, der „technisch funktioniert“, aber das Ergebnis verfehlt. Bei ihnen liefern die gleichen Full-Stack-Fähigkeiten eine höhere wahrgenommene und tatsächliche Qualität.",
       fr: "Sans eux, même le code senior peut ressembler à un service faible : des clarifications sans fin, une portée surprise, des retards silencieux et un lancement qui « fonctionne techniquement » mais rate le résultat. Avec eux, le même ensemble de compétences complètes offre une qualité perçue et réelle supérieure.",
+      es: "Sin ellas, incluso el código senior puede parecer un servicio flojo: aclaraciones sin fin, alcance sorpresa, retrasos en silencio y un launch que «funciona en lo técnico» pero no logra el resultado. Con ellas, el mismo stack full-stack entrega más calidad — percibida y real.",
           },
         ],
         list: [
@@ -651,36 +875,42 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Кращий discovery → менше переробок. Правильні питання на старті (хто користується, як виглядає успіх, що не можна зламати) не дають будувати не ту фічу через UI, API і базу.',
       de: "Bessere Erkennung → weniger Nacharbeiten. Das frühzeitige Stellen der richtigen Fragen (wer nutzt es, wie sieht der Erfolg aus, was darf nicht kaputt gehen) verhindert, dass in der Benutzeroberfläche, der API und der Datenbank die falsche Funktion erstellt wird.",
       fr: "Meilleure découverte → moins de réécritures. Poser les bonnes questions dès le début (qui l'utilise, à quoi ressemble le succès, ce qui ne doit pas échouer) évite de créer la mauvaise fonctionnalité dans l'interface utilisateur, l'API et la base de données.",
+      es: "Mejor discovery → menos reescrituras. Hacer las preguntas correctas al principio (quién lo usa, cómo se ve el éxito, qué no puede fallar) evita construir la feature equivocada en UI, API y base de datos.",
           },
           {
             en: 'Clear written agreements → predictable delivery. Scope, out-of-scope, acceptance criteria, and weekly status turn freelance chaos into a managed engagement clients can trust.',
             ua: 'Чіткі письмові домовленості → передбачуваний делівері. Скоуп, out-of-scope, acceptance criteria і тижневі статуси перетворюють фриланс-хаос на керовану співпрацю, якій довіряють.',
       de: "Klare schriftliche Vereinbarungen → vorhersehbare Lieferung. Umfang, Out-of-Scope, Akzeptanzkriterien und wöchentlicher Status verwandeln das freiberufliche Chaos in ein verwaltetes Engagement, dem Kunden vertrauen können.",
       fr: "Accords écrits clairs → livraison prévisible. La portée, les hors-champ, les critères d'acceptation et le statut hebdomadaire transforment le chaos indépendant en un engagement géré auquel les clients peuvent faire confiance.",
+      es: "Acuerdos escritos claros → entrega previsible. Alcance, fuera de alcance, criterios de aceptación y estado semanal convierten el caos freelance en una colaboración gestionada en la que el cliente puede confiar.",
           },
           {
             en: 'Honest estimation and prioritization → less waste. A PM mindset helps cut nice-to-haves, sequence MVP → polish, and protect the deadline without burning quality on the critical path (auth, payments, data integrity).',
             ua: 'Чесна оцінка і пріоритезація → менше марної роботи. PM-мислення допомагає відсікати nice-to-have, вибудувати MVP → polish і захистити дедлайн без жертви якості на critical path (auth, платежі, цілісність даних).',
       de: "Ehrliche Schätzung und Priorisierung → weniger Verschwendung. Eine PM-Denkweise hilft dabei, „Nice-to-haves“ zu reduzieren, MVP zu sequenzieren → zu polieren und die Frist zu wahren, ohne die Qualität auf dem kritischen Pfad (Authentifizierung, Zahlungen, Datenintegrität) zu beeinträchtigen.",
       fr: "Estimation et priorisation honnêtes → moins de gaspillage. Un état d'esprit PM permet de supprimer les éléments utiles, de séquencer MVP → peaufiner et de protéger les délais sans brûler la qualité sur le chemin critique (authentification, paiements, intégrité des données).",
+      es: "Estimación y priorización honestas → menos desperdicio. Una mentalidad de PM ayuda a recortar los nice-to-have, secuenciar MVP → pulido y proteger el deadline sin quemar la calidad en el critical path (auth, pagos, integridad de datos).",
           },
           {
             en: 'Risk communication → fewer production surprises. Naming API, third-party, and migration risks early lets the client choose buffers or simpler architecture instead of discovering blockers mid-build.',
             ua: 'Комунікація ризиків → менше сюрпризів у продакшені. Раннє називання ризиків API, сторонніх сервісів і міграцій дає клієнту вибір: буфер чи простіша архітектура — замість блокера посеред розробки.',
       de: "Risikokommunikation → weniger Überraschungen in der Produktion. Durch die frühzeitige Benennung von API-, Drittanbieter- und Migrationsrisiken kann der Kunde zwischen Puffern oder einer einfacheren Architektur wählen, anstatt während der Erstellung Blocker zu entdecken.",
       fr: "Communication sur les risques → moins de surprises de production. La désignation précoce des risques liés aux API, aux tiers et à la migration permet au client de choisir des tampons ou une architecture plus simple au lieu de découvrir les bloqueurs en cours de construction.",
+      es: "Comunicación de riesgos → menos sorpresas en producción. Nombrar pronto los riesgos de API, terceros y migraciones permite al cliente elegir buffers o una arquitectura más simple, en vez de descubrir blockers a mitad de build.",
           },
           {
             en: 'Stakeholder alignment → end-to-end coherence. Full-stack work spans design, frontend, backend, and ops; good facilitation keeps one shared definition of “done,” so UI, contracts, and deploy do not drift apart.',
             ua: 'Вирівнювання стейкхолдерів → цілісний end-to-end результат. Fullstack охоплює дизайн, фронт, бек і ops; гарна фасилітація тримає спільне визначення «готово», тож UI, контракти й деплой не роз’їжджаються.',
       de: "Ausrichtung der Stakeholder → End-to-End-Kohärenz. Die Full-Stack-Arbeit umfasst Design, Frontend, Backend und Betrieb; durch eine gute Moderation bleibt eine gemeinsame Definition von „erledigt“, sodass Benutzeroberfläche, Verträge und Bereitstellung nicht auseinanderdriften.",
       fr: "Alignement des parties prenantes → cohérence de bout en bout. Le travail full-stack couvre la conception, le frontend, le backend et les opérations ; une bonne facilitation conserve une définition commune du « terminé », afin que l’interface utilisateur, les contrats et le déploiement ne s’éloignent pas.",
+      es: "Alineación de stakeholders → coherencia end-to-end. El trabajo full-stack cubre diseño, frontend, backend y ops; una buena facilitación mantiene una definición compartida de «hecho», para que UI, contratos y deploy no se desalineen.",
           },
           {
             en: 'Calm incident and change handling → trust after launch. Clear triage, status, and next steps during bugs or scope changes are part of service quality — not separate from the code.',
             ua: 'Спокійна робота з інцидентами і змінами → довіра після запуску. Чіткий triage, статус і next steps під час багів чи змін скоупу — частина якості послуг, а не «щось окреме від коду».',
       de: "Ruhiger Umgang mit Vorfällen und Änderungen → Vertrauen nach der Einführung. Klare Triage, Status und nächste Schritte bei Fehlern oder Umfangsänderungen sind Teil der Servicequalität – nicht getrennt vom Code.",
       fr: "Gestion calme des incidents et des changements → confiance après le lancement. Un tri clair, un statut et des étapes suivantes en cas de bogues ou de changements de portée font partie de la qualité du service et ne sont pas distincts du code.",
+      es: "Incidentes y cambios en calma → confianza después del launch. Un triage claro, el estado y los siguientes pasos durante bugs o cambios de alcance son parte de la calidad del servicio, no algo aparte del código.",
           },
         ],
       },
@@ -690,6 +920,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '4. Від чого варто відмовитися як інженеру',
       de: "4. Was man als Ingenieur verlernen sollte",
       fr: "4. Que désapprendre en tant qu'ingénieur",
+      es: "4. Qué hay que desaprender como ingeniero",
         },
         paragraphs: [
           {
@@ -697,6 +928,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Найважче — зміна ідентичності. Як розробник ви відчували цінність у «я зробив складну частину». Як PM цінність часто невидима: хтось розблокований, скоуп урізаний і дедлайн врятований, стейкхолдер перестав міняти вимоги посеред спринту.',
       de: "Der schwierigste Teil ist die Identität. Für mich als Entwickler hatte Value oft das Gefühl: „Ich habe den schwierigen Teil geschafft.“ Als PM ist der Wert oft unsichtbar: ein blockierter Teamkollege wird freigegeben, eine Leistungskürzung, die die Frist rettet, ein Stakeholder, der mitten im Sprint aufhört, Anforderungen zu ändern.",
       fr: "Le plus difficile, c'est l'identité. En tant que développeur, la valeur ressemblait souvent à « J’ai expédié la partie la plus difficile ». En tant que PM, la valeur est souvent invisible : un coéquipier bloqué débloqué, une réduction du périmètre qui a permis de respecter le délai, une partie prenante qui a arrêté de modifier les exigences en cours de sprint.",
+      es: "Lo más difícil es la identidad. Como desarrollador, el valor a menudo se sentía como «yo entregué la parte difícil». Como PM, el valor suele ser invisible: un compañero desbloqueado, un recorte de alcance que salvó el deadline, un stakeholder que dejó de cambiar requisitos a mitad de sprint.",
           },
         ],
         list: [
@@ -705,24 +937,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Не вирішуйте кожну технічну суперечку самі — навчіть команду вирішувати, а потім підтримайте рішення.',
       de: "Hören Sie auf, jede technische Debatte selbst zu lösen – trainieren Sie das Team, um eine Entscheidung zu treffen, und unterstützen Sie dann die Entscheidung.",
       fr: "Arrêtez de résoudre vous-même tous les débats techniques : entraînez l'équipe à décider, puis soutenez la décision.",
+      es: "Deje de resolver usted solo cada debate técnico: entrene al equipo para decidir y luego respalde la decisión.",
           },
           {
             en: 'Stop optimizing for personal coding output — your bottleneck becomes coordination and clarity.',
             ua: 'Не оптимізуйте особистий coding output — вузьким місцем стають координація і ясність.',
       de: "Hören Sie auf, für die persönliche Codierungsausgabe zu optimieren – Ihr Engpass wird zu Koordination und Klarheit.",
       fr: "Arrêtez d'optimiser vos résultats de codage personnels : votre goulot d'étranglement devient la coordination et la clarté.",
+      es: "Deje de optimizar su output personal de código: su cuello de botella pasa a ser la coordinación y la claridad.",
           },
           {
             en: 'Stop equating “busy calendar” with leadership — protect deep work for engineers; keep meetings short and purposeful.',
             ua: 'Не плутайте «забитий календар» з лідерством — захищайте глибоку роботу інженерів; тримайте мітинги короткими й цільовими.',
       de: "Hören Sie auf, „vollbeschäftigten Kalender“ mit Führung gleichzusetzen – schützen Sie Deep Work für Ingenieure; halten Sie Besprechungen kurz und zielgerichtet.",
       fr: "Arrêtez d’assimiler « calendrier chargé » au leadership : protégez le deep work des ingénieurs ; gardez les réunions courtes et ciblées.",
+      es: "Deje de igualar «calendario lleno» con liderazgo: proteja el deep work de los ingenieros; mantenga las reuniones cortas y con propósito.",
           },
           {
             en: 'Stop treating process as the product — Scrum/Kanban are tools; predictable delivery is the goal.',
             ua: 'Не робіть процес продуктом — Scrum/Kanban це інструменти; ціль — передбачувана доставка.',
       de: "Hören Sie auf, den Prozess als Produkt zu betrachten – Scrum/Kanban sind Werkzeuge; eine vorhersehbare Lieferung ist das Ziel.",
       fr: "Arrêtez de traiter le processus comme le produit — Scrum/Kanban sont des outils ; l’objectif est une livraison prévisible.",
+      es: "Deje de tratar el proceso como el producto: Scrum/Kanban son herramientas; el objetivo es una entrega previsible.",
           },
         ],
       },
@@ -732,6 +968,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '5. Hard skills, які варто прокачати',
       de: "5. Hard Skills, die es wert sind, aufgebaut zu werden",
       fr: "5. Des compétences techniques qui valent la peine d'être développées",
+      es: "5. Hard skills que merece la pena construir",
         },
         paragraphs: [
           {
@@ -739,6 +976,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Не треба за ніч ставати «чистим MBA». Фокусуйтеся на навичках, які множать ваш технічний бекграунд — особливо якщо ви продаєте fullstack-делівері як соло-спеціаліст.',
       de: "Sie müssen nicht über Nacht ein reiner MBA werden. Konzentrieren Sie sich auf Fähigkeiten, die Ihren technischen Hintergrund vervielfachen – insbesondere, wenn Sie als Solo-Spezialist Full-Stack-Delivery verkaufen.",
       fr: "Vous n’avez pas besoin de devenir un pur MBA du jour au lendemain. Concentrez-vous sur les compétences qui multiplient votre expérience technique, surtout si vous vendez la livraison full-stack en tant que spécialiste solo.",
+      es: "No hace falta convertirse en un MBA puro de un día para otro. Céntrese en las habilidades que multiplican su background técnico — sobre todo si vende entrega full-stack como especialista en solitario.",
           },
         ],
         list: [
@@ -747,36 +985,42 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Опис скоупу — проблема, метрики успіху, out-of-scope, ризики та acceptance criteria.',
       de: "Scope Writing – Problemstellung, Erfolgskennzahlen, Out-of-Scope, Risiken und Akzeptanzkriterien.",
       fr: "Rédaction de la portée - énoncé du problème, mesures de réussite, hors-portée, risques et critères d'acceptation.",
+      es: "Redacción de alcance: planteamiento del problema, métricas de éxito, fuera de alcance, riesgos y criterios de aceptación.",
           },
           {
             en: 'Estimation systems — story points, t-shirt sizing, or capacity planning; plus buffers for unknowns.',
             ua: 'Системи оцінки — story points, t-shirt sizing або capacity planning; плюс буфери на невідоме.',
       de: "Schätzsysteme – Story Points, T-Shirt-Größe oder Kapazitätsplanung; plus Puffer für Unbekannte.",
       fr: "Systèmes d'estimation – story points, dimensionnement des t-shirts ou planification des capacités ; plus des tampons pour les inconnues.",
+      es: "Sistemas de estimación: story points, t-shirt sizing o capacity planning; más buffers para lo desconocido.",
           },
           {
             en: 'Risk and dependency management — RAID logs, critical path, vendor/API blockers.',
             ua: 'Ризики й залежності — RAID-логи, critical path, блокери від вендорів/API.',
       de: "Risiko- und Abhängigkeitsmanagement – ​​RAID-Protokolle, kritischer Pfad, Anbieter-/API-Blocker.",
       fr: "Gestion des risques et des dépendances : journaux RAID, chemin critique, bloqueurs de fournisseurs/API.",
+      es: "Gestión de riesgos y dependencias: logs RAID, critical path, blockers de vendor/API.",
           },
           {
             en: 'Stakeholder management — RACI, decision owners, escalation paths.',
             ua: 'Робота зі стейкхолдерами — RACI, власники рішень, шляхи ескалації.',
       de: "Stakeholder-Management – ​​RACI, Entscheidungsträger, Eskalationspfade.",
       fr: "Gestion des parties prenantes — RACI, propriétaires de décisions, voies d'escalade.",
+      es: "Gestión de stakeholders: RACI, dueños de la decisión, vías de escalado.",
           },
           {
             en: 'Delivery tooling — Jira/Linear, roadmaps, release notes, basic analytics for launch impact.',
             ua: 'Інструменти делівері — Jira/Linear, роадмапи, release notes, базова аналітика впливу запуску.',
       de: "Bereitstellungstools – Jira/Linear, Roadmaps, Versionshinweise, grundlegende Analysen für die Auswirkungen der Markteinführung.",
       fr: "Outils de livraison – Jira/Linear, feuilles de route, notes de version, analyses de base pour l'impact du lancement.",
+      es: "Herramientas de entrega: Jira/Linear, roadmaps, release notes, analítica básica del impacto del launch.",
           },
           {
             en: 'Optional credentials — CAPM/PMP, Scrum Master, or product discovery courses help interviews, but real delivery stories matter more.',
             ua: 'Опційні сертифікати — CAPM/PMP, Scrum Master чи курси з discovery допомагають на інтерв’ю, але сильніше працюють реальні історії делівері.',
       de: "Optionale Qualifikationen – CAPM/PMP, Scrum Master oder Produkterkundungskurse helfen bei Vorstellungsgesprächen, aber echte Liefergeschichten sind wichtiger.",
       fr: "Informations d'identification facultatives : les cours CAPM/PMP, Scrum Master ou de découverte de produits facilitent les entretiens, mais les véritables histoires de livraison comptent davantage.",
+      es: "Credenciales opcionales: CAPM/PMP, Scrum Master o cursos de product discovery ayudan en entrevistas, pero pesan más las historias reales de entrega.",
           },
         ],
       },
@@ -786,6 +1030,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '6. Практичний шлях переходу',
       de: "6. Ein praktischer Übergangspfad",
       fr: "6. Un chemin de transition pratique",
+      es: "6. Un camino de transición práctico",
         },
         paragraphs: [
           {
@@ -793,6 +1038,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'У PM-обов’язки можна вростати поступово — часто це найбезпечніший і найпереконливіший шлях. Ті самі кроки вже сьогодні піднімають якість вашого fullstack-делівері на фрилансі чи в команді.',
       de: "Sie können schrittweise in PM-Aufgaben hineinwachsen – oft der sicherste und glaubwürdigste Weg. Die gleichen Schritte steigern heute auch die Qualität Ihrer Full-Stack-Freiberufler- oder Inhouse-Lieferung.",
       fr: "Vous pouvez progressivement assumer des responsabilités de PM – c’est souvent la voie la plus sûre et la plus crédible. Les mêmes étapes améliorent également aujourd’hui la qualité de votre prestation full-stack en freelance ou en interne.",
+      es: "Puede ir asumiendo responsabilidades de PM poco a poco: suele ser la ruta más segura y creíble. Esos mismos pasos también suben hoy la calidad de su entrega full-stack, en freelance o en casa.",
           },
         ],
         list: [
@@ -801,36 +1047,42 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Крок 1 — Візьміть фічу end-to-end: уточніть вимоги, розбийте роботу, синхронізуйтеся з дизайном/QA, демо і реліз.',
       de: "Schritt 1 – Besitzen Sie eine End-to-End-Funktion: Klären Sie die Anforderungen, unterbrechen Sie die Arbeit, synchronisieren Sie sie mit Design/Qualitätssicherung, Demos und Rollout.",
       fr: "Étape 1 — Posséder une fonctionnalité de bout en bout : clarifier les exigences, interrompre le travail, synchroniser avec la conception/l'assurance qualité, les démonstrations et le déploiement.",
+      es: "Paso 1: Sea dueño de una feature de punta a punta: aclare requisitos, parta el trabajo, sincronice con diseño/QA, demos y rollout.",
           },
           {
             en: 'Step 2 — Run ceremonies well: planning, refinement, standup, retro — with agendas and outcomes, not theater.',
             ua: 'Крок 2 — Якісно ведіть церемонії: planning, refinement, standup, ретро — з agenda і outcomes, без театру.',
       de: "Schritt 2 – Führen Sie Zeremonien gut durch: Planung, Verfeinerung, Standup, Retro – mit Tagesordnungen und Ergebnissen, nicht mit Theater.",
       fr: "Étape 2 — Organisez bien les cérémonies : planification, raffinement, stand-up, rétro — avec des agendas et des résultats, pas du théâtre.",
+      es: "Paso 2: Lleve bien las ceremonias: planning, refinement, standup, retro — con agenda y resultados, no teatro.",
           },
           {
             en: 'Step 3 — Become the status source of truth: weekly written updates for stakeholders (progress, risks, asks).',
             ua: 'Крок 3 — Станьте джерелом статусу: тижневі письмові апдейти для стейкхолдерів (прогрес, ризики, запити).',
       de: "Schritt 3 – Werden Sie zur Statusquelle der Wahrheit: wöchentliche schriftliche Updates für Stakeholder (Fortschritte, Risiken, Fragen).",
       fr: "Étape 3 — Devenez la source de vérité du statut : mises à jour écrites hebdomadaires pour les parties prenantes (progrès, risques, demandes).",
+      es: "Paso 3: Conviértase en la fuente de verdad del estado: updates escritos semanales para stakeholders (progreso, riesgos, peticiones).",
           },
           {
             en: 'Step 4 — Shadow a PM / ask for a hybrid title: Tech Lead + Delivery, Associate PM, Delivery Manager.',
             ua: 'Крок 4 — Попрацюйте в тіні PM / попросіть гібридний title: Tech Lead + Delivery, Associate PM, Delivery Manager.',
       de: "Schritt 4 – Beobachten Sie einen PM/fragen Sie nach einem Hybridtitel: Tech Lead + Delivery, Associate PM, Delivery Manager.",
       fr: "Étape 4 — Observer un PM / demander un titre hybride : Tech Lead + Delivery, Associate PM, Delivery Manager.",
+      es: "Paso 4: Siga a un PM / pida un título híbrido: Tech Lead + Delivery, Associate PM, Delivery Manager.",
           },
           {
             en: 'Step 5 — Document impact: “shipped X by cutting Y; unblocked Z; improved predictability from A to B.”',
             ua: 'Крок 5 — Зафіксуйте вплив: «запустили X, урізавши Y; розблокували Z; підвищили передбачуваність з A до B».',
       de: "Schritt 5 – Auswirkung dokumentieren: „X durch Kürzung von Y verschickt; Z entsperrt; verbesserte Vorhersagbarkeit von A nach B.“",
       fr: "Étape 5 — Documenter l'impact : « Expédié X en coupant Y ; Z débloqué ; prévisibilité améliorée de A à B. »",
+      es: "Paso 5: Documente el impacto: «se entregó X recortando Y; se desbloqueó Z; la previsibilidad pasó de A a B».",
           },
           {
             en: 'Step 6 — Apply with stories, not slogans: interviews reward concrete delivery narratives more than buzzwords.',
             ua: 'Крок 6 — Ідіть на інтерв’ю з історіями, не слоганами: конкретні наративи делівері б’ють будь-які buzzwords.',
       de: "Schritt 6 – Bewerben Sie sich mit Geschichten, nicht mit Slogans: In Vorstellungsgesprächen werden konkrete Darstellungserzählungen mehr belohnt als Schlagworte.",
       fr: "Étape 6 — Postulez avec des histoires, pas des slogans : les entretiens récompensent davantage les récits concrets que les mots à la mode.",
+      es: "Paso 6: Preséntese con historias, no con eslóganes: las entrevistas premian narrativas concretas de entrega más que buzzwords.",
           },
         ],
       },
@@ -840,6 +1092,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '7. Коли краще лишитися в інженерії',
       de: "7. Wann sollte man stattdessen im Ingenieurwesen bleiben?",
       fr: "7. Quand rester plutôt en ingénierie",
+      es: "7. Cuándo es mejor quedarse en ingeniería",
         },
         paragraphs: [
           {
@@ -847,6 +1100,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'PM — неправильний крок, якщо ви хочете лише вищої зарплати, менше стресу від коду чи втечі з токсичної команди. Менеджмент підсилює інший стрес — політику, відповідальність без повного контролю і постійне перемикання контексту. Лишайтеся (або йдіть у staff/principal), якщо глибока технічна майстерність досі заряджає вас більше, ніж координація — і все одно інвестуйте в комунікацію: вона множить якість fullstack-послуг у будь-якому разі.',
       de: "PM ist der falsche Schritt, wenn Sie vor allem eine höhere Bezahlung, weniger Programmierstress oder die Flucht aus einem toxischen Team anstreben. Management verstärkt Stress anderer Art – Politik, Verantwortung ohne vollständige Kontrolle und ständiger Kontextwechsel. Bleiben Sie (oder gehen Sie zum Mitarbeiter/Direktor), wenn tiefgreifendes technisches Handwerk Sie immer noch mehr antreibt als die Koordination – und investieren Sie trotzdem in die Kommunikation, denn dadurch wird Ihre Full-Stack-Servicequalität in jedem Fall verbessert.",
       fr: "PM n'est pas la bonne décision si vous souhaitez principalement un salaire plus élevé, moins de stress lié au codage ou échapper à une équipe toxique. La direction amplifie un stress d’un autre type : politique, responsabilité sans contrôle total et changement constant de contexte. Restez (ou devenez membre du personnel/directeur) si une maîtrise technique approfondie vous dynamise toujours plus que la coordination - et investissez toujours dans la communication, car elle améliore la qualité de votre service complet dans les deux cas.",
+      es: "PM es un mal movimiento si lo que busca sobre todo es más sueldo, menos estrés de código o huir de un equipo tóxico. La gestión amplifica otro tipo de estrés: política, responsabilidad sin control total y un cambio de contexto constante. Quédese (o vaya a staff/principal) si el oficio técnico profundo aún le energiza más que la coordinación — e invierta igual en comunicación: multiplica la calidad del servicio full-stack en cualquier caso.",
           },
         ],
       },
@@ -856,6 +1110,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Висновок',
       de: "Abschluss",
       fr: "Conclusion",
+      es: "Conclusión",
         },
         paragraphs: [
           {
@@ -863,12 +1118,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Розробник стає сильнішим project manager — і сильнішим fullstack-партнером — коли зберігає технічний смак і нарощує ясність, пріоритезацію, емпатію та надійну комунікацію. Це не «побічний квест кар’єри»: ці навички зменшують переробки, вирівнюють end-to-end делівері і роблять сервіс таким же міцним, як код.',
       de: "Ein Entwickler wird ein stärkerer Projektmanager – und ein stärkerer Full-Stack-Partner –, indem er sein technisches Urteilsvermögen behält und gleichzeitig Klarheit, Priorisierung, Empathie und zuverlässige Kommunikation aufbaut. Diese Fähigkeiten sind keine Nebenaufgabe der Karriere: Sie reduzieren Nacharbeiten, passen die End-to-End-Bereitstellung an und sorgen dafür, dass sich der Service so solide anfühlt wie der Code.",
       fr: "Un développeur devient un chef de projet plus fort – et un partenaire full-stack plus fort – en gardant son jugement technique tout en renforçant la clarté, la priorisation, l’empathie et une communication fiable. Ces compétences ne sont pas une quête secondaire de carrière : elles réduisent les réécritures, alignent la livraison de bout en bout et rendent le service aussi solide que le code.",
+      es: "Un desarrollador se convierte en un project manager más sólido — y en un partner full-stack más sólido — si conserva el criterio técnico y construye claridad, priorización, empatía y una comunicación fiable. Esas habilidades no son un side quest de carrera: reducen reescrituras, alinean la entrega end-to-end y hacen que el servicio se sienta tan sólido como el código.",
           },
           {
             en: 'Start small: own one delivery stream, write better status, and practice saying “not now” with options. If you need both senior engineering judgment and clear delivery ownership on your next product, that hybrid mindset often beats a process-only PM or a silent coder. Happy to discuss scope, risks, and a realistic roadmap for your next release.',
             ua: 'Почніть з малого: візьміть один потік делівері, пишіть кращі статуси і тренуйте «не зараз» з варіантами. Якщо на наступному продукті потрібні і senior-інженерне судження, і чітке володіння делівері — такий гібрид часто сильніший за «чистого» PM лише з процесами чи мовчазного кодера. Можу допомогти проговорити скоуп, ризики та реалістичний роадмап наступного релізу.',
       de: "Fangen Sie klein an: Besitzen Sie einen Lieferstrom, schreiben Sie einen besseren Status und üben Sie, mit Optionen „Jetzt nicht“ zu sagen. Wenn Sie bei Ihrem nächsten Produkt sowohl das Urteilsvermögen eines erfahrenen Ingenieurs als auch eine klare Verantwortung für die Lieferung benötigen, ist diese hybride Denkweise oft besser als ein reiner Prozess-PM oder ein stiller Programmierer. Gerne besprechen wir Umfang, Risiken und eine realistische Roadmap für Ihre nächste Veröffentlichung.",
       fr: "Commencez petit : possédez un flux de diffusion, rédigez un meilleur statut et entraînez-vous à dire « pas maintenant » avec des options. Si vous avez besoin à la fois d'un jugement technique de haut niveau et d'une responsabilité claire de la livraison de votre prochain produit, cet état d'esprit hybride surpasse souvent un PM axé uniquement sur les processus ou un codeur silencieux. Heureux de discuter de la portée, des risques et d'une feuille de route réaliste pour votre prochaine version.",
+      es: "Empiece por poco: sea dueño de un flujo de entrega, escriba mejor el estado y practique decir «ahora no» con opciones. Si en su próximo producto necesita criterio de ingeniería senior y una propiedad clara de la entrega, esa mentalidad híbrida suele ganar a un PM solo de proceso o a un coder silencioso. Encantada de hablar del alcance, los riesgos y un roadmap realista para su próximo release.",
           },
         ],
       },
@@ -882,18 +1139,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Як обробляти у 5 разів більше замовлень без розширення штату: Автоматизація e-commerce',
       de: "So verarbeiten Sie fünfmal mehr Bestellungen, ohne das Personal zu erweitern: E-Commerce-Automatisierung",
       fr: "Comment traiter 5 fois plus de commandes sans augmenter le personnel : automatisation du commerce électronique",
+      es: "Cómo procesar 5 veces más pedidos sin ampliar plantilla: automatización e-commerce",
     },
     excerpt: {
       en: 'Discover how to scale your sales capacity by 5x using modern frontend optimization, CRM APIs, automated shipping labels, and smart notification funnels—all without hiring more operators.',
       ua: 'Дізнайтеся, як за допомогою сучасного фронтенду, інтеграції CRM-систем, автоматичного створення ТТН та розумних сповіщень масштабувати обробку замовлень у 5 разів без розширення штату.',
       de: "Entdecken Sie, wie Sie Ihre Vertriebskapazität mithilfe moderner Frontend-Optimierung, CRM-APIs, automatisierter Versandetiketten und intelligenter Benachrichtigungstrichter um das Fünffache skalieren können – und das alles, ohne weitere Mitarbeiter einzustellen.",
       fr: "Découvrez comment multiplier par 5 votre capacité de vente à l'aide d'une optimisation frontale moderne, d'API CRM, d'étiquettes d'expédition automatisées et d'entonnoirs de notification intelligents, le tout sans embaucher d'opérateurs supplémentaires.",
+      es: "Cómo multiplicar por 5 la capacidad de ventas con frontend moderno, APIs de CRM, etiquetas de envío automáticas y funnels de notificación — sin contratar más operadores.",
     },
     readTime: {
       en: '6 min read',
       ua: '6 хв читання',
       de: "6 Min. Lesezeit",
       fr: "6 minutes de lecture",
+      es: "6 min de lectura",
     },
     tags: {
       en: ['Business Automation', 'E-commerce', 'CRM Integration', 'API Integrations', 'Web Development', 'UX Optimization'],
@@ -914,6 +1174,14 @@ export const businessPosts: RawBlogPost[] = [
         "Développement web",
         "Optimisation UX"
       ],
+      es: [
+        "Automatización",
+        "E-commerce",
+        "CRM",
+        "API",
+        "Desarrollo web",
+        "UX"
+      ],
     },
     content: [
       {
@@ -923,12 +1191,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Для зростаючого e-commerce бізнесу масштабування часто є палицею з двома кінцями. Зі збільшенням потоку замовлень пропорційно зростає обсяг ручної роботи для їхньої обробки. Компаніям доводиться розширювати штат операторів, працювати в хаотичних таблицях, вручну копіювати адреси та шукати дані клієнтів у месенджерах. Операційні витрати стрімко зростають, зжираючи маржинальність, а людські помилки починають псувати репутацію бренду.',
       de: "Für wachsende E-Commerce-Unternehmen ist die Skalierung oft ein zweischneidiges Schwert. Mit steigendem Auftragseingangsvolumen wächst der manuelle Aufwand für deren Bearbeitung linear. Unternehmen müssen mehr Mitarbeiter einstellen, unübersichtliche Tabellenkalkulationen bearbeiten, Kundenadressen manuell kopieren und sich mit verlorenen Paketdetails im Chatverlauf herumschlagen. Bevor sie es merken, schießen die Betriebskosten in die Höhe, und die höheren Einnahmen werden durch Personalaufstockung aufgezehrt, und schlimmer noch: Menschliches Versagen beginnt, die Kundentreue zu ruinieren.",
       fr: "Pour les entreprises de commerce électronique en croissance, la mise à l’échelle est souvent une arme à double tranchant. À mesure que le volume des commandes entrantes augmente, les frais manuels nécessaires à leur traitement augmentent de manière linéaire. Les entreprises se retrouvent à embaucher davantage d'opérateurs, à gérer des feuilles de calcul désordonnées, à copier manuellement les adresses des clients et à gérer les détails des colis perdus dans l'historique des discussions. Avant qu’ils ne s’en rendent compte, les coûts opérationnels montent en flèche et l’augmentation des revenus est consommée par l’augmentation du personnel et, pire encore, les erreurs humaines commencent à ruiner la fidélité des clients.",
+      es: "Para un e-commerce que crece, escalar suele ser un arma de doble filo. Sube el volumen de pedidos y, en paralelo, sube el trabajo manual. Acaban contratando más operadores, peleándose con hojas de cálculo, copiando direcciones a mano y buscando datos del paquete en el historial del chat. Antes de darse cuenta, los costes operativos se disparan, el margen se lo come la plantilla y — peor — los errores humanos empiezan a romper la lealtad del cliente.",
           },
           {
             en: 'However, high-performing digital stores solve this bottleneck not with more hires, but with modern web automation and integration. By aligning the frontend user experience with backend API triggers and CRM workflows, a business can handle 5x the order volume with the exact same team. In this article, we will break down the technical pillars of e-commerce automation and explain how developers build ecosystems that put order processing on autopilot.',
             ua: 'Проте успішні інтернет-магазини вирішують цю проблему не наймом нових людей, а сучасною автоматизацією та веб-інтеграцією. Налаштувавши правильну синергію фронтенд-інтерфейсу, API-тригерів та робочих процесів CRM, бізнес може обробляти в 5 разів більше замовлень тією ж командою. У цій статті ми розберемо технічні стовпи автоматизації e-commerce та пояснимо, як розробники створюють системи, що переводять обробку замовлень на автопілот.',
       de: "Leistungsstarke digitale Shops lösen diesen Engpass jedoch nicht durch mehr Neueinstellungen, sondern durch moderne Web-Automatisierung und -Integration. Durch die Abstimmung der Frontend-Benutzererfahrung mit Backend-API-Triggern und CRM-Workflows kann ein Unternehmen das Fünffache des Bestellvolumens mit genau demselben Team abwickeln. In diesem Artikel werden wir die technischen Säulen der E-Commerce-Automatisierung aufschlüsseln und erklären, wie Entwickler Ökosysteme aufbauen, die die Auftragsabwicklung auf Autopilot stellen.",
       fr: "Cependant, les magasins numériques très performants résolvent ce goulot d’étranglement non pas en embauchant davantage, mais en automatisation et intégration Web modernes. En alignant l'expérience utilisateur front-end avec les déclencheurs API back-end et les flux de travail CRM, une entreprise peut gérer 5 fois le volume de commandes avec exactement la même équipe. Dans cet article, nous décomposerons les piliers techniques de l'automatisation du commerce électronique et expliquerons comment les développeurs créent des écosystèmes qui mettent le traitement des commandes en pilote automatique.",
+      es: "Las tiendas que rinden de verdad no resuelven este cuello de botella con más contrataciones, sino con automatización e integración web. Si alinea la UX del frontend con triggers de API y flujos de CRM, el mismo equipo puede absorber 5 veces más pedidos. Aquí desgloso los pilares técnicos de esa automatización y cómo se construye un ecosistema que pone el procesamiento en piloto automático.",
           },
         ],
       },
@@ -938,6 +1208,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '1. Централізація каналів продажів в єдину CRM',
       de: "1. Zentralisierung aller Vertriebskanäle in einem einheitlichen CRM",
       fr: "1. Centraliser tous les canaux de vente dans un CRM unifié",
+      es: "1. Centralizar todos los canales de venta en un solo CRM",
         },
         paragraphs: [
           {
@@ -945,12 +1216,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Перше джерело втрат часу в e-commerce — це роздробленість каналів продажів. Менеджерам доводиться постійно перемикатися між Instagram Direct, Telegram-ботами, Viber, маркетплейсами (Prom, Rozetka) та власним сайтом. Таке ручне відстеження призводить до затримок у відповідях та втрачених клієнтів.',
       de: "Das erste große operative Leck im E-Commerce ist die Fragmentierung der Kanäle. Betreiber verbringen Stunden damit, zwischen Instagram Direct, Telegram-Bots, WhatsApp, Marktplätzen (wie Prom oder Rozetka in der Ukraine) und ihrer eigenen Website hin und her zu wechseln. Diese manuelle Nachverfolgung führt zu verzögerten Antworten und fehlenden Kundendaten.",
       fr: "La première fuite opérationnelle majeure dans le commerce électronique est la fragmentation des canaux. Les opérateurs passent des heures à naviguer entre Instagram Direct, les robots Telegram, WhatsApp, les marchés (comme Prom ou Rozetka en Ukraine) et leur propre site Web. Ce suivi manuel entraîne des réponses retardées et des informations client manquées.",
+      es: "La primera fuga operativa del e-commerce es la fragmentación de canales. Los operadores saltan horas entre Instagram Direct, bots de Telegram, WhatsApp, marketplaces (Prom o Rozetka en Ucrania) y la web propia. Ese seguimiento a mano retrasa respuestas y pierde datos del cliente.",
           },
           {
             en: 'The solution is a centralized CRM system (e.g. KeyCRM, HubSpot, or Zoho) connected to every channel via API webhooks. When an order is placed anywhere, a webhook instantly fires, transferring the order details, customer info, and items into a single, unified queue. Instead of switching tabs, operators work inside one screen. Statuses are synchronized automatically, reducing the time spent organizing leads from hours to seconds.',
             ua: 'Вирішенням є підключення централізованої CRM (наприклад, KeyCRM або HubSpot) до всіх каналів через API webhooks. Щойно десь з\'являється замовлення, вебхук миттєво передає склад товарів, контакти клієнта та коментарі в загальну чергу. Замість перемикання вкладок оператор працює в одному інтерфейсі, де статуси замовлень оновлюються автоматично.',
       de: "Die Lösung ist ein zentralisiertes CRM-System (z. B. KeyCRM, HubSpot oder Zoho), das über API-Webhooks mit jedem Kanal verbunden ist. Wenn irgendwo eine Bestellung aufgegeben wird, wird sofort ein Webhook ausgelöst, der die Bestelldetails, Kundeninformationen und Artikel in eine einzige, einheitliche Warteschlange überträgt. Anstatt die Registerkarten zu wechseln, arbeiten die Bediener innerhalb eines Bildschirms. Status werden automatisch synchronisiert, wodurch der Zeitaufwand für die Organisation von Leads von Stunden auf Sekunden reduziert wird.",
       fr: "La solution est un système CRM centralisé (par exemple KeyCRM, HubSpot ou Zoho) connecté à chaque canal via des webhooks API. Lorsqu'une commande est passée n'importe où, un webhook se déclenche instantanément, transférant les détails de la commande, les informations client et les articles dans une file d'attente unique et unifiée. Au lieu de changer d’onglet, les opérateurs travaillent sur un seul écran. Les statuts sont synchronisés automatiquement, réduisant ainsi le temps passé à organiser les leads de plusieurs heures à quelques secondes.",
+      es: "La solución es un CRM centralizado (KeyCRM, HubSpot o Zoho) conectado a cada canal por webhooks de API. En cuanto entra un pedido en cualquier sitio, el webhook dispara y pasa detalle, cliente y artículos a una cola única. En vez de cambiar de pestaña, el operador trabaja en una pantalla. Los estados se sincronizan solos y organizar leads pasa de horas a segundos.",
           },
         ],
       },
@@ -960,6 +1233,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '2. Розумний чекаут та автовалідація даних на стороні клієнта',
       de: "2. Intelligente Checkout-Formulare und Datenvalidierung in Echtzeit",
       fr: "2. Formulaires de paiement intelligents et validation des données en temps réel",
+      es: "2. Formularios de checkout inteligentes y validación en tiempo real",
         },
         paragraphs: [
           {
@@ -967,12 +1241,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'До 30% часу телефонних розмов оператора витрачається на уточнення доставки: виправлення помилок у номерах телефонів, уточнення поштового індексу чи назви вулиці. Це величезне вузьке місце, якому можна повністю запобігти ще на етапі оформлення замовлення.',
       de: "Bis zu 30 % der Telefongesprächszeit eines Telefonisten werden mit der Überprüfung von Lieferinformationen verbracht: die Korrektur falsch eingegebener Telefonnummern, die Klärung von Postleitzahlfehlern oder die Überprüfung des genauen Straßennamens. Dies stellt einen massiven betrieblichen Engpass dar, der im Frontend vollständig verhindert werden kann.",
       fr: "Jusqu'à 30 % du temps d'appel téléphonique d'un opérateur est consacré à la vérification des informations de livraison : correction des numéros de téléphone mal saisis, clarification des erreurs de code postal ou revérification du nom exact de la rue. Cela représente un énorme goulot d’étranglement opérationnel qui peut être entièrement évité sur le frontend.",
+      es: "Hasta el 30 % del tiempo de llamada de un operador se va en verificar la entrega: corregir teléfonos mal escritos, aclarar el código postal o confirmar el nombre exacto de la calle. Es un cuello de botella enorme que se puede cortar en el frontend.",
           },
           {
             en: 'By integrating APIs like Nova Poshta or Google Places directly into the checkout form, the frontend can auto-suggest and validate shipping locations in real-time. The user cannot select a non-existent warehouse or typo-ridden address. Additionally, validation schemas (such as Zod) ensure phone numbers, emails, and names match expected formats before the order ever hits the database. Clean data inputs eliminate manual validation checks by operators.',
             ua: 'Інтегруючи API поштових служб (наприклад, Нової Пошти чи Google Places) безпосередньо у форму замовлення, фронтенд пропонує автозаповнення та валідацію адрес у реальному часі. Клієнт фізично не зможе вибрати неіснуюче відділення чи припуститися помилки у назві міста. Валідація на стороні клієнта (за допомогою Zod чи Formik) гарантує правильність номерів телефонів та e-mail ще до запису в базу даних, позбавляючи операторів потреби передзвонювати.',
       de: "By integrating APIs like Nova Poshta or Google Places directly into the checkout form, the frontend can auto-suggest and validate shipping locations in real-time. Der Benutzer kann kein nicht vorhandenes Lager oder eine Adresse mit Tippfehlern auswählen. Additionally, validation schemas (such as Zod) ensure phone numbers, emails, and names match expected formats before the order ever hits the database. Saubere Dateneingaben machen manuelle Validierungsprüfungen durch Bediener überflüssig.",
       fr: "En intégrant des API comme Nova Poshta ou Google Places directement dans le formulaire de paiement, le frontend peut suggérer et valider automatiquement les lieux d'expédition en temps réel. L'utilisateur ne peut pas sélectionner un entrepôt inexistant ou une adresse contenant des fautes de frappe. De plus, les schémas de validation (tels que Zod) garantissent que les numéros de téléphone, les e-mails et les noms correspondent aux formats attendus avant que la commande n'atteigne la base de données. Des entrées de données claires éliminent les contrôles de validation manuels effectués par les opérateurs.",
+      es: "Si integra APIs como Nova Poshta o Google Places en el checkout, el frontend sugiere y valida la dirección en tiempo real. El usuario no puede elegir un almacén que no existe ni una dirección llena de typos. Además, esquemas de validación (Zod, por ejemplo) exigen que teléfono, email y nombre encajen con el formato esperado antes de que el pedido toque la base de datos. Datos limpios = el operador deja de validar a mano.",
           },
         ],
       },
@@ -982,6 +1258,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '3. Автоматизація рахунків, оплати та фіскалізації (РРО)',
       de: "3. Automatisierung von Rechnungen, Zahlungen und Fiskalisierung",
       fr: "3. Automatisation des factures, des paiements et de la fiscalisation",
+      es: "3. Automatizar facturas, pagos y fiscalización",
         },
         paragraphs: [
           {
@@ -989,12 +1266,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Ручне виписування рахунків та звірка оплат — ще один вбивця часу. Створення платіжного посилання, регулярна перевірка банківської виписки, ручне проведення чека через програмний РРО (Checkbox або Вчасно.Каса) та зміна статусу замовлення забирають дорогоцінні хвилини оператора на кожній транзакції.',
       de: "Die manuelle Rechnungsstellung ist ein weiterer Zeitkiller. Das Erstellen eines Zahlungslinks, das Überprüfen des Bankkontos zur Bestätigung der Transaktion, das manuelle Ausstellen einer Steuerquittung (über Checkbox oder ähnliche Dienste) und das Aktualisieren des Bestellstatus ist für einen Betreiber ein langer, mehrstufiger Prozess.",
       fr: "La facturation manuelle est une autre perte de temps. Créer un lien de paiement, vérifier le compte bancaire pour confirmer la transaction, rédiger manuellement un reçu fiscal (via Checkbox ou des services similaires) et mettre à jour le statut de la commande est un processus long et en plusieurs étapes pour un opérateur.",
+      es: "Facturar a mano es otro ladrón de tiempo. Crear el enlace de pago, mirar la cuenta para confirmar, redactar el recibo fiscal (Checkbox o similar) y actualizar el estado: un proceso largo, de varios pasos, por cada pedido.",
           },
           {
             en: 'Modern payment gateways (such as Monobank, LiqPay, or Stripe) support webhook integration that automates this entire loop. Once the customer completes a payment, the gateway triggers a server-side handler. The web application automatically generates the fiscal receipt via RRO API, updates the order status to "Paid / Ready to Ship" in the CRM, and issues a green light for packaging. The operator is bypassed completely for prepaid orders.',
             ua: 'Сучасні платіжні еквайринги (Monobank, LiqPay, Stripe) пропонують вебхуки, які повністю автоматизують цей цикл. Щойно оплата пройшла, система отримує сигнал, автоматично формує електронний фіскальний чек через API касового сервісу, оновлює статус замовлення в CRM на «Сплачено / Передано на склад» та створює завдання для пакувальників. Оператор взагалі не залучається.',
       de: "Moderne Zahlungsgateways (wie Monobank, LiqPay oder Stripe) unterstützen die Webhook-Integration, die diese gesamte Schleife automatisiert. Sobald der Kunde eine Zahlung abschließt, löst das Gateway einen serverseitigen Handler aus. Die Webanwendung generiert automatisch den Steuerbeleg über die RRO-API, aktualisiert den Bestellstatus im CRM auf „Bezahlt / Versandbereit“ und gibt grünes Licht für die Verpackung. Bei Prepaid-Bestellungen wird der Betreiber komplett umgangen.",
       fr: "Les passerelles de paiement modernes (telles que Monobank, LiqPay ou Stripe) prennent en charge l'intégration de webhooks qui automatise toute cette boucle. Une fois que le client effectue un paiement, la passerelle déclenche un gestionnaire côté serveur. L'application Web génère automatiquement le reçu fiscal via l'API RRO, met à jour le statut de la commande sur « Payée / Prête à expédier » dans le CRM et émet un feu vert pour l'emballage. L'opérateur est complètement contourné pour les commandes prépayées.",
+      es: "Las pasarelas modernas (Monobank, LiqPay, Stripe) admiten webhooks que cierran ese bucle. Cuando el cliente paga, la pasarela dispara un handler en el servidor. La app genera el recibo fiscal por API de RRO, pone el pedido en «Pagado / Listo para enviar» en el CRM y da luz verde al empaquetado. En pedidos prepago, el operador ni aparece.",
           },
         ],
       },
@@ -1004,6 +1283,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '4. Автоматична генерація ТТН через API поштових служб',
       de: "4. Sofortige Generierung von Versandetiketten über Carrier-APIs",
       fr: "4. Génération instantanée d'étiquettes d'expédition via les API du transporteur",
+      es: "4. Generar etiquetas de envío al instante por API del transportista",
         },
         paragraphs: [
           {
@@ -1011,12 +1291,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Пакування та маркування посилок — сфера, де найчастіше трапляються людські помилки. Без автоматизації операторам доводиться копіювати контакти отримувача поле за полем в особистий кабінет поштової служби, щоб створити товарно-транспортну накладну (ТТН). На сотню замовлень це забирає години.',
       de: "Die Verpackungs- und Versandvorbereitung ist ein weiterer Bereich, in dem menschliche Fehler auftreten und Zeit verschwendet wird. Betreiber kopieren häufig Daten Feld für Feld aus ihrem Webshop in den Geschäftsschrank des Spediteurs, um ein Versandetikett (TTN) zu erstellen. Dies für hundert Bestellungen zu erledigen, dauert Stunden.",
       fr: "La préparation de l’emballage et de l’expédition est un autre domaine où des erreurs humaines se produisent et où du temps est perdu. Les opérateurs copient souvent les données champ par champ depuis leur boutique en ligne vers le cabinet commercial du transporteur pour créer une étiquette d'expédition (TTN). Faire cela pour une centaine de commandes prend des heures.",
+      es: "Preparar el envío es otro sitio donde se pierde tiempo y se cuelan errores. Los operadores copian campo a campo de la tienda al panel del transportista para crear la etiqueta (TTN). Cien pedidos son horas.",
           },
           {
             en: 'With API integration, the moment an order is approved, the system calls the carrier API, transmits package dimensions and recipient details, and receives the ready-to-print shipping label and tracking number. These labels can be printed in bulk with one click in the warehouse, and the tracking numbers are automatically assigned to the correct orders in the CRM without operator intervention.',
             ua: 'Завдяки інтеграції поштових API, в момент підтвердження замовлення система автоматично передає габарити посилки та дані отримувача на сервери перевізника й отримує у відповідь готову ТТН та трек-номер. Склад може роздрукувати наклейки на коробки одним кліком, а трек-номер автоматично підв\'язується до картки замовлення.',
       de: "Mit der API-Integration ruft das System in dem Moment, in dem eine Bestellung genehmigt wird, die API des Spediteurs auf, übermittelt Paketabmessungen und Empfängerdetails und erhält das druckfertige Versandetikett und die Sendungsverfolgungsnummer. Diese Etiketten können mit einem Klick im Lager in großen Mengen gedruckt werden, und die Tracking-Nummern werden automatisch den richtigen Bestellungen im CRM zugewiesen, ohne dass ein Bedienereingriff erforderlich ist.",
       fr: "Grâce à l'intégration de l'API, dès qu'une commande est approuvée, le système appelle l'API du transporteur, transmet les dimensions du colis et les détails du destinataire, et reçoit l'étiquette d'expédition et le numéro de suivi prêts à être imprimés. Ces étiquettes peuvent être imprimées en masse en un clic dans l'entrepôt, et les numéros de suivi sont automatiquement attribués aux bonnes commandes dans le CRM sans intervention de l'opérateur.",
+      es: "Con la API, en el momento en que se aprueba el pedido el sistema llama al transportista, envía medidas y destinatario, y recibe la etiqueta lista para imprimir y el tracking. En el almacén se imprimen en lote con un clic, y los números de seguimiento se asignan solos al pedido correcto en el CRM.",
           },
         ],
       },
@@ -1026,6 +1308,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '5. AI-помічники та автоматична комунікація з клієнтом',
       de: "5. KI-Assistenten und ausgelöste Kundennachrichten",
       fr: "5. Assistants IA et messagerie client déclenchée",
+      es: "5. Asistentes de IA y mensajería disparada al cliente",
         },
         paragraphs: [
           {
@@ -1033,12 +1316,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Пост-продажні запити («Коли відправка?», «Який трек-номер?», «Чи можна змінити відділення?») становлять левову частку вхідних повідомлень. Ручні відповіді на них відволікають менеджерів від залучення нових клієнтів.',
       de: "Rückfragen nach dem Kauf („Haben Sie meine Bestellung verschickt?“, „Kann ich meine Lieferfiliale ändern?“, „Kann ich meine Rechnung erhalten?“) machen einen großen Teil der Kundennachrichten aus. Durch die manuelle Bearbeitung werden Bediener vom aktiven Verkauf abgelenkt.",
       fr: "Les questions post-achat (« Avez-vous expédié ma commande ? », « Puis-je changer de succursale de livraison ? », « Puis-je recevoir ma facture ? ») constituent une part importante des messages clients. Leur gestion manuelle détourne les opérateurs des ventes actives.",
+      es: "Las consultas post-compra («¿Ya enviaron mi pedido?», «¿Puedo cambiar de sucursal?», «¿Me pasan la factura?») son una parte enorme de los mensajes. Resolverlas a mano saca a los operadores de la venta activa.",
           },
           {
             en: 'Automated notification flows solve this: the system triggers a message (via SMS, Viber, or Telegram webhooks) immediately when the order status changes (e.g. "Order Confirmed", "Sent", "Arrived at destination"). For custom requests, fast AI-powered chatbots (trained on the store\'s FAQs and connected to the CRM) can answer status updates, process returns, or solve product questions instantly, handling up to 80% of support tickets.',
             ua: 'Цю проблему вирішують тригерні розсилки: система автоматично надсилає повідомлення у Viber/Telegram або SMS при зміні статусів (наприклад, «Замовлення прийнято», «Відправлено, номер ТТН: ...»). А для індивідуальних питань підключається розумний AI-чатбот, інтегрований з CRM, який може самостійно перевірити статус доставки чи відповісти на питання про повернення, закриваючи до 80% рутинних діалогів.',
       de: "Automatisierte Benachrichtigungsflüsse lösen dieses Problem: Das System löst sofort eine Nachricht (per SMS, Viber oder Telegram-Webhooks) aus, wenn sich der Bestellstatus ändert (z. B. „Bestellung bestätigt“, „Gesendet“, „Am Ziel angekommen“). Bei benutzerdefinierten Anfragen können schnelle, KI-gestützte Chatbots (die auf die FAQs des Shops geschult und mit dem CRM verbunden sind) Statusaktualisierungen beantworten, Retouren bearbeiten oder Produktfragen sofort lösen und so bis zu 80 % der Support-Tickets bearbeiten.",
       fr: "Les flux de notification automatisés résolvent ce problème : le système déclenche un message (via les webhooks SMS, Viber ou Telegram) immédiatement lorsque le statut de la commande change (par exemple \"Commande confirmée\", \"Envoyée\", \"Arrivée à destination\"). Pour les demandes personnalisées, des chatbots rapides basés sur l'IA (formés sur les FAQ du magasin et connectés au CRM) peuvent répondre aux mises à jour de statut, traiter les retours ou résoudre instantanément les questions sur les produits, traitant jusqu'à 80 % des tickets d'assistance.",
+      es: "Los flujos automáticos lo resuelven: el sistema dispara un mensaje (SMS, Viber o webhooks de Telegram) en cuanto cambia el estado («Pedido confirmado», «Enviado», «Llegó a destino»). Para peticiones a medida, un chatbot de IA (entrenado con las FAQ de la tienda y conectado al CRM) responde el estado, gestiona devoluciones o resuelve dudas de producto al instante, y cierra hasta el 80 % de los tickets de soporte.",
           },
         ],
       },
@@ -1048,6 +1333,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Підсумок: переведення e-commerce бізнесу на автопілот',
       de: "Zusammenfassung: Schalten Sie Ihren E-Commerce-Shop auf Autopilot",
       fr: "Résumé : Mettre votre boutique de commerce électronique en pilote automatique",
+      es: "Resumen: ponga su e-commerce en piloto automático",
         },
         paragraphs: [
           {
@@ -1055,12 +1341,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Збільшення обсягу обробки замовлень у 5 разів без розширення штату — це не про те, як змусити команду працювати більше. Це про створення архітектури, яка прибирає рутину. Об\'єднання каналів у CRM, розумна валідація адрес, автооплати, API-генерація ТТН та тригерні повідомлення з AI перетворюють оператора з «робочої сили з копіпасту» на координатора процесів.',
       de: "Bei der Skalierung der Auftragsabwicklung um das Fünffache ohne Erweiterung Ihres Bedienerteams geht es nicht darum, Ihre Mitarbeiter zu mehr Arbeit zu drängen; es geht darum, ein System aufzubauen, das sich wiederholende manuelle Aufgaben eliminiert. Zentralisierte CRM-Hubs, intelligente Adressvalidierung, automatisierte Checkout-Gateways, API-gesteuerte Versandetikettenerstellung und auslöserbasierte KI-Kommunikation arbeiten zusammen, um menschliche Bediener von Dateneingabemitarbeitern in hochrangige Erfahrungsorchestratoren zu verwandeln.",
       fr: "Multiplier par 5 le traitement des commandes sans élargir votre équipe d’opérateurs ne consiste pas à pousser votre personnel à travailler plus dur ; il s'agit de construire un système qui élimine les tâches manuelles répétitives. Les hubs CRM centralisés, la validation d'adresse intelligente, les passerelles de paiement automatisées, la création d'étiquettes d'expédition pilotée par API et les communications basées sur l'IA fonctionnent ensemble pour transformer les opérateurs humains d'employés à la saisie de données en orchestrateurs d'expérience de haut niveau.",
+      es: "Procesar 5 veces más pedidos sin ampliar el equipo de operadores no es apretar más a la plantilla. Es construir un sistema que quite la rutina. CRM unificado, validación inteligente de direcciones, pasarelas de checkout automáticas, etiquetas por API y comunicación de IA por triggers convierten al operador de «quien pega y copia» en quien orquesta la experiencia.",
           },
           {
             en: 'Are you looking to optimize your online store, integrate payment webhooks, or sync your website with KeyCRM/HubSpot? Let\'s discuss your project! I build robust e-commerce architectures on React & Next.js, tailored for maximum efficiency, speed, and seamless business integrations. Reach out today to automate your checkout and scaling workflows!',
             ua: 'Бажаєте автоматизувати свій інтернет-магазин, інтегрувати платіжні вебхуки чи налаштувати безшовну синхронізацію сайту з KeyCRM/HubSpot? Давайте обговоримо ваш проєкт! Я розробляю надійні e-commerce рішення на React та Next.js з інтеграцією поштових API, еквайрингу та CRM-систем. Зв\'яжіться зі мною, щоб автоматизувати ваш бізнес уже сьогодні!',
       de: "Möchten Sie Ihren Online-Shop optimieren, Zahlungs-Webhooks integrieren oder Ihre Website mit KeyCRM/HubSpot synchronisieren? Lassen Sie uns Ihr Projekt besprechen! Ich baue robuste E-Commerce-Architekturen auf React und Next.js, maßgeschneidert für maximale Effizienz, Geschwindigkeit und nahtlose Geschäftsintegrationen. Kontaktieren Sie uns noch heute, um Ihre Checkout- und Skalierungs-Workflows zu automatisieren!",
       fr: "Cherchez-vous à optimiser votre boutique en ligne, à intégrer des webhooks de paiement ou à synchroniser votre site Web avec KeyCRM/HubSpot ? Discutons de votre projet ! Je construis des architectures de commerce électronique robustes sur React et Next.js, conçues pour une efficacité, une rapidité et des intégrations commerciales transparentes. Contactez-nous dès aujourd'hui pour automatiser vos flux de paiement et de mise à l'échelle !",
+      es: "¿Quiere optimizar su tienda, integrar webhooks de pago o sincronizar la web con KeyCRM/HubSpot? Hablemos de su proyecto. Construyo arquitecturas e-commerce sólidas en React y Next.js, pensadas para eficiencia, velocidad e integraciones limpias. Escríbame y automatizamos checkout y flujos de escala.",
           },
         ],
       },
@@ -1074,18 +1362,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Тренд на Solo-розробників та відмову від агенцій на Upwork у 2026: чому пряма комунікація перемагає',
       de: "Der Aufstieg von Solo-Entwicklern und der Niedergang von Agenturen bei Upwork im Jahr 2026: Warum direkte Kommunikation gewinnt",
       fr: "L'essor des développeurs solo et le déclin des agences sur Upwork en 2026 : pourquoi la communication directe gagne",
+      es: "El auge de los desarrolladores en solitario y el declive de las agencias en Upwork en 2026: por qué gana la comunicación directa",
     },
     excerpt: {
       en: 'Explore why international clients in 2026 are shifting away from digital agencies on Upwork in favor of solo developers, and how direct communication and AI-enhanced productivity are redefining successful software delivery.',
       ua: 'Дізнайтеся, чому у 2026 році іноземні замовники відмовляються від агенцій на Upwork на користь соло-розробників, і як прямий контакт та ШІ-ефективність змінюють підхід до створення успішних IT-продуктів.',
       de: "Entdecken Sie, warum internationale Kunden im Jahr 2026 auf Upwork von Digitalagenturen zu Einzelentwicklern wechseln und wie direkte Kommunikation und KI-gestützte Produktivität die erfolgreiche Softwarebereitstellung neu definieren.",
       fr: "Découvrez pourquoi les clients internationaux en 2026 abandonnent les agences numériques sur Upwork au profit de développeurs solo, et comment la communication directe et la productivité améliorée par l'IA redéfinissent la livraison réussie de logiciels.",
+      es: "Por qué en 2026 los clientes internacionales dejan las agencias en Upwork y eligen desarrolladores en solitario — y cómo la comunicación directa y la productividad con IA redefinen una entrega de software que funciona.",
     },
     readTime: {
       en: '6 min read',
       ua: '6 хв читання',
       de: "6 Min. Lesezeit",
       fr: "6 minutes de lecture",
+      es: "6 min de lectura",
     },
     tags: {
       en: ['Upwork', 'Freelance', 'Solo Developer', 'Business Strategy', 'Communication'],
@@ -1104,6 +1395,13 @@ export const businessPosts: RawBlogPost[] = [
         "Stratégie business",
         "Communication"
       ],
+      es: [
+        "Upwork",
+        "Freelance",
+        "Solo developer",
+        "Estrategia",
+        "Comunicación"
+      ],
     },
     content: [
       {
@@ -1113,12 +1411,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'За останні роки ландшафт віддаленої розробки програмного забезпечення на Upwork зазнав кардинальних змін. Протягом тривалого часу цифрові агенції вважалися «безпечним та масштабованим» вибором для проєктів середнього та великого бізнесу. Проте у 2026 році тренд розвернувся в протилежний бік: замовники все частіше фільтрують пошук за параметром «no agencies» і надають перевагу соло-розробникам. Ця зміна зумовлена двома ключовими факторами: вибуховим зростанням продуктивності програмування за допомогою ШІ та надзвичайною цінністю прямої, особистої комунікації.',
       de: "In den letzten Jahren hat die Landschaft der Remote-Softwareentwicklung auf Upwork einen großen Paradigmenwechsel erlebt. Lange Zeit galten Digitalagenturen als „sichere und skalierbare“ Wahl für mittlere bis große Projekte. Im Jahr 2026 hat sich der Trend jedoch umgekehrt: Kunden filtern aktiv Agenturen heraus („keine Agenturen“) und priorisieren die Einstellung von Solo-Entwicklern. Dieser Wandel wird durch zwei Hauptfaktoren vorangetrieben: die explosionsartige Entwicklung der KI-gestützten Ingenieursproduktivität und die unschätzbare Bedeutung direkter, persönlicher menschlicher Kommunikation.",
       fr: "Ces dernières années, le paysage du développement de logiciels à distance sur Upwork a subi un changement de paradigme majeur. Pendant longtemps, les agences numériques ont été considérées comme le choix « sûr et évolutif » pour les projets de moyenne à grande envergure. Cependant, en 2026, la tendance s'est inversée : les clients filtrent activement les agences (« pas d'agences ») et donnent la priorité à l'embauche de développeurs solo. Ce changement est motivé par deux facteurs principaux : l’explosion de la productivité de l’ingénierie assistée par l’IA et la nature inestimable de la communication humaine directe et personnelle.",
+      es: "En los últimos años, el mapa del desarrollo remoto en Upwork ha cambiado de paradigma. Durante mucho tiempo, las agencias digitales eran la opción «segura y escalable» para proyectos medianos y grandes. En 2026 la tendencia se ha dado la vuelta: los clientes filtran «no agencies» y priorizan a desarrolladores en solitario. Empujan dos factores: la explosión de productividad de la ingeniería asistida por IA y el valor, hoy innegociable, de una comunicación humana directa.",
           },
           {
             en: 'When code generation is easily accessible, the bottleneck of software development is no longer typing code; it is understanding requirements, designing the right product architecture, and establishing absolute trust. Clients have realized that paying a premium for bloated agency layers often results in slower delivery, miscommunication, and higher costs.',
             ua: 'Коли генерація коду стала доступною кожному, вузьким місцем розробки ПЗ перестав бути безпосередній процес написання коду. Тепер головне — розуміння вимог, проектування правильної архітектури продукту та побудова абсолютної довіри. Замовники усвідомили, що переплата за розгалужену структуру агенцій часто призводить лише до уповільнення процесів, непорозумінь та зайвих витрат.',
       de: "Wenn die Codegenerierung leicht zugänglich ist, besteht der Flaschenhals der Softwareentwicklung nicht mehr in der Eingabe von Code; es geht darum, Anforderungen zu verstehen, die richtige Produktarchitektur zu entwerfen und absolutes Vertrauen aufzubauen. Kunden haben erkannt, dass die Zahlung einer Prämie für aufgeblähte Agenturebenen häufig zu langsameren Lieferungen, Missverständnissen und höheren Kosten führt.",
       fr: "Lorsque la génération de code est facilement accessible, le goulot d'étranglement du développement logiciel n'est plus la saisie du code ; il s'agit de comprendre les exigences, de concevoir la bonne architecture de produit et d'établir une confiance absolue. Les clients ont réalisé que payer un supplément pour des couches d'agence surchargées entraîne souvent un retard de livraison, des problèmes de communication et des coûts plus élevés.",
+      es: "Cuando generar código es fácil, el cuello de botella ya no es teclear. Es entender requisitos, diseñar la arquitectura correcta y construir confianza. Los clientes han visto que pagar un premium por capas hinchadas de agencia suele significar entrega más lenta, malentendidos y más coste.",
           },
         ],
       },
@@ -1128,6 +1428,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '1. ШІ як великий зрівнювач: мультидисциплінарний соло-розробник',
       de: "1. KI als großer Equalizer: Der multidisziplinäre Soloentwickler",
       fr: "1. L'IA comme grand égaliseur : le développeur solo multidisciplinaire",
+      es: "1. La IA como igualador: el desarrollador solo multidisciplinar",
         },
         paragraphs: [
           {
@@ -1135,12 +1436,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'У минулому для створення повноцінного веб-додатку потрібна була ціла команда: фронтенд-розробник, бекенд-розробник, тестувальник (QA) та DevOps-спеціаліст. Агенції успішно монетизували цю потребу, продаючи послуги команди «пакетом».',
       de: "In der Vergangenheit war für die Erstellung einer vollständigen Webanwendung ein Team erforderlich: ein Frontend-Entwickler, ein Backend-Entwickler, ein QA-Ingenieur und ein DevOps-Spezialist. Agenturen machten sich diese Notwendigkeit zunutze, indem sie mehrere Personen in einem einzigen Paket bündelten.",
       fr: "Dans le passé, la création d'une application Web complète nécessitait une équipe : un développeur front-end, un développeur back-end, un ingénieur assurance qualité et un spécialiste DevOps. Les agences ont tiré parti de cette nécessité en regroupant plusieurs personnes dans un seul package.",
+      es: "Antes, una aplicación web completa pedía equipo: frontend, backend, QA y DevOps. Las agencias monetizaron esa necesidad empaquetando a varias personas en un solo contrato.",
           },
           {
             en: 'In 2026, this model is obsolete. Advanced AI assistants, automated testing tools, and seamless deployment platforms have supercharged individual developers. A skilled solo developer can now design, build, test, and deploy production-grade software with the speed and efficiency that once required a team of four. The administrative overhead of coordinating a team is replaced by a single, highly focused execution engine.',
             ua: 'У 2026 році ця модель застаріла. Сучасні ШІ-асистенти, автоматизовані системи тестування та зручні платформи розгортання надали соло-розробникам суперсили. Один кваліфікований фахівець сьогодні може спроектувати, написати, протестувати та запустити готовий до продакшену продукт із тією ж швидкістю та ефективністю, для якої раніше потрібна була команда з чотирьох людей. Адміністративна рутина координації команди замінилася на роботу одного високофокусованого розробника.',
       de: "Im Jahr 2026 ist dieses Modell veraltet. Fortschrittliche KI-Assistenten, automatisierte Testtools und nahtlose Bereitstellungsplattformen haben einzelnen Entwicklern einen Vorsprung verschafft. Ein erfahrener Einzelentwickler kann jetzt produktionstaugliche Software mit der Geschwindigkeit und Effizienz entwerfen, erstellen, testen und bereitstellen, die früher ein Viererteam erforderte. Der Verwaltungsaufwand für die Koordination eines Teams wird durch eine einzige, hochfokussierte Ausführungs-Engine ersetzt.",
       fr: "En 2026, ce modèle est obsolète. Les assistants IA avancés, les outils de test automatisés et les plates-formes de déploiement transparentes ont dynamisé les développeurs individuels. Un développeur solo qualifié peut désormais concevoir, créer, tester et déployer des logiciels de production avec la rapidité et l’efficacité qui nécessitaient autrefois une équipe de quatre personnes. Les frais administratifs liés à la coordination d'une équipe sont remplacés par un moteur d'exécution unique et hautement ciblé.",
+      es: "En 2026 ese modelo está obsoleto. Asistentes de IA, testing automático y plataformas de deploy han potenciado al individuo. Un desarrollador solo competente puede diseñar, construir, testear y desplegar software de producción con la velocidad que antes pedía un equipo de cuatro. La sobrecarga de coordinar un equipo se sustituye por un solo motor de ejecución, muy enfocado.",
           },
         ],
       },
@@ -1150,6 +1453,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '2. Усунення «зіпсованого телефону» та адміністративних бар\'єрів',
       de: "2. Eliminierung des „Telefonspiels“ und der Verwaltungsebenen",
       fr: "2. Éliminer le « jeu téléphonique » et les couches administratives",
+      es: "2. Acabar con el «teléfono estropeado» y las capas administrativas",
         },
         paragraphs: [
           {
@@ -1157,12 +1461,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Найбільша скарга замовників на роботу з агенціями — це бар\'єри в комунікації. Наймаючи агенцію, ви рідко спілкуєтеся безпосередньо з виконавцем. Замість цього ваші правки йдуть до акаунт-менеджера, той передає їх проектному менеджеру, який інтерпретує їх для лід-розробника, а той, у свою чергу, делегує завдання джуніору.',
       de: "Die größte Beschwerde, die Kunden über Agenturen haben, ist die Kommunikationslücke. Wenn Sie eine Agentur beauftragen, sprechen Sie selten mit der Person, die den Code schreibt. Stattdessen geht Ihr Feedback an einen Account Manager, der es an einen Projektmanager weiterleitet, der es an einen leitenden Entwickler übersetzt, der es schließlich einem Junior-Programmierer zuweist.",
       fr: "La principale plainte des clients à l’égard des agences est le manque de communication. Lorsque vous engagez une agence, vous parlez rarement à la personne qui rédige le code. Au lieu de cela, vos commentaires sont transmis à un responsable de compte, qui les transmet à un chef de projet, qui les traduit à un développeur principal, qui les attribue finalement à un codeur junior.",
+      es: "La queja más repetida sobre las agencias es el hueco de comunicación. Si contrata una agencia, casi nunca habla con quien escribe el código. El feedback va al account manager, de ahí al project manager, de ahí al lead y, al final, a un junior.",
           },
           {
             en: 'This "telephone game" leads to lost details, delayed timelines, and misaligned expectations. In 2026, agility is everything. Working directly with a solo developer means ideas and adjustments are discussed and implemented in real-time, without bureaucratic friction.',
             ua: 'Цей «зіпсований телефон» призводить до втрати деталей, затягування термінів та розбіжностей у фінальному результаті. У 2026 році швидкість має вирішальне значення. Робота напряму з соло-розробником гарантує, що ідеї та коригування обговорюються і впроваджуються в реальному часі, без жодного бюрократичного тертя.',
       de: "Dieses „Telefonspiel“ führt zu verlorenen Details, verzögerten Zeitplänen und falschen Erwartungen. Im Jahr 2026 ist Agilität alles. Die direkte Zusammenarbeit mit einem Einzelentwickler bedeutet, dass Ideen und Anpassungen in Echtzeit und ohne bürokratische Reibung besprochen und umgesetzt werden.",
       fr: "Ce « jeu téléphonique » entraîne une perte de détails, des délais retardés et des attentes mal alignées. En 2026, l’agilité est primordiale. Travailler directement avec un développeur solo signifie que les idées et les ajustements sont discutés et mis en œuvre en temps réel, sans frictions bureaucratiques.",
+      es: "Ese «teléfono estropeado» pierde detalles, alarga plazos y desalinean expectativas. En 2026 la agilidad lo es todo. Trabajar directo con un desarrollador solo significa que las ideas y los ajustes se hablan y se implementan en tiempo real, sin fricción burocrática.",
           },
         ],
       },
@@ -1172,6 +1478,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '3. Абсолютна прозорість: жодного прихованого аутсорсингу',
       de: "3. Vollständige Transparenz: Kein verstecktes Outsourcing",
       fr: "3. Transparence totale : pas d’externalisation cachée",
+      es: "3. Transparencia total: sin outsourcing oculto",
         },
         paragraphs: [
           {
@@ -1179,12 +1486,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Поширеною практикою серед агенцій на Upwork є тактика «приманки»: на етапі знайомства вам показують вражаюче портфоліо та досвідченого Senior-спеціаліста, але після підписання контракту фактичну роботу непомітно передають дешевому джуніору. Клієнт платить за ставкою Senior, а отримує код початківця.',
       de: "Eine gängige Lockvogeltaktik bei Upwork-Agenturen besteht darin, während des Verkaufsgesprächs ein beeindruckendes Senior-Profil zu präsentieren, um dann die eigentliche Entwicklungsarbeit stillschweigend an einen kostengünstigen Junior-Entwickler hinter den Kulissen zu delegieren. Der Kunde zahlt Senior-Tarife für die Produktion auf Junior-Ebene.",
       fr: "Une tactique d'appât et de changement courante parmi les agences sur Upwork consiste à présenter un profil senior impressionnant lors de l'appel de vente, pour ensuite déléguer discrètement le travail de développement proprement dit à un développeur junior à faible coût dans les coulisses. Le client paie des tarifs supérieurs pour les résultats de niveau junior.",
+      es: "Un cebo habitual de las agencias en Upwork: enseñar un perfil senior impresionante en la llamada comercial y, en silencio, delegar el desarrollo a un junior barato. El cliente paga tarifa senior y recibe output junior.",
           },
           {
             en: 'With a solo developer, what you see is what you get. The person you interview, whose portfolio you review, and whose communication skills you evaluate is the exact same person who will write every line of code for your application. This builds a foundation of honesty and peace of mind.',
             ua: 'У випадку з соло-розробником ви отримуєте саме те, що бачите. Людина, з якою ви проходите інтерв\'ю, чиє портфоліо ви вивчаєте і чиї навички комунікації оцінюєте, — це той самий фахівець, який напише кожен рядок коду для вашого проєкту. Це створює надійний фундамент для чесних відносин та спокою за результат.',
       de: "Bei einem Einzelentwickler erhalten Sie das, was Sie sehen. Die Person, die Sie interviewen, deren Portfolio Sie überprüfen und deren Kommunikationsfähigkeiten Sie bewerten, ist genau dieselbe Person, die jede Codezeile für Ihre Bewerbung schreibt. Dies schafft eine Grundlage für Ehrlichkeit und Seelenfrieden.",
       fr: "Avec un développeur solo, ce que vous voyez est ce que vous obtenez. La personne que vous interviewez, dont vous examinez le portfolio et dont vous évaluez les compétences en communication est exactement la même personne qui rédigera chaque ligne de code pour votre candidature. Cela constitue une base d’honnêteté et de tranquillité d’esprit.",
+      es: "Con un desarrollador solo, lo que ve es lo que obtiene. Quien entrevista, cuyo portfolio revisa y cuya comunicación evalúa es exactamente quien escribirá cada línea de su aplicación. Eso es honestidad — y tranquilidad.",
           },
         ],
       },
@@ -1194,6 +1503,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '4. Чому особисте спілкування цінується більше, ніж будь-коли',
       de: "4. Warum persönliche, menschliche Kommunikation mehr denn je geschätzt wird",
       fr: "4. Pourquoi la communication personnelle et humaine est plus valorisée que jamais",
+      es: "4. Por qué la comunicación personal se valora más que nunca",
         },
         paragraphs: [
           {
@@ -1201,12 +1511,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Оскільки генеративний ШІ знижує поріг входу для написання коду, інтернет наповнюється шаблоновими сайтами та однотипними додатками. У цьому перенасиченому ШІ середовищі справжньою конкурентною перевагою стає не здатність писати код, а суто людська навичка розуміння контексту.',
       de: "Da generative KI die Eintrittsbarriere für das Schreiben von Code senkt, wird das Internet mit generischen Websites und vorlagenbasierten Anwendungen überschwemmt. In dieser KI-gesättigten Umgebung ist das eigentliche Unterscheidungsmerkmal für den Geschäftserfolg nicht mehr die Fähigkeit, Code zu generieren – es ist die menschliche Fähigkeit, den Kontext zu verstehen.",
       fr: "Alors que l’IA générative abaisse les barrières à l’entrée pour l’écriture de code, Internet est inondé de sites Web génériques et d’applications basées sur des modèles. Dans cet environnement saturé d’IA, le véritable différenciateur du succès d’une entreprise n’est plus la capacité à générer du code, mais la capacité humaine à comprendre le contexte.",
+      es: "La IA generativa baja la barrera para escribir código, y la red se llena de webs genéricas y apps de plantilla. En ese entorno saturado, el diferenciador ya no es generar código: es la capacidad humana de entender el contexto.",
           },
           {
             en: 'Personal communication is not just about daily updates. It is about emotional intelligence, active listening, and business empathy. A solo developer acts as a technical partner, discussing the "why" behind features, proposing creative UX solutions, and ensuring the product aligns with the client\'s actual business goals rather than just checking off a task list.',
             ua: 'Особисте спілкування — це не просто щоденні звіти. Це емпатія, активне слухання та глибоке розуміння бізнес-завдань клієнта. Соло-розробник виступає як повноцінний технічний партнер, який обговорює цінність функцій, пропонує зручні UX-рішення та стежить за тим, щоб продукт вирішував реальні бізнес-задачі, а не просто закривав пункти з ТЗ.',
       de: "Bei der persönlichen Kommunikation geht es nicht nur um tägliche Updates. Es geht um emotionale Intelligenz, aktives Zuhören und geschäftliches Einfühlungsvermögen. Ein Einzelentwickler fungiert als technischer Partner, bespricht das „Warum“ hinter den Funktionen, schlägt kreative UX-Lösungen vor und stellt sicher, dass das Produkt mit den tatsächlichen Geschäftszielen des Kunden übereinstimmt, anstatt nur eine Aufgabenliste abzuhaken.",
       fr: "La communication personnelle ne se limite pas aux mises à jour quotidiennes. Il s’agit d’intelligence émotionnelle, d’écoute active et d’empathie commerciale. Un développeur solo agit en tant que partenaire technique, discutant du « pourquoi » derrière les fonctionnalités, proposant des solutions UX créatives et s'assurant que le produit s'aligne sur les objectifs commerciaux réels du client plutôt que de simplement cocher une liste de tâches.",
+      es: "La comunicación personal no es solo el update diario. Es inteligencia emocional, escucha activa y empatía de negocio. Un desarrollador solo actúa como partner técnico: habla del «por qué» de cada feature, propone UX con sentido y alinea el producto con el objetivo real del cliente, no con una checklist.",
           },
         ],
       },
@@ -1216,6 +1528,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Висновок: будуємо партнерство, а не просто софт',
       de: "Fazit: Beziehungen aufbauen, nicht nur Software",
       fr: "Conclusion : établir des relations, pas seulement des logiciels",
+      es: "Conclusión: construir relaciones, no solo software",
         },
         paragraphs: [
           {
@@ -1223,12 +1536,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'У 2026 році успішна розробка програмного забезпечення будується на довірі, прямому контакті та фокусному досвіді. Наймаючи соло-розробника, ви отримуєте високу продуктивність сучасного ШІ, фінансову ефективність прямої співпраці та спокій від роботи з надійним партнером віч-на-віч.',
       de: "Im Jahr 2026 basiert eine erfolgreiche Softwareentwicklung auf Vertrauen, direktem Zugang und hochfokussiertem Fachwissen. Wenn Sie einen Solo-Entwickler engagieren, profitieren Sie von der Leistungsfähigkeit moderner KI-Produktivität, der Kosteneffizienz einer Direkteinstellung und der unschätzbaren Sicherheit, die sich aus einer 1:1-Beziehung ergibt.",
       fr: "En 2026, un développement logiciel réussi repose sur la confiance, l’accès direct et une expertise hautement ciblée. L'embauche d'un développeur solo vous offre la puissance de la productivité moderne de l'IA, la rentabilité de l'embauche directe et la tranquillité d'esprit inestimable que procure une relation professionnelle individuelle.",
+      es: "En 2026, el software que funciona se construye sobre confianza, acceso directo y expertise muy enfocado. Contratar a un desarrollador solo le da la productividad de la IA moderna, la eficiencia de un hire directo y la tranquilidad de una relación profesional 1 a 1.",
           },
           {
             en: 'Looking for a reliable, transparent, and direct partnership for your next web application or site? I work strictly as a solo developer—offering senior-level expertise, direct communication, and zero agency overhead. Let\'s connect on Upwork or book a quick intro call via Telegram to discuss how we can bring your vision to life!',
             ua: 'Шукаєте надійне, прозоре та пряме партнерство для вашого наступного веб-проєкту? Я працюю виключно як соло-розробник — гарантую рівень Senior, прямий зв\'язок та відсутність будь-каких прихованих переплат агенціям. Зв\'яжіться зі мною на Upwork або напишіть у Telegram для швидкого обговорення вашого проєкту!',
       de: "Suchen Sie eine zuverlässige, transparente und direkte Partnerschaft für Ihre nächste Webanwendung oder Website? Ich arbeite ausschließlich als Einzelentwickler und biete Fachwissen auf höchster Ebene, direkte Kommunikation und keinen Agenturaufwand. Nehmen Sie Kontakt zu Upwork auf oder buchen Sie ein kurzes Einführungsgespräch per Telegram, um zu besprechen, wie wir Ihre Vision zum Leben erwecken können!",
       fr: "Vous recherchez un partenariat fiable, transparent et direct pour votre prochaine application ou site Web ? Je travaille strictement en tant que développeur solo, offrant une expertise de haut niveau, une communication directe et aucun frais d'agence. Connectons-nous sur Upwork ou réservons un appel d'introduction rapide via Telegram pour discuter de la façon dont nous pouvons donner vie à votre vision !",
+      es: "¿Busca una colaboración fiable, transparente y directa para su próxima web o aplicación? Trabajo estrictamente como desarrolladora solo: expertise senior, comunicación directa y cero overhead de agencia. Conectemos en Upwork o reserve una intro corta por Telegram y vemos cómo dar forma a su visión.",
           },
         ],
       },
@@ -1242,18 +1557,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Феномен «лінивого ліда» у 2026 році: як залучати якісних клієнтів миттєво',
       de: "Das „Lazy Lead“-Phänomen im Jahr 2026: So gewinnen Sie sofort hochwertige Leads",
       fr: "Le phénomène des « leads paresseux » en 2026 : comment attirer instantanément des leads de haute qualité",
+      es: "El fenómeno del «lazy lead» en 2026: cómo atraer leads de calidad al instante",
     },
     excerpt: {
       en: 'In 2026, user attention spans are shorter than ever, creating the era of the "lazy lead." Discover how to optimize your website for instant value, 1-click interactions, and AI-driven qualification to capture premium clients without friction.',
       ua: 'У 2026 році увага користувачів коротка як ніколи, що породило епоху «лінивих лідів». Дізнайтеся, як оптимізувати сайт під миттєву цінність, комунікацію в 1 клік та ШІ-кваліфікацію, щоб залучати преміум-клієнтів без зайвих зусиль.',
       de: "Im Jahr 2026 ist die Aufmerksamkeitsspanne der Nutzer kürzer denn je und es beginnt die Ära des „faulen Leads“. Entdecken Sie, wie Sie Ihre Website für sofortigen Mehrwert, 1-Klick-Interaktionen und KI-gesteuerte Qualifizierung optimieren können, um Premium-Kunden reibungslos zu gewinnen.",
       fr: "En 2026, la durée d’attention des utilisateurs est plus courte que jamais, créant l’ère du « lead paresseux ». Découvrez comment optimiser votre site Web pour une valeur instantanée, des interactions en 1 clic et une qualification basée sur l'IA pour capturer des clients premium sans friction.",
+      es: "En 2026 la atención dura menos que nunca: es la era del «lazy lead». Cómo optimizar la web para valor inmediato, interacciones en 1 clic y cualificación con IA — y captar clientes premium sin fricción.",
     },
     readTime: {
       en: '5 min read',
       ua: '5 хв читання',
-      de: "5 Minuten gelesen",
+      de: "5 Min. Lesezeit",
       fr: "5 minutes de lecture",
+      es: "5 min de lectura",
     },
     tags: {
       en: ['Lead Generation', 'Conversion Rate Optimization', 'UI/UX Design', 'Web Development', 'Business Strategy'],
@@ -1272,6 +1590,13 @@ export const businessPosts: RawBlogPost[] = [
         "Développement web",
         "Stratégie business"
       ],
+      es: [
+        "Lead generation",
+        "CRO",
+        "UI/UX",
+        "Desarrollo web",
+        "Estrategia"
+      ],
     },
     content: [
       {
@@ -1281,12 +1606,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Поведінка користувачів в інтернеті кардинально змінилася. У 2026 році потенційний клієнт більше не готовий блукати складною структурою сайту, заповнювати форми на десять полів чи чекати доби на відповідь по email. Ми живемо в епоху «лінивого ліда» — не тому, що люди стали лінивими, а тому, що вони перевантажені інформацією і цінують свій час понад усе.',
       de: "Das Nutzerverhalten hat sich in den letzten Jahren dramatisch verändert. Im Jahr 2026 ist ein potenzieller Kunde nicht mehr bereit, sich durch komplexe Site-Strukturen zu navigieren, Kontaktformulare mit zehn Feldern auszufüllen oder 24 Stunden auf eine E-Mail-Antwort zu warten. Wir leben im Zeitalter des „faulen Leads“ – nicht weil Benutzer tatsächlich faul sind, sondern weil sie von Optionen überwältigt werden und ihre Zeit über alles andere schätzen.",
       fr: "Le comportement des utilisateurs a radicalement changé au cours des dernières années. En 2026, un client potentiel n'est plus disposé à naviguer dans des structures de sites complexes, à remplir des formulaires de contact à dix champs ou à attendre 24 heures pour une réponse par e-mail. Nous vivons à l'ère du « lead paresseux », non pas parce que les utilisateurs sont réellement paresseux, mais parce qu'ils sont submergés d'options et valorisent leur temps par-dessus tout.",
+      es: "El comportamiento del usuario ha cambiado de raíz. En 2026, un cliente potencial ya no recorre estructuras enrevesadas, no rellena formularios de diez campos y no espera 24 horas un email. Vivimos la era del «lazy lead»: no porque la gente sea perezosa, sino porque está saturada de opciones y valora su tiempo por encima de todo.",
           },
           {
             en: 'If your website requires cognitive effort to understand what you offer or how to contact you, users will simply close the tab and move to a competitor. To attract high-quality leads quickly, businesses must shift from passive information delivery to frictionless, interactive experiences.',
             ua: 'Якщо ваш сайт вимагає когнітивних зусиль для розуміння того, що ви пропонуєте або як з вами зв\'язатися, користувач просто закриє вкладку і піде до конкурентів. Щоб залучати якісних лідів швидко, бізнесу потрібно переходити від пасивного інформування до інтерактивного та безшовного досвіду.',
       de: "Wenn Ihre Website kognitive Anstrengung erfordert, um zu verstehen, was Sie anbieten oder wie Sie mit Ihnen in Kontakt treten können, schließen Benutzer einfach die Registerkarte und wechseln zu einem Mitbewerber. Um schnell qualitativ hochwertige Leads zu gewinnen, müssen Unternehmen von der passiven Informationsbereitstellung auf reibungslose, interaktive Erlebnisse umsteigen.",
       fr: "Si votre site Web nécessite un effort cognitif pour comprendre ce que vous proposez ou comment vous contacter, les utilisateurs fermeront simplement l'onglet et se tourneront vers un concurrent. Pour attirer rapidement des prospects de haute qualité, les entreprises doivent passer d’une diffusion passive d’informations à des expériences interactives et fluides.",
+      es: "Si su web exige esfuerzo mental para entender qué ofrece o cómo contactarle, cierran la pestaña y se van al competidor. Para atraer leads de calidad rápido, hay que pasar de informar en pasivo a experiencias interactivas, sin fricción.",
           },
         ],
       },
@@ -1296,6 +1623,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '1. Правило одного кліку: прямі канали комунікації',
       de: "1. Die 1-Klick-Regel: Direkte Kommunikationskanäle",
       fr: "1. La règle du 1 clic : canaux de communication directs",
+      es: "1. La regla del 1 clic: canales de comunicación directa",
         },
         paragraphs: [
           {
@@ -1303,12 +1631,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Традиційні контактні форми поступово відходять у минуле. Сучасний користувач віддає перевагу швидкому та звичному спілкуванню. Інтеграція можливості зв\'язатися в один клік — через месенджери на кшталт Telegram, WhatsApp або сервіси швидкого бронювання дзвінків типу Cal.com — значно знижує показник відмов.',
       de: "Traditionelle Kontaktformulare sterben langsam aus. Der moderne Benutzer bevorzugt eine sofortige, vertraute Kommunikation. Durch die Einbindung von Ein-Klick-Messaging-Optionen – wie z. B. direkte Links zu Telegram, WhatsApp oder Buchungs-Widgets wie Cal.com – wird die Abbruchrate drastisch reduziert.",
       fr: "Les formulaires de contact traditionnels disparaissent lentement. L'utilisateur moderne préfère une communication instantanée et familière. L'intégration d'options de messagerie en un seul clic, telles que des liens directs vers Telegram, WhatsApp ou des widgets de réservation comme Cal.com, réduit considérablement le taux d'abandon.",
+      es: "El formulario de contacto clásico se muere. El usuario de hoy quiere hablar ya, en un canal que ya usa. Un enlace a Telegram, WhatsApp o un widget de reserva como Cal.com baja el abandono de un golpe.",
           },
           {
             en: 'Letting a client start a conversation on their preferred platform ensures that the lead is captured immediately. This is especially true for mobile users, who expect to tap a single button and start chatting.',
             ua: 'Дозволяючи клієнту почати діалог на зручній для нього платформі, ви фіксуєте лід миттєво. Це особливо критично для мобільних користувачів, які очікують натиснути одну кнопку і відразу перейти в чат.',
       de: "Wenn ein Kunde ein Gespräch auf seiner bevorzugten Plattform beginnen kann, wird sichergestellt, dass der Lead sofort erfasst wird. Dies gilt insbesondere für mobile Benutzer, die erwarten, auf eine einzige Schaltfläche zu tippen und mit dem Chatten zu beginnen.",
       fr: "Permettre à un client de démarrer une conversation sur sa plateforme préférée garantit que le prospect est capturé immédiatement. Cela est particulièrement vrai pour les utilisateurs mobiles, qui s'attendent à appuyer sur un seul bouton et à commencer à discuter.",
+      es: "Si el cliente empieza la conversación en su plataforma, el lead queda capturado al instante. En móvil, aún más: esperan un botón y, al tocarlo, estar ya en el chat.",
           },
         ],
       },
@@ -1318,6 +1648,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '2. Інтерактивні інструменти та цінність з першої секунди',
       de: "2. Interaktive Value-First-Tools",
       fr: "2. Outils interactifs axés sur la valeur",
+      es: "2. Herramientas interactivas que dan valor primero",
         },
         paragraphs: [
           {
@@ -1325,12 +1656,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Щоб перетворити скептичного відвідувача на гарячого ліда, потрібно дати йому цінність ще до того, як ви попросите його контактні дані. Кастомні інтерактивні інструменти — такі як калькулятори вартості, оцінка окупності (ROI) або візуальні конфігуратори — миттєво залучають користувача до взаємодії.',
       de: "Um einen skeptischen Besucher in einen warmen Lead zu verwandeln, müssen Sie ihm im Vorfeld einen Mehrwert bieten, bevor Sie nach seinen Kontaktinformationen fragen. Benutzerdefinierte interaktive Tools wie Kostenrechner, Widgets zur ROI-Schätzung oder visuelle Konfiguratoren binden Benutzer sofort ein.",
       fr: "Pour convertir un visiteur sceptique en un prospect chaleureux, vous devez fournir de la valeur dès le départ avant de demander ses coordonnées. Les outils interactifs personnalisés, tels que les calculateurs de coûts, les widgets d'estimation du retour sur investissement ou les configurateurs visuels, engagent immédiatement les utilisateurs.",
+      es: "Para pasar de visitante escéptico a lead caliente, dé valor antes de pedir el contacto. Calculadoras de coste, widgets de ROI o configuradores visuales enganchan en el acto.",
           },
           {
             en: 'For example, instead of a generic "Get a Quote" form, a web development agency might offer a quick "Website Speed & Profit Calculator." The user inputs a few numbers, receives instant personalized feedback, and is then highly motivated to leave their email for a detailed report.',
             ua: 'Наприклад, замість банальної форми «Зв\'язатися з нами», веб-студія може запропонувати швидкий «Калькулятор прибутку від швидкості сайту». Користувач вводить кілька цифр, отримує персоналізований розрахунок прямо на екрані та охоче залишає email для отримання детального звіту на пошту.',
       de: "Anstelle eines generischen „Angebot einholen“-Formulars könnte eine Webentwicklungsagentur beispielsweise einen schnellen „Website-Geschwindigkeits- und Gewinnrechner“ anbieten. Der Benutzer gibt ein paar Zahlen ein, erhält sofort personalisiertes Feedback und ist dann hochmotiviert, seine E-Mail für einen detaillierten Bericht zu hinterlassen.",
       fr: "Par exemple, au lieu d'un formulaire générique « Obtenir un devis », une agence de développement Web peut proposer un « Calculateur de vitesse et de profit du site Web » rapide. L'utilisateur saisit quelques chiffres, reçoit un retour personnalisé instantané et est ensuite très motivé à laisser son e-mail pour un rapport détaillé.",
+      es: "En vez de un «Pida presupuesto» genérico, una agencia puede ofrecer un «Calculadora de velocidad y beneficio de la web». El usuario mete unos números, ve un resultado personalizado al instante y entonces sí deja el email para el informe completo.",
           },
         ],
       },
@@ -1340,6 +1673,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '3. ШІ-кваліфікація та миттєва реакція',
       de: "3. KI-gestützte Qualifizierung und sofortige Antworten",
       fr: "3. Qualification assistée par l'IA et réponses instantanées",
+      es: "3. Cualificación con IA y respuestas al instante",
         },
         paragraphs: [
           {
@@ -1347,12 +1681,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Швидкість — це головний мультиплікатор конверсії. Коли лід залишає заявку, його готовність до покупки є найвищою в перші 5 хвилин. У 2026 році очікування відповіді годинами означає втрату клієнта. Саме тут на допомогу приходять ШІ-асистенти.',
       de: "Geschwindigkeit ist der ultimative Conversion-Multiplikator. Wenn ein Lead Sie kontaktiert, ist seine Kaufabsicht in den ersten 5 Minuten am höchsten. Im Jahr 2026 bedeutet stundenlanges Warten auf eine Antwort den Verlust des Kunden. Hier kommen KI-gestützte Assistenten ins Spiel.",
       fr: "La vitesse est le multiplicateur de conversion ultime. Si un prospect vous contacte, son intention d'achat est la plus élevée dans les 5 premières minutes. En 2026, attendre des heures pour répondre, c’est perdre le client. C’est là qu’interviennent les assistants basés sur l’IA.",
+      es: "La velocidad multiplica la conversión. Si un lead le escribe, la intención de compra está en su pico los primeros 5 minutos. En 2026, tardar horas es perder al cliente. Ahí entran los asistentes de IA.",
           },
           {
             en: 'Integrating a smart AI chatbot on your landing page allows you to answer common questions 24/7, qualify leads by asking specific budget and timeline questions, and automatically schedule meetings with high-intent prospects, leaving cold lead filtering to automation.',
             ua: 'Інтеграція розумного ШІ-чатбота на цільову сторінку дозволяє цілодобово відповідати на запитання, кваліфікувати лідів за бюджетом і термінами, а також автоматично записувати зацікавлених користувачів на дзвінок, передаючи менеджеру вже прогрітий контакт.',
       de: "Durch die Integration eines intelligenten KI-Chatbots auf Ihrer Landingpage können Sie rund um die Uhr häufige Fragen beantworten, Leads qualifizieren, indem Sie spezifische Fragen zu Budget und Zeitplan stellen, und automatisch Meetings mit Interessenten mit hoher Absicht planen, sodass Sie die Filterung kalter Leads der Automatisierung überlassen können.",
       fr: "L'intégration d'un chatbot IA intelligent sur votre page de destination vous permet de répondre aux questions courantes 24h/24 et 7j/7, de qualifier les prospects en posant des questions spécifiques sur le budget et le calendrier, et de planifier automatiquement des réunions avec des prospects très motivés, laissant le filtrage des prospects à l'automatisation.",
+      es: "Un chatbot inteligente en la landing responde FAQ 24/7, cualifica con preguntas de presupuesto y plazo, y agenda reuniones con prospects de alta intención. El filtrado de leads fríos lo hace la automatización.",
           },
         ],
       },
@@ -1362,6 +1698,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '4. Технічна швидкість як основа конверсії',
       de: "4. Hohe Leistung als Conversion-Katalysator",
       fr: "4. Haute performance comme catalyseur de conversion",
+      es: "4. El rendimiento como catalizador de conversión",
         },
         paragraphs: [
           {
@@ -1369,12 +1706,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Якою б чудовою не була ваша пропозиція чи воронка комунікації, повільний сайт знищить конверсію. Швидкість завантаження сторінок напряму впливає на довіру клієнта. Затримка всього в одну секунду може знизити конверсію на 20%.',
       de: "Egal wie gut Ihr Angebot oder Ihr Kommunikationsfluss ist, eine langsame Website wird Ihre Konversionsraten zerstören. Die Ladezeiten von Seiten wirken sich direkt auf das Vertrauen der Benutzer aus. Eine Verzögerung von nur einer Sekunde kann zu einem Rückgang der Conversions um 20 % führen.",
       fr: "Quelle que soit la qualité de votre offre ou de votre flux de communication, un site Web lent tuera vos taux de conversion. Les temps de chargement des pages ont un impact direct sur la confiance des utilisateurs. Un retard d’une seconde seulement peut entraîner une baisse de 20 % des conversions.",
+      es: "Da igual lo buena que sea la oferta o el flujo: una web lenta mata la conversión. El tiempo de carga pega directo en la confianza. Un segundo de retraso puede bajar las conversiones un 20 %.",
           },
           {
             en: 'Building your web platform on modern frameworks like Next.js, optimizing Core Web Vitals, and leveraging static site generation ensures that your website loads instantly on any device, giving "lazy leads" no excuse to leave.',
             ua: 'Розробка сайту на базі сучасних фреймворків (як-от Next.js), оновлення Core Web Vitals та статична генерація гарантують, що сторінка відкриється миттєво на будь-якому пристрої, не даючи «лінивому ліду» жодного приводу для виходу з сайту.',
       de: "Der Aufbau Ihrer Webplattform auf modernen Frameworks wie Next.js, die Optimierung von Core Web Vitals und die Nutzung der statischen Site-Generierung stellen sicher, dass Ihre Website sofort auf jedem Gerät geladen wird und „faule Leads“ keine Ausrede mehr haben, die Site zu verlassen.",
       fr: "Construire votre plate-forme Web sur des frameworks modernes tels que Next.js, optimiser Core Web Vitals et tirer parti de la génération de sites statiques garantit que votre site Web se charge instantanément sur n'importe quel appareil, ne donnant aux « prospects paresseux » aucune excuse pour partir.",
+      es: "Construir en frameworks como Next.js, cuidar Core Web Vitals y usar static generation hace que la web abra al instante en cualquier dispositivo. Al «lazy lead» no le queda excusa para irse.",
           },
         ],
       },
@@ -1384,6 +1723,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Висновок: будуйте інтерфейси для безперешкодної конверсії',
       de: "Fazit: Für reibungslose Conversion konzipiert",
       fr: "Conclusion : Construisez pour des conversions fluides",
+      es: "Conclusión: construya para conversiones sin fricción",
         },
         paragraphs: [
           {
@@ -1391,12 +1731,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Залучення лідів швидко та якісно у 2026 році потребує орієнтації на зручність і повагу до часу користувача. Впроваджуючи прямий зв\'язок, інтерактивні віджети та миттєву кваліфікацію за допомогою ШІ, ви перетворюєте свій сайт на ефективну машину для генерації клієнтів.',
       de: "Um im Jahr 2026 schnell und mit hoher Qualität Leads zu gewinnen, ist ein benutzerzentrierter Ansatz erforderlich, der die Zeit des Besuchers respektiert. Durch die Implementierung direkter Kommunikationskanäle, interaktiver Widgets und sofortiger KI-Qualifizierung verwandeln Sie Ihre Website in eine leistungsstarke Conversion-Engine.",
       fr: "Attirer des leads rapidement et avec une grande qualité en 2026 nécessite une approche centrée sur l'utilisateur et respectueuse du temps du visiteur. En mettant en œuvre des canaux de communication directs, des widgets interactifs et une qualification instantanée de l'IA, vous transformez votre site Web en un moteur de conversion performant.",
+      es: "Atraer leads rápido y con calidad en 2026 pide una web que respete el tiempo del visitante. Canales directos, widgets interactivos y cualificación instantánea con IA convierten el sitio en un motor de conversión de alto rendimiento.",
           },
           {
             en: 'Want to optimize your website, integrate custom interactive calculators, or build a fast Next.js platform that converts visitors into customers? Fill out the contact form below, and let\'s make your digital presence work for you!',
             ua: 'Бажаєте оптимізувати свій сайт, інтегрувати кастомні калькулятори чи розробити швидку платформу на Next.js, яка перетворюватиме відвідувачів на покупців? Заповніть форму зворотного зв\'язку внизу сторінки, і ми разом створимо потужне рішення для вашого бізнесу!',
       de: "Möchten Sie Ihre Website optimieren, benutzerdefinierte interaktive Rechner integrieren oder eine schnelle Next.js-Plattform erstellen, die Besucher in Kunden umwandelt? Füllen Sie das untenstehende Kontaktformular aus und lassen Sie uns dafür sorgen, dass Ihre digitale Präsenz für Sie funktioniert!",
       fr: "Vous souhaitez optimiser votre site Web, intégrer des calculateurs interactifs personnalisés ou créer une plateforme Next.js rapide qui convertit les visiteurs en clients ? Remplissez le formulaire de contact ci-dessous et faisons en sorte que votre présence numérique fonctionne pour vous !",
+      es: "¿Quiere optimizar su web, integrar calculadoras a medida o montar una plataforma Next.js rápida que convierta? Rellene el formulario de abajo y hacemos que su presencia digital trabaje de verdad.",
           },
         ],
       },
@@ -1410,18 +1752,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Чому іноземні замовники обирають Upwork: безпека, контракти та безтурботні оплати',
       de: "Warum ausländische Kunden Upwork bevorzugen: Sicherheit, Verträge und problemlose Zahlungen",
       fr: "Pourquoi les clients étrangers préfèrent Upwork : sécurité, contrats et paiements sans tracas",
+      es: "Por qué los clientes extranjeros prefieren Upwork: seguridad, contratos y pagos sin dolores de cabeza",
     },
     excerpt: {
       en: 'Discover the key advantages of using Upwork for international client-developer collaboration—from legally compliant invoicing and automated contracts to complete peace of mind with escrow and hourly protection.',
       ua: 'Дізнайтеся про головні переваги використання Upwork для міжнародної співпраці: від офіційних інвойсів та автоматичних контрактів до повного спокою завдяки ескроу та погодинному захисту.',
       de: "Entdecken Sie die wichtigsten Vorteile der Nutzung von Upwork für die internationale Zusammenarbeit zwischen Kunden und Entwicklern – von rechtskonformer Rechnungsstellung und automatisierten Verträgen bis hin zu absoluter Sicherheit mit Treuhandkonto und stündlichem Schutz.",
       fr: "Découvrez les principaux avantages de l'utilisation d'Upwork pour la collaboration internationale client-développeur : de la facturation conforme à la loi et des contrats automatisés à une tranquillité d'esprit totale grâce au séquestre et à la protection horaire.",
+      es: "Las ventajas reales de Upwork para colaborar con un desarrollador en otro país: facturación legal, contratos automáticos y tranquilidad con escrow y Hourly Protection.",
     },
     readTime: {
       en: '4 min read',
       ua: '4 хв читання',
-      de: "4 Minuten gelesen",
+      de: "4 Min. Lesezeit",
       fr: "4 minutes de lecture",
+      es: "4 min de lectura",
     },
     tags: {
       en: ['Upwork', 'Freelance', 'Contracts', 'Payments', 'Collaboration'],
@@ -1440,6 +1785,13 @@ export const businessPosts: RawBlogPost[] = [
         "Paiements",
         "Collaboration"
       ],
+      es: [
+        "Upwork",
+        "Freelance",
+        "Contratos",
+        "Pagos",
+        "Colaboración"
+      ],
     },
     content: [
       {
@@ -1449,12 +1801,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Для іноземних компаній найм віддаленого розробника супроводжується низкою організаційних викликів: як укласти безпечний контракт, як правильно оформити інвойси для податкової та як гарантувати, що робота буде оплачена вчасно і в повному обсязі. Саме тому багато замовників віддають перевагу співпраці через платформу Upwork.',
       de: "Für internationale Unternehmen bringt die Einstellung eines Remote-Entwicklers eine Reihe betrieblicher Herausforderungen mit sich: Wie gründet man einen sicheren Vertrag, wie wickelt man die Rechnungsstellung für lokale Finanzämter ab und wie gewährleistet man, dass die Arbeit fair und pünktlich bezahlt wird? Gerade diese Reibungspunkte sind der Grund, warum viele ausländische Kunden die Zusammenarbeit über Upwork bevorzugen.",
       fr: "Pour les entreprises internationales, l'embauche d'un développeur à distance s'accompagne d'un certain nombre de défis opérationnels : comment mettre en place un contrat sécurisé, comment gérer la facturation pour les bureaux des impôts locaux et comment garantir que le travail est payé équitablement et à temps. Ces points de friction sont précisément la raison pour laquelle de nombreux clients étrangers préfèrent collaborer via Upwork.",
+      es: "Para una empresa internacional, contratar a un desarrollador remoto trae fricción: cómo firmar un contrato seguro, cómo facturar ante Hacienda y cómo garantizar que el trabajo se paga bien y a tiempo. Esa fricción es exactamente por qué muchos clientes extranjeros prefieren colaborar por Upwork.",
           },
           {
             en: 'Upwork acts as a reliable middleman, taking care of all legal and financial nuances so that both clients and developers can focus on what matters most: building great products. Here is a detailed look at the core benefits of using Upwork for your next web development project.',
             ua: 'Upwork виступає надійним посередником, беручи на себе всі юридичні та фінансові нюанси, щоб і замовники, і розробники могли зосередитися на головному — створенні якісного продукту. Давайте детально розберемо ключові переваги використання Upwork для вашого наступного проєкту.',
       de: "Upwork fungiert als zuverlässiger Vermittler und kümmert sich um alle rechtlichen und finanziellen Details, sodass sich sowohl Kunden als auch Entwickler auf das konzentrieren können, was am wichtigsten ist: die Entwicklung großartiger Produkte. Hier finden Sie einen detaillierten Überblick über die Hauptvorteile der Verwendung von Upwork für Ihr nächstes Webentwicklungsprojekt.",
       fr: "Upwork agit comme un intermédiaire fiable, s'occupant de toutes les nuances juridiques et financières afin que les clients et les développeurs puissent se concentrer sur ce qui compte le plus : créer d'excellents produits. Voici un aperçu détaillé des principaux avantages de l'utilisation d'Upwork pour votre prochain projet de développement Web.",
+      es: "Upwork hace de intermediario fiable: asume matices legales y financieros para que cliente y desarrolladora se centren en lo que importa — construir un buen producto. Estas son las ventajas concretas para su próximo proyecto web.",
           },
         ],
       },
@@ -1464,6 +1818,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '1. Миттєві юридичні контракти та захист інтелектуальної власності',
       de: "1. Sofort rechtsverbindliche Verträge und Schutz des geistigen Eigentums",
       fr: "1. Contrats juridiquement contraignants instantanés et protection de la propriété intellectuelle",
+      es: "1. Contratos vinculantes al instante y protección de IP",
         },
         paragraphs: [
           {
@@ -1471,6 +1826,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Розробка та узгодження кастомних міжнародних договорів — це тривалий і дорогий процес. Upwork вирішує це питання автоматично: під час запуску проєкту платформа генерує стандартизований контракт. Він чітко регулює права та обов\'язки сторін, а також гарантує автоматичну передачу прав інтелектуальної власності замовнику після оплати.',
       de: "Die Ausarbeitung maßgeschneiderter internationaler Serviceverträge ist langsam und teuer. Upwork löst dieses Problem, indem es bei Vertragsbeginn automatisch standardisierte, rechtsverbindliche Serviceverträge generiert. Diese Vereinbarungen legen den Projektumfang und die Zahlungsbedingungen klar fest und stellen sicher, dass alle geistigen Eigentumsrechte (IP) bei Zahlung automatisch auf den Kunden übertragen werden.",
       fr: "La rédaction d’accords de services internationaux personnalisés est lente et coûteuse. Upwork résout ce problème en générant automatiquement des contrats de service standardisés et juridiquement contraignants au début d'un contrat. Ces accords définissent clairement la portée du projet, les conditions de paiement et garantissent que tous les droits de propriété intellectuelle (PI) sont automatiquement transférés au client lors du paiement.",
+      es: "Redactar un acuerdo internacional a medida es lento y caro. Upwork lo resuelve: al arrancar el contrato genera un service agreement estándar y vinculante. Define alcance, términos de pago y transfiere la propiedad intelectual (IP) al cliente en cuanto se paga.",
           },
         ],
       },
@@ -1480,6 +1836,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '2. Легальні рахунки та спрощена бухгалтерія',
       de: "2. Ordnungsgemäße Rechnungsstellung und problemlose Buchhaltung",
       fr: "2. Facturation conforme et comptabilité sans tracas",
+      es: "2. Facturación conforme y contabilidad sin lío",
         },
         paragraphs: [
           {
@@ -1487,6 +1844,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Для фінансових відділів розрахунки з окремими віддаленими фахівцями можуть стати справжнім викликом. Upwork бере на себе роль Merchant of Record (офіційного отримувача коштів). Замість роботи з різними банківськими реквізитами чи заповнення іноземних податкових декларацій, клієнти отримують офіційні, стандартизовані інвойси. Ви платите Upwork, а платформа бере на себе всі питання подальших розрахунків та звітності.',
       de: "Für Finanzabteilungen kann die Bezahlung einzelner Remote-Freelancer ein buchhalterischer Albtraum sein. Upwork fungiert als Merchant of Record. Anstatt sich mit mehreren Bankkoordinaten oder Remote-Steuerdokumenten herumschlagen zu müssen, erhalten Kunden standardisierte, steuerkonforme Rechnungen, die direkt von Upwork erstellt werden. Sie bezahlen Upwork und Upwork kümmert sich um alle nachgelagerten Compliance-Vorgaben, Steuerbescheinigungen und Zahlungen an den Entwickler.",
       fr: "Pour les services financiers, rémunérer des indépendants à distance peut être un cauchemar comptable. Upwork agit en tant que marchand officiel. Au lieu de traiter plusieurs coordonnées bancaires ou des documents fiscaux à distance, les clients reçoivent des factures standardisées et conformes aux règles fiscales générées directement par Upwork. Vous payez Upwork, et Upwork gère toutes les conformités en aval, les certifications de retenue d'impôt et les paiements au développeur.",
+      es: "Para finanzas, pagar a freelancers remotos uno a uno puede ser una pesadilla. Upwork actúa como Merchant of Record. En vez de IBAN sueltos o papeles fiscales de otro país, el cliente recibe facturas estándar, conformes, emitidas por Upwork. Usted paga a Upwork; Upwork se ocupa del compliance, las certificaciones de retención y el pago a la desarrolladora.",
           },
         ],
       },
@@ -1496,6 +1854,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '3. Ескроу та гарантія безпеки розрахунків',
       de: "3. Treuhand- und Zahlungsschutz (Sorgenfreiheit)",
       fr: "3. Escrow et protection des paiements (tranquillité d’esprit)",
+      es: "3. Escrow y Payment Protection (tranquilidad)",
         },
         paragraphs: [
           {
@@ -1503,6 +1862,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Безпека оплат інтегрована в екосистему Upwork, що забезпечує повний спокій для обох сторін. Для Fixed-Price контрактів кошти резервуються на ескроу-рахунку (депозиті) ще до початку роботи. Вони перераховуються виконавцю тільки після того, як ви перевірите й затвердите виконаний етап. Для погодинних контрактів діє захист Hourly Protection — оплачується лише реальний час розробки, підтверджений знімками екрана та активністю у робочому щоденнику.',
       de: "Die Zahlungssicherheit ist direkt in das Ökosystem von Upwork integriert und bietet beiden Parteien absolute Sicherheit. Bei Festpreisverträgen werden die Mittel vor Beginn der Arbeiten treuhänderisch gesichert. Der Entwickler erhält das Geld erst, nachdem Sie die eingereichten Ergebnisse geprüft und genehmigt haben. Bei Stundenverträgen stellt der Stundenschutz von Upwork sicher, dass Kunden nur für die im Arbeitstagebuch verifizierten Stunden bezahlen, wo Screenshots und Aktivitätsprotokolle die aktive Entwicklung bestätigen.",
       fr: "La sécurité des paiements est directement intégrée à l'écosystème d'Upwork, offrant une tranquillité d'esprit absolue aux deux parties. Pour les contrats à prix fixe, les fonds sont bloqués avant le début des travaux. Le développeur ne reçoit l'argent qu'après avoir examiné et approuvé les livrables soumis. Pour les contrats horaires, la protection horaire d'Upwork garantit que les clients ne paient que pour les heures vérifiées dans le journal de travail, où les captures d'écran et les journaux d'activité confirment le développement actif.",
+      es: "La seguridad del pago está metida en el ecosistema de Upwork. En Fixed-Price, el dinero entra en escrow antes de empezar. La desarrolladora cobra cuando usted revisa y aprueba el entregable. En Hourly, Hourly Protection hace que pague solo las horas verificadas en el Work Diary: capturas y logs de actividad confirman que hubo desarrollo real.",
           },
         ],
       },
@@ -1512,6 +1872,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '4. Гнучкі моделі оплати: Фіксована ціна та Погодинна ставка',
       de: "4. Flexible Zahlungsstrukturen: Festpreis und Stundensatz",
       fr: "4. Structures de paiement flexibles : prix fixe et taux horaire",
+      es: "4. Estructuras flexibles: Fixed Price y Hourly Rate",
         },
         paragraphs: [
           {
@@ -1519,6 +1880,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Кожен проєкт є унікальним, і я завжди готова обговорити модель співпраці, яка найкраще відповідає вашим бізнес-цілям. Для проєктів із чітким ТЗ (як-от розробка лендингу чи конкретної фічі) ми можемо погодити фіксовану вартість (Fixed Price) з етапами оплати. Для динамічних завдань, консалтингу або ітеративної розробки кабінетів погодинна ставка (Hourly Rate) надасть максимальну гнучкість.',
       de: "Jedes Projekt ist einzigartig und ich bin immer bereit, das Modell zu besprechen, das für Ihre Geschäftsziele am besten geeignet ist. Für Projekte mit einem detaillierten, klar definierten Umfang (z. B. einer Landingpage oder einer bestimmten Funktionserweiterung) können wir einen meilensteinbasierten Festpreisvertrag abschließen. Für dynamische, laufende Aufgaben, Beratung oder iterative Dashboard-Entwicklung bietet ein Stundensatzvertrag die erforderliche Flexibilität, um die Anforderungen im Zuge der Projektentwicklung zu skalieren.",
       fr: "Chaque projet est unique et je suis toujours prêt à discuter du modèle qui correspond le mieux à vos objectifs commerciaux. Pour les projets dont la portée est détaillée et bien définie (comme une page de destination ou un ajout de fonctionnalités spécifiques), nous pouvons mettre en place un contrat à prix fixe par étapes. Pour les tâches dynamiques et continues, le conseil ou le développement itératif de tableaux de bord, un contrat à taux horaire offre la flexibilité nécessaire pour adapter les exigences à mesure que le projet évolue.",
+      es: "Cada proyecto es distinto, y siempre estoy dispuesta a hablar del modelo que encaje con sus objetivos. Si el alcance está claro (una landing o una feature concreta), montamos un Fixed-Price por hitos. Si el trabajo es dinámico — consultoría, un dashboard iterativo —, un Hourly Rate da la flexibilidad para escalar requisitos según evolucione el proyecto.",
           },
         ],
       },
@@ -1528,6 +1890,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Підсумок',
       de: "Zusammenfassung",
       fr: "Résumé",
+      es: "Resumen",
         },
         paragraphs: [
           {
@@ -1535,6 +1898,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Співпраця через Upwork усуває будь-які фінансові ризики та адміністративне навантаження для іноземних клієнтів. Це виграшна схема для обох сторін: ви отримуєте повну прозорість, легальну звітність та безпеку оплати, а я — можливість зосередитися на написанні якісного коду. Зв\'яжіться зі мною, щоб обговорити оптимальний формат для вашого проєкту!',
       de: "Durch die Zusammenarbeit über Upwork entfallen Transaktionsrisiken, Verwaltungsaufwand und rechtliche Hürden für ausländische Kunden. Es ist eine Win-Win-Situation: Sie erhalten eine transparente, konforme Fortschrittsverfolgung und Zahlungssicherheit, während ich mich auf die Bereitstellung sauberer, leistungsstarker Webanwendungen konzentriere. Lassen Sie uns miteinander in Kontakt treten und den besten Ansatz für Ihr nächstes Projekt besprechen!",
       fr: "La collaboration via Upwork élimine les risques de transaction, les frais administratifs et les obstacles juridiques pour les clients étrangers. C'est gagnant-gagnant : vous bénéficiez d'un suivi des progrès et d'une sécurité des paiements transparents et conformes, tandis que je me concentre sur la fourniture d'applications Web propres et performantes. Connectons-nous et discutons de la meilleure approche pour votre prochain projet !",
+      es: "Colaborar por Upwork quita riesgo de transacción, carga administrativa y obstáculos legales al cliente extranjero. Ganan los dos: usted tiene tracking transparente, compliance y seguridad de pago; yo me centro en entregar aplicaciones web limpias y rápidas. Conectemos y vemos el mejor enfoque para su próximo proyecto.",
           },
         ],
       },
@@ -1548,18 +1912,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Хочете простий сайт чи блог, який швидко завантажується? Чому швидкість завантаження вирішує все та як її отримати',
       de: "Benötigen Sie eine schnelle und einfache Website oder einen Blog? Warum die Seitengeschwindigkeit wichtig ist und wie man anfängt",
       fr: "Besoin d'un site Web ou d'un blog simple et rapide ? Pourquoi la vitesse des pages est importante et comment commencer",
+      es: "¿Necesita una web o un blog rápido y simple? Por qué importa la velocidad — y cómo empezar",
     },
     excerpt: {
       en: 'Planning to launch a simple website, landing page, or personal blog? Discover why loading speed is the most critical metric for conversion and SEO, how custom solutions outclass generic website builders, and how to get started.',
       ua: 'Плануєте запуск простого сайту, лендингу чи особистого блогу? Дізнайтеся, чому швидкість завантаження є найважливішою метрикою для конверсії та SEO, чому кастомні рішення кращі за конструктори, та як почати розробку.',
       de: "Planen Sie die Einführung einer einfachen Website, Landingpage oder eines persönlichen Blogs? Entdecken Sie, warum die Ladegeschwindigkeit die wichtigste Kennzahl für Conversion und SEO ist, wie benutzerdefinierte Lösungen generische Website-Builder übertreffen und wie Sie beginnen.",
       fr: "Vous envisagez de lancer un simple site Web, une page de destination ou un blog personnel ? Découvrez pourquoi la vitesse de chargement est la mesure la plus critique pour la conversion et le référencement, comment les solutions personnalisées surclassent les créateurs de sites Web génériques et comment démarrer.",
+      es: "¿Va a lanzar una web simple, una landing o un blog personal? Por qué la velocidad de carga es la métrica que más pesa en conversión y SEO, por qué un desarrollo a medida gana a los builders, y cómo empezar.",
     },
     readTime: {
       en: '5 min read',
       ua: '5 хв читання',
-      de: "5 Minuten gelesen",
+      de: "5 Min. Lesezeit",
       fr: "5 minutes de lecture",
+      es: "5 min de lectura",
     },
     tags: {
       en: ['Web Performance', 'Next.js', 'SEO', 'Web Development', 'Blogging'],
@@ -1578,6 +1945,13 @@ export const businessPosts: RawBlogPost[] = [
         "Développement web",
         "Blog"
       ],
+      es: [
+        "Rendimiento web",
+        "Next.js",
+        "SEO",
+        "Desarrollo web",
+        "Blog"
+      ],
     },
     content: [
       {
@@ -1587,12 +1961,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'У сучасну цифрову епоху швидкість вирішує все. Коли бізнес чи приватні автори планують запустити простий сайт, цільову сторінку (landing page) чи персональний блог, вони зазвичай обирають популярні конструктори або традиційні CMS. Однак ці інструменти часто мають приховану ціну: перевантажений код, повільне завантаження, погану мобільну оптимізацію та постійні вразливості.',
       de: "Im digitalen Zeitalter ist Geschwindigkeit alles. Wenn Unternehmen oder Einzelpersonen beschließen, eine einfache Website, eine Landingpage oder einen persönlichen Blog zu starten, greifen sie oft zu beliebten Website-Buildern oder traditionellen CMS-Plattformen. Allerdings sind diese Tools oft mit versteckten Kosten verbunden: aufgeblähter Code, langsame Ladezeiten, schlechte Mobiloptimierung und ständige Sicherheitslücken.",
       fr: "À l’ère du numérique, la vitesse est primordiale. Lorsque des entreprises ou des particuliers décident de lancer un simple site Web, une page de destination ou un blog personnel, ils font souvent appel à des créateurs de sites Web populaires ou à des plateformes CMS traditionnelles. Cependant, ces outils ont souvent un coût caché : code volumineux, temps de chargement lents, mauvaise optimisation mobile et failles de sécurité constantes.",
+      es: "En digital, la velocidad lo es todo. Cuando un negocio o un particular quiere una web simple, una landing o un blog, suele ir a un builder o a un CMS clásico. El coste oculto: código hinchado, carga lenta, móvil flojo y agujeros de seguridad constantes.",
           },
           {
             en: 'A fast website is no longer just a luxury — it is a primary driver of visitor retention, conversion rates, and search engine visibility. If your website takes more than a few seconds to load, your potential clients will simply leave before they even see what you offer.',
             ua: 'Швидкий сайт — це не розкіш, а ключовий фактор утримання відвідувачів, зростання конверсій та видимості в пошукових системах. Якщо ваша сторінка завантажується довше кількох секунд, потенційні клієнти просто підуть до того, як взагалі побачать вашу пропозицію.',
       de: "Eine schnelle Website ist nicht mehr nur ein Luxus – sie ist ein Hauptfaktor für Besucherbindung, Konversionsraten und Sichtbarkeit in Suchmaschinen. Wenn das Laden Ihrer Website länger als ein paar Sekunden dauert, verlassen Ihre potenziellen Kunden die Website einfach, bevor sie Ihr Angebot überhaupt gesehen haben.",
       fr: "Un site Web rapide n'est plus seulement un luxe : c'est un facteur principal de fidélisation des visiteurs, de taux de conversion et de visibilité sur les moteurs de recherche. Si le chargement de votre site Web prend plus de quelques secondes, vos clients potentiels partiront tout simplement avant même de voir ce que vous proposez.",
+      es: "Una web rápida ya no es un lujo. Es lo que retiene al visitante, sube la conversión y le hace visible en buscadores. Si tarda más de unos segundos, el cliente potencial se va antes de ver qué ofrece.",
           },
         ],
       },
@@ -1602,6 +1978,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '1. Чому швидкість завантаження сайту — це успіх вашого бізнесу',
       de: "1. Warum die Ladegeschwindigkeit einer Website gleichbedeutend mit dem Geschäftserfolg ist",
       fr: "1. Pourquoi la vitesse de chargement d'un site Web est synonyme de réussite commerciale",
+      es: "1. Por qué la velocidad de carga es éxito de negocio",
         },
         paragraphs: [
           {
@@ -1609,6 +1986,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Кожна мілісекунда має значення, коли йдеться про продуктивність у веб. Ось чому швидкість має бути вашим головним пріоритетом:',
       de: "Wenn es um die Web-Performance geht, zählt jede Millisekunde. Aus diesem Grund ist die Priorisierung der Ladegeschwindigkeit für Ihre neue Website oder Ihr neues Blog so wichtig:",
       fr: "Chaque milliseconde compte en matière de performances Web. Voici pourquoi donner la priorité à la vitesse de chargement est essentiel pour votre nouveau site Web ou blog :",
+      es: "En rendimiento web, cada milisegundo cuenta. Por esto la velocidad tiene que ser prioridad en su web o blog nuevo:",
           },
         ],
         list: [
@@ -1617,18 +1995,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Кращі позиції в Google (SEO): Google офіційно використовує швидкість сторінок та показники Core Web Vitals як фактори ранжування. Швидкі сайти отримують перевагу в пошуковій видачі.',
       de: "Bessere SEO-Rankings: Google verwendet offiziell Page Speed ​​und Core Web Vitals als Ranking-Faktoren. Schnell ladende Websites ranken in den Suchergebnissen natürlich höher und sorgen für kostenlosen organischen Traffic.",
       fr: "Meilleurs classements SEO : Google utilise officiellement la vitesse des pages et les Core Web Vitals comme facteurs de classement. Les sites Web à chargement rapide sont naturellement mieux classés dans les résultats de recherche, vous apportant ainsi un trafic organique gratuit.",
+      es: "Mejor SEO: Google usa page speed y Core Web Vitals como factores de ranking. Las webs rápidas suben en resultados y le traen tráfico orgánico gratis.",
           },
           {
             en: 'Higher Conversions: Numerous studies show that a 1-second delay in page load time can reduce conversions by up to 7-10%. Fast pages build trust and make taking action (subscribing, buying, or contacting) frictionless.',
             ua: 'Вища конверсія: Дослідження показують, що затримка завантаження навіть на 1 секунду може знизити конверсію на 7-10%. Швидкі сторінки викликають довіру та спонукають до дії.',
       de: "Höhere Conversions: Zahlreiche Studien zeigen, dass eine Verzögerung der Seitenladezeit um 1 Sekunde die Conversions um bis zu 7–10 % reduzieren kann. Schnelle Seiten schaffen Vertrauen und machen das Handeln (Abonnieren, Kaufen oder Kontaktieren) reibungslos.",
       fr: "Conversions plus élevées : de nombreuses études montrent qu'un délai d'une seconde dans le temps de chargement des pages peut réduire les conversions jusqu'à 7 à 10 %. Les pages rapides renforcent la confiance et facilitent les actions (abonnement, achat ou contact).",
+      es: "Más conversión: los estudios coinciden — 1 segundo de retraso puede bajar la conversión un 7–10 %. Una página rápida genera confianza y hace que suscribirse, comprar o escribir no cueste.",
           },
           {
             en: 'Seamless Mobile Experience: A large portion of your traffic comes from mobile networks (3G/4G/5G). A lightweight, highly-optimized site loads instantly even under poor network conditions.',
             ua: 'Чудовий мобільний досвід: Більшість користувачів заходять на сайти з мобільних телефонів, часто через нестабільний 3G/4G зв’язок. Легкий сайт відкриється миттєво навіть за слабкого сигналу.',
       de: "Nahtloses mobiles Erlebnis: Ein großer Teil Ihres Datenverkehrs kommt aus Mobilfunknetzen (3G/4G/5G). Eine schlanke, hochoptimierte Website wird auch unter schlechten Netzwerkbedingungen sofort geladen.",
       fr: "Expérience mobile transparente : une grande partie de votre trafic provient des réseaux mobiles (3G/4G/5G). Un site léger et hautement optimisé se charge instantanément, même dans de mauvaises conditions de réseau.",
+      es: "Móvil de verdad: gran parte del tráfico llega por 3G/4G/5G. Un sitio ligero y bien recortado abre al instante incluso con mala red.",
           },
         ],
       },
@@ -1638,6 +2019,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '2. Приховані мінуси конструкторів та застарілих CMS',
       de: "2. Die versteckten Nachteile von Website-Buildern und älteren CMS",
       fr: "2. Les inconvénients cachés des créateurs de sites Web et des anciens CMS",
+      es: "2. Los contras ocultos de builders y CMS heredados",
         },
         paragraphs: [
           {
@@ -1645,6 +2027,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Платформи на кшталт WordPress, Wix або Squarespace популярні через простоту старту. Проте вони мають серйозні недоліки для простих проектів:',
       de: "Plattformen wie WordPress, Wix und Squarespace sind beliebt, weil sie wenig bis gar keine Programmierung erfordern. Allerdings haben sie für einfache Websites und Blogs erhebliche Nachteile:",
       fr: "Les plateformes comme WordPress, Wix et Squarespace sont populaires car elles nécessitent peu ou pas de codage. Cependant, ils présentent des inconvénients substantiels pour les sites Web et les blogs simples :",
+      es: "WordPress, Wix y Squarespace gustan porque casi no piden código. Para una web o un blog simples, el precio es alto:",
           },
         ],
         list: [
@@ -1653,18 +2036,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Зайвий код: Щоб підтримувати візуальні редактори, такі платформи завантажують десятки важких скриптів, невикористовуваних стилів та роблять багато запитів до бази даних.',
       de: "Code Bloat: Um Drag-and-Drop-Seitenersteller und unzählige Konfigurationsoptionen zu unterstützen, laden diese Plattformen umfangreiche Stylesheets, ungenutzte JavaScript-Frameworks und übermäßige Datenbankabfragen.",
       fr: "Code Bloat : pour prendre en charge les générateurs de pages par glisser-déposer et d'innombrables options de configuration, ces plates-formes chargent des feuilles de style lourdes, des frameworks JavaScript inutilisés et des requêtes de base de données excessives.",
+      es: "Code bloat: para aguantar el drag-and-drop y mil opciones, cargan CSS pesado, frameworks JS que no usa y consultas de más a la base de datos.",
           },
           {
             en: 'Constant Maintenance & Security Risks: WordPress sites are prime targets for hackers. Keeping core systems, themes, and dozens of plugins updated is a never-ending chore that can break your design if not done carefully.',
             ua: 'Постійна підтримка та вразливість: WordPress є найпопулярнішою мішенню для хакерських атак. Необхідність постійно оновлювати плагіни та тему часто призводить до збоїв у роботі сайту.',
       de: "Ständige Wartung und Sicherheitsrisiken: WordPress-Sites sind Hauptziele für Hacker. Kernsysteme, Themes und Dutzende Plugins auf dem neuesten Stand zu halten, ist eine nie endende Aufgabe, die Ihr Design beschädigen kann, wenn sie nicht sorgfältig durchgeführt wird.",
       fr: "Risques constants de maintenance et de sécurité : les sites WordPress sont des cibles privilégiées pour les pirates. Garder à jour les systèmes de base, les thèmes et des dizaines de plugins est une corvée sans fin qui peut perturber votre conception si elle n'est pas effectuée avec soin.",
+      es: "Mantenimiento eterno y riesgo de seguridad: WordPress es objetivo predilecto. Actualizar core, temas y decenas de plugins no se acaba nunca — y un descuido rompe el diseño.",
           },
           {
             en: 'Expensive Hosting and Upgrades: Free plans are slow and contain branding. Once you start adding premium extensions, custom domains, and fast hosting, the monthly fees quickly add up.',
             ua: 'Дорогий хостинг та платні функції: Базові тарифи конструкторів повільні й містять чужу рекламу. А вартість підключення власного домену, плагінів та швидкого сервера швидко зростає.',
       de: "Teures Hosting und Upgrades: Kostenlose Pläne sind langsam und enthalten Branding. Sobald Sie Premium-Erweiterungen, benutzerdefinierte Domains und schnelles Hosting hinzufügen, summieren sich die monatlichen Gebühren schnell.",
       fr: "Hébergement et mises à niveau coûteux : les forfaits gratuits sont lents et contiennent une image de marque. Une fois que vous commencez à ajouter des extensions premium, des domaines personnalisés et un hébergement rapide, les frais mensuels s'additionnent rapidement.",
+      es: "Hosting y extras caros: el plan gratis es lento y lleva branding ajeno. En cuanto suma extensiones premium, dominio propio y hosting rápido, la cuota mensual se dispara.",
           },
         ],
       },
@@ -1674,6 +2060,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '3. Наш технологічний стек: завантаження за мілісекунди',
       de: "3. Unser Stack: Moderne Technologien für Ladezeiten im Millisekundenbereich",
       fr: "3. Notre pile : technologies modernes pour des temps de chargement en millisecondes",
+      es: "3. Nuestro stack: tecnologías modernas para cargar en milisegundos",
         },
         paragraphs: [
           {
@@ -1681,6 +2068,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Для простих сайтів та блогів ми не використовуємо важкі бази даних та застарілі двигуни. Наш підхід базується на сучасних статичних генераторах та хмарному хостингу:',
       de: "Bei einfachen Websites und Blogs umgehen wir umfangreiche Legacy-Datenbanken und aufgeblähte Plattformen. Stattdessen konzentrieren wir uns auf moderne statische Generierung und serverloses Hosting:",
       fr: "Pour les sites et blogs simples, nous contournons les bases de données lourdes et les plates-formes volumineuses. Au lieu de cela, nous nous concentrons sur la génération statique moderne et l’hébergement sans serveur :",
+      es: "En sitios y blogs simples nos saltamos bases de datos heredadas y plataformas hinchadas. Apostamos por generación estática moderna y hosting serverless:",
           },
         ],
         list: [
@@ -1689,24 +2077,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Next.js та React: Ми використовуємо статичну генерацію (SSG) у Next.js, що дозволяє компілювати сторінки у надшвидкі статичні файли, які не навантажують сервер.',
       de: "Next.js & React: Wir nutzen statische Exportfunktionen in Next.js, um Seiten vorab in saubere, hochoptimierte statische Dateien zu rendern. Dynamische Komponenten werden nur bei Bedarf geladen.",
       fr: "Next.js et React : nous exploitons les fonctionnalités d'exportation statique de Next.js pour pré-afficher les pages dans des fichiers statiques propres et hautement optimisés. Les composants dynamiques se chargent uniquement en cas de besoin.",
+      es: "Next.js y React: usamos el export estático de Next.js para pre-renderizar páginas en archivos limpios y muy optimizados. Los componentes dinámicos cargan solo cuando hacen falta.",
           },
           {
             en: 'Astro: For content-driven websites and blogs, Astro is an outstanding tool that delivers zero client-side JavaScript by default, making sites load blazingly fast.',
             ua: 'Astro: Ідеальний фреймворк для контентних сайтів та блогів. Він видаляє весь зайвий JavaScript із підсумкового коду, забезпечуючи максимальну швидкість.',
       de: "Astro: Für inhaltsgesteuerte Websites und Blogs ist Astro ein hervorragendes Tool, das standardmäßig kein clientseitiges JavaScript liefert, wodurch Websites unglaublich schnell geladen werden.",
       fr: "Astro : Pour les sites Web et les blogs axés sur le contenu, Astro est un outil exceptionnel qui ne fournit aucun JavaScript côté client par défaut, ce qui rend les sites chargés à une vitesse fulgurante.",
+      es: "Astro: para webs y blogs de contenido, Astro entrega cero JavaScript en el cliente por defecto. El sitio vuela.",
           },
           {
             en: 'Tailwind CSS: A utility-first CSS framework that compiles down to a tiny, single CSS file containing only the styles actually used on the page.',
             ua: 'Tailwind CSS: Сучасний CSS-фреймворк, який автоматично видаляє невикористовувані стилі, залишаючи мінімальний за розміром CSS-файл.',
       de: "Tailwind CSS: Ein Utility-First-CSS-Framework, das zu einer winzigen einzelnen CSS-Datei kompiliert wird, die nur die Stile enthält, die tatsächlich auf der Seite verwendet werden.",
       fr: "Tailwind CSS : un framework CSS axé sur les utilitaires qui se compile en un petit fichier CSS unique contenant uniquement les styles réellement utilisés sur la page.",
+      es: "Tailwind CSS: un framework utility-first que compila a un CSS mínimo, solo con los estilos que la página usa de verdad.",
           },
           {
             en: 'CDN Distribution: By hosting static files on global Content Delivery Networks (like Vercel, Netlify, or AWS CloudFront), the website loads from a server physically closest to the visitor.',
             ua: 'Глобальні CDN: Хостинг файлів на Vercel, Netlify або CloudFront гарантує, що ваш сайт завантажуватиметься з сервера, який знаходиться географічно найближче до користувача.',
       de: "CDN-Verteilung: Durch das Hosten statischer Dateien in globalen Content Delivery Networks (wie Vercel, Netlify oder AWS CloudFront) wird die Website von einem Server geladen, der dem Besucher physisch am nächsten liegt.",
       fr: "Distribution CDN : en hébergeant des fichiers statiques sur des réseaux de diffusion de contenu mondiaux (comme Vercel, Netlify ou AWS CloudFront), le site Web se charge à partir d'un serveur physiquement le plus proche du visiteur.",
+      es: "Distribución CDN: los archivos estáticos viven en una CDN global (Vercel, Netlify, AWS CloudFront). La web carga desde el servidor más cercano al visitante.",
           },
         ],
       },
@@ -1716,6 +2108,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '4. Що ви отримуєте з кастомним швидким сайтом',
       de: "4. Was Sie mit einer benutzerdefinierten schnellen Website erhalten",
       fr: "4. Ce que vous obtenez avec un site Web rapide personnalisé",
+      es: "4. Qué obtiene con una web rápida a medida",
         },
         paragraphs: [
           {
@@ -1723,6 +2116,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Довіряючи розробку нам, ви отримуєте сучасне, надійне та безтурботне рішення для вашого бізнесу чи хобі:',
       de: "Wenn Sie uns die Erstellung Ihrer Website oder Ihres Blogs anvertrauen, investieren Sie in eine erstklassige, stressfreie digitale Präsenz:",
       fr: "En nous faisant confiance pour créer votre site internet ou votre blog, vous investissez dans une présence digitale premium et sans stress :",
+      es: "Si nos confía la web o el blog, invierte en una presencia digital premium y sin estrés:",
           },
         ],
         list: [
@@ -1731,24 +2125,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Оцінку швидкості 95-100/100 в Google PageSpeed Insights як для ПК, так і для смартфонів.',
       de: "PageSpeed-Wert von 95–100/100 für Mobil- und Desktop-Ansichten.",
       fr: "Score PageSpeed ​​de 95 à 100/100 pour les vues sur mobile et sur ordinateur.",
+      es: "PageSpeed 95–100/100 en móvil y escritorio.",
           },
           {
             en: 'SEO-ready structure with meta-tags, clean HTML, and schema markup built in.',
             ua: 'Готову до просування SEO-структуру з усіма мета-тегами, семантичною розміткою та оновленнями.',
       de: "SEO-fähige Struktur mit Meta-Tags, sauberem HTML und integriertem Schema-Markup.",
       fr: "Structure prête pour le référencement avec balises méta, HTML propre et balisage de schéma intégré.",
+      es: "Estructura lista para SEO: meta tags, HTML limpio y schema markup de serie.",
           },
           {
             en: 'Responsive design that looks stunning on phones, tablets, and high-res desktop monitors.',
             ua: 'Адаптивний дизайн, який виглядає бездоганно на екранах будь-яких розмірів.',
       de: "Responsive Design, das auf Telefonen, Tablets und hochauflösenden Desktop-Monitoren umwerfend aussieht.",
       fr: "Un design réactif qui s'adapte parfaitement aux téléphones, tablettes et écrans de bureau haute résolution.",
+      es: "Diseño responsive que se ve bien en móvil, tablet y monitores de alta resolución.",
           },
           {
             en: 'No monthly platform subscription fees. Static hosting is often completely free for small projects.',
             ua: 'Відсутність прихованих абонентських плат за конструктори. Хостинг для статичних сайтів часто безкоштовний.',
       de: "Keine monatlichen Plattform-Abonnementgebühren. Statisches Hosting ist für kleine Projekte oft völlig kostenlos.",
       fr: "Pas de frais d'abonnement mensuels à la plateforme. L'hébergement statique est souvent totalement gratuit pour les petits projets.",
+      es: "Sin cuota mensual de plataforma. El hosting estático, en proyectos pequeños, a menudo es gratis.",
           },
         ],
       },
@@ -1758,6 +2156,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Висновок: давайте створимо ваш надшвидкий сайт уже сьогодні!',
       de: "Fazit: Lassen Sie uns noch heute Ihre blitzschnelle Website erstellen!",
       fr: "Conclusion : construisons votre site Web ultra-rapide dès aujourd'hui !",
+      es: "Conclusión: construyamos hoy una web que vuele",
         },
         paragraphs: [
           {
@@ -1765,12 +2164,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Якщо вам потрібен простий веб-сайт, посадкова сторінка (лендинг), портфоліо або блог, який завантажується за частки секунди, подобається пошуковим роботам та перетворює відвідувачів на клієнтів — ви звернулися за адресою. Ми розробимо його на чистому, сучасному коді.',
       de: "Wenn Sie eine einfache Website, Landingpage, ein Portfolio oder einen persönlichen Blog suchen, der in Millisekunden geladen wird, bei Google gut rankt und Besucher in Kunden umwandelt, sind Sie hier genau richtig. Lassen Sie es uns mit moderner, sauberer Technologie richtig bauen.",
       fr: "Si vous souhaitez un site Web simple, une page de destination, un portfolio ou un blog personnel qui se charge en quelques millisecondes, se classe bien sur Google et convertit les visiteurs en clients, ne cherchez pas plus loin. Construisons-le correctement en utilisant une technologie moderne et propre.",
+      es: "Si quiere una web simple, una landing, un portfolio o un blog que cargue en milisegundos, posicione en Google y convierta visitantes en clientes — está en el sitio. Lo construimos bien, con tecnología moderna y limpia.",
           },
           {
             en: 'Reach out using the contact form below for a free consultation and project estimate. Let\'s launch a website that sets you apart from the competition!',
             ua: 'Заповніть контактну форму внизу сторінки для безкоштовної консультації та розрахунку вартості вашого проекту. Створімо сайт, який працюватиме на ваш успіх!',
       de: "Kontaktieren Sie uns über das untenstehende Kontaktformular für eine kostenlose Beratung und einen Projektvoranschlag. Lassen Sie uns eine Website starten, die Sie von der Konkurrenz abhebt!",
       fr: "Contactez-nous en utilisant le formulaire de contact ci-dessous pour une consultation gratuite et une estimation de projet. Lançons un site Web qui vous démarque de la concurrence !",
+      es: "Escríbame por el formulario de abajo: consulta y estimación sin coste. Lancemos una web que le separe de la competencia.",
           },
         ],
       },
@@ -1784,18 +2185,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Оптимізація сфери послуг та б\'юті-бізнесу за допомогою веб-рішень',
       de: "Optimierung von Service- und Beauty-Unternehmen mit maßgeschneiderten Weblösungen",
       fr: "Optimiser les entreprises de services et de beauté avec des solutions Web personnalisées",
+      es: "Optimizar un negocio de servicios y belleza con soluciones web a medida",
     },
     excerpt: {
       en: 'Learn how service-based businesses like cosmetology clinics and massage centers can automate scheduling, boost customer retention, and grow revenue through Next.js-powered web solutions.',
       ua: 'Дізнайтеся, як бізнеси у сфері послуг (салони краси, центри масажу) можуть автоматизувати запис, підвищити утримання клієнтів та збільшити прибуток завдяки сучасним веб-рішенням на Next.js.',
       de: "Erfahren Sie, wie dienstleistungsorientierte Unternehmen wie Kosmetikkliniken und Massagezentren mithilfe von Next.js-basierten Weblösungen die Terminplanung automatisieren, die Kundenbindung steigern und den Umsatz steigern können.",
       fr: "Découvrez comment les entreprises de services telles que les cliniques de cosmétologie et les centres de massage peuvent automatiser la planification, augmenter la fidélisation des clients et augmenter leurs revenus grâce aux solutions Web basées sur Next.js.",
+      es: "Cómo clínicas de cosmética, centros de masaje y escuelas de formación automatizan la agenda, retienen clientes y crecen con soluciones web en Next.js.",
     },
     readTime: {
       en: '5 min read',
       ua: '5 хв читання',
-      de: "5 Minuten gelesen",
+      de: "5 Min. Lesezeit",
       fr: "5 minutes de lecture",
+      es: "5 min de lectura",
     },
     tags: {
       en: ['Business Automation', 'Next.js', 'Case Study', 'Web Solutions'],
@@ -1812,6 +2216,13 @@ export const businessPosts: RawBlogPost[] = [
         "Étude de cas",
         "Solutions web"
       ],
+      es: [
+        "Servicios",
+        "Belleza",
+        "Reservas",
+        "Next.js",
+        "Automatización"
+      ],
     },
     content: [
       {
@@ -1821,12 +2232,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Сучасні локальні бізнеси у сфері послуг — від косметологічних клінік до навчальних центрів — часто стикаються з невидимою стелею розвитку. Навіть при високому попиті адміністративні перешкоди, ручний запис та слабка видимість в інтернеті обмежують реальний прибуток. Перехід від паперових журналів до цифрових рішень — це вже не просто тренд, а необхідність для масштабування.',
       de: "Moderne lokale Dienstleistungsunternehmen – von Schönheitskliniken bis hin zu Ausbildungsschulen – stehen beim Wachstum oft vor einer gläsernen Decke. Auch wenn die Kundennachfrage hoch sein mag, schränken administrative Engpässe, manuelle Planung und schlechte Online-Sichtbarkeit ihre tatsächlichen Einnahmen ein. Der Übergang vom Offline-Management zu einem Digital-First-Ansatz ist nicht mehr nur ein Trend; es ist eine Notwendigkeit für die Skalierung.",
       fr: "Les entreprises de services locaux modernes – des cliniques de beauté aux écoles de formation – sont souvent confrontées à un plafond de verre lorsqu’il s’agit de croissance. Même si la demande des clients peut être élevée, les goulots d'étranglement administratifs, la planification manuelle et la mauvaise visibilité en ligne limitent leurs revenus réels. La transition d’une gestion hors ligne vers une approche axée sur le numérique n’est plus seulement une tendance ; c'est une nécessité pour la mise à l'échelle.",
+      es: "Los negocios locales de servicios — de la clínica de belleza a la escuela — suelen toparse con un techo de cristal. La demanda existe, pero los cuellos administrativos, la agenda a mano y una visibilidad online floja recortan el ingreso real. Pasar de lo offline a un enfoque digital first ya no es tendencia: es condición para escalar.",
           },
           {
             en: 'By implementing tailored web solutions, service-oriented businesses can automate repetitive tasks, reduce booking friction, and build a predictable channel for new and returning clients.',
             ua: 'Завдяки впровадженню спеціалізованих веб-рішень бізнес може автоматизувати повторювані завдання, спростити процес бронювання та створити прогнозований канал залучення й утримання клієнтів.',
       de: "Durch die Implementierung maßgeschneiderter Weblösungen können serviceorientierte Unternehmen sich wiederholende Aufgaben automatisieren, Reibungsverluste bei Buchungen reduzieren und einen vorhersehbaren Kanal für neue und wiederkehrende Kunden aufbauen.",
       fr: "En mettant en œuvre des solutions Web sur mesure, les entreprises orientées services peuvent automatiser les tâches répétitives, réduire les frictions de réservation et créer un canal prévisible pour les clients nouveaux et fidèles.",
+      es: "Con soluciones web a medida, un negocio de servicios automatiza la rutina, baja la fricción de reserva y construye un canal previsible de clientes nuevos y recurrentes.",
           },
         ],
       },
@@ -1836,6 +2249,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '1. Прихована ціна ручного управління',
       de: "1. Die versteckten Kosten manueller Vorgänge",
       fr: "1. Le coût caché des opérations manuelles",
+      es: "1. El coste oculto de operar a mano",
         },
         paragraphs: [
           {
@@ -1843,6 +2257,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Для багатьох SPA-салонів, б\'юті-центрів та навчальних шкіл головним інтерфейсом запису залишається номер телефону або приватні повідомлення в соцмережах. Попри уявну простоту, цей підхід має приховані втрати: адміністратори витрачають години на однотипні відповіді та нагадування, а клієнти, які хочуть записатися пізно ввечері, просто не отримують відповіді вчасно.',
       de: "Für viele SPA-Salons, Schönheitszentren und Ausbildungsschulen ist die Hauptschnittstelle für die Buchung eine Telefonnummer, eine Instagram-DM oder eine Messenger-App. Dieser Ansatz ist zwar persönlich, birgt jedoch enorme versteckte Kosten. Verwaltungsmitarbeiter verbringen Stunden damit, sich wiederholende Fragen zu beantworten, Terminkonflikte zu lösen und Erinnerungen zu versenden. Darüber hinaus gehen potenzielle Kunden, die spät abends nach Dienstleistungen suchen, oft verloren, weil niemand online ist, um ihre Buchung zu bestätigen.",
       fr: "Pour de nombreux salons SPA, centres de beauté et écoles de formation, l'interface principale de réservation est un numéro de téléphone, un DM Instagram ou une application de messagerie. Bien que personnelle, cette approche comporte d’énormes coûts cachés. Le personnel administratif passe des heures à répondre à des questions répétitives, à résoudre des conflits d'horaire et à envoyer des rappels. De plus, les clients potentiels qui recherchent des services tard dans la soirée sont souvent perdus car personne n'est en ligne pour confirmer leur réservation.",
+      es: "En muchos spas, centros de belleza y escuelas, la reserva entra por teléfono, DM de Instagram o mensajería. Es personal — y carísimo. El equipo administrativo se pasa horas respondiendo lo mismo, resolviendo choques de agenda y mandando recordatorios. Quien busca un hueco de noche se pierde: no hay nadie online para confirmar.",
           },
         ],
         list: [
@@ -1851,18 +2266,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Втрата нічних записів через відсутність автоматичного прийому заявок 24/7.',
       de: "Verlorene Spätbuchungen aufgrund fehlender Online-Antwort rund um die Uhr.",
       fr: "Réservations perdues tard dans la nuit en raison du manque de réponse en ligne 24h/24 et 7j/7.",
+      es: "Reservas nocturnas perdidas por no haber respuesta 24/7.",
           },
           {
             en: 'High administrative overhead and human errors in scheduling.',
             ua: 'Великі витрати часу адміністратора та помилки при ручному плануванні.',
       de: "Hoher Verwaltungsaufwand und menschliche Fehler bei der Terminplanung.",
       fr: "Frais administratifs élevés et erreurs humaines dans la planification.",
+      es: "Sobrecarga administrativa y errores humanos en la agenda.",
           },
           {
             en: 'No automated customer follow-ups or retention triggers.',
             ua: 'Відсутність автоматичних нагадувань та тригерів для повторних візитів.',
       de: "Keine automatisierten Kundennachverfolgungen oder Auslöser zur Kundenbindung.",
       fr: "Pas de suivi automatisé des clients ni de déclencheurs de fidélisation.",
+      es: "Cero follow-up automático ni triggers de retención.",
           },
         ],
       },
@@ -1872,6 +2290,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '2. Веб-рішення з найвищим впливом на бізнес',
       de: "2. Hochwirksame Weblösungen zur Implementierung",
       fr: "2. Solutions Web à fort impact à mettre en œuvre",
+      es: "2. Soluciones web de alto impacto",
         },
         paragraphs: [
           {
@@ -1879,6 +2298,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Цифрова трансформація сфери послуг не потребує перебудови всього з нуля. Точкове впровадження ефективних веб-модулів дає швидкий окупний ефект. Ось ключові рішення:',
       de: "Um ein Dienstleistungsunternehmen zu transformieren, muss nicht alles von Grund auf neu aufgebaut werden. Die Implementierung gezielter, leistungsstarker Webmodule führt zu schnellen Erträgen. Hier sind die Kernfunktionen, die das meiste Wachstum vorantreiben:",
       fr: "Transformer une entreprise de services ne nécessite pas de tout reconstruire à partir de zéro. La mise en œuvre de modules Web ciblés et performants génère des retours rapides. Voici les fonctionnalités principales qui génèrent le plus de croissance :",
+      es: "Transformar el negocio no pide reconstruirlo entero. Módulos web concretos y rápidos devuelven inversión pronto. Estas son las piezas que más crecen:",
           },
         ],
         list: [
@@ -1887,18 +2307,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Модуль онлайн-запису 24/7: Швидкий та адаптований під мобільні Next.js-віджет, де клієнт обирає послугу, бачить вільні вікна конкретного майстра та може внести передоплату через Apple Pay/Google Pay.',
       de: "Benutzerdefiniertes Buchungsmodul rund um die Uhr: Ein schnelles, mobilfreundliches Next.js-Widget, mit dem Kunden eine Dienstleistung auswählen, die Verfügbarkeit ihres Lieblingstherapeuten in Echtzeit anzeigen und sich den Platz mit einer Vorauszahlung sichern können (über Apple Pay, Google Pay oder lokale Zahlungs-APIs).",
       fr: "Module de réservation personnalisé 24h/24 et 7j/7 : un widget Next.js rapide et adapté aux mobiles où les clients sélectionnent un service, visualisent la disponibilité en temps réel de leur thérapeute préféré et sécurisent le créneau avec un prépaiement (via Apple Pay, Google Pay ou des API de paiement locales).",
+      es: "Módulo de reserva 24/7: un widget Next.js, rápido y mobile-friendly, donde el cliente elige el servicio, ve la disponibilidad real de su terapeuta y cierra el hueco con prepago (Apple Pay, Google Pay o APIs locales).",
           },
           {
             en: 'Client Portal (Personal Account): A passwordless page (using Telegram or phone OTP) where clients view their upcoming visits, check their loyalty points, download treatment recommendations, and re-book their favorite service in one click.',
             ua: 'Особистий кабінет клієнта: Сторінка з авторизацією без пароля (через Telegram або OTP), де клієнт бачить свої візити, баланс бонусів, індивідуальні поради майстра та може повторити запис в один клік.',
       de: "Kundenportal (persönliches Konto): Eine passwortlose Seite (per Telegram oder Telefon-OTP), auf der Kunden ihre bevorstehenden Besuche einsehen, ihre Treuepunkte überprüfen, Behandlungsempfehlungen herunterladen und ihre Lieblingsdienstleistung mit einem Klick erneut buchen können.",
       fr: "Portail client (compte personnel) : une page sans mot de passe (en utilisant Telegram ou OTP par téléphone) où les clients visualisent leurs prochaines visites, vérifient leurs points de fidélité, téléchargent des recommandations de traitement et réservent à nouveau leur service préféré en un clic.",
+      es: "Portal del cliente: una página sin contraseña (Telegram o OTP al teléfono) para ver visitas, puntos de loyalty, recomendaciones y volver a reservar el servicio favorito en un clic.",
           },
           {
             en: 'Automated Communication Loop: Integrating the website with a messaging bot (Telegram/Viber) linked to the CRM. The system automatically sends booking confirmations, reminder notifications 2 hours before the appointment, and triggers feedback collection afterwards.',
             ua: 'Автоматизований цикл комунікації: Інтеграція сайту з CRM та чат-ботом для автоматичної відправки підтверджень запису, нагадувань за кілька годин до візиту та збору відгуків.',
       de: "Automatisierte Kommunikationsschleife: Integration der Website mit einem Messaging-Bot (Telegram/Viber), der mit dem CRM verknüpft ist. Das System versendet automatisch Buchungsbestätigungen und Erinnerungsbenachrichtigungen 2 Stunden vor dem Termin und löst anschließend die Feedback-Sammlung aus.",
       fr: "Boucle de communication automatisée : Intégration du site internet avec un bot de messagerie (Telegram/Viber) lié au CRM. Le système envoie automatiquement des confirmations de réservation, des notifications de rappel 2 heures avant le rendez-vous et déclenche ensuite la collecte de commentaires.",
+      es: "Bucle de comunicación automático: la web + un bot (Telegram/Viber) ligado al CRM. Confirmación, recordatorio 2 horas antes y petición de feedback después — solos.",
           },
         ],
       },
@@ -1908,6 +2331,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '3. Технологічний стек та оптимізація продуктивності',
       de: "3. Tech-Stack und Leistungsoptimierung",
       fr: "3. Pile technologique et optimisation des performances",
+      es: "3. Stack y rendimiento",
         },
         paragraphs: [
           {
@@ -1915,12 +2339,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Швидкість сайту безпосередньо впливає на конверсію. Якщо сторінка вантажиться довше 3 секунд на мобільному інтернеті, бізнес втрачає до 50% відвідувачів. Використання Next.js дозволяє поєднувати статичну генерацію (SSG) для інформаційних сторінок із динамічним рендерингом (SSR) для даних кабінету.',
       de: "Geschwindigkeit hängt direkt mit Conversions zusammen. Eine Seite, deren Laden in einem Mobilfunknetz länger als 3 Sekunden dauert, verliert bis zu 50 % ihrer Besucher. Die Verwendung von Next.js ermöglicht die statische Seitengenerierung (SSG) für Informationsinhalte (Dienste, Preise, Blogs) in Kombination mit dynamischem Server-Rendering (SSR) für Echtzeit-Buchungs- und Portaldaten.",
       fr: "La vitesse est directement liée aux conversions. Une page qui met plus de 3 secondes à se charger sur un réseau mobile perd jusqu'à 50% de ses visiteurs. L'utilisation de Next.js permet la génération de pages statiques (SSG) pour le contenu informatif (services, prix, blogs) combinée au rendu dynamique du serveur (SSR) pour les réservations en temps réel et les données du portail.",
+      es: "La velocidad pega en la conversión. Más de 3 segundos en móvil y se va hasta el 50 % de los visitantes. Next.js permite SSG para lo informativo (servicios, precios, blog) y SSR para reserva y portal en tiempo real.",
           },
           {
             en: 'By separating the frontend from the backend (headless architecture), we ensure that the customer-facing site remains lightning-fast, highly secure, and optimized for search engine rankings (SEO), while the administrative team continues to use their preferred CRM in the background.',
             ua: 'Відокремлення інтерфейсу сайту від бекенду (headless архітектура) гарантує, що клієнтська частина залишається надшвидкою, безпечною та оптимізованою під SEO, тоді як адміни продовжують працювати у звичній CRM.',
       de: "Durch die Trennung des Frontends vom Backend (Headless-Architektur) stellen wir sicher, dass die kundenorientierte Website blitzschnell, hochsicher und für Suchmaschinenrankings (SEO) optimiert bleibt, während das Verwaltungsteam im Hintergrund weiterhin sein bevorzugtes CRM verwendet.",
       fr: "En séparant le frontend du backend (architecture sans tête), nous garantissons que le site destiné aux clients reste ultra-rapide, hautement sécurisé et optimisé pour les classements dans les moteurs de recherche (SEO), tandis que l'équipe administrative continue d'utiliser son CRM préféré en arrière-plan.",
+      es: "Separar frontend y backend (arquitectura headless) deja la web de cara al cliente rápida, segura y lista para SEO, mientras el equipo sigue usando el CRM que ya conoce.",
           },
         ],
       },
@@ -1930,6 +2356,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '4. Вимірювані результати та вплив на бізнес',
       de: "4. Messbare Ergebnisse und geschäftliche Auswirkungen",
       fr: "4. Résultats mesurables et impact commercial",
+      es: "4. Resultados medibles",
         },
         paragraphs: [
           {
@@ -1937,6 +2364,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Впровадження сучасних веб-технологій приносить перші вимірювані результати вже у перші тижні після запуску:',
       de: "Die Digitalisierung eines dienstleistungsorientierten Unternehmens liefert bereits in den ersten Wochen nach der Einführung greifbare, messbare Ergebnisse:",
       fr: "La numérisation d'une entreprise basée sur les services donne des résultats tangibles et mesurables dès les premières semaines suivant son lancement :",
+      es: "Digitalizar un negocio de servicios da números en las primeras semanas:",
           },
         ],
         list: [
@@ -1945,18 +2373,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: '+30% записів: Конвертація нічного та вихідного трафіку в реальні візити без додаткових операторів.',
       de: "+30 % Buchungen: Umwandlung des Nachtverkehrs in bestätigte Termine ohne zusätzliches Personal.",
       fr: "+30 % de réservations : conversion du trafic de fin de soirée en rendez-vous confirmés sans personnel supplémentaire.",
+      es: "+30 % de reservas: el tráfico nocturno se convierte en citas sin más plantilla.",
           },
           {
             en: '-80% Admin Routine: Freeing up staff to focus on in-person guest hospitality and premium service.',
             ua: '-80% рутини адміна: Можливість зосередитися на сервісі в салоні, а не на дзвінках та таблицях.',
       de: "-80 % Verwaltungsroutine: Entlastung des Personals für die persönliche Bewirtung der Gäste und erstklassigen Service.",
       fr: "-80 % de routine administrative : libérer le personnel pour qu'il puisse se concentrer sur l'hospitalité des clients en personne et sur un service haut de gamme.",
+      es: "−80 % de rutina admin: el equipo se dedica a la hospitalidad y al servicio premium.",
           },
           {
             en: '+25% Customer Retention: Automated reminders and loyalty programs keep clients coming back regularly.',
             ua: '+25% утримання клієнтів: Автоматичні нагадування та персональний кабінет стимулюють регулярні повторні візити.',
       de: "+25 % Kundenbindung: Automatisierte Erinnerungen und Treueprogramme sorgen dafür, dass Kunden regelmäßig wiederkommen.",
       fr: "+25 % de fidélisation des clients : les rappels automatisés et les programmes de fidélité incitent les clients à revenir régulièrement.",
+      es: "+25 % de retención: recordatorios y loyalty hacen que el cliente vuelva.",
           },
         ],
       },
@@ -1966,6 +2397,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Висновок: Переведення бізнесу на новий рівень',
       de: "Fazit: Heben Sie Ihr Unternehmen auf die nächste Stufe",
       fr: "Conclusion : élever votre entreprise au niveau supérieur",
+      es: "Conclusión: subir el negocio de nivel",
         },
         paragraphs: [
           {
@@ -1973,12 +2405,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Спеціалізовані веб-рішення усувають розрив між очікуваннями клієнтів та операційною ефективністю салону чи навчального центру. Спрощуючи запис та автоматизуючи комунікацію, бізнес отримує реальне масштабування прибутків.',
       de: "Maßgeschneiderte Weblösungen schließen die Lücke zwischen Kundenerwartungen und betrieblicher Effizienz. Durch eine mühelose Planung und personalisierte Interaktionen können Unternehmen ihren Umsatz erheblich steigern und ihre täglichen Abläufe optimieren.",
       fr: "Les solutions Web personnalisées comblent le fossé entre les attentes des clients et l'efficacité opérationnelle. En facilitant la planification et en personnalisant les interactions, les entreprises peuvent augmenter considérablement leurs revenus et optimiser leurs opérations quotidiennes.",
+      es: "Las soluciones web a medida cierran el hueco entre lo que el cliente espera y lo que el día a día aguanta. Si reservar es fácil y el trato es personal, escala el ingreso y se aligera la operación.",
           },
           {
             en: 'If you want to optimize your salon, clinic, or training center with a custom booking system, SEO-optimized platform, or automated client loops, let\'s schedule a call to build a solution tailored to your goals!',
             ua: 'Якщо ви бажаєте оптимізувати свій салон, клініку чи центр навчання за допомогою швидкого сайту, онлайн-запису чи інтеграції з CRM — давайте обговоримо ваші цілі та створимо ефективне рішення!',
       de: "Wenn Sie Ihren Salon, Ihre Klinik oder Ihr Schulungszentrum mit einem individuellen Buchungssystem, einer SEO-optimierten Plattform oder automatisierten Kundenschleifen optimieren möchten, vereinbaren Sie einen Anruf, um eine auf Ihre Ziele zugeschnittene Lösung zu entwickeln!",
       fr: "Si vous souhaitez optimiser votre salon, clinique ou centre de formation avec un système de réservation personnalisé, une plateforme optimisée pour le référencement ou des boucles client automatisées, planifions un appel pour construire une solution adaptée à vos objectifs !",
+      es: "Si quiere optimizar su salón, clínica o centro de formación con reservas a medida, una plataforma lista para SEO o bucles automáticos de cliente — agendemos una llamada y diseñamos la solución a sus objetivos.",
           },
         ],
       },
@@ -1992,18 +2426,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Як зі мною зв’язатися та які є можливості замовлення: Повний гайд для клієнтів',
       de: "So erreichen Sie mich und Bestelloptionen: Vollständiger Leitfaden zur Zusammenarbeit mit Kunden",
       fr: "Comment me contacter et options de commande : Guide complet de coopération client",
+      es: "Cómo contactarme y opciones de encargo: guía completa de colaboración",
     },
     excerpt: {
       en: 'A detailed overview of contact channels, service offerings (turnkey web apps, Figma to Code, optimization & support), project estimation steps, and collaboration formats.',
       ua: 'Детальний огляд способів зв’язку, видів послуг (вебдодатки під ключ, верстка Figma, оптимізація та підтримка), етапів оцінки та форматів замовлення проєктів.',
       de: "Eine detaillierte Übersicht über Kontaktkanäle, Serviceangebote (schlüsselfertige Web-Apps, Figma to Code, Optimierung und Support), Projektschätzungsschritte und Kooperationsformate.",
       fr: "Un aperçu détaillé des canaux de contact, des offres de services (applications web clés en main, Figma to Code, optimisation & support), des étapes d'estimation du projet et des formats de collaboration.",
+      es: "Canales de contacto, servicios (apps web llave en mano, Figma to Code, optimización y soporte), cómo se estima un proyecto y en qué formatos se colabora.",
     },
     readTime: {
       en: '5 min read',
       ua: '5 хв читання',
-      de: "5 Minuten gelesen",
+      de: "5 Min. Lesezeit",
       fr: "5 minutes de lecture",
+      es: "5 min de lectura",
     },
     tags: {
       en: ['Contact', 'Services', 'Cooperation', 'Freelance', 'Ordering'],
@@ -2022,6 +2459,12 @@ export const businessPosts: RawBlogPost[] = [
         "Freelance",
         "Commande"
       ],
+      es: [
+        "Contacto",
+        "Servicios",
+        "Colaboración",
+        "Presupuesto"
+      ],
     },
     content: [
       {
@@ -2031,6 +2474,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Створення якісного вебсайту чи додатку починається з простого та зрозумілого першого контакту. Якщо вам потрібен веброзробник Senior-рівня з досвідом понад 8 років (4 200+ годин на Upwork, 100+ успішних проєктів), який бере на себе повний цикл фронтенд-розробки на React / Next.js — ця стаття допоможе зрозуміти, як швидко почати співпрацю, які формати замовлень доступні та як відбувається процес оцінки й розробки.',
       de: "Der Aufbau einer hochwertigen Website oder Webanwendung beginnt mit einer klaren, einfachen Kommunikation. Wenn Sie einen leitenden Web- und Frontend-Ingenieur mit mehr als 8 Jahren Produktionserfahrung (über 4.200 Upwork-Stunden, über 100 gestartete Projekte) benötigen, der sich um die gesamte React-/Next.js-Entwicklung kümmert, erklärt dieser Leitfaden, wie Sie Kontakt aufnehmen, welche Bestelloptionen es gibt und wie die Projektevaluierung funktioniert.",
       fr: "La création d'un site Web ou d'une application Web de haute qualité commence par une communication claire et simple. Si vous avez besoin d'un ingénieur Web et Frontend senior avec plus de 8 ans d'expérience en production (4 200+ heures de travail Upwork, plus de 100 projets lancés) gérant le cycle complet de développement React/Next.js, ce guide explique comment entrer en contact, quelles options de commande existent et comment fonctionne l'évaluation de projet.",
+      es: "Una web o una aplicación de calidad empiezan por una comunicación clara y simple. Si necesita una Senior Web & Frontend Engineer con más de 8 años en producción (4.200+ horas en Upwork, 100+ proyectos lanzados) para un ciclo completo en React / Next.js, aquí está cómo escribirme, qué se puede encargar y cómo se evalúa el proyecto.",
           },
         ],
       },
@@ -2040,6 +2484,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '1. Зручні канали зв’язку',
       de: "1. Bequeme Kontaktkanäle",
       fr: "1. Canaux de contact pratiques",
+      es: "1. Canales de contacto cómodos",
         },
         paragraphs: [
           {
@@ -2047,6 +2492,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Ви можете обрати найзручніший для вас спосіб комунікації. Я завжди на зв’язку у робочі дні та оперативно відповідаю на ваші повідомлення:',
       de: "Sie können den Kommunikationskanal wählen, der am besten zu Ihnen passt. Ich bin während der Geschäftszeiten erreichbar und bereit, Ihre Anfrage schnell zu besprechen:",
       fr: "Vous pouvez choisir le canal de communication qui vous convient le mieux. Je suis réactif pendant les heures ouvrables et prêt à discuter rapidement de votre demande :",
+      es: "Elija el canal que le vaya mejor. En horario laboral respondo y podemos hablar de su consulta enseguida:",
           },
         ],
         list: [
@@ -2055,30 +2501,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Email: Основний канал для офіційних ТЗ, надсилання файлів та первинної оцінки (i.vynnychenko@gmail.com).',
       de: "E-Mail: Hauptkanal für detaillierte technische Spezifikationen, Projektdateien und erste Bewertungen (i.vynnychenko@gmail.com).",
       fr: "E-mail : canal principal pour les spécifications techniques détaillées, les fichiers de projet et les évaluations initiales (i.vynnychenko@gmail.com).",
+      es: "Email: canal principal para briefs técnicos, archivos y una primera revisión (i.vynnychenko@gmail.com).",
           },
           {
             en: 'Upwork Profile: Ideal for secure international contracting with escrow protection, hourly tracking, and verified reviews.',
             ua: 'Профіль на Upwork: Найкращий варіант для безпечної контрактної співпраці через міжнародну платформу із захистом угод (Escrow / Hourly Tracker).',
       de: "Upwork-Profil: Ideal für sichere internationale Vertragsabschlüsse mit Treuhandschutz, stündlicher Nachverfolgung und verifizierten Bewertungen.",
       fr: "Profil Upwork : idéal pour les contrats internationaux sécurisés avec protection contre le dépôt, suivi horaire et avis vérifiés.",
+      es: "Perfil de Upwork: el formato seguro para contratos internacionales — escrow, tracking horario y reviews verificadas.",
           },
           {
             en: 'Telegram & WhatsApp: Perfect for quick questions, fast async syncs, and real-time project updates.',
             ua: 'Telegram та WhatsApp: Ідеально для швидких обговорень, уточнюючих питань та оперативного зв’язку в режимі реального часу.',
       de: "Telegram und WhatsApp: Perfekt für schnelle Fragen, schnelle asynchrone Synchronisierungen und Projektaktualisierungen in Echtzeit.",
       fr: "Telegram et WhatsApp : parfaits pour les questions rapides, les synchronisations asynchrones rapides et les mises à jour de projets en temps réel.",
+      es: "Telegram y WhatsApp: para dudas rápidas, syncs asíncronos y updates en tiempo real.",
           },
           {
             en: 'LinkedIn: For professional networking, recommendation reviews, and checking career history.',
             ua: 'LinkedIn: Для професійного зв’язку, перегляду рекомендацій та ознайомлення з кар’єрним шляхом.',
       de: "LinkedIn: Für professionelles Networking, Empfehlungsbewertungen und Überprüfung des beruflichen Werdegangs.",
       fr: "LinkedIn : pour le réseautage professionnel, les évaluations de recommandations et la vérification de l'historique de carrière.",
+      es: "LinkedIn: networking, recomendaciones y trayectoria.",
           },
           {
             en: 'Direct Contact Form: Located at the bottom of every page on this website for one-click outreach.',
             ua: 'Форма зворотного зв’язку на сайті: Розділ «Контакти» внизу кожної сторінки дозволяє швидко відправити повідомлення в один клік.',
       de: "Direktkontaktformular: Befindet sich unten auf jeder Seite dieser Website für die Kontaktaufnahme mit einem Klick.",
       fr: "Formulaire de contact direct : situé au bas de chaque page de ce site Web pour une sensibilisation en un clic.",
+      es: "Formulario de contacto: al pie de cada página de este sitio, para escribir en un clic.",
           },
         ],
       },
@@ -2088,6 +2539,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '2. Основні послуги та напрямки замовлень',
       de: "2. Wichtige Leistungen und Bestellmöglichkeiten",
       fr: "2. Services clés et possibilités de commande",
+      es: "2. Servicios y formas de encargar",
         },
         paragraphs: [
           {
@@ -2095,6 +2547,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Залежно від стадії вашого продукту та потреб бізнесу, ви можете замовити як повний цикл розробки з нуля, так і окремі спеціалізовані послуги:',
       de: "Abhängig von Ihren Geschäftsanforderungen und dem aktuellen Produktstadium können Sie eine vollständige Entwicklung oder spezielle technische Lösungen bestellen:",
       fr: "En fonction des besoins de votre entreprise et du stade actuel du produit, vous pouvez commander un développement complet ou des solutions techniques spécialisées :",
+      es: "Según la etapa del producto, puede pedir un ciclo completo o una pieza técnica concreta:",
           },
         ],
         list: [
@@ -2103,30 +2556,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Розробка сайтів та вебдодатків «під ключ» (Full-Cycle Next.js / React): Від опрацювання структури й адаптивної верстки до налаштування SSR/SSG, SEO-оптимізації, підключення API та деплою на сервер (Vercel, AWS, VPS).',
       de: "Vollständiger Web- und Anwendungsentwicklungszyklus (Next.js / React): Vom Architekturdesign und responsivem Coding bis hin zur SSR/SSG-Einrichtung, SEO-Optimierung, API-Integrationen und Bereitstellung von Produktionsservern (Vercel, AWS, VPS).",
       fr: "Développement Web et d'applications à cycle complet (Next.js / React) : De la conception de l'architecture et du codage réactif à la configuration SSR/SSG, à l'optimisation du référencement, aux intégrations d'API et au déploiement de serveurs de production (Vercel, AWS, VPS).",
+      es: "Desarrollo web y de aplicaciones de ciclo completo (Next.js / React): de la arquitectura y el código responsive al SSR/SSG, SEO, integraciones API y deploy (Vercel, AWS, VPS).",
           },
           {
             en: 'Figma to Code (Pixel-Perfect Conversion): Exact, high-fidelity translation of your Figma mockups into clean TypeScript and Tailwind CSS code with smooth micro-interactions (GSAP / Framer Motion).',
             ua: 'Перенесення дизайну з Figma у живий код (Figma to Code / Pixel Perfect): Точне відтворення ваших макетів з Figma у чистий TypeScript / Tailwind CSS код із бездоганною мобільною версткою та анімаціями (GSAP / Framer Motion).',
       de: "Figma to Code (Pixel-Perfect Conversion): Exakte, originalgetreue Übersetzung Ihrer Figma-Mockups in sauberen TypeScript- und Tailwind-CSS-Code mit reibungslosen Mikrointeraktionen (GSAP/Framer Motion).",
       fr: "Figma to Code (Pixel-Perfect Conversion) : traduction exacte et haute fidélité de vos maquettes Figma en code CSS TypeScript et Tailwind propre avec des micro-interactions fluides (GSAP / Framer Motion).",
+      es: "Figma to Code (conversión pixel-perfect): sus mockups de Figma a TypeScript y Tailwind CSS limpios, con microinteracciones (GSAP / Framer Motion).",
           },
           {
             en: 'Performance Optimization & Core Web Vitals Audit: Speeding up existing React/Next.js platforms, resolving layout issues, and elevating Google PageSpeed metrics to the green zone.',
             ua: 'Рефакторинг, оптимізація та Core Web Vitals: Покращення швидкості завантаження наявних React/Next.js сайтів, виправлення помилок верстки, підтягування показників Google PageSpeed до «зеленої зони».',
       de: "Leistungsoptimierung und Core Web Vitals Audit: Beschleunigen Sie bestehende React/Next.js-Plattformen, lösen Sie Layoutprobleme und heben Sie die Google PageSpeed-Metriken in den grünen Bereich.",
       fr: "Optimisation des performances et audit Core Web Vitals : accélération des plates-formes React/Next.js existantes, résolution des problèmes de mise en page et élévation des métriques Google PageSpeed ​​dans la zone verte.",
+      es: "Optimización de rendimiento y auditoría de Core Web Vitals: acelerar plataformas React/Next.js existentes, resolver layout y subir PageSpeed a zona verde.",
           },
           {
             en: 'Long-Term Support & Feature Iterations (Maintenance): Iterative feature rollouts, package updates, performance monitoring, and prompt bug fixes.',
             ua: 'Довгострокова підтримка та доопрацювання (Maintenance): Регулярне додавання нових фіч, підтримка актуальності бібліотек, моніторинг та оперативне виправлення зауважень.',
       de: "Langfristiger Support und Feature-Iterationen (Wartung): Iterative Feature-Rollouts, Paketaktualisierungen, Leistungsüberwachung und zeitnahe Fehlerbehebungen.",
       fr: "Support à long terme et itérations de fonctionnalités (maintenance) : déploiements itératifs de fonctionnalités, mises à jour de packages, surveillance des performances et corrections de bugs rapides.",
+      es: "Soporte a largo plazo e iteración de features (maintenance): rollouts, updates de paquetes, monitorización y bugs con prioridad.",
           },
           {
             en: 'Technical Code Audit & Consulting: Architecture evaluation of existing codebases before scaling teams or launching major updates.',
             ua: 'Консультація та технічний аудит коду: Оцінка архітектури наявного проєкту перед розширенням команди або перед великим релізом.',
       de: "Technisches Code-Audit und Beratung: Architekturbewertung vorhandener Codebasen vor der Skalierung von Teams oder der Einführung größerer Updates.",
       fr: "Audit et conseil de code technique : évaluation de l'architecture des bases de code existantes avant de faire évoluer les équipes ou de lancer des mises à jour majeures.",
+      es: "Auditoría de código y consultoría: evaluar la arquitectura antes de escalar el equipo o lanzar un update gordo.",
           },
         ],
       },
@@ -2136,6 +2594,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '3. Гнучкі формати співпраці',
       de: "3. Flexible Kooperationsformate",
       fr: "3. Formats de coopération flexibles",
+      es: "3. Formatos de colaboración flexibles",
         },
         paragraphs: [
           {
@@ -2143,6 +2602,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Для максимальної прозорості та зручності ми можемо обрати один із трьох зручних форматів роботи:',
       de: "Um für Kunden weltweit maximale Vorhersehbarkeit und Komfort zu gewährleisten, biete ich flexible Kooperationsrahmen an, die auf Ihre Projektziele zugeschnitten sind:",
       fr: "Pour garantir un maximum de prévisibilité et de commodité pour les clients du monde entier, je propose des cadres de coopération flexibles adaptés aux objectifs de votre projet :",
+      es: "Para que el cliente, esté donde esté, tenga previsibilidad, ofrezco marcos adaptados al objetivo:",
           },
         ],
         list: [
@@ -2151,18 +2611,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Fixed Price (Фіксована ціна за проєкт або етап): Ідеально підходить для проєктів з чітким ТЗ. Бюджет і терміни погоджуються до початку розробки.',
       de: "Festpreis (meilensteinbasiert): Am besten für Projekte mit klaren Spezifikationen. Budget und Zeitpläne werden vor Beginn der Entwicklung festgelegt.",
       fr: "Prix ​​fixe (basé sur des étapes) : idéal pour les projets avec des spécifications claires. Le budget et les délais sont verrouillés avant le début du développement.",
+      es: "Fixed Price (por hitos): para proyectos con especificación clara. Presupuesto y plazos se cierran antes de empezar.",
           },
           {
             en: 'Hourly Rate: Optimal choice for dynamic projects where task scope evolves during development. Work is strictly based on tracked development hours.',
             ua: 'Hourly Rate (Погодинна оплата): Оптимально для гнучких проєктів із завданнями, що змінюються в процесі. Розрахунок здійснюється за фактично відпрацьовані години.',
       de: "Stundensatz: Optimale Wahl für dynamische Projekte, bei denen sich der Aufgabenumfang während der Entwicklung ändert. Die Arbeit basiert strikt auf erfassten Entwicklungsstunden.",
       fr: "Taux horaire : choix optimal pour les projets dynamiques où la portée des tâches évolue au cours du développement. Le travail est strictement basé sur des heures de développement suivies.",
+      es: "Hourly Rate: para proyectos dinámicos cuyo alcance evoluciona. Se factura el tiempo de desarrollo trackeado.",
           },
           {
             en: 'Monthly Retainer: Dedicated developer hours reserved each month for continuous maintenance, feature rollouts, and priority support.',
             ua: 'Monthly Retainer (Щомісячна підтримка): Фіксований обсяг годин на місяць для стабільного розвитку продукту та пріоритетної підтримки.',
       de: "Monatlicher Retainer: Jeden Monat werden dedizierte Entwicklerstunden für kontinuierliche Wartung, Funktionseinführungen und vorrangigen Support reserviert.",
       fr: "Réservation mensuelle : heures de développeur dédiées réservées chaque mois pour la maintenance continue, le déploiement de fonctionnalités et l'assistance prioritaire.",
+      es: "Retainer mensual: horas reservadas cada mes para maintenance, features y soporte prioritario.",
           },
         ],
       },
@@ -2172,6 +2635,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: '4. Етапи замовлення та розробки проєкту',
       de: "4. Schritt-für-Schritt-Roadmap für die Projektbestellung",
       fr: "4. Feuille de route étape par étape pour les commandes de projet",
+      es: "4. Hoja de ruta del encargo, paso a paso",
         },
         paragraphs: [
           {
@@ -2179,6 +2643,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Ось як ваш проєкт проходить шлях від першого повідомлення до працюючого продукту:',
       de: "So verläuft Ihr Projekt von der ersten Nachricht bis zum vollständig veröffentlichten Produkt:",
       fr: "Voici comment votre projet passe du message initial à un produit entièrement publié :",
+      es: "Así pasa el proyecto del primer mensaje a un producto publicado:",
           },
         ],
         list: [
@@ -2187,30 +2652,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Крок 1. Первинний контакт: Ви надсилаєте опис задачі, макети Figma чи посилання на поточний сайт.',
       de: "Schritt 1. Erster Kontakt: Senden Sie Ihre Projektskizze, Figma-Design-Links oder die bestehende Website-URL.",
       fr: "Étape 1. Contact initial : envoyez les grandes lignes de votre projet, les liens de conception Figma ou l'URL d'un site Web existant.",
+      es: "Paso 1. Primer contacto: envíe el outline, los enlaces de Figma o la URL actual.",
           },
           {
             en: 'Step 2. Discovery & Estimation: Short sync or async text Q&A to review details, followed by a formal price and timeline estimate.',
             ua: 'Крок 2. Обговорення та оцінка: Проводимо короткий зідзвон або текстове обговорення, уточнюємо деталі й готуємо попередній розрахунок вартості та термінів.',
       de: "Schritt 2. Ermittlung und Schätzung: Kurze Fragen und Antworten mit synchronisiertem oder asynchronem Text, um die Details zu überprüfen, gefolgt von einer formellen Preis- und Zeitschätzung.",
       fr: "Étape 2. Découverte et estimation : brèves questions et réponses synchronisées ou asynchrones pour examiner les détails, suivies d'une estimation formelle du prix et du calendrier.",
+      es: "Paso 2. Discovery y estimación: un sync corto o un Q&A por escrito; después, precio y plazo formales.",
           },
           {
             en: 'Step 3. Agreement & NDA: Finalize collaboration format (Fixed or Hourly), establish milestones, and sign an NDA if required.',
             ua: 'Крок 3. Узгодження умов та NDA: Узгоджуємо формат (Fixed Price чи Hourly), етапи (milestones), за потреби підписуємо угоду про нерозголошення (NDA).',
       de: "Schritt 3. Vereinbarung und NDA: Finalisieren Sie das Format der Zusammenarbeit (fest oder stündlich), legen Sie Meilensteine ​​fest und unterzeichnen Sie bei Bedarf eine NDA.",
       fr: "Étape 3. Accord et NDA : finalisez le format de collaboration (fixe ou horaire), établissez des jalons et signez un NDA si nécessaire.",
+      es: "Paso 3. Acuerdo y NDA: se cierra el formato (Fixed u Hourly), los hitos y, si hace falta, un NDA.",
           },
           {
             en: 'Step 4. Iterative Development & Staging Demos: Work proceeds with regular preview links on a staging server so you keep full visibility.',
             ua: 'Крок 4. Ітеративна розробка: Я демонструю проміжні результати на тестовому домені (Staging), ви маєте повний контроль над процесом.',
       de: "Schritt 4. Iterative Entwicklungs- und Staging-Demos: Die Arbeit wird mit regelmäßigen Vorschau-Links auf einem Staging-Server fortgesetzt, sodass Sie die volle Transparenz behalten.",
       fr: "Étape 4. Démos de développement itératif et de préparation : le travail se poursuit avec des liens de prévisualisation réguliers sur un serveur de préparation afin que vous conserviez une visibilité totale.",
+      es: "Paso 4. Desarrollo iterativo y demos en staging: previews regulares en un servidor de staging, con visibilidad total.",
           },
           {
             en: 'Step 5. Design QA, Deployment & Guarantee Support: Cross-device testing on real mobile hardware, deployment to production domain, and warranty support.',
             ua: 'Крок 5. Тестування, деплой та підтримка: Фінальне тестування на різних смартфонах і браузерах, перенесення на основний домен та надання гарантійної підтримки.',
       de: "Schritt 5. Design-QA, Bereitstellung und Garantieunterstützung: Geräteübergreifende Tests auf echter mobiler Hardware, Bereitstellung in der Produktionsdomäne und Garantieunterstützung.",
       fr: "Étape 5. Conception de l'assurance qualité, du déploiement et de la garantie : tests multi-appareils sur du matériel mobile réel, déploiement dans le domaine de production et prise en charge de la garantie.",
+      es: "Paso 5. Design QA, deploy y garantía: test en hardware móvil real, publicación en el dominio de producción y soporte en garantía.",
           },
         ],
       },
@@ -2221,6 +2691,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Готові обговорити ваш проєкт або бажаєте оцінити обсяг розробки? Напишіть мені через форму нижче або оберіть зручний месенджер — і ми створимо швидкий, надійний та сучасний вебпродукт!',
       de: "Sind Sie bereit, Ihr Projekt zu starten oder möchten den Entwicklungsumfang abschätzen? Senden Sie mir eine Nachricht über das untenstehende Formular oder wählen Sie Ihren bevorzugten Kanal aus – lassen Sie uns gemeinsam ein leistungsstarkes Webprodukt entwickeln!",
       fr: "Prêt à lancer votre projet ou souhaitez estimer le périmètre de développement ? Envoyez-moi un message en utilisant le formulaire ci-dessous ou choisissez votre canal préféré : construisons ensemble un produit Web performant !",
+      es: "¿Quiere lanzar o estimar el alcance? Escríbame por el formulario o elija su canal — construyamos juntos un producto web de alto rendimiento.",
           },
         ],
       },
@@ -2234,18 +2705,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Сила комунікації: Як я працюю із замовниками з різних країн та різних бізнесів',
       de: "Die Kraft der Kommunikation: Wie ich mit Kunden in verschiedenen Ländern und unterschiedlichen Unternehmen zusammenarbeite",
       fr: "Le pouvoir de la communication : comment je travaille avec des clients dans différents pays et diverses entreprises",
+      es: "El poder de la comunicación: cómo trabajo con clientes de distintos países y negocios",
     },
     excerpt: {
       en: 'My experience collaborating with clients from the US to Germany and Ukraine: why flexibility, proactive communication, and active listening are the main keys to the success of any project.',
       ua: 'Мій досвід співпраці з клієнтами від США до Німеччини та України: чому гнучкість, проактивне спілкування та вміння слухати є головними чинниками успіху будь-якого проєкту.',
       de: "Meine Erfahrung in der Zusammenarbeit mit Kunden aus den USA, Deutschland und der Ukraine: Warum Flexibilität, proaktive Kommunikation und aktives Zuhören die wichtigsten Schlüssel zum Erfolg jedes Projekts sind.",
       fr: "Mon expérience de collaboration avec des clients des États-Unis à l'Allemagne et à l'Ukraine : pourquoi la flexibilité, la communication proactive et l'écoute active sont les principales clés du succès de tout projet.",
+      es: "Mi experiencia con clientes de EE. UU. a Alemania y Ucrania: por qué la flexibilidad, la comunicación proactiva y la escucha activa deciden el éxito de cualquier proyecto.",
     },
     readTime: {
       en: '6 min read',
       ua: '6 хв читання',
       de: "6 Min. Lesezeit",
       fr: "6 minutes de lecture",
+      es: "6 min de lectura",
     },
     tags: {
       en: ['Communication', 'Collaboration', 'Freelance', 'Experience'],
@@ -2262,6 +2736,12 @@ export const businessPosts: RawBlogPost[] = [
         "Freelance",
         "Expérience"
       ],
+      es: [
+        "Comunicación",
+        "Clientes",
+        "Freelance",
+        "Cultura"
+      ],
     },
     content: [
       {
@@ -2271,12 +2751,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Сучасний світ веб-розробки стер межі. Сьогодні, перебуваючи в Києві, я можу створювати сайти для косметолога в Мюнхені, допомагати школі масажу в Україні, розробляти DeFi-додатки з глобальною командою чи оптимізувати платформу для американського стартапу. Це дивовижний досвід, який збагачує не лише професійно, а й культурно. За роки роботи на фрилансі я мала задоволення працювати з людьми з десятків країн, і кожен проєкт навчив мене чомусь новому.',
       de: "Die moderne Welt der Webentwicklung hat physische Grenzen verwischt. Heute, während ich in Kiew lebe, kann ich Websites für eine Kosmetikerin in München erstellen, einer Massageschule in der Ukraine helfen, DeFi-Anwendungen mit einem globalen Team entwickeln oder eine Plattform für ein US-Startup optimieren. Das ist eine tolle Erfahrung, die mich sowohl beruflich als auch kulturell bereichert. Im Laufe meiner freiberuflichen Tätigkeit hatte ich das Vergnügen, mit Menschen aus Dutzenden von Ländern zusammenzuarbeiten, und jedes Projekt hat mich etwas Neues gelehrt.",
       fr: "Le monde moderne du développement Web a effacé les frontières physiques. Aujourd'hui, étant basé à Kiev, je peux créer des sites Web pour un cosmétologue à Munich, aider une école de massage en Ukraine, développer des applications DeFi avec une équipe mondiale ou optimiser une plateforme pour une startup américaine. C’est une expérience formidable qui m’enrichit tant professionnellement que culturellement. Au cours de mes années de travail indépendant, j'ai eu le plaisir de travailler avec des personnes de dizaines de pays et chaque projet m'a appris quelque chose de nouveau.",
+      es: "El desarrollo web moderno ha borrado las fronteras. Desde Kyiv puedo construir la web de una cosmetóloga en Múnich, ayudar a una escuela de masaje en Ucrania, desarrollar DeFi con un equipo global u optimizar la plataforma de un startup de EE. UU. Es una experiencia que me enriquece en lo profesional y en lo cultural. En años de freelance he trabajado con gente de decenas de países, y cada proyecto me ha enseñado algo.",
           },
           {
             en: 'However, the more diverse projects I deliver, the clearer I realize: project success depends on more than just clean code or beautiful design. The most critical factor is communication. The ability to listen, ask the right questions, and find common ground is the bridge that translates technical requirements into a successful product.',
             ua: 'Проте, чим більше різноманітних проєктів я реалізую, тим чіткіше розумію: успіх проєкту залежить не лише від чистоти коду чи краси дизайну. Найголовніший фактор — це комунікація. Вміння чути, задавати правильні запитання та знаходити спільну мову є тим містком, який перетворює технічне завдання на успішний продукт.',
       de: "Doch je vielfältiger meine Projekte sind, desto klarer wird mir: Der Projekterfolg hängt von mehr ab als nur sauberem Code oder schönem Design. Der kritischste Faktor ist die Kommunikation. Die Fähigkeit, zuzuhören, die richtigen Fragen zu stellen und Gemeinsamkeiten zu finden, ist die Brücke, die technische Anforderungen in ein erfolgreiches Produkt umsetzt.",
       fr: "Cependant, plus je réalise des projets diversifiés, plus je réalise clairement que le succès d'un projet ne dépend pas seulement d'un code propre ou d'un beau design. Le facteur le plus critique est la communication. La capacité d’écouter, de poser les bonnes questions et de trouver un terrain d’entente est le pont qui traduit les exigences techniques en un produit réussi.",
+      es: "Cuanto más diversos son los encargos, más claro lo veo: el éxito no es solo código limpio o un diseño bonito. El factor crítico es la comunicación. Escuchar, preguntar bien y encontrar terreno común es el puente entre el requisito técnico y un producto que funciona.",
           },
         ],
       },
@@ -2286,6 +2768,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Різноманітність бізнесів: від локальних послуг до глобальних платформ',
       de: "Vielfältige Geschäftsnischen: Von lokalen Dienstleistungen bis hin zu globalen Plattformen",
       fr: "Diverses niches commerciales : des services locaux aux plateformes mondiales",
+      es: "Nichos distintos: de servicios locales a plataformas globales",
         },
         paragraphs: [
           {
@@ -2293,6 +2776,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Замовники звертаються з кардинально різними завданнями, і кожна ніша має свої особливості. Я рада працювати як з невеликими локальними бізнесами, так і зі складними технічними платформами:',
       de: "Kunden melden sich mit völlig unterschiedlichen Aufgaben und jede Nische hat ihre einzigartigen Eigenschaften. Ich freue mich, sowohl mit kleinen lokalen Unternehmen als auch mit komplexen technischen Plattformen zusammenzuarbeiten:",
       fr: "Les clients effectuent des tâches complètement différentes et chaque niche a ses caractéristiques uniques. Je suis heureux de travailler aussi bien avec des petites entreprises locales qu'avec des plateaux techniques complexes :",
+      es: "Los clientes llegan con tareas muy distintas, y cada nicho tiene su carácter. Me gusta tanto el negocio local pequeño como la plataforma técnica compleja:",
           },
         ],
         list: [
@@ -2301,18 +2785,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Локальні послуги (школи, салони, клініки): Тут на першому місці — зручність для кінцевого клієнта, швидкість завантаження та чіткі форми запису. Наприклад, створюючи сайт для косметолога в Німеччині (niunkina.com) чи Школи масажу в Україні, важливо передати атмосферу довіри та забезпечити ідеальний мобільний інтерфейс.',
       de: "Lokale Dienstleistungen (Schulen, Salons, Kliniken): Hier stehen Benutzerfreundlichkeit für den Endkunden, schnelle Ladegeschwindigkeit und übersichtliche Buchungsformulare im Vordergrund. Wenn Sie beispielsweise Websites für eine Kosmetikerin in Deutschland (niunkina.com) oder eine Massageschule in der Ukraine erstellen, ist es wichtig, Vertrauen zu vermitteln und eine einwandfreie mobile Benutzeroberfläche sicherzustellen.",
       fr: "Services de proximité (écoles, salons, cliniques) : ici, la priorité est la convivialité pour le client final, une vitesse de chargement rapide et des formulaires de réservation clairs. Par exemple, lors de la création de sites Web pour une cosmétologue en Allemagne (niunkina.com) ou une école de massage en Ukraine, il est essentiel de transmettre la confiance et de garantir une interface mobile impeccable.",
+      es: "Servicios locales (escuelas, salones, clínicas): priorizan que el cliente final se oriente, que cargue rápido y que el formulario de reserva sea claro. En webs para una cosmetóloga en Alemania (niunkina.com) o una escuela de masaje en Ucrania, hay que transmitir confianza y un móvil impecable.",
           },
           {
             en: 'Service and logistics companies: Here, the focus shifts to conversion optimization and clear presentation of services. For websites like a taxi service in Kyiv (wellwheel.com.ua) or snow removal in the US (plowguys.com), intuitive UX that guides the user to order or submit a request quickly is critical.',
             ua: 'Сервісні та логістичні компанії: Тут фокус зміщується на оптимізацію конверсії та чітке представлення послуг. Для сайту таксі та водіїв в Києві (wellwheel.com.ua) або снігоприбирання в США (plowguys.com) критичним є UX, який допомагає користувачеві швидко зробити замовлення або подати заявку.',
       de: "Dienstleistungs- und Logistikunternehmen: Hier liegt der Fokus auf Conversion-Optimierung und übersichtlicher Darstellung der Leistungen. Für Websites wie einen Taxidienst in Kiew (wellwheel.com.ua) oder Schneeräumung in den USA (plowguys.com) ist eine intuitive Benutzeroberfläche, die den Benutzer schnell zur Bestellung oder Übermittlung einer Anfrage führt, von entscheidender Bedeutung.",
       fr: "Entreprises de services et de logistique : ici, l'accent est mis sur l'optimisation de la conversion et la présentation claire des services. Pour des sites Web comme un service de taxi à Kiev (wellwheel.com.ua) ou de déneigement aux États-Unis (plowguys.com), une UX intuitive qui guide l'utilisateur pour commander ou soumettre rapidement une demande est essentielle.",
+      es: "Servicios y logística: el foco pasa a conversión y a explicar el servicio sin ruido. En un taxi en Kyiv (wellwheel.com.ua) o nieve en EE. UU. (plowguys.com), la UX tiene que llevar al pedido o a la solicitud enseguida.",
           },
           {
             en: 'High-tech projects and SaaS: Working on DeFi products, cloud hosting, or dashboards requires a deep understanding of architecture, security, and API integrations. This involves teamwork where code must be scalable and the interface highly flexible.',
             ua: 'Високотехнологічні проєкти та SaaS: Робота над DeFi-продуктами, хмарними хостингами або панелями керування вимагає глибокого розуміння архітектури, безпеки та інтеграції API. Це робота в командах, де код має бути масштабованим, а інтерфейс — гнучким.',
       de: "Hightech-Projekte und SaaS: Die Arbeit an DeFi-Produkten, Cloud-Hosting oder Dashboards erfordert ein tiefes Verständnis von Architektur, Sicherheit und API-Integrationen. Dies erfordert Teamarbeit, wobei der Code skalierbar und die Schnittstelle hochflexibel sein muss.",
       fr: "Projets de haute technologie et SaaS : travailler sur des produits DeFi, un hébergement cloud ou des tableaux de bord nécessite une compréhension approfondie de l'architecture, de la sécurité et des intégrations d'API. Cela implique un travail d'équipe où le code doit être évolutif et l'interface très flexible.",
+      es: "High-tech y SaaS: DeFi, hosting cloud o dashboards piden arquitectura, seguridad e integraciones API. Aquí se trabaja en equipo: código escalable e interfaz muy flexible.",
           },
         ],
       },
@@ -2322,6 +2809,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Географія клієнтів: різні країни, єдині стандарти якості',
       de: "Kundenregion: Unterschiedliche Länder, universelle Qualitätsstandards",
       fr: "Géographie des clients : différents pays, normes de qualité universelles",
+      es: "Geografía del cliente: países distintos, el mismo listón de calidad",
         },
         paragraphs: [
           {
@@ -2329,6 +2817,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Кожна країна має свої підходи до ведення бізнесу та спілкування. Робота з різними культурами навчила мене адаптуватися та цінувати особливості кожного ринку:',
       de: "Jedes Land hat seinen eigenen Geschäfts- und Kommunikationsansatz. Durch die Arbeit mit verschiedenen Kulturen habe ich gelernt, mich an die Einzigartigkeit jedes Marktes anzupassen und diese zu schätzen:",
       fr: "Chaque pays a sa propre approche des affaires et de la communication. Travailler avec différentes cultures m'a appris à m'adapter et à apprécier la singularité de chaque marché :",
+      es: "Cada país tiene su forma de hacer negocio y de hablar. Trabajar con culturas distintas me ha enseñado a adaptarme y a respetar lo que cada mercado valora:",
           },
         ],
         list: [
@@ -2337,30 +2826,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Клієнти з США та Канади: Цінують швидкість, проактивність та орієнтацію на результат. Вони відкриті до пропозицій щодо покращення UX та очікують чітких звітів і дотримання термінів.',
       de: "Kunden aus den USA und Kanada: legen Wert auf Geschwindigkeit, Proaktivität und Ergebnisorientierung. Sie sind offen für UX-Verbesserungsvorschläge und erwarten klare Berichte und eine strikte Einhaltung von Fristen.",
       fr: "Clients des États-Unis et du Canada : valorisent la rapidité, la proactivité et la concentration sur les résultats. Ils sont ouverts aux suggestions d’amélioration de l’UX et attendent des rapports clairs et un respect strict des délais.",
+      es: "EE. UU. y Canadá: valoran velocidad, proactividad y resultado. Están abiertos a mejorar la UX y esperan reporting claro y plazos que se cumplen.",
           },
           {
             en: 'Clients from Western Europe (Germany, Switzerland, UK): Pay close attention to details, security standards, data privacy (GDPR), and clear technical documentation. Predictability and stability are key for them.',
             ua: 'Клієнти з країн Західної Європи (Німеччина, Швейцарія, Велика Британія): Велику увагу приділяють деталям, стандартам безпеки, захисту даних (GDPR) та чіткості технічного завдання. Для них важлива стабільність і передбачуваність.',
       de: "Kunden aus Westeuropa (Deutschland, Schweiz, Großbritannien): Achten Sie besonders auf Details, Sicherheitsstandards, Datenschutz (DSGVO) und klare technische Dokumentation. Vorhersehbarkeit und Stabilität sind für sie von entscheidender Bedeutung.",
       fr: "Clients d'Europe occidentale (Allemagne, Suisse, Royaume-Uni) : portez une attention particulière aux détails, aux normes de sécurité, à la confidentialité des données (RGPD) et à une documentation technique claire. Pour eux, la prévisibilité et la stabilité sont essentielles.",
+      es: "Europa occidental (Alemania, Suiza, Reino Unido): miran el detalle, la seguridad, la privacidad (GDPR) y una documentación técnica clara. Para ellos, previsibilidad y estabilidad.",
           },
           {
             en: 'Clients from Saudi Arabia / Gulf Region & Latin America (Mexico): Appreciate premium service, complete design integrity, and reliable automation flows. Mobile responsiveness is paramount, as mobile apps and messaging channels like WhatsApp or Telegram are the main interaction points.',
             ua: 'Клієнти з Саудівської Аравії / країн Затоки та Латинської Америки (Мексика): Цінують преміальний рівень сервісу, точність відтворення дизайну та надійність рішень для автоматизації. Особливе значення має мобільна версія (mobile-first), оскільки месенджери (Telegram/WhatsApp) та смартфони є ключовими інструментами взаємодії з клієнтами.',
       de: "Kunden aus Saudi-Arabien/Golfregion und Lateinamerika (Mexiko): schätzen erstklassigen Service, vollständige Designintegrität und zuverlässige Automatisierungsabläufe. Mobile Reaktionsfähigkeit ist von größter Bedeutung, da mobile Apps und Messaging-Kanäle wie WhatsApp oder Telegram die wichtigsten Interaktionspunkte sind.",
       fr: "Clients d'Arabie saoudite/région du Golfe et d'Amérique latine (Mexique) : apprécient un service haut de gamme, une intégrité de conception complète et des flux d'automatisation fiables. La réactivité mobile est primordiale, car les applications mobiles et les canaux de messagerie comme WhatsApp ou Telegram sont les principaux points d'interaction.",
+      es: "Arabia Saudí / Golfo y Latinoamérica (México): aprecian un servicio premium, integridad de diseño y automatización fiable. El móvil es ley: apps y canales como WhatsApp o Telegram son el punto de contacto.",
           },
           {
             en: 'Collaboration with teams in India / Vietnam / Southeast Asia: Demands clear API specifications, neat architecture documentation, and highly structured task delegation to ensure seamless integration across globally distributed teams.',
             ua: 'Співпраця з командами з Індії / В\'єтнаму / Південно-Східної Азії: Вимагає чіткої специфікації API, охайної документації архітектури та структурованого делегування завдань для забезпечення злагодженої інтеграції в розподілених глобальних командах.',
       de: "Zusammenarbeit mit Teams in Indien/Vietnam/Südostasien: Erfordert klare API-Spezifikationen, eine übersichtliche Architekturdokumentation und eine hochstrukturierte Aufgabendelegierung, um eine nahtlose Integration zwischen global verteilten Teams sicherzustellen.",
       fr: "Collaboration avec des équipes en Inde, au Vietnam et en Asie du Sud-Est : exige des spécifications API claires, une documentation d'architecture soignée et une délégation de tâches hautement structurée pour garantir une intégration transparente au sein d'équipes réparties à l'échelle mondiale.",
+      es: "Equipos en India / Vietnam / Sudeste asiático: piden specs de API claras, arquitectura documentada y delegación muy estructurada para integrar sin fricción equipos repartidos.",
           },
           {
             en: 'Ukrainian clients: Incredibly energetic, flexible, and dynamic. They value personal contact, quick solutions, and responsiveness when adjusting the product on the go.',
             ua: 'Українські замовники: Неймовірно енергійні, гнучкі та динамічні. Вони цінують особистий контакт, швидкі рішення та готовність оперативно вносити зміни для покращення продукту в процесі.',
       de: "Ukrainische Kunden: Unglaublich energisch, flexibel und dynamisch. Sie legen Wert auf persönlichen Kontakt, schnelle Lösungen und Reaktionsfähigkeit bei der Anpassung des Produkts unterwegs.",
       fr: "Clients ukrainiens : incroyablement énergiques, flexibles et dynamiques. Ils apprécient le contact personnel, les solutions rapides et la réactivité lors du réglage du produit en déplacement.",
+      es: "Clientes ucranianos: energía, flexibilidad, ritmo. Valoran el contacto personal, las soluciones rápidas y que se pueda ajustar el producto sobre la marcha.",
           },
         ],
       },
@@ -2370,6 +2864,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Чому комунікація — це 50% успіху проєкту',
       de: "Warum Kommunikation 50 % des Projekterfolgs ausmacht",
       fr: "Pourquoi la communication représente 50 % de la réussite d'un projet",
+      es: "Por qué la comunicación es el 50 % del éxito",
         },
         paragraphs: [
           {
@@ -2377,6 +2872,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Написати код — це лише половина справи. Значно важливіше — написати правильний код, який вирішить проблему бізнесу. І це неможливо без налагодженої комунікації. Ось кілька принципів, якими я керуюся в роботі:',
       de: "Das Schreiben von Code ist nur die halbe Miete. Wichtiger ist es, den richtigen Code zu schreiben, der ein Geschäftsproblem tatsächlich löst. Und das ist ohne ausgefeilte Kommunikation nicht möglich. Hier sind einige Grundsätze, denen ich bei meiner Arbeit folge:",
       fr: "Écrire du code ne représente que la moitié de la bataille. Le plus important est d’écrire le bon code qui résout réellement un problème commercial. Et cela est impossible sans une communication soignée. Voici plusieurs principes que je respecte dans mon travail :",
+      es: "Escribir código es solo la mitad. Lo que importa es escribir el código correcto — el que resuelve un problema de negocio. Eso no existe sin comunicación cuidada. Principios que sigo:",
           },
         ],
         list: [
@@ -2385,18 +2881,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Проактивність замість сліпого виконання: Якщо я бачу, що кнопка на макеті незручна для мобільного, або якась анімація буде гальмувати інтерфейс — я не просто пишу код, я пропоную альтернативу. Мої клієнти цінують, коли розробник думає про їхній бізнес.',
       de: "Proaktivität statt blinder Ausführung: Wenn ich bemerke, dass eine Schaltfläche im Layout auf Mobilgeräten schwer zu klicken ist oder dass eine benutzerdefinierte Animation das Rendering verlangsamen könnte, schreibe ich nicht nur den Code; Ich schlage eine bessere Alternative vor. Meine Kunden schätzen es, wenn ein Entwickler wirklich an ihr Unternehmen denkt.",
       fr: "Proactivité plutôt qu'exécution aveugle : si je remarque qu'il est difficile de cliquer sur un bouton de la mise en page sur mobile, ou qu'une animation personnalisée peut ralentir le rendu, je ne me contente pas d'écrire le code ; je propose une meilleure alternative. Mes clients apprécient lorsqu'un développeur pense véritablement à son entreprise.",
+      es: "Proactividad, no ejecución ciega: si un botón del layout es difícil de pulsar en móvil, o una animación puede frenar el render, no me limito a picar el código: propongo una alternativa mejor. El cliente agradece que la desarrolladora piense en su negocio.",
           },
           {
             en: 'Constant feedback loop: No disappearing for weeks. I split large tasks into milestones, demonstrate progress regularly, and keep the client updated on the current status. This reduces anxiety and allows adjustments early on.',
             ua: 'Постійний зворотний зв\'язок: Ніякого зникнення на тижні. Я ділю великі завдання на проміжні етапи, регулярно демонструю прогрес та тримаю в курсі поточного статусу. Це знімає тривогу та дозволяє вносити коригування на ранніх стадіях.',
       de: "Ständige Feedbackschleife: Kein wochenlanges Verschwinden. Ich teile große Aufgaben in Meilensteine ​​ein, zeige regelmäßig Fortschritte und halte den Kunden über den aktuellen Status auf dem Laufenden. Dies reduziert Ängste und ermöglicht frühzeitige Anpassungen.",
       fr: "Boucle de rétroaction constante : pas de disparition pendant des semaines. Je divise les tâches importantes en jalons, démontre régulièrement les progrès et tiens le client informé de l'état actuel. Cela réduit l’anxiété et permet des ajustements dès le début.",
+      es: "Feedback loop constante: no desaparezco semanas. Parto las tareas grandes en hitos, enseño progreso y mantengo el estado al día. Baja la ansiedad y permite corregir pronto.",
           },
           {
             en: 'Openness and ease of contact: I am always open to video calls, chat discussions, or detailed write-ups. Direct contact without managers or intermediaries makes the development process transparent and fast.',
             ua: 'Відкритість та легкість у спілкуванні: Я завжди готова до відеодзвінків, обговорень у месенджерах чи детальних текстових розборів. Прямий контакт без менеджерів та посередників робить процес розробки прозорим та швидким.',
       de: "Offenheit und einfache Kontaktaufnahme: Ich bin immer offen für Videoanrufe, Chat-Diskussionen oder detaillierte Zuschreibungen. Der direkte Kontakt ohne Manager oder Vermittler macht den Entwicklungsprozess transparent und schnell.",
       fr: "Ouverture et facilité de contact : je suis toujours ouvert aux appels vidéo, aux discussions par chat ou aux articles détaillés. Le contact direct sans gestionnaires ni intermédiaires rend le processus de développement transparent et rapide.",
+      es: "Apertura y contacto fácil: videollamada, chat o un escrito detallado. Sin managers ni intermediarios, el desarrollo es transparente y rápido.",
           },
         ],
       },
@@ -2407,12 +2906,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Кожен новий клієнт, незалежно від країни чи ніші бізнесу — це можливість створити щось виняткове. Я вдячна за довіру замовникам, які обирають мій підхід, де професійний код поєднується з людським ставленням та відкритою комунікацією.',
       de: "Jeder neue Kunde, unabhängig von seinem Land oder seiner Geschäftsnische, ist eine Gelegenheit, etwas Außergewöhnliches zu schaffen. Ich bin dankbar für das Vertrauen der Kunden, die sich für meinen Ansatz entscheiden, bei dem professioneller Code mit menschlicher Note und offener Kommunikation kombiniert wird.",
       fr: "Chaque nouveau client, quel que soit son pays ou sa niche d'activité, est une opportunité de créer quelque chose d'exceptionnel. Je suis reconnaissant de la confiance des clients qui choisissent mon approche, où le code professionnel se conjugue avec une touche humaine et une communication ouverte.",
+      es: "Cada cliente nuevo, da igual el país o el nicho, es una oportunidad de hacer algo excepcional. Agradezco la confianza de quienes eligen este enfoque: código profesional con trato humano y comunicación abierta.",
           },
           {
             en: 'If you are looking for a developer who doesn\'t just check off tasks from a tracker, but becomes a partner in growing your business, knows how to listen, and proposes real solutions — let\'s connect! Contact me in the section below for a free consultation.',
             ua: 'Якщо ви шукаєте розробника, який не просто виконує таски з трекера, а стає партнером у розвитку вашого бізнесу, вміє слухати та пропонувати рішення — давайте поспілкуємося! Зв\'яжіться зі мною у розділі нижче для безкоштовної консультації.',
       de: "Wenn Sie auf der Suche nach einem Entwickler sind, der nicht nur Aufgaben von einem Tracker abhakt, sondern zum Partner beim Wachstum Ihres Unternehmens wird, der zuhören kann und echte Lösungen vorschlägt – lassen Sie uns miteinander in Kontakt treten! Kontaktieren Sie mich im folgenden Abschnitt für eine kostenlose Beratung.",
       fr: "Si vous recherchez un développeur qui ne se contente pas de cocher les tâches d'un tracker, mais qui devient un partenaire dans la croissance de votre entreprise, qui sait écouter et propose de vraies solutions, connectons-nous ! Contactez-moi dans la section ci-dessous pour une consultation gratuite.",
+      es: "Si busca una desarrolladora que no se limita a tachar tickets, sino que se convierte en partner de crecimiento, sabe escuchar y propone soluciones reales — conectemos. Escríbame abajo para una consulta sin coste.",
           },
         ],
       },
@@ -2426,18 +2927,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Чому онлайн-бронювання на сайті збільшує прибуток бізнесу у 2026 році',
       de: "Warum Online-Buchungen auf Ihrer Website den Geschäftsumsatz im Jahr 2026 steigern",
       fr: "Pourquoi la réservation en ligne sur votre site Web augmente les revenus de votre entreprise en 2026",
+      es: "Por qué las reservas online en su web suben el ingreso en 2026",
     },
     excerpt: {
       en: 'Manual DM scheduling and missed calls cost service businesses up to 40% in lost revenue. Discover how online booking automates customer intake 24/7 and eliminates no-shows.',
       ua: 'Переписки в діректі та втрачені дзвінки коштують бізнесу до 40% прибутку. Як система онлайн-запису на сайті автоматизує прийом клієнтів 24/7 та зменшує неприходи.',
       de: "Manuelle DM-Planung und verpasste Anrufe kosten Serviceunternehmen bis zu 40 % an Umsatzeinbußen. Entdecken Sie, wie Online-Buchungen die Kundenaufnahme rund um die Uhr automatisieren und Nichterscheinen verhindern.",
       fr: "La planification manuelle des DM et les appels manqués coûtent aux entreprises de services jusqu'à 40 % de perte de revenus. Découvrez comment la réservation en ligne automatise l'accueil des clients 24h/24 et 7j/7 et élimine les non-présentations.",
+      es: "Agendar por DM y perder llamadas le cuesta a un negocio de servicios hasta un 40 % de ingreso. Cómo la reserva online automatiza la captación 24/7 y recorta los no-shows.",
     },
     readTime: {
       en: '5 min read',
       ua: '5 хв читання',
-      de: "5 Minuten gelesen",
+      de: "5 Min. Lesezeit",
       fr: "5 minutes de lecture",
+      es: "5 min de lectura",
     },
     tags: {
       en: ['Online Booking', 'Automation', 'Business', 'Conversion', 'CRM'],
@@ -2456,6 +2960,12 @@ export const businessPosts: RawBlogPost[] = [
         "Conversion",
         "CRM"
       ],
+      es: [
+        "Reservas",
+        "Automatización",
+        "Servicios",
+        "Conversión"
+      ],
     },
     content: [
       {
@@ -2465,12 +2975,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'У 2026 році швидкість та зручність стали вирішальними факторами при виборі послуг. Сучасний клієнт очікує можливість записатися на прийом, консультацію чи процедуру миттєво зі смартфона в кілька кліків — без телефонних дзвінків та тривалого очікування відповіді в діректі.',
       de: "Im Jahr 2026 ist Bequemlichkeit die ultimative Währung bei der Entscheidungsfindung von Verbrauchern. Moderne Kunden erwarten, dass sie mit nur wenigen Fingertipps direkt über ihr Smartphone Dienstleistungen buchen, Beratungsgespräche vereinbaren oder Termine reservieren können – ohne Anrufe zu tätigen oder stundenlang auf eine Antwort in Instagram Direct zu warten.",
       fr: "En 2026, la commodité sera la monnaie ultime dans la prise de décision des consommateurs. Les clients modernes s'attendent à réserver des services, planifier des consultations ou prendre rendez-vous instantanément depuis leur smartphone en quelques clics, sans passer d'appels téléphoniques ni attendre des heures pour une réponse dans Instagram Direct.",
+      es: "En 2026, la comodidad es la moneda que decide. El cliente espera reservar un servicio, una consulta o una cita desde el móvil en unos toques — sin llamar ni esperar horas una respuesta en Instagram Direct.",
           },
           {
             en: 'Integrating a seamless online booking system directly into your website converts casual traffic into paying clients 24/7 while freeing up hours of administrative time.',
             ua: 'Інтеграція системи онлайн-бронювання безпосередньо на сайт перетворює відвідувачів на реальні записи 24/7 та звільняє десятки годин адміністративної роботи.',
       de: "Die Integration eines nahtlosen Online-Buchungssystems direkt in Ihre Website wandelt gelegentlichen Traffic rund um die Uhr in zahlende Kunden um und spart gleichzeitig stundenlange Verwaltungszeit.",
       fr: "L'intégration d'un système de réservation en ligne transparent directement sur votre site Web convertit le trafic occasionnel en clients payants 24h/24 et 7j/7 tout en libérant des heures de temps administratif.",
+      es: "Una reserva online integrada en la web convierte tráfico casual en clientes de pago 24/7 y libera horas de administración.",
           },
         ],
       },
@@ -2480,6 +2992,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Приховані збитки ручного запису через месенджери та телефон',
       de: "Die versteckten Kosten der manuellen Planung in Direktnachrichten und Messengern",
       fr: "Le coût caché de la planification manuelle dans les DM et les messagers",
+      es: "El coste oculto de agendar a mano en DMs y mensajería",
         },
         paragraphs: [
           {
@@ -2487,6 +3000,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Сервісний бізнес, який покладається лише на дзвінки чи чати, щодня втрачає клієнтів через такі бар\'єри:',
       de: "Dienstleistungsunternehmen, die ausschließlich auf Telefonanrufe oder Messenger-Chats angewiesen sind, sind mit großen Betriebslecks konfrontiert:",
       fr: "Les entreprises de services qui dépendent exclusivement des appels téléphoniques ou des chats par messagerie sont confrontées à des fuites opérationnelles majeures :",
+      es: "El negocio de servicios que vive solo del teléfono o del chat tiene fugas gordas:",
           },
         ],
         list: [
@@ -2495,24 +3009,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Втрата понад 40% позаробочого трафіку: Більше 40% рішень про запис приймаються після 20:00 або вранці до 09:00, коли менеджери не відповідають.',
       de: "Mehr als 40 % Verkehr nach Geschäftsschluss verloren: Über 40 % der Buchungsentscheidungen erfolgen nach 20:00 Uhr oder vor 09:00 Uhr, wenn das Personal offline ist.",
       fr: "Plus de 40 % de trafic perdu en dehors des heures d'ouverture : plus de 40 % des décisions de réservation ont lieu après 20h00 ou avant 9h00 lorsque le personnel est hors ligne.",
+      es: "Más del 40 % del tráfico fuera de horario se pierde: más del 40 % de las decisiones de reserva ocurren después de las 20:00 o antes de las 09:00, cuando el equipo está offline.",
           },
           {
             en: 'Friction and delayed response dropoffs: High-intent leads leave for competitors if they do not receive an immediate confirmation.',
             ua: 'Відсіювання гарячих клієнтів: Очікування відповіді в чаті знижує конверсію — клієнт просто відкриває сайт конкурента з миттєвою кнопкою запису.',
       de: "Reibungsverluste und verspätete Reaktionsabbrüche: Leads mit hoher Absicht verlassen das Unternehmen und wenden sich an die Konkurrenz, wenn sie keine sofortige Bestätigung erhalten.",
       fr: "Frictions et abandons de réponses tardives : les prospects à forte intention partent vers les concurrents s'ils ne reçoivent pas de confirmation immédiate.",
+      es: "Fricción y abandono por tardar: un lead con intención se va al competidor si no hay confirmación inmediata.",
           },
           {
             en: 'Hours wasted on routine coordination: Staff spend 15-20 hours weekly checking slots, sending card numbers, and typing reminder messages.',
             ua: 'Години даремної рутини: Адміністратори чи майстри витрачають до 20 годин на тиждень на узгодження вікон та перевірку оплат.',
       de: "Stundenverschwendung durch Routinekoordination: Die Mitarbeiter verbringen wöchentlich 15 bis 20 Stunden damit, Slots zu überprüfen, Kartennummern zu senden und Erinnerungsnachrichten zu schreiben.",
       fr: "Heures perdues en coordination de routine : le personnel passe 15 à 20 heures par semaine à vérifier les emplacements, à envoyer des numéros de carte et à saisir des messages de rappel.",
+      es: "Horas tiradas en coordinación rutinaria: 15–20 horas semanales mirando huecos, pasando números de tarjeta y escribiendo recordatorios.",
           },
           {
             en: 'High No-Show rates: Unconfirmed or unpaid verbal appointments lead to empty schedule gaps and lost revenue.',
             ua: 'Високий відсоток неприходів: Усні записи без застави та авто-нагадувань часто призводять до простоїв у графіку.',
       de: "Hohe No-Show-Raten: Unbestätigte oder unbezahlte mündliche Termine führen zu leeren Terminlücken und Umsatzeinbußen.",
       fr: "Taux de non-présentation élevés : les rendez-vous verbaux non confirmés ou non payés entraînent des interruptions d'horaires vides et une perte de revenus.",
+      es: "Muchos no-shows: citas verbales, sin confirmar ni pagar, dejan huecos vacíos e ingreso perdido.",
           },
         ],
       },
@@ -2522,6 +3040,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Головні переваги системи онлайн-бронювання на власному сайті',
       de: "Hauptvorteile eines Online-Buchungssystems auf Ihrer Website",
       fr: "Principaux avantages d'avoir un système de réservation en ligne sur votre site",
+      es: "Ventajas concretas de tener reserva online en su sitio",
         },
         paragraphs: [
           {
@@ -2529,6 +3048,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Автоматизований процес запису надає вимірювані переваги для вашого бізнесу:',
       de: "Ein automatisierter Buchungsablauf bietet messbare Vorteile für Umsatz, Effizienz und Kundenerlebnis:",
       fr: "Un flux de réservation automatisé offre des avantages mesurables en termes de revenus, d'efficacité et d'expérience client :",
+      es: "Un flujo automático se nota en ingreso, eficiencia y experiencia:",
           },
         ],
         list: [
@@ -2537,30 +3057,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Цілодобові автономні записи 24/7: Прийом заявок відбувається безперервно без участі адміністратора чи вашого особистого часу.',
       de: "Autonomer Sofortverkauf rund um die Uhr: Erfassen Sie Buchungen rund um die Uhr, ohne zusätzliches Personal zu bezahlen oder Chats um Mitternacht zu verwalten.",
       fr: "Ventes autonomes instantanées 24h/24 et 7j/7 : capturez des réservations 24h/24 et 7j/7 sans payer de personnel supplémentaire ni gérer les chats à minuit.",
+      es: "Venta autónoma 24/7: captura reservas a cualquier hora sin pagar extra ni gestionar chats a medianoche.",
           },
           {
             en: 'Up to 80% Reduction in No-Shows via Prepayments & Deposit Integrations: Collect online deposits via Apple Pay / Google Pay / MonoPay / Stripe during checkout.',
             ua: 'Зменшення неприходів до 80% завдяки онлайн-завдатку: Інтеграція миттєвої передоплати або завдатку через Apple Pay / Google Pay / MonoPay.',
       de: "Bis zu 80 % Reduzierung von Nichterscheinen durch Vorauszahlungen und Einzahlungsintegrationen: Sammeln Sie Online-Einzahlungen über Apple Pay / Google Pay / MonoPay / Stripe während des Bezahlvorgangs.",
       fr: "Jusqu'à 80 % de réduction sur les non-présentations via les prépaiements et les intégrations de dépôts : collectez des dépôts en ligne via Apple Pay / Google Pay / MonoPay / Stripe lors du paiement.",
+      es: "Hasta un 80 % menos de no-shows con prepago y depósitos: cobra el depósito online con Apple Pay / Google Pay / MonoPay / Stripe en el checkout.",
           },
           {
             en: 'Zero Double-Bookings with Real-Time Calendar Sync: Real-time 2-way synchronization with Google Calendar, Altegio, or custom CRMs.',
             ua: 'Повна синхронізація без накладок: Двосторонній зв\'язок із Google Календарем та CRM-системами автоматично приховує зайняті години.',
       de: "Keine Doppelbuchungen mit Echtzeit-Kalendersynchronisierung: Zwei-Wege-Synchronisierung in Echtzeit mit Google Kalender, Altegio oder benutzerdefinierten CRMs.",
       fr: "Zéro double réservation grâce à la synchronisation du calendrier en temps réel : synchronisation bidirectionnelle en temps réel avec Google Calendar, Altegio ou des CRM personnalisés.",
+      es: "Cero dobles reservas con sync de calendario en tiempo real: sincronización bidireccional con Google Calendar, Altegio o su CRM.",
           },
           {
             en: 'Automated Reminders (Telegram, Viber, SMS): Automated alerts sent 24h and 2h before the appointment reduce client forgetfulness to zero.',
             ua: 'Автоматичні нагадування (Telegram / SMS): Сповіщення за 24 і 2 години до візиту мінімізують забудькуватість клієнтів.',
       de: "Automatisierte Erinnerungen (Telegramm, Viber, SMS): Automatisierte Benachrichtigungen, die 24 Stunden und 2 Stunden vor dem Termin gesendet werden, reduzieren die Vergesslichkeit des Kunden auf Null.",
       fr: "Rappels automatisés (Telegram, Viber, SMS) : des alertes automatisées envoyées 24h et 2h avant le rendez-vous réduisent à zéro les oublis des clients.",
+      es: "Recordatorios automáticos (Telegram, Viber, SMS): avisos 24 h y 2 h antes recortan el olvido a casi cero.",
           },
           {
             en: 'Higher Ad & SEO Conversion Rate: Direct 1-click booking on your site converts Google search traffic into clients at a much higher rate.',
             ua: 'Вища конверсія з реклами та SEO: Пряма кнопка запису на сайті максимізує прибуток від трафіку з Google та рекламних кампаній.',
       de: "Höhere Anzeigen- und SEO-Conversion-Rate: Durch die direkte 1-Klick-Buchung auf Ihrer Website wird der Google-Suchverkehr viel schneller in Kunden umgewandelt.",
       fr: "Taux de conversion publicitaire et SEO plus élevé : la réservation directe en 1 clic sur votre site convertit le trafic de recherche Google en clients à un taux beaucoup plus élevé.",
+      es: "Más conversión de ads y SEO: reservar en 1 clic convierte el tráfico de Google mucho mejor que un perfil.",
           },
         ],
       },
@@ -2570,6 +3095,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Яким має бути ефективне онлайн-бронювання на сайті',
       de: "Was ein conversionstarkes Webbuchungserlebnis ausmacht",
       fr: "Qu'est-ce qui fait une expérience de réservation Web à fort taux de conversion",
+      es: "Qué hace que una reserva web convierta",
         },
         paragraphs: [
           {
@@ -2577,6 +3103,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Щоб онлайн-запис працював швидко та з максимальною конверсією, інтерфейс має відповідати стандартам 2026 року:',
       de: "Um hohe Konversionsraten zu erzielen, sollte Ihre Buchungsoberfläche diesen Grundprinzipien folgen:",
       fr: "Pour atteindre des taux de conversion élevés, votre interface de réservation doit suivre ces principes fondamentaux :",
+      es: "Para convertir de verdad, la interfaz tiene que cumplir esto:",
           },
         ],
         list: [
@@ -2585,18 +3112,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Mobile-First інтерфейс: Понад 85% записів робляться зі смартфонів — вибір дати та послуги має бути ідеально адаптований під палець.',
       de: "Mobile-First-Benutzeroberfläche: Über 85 % der Buchungen erfolgen über Smartphones – die Kalender- und Serviceauswahl muss ultraschnell und berührungsfreundlich sein.",
       fr: "Interface utilisateur mobile First : plus de 85 % des réservations sont effectuées sur des smartphones : la sélection du calendrier et des services doit être ultra-rapide et conviviale.",
+      es: "UI mobile-first: más del 85 % de las reservas se hacen en el móvil — calendario y servicios tienen que ser rápidos y pensados para el dedo.",
           },
           {
             en: 'Transparent Service Catalog & Duration: Clear procedure descriptions, pricing, specialist choice, and estimated time duration.',
             ua: 'Прозорий каталог та тривалість: Чіткі описи послуг, вказування точної ціни, вибір майстра та тривалості процедури.',
       de: "Transparenter Servicekatalog und -dauer: Klare Verfahrensbeschreibungen, Preise, Fachauswahl und geschätzte Zeitdauer.",
       fr: "Catalogue et durée de services transparents : descriptions claires des procédures, tarifs, choix de spécialistes et durée estimée.",
+      es: "Catálogo y duración transparentes: qué es el procedimiento, precio, especialista y tiempo estimado.",
           },
           {
             en: '1-Click Checkout Integration: Support for instant digital payments without requiring manual bank transfer screenshots.',
             ua: 'Оплата в 1 клік: Підтримка швидкої безготівкової оплати без необхідності надсилати квитанції в чат.',
       de: "1-Klick-Checkout-Integration: Unterstützung für sofortige digitale Zahlungen, ohne dass manuelle Screenshots von Banküberweisungen erforderlich sind.",
       fr: "Intégration du paiement en 1 clic : prise en charge des paiements numériques instantanés sans nécessiter de captures d'écran de virement bancaire manuel.",
+      es: "Checkout en 1 clic: pagos digitales al instante, sin pedir capturas de transferencia.",
           },
         ],
       },
@@ -2606,6 +3136,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Як я можу допомогти інтегрувати онлайн-бронювання для вашого бізнесу',
       de: "Wie ich Ihnen beim Aufbau einer automatisierten Buchungswebsite helfen kann",
       fr: "Comment puis-je vous aider à créer un site Web de réservation automatisé",
+      es: "Cómo puedo ayudarle a montar una web de reservas automática",
         },
         paragraphs: [
           {
@@ -2613,18 +3144,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Розробка системи онлайн-запису вимагає високої швидкості роботи, надійного захисту платежів та бездоганної синхронізації.',
       de: "Die Integration eines schnellen, zuverlässigen Buchungssystems in Ihre Website erfordert eine reibungslose UI-Leistung, sichere Zahlungsabläufe und eine nahtlose API-Synchronisierung.",
       fr: "L'intégration d'un système de réservation rapide et fiable dans votre site Web nécessite des performances d'interface utilisateur fluides, des flux de paiement sécurisés et une synchronisation transparente des API.",
+      es: "Integrar un sistema de reserva rápido y fiable pide UI fluida, pagos seguros y sync de API sin costuras.",
           },
           {
             en: 'I specialize in building custom, ultra-fast web applications with Next.js, React, and Tailwind CSS. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched products, I design custom booking platforms that automate client intake, prevent no-shows, and increase overall business profitability.',
             ua: 'Я спеціалізуюся на створенні сучасних сайтів та веб-додатків на Next.js та React. Понад 8 років досвіду та 100+ реалізованих проєктів гарантують, що ваша система запису буде працювати миттєво та приносити стабільний прибуток.',
       de: "Ich bin auf die Erstellung benutzerdefinierter, ultraschneller Webanwendungen mit Next.js, React und Tailwind CSS spezialisiert. Mit mehr als 8 Jahren Produktionserfahrung, mehr als 4.200 Upwork-Stunden und mehr als 100 eingeführten Produkten entwerfe ich individuelle Buchungsplattformen, die die Kundenaufnahme automatisieren, Nichterscheinen verhindern und die Gesamtrentabilität des Unternehmens steigern.",
       fr: "Je me spécialise dans la création d'applications Web personnalisées et ultra-rapides avec Next.js, React et Tailwind CSS. Avec plus de 8 ans d'expérience en production, plus de 4 200 heures de travail sur Upwork et plus de 100 produits lancés, je conçois des plateformes de réservation personnalisées qui automatisent l'accueil des clients, évitent les non-présentations et augmentent la rentabilité globale de l'entreprise.",
+      es: "Me especializo en aplicaciones web a medida, muy rápidas, con Next.js, React y Tailwind CSS. Más de 8 años en producción, 4.200+ horas en Upwork y 100+ productos lanzados. Diseño plataformas de reserva que automatizan la captación, evitan no-shows y suben la rentabilidad.",
           },
           {
             en: 'Want to automate your booking flow and boost sales? Reach out via the contacts section below for a free project consultation!',
             ua: 'Хочете автоматизувати прийом клієнтів та збільшити прибуток? Зв\'яжіться зі мною у розділі контактів для обговорення вашого проєкту!',
       de: "Möchten Sie Ihren Buchungsablauf automatisieren und den Umsatz steigern? Kontaktieren Sie uns über das Kontaktformular unten für eine kostenlose Projektberatung!",
       fr: "Vous souhaitez automatiser votre flux de réservation et booster vos ventes ? Contactez-nous via la section contacts ci-dessous pour une consultation gratuite sur votre projet !",
+      es: "¿Quiere automatizar las reservas y vender más? Escríbame por los contactos de abajo: consulta de proyecto sin coste.",
           },
         ],
       },
@@ -2638,18 +3172,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Як збільшити продажі онлайн-курсів у 2026 році — Від прогревів у соцмережах до власної навчальної платформи',
       de: "So steigern Sie den Verkauf von Online-Kursen im Jahr 2026 – vom sozialen Hype zur eigenen Plattform",
       fr: "Comment augmenter les ventes de cours en ligne en 2026 – du buzz social à votre propre plateforme",
+      es: "Cómo subir las ventas de cursos online en 2026 — del hype en redes a su propia plataforma",
     },
     excerpt: {
       en: 'Social media launches alone are no longer enough. Discover how to scale online course sales in 2026 using custom landing pages, automated funnels, and organic search traffic.',
       ua: 'Звичайних прогревів та вебінарів у соцмережах більше недостатньо. Розбираємо, як у 2026 році масштабувати продажі курсів за допомогою власного сайту, автоворонок та SEO.',
       de: "Social-Media-Launches allein reichen nicht mehr aus. Entdecken Sie, wie Sie den Verkauf von Online-Kursen im Jahr 2026 mit individuellen Landingpages, automatisierten Funnels und organischem Suchtraffic steigern können.",
       fr: "Les lancements sur les réseaux sociaux ne suffisent plus. Découvrez comment augmenter les ventes de cours en ligne en 2026 à l'aide de pages de destination personnalisées, d'entonnoirs automatisés et de trafic de recherche organique.",
+      es: "Un launch solo en redes ya no basta. Cómo escalar las ventas de cursos en 2026 con landings a medida, funnels automáticos y tráfico orgánico de búsqueda.",
     },
     readTime: {
       en: '6 min read',
       ua: '6 хв читання',
       de: "6 Min. Lesezeit",
       fr: "6 minutes de lecture",
+      es: "6 min de lectura",
     },
     tags: {
       en: ['Online Courses', 'EdTech', 'Sales', 'Web Platform', 'Automation'],
@@ -2668,6 +3205,13 @@ export const businessPosts: RawBlogPost[] = [
         "Plateforme web",
         "Automatisation"
       ],
+      es: [
+        "Cursos online",
+        "EdTech",
+        "Ventas",
+        "Plataforma web",
+        "Automatización"
+      ],
     },
     content: [
       {
@@ -2677,12 +3221,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Ринок онлайн-освіти у 2026 році став зрілим та висококонкурентним. Користувачі втомилися від нескінченних тривалих «прогревів» у соцмережах, маніпулятивних вебінарів та шаблонних сайтів. Сьогодні потенційний студент очікує від автора прозорості, миттєвої демонстрації користі та преміального сервісу.',
       de: "Der Online-Bildungsmarkt ist im Jahr 2026 reifer und wettbewerbsintensiver als je zuvor. Verbraucher haben genug von langen, manipulativen Social-Media-Einführungszyklen, minderwertigen Webinar-Funnels und uninspirierten Vorlagenseiten. Heutzutage verlangen Käufer Transparenz, sofortige Wertdemonstration und ein reibungsloses, erstklassiges Lernerlebnis.",
       fr: "Le marché de l’éducation en ligne en 2026 est devenu plus mature et compétitif que jamais. Les consommateurs en ont assez des cycles de lancement longs et manipulateurs des réseaux sociaux, des entonnoirs de webinaires de mauvaise qualité et des sites modèles sans inspiration. Aujourd'hui, les acheteurs exigent de la transparence, une démonstration instantanée de la valeur et une expérience d'apprentissage fluide et haut de gamme.",
+      es: "El mercado de educación online en 2026 está más maduro y más competido. El consumidor está harto de launches largos y manipulativos, funnels de webinar flojos y webs de plantilla. Hoy pide transparencia, valor al instante y una experiencia de aprendizaje premium, sin fricción.",
           },
           {
             en: 'To scale online course sales consistently year-round without burning out your audience or overpaying for ads, expert educators and course creators are upgrading from basic social media profiles to custom web platforms and automated sales funnels.',
             ua: 'Щоб системно масштабувати продажі курсів протягом усього року, не випалюючи аудиторію та не витрачаючи весь бюджет на рекламу, автори курсів переходять від звичайних профілів у соцмережах до власних висококонверсійних веб-платформ.',
       de: "Um den Verkauf von Online-Kursen das ganze Jahr über konsistent zu steigern, ohne Ihr Publikum zu überfordern oder zu viel für Werbung zu bezahlen, stellen erfahrene Pädagogen und Kursersteller von einfachen Social-Media-Profilen auf benutzerdefinierte Webplattformen und automatisierte Verkaufstrichter um.",
       fr: "Pour augmenter les ventes de cours en ligne de manière cohérente tout au long de l'année sans épuiser votre audience ni payer trop cher pour les publicités, les enseignants experts et les créateurs de cours passent des profils de médias sociaux de base à des plateformes Web personnalisées et à des entonnoirs de vente automatisés.",
+      es: "Para vender cursos todo el año sin quemar a la audiencia ni sobrepagar ads, los creadores que saben están pasando del perfil de redes a plataformas web a medida y funnels automáticos.",
           },
         ],
       },
@@ -2692,6 +3238,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Чому традиційні схеми продажів курсів більше не працюють',
       de: "Warum traditionelle Einführungsmodelle im Jahr 2026 scheitern",
       fr: "Pourquoi les modèles de lancement traditionnels échouent en 2026",
+      es: "Por qué los modelos de launch clásicos fallan en 2026",
         },
         paragraphs: [
           {
@@ -2699,6 +3246,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Покладатися лише на сторіс, Telegram-канали або стандартні конструктори курсів ризиковано з кількох причин:',
       de: "Sich ausschließlich auf Stories, Telegram-Gruppen oder Konstruktorplattformen von Drittanbietern zu verlassen, führt zu schwerwiegenden betrieblichen Einschränkungen:",
       fr: "S'appuyer exclusivement sur des histoires, des groupes Telegram ou des plates-formes de constructeurs tiers crée de graves limitations opérationnelles :",
+      es: "Vivir solo de stories, grupos de Telegram o constructores de terceros pone techos duros:",
           },
         ],
         list: [
@@ -2707,24 +3255,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Втома від «прогревів»: Аудиторія бачить шаблонні прогріви наскрізь і просто прогортає сторіс, через що конверсія з переглядів у покупки падає.',
       de: "Social-Media-Müdigkeit: Das Publikum überspringt vorhersehbare dreiwöchige Einführungsserien, was dazu führt, dass die Konversionsraten von Story-Aufrufen zu Käufern stark sinken.",
       fr: "Lassitude des médias sociaux : le public saute les séries de lancement prévisibles de 3 semaines, ce qui entraîne une forte baisse des taux de conversion des vues d'histoires en acheteurs.",
+      es: "Fatiga de redes: la audiencia se salta la serie previsible de 3 semanas y la conversión de views a compradores se hunde.",
           },
           {
             en: 'Heavy commissions on third-party LMS platforms: Standard course platforms charge high monthly fees plus percentage fees on every transaction, eating up profit margins.',
             ua: 'Комісії та обмеження платформ: Шаблонні LMS-платформи беруть високу щомісячну абоплату та відсотки з кожного платежу, урізаючи маржинальність.',
       de: "Hohe Provisionen auf LMS-Plattformen von Drittanbietern: Standard-Kursplattformen erheben hohe monatliche Gebühren plus prozentuale Gebühren für jede Transaktion, was die Gewinnmargen verschlingt.",
       fr: "Commissions élevées sur les plateformes LMS tierces : les plateformes de cours standard facturent des frais mensuels élevés plus des frais en pourcentage sur chaque transaction, grignotant ainsi les marges bénéficiaires.",
+      es: "Comisiones gordas en LMS de terceros: cuota mensual alta más un porcentaje por transacción. Se come el margen.",
           },
           {
             en: 'Slow page load times on constructors: Generic page builders load dozens of heavy third-party scripts. Every extra second of delay on mobile loses up to 20% of impulse buyers.',
             ua: 'Повільне завантаження конструкторів: Звичайні конструктори сайтів довго завантажуються на смартфонах. Кожна секунда затримки коштує до 20% втрачених продажів.',
       de: "Langsame Seitenladezeiten bei Konstruktoren: Generische Seitenersteller laden Dutzende umfangreiche Skripts von Drittanbietern. Jede zusätzliche Sekunde Verzögerung auf Mobilgeräten verliert bis zu 20 % der Impulskäufer.",
       fr: "Temps de chargement des pages lents sur les constructeurs : les constructeurs de pages génériques chargent des dizaines de scripts tiers lourds. Chaque seconde supplémentaire de retard sur mobile fait perdre jusqu'à 20 % d'acheteurs impulsifs.",
+      es: "Carga lenta en constructores: el page builder genérico mete decenas de scripts. Cada segundo extra en móvil pierde hasta un 20 % de compras impulsivas.",
           },
           {
             en: 'Zero Google Organic Search Traffic: Social media posts and closed course portals do not rank on Google for valuable intent searches like "best web development course 2026".',
             ua: 'Відсутність пошукового трафіку: Дописи в соцмережах та закриті кабінети не індексуються в Google і не приносять безкоштовних клієнтів із пошуку.',
       de: "Kein organischer Google-Suchverkehr: Social-Media-Beiträge und geschlossene Kursportale ranken bei Google nicht für Suchanfragen mit wertvoller Absicht wie „Bester Webentwicklungskurs 2026“.",
       fr: "Zéro trafic de recherche organique Google : les publications sur les réseaux sociaux et les portails de cours fermés ne sont pas classés sur Google pour les recherches d'intention précieuses telles que \"meilleur cours de développement Web 2026\".",
+      es: "Cero tráfico orgánico de Google: posts y portales cerrados no rankean para búsquedas con intención como «mejor curso de desarrollo web 2026».",
           },
         ],
       },
@@ -2734,6 +3286,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Ефективні стратегії для збільшення продажів курсів у 2026 році',
       de: "Bewährte Strategien zur Skalierung des Kursverkaufs im Jahr 2026",
       fr: "Stratégies éprouvées pour augmenter les ventes de cours en 2026",
+      es: "Estrategias que sí escalan las ventas en 2026",
         },
         paragraphs: [
           {
@@ -2741,6 +3294,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Ось головні технічні та маркетингові кроки, які дозволяють топовим авторам курсів досягати максимальної конверсії:',
       de: "Hier sind die wichtigsten technischen und strategischen Säulen, die Top-EdTech-Entwickler nutzen, um die Konversionsraten zu maximieren:",
       fr: "Voici les principaux piliers techniques et stratégiques que les principaux créateurs EdTech utilisent pour maximiser les taux de conversion :",
+      es: "Estos son los pilares técnicos y de estrategia que usan los creadores EdTech que convierten:",
           },
         ],
         list: [
@@ -2749,30 +3303,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Власний висококонверсійний лендинг: Швидкий та сучасний сайт на Next.js із відео-тизерами, детальною програмою, інтерактивними блоками та відгуками.',
       de: "Benutzerdefinierte Landingpage mit hoher Conversion-Rate: Eine maßgeschneiderte Landingpage, die mit moderner Webtechnologie (Next.js / React) erstellt wurde, mit Video-Teasern, interaktiven Lehrplan-Akkordeons und Fallstudien von Studenten.",
       fr: "Page de destination personnalisée à fort taux de conversion : une page de destination sur mesure construite avec une technologie Web moderne (Next.js / React) avec des teasers vidéo, des accordéons de programme interactifs et des études de cas d'étudiants.",
+      es: "Landing de alta conversión a medida: construida con stack moderno (Next.js / React), teasers en vídeo, acordeones de temario e historias de alumnos.",
           },
           {
             en: 'Automated Evergreen Sales Funnels: Offer immediate trial micro-lessons or instant diagnostic tests that lead to seamless 1-click checkout 24/7.',
             ua: 'Автоматизовані Evergreen-воронки: Можливість отримати безкоштовний пробний урок або пройти тест із миттєвим переходом до оплати 24/7.',
       de: "Automatisierte Evergreen-Verkaufstrichter: Bieten Sie sofortige Probe-Mikrolektionen oder sofortige Diagnosetests an, die rund um die Uhr zu einem nahtlosen 1-Klick-Checkout führen.",
       fr: "Entonnoirs de vente Evergreen automatisés : proposez des micro-leçons d'essai immédiates ou des tests de diagnostic instantanés qui mènent à un paiement transparent en 1 clic, 24h/24 et 7j/7.",
+      es: "Funnels evergreen automáticos: microlecciones de prueba o tests diagnósticos que llevan a un checkout en 1 clic, 24/7.",
           },
           {
             en: '1-Click Multi-Currency Payment Gateway: Integrated payments via Apple Pay, Google Pay, Stripe, LiqPay, or MonoPay without sending manual card details in DMs.',
             ua: 'Зручна оплата в 1 клік: Пряма інтеграція Apple Pay, Google Pay, Stripe, LiqPay та MonoPay без переказів «на картку в діректі».',
       de: "1-Klick-Zahlungsgateway für mehrere Währungen: Integrierte Zahlungen über Apple Pay, Google Pay, Stripe, LiqPay oder MonoPay, ohne manuelle Kartendaten in DMs zu senden.",
       fr: "Passerelle de paiement multi-devises en 1 clic : paiements intégrés via Apple Pay, Google Pay, Stripe, LiqPay ou MonoPay sans envoyer manuellement les détails de la carte dans les DM.",
+      es: "Pasarela multidivisa en 1 clic: Apple Pay, Google Pay, Stripe, LiqPay o MonoPay — sin pasar la tarjeta por DM.",
           },
           {
             en: 'Search Engine Optimization (SEO): Ranking your course pages on Google search for targeted keywords brings steady, high-intent students year-round with zero ad spend.',
             ua: 'Оптимізація під пошук (SEO): Сторінки курсів, які знаходяться на перших позиціях у Google, дають постійний потік пацієнтів та студентів без витрат на таргетинг.',
       de: "Suchmaschinenoptimierung (SEO): Das Ranking Ihrer Kursseiten bei der Google-Suche nach gezielten Schlüsselwörtern bringt das ganze Jahr über stabile, lernwillige Studierende ohne Werbeausgaben.",
       fr: "Optimisation des moteurs de recherche (SEO) : le classement de vos pages de cours sur la recherche Google pour des mots clés ciblés attire des étudiants stables et motivés tout au long de l'année sans aucune dépense publicitaire.",
+      es: "SEO: rankear las páginas del curso en Google para keywords con intención trae alumnos estables todo el año, sin gastar en ads.",
           },
           {
             en: 'Interactive Quiz & Pricing Calculator: Help students choose the optimal tariff (Standard, Pro, VIP) based on their goals right on the site.',
             ua: 'Інтерактивні тести та квізи: Допомагають студенту обрати потрібний тариф або напрямок прямо під час перегляду сайту.',
       de: "Interaktives Quiz und Preisrechner: Helfen Sie Schülern, direkt auf der Website den optimalen Tarif (Standard, Pro, VIP) basierend auf ihren Zielen auszuwählen.",
       fr: "Quiz interactif et calculateur de prix : aidez les étudiants à choisir le tarif optimal (Standard, Pro, VIP) en fonction de leurs objectifs directement sur le site.",
+      es: "Quiz interactivo y calculadora de precio: el alumno elige el tarifa (Standard, Pro, VIP) según su objetivo, en la propia web.",
           },
         ],
       },
@@ -2782,6 +3341,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Чому власний сайт перемагає шаблонні конструктори курсів',
       de: "Warum eine benutzerdefinierte Webplattform den Kurserstellern mit Vorlagen überlegen ist",
       fr: "Pourquoi une plate-forme Web personnalisée bat les créateurs de cours modèles",
+      es: "Por qué una plataforma web a medida gana al constructor de cursos",
         },
         paragraphs: [
           {
@@ -2789,6 +3349,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Власна веб-платформа, розроблена під ваш бренд, надає вирішальні переваги:',
       de: "Eine maßgeschneiderte Webanwendung, die speziell für Ihre Kursmarke entwickelt wurde, bietet strategische langfristige Vorteile:",
       fr: "Une application Web personnalisée conçue spécifiquement pour la marque de votre cours offre des avantages stratégiques à long terme :",
+      es: "Una aplicación pensada para su marca de curso da ventajas a largo plazo:",
           },
         ],
         list: [
@@ -2797,24 +3358,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: '100% контроль та незалежність: Жодних щомісячних платежів стороннім сервісам та ризиків блокування чи зміни правил платформи.',
       de: "100 % Markeneigentum und Unabhängigkeit: Keine monatlichen Abonnementgebühren für Tools von Drittanbietern, kein Risiko einer Plattformabschaltung oder plötzlicher Richtlinienänderungen.",
       fr: "Propriété et indépendance de marque à 100 % : aucun frais d'abonnement mensuel à des outils tiers, aucun risque d'arrêt de la plateforme ou de changement soudain de politique.",
+      es: "100 % de propiedad e independencia: sin cuota mensual a terceros, sin riesgo de que cierren la plataforma o cambien las reglas de un día para otro.",
           },
           {
             en: 'Perfect Core Web Vitals (90+ Google Score): Lightning-fast load speed ensures users never drop off while waiting for your page to render.',
             ua: 'Миттєве завантаження (Google PageSpeed 90+): Відвідувачі не закривають сторінку через затримки, а одразу переходять до вивчення матеріалу.',
       de: "Perfect Core Web Vitals (90+ Google Score): Die blitzschnelle Ladegeschwindigkeit stellt sicher, dass Benutzer nie abbrechen, während sie auf das Rendern Ihrer Seite warten.",
       fr: "Perfect Core Web Vitals (score Google de 90+) : une vitesse de chargement ultra-rapide garantit que les utilisateurs ne abandonnent jamais en attendant le rendu de votre page.",
+      es: "Core Web Vitals de 90+: carga instantánea para que nadie se vaya esperando el render.",
           },
           {
             en: 'Custom Student Dashboards & CRM Integration: Automatically sync student registrations with Telegram bots, CRM systems, and email flows.',
             ua: 'Гнучка інтеграція з CRM та ботами: Автоматична синхронізація покупок з Telegram-ботами, CRM-системами та поштовими розсилками.',
       de: "Benutzerdefinierte Studenten-Dashboards und CRM-Integration: Synchronisieren Sie Studentenregistrierungen automatisch mit Telegram-Bots, CRM-Systemen und E-Mail-Flows.",
       fr: "Tableaux de bord personnalisés des étudiants et intégration CRM : synchronisez automatiquement les inscriptions des étudiants avec les robots Telegram, les systèmes CRM et les flux de courrier électronique.",
+      es: "Dashboards de alumno e integración CRM: altas sincronizadas con bots de Telegram, CRM y flujos de email.",
           },
           {
             en: 'High Security & Intellectual Property Protection: Custom domain architecture safeguards your valuable course content and materials.',
             ua: 'Захист контенту: Надійний захист ваших авторських матеріалів та власного домену.',
       de: "Hohe Sicherheit und Schutz des geistigen Eigentums: Die benutzerdefinierte Domänenarchitektur schützt Ihre wertvollen Kursinhalte und -materialien.",
       fr: "Haute sécurité et protection de la propriété intellectuelle : l'architecture de domaine personnalisée protège le contenu et le matériel précieux de vos cours.",
+      es: "Seguridad e IP: la arquitectura en su dominio protege el contenido y los materiales.",
           },
         ],
       },
@@ -2824,6 +3389,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Як я можу допомогти створити платформу для продажів вашого курсу',
       de: "Wie ich Ihnen beim Aufbau einer conversionstarken Kursplattform helfen kann",
       fr: "Comment puis-je vous aider à créer une plate-forme de cours à fort taux de conversion",
+      es: "Cómo puedo ayudarle a construir una plataforma de cursos que convierta",
         },
         paragraphs: [
           {
@@ -2831,18 +3397,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Масштабування продажів онлайн-курсів вимагає поєднання зручного дизайну лендингу, мобільної швидкості, автоматизованих воронок та надійної оплати.',
       de: "Die Skalierung des Online-Kursverkaufs erfordert eine Kombination aus conversionstarkem Landingpage-Design, mobiler Geschwindigkeitsoptimierung, automatisierten Funnels und der Integration eines Zahlungsgateways.",
       fr: "La mise à l'échelle des ventes de cours en ligne nécessite une combinaison de conception de pages de destination à fort taux de conversion, d'optimisation de la vitesse mobile, d'entonnoirs automatisés et d'intégration de passerelles de paiement.",
+      es: "Escalar ventas de cursos pide landing de alta conversión, velocidad móvil, funnels automáticos e integración de pasarela.",
           },
           {
             en: 'I specialize in developing custom, ultra-fast websites and web platforms for course creators, educators, and EdTech businesses using Next.js, React, and Tailwind CSS. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched products, I ensure your course platform loads in milliseconds and maximizes your revenue.',
             ua: 'Я спеціалізуюся на розробці швидких та адаптивних сайтів для авторів курсів та EdTech проєктів на Next.js та React. Понад 8 років досвіду та 100+ реалізованих проєктів гарантують, що ваш сайт буде працювати миттєво та конвертувати відвідувачів у покупців.',
       de: "Ich bin auf die Entwicklung benutzerdefinierter, ultraschneller Websites und Webplattformen für Kursersteller, Pädagogen und EdTech-Unternehmen unter Verwendung von Next.js, React und Tailwind CSS spezialisiert. Mit über 8 Jahren Produktionserfahrung, über 4.200 Upwork-Stunden und über 100 eingeführten Produkten stelle ich sicher, dass Ihre Kursplattform in Millisekunden geladen wird und Ihr Umsatz maximiert wird.",
       fr: "Je me spécialise dans le développement de sites Web et de plates-formes Web personnalisés et ultra-rapides pour les créateurs de cours, les éducateurs et les entreprises EdTech à l'aide de Next.js, React et Tailwind CSS. Avec plus de 8 ans d'expérience en production, plus de 4 200 heures de travail sur Upwork et plus de 100 produits lancés, je veille à ce que votre plateforme de cours se charge en millisecondes et maximise vos revenus.",
+      es: "Diseño webs y plataformas ultra rápidas a medida para creadores, docentes y EdTech, con Next.js, React y Tailwind CSS. Más de 8 años en producción, 4.200+ horas en Upwork y 100+ productos lanzados. Su plataforma carga en milisegundos y maximiza el ingreso.",
           },
           {
             en: 'Planning to launch a new course or automate sales for your existing product? Reach out via the contacts section below for a free consultation!',
             ua: 'Плануєте новий запуск онлайн-курсу або хочете автоматизувати продажі існуючого продукту? Зв\'яжіться зі мною у розділі контактів для обговорення вашого проєкту!',
       de: "Planen Sie die Einführung eines neuen Kurses oder die Automatisierung des Verkaufs für Ihr bestehendes Produkt? Kontaktieren Sie uns über das Kontaktformular unten für eine kostenlose Beratung!",
       fr: "Vous envisagez de lancer un nouveau cours ou d'automatiser les ventes de votre produit existant ? Contactez-nous via la section contacts ci-dessous pour une consultation gratuite !",
+      es: "¿Va a lanzar un curso nuevo o a automatizar las ventas del que ya tiene? Escríbame por los contactos de abajo: consulta sin coste.",
           },
         ],
       },
@@ -2856,18 +3425,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Чому косметологу потрібен власний сайт у 2026 році — Більше ніж Instagram та дірект',
       de: "Warum eine Kosmetikerin im Jahr 2026 eine persönliche Website braucht – über Instagram und DMs hinaus",
       fr: "Pourquoi une cosmétologue a besoin d'un site Web personnel en 2026 - Au-delà d'Instagram et des DM",
+      es: "Por qué una cosmetóloga necesita web propia en 2026 — más allá de Instagram y los DMs",
     },
     excerpt: {
       en: 'Social media algorithms cut reach and direct messages cause scheduling chaos. Discover why a website helps a cosmetologist automate bookings, build medical trust, and attract high-ticket clients.',
       ua: 'Алгоритми соцмереж урізають охоплення, а записи в дірект створюють хаос. Чому власний сайт допомагає косметологу автоматизувати онлайн-запис, будувати довіру та залучати платоспроможних клієнтів.',
       de: "Social-Media-Algorithmen verringern die Reichweite und Direktnachrichten verursachen ein Chaos bei der Planung. Entdecken Sie, warum eine Website einer Kosmetikerin dabei hilft, Buchungen zu automatisieren, medizinisches Vertrauen aufzubauen und Kunden mit hohen Eintrittspreisen anzuziehen.",
       fr: "Les algorithmes des réseaux sociaux réduisent la portée et les messages directs provoquent un chaos dans la planification. Découvrez pourquoi un site Web aide une cosmétologue à automatiser les réservations, à renforcer la confiance médicale et à attirer des clients coûteux.",
+      es: "Los algoritmos recortan el alcance y los DMs desordenan la agenda. Por qué una web ayuda a una cosmetóloga a automatizar reservas, construir confianza médica y atraer clientes de ticket alto.",
     },
     readTime: {
       en: '6 min read',
       ua: '6 хв читання',
       de: "6 Min. Lesezeit",
       fr: "6 minutes de lecture",
+      es: "6 min de lectura",
     },
     tags: {
       en: ['Cosmetology', 'Business', 'Website', 'Automation', 'SEO'],
@@ -2886,6 +3458,13 @@ export const businessPosts: RawBlogPost[] = [
         "Automatisation",
         "SEO"
       ],
+      es: [
+        "Cosmetología",
+        "Negocio",
+        "Web",
+        "Automatización",
+        "SEO"
+      ],
     },
     content: [
       {
@@ -2895,12 +3474,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Більшість косметологів, фахівців естетичної медицини та б\'юті-студій починають просувати свої послуги в Instagram або TikTok. Це здається простим і швидким рішенням: викласти сторіс, показати результати «до/після» та записати коротке відео. Проте з ростом бази клієнтів та ущільненням графіка робота виключно через соцмережі починає гальмувати розвиток.',
       de: "Die meisten Kosmetikerinnen, Spezialisten für ästhetische Medizin und Schönheitskliniken beginnen ihre Online-Präsenz auf Instagram oder TikTok. Es fühlt sich schnell und bequem an, Geschichten zu veröffentlichen, Vorher-Nachher-Ergebnisse zu zeigen und kurze Videos aufzunehmen. Wenn jedoch Ihr Kundenstamm wächst und Ihr Terminkalender voller wird, führt die ausschließliche Nutzung sozialer Medien zu erheblichen Engpässen.",
       fr: "La plupart des cosmétologues, spécialistes de médecine esthétique et cliniques de beauté commencent leur présence en ligne sur Instagram ou TikTok. Il est rapide et pratique de publier des histoires, d'afficher les résultats avant et après et d'enregistrer de courtes vidéos. Cependant, à mesure que votre clientèle s’élargit et que votre emploi du temps se remplit, le recours exclusif aux médias sociaux crée d’importants goulots d’étranglement.",
+      es: "La mayoría de cosmetólogas, especialistas en medicina estética y clínicas empiezan en Instagram o TikTok. Es rápido: stories, antes/después, vídeos cortos. Cuando la base crece y la agenda se llena, vivir solo de redes se convierte en un cuello de botella.",
           },
           {
             en: 'In 2026, a personal website is no longer just a luxury. It is a powerful automated sales engine and trust hub that converts social media followers and Google searchers into loyal, high-ticket clients.',
             ua: 'У 2026 році власний сайт для косметолога — це не просто сторінка для візитки, а потужний автоматизований інструмент, який будує максимальну довіру та перетворює відвідувачів на постійних клієнтів.',
       de: "Im Jahr 2026 ist eine persönliche Website kein Luxus mehr. Es handelt sich um eine leistungsstarke automatisierte Verkaufsmaschine und Vertrauenszentrale, die Social-Media-Follower und Google-Sucher in treue, kaufkräftige Kunden verwandelt.",
       fr: "En 2026, un site internet personnel n’est plus qu’un luxe. Il s'agit d'un puissant moteur de vente automatisé et d'un centre de confiance qui convertit les abonnés des réseaux sociaux et les chercheurs Google en clients fidèles et coûteux.",
+      es: "En 2026, una web propia ya no es un lujo. Es un motor de venta automático y un hub de confianza que convierte followers y búsquedas de Google en clientes fieles, de ticket alto.",
           },
         ],
       },
@@ -2910,6 +3491,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Чому Instagram та листування в дірект більше не справляються у 2026 році',
       de: "Warum Instagram und DMs im Jahr 2026 nicht ausreichen",
       fr: "Pourquoi Instagram et les DM ne suffisent pas en 2026",
+      es: "Por qué Instagram y los DMs no bastan en 2026",
         },
         paragraphs: [
           {
@@ -2917,6 +3499,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Якщо весь процес запису відбувається через приватні повідомлення в Instagram, Telegram або Viber, ви неминуче стикаєтеся з такими проблемами:',
       de: "Wenn Ihr gesamter Buchungsablauf über Instagram-Direktnachrichten, Telegram oder Viber erfolgt, stoßen Sie unweigerlich auf diese systemischen Probleme:",
       fr: "Si l’intégralité de votre flux de réservation s’effectue via les messages directs Instagram, Telegram ou Viber, vous rencontrez inévitablement ces problèmes systémiques :",
+      es: "Si todo el flujo de reserva pasa por Instagram Direct, Telegram o Viber, estos problemas son inevitables:",
           },
         ],
         list: [
@@ -2925,24 +3508,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Постійна рутина в чатах: Щодня відповідати на однакові запитання про ціни, протипоказання та вільні віконця відбирає години вашого робочого часу.',
       de: "Ständige Routinenachrichten: Die tägliche Beantwortung identischer Fragen zu Eingriffskosten, Kontraindikationen und verfügbaren Zeitfenstern kostet Stunden wertvoller Arbeitszeit.",
       fr: "Messages de routine constants : répondre quotidiennement à des questions identiques sur les coûts des procédures, les contre-indications et les plages horaires disponibles vole des heures de temps de travail précieux.",
+      es: "Mensajería rutinaria constante: responder cada día lo mismo — precio, contraindicaciones, huecos — se come horas de trabajo de verdad.",
           },
           {
             en: 'Lost and forgotten leads: Messages get buried in DMs, leading to delayed responses, frustrated patients, and missed revenue.',
             ua: 'Втрачені заявки: Повідомлення губляться в діректі, клієнти довго чекають на відповідь і йдуть до конкурентів, які відповідають миттєво.',
       de: "Verlorene und vergessene Leads: Nachrichten bleiben in Direktnachrichten verborgen, was zu verzögerten Antworten, frustrierten Patienten und entgangenen Einnahmen führt.",
       fr: "Pistes perdues et oubliées : les messages sont enfouis dans les messages directs, ce qui entraîne des réponses retardées, des patients frustrés et des revenus manqués.",
+      es: "Leads perdidos y olvidados: los mensajes se entierran en el DM, la respuesta tarda, el paciente se frustra y el ingreso se va.",
           },
           {
             en: 'Social media algorithm changes: Instagram cuts organic post reach unpredictably, forcing creators to constantly buy ads or post nonstop content.',
             ua: 'Залежність від алгоритмів: Соцмережі регулярно знижують охоплення, змушуючи купувати рекламу або беззупинно знімати вміст.',
       de: "Änderungen des Social-Media-Algorithmus: Instagram verringert die Reichweite organischer Beiträge auf unvorhersehbare Weise und zwingt Ersteller dazu, ständig Anzeigen zu kaufen oder ununterbrochen Inhalte zu veröffentlichen.",
       fr: "Modifications de l'algorithme des médias sociaux : Instagram réduit la portée des publications organiques de manière imprévisible, obligeant les créateurs à constamment acheter des publicités ou à publier du contenu en continu.",
+      es: "Cambios de algoritmo: Instagram recorta el alcance orgánico sin avisar y obliga a comprar ads o a publicar sin parar.",
           },
           {
             en: 'Lack of medical structured trust: Instagram highlights brief stories and posts, but fails to properly display medical diplomas, hygiene certificates, equipment details, and preparation guidelines.',
             ua: 'Відсутність системного презентування послуг: У соцмережах складно красиво та зручно викласти ліцензії, дипломи, описи препаратів, обладнання та інструкції з підготовки.',
       de: "Mangel an strukturiertem medizinischem Vertrauen: Instagram hebt kurze Geschichten und Beiträge hervor, zeigt jedoch medizinische Diplome, Hygienezertifikate, Ausrüstungsdetails und Vorbereitungsrichtlinien nicht richtig an.",
       fr: "Manque de confiance médicale structurée : Instagram met en avant de brèves histoires et publications, mais ne parvient pas à afficher correctement les diplômes médicaux, les certificats d'hygiène, les détails de l'équipement et les directives de préparation.",
+      es: "Poca confianza médica estructurada: Instagram enseña stories; no enseña bien diplomas, higiene, equipo ni pautas de preparación.",
           },
         ],
       },
@@ -2952,6 +3539,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Головні переваги власного сайту для косметолога',
       de: "Hauptvorteile einer persönlichen Website für eine Kosmetikerin",
       fr: "Principaux avantages d'avoir un site Web personnel pour un cosmétologue",
+      es: "Ventajas clave de una web propia para una cosmetóloga",
         },
         paragraphs: [
           {
@@ -2959,6 +3547,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Власний сайт вирішує ключові бізнес-завдання косметолога та виводить вашу практику на новий рівень:',
       de: "Eine spezielle Website löst die zentralen betrieblichen Herausforderungen einer Kosmetikpraxis und steigert den Status Ihrer Marke:",
       fr: "Un site Web dédié résout les principaux défis opérationnels d'un cabinet de cosmétologie et élève le statut de votre marque :",
+      es: "Una web dedicada resuelve la operación del día a día y sube el estatus de la marca:",
           },
         ],
         list: [
@@ -2967,30 +3556,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Автоматичний 24/7 онлайн-запис: Клієнт може обрати процедуру, вільний час і записатися навіть о першій ночі без очікування відповіді в чаті.',
       de: "Automatisierte Online-Buchung rund um die Uhr: Kunden können ein Verfahren auswählen, verfügbare Termine anzeigen und um Mitternacht einen Termin buchen, ohne auf Ihre Antwort auf eine Nachricht warten zu müssen.",
       fr: "Réservation en ligne automatisée 24h/24 et 7j/7 : les clients peuvent choisir une procédure, afficher les dates disponibles et prendre rendez-vous à minuit sans attendre que vous répondiez à un message.",
+      es: "Reserva online automática 24/7: el cliente elige el procedimiento, ve fechas y reserva a medianoche sin esperar su respuesta.",
           },
           {
             en: 'Full Google Search & Local SEO Visibility: When potential patients search for "botox Kyiv", "laser facial treatment", or "lip augmentation cosmetologist", your website appears directly in Google search results.',
             ua: 'Пошуковий трафік з Google (SEO): Коли потенційні клієнти шукають у Google «чистка обличчя Київ», «контурна пластика» або «косметолог біля мене», вони знаходять саме ваш сайт.',
       de: "Vollständige Google-Suche und lokale SEO-Sichtbarkeit: Wenn potenzielle Patienten nach „Botox Kiew“, „Laser-Gesichtsbehandlung“ oder „Kosmetikerin für Lippenvergrößerung“ suchen, erscheint Ihre Website direkt in den Google-Suchergebnissen.",
       fr: "Recherche Google complète et visibilité du référencement local : lorsque des patients potentiels recherchent \"botox Kyiv\", \"traitement facial au laser\" ou \"cosmétologue pour l'augmentation des lèvres\", votre site Web apparaît directement dans les résultats de recherche Google.",
+      es: "Visibilidad en Google y SEO local: quien busca «bótox Madrid», «láser facial» o «aumento de labios» encuentra su web en resultados.",
           },
           {
             en: 'Clear Catalog of Procedures & Pricing: Transparent pricing, detailed procedure descriptions, indications, contraindications, and rehabilitation steps build instant patient confidence.',
             ua: 'Зручний каталог процедур та прайс: Чіткий перелік послуг, опис препаратів, покази, протипоказання та рекомендації з догляду позбавляють зайвих питань.',
       de: "Klarer Katalog der Eingriffe und Preise: Transparente Preise, detaillierte Beschreibungen der Eingriffe, Indikationen, Kontraindikationen und Rehabilitationsschritte schaffen sofortiges Vertrauen der Patienten.",
       fr: "Catalogue clair des procédures et des tarifs : une tarification transparente, des descriptions détaillées des procédures, des indications, des contre-indications et des étapes de réadaptation renforcent la confiance instantanée du patient.",
+      es: "Catálogo y precios claros: tarifas transparentes, indicaciones, contraindicaciones y pasos de recuperación construyen confianza al instante.",
           },
           {
             en: 'High-Quality Portfolio & Certificate Gallery: Present clean, high-resolution before-and-after galleries, hygiene protocols, medical equipment specs, and verified patient reviews.',
             ua: 'Портфоліо «До / Після» та дипломи: Галерея якісних фото робіт, сертифікати, ліцензії, опис сертифікованого обладнання та відгуки.',
       de: "Hochwertige Portfolio- und Zertifikatsgalerie: Präsentieren Sie saubere, hochauflösende Vorher-Nachher-Galerien, Hygieneprotokolle, Spezifikationen für medizinische Geräte und verifizierte Patientenbewertungen.",
       fr: "Portfolio et galerie de certificats de haute qualité : présentez des galeries avant et après propres et haute résolution, des protocoles d'hygiène, des spécifications d'équipement médical et des avis vérifiés de patients.",
+      es: "Portfolio y galería de certificados: antes/después en alta resolución, protocolos de higiene, ficha del equipo y reseñas verificadas.",
           },
           {
             en: 'Pre-appointment Deposit Integration: Reduce no-shows by collecting online deposits or prepayments securely via web payment gateways.',
             ua: 'Зменшення «неприходів» (передоплата): Можливість інтегрувати онлайн-завдаток чи передоплату, що захищає ваш робочий час.',
       de: "Integration von Anzahlungen vor dem Termin: Reduzieren Sie Nichterscheinen, indem Sie Online-Einzahlungen oder Vorauszahlungen sicher über Web-Zahlungsgateways einziehen.",
       fr: "Intégration des dépôts avant rendez-vous : réduisez les non-présentations en collectant les dépôts en ligne ou les prépaiements en toute sécurité via des passerelles de paiement Web.",
+      es: "Depósito previo a la cita: menos no-shows cobrando depósito o prepago por pasarela web.",
           },
         ],
       },
@@ -3000,6 +3594,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Що має бути на ефективному сайті косметолога',
       de: "Was eine conversionstarke Kosmetik-Website beinhalten sollte",
       fr: "Ce qu'un site Web de cosmétologie à fort taux de conversion devrait inclure",
+      es: "Qué debe incluir una web de cosmetología que convierta",
         },
         paragraphs: [
           {
@@ -3007,6 +3602,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Щоб сайт активно перетворював відвідувачів на реальні записи, його структура має бути чіткою та зручною з мобільного:',
       de: "Um aus Besuchern gebuchte Patienten zu machen, sollte Ihre Website-Struktur übersichtlich, schnell und mobilfreundlich sein:",
       fr: "Pour transformer les visiteurs en patients réservés, la structure de votre site Web doit être claire, rapide et adaptée aux appareils mobiles :",
+      es: "Para pasar de visitante a paciente con cita, la estructura tiene que ser limpia, rápida y mobile-friendly:",
           },
         ],
         list: [
@@ -3015,30 +3611,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Mobile-First верстка: Понад 85% б\'юті-трафіку приходить зі смартфонів. Сайт має відкриватися миттєво та мати зручні великі кнопки.',
       de: "Mobile-First-Design: Über 85 % der Kosmetikkunden durchsuchen Dienstleistungen über Smartphones. Sofortiges Laden und berührungsfreundliche Tasten sind Pflicht.",
       fr: "Conception axée sur le mobile : plus de 85 % des clients en cosmétologie parcourent les services à partir de smartphones. Le chargement instantané et les boutons tactiles sont obligatoires.",
+      es: "Diseño mobile-first: más del 85 % navega desde el móvil. Carga instantánea y botones pensados para el dedo.",
           },
           {
             en: 'About the Specialist Section: Education, certificates, continuous training, philosophy, and hygiene standards.',
             ua: 'Блок «Про фахівця»: Освіта, дипломи, підвищення кваліфікації, сертифікати та стандарти стерильності.',
       de: "Über den Fachbereich: Ausbildung, Zertifikate, Weiterbildung, Philosophie und Hygienestandards.",
       fr: "À propos de la section spécialisée : éducation, certificats, formation continue, philosophie et normes d'hygiène.",
+      es: "Bloque de la especialista: formación, certificados, formación continua, filosofía y estándares de higiene.",
           },
           {
             en: 'Interactive Services Hub: Categorized procedure pages (injectable cosmetology, facial care, hardware cosmetology, body treatments).',
             ua: 'Каталог процедур: Ін\'єкційна косметологія, доглядові процедури, апаратна косметологія, чистки та пілінги.',
       de: "Interactive Services Hub: Kategorisierte Verfahrensseiten (injizierbare Kosmetik, Gesichtspflege, Hardware-Kosmetologie, Körperbehandlungen).",
       fr: "Hub de services interactifs : pages de procédures catégorisées (cosmétologie injectable, soins du visage, cosmétologie matérielle, soins du corps).",
+      es: "Hub de servicios: páginas por categoría (inyectables, facial, aparatología, corporal).",
           },
           {
             en: 'Preparation & Post-Care Guides: Clear instructions for patients before and after treatment to avoid complications and ensure best outcomes.',
             ua: 'Рекомендації до та після процедури: Пам\'ятка клієнту про догляд і протипоказання для безпеки та кращого результату.',
       de: "Anleitungen zur Vorbereitung und Nachsorge: Klare Anweisungen für Patienten vor und nach der Behandlung, um Komplikationen zu vermeiden und beste Ergebnisse sicherzustellen.",
       fr: "Guides de préparation et de post-traitement : instructions claires pour les patients avant et après le traitement pour éviter les complications et garantir les meilleurs résultats.",
+      es: "Guías de preparación y post-cuidado: instrucciones claras antes y después, para evitar complicaciones y mejorar el resultado.",
           },
           {
             en: 'Location & Direct Contact Buttons: Interactive map, cabinet address, parking details, and 1-click links to Telegram, WhatsApp, and Viber.',
             ua: 'Зручні контакти та локація: Карта, адреса кабінету, орієнтири парковки та швидкі кнопки месенджерів.',
       de: "Standort- und Direktkontakt-Schaltflächen: Interaktive Karte, Schrankadresse, Parkdetails und 1-Klick-Links zu Telegram, WhatsApp und Viber.",
       fr: "Boutons de localisation et de contact direct : carte interactive, adresse du cabinet, détails du stationnement et liens en 1 clic vers Telegram, WhatsApp et Viber.",
+      es: "Ubicación y contacto directo: mapa, dirección, parking y enlaces en 1 clic a Telegram, WhatsApp y Viber.",
           },
         ],
       },
@@ -3048,6 +3649,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Як я можу допомогти створити сучасний сайт для вашої косметологічної практики',
       de: "Wie ich Ihnen beim Aufbau einer modernen Website für Ihre Praxis helfen kann",
       fr: "Comment puis-je vous aider à créer un site Web moderne pour votre cabinet",
+      es: "Cómo puedo ayudarle a construir una web moderna para su consulta",
         },
         paragraphs: [
           {
@@ -3055,18 +3657,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Створення сайту для косметолога вимагає поєднання красивого дизайну, високої швидкості завантаження та грамотного SEO.',
       de: "Der Aufbau einer modernen Kosmetik-Website erfordert Geschwindigkeit, elegante Ästhetik, reibungslose Animationen und technische SEO-Optimierung.",
       fr: "Construire un site Web de cosmétologie moderne nécessite de la rapidité, une esthétique élégante, une animation fluide et une optimisation technique du référencement.",
+      es: "Una web de cosmetología moderna pide velocidad, estética cuidada, animación suave y SEO técnico.",
           },
           {
             en: 'I specialize in creating custom, ultra-fast web applications with Next.js, React, and Tailwind CSS. With 8+ years of production experience and 100+ launched projects, I will design a website that presents your services with medical authority, integrates automated online booking, and ranks high in Google Search.',
             ua: 'Я спеціалізуюся на розробці швидких та адаптивних сайтів на Next.js та React. Понад 8 років досвіду та 100+ реалізованих проєктів гарантують, що ваш сайт буде працювати миттєво, виглядати стильно та регулярно залучати нових пацієнтів.',
       de: "Ich bin auf die Erstellung benutzerdefinierter, ultraschneller Webanwendungen mit Next.js, React und Tailwind CSS spezialisiert. Mit über 8 Jahren Produktionserfahrung und über 100 gestarteten Projekten entwerfe ich eine Website, die Ihre Leistungen mit medizinischer Autorität präsentiert, automatisierte Online-Buchungen integriert und in der Google-Suche einen hohen Rang einnimmt.",
       fr: "Je me spécialise dans la création d'applications Web personnalisées et ultra-rapides avec Next.js, React et Tailwind CSS. Avec plus de 8 ans d'expérience en production et plus de 100 projets lancés, je concevrai un site Web qui présente vos services avec une autorité médicale, intègre la réservation en ligne automatisée et occupe un rang élevé dans la recherche Google.",
+      es: "Creo aplicaciones web a medida, ultra rápidas, con Next.js, React y Tailwind CSS. Más de 8 años en producción y 100+ proyectos lanzados. Una web que presenta sus servicios con autoridad médica, integra reserva automática y rankea en Google.",
           },
           {
             en: 'Ready to elevate your beauty business and automate your booking flow? Contact me today for a free consultation and project estimate!',
             ua: 'Бажаєте автоматизувати записи та вивести косметологічну практику на новий рівень? Зв\'яжіться зі мною у розділі контактів для обговорення вашого проєкту!',
       de: "Sind Sie bereit, Ihr Beauty-Geschäft voranzutreiben und Ihren Buchungsablauf zu automatisieren? Kontaktieren Sie mich noch heute für eine kostenlose Beratung und Projektschätzung!",
       fr: "Prêt à développer votre activité de beauté et à automatiser votre flux de réservation ? Contactez-moi dès aujourd'hui pour une consultation gratuite et une estimation de projet !",
+      es: "¿Quiere subir su negocio de belleza y automatizar las reservas? Escríbame hoy: consulta y estimación sin coste.",
           },
         ],
       },
@@ -3080,18 +3685,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Коли потрібен сайт — сторінка в інтернеті вашого бізнесу і чому',
       de: "Wann benötigt Ihr Unternehmen eine Website – und warum ist sie unerlässlich?",
       fr: "Quand votre entreprise a-t-elle besoin d’un site Web – et pourquoi c’est essentiel",
+      es: "Cuándo necesita su negocio una web — y por qué es esencial",
     },
     excerpt: {
       en: 'Social media brings attention, but a website builds trust and scales your business. Learn when your business critically needs a website and why.',
       ua: 'Соціальні мережі привертають увагу, але власний сайт будує довіру та масштабує бізнес. Розбираємо, коли бізнесу критично потрібен сайт і чому.',
       de: "Soziale Medien erregen Aufmerksamkeit, aber eine Website schafft Vertrauen und skaliert Ihr Geschäft. Erfahren Sie, wann Ihr Unternehmen dringend eine Website benötigt und warum.",
       fr: "Les réseaux sociaux attirent l’attention, mais un site Web renforce la confiance et fait évoluer votre entreprise. Découvrez quand votre entreprise a absolument besoin d’un site Web et pourquoi.",
+      es: "Las redes traen atención. Una web construye confianza y escala el negocio. Cuándo es crítico tenerla — y por qué.",
     },
     readTime: {
       en: '6 min read',
       ua: '6 хв читання',
       de: "6 Min. Lesezeit",
       fr: "6 minutes de lecture",
+      es: "6 min de lectura",
     },
     tags: {
       en: ['Business', 'Website', 'Strategy', 'Development'],
@@ -3108,6 +3716,12 @@ export const businessPosts: RawBlogPost[] = [
         "Stratégie",
         "Développement"
       ],
+      es: [
+        "Negocio",
+        "Web",
+        "Estrategia",
+        "Desarrollo"
+      ],
     },
     content: [
       {
@@ -3117,12 +3731,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Багато підприємців-початківців та малого бізнесу починають продавати свої послуги чи товари через Instagram, TikTok або Telegram. Це швидко, зручно та не потребує стартових інвестицій. Проте з ростом бізнесу настає момент, коли одного профілю в соціальних мережах стає замало.',
       de: "Viele kleine Unternehmen und Unternehmer beginnen, ihre Produkte oder Dienstleistungen über Instagram, TikTok oder Telegram zu verkaufen. Es ist schnell, einfach und kostengünstig. Wenn Ihr Unternehmen jedoch wächst, kommt irgendwann der Punkt, an dem ein Social-Media-Profil allein nicht mehr ausreicht.",
       fr: "De nombreuses petites entreprises et entrepreneurs commencent à vendre leurs produits ou services via Instagram, TikTok ou Telegram. C’est rapide, facile et peu coûteux. Cependant, à mesure que votre entreprise se développe, il arrive un moment où un profil sur les réseaux sociaux ne suffit plus.",
+      es: "Muchos negocios pequeños empiezan a vender por Instagram, TikTok o Telegram. Es rápido, fácil y barato. Cuando crecen, llega el punto en que un perfil ya no basta.",
           },
           {
             en: 'In 2026, a website is not just a luxury add-on — it is your digital headquarters that belongs 100% to you, works 24/7 without days off, and systematically turns visitors into paying clients.',
             ua: 'У 2026 році власний сайт — це не додаткова розкіш чи статусна річ. Це цифровий офіс вашої компанії, який належить вам на 100%, працює без вихідних 24/7 і системно перетворює відвідувачів на клієнтів.',
       de: "Im Jahr 2026 ist eine Website nicht nur ein Luxus-Add-on – sie ist Ihre digitale Zentrale, die zu 100 % Ihnen gehört, rund um die Uhr ohne freie Tage funktioniert und Besucher systematisch in zahlende Kunden verwandelt.",
       fr: "En 2026, un site Web n'est pas qu'un complément de luxe : c'est votre siège social numérique qui vous appartient à 100 %, fonctionne 24h/24 et 7j/7 sans jours de congé et transforme systématiquement les visiteurs en clients payants.",
+      es: "En 2026, una web no es un extra de lujo: es su sede digital, 100 % suya, que trabaja 24/7 y convierte visitantes en clientes de pago de forma sistemática.",
           },
         ],
       },
@@ -3132,6 +3748,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Коли бізнесу критично потрібен власний сайт?',
       de: "Wann benötigt ein Unternehmen dringend eine Website?",
       fr: "Quand une entreprise a-t-elle absolument besoin d’un site Web ?",
+      es: "¿Cuándo es crítica una web?",
         },
         paragraphs: [
           {
@@ -3139,6 +3756,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Ось головні сигнали того, що вашому бізнесу час виходити за межі соціальних мереж та створювати власну веб-платформу:',
       de: "Hier sind die wichtigsten Signale, die Ihnen sagen, dass es an der Zeit ist, über Social-Media-Profile hinauszugehen und Ihre eigene Webplattform zu starten:",
       fr: "Voici les signaux clés qui vous indiquent qu’il est temps d’aller au-delà des profils de réseaux sociaux et de lancer votre propre plateforme Web :",
+      es: "Señales de que toca ir más allá del perfil y lanzar su propia plataforma:",
           },
         ],
         list: [
@@ -3147,30 +3765,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Потрібна структурована інформація — прайс, детальний опис послуг, портфоліо чи FAQ губляться у стрічці соцмереж.',
       de: "Strukturierte Informationen erforderlich – Ihre Preise, Ihre detaillierte Serviceliste, Ihr Portfolio oder Ihre FAQs werden in sozialen Feeds versteckt.",
       fr: "Informations structurées nécessaires : vos tarifs, votre liste de services détaillée, votre portefeuille ou vos FAQ sont enfouis dans les flux sociaux.",
+      es: "Necesita info estructurada — precios, catálogo, portfolio o FAQ se entierran en el feed.",
           },
           {
             en: 'Automation required — you need automated bookings, inquiry forms, or payments without managing DM messages manually.',
             ua: 'Потрібна автоматизація — ви хочете приймати заявки, бронювання чи оплату без постійної участі менеджера в чаті.',
       de: "Automatisierung erforderlich – Sie benötigen automatisierte Buchungen, Anfrageformulare oder Zahlungen, ohne DM-Nachrichten manuell verwalten zu müssen.",
       fr: "Automatisation requise : vous avez besoin de réservations, de formulaires de demande ou de paiements automatisés sans gérer manuellement les messages DM.",
+      es: "Necesita automatización — reservas, formularios o pagos sin gestionar DMs a mano.",
           },
           {
             en: 'Google Search & Ads — you want to capture high-intent search traffic from Google (SEO & Google Ads).',
             ua: 'Пошук у Google та реклама — ви хочете залучати гарячий трафік із пошуку Google (SEO) та контекстної реклами.',
       de: "Google-Suche und -Anzeigen – Sie möchten Suchverkehr mit hoher Absicht von Google erfassen (SEO und Google Ads).",
       fr: "Recherche et annonces Google : vous souhaitez capturer le trafic de recherche à forte intention de Google (SEO et Google Ads).",
+      es: "Google Search y Ads — quiere captar tráfico con intención (SEO y Google Ads).",
           },
           {
             en: 'B2B & Enterprise partners — corporate clients, B2B partners, and investors expect a professional website as proof of credibility.',
             ua: 'Робота в B2B або з корпоративними клієнтами — партнери та інвестори вважають наявність сайту обов\'язковим стандартом довіри.',
       de: "B2B- und Unternehmenspartner – Firmenkunden, B2B-Partner und Investoren erwarten eine professionelle Website als Beweis für ihre Glaubwürdigkeit.",
       fr: "Partenaires B2B et entreprises – les entreprises clientes, les partenaires B2B et les investisseurs attendent un site Web professionnel comme preuve de crédibilité.",
+      es: "Partners B2B y enterprise — clientes corporativos, partners e inversores esperan una web profesional como prueba de credibilidad.",
           },
           {
             en: 'Overwhelmed DMs — order volume is growing and social messages create operational friction and lost sales.',
             ua: 'Перевантажені месенджери — обсяг замовлень зростає і хаос у приватних повідомленнях призводить до втрати клієнтів.',
       de: "Überforderte DMs – das Bestellvolumen wächst und Social-Media-Nachrichten führen zu betrieblichen Reibungsverlusten und Umsatzeinbußen.",
       fr: "DM débordés : le volume des commandes augmente et les messages sociaux créent des frictions opérationnelles et des pertes de ventes.",
+      es: "DMs desbordados — el volumen crece y los mensajes crean fricción y ventas perdidas.",
           },
         ],
       },
@@ -3180,6 +3803,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Чому соцмережі не замінять власний сайт?',
       de: "Warum Social Media allein nicht ausreicht",
       fr: "Pourquoi les réseaux sociaux seuls ne suffisent pas",
+      es: "Por qué las redes solas no bastan",
         },
         paragraphs: [
           {
@@ -3187,6 +3811,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Соціальні мережі — це чудова площадка для залучення уваги та першого знайомства. Проте покладатися виключно на них ризиковано з кількох важливих причин:',
       de: "Social-Media-Kanäle eignen sich hervorragend für Bekanntheit und Top-of-Funnel-Reichweite. Doch wenn man sich ausschließlich auf Plattformen von Drittanbietern verlässt, entstehen große Schwachstellen:",
       fr: "Les canaux de médias sociaux sont parfaits pour la notoriété et la portée du haut de l'entonnoir. Mais s’appuyer exclusivement sur des plateformes tierces crée des vulnérabilités majeures :",
+      es: "Las redes sirven para awareness y la parte alta del funnel. Vivir solo de plataformas ajenas crea vulnerabilidades gordas:",
           },
         ],
         list: [
@@ -3195,24 +3820,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Акаунт вам не належить — зміни алгоритмів, падіння охоплень або раптове блокування акаунту можуть миттєво зупинити всі ваші продажі.',
       de: "Ihr Profil gehört nicht Ihnen – Algorithmusaktualisierungen, Reichweitenverluste oder Kontosperrungen können Ihren Umsatz über Nacht zum Erliegen bringen.",
       fr: "Vous n'êtes pas propriétaire de votre profil : les mises à jour d'algorithmes, les baisses de portée ou les interdictions de compte peuvent stopper vos revenus du jour au lendemain.",
+      es: "El perfil no es suyo — un cambio de algoritmo, una caída de alcance o un ban pueden parar el ingreso de un día para otro.",
           },
           {
             en: 'Limited navigation — prospective clients struggle to find older posts, detailed terms, or exact pricing.',
             ua: 'Складна навігація — у соцмережах важко знайти інформацію, опубліковану місяць тому, а ціни та деталі швидко губляться.',
       de: "Eingeschränkte Navigation – potenzielle Kunden haben Schwierigkeiten, ältere Beiträge, detaillierte Bedingungen oder genaue Preise zu finden.",
       fr: "Navigation limitée : les clients potentiels ont du mal à trouver des articles plus anciens, des conditions détaillées ou des prix exacts.",
+      es: "Navegación limitada — al cliente le cuesta encontrar un post viejo, las condiciones o el precio exacto.",
           },
           {
             en: 'No organic Google SEO search presence — people search Google when they are ready to buy, not Instagram.',
             ua: 'Відсутність пошукового трафіку — коли люди шукають вирішення конкретної проблеми, вони йдуть у Google, а не в пошук Instagram.',
       de: "Keine organische Google-SEO-Suchpräsenz – Menschen suchen bei Google, wenn sie zum Kauf bereit sind, nicht bei Instagram.",
       fr: "Aucune présence de recherche organique sur Google SEO : les gens recherchent sur Google lorsqu'ils sont prêts à acheter, pas sur Instagram.",
+      es: "Sin presencia SEO en Google — quien está listo para comprar busca en Google, no en Instagram.",
           },
           {
             en: 'Constrained branding — social feeds look identical for every profile; a website offers a unique brand experience.',
             ua: 'Обмежений брендинг — у соцмережах ваш бренд обмежений рамками стандартного інтерфейсу платформи.',
       de: "Eingeschränktes Branding – soziale Feeds sehen für jedes Profil identisch aus; eine Website bietet ein einzigartiges Markenerlebnis.",
       fr: "Image de marque contrainte : les flux sociaux sont identiques pour chaque profil ; un site Web offre une expérience de marque unique.",
+      es: "Branding encajonado — todos los feeds se parecen; una web ofrece una experiencia de marca propia.",
           },
         ],
       },
@@ -3222,6 +3851,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Чому саме сайт перетворює зацікавленість на реальні угоди',
       de: "Warum eine Website Interesse in echtes Geschäft umwandelt",
       fr: "Pourquoi un site Web convertit l'intérêt en véritable entreprise",
+      es: "Por qué una web convierte interés en negocio real",
         },
         paragraphs: [
           {
@@ -3229,6 +3859,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Власний сайт виконує роль головного хабу всієї вашої маркетингової активності та воронок продажів:',
       de: "Eine eigene Website fungiert als zentraler Knotenpunkt für alle Ihre digitalen Marketingbemühungen und Verkaufstrichter:",
       fr: "Un site Web dédié sert de plaque tournante pour tous vos efforts de marketing numérique et vos entonnoirs de vente :",
+      es: "La web propia es el hub de su marketing y de sus funnels:",
           },
         ],
         list: [
@@ -3237,24 +3868,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Незалежність та повний контроль — власний домен (yourcompany.dev), свій дизайн, ваші правила та цілковита стабільність.',
       de: "Vollständige Eigentümerschaft und Stabilität – Ihr eigener Domainname (yourcompany.dev), individuelles Design und vollständige Datenkontrolle.",
       fr: "Propriété et stabilité totales : votre propre nom de domaine (votreentreprise.dev), une conception personnalisée et un contrôle total des données.",
+      es: "Propiedad y estabilidad — dominio propio (yourcompany.dev), diseño a medida y control de los datos.",
           },
           {
             en: 'Instant credibility & trust — a fast, modern website shows clients that your business is legitimate and established.',
             ua: 'Формування довіри — якісний та швидкий сайт миттєво підвищує статус вашої компанії в очах клієнтів.',
       de: "Sofortige Glaubwürdigkeit und Vertrauen – eine schnelle, moderne Website zeigt Kunden, dass Ihr Unternehmen seriös und etabliert ist.",
       fr: "Crédibilité et confiance instantanées : un site Web rapide et moderne montre aux clients que votre entreprise est légitime et établie.",
+      es: "Credibilidad al instante — una web rápida y moderna dice que el negocio es real y está asentado.",
           },
           {
             en: 'Business process automation — direct integrations with CRMs, payment gateways, calendar schedulers, and analytics.',
             ua: 'Автоматизація процесів — інтеграція з CRM-системами, платіжними шлюзами, онлайн-записом та аналітикою.',
       de: "Geschäftsprozessautomatisierung – direkte Integration mit CRMs, Zahlungsgateways, Kalenderplanern und Analysen.",
       fr: "Automatisation des processus métier : intégrations directes avec les CRM, les passerelles de paiement, les planificateurs de calendrier et les analyses.",
+      es: "Automatización de procesos — CRM, pasarelas, calendarios y analítica, conectados.",
           },
           {
             en: '24/7 availability — clients can explore options, calculate prices, and place orders at any hour of the day.',
             ua: '24/7 доступність — клієнт може ознайомитися з пропозицією та залишити заявку чи здійснити покупку навіть уночі.',
       de: "Verfügbarkeit rund um die Uhr – Kunden können zu jeder Tageszeit Optionen erkunden, Preise berechnen und Bestellungen aufgeben.",
       fr: "Disponibilité 24h/24 et 7j/7 : les clients peuvent explorer les options, calculer les prix et passer des commandes à toute heure de la journée.",
+      es: "Disponibilidad 24/7 — el cliente explora, calcula y pide a cualquier hora.",
           },
         ],
       },
@@ -3264,6 +3899,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Який формат сайту підійде саме вашому бізнесу?',
       de: "Welche Art von Website benötigt Ihr Unternehmen?",
       fr: "De quel type de site Web votre entreprise a-t-elle besoin ?",
+      es: "¿Qué tipo de web necesita su negocio?",
         },
         paragraphs: [
           {
@@ -3271,6 +3907,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Вам не обов\'язково одразу будувати складну та дороговартісну систему. Формат сайту залежить від конкретних завдань вашого бізнесу:',
       de: "Sie müssen nicht vom ersten Tag an ein riesiges Portal erstellen. Wählen Sie eine Site-Struktur basierend auf Ihrer aktuellen Geschäftsphase:",
       fr: "Vous n’avez pas besoin de créer un portail massif dès le premier jour. Choisissez une structure de site en fonction de l'étape actuelle de votre entreprise :",
+      es: "No hace falta un portal enorme el día uno. Elija la estructura según la etapa:",
           },
         ],
         list: [
@@ -3279,24 +3916,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Landing Page (Односторінковий сайт) — ідеально для презентації конкретного товару, послуги чи спецпропозиції з фокусом на високу конверсію.',
       de: "Landing Page (One-Page-Site) – ideal für die Präsentation eines bestimmten Produkts, einer bestimmten Dienstleistung oder eines Lead-Magneten mit maximalem Conversion-Fokus.",
       fr: "Page de destination (site d'une page) – idéale pour présenter un produit, un service ou un aimant principal spécifique avec un objectif de conversion maximal.",
+      es: "Landing (one-page) — para un producto, un servicio o un lead magnet, con el foco en conversión.",
           },
           {
             en: 'Business Card / Portfolio — concise presentation of specialist skills, agency services, project cases, and contact paths.',
             ua: 'Сайт-візитка / Портфоліо — презентація компанії, фахівця чи студії з переліком послуг, кейсів та зручними контактами.',
       de: "Visitenkarte/Portfolio – prägnante Darstellung von Fachkompetenzen, Agenturleistungen, Projektfällen und Kontaktwegen.",
       fr: "Carte de visite/Portfolio – présentation concise des compétences spécialisées, des services de l'agence, des cas de projet et des chemins de contact.",
+      es: "Tarjeta / portfolio — presentación breve de skills, servicios, casos y cómo contactar.",
           },
           {
             en: 'Corporate Website — multi-page platform for growing companies with service hubs, blog/news, and team profiles.',
             ua: 'Корпоративний сайт — багатосторінковий ресурс для середнього та великого бізнесу із деталізацією всіх напрямків діяльності.',
       de: "Unternehmenswebsite – mehrseitige Plattform für wachsende Unternehmen mit Service-Hubs, Blog/News und Teamprofilen.",
       fr: "Site Web d'entreprise — plate-forme multipage pour les entreprises en croissance avec des centres de services, des blogs/actualités et des profils d'équipe.",
+      es: "Web corporativa — varias páginas: hubs de servicio, blog/noticias y equipo.",
           },
           {
             en: 'Web Application / E-commerce — interactive platforms featuring custom user portals, shopping carts, and dynamic workflows.',
             ua: 'Web Application / E-commerce — складні ресурси з інтернет-магазином, особистими кабінетами та інтерактивними функціями.',
       de: "Webanwendung/E-Commerce – interaktive Plattformen mit benutzerdefinierten Benutzerportalen, Einkaufswagen und dynamischen Arbeitsabläufen.",
       fr: "Application Web/Commerce électronique : plates-formes interactives proposant des portails utilisateur personnalisés, des paniers d'achat et des flux de travail dynamiques.",
+      es: "Aplicación web / e-commerce — portales de usuario, carrito y flujos dinámicos.",
           },
         ],
       },
@@ -3306,6 +3947,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Як створити сайт, який реально працюватиме та приноситиме прибуток',
       de: "So erstellen Sie eine Website, die echte Einnahmen liefert",
       fr: "Comment créer un site Web qui génère de vrais revenus",
+      es: "Cómo construir una web que traiga ingreso de verdad",
         },
         paragraphs: [
           {
@@ -3313,18 +3955,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Щоб сайт працював і приносити результати, він має бути не просто красивим, а й технічно досконалим: миттєво завантажуватися (Google PageSpeed 90+), мати зручну мобільну версію та продуманий UX/UI.',
       de: "Eine erfolgreiche Unternehmenswebsite muss schnell, mobilfreundlich, zugänglich und für Suchmaschinenalgorithmen (SEO) optimiert sein. Langsame Websites verlieren Besucher, bevor sie überhaupt den ersten Absatz gelesen haben.",
       fr: "Un site professionnel performant doit être rapide, adapté aux appareils mobiles, accessible et optimisé pour les algorithmes des moteurs de recherche (SEO). Les sites lents perdent des visiteurs avant même qu’ils n’aient lu le premier paragraphe.",
+      es: "Una web de negocio tiene que ser rápida, mobile-friendly, accesible y pensada para SEO. Las lentas pierden al visitante antes del primer párrafo.",
           },
           {
             en: 'I specialize in building lean, ultra-fast websites and web applications using Next.js and React. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched projects, I make sure your website looks premium and converts traffic into customers.',
             ua: 'Я спеціалізуюся на створенні сучасних, надшвидких та оптимізованих сайтів на технологіях React та Next.js. Понад 8 років досвіду, 4 200+ годин на Upwork та 100+ реалізованих проєктів гарантують, що ваш сайт стане потужним інструментом зростання вашого бізнесу.',
       de: "Ich bin auf die Erstellung schlanker, ultraschneller Websites und Webanwendungen mit Next.js und React spezialisiert. Mit über 8 Jahren Produktionserfahrung, über 4.200 Upwork-Stunden und über 100 gestarteten Projekten stelle ich sicher, dass Ihre Website erstklassig aussieht und Traffic in Kunden umwandelt.",
       fr: "Je me spécialise dans la création de sites Web et d'applications Web allégés et ultra-rapides à l'aide de Next.js et React. Avec plus de 8 ans d'expérience en production, plus de 4 200 heures de travail sur Upwork et plus de 100 projets lancés, je m'assure que votre site Web a une apparence premium et convertit le trafic en clients.",
+      es: "Construyo webs y aplicaciones lean, ultra rápidas, con Next.js y React. Más de 8 años en producción, 4.200+ horas en Upwork y 100+ proyectos lanzados. Que se vea premium y convierta tráfico en clientes.",
           },
           {
             en: 'If your business is ready for its own digital home or needs a modern upgrade for an existing site — feel free to reach out via the contacts below for a free initial consultation!',
             ua: 'Якщо ви хочете створити свій перший сайт або оновити застарілий — зв\'яжіться зі мною через контакти нижче, і ми обговоримо найкраще рішення для вашого проєкту!',
       de: "Wenn Ihr Unternehmen für ein eigenes digitales Zuhause bereit ist oder ein modernes Upgrade für eine bestehende Website benötigt, können Sie sich gerne über die unten aufgeführten Kontakte für eine kostenlose Erstberatung an uns wenden!",
       fr: "Si votre entreprise est prête à avoir sa propre maison numérique ou a besoin d'une mise à niveau moderne pour un site existant, n'hésitez pas à nous contacter via les contacts ci-dessous pour une première consultation gratuite !",
+      es: "Si su negocio está listo para una casa digital propia, o la actual pide un update moderno — escríbame por los contactos de abajo. Primera consulta sin coste.",
           },
         ],
       },
@@ -3338,18 +3983,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Чому Instagram та TikTok недостатньо — Вашому бізнесу все одно потрібен власний сайт',
       de: "Warum Instagram und TikTok nicht ausreichen – Ihr Unternehmen braucht immer noch eine Website",
       fr: "Pourquoi Instagram et TikTok ne suffisent pas : votre entreprise a toujours besoin d'un site Web",
+      es: "Por qué Instagram y TikTok no bastan — su negocio sigue necesitando una web",
     },
     excerpt: {
       en: 'Social media brings attention. A website brings trust. Here is why serious businesses invest in their own home on the web.',
       ua: 'Соціальні мережі привертають увагу, а сайт будує довіру. Чому серйозні компанії інвестують у власну веб-платформу.',
       de: "Social Media sorgt für Aufmerksamkeit. Eine Website schafft Vertrauen. Aus diesem Grund investieren seriöse Unternehmen in ihr eigenes Zuhause im Internet.",
       fr: "Les réseaux sociaux attirent l’attention. Un site Web apporte de la confiance. Voici pourquoi les entreprises sérieuses investissent dans leur propre maison sur le Web.",
+      es: "Las redes traen atención. Una web trae confianza. Por eso un negocio serio invierte en su propia casa en internet.",
     },
     readTime: {
       en: '5 min read',
       ua: '5 хв читання',
-      de: "5 Minuten gelesen",
+      de: "5 Min. Lesezeit",
       fr: "5 minutes de lecture",
+      es: "5 min de lectura",
     },
     tags: {
       en: ['Business', 'Website', 'Strategy'],
@@ -3364,6 +4012,11 @@ export const businessPosts: RawBlogPost[] = [
         "Site web",
         "Stratégie"
       ],
+      es: [
+        "Negocio",
+        "Web",
+        "Estrategia"
+      ],
     },
     content: [
       {
@@ -3373,12 +4026,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Instagram та TikTok дають чудове охоплення. Вони допомагають показати брендовость, запускати кампанії та знаходити клієнтів там, де вони гортають стрічку. Але коли людина вирішує, чи довірити вам свої гроші, час або реальний проєкт — вона шукає більше, ніж просто сторінку в соцмережах.',
       de: "Instagram und TikTok sind wirkungsvoll für die Reichweite. Sie helfen Ihnen, Persönlichkeit zu zeigen, Kampagnen durchzuführen und Kunden dort zu treffen, wo sie bereits scrollen. Aber wenn jemand entscheidet, ob er Ihnen sein Geld, seine Zeit oder ein echtes Projekt anvertraut, sucht er nach mehr als nur einem Feed.",
       fr: "Instagram et TikTok sont puissants en termes de portée. Ils vous aident à montrer votre personnalité, à lancer des campagnes et à rencontrer des clients là où ils défilent déjà. Mais lorsque quelqu’un décide de vous confier son argent, son temps ou un vrai projet, il recherche plus qu’un simple flux.",
+      es: "Instagram y TikTok sirven para el alcance. Muestran carácter, lanzan campañas y encuentran al cliente donde ya hace scroll. Pero cuando alguien decide si confiarle dinero, tiempo o un proyecto real, busca más que un feed.",
           },
           {
             en: 'A website is not a luxury add-on. It is the signal that your business is established, intentional, and worth taking seriously.',
             ua: 'Власний сайт — це не додаткова розкіш. Це показник того, що ваш бізнес стабільний, системний та вартий довіри.',
       de: "Eine Website ist kein Luxus-Add-on. Es ist das Signal dafür, dass Ihr Unternehmen etabliert, zielstrebig und ernstzunehmend ist.",
       fr: "Un site Web n’est pas un complément de luxe. C’est le signal que votre entreprise est établie, intentionnelle et mérite d’être prise au sérieux.",
+      es: "Una web no es un extra de lujo. Es la señal de que el negocio está asentado, tiene intención y merece que lo tomen en serio.",
           },
         ],
       },
@@ -3388,6 +4043,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Соцмережі дають видимість. Сайт створює авторитет.',
       de: "Soziale Medien schaffen Sichtbarkeit. Eine Website schafft Glaubwürdigkeit.",
       fr: "Les réseaux sociaux renforcent la visibilité. Un site Web renforce la crédibilité.",
+      es: "Las redes construyen visibilidad. Una web construye credibilidad.",
         },
         paragraphs: [
           {
@@ -3395,12 +4051,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Профілі з\'являються і зникають. Алгоритми змінюються. Акаунти можуть блокуватися. Сайт, яким володієте ви — це стабільний фундамент: ваше ім\'я, ваші послуги та докази якості в одному місці, яке контролюєте ви.',
       de: "Profile kommen und gehen. Algorithmen ändern sich. Konten werden eingeschränkt. Eine Website, die Sie besitzen, ist eine stabile Basis – Ihr Name, Ihr Angebot, Ihr Beweis, an einem Ort, den Sie kontrollieren.",
       fr: "Les profils vont et viennent. Les algorithmes changent. Les comptes sont restreints. Un site Web que vous possédez est un terrain stable : votre nom, votre offre, votre preuve, en un seul endroit que vous contrôlez.",
+      es: "Los perfiles van y vienen. Los algoritmos cambian. Las cuentas se restringen. Una web suya es suelo estable: su nombre, su oferta, su prueba — en un sitio que controla.",
           },
           {
             en: 'Clients, partners, and investors expect it. A clear, fast, professional site answers the questions social posts never fully cover: who you are, what you do, how you work, and why they should choose you.',
             ua: 'Клієнти, партнери та інвестори очікують цього. Зрозумілий, швидкий та професійний сайт дає відповіді на питання, які соцмережі не можуть розкрити повністю: хто ви, що робите, як працюєте та чому варто обрати саме вас.',
       de: "Kunden, Partner und Investoren erwarten es. Eine übersichtliche, schnelle und professionelle Website beantwortet die Fragen, die in Social-Media-Posts nie vollständig beantwortet werden: Wer Sie sind, was Sie tun, wie Sie arbeiten und warum sie sich für Sie entscheiden sollten.",
       fr: "Clients, partenaires et investisseurs l’attendent. Un site clair, rapide et professionnel répond aux questions que les publications sur les réseaux sociaux ne couvrent jamais entièrement : qui vous êtes, ce que vous faites, comment vous travaillez et pourquoi ils devraient vous choisir.",
+      es: "Clientes, partners e inversores la esperan. Una web clara, rápida y profesional responde lo que un post nunca cubre del todo: quién es usted, qué hace, cómo trabaja y por qué elegirle.",
           },
         ],
       },
@@ -3410,6 +4068,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Що повинен доносити якісний сайт бізнесу',
       de: "Was eine Unternehmenswebsite kommunizieren sollte",
       fr: "Ce qu'un site Web d'entreprise doit communiquer",
+      es: "Qué debe comunicar una web de negocio",
         },
         paragraphs: [
           {
@@ -3417,6 +4076,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Вам не потрібні десятки складних сторінок. Потрібна чітка та переконлива презентація, яка легко читається навіть зі смартфона.',
       de: "Sie benötigen nicht Dutzende Seiten. Sie brauchen eine fokussierte Präsenz, die selbstbewusst klingt und sich leicht lesen lässt – sogar auf einem Telefon zwischen zwei TikToks.",
       fr: "Vous n'avez pas besoin de dizaines de pages. Vous avez besoin d’une présence ciblée qui semble confiante et qui se lit facilement, même sur un téléphone entre deux TikToks.",
+      es: "No hacen falta decenas de páginas. Hace falta una presencia enfocada, que suene segura y se lea fácil — incluso en el móvil, entre dos TikToks.",
           },
         ],
         list: [
@@ -3425,24 +4085,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Чим ви займаєтеся — простою та зрозумілою мовою',
       de: "Was Sie tun – im Klartext, ohne Buzzwords",
       fr: "Ce que vous faites – dans un langage simple, sans mots à la mode",
+      es: "Qué hace — en lenguaje claro, sin buzzwords",
           },
           {
             en: 'Who you help — and what problem you solve for them',
             ua: 'Кому ви допомагаєте — і яку саме проблему вирішуєте',
       de: "Wem Sie helfen – und welches Problem Sie für sie lösen",
       fr: "Qui vous aidez – et quel problème vous résolvez pour eux",
+      es: "A quién ayuda — y qué problema le resuelve",
           },
           {
             en: 'Proof — case studies, results, reviews, or shipped work',
             ua: 'Докази — кейси, результати, відгуки та реальні проєкти',
       de: "Beweise – Fallstudien, Ergebnisse, Rezensionen oder versendete Arbeiten",
       fr: "Preuve – études de cas, résultats, critiques ou travaux expédiés",
+      es: "Prueba — casos, resultados, reseñas o trabajo publicado",
           },
           {
             en: 'How to start — one clear contact path, not five scattered links',
             ua: 'Як почати співпрацю — один чіткий спосіб зв\'язку',
       de: "So fangen Sie an – ein klarer Kontaktpfad, nicht fünf verstreute Links",
       fr: "Comment commencer : un chemin de contact clair, pas cinq liens dispersés",
+      es: "Cómo empezar — un camino de contacto claro, no cinco enlaces sueltos",
           },
         ],
       },
@@ -3452,6 +4116,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Фактори довіри, які не дадуть самі соцмережі',
       de: "Vertrauenssignale, die soziale Netzwerke allein nicht liefern können",
       fr: "La confiance signale que le social seul ne peut pas fournir",
+      es: "Señales de confianza que las redes solas no dan",
         },
         paragraphs: [],
         list: [
@@ -3460,30 +4125,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Власний домен (yourbrand.com) — а не просто посилання в профілі',
       de: "Eine benutzerdefinierte Domain (yourbrand.com) – nicht nur eine Link-in-Bio-Seite",
       fr: "Un domaine personnalisé (votremarque.com) – pas seulement une page de lien dans la bio",
+      es: "Un dominio propio (yourbrand.com) — no solo una página de link-in-bio",
           },
           {
             en: 'Structured service pages that show depth, not just highlights',
             ua: 'Структуровані сторінки послуг, які показують експертність',
       de: "Strukturierte Serviceseiten, die Tiefe zeigen, nicht nur Highlights",
       fr: "Pages de service structurées qui montrent la profondeur, pas seulement les points forts",
+      es: "Páginas de servicio estructuradas, con profundidad, no solo highlights",
           },
           {
             en: 'SEO visibility — so people find you when they search, not only when you post',
             ua: 'SEO-оптимізація — щоб вас знаходили через Google пошук',
       de: "SEO-Sichtbarkeit – damit die Leute Sie bei der Suche finden und nicht nur, wenn Sie posten",
       fr: "Visibilité SEO – pour que les gens vous trouvent lorsqu'ils effectuent une recherche, pas seulement lorsque vous publiez",
+      es: "Visibilidad SEO — que le encuentren cuando buscan, no solo cuando publica",
           },
           {
             en: 'Professional email and contact flow tied to your brand',
             ua: 'Професійна корпоративна пошта та зручні контакти',
       de: "Professioneller E-Mail- und Kontaktablauf, der an Ihre Marke gebunden ist",
       fr: "Courriel professionnel et flux de contacts liés à votre marque",
+      es: "Email profesional y un flujo de contacto atado a su marca",
           },
           {
             en: 'A foundation for payments, booking, forms, and future product features',
             ua: 'Готова основа для оплати, бронювання, форм та функціоналу',
       de: "Eine Grundlage für Zahlungen, Buchungen, Formulare und zukünftige Produktfunktionen",
       fr: "Une base pour les paiements, les réservations, les formulaires et les futures fonctionnalités du produit",
+      es: "Base para pagos, reservas, formularios y features futuras",
           },
         ],
       },
@@ -3493,6 +4163,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Найкраща зв\'язка: соцмережі + сайт разом',
       de: "Das beste Setup: Social + Website, zusammenarbeiten",
       fr: "La meilleure configuration : réseaux sociaux + site Web, collaboration",
+      es: "El mejor setup: redes + web, trabajando juntas",
         },
         paragraphs: [
           {
@@ -3500,12 +4171,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Використовуйте Instagram та TikTok для залучення уваги. І направляйте цей трафік на сайт, який перетворює зацікавленість у дію — заявку, дзвінок або покупку.',
       de: "Nutzen Sie Instagram und TikTok, um Aufmerksamkeit zu erregen. Leiten Sie diesen Traffic an eine Website weiter, die Interesse in Taten umwandelt – einen Anruf, eine Angebotsanfrage, eine Anmeldung, einen Verkauf.",
       fr: "Utilisez Instagram et TikTok pour attirer l'attention. Envoyez ce trafic vers un site Web qui convertit l'intérêt en action : un appel, une demande de devis, une inscription, une vente.",
+      es: "Use Instagram y TikTok para atraer. Mande ese tráfico a una web que convierta interés en acción: una llamada, un presupuesto, un alta, una venta.",
           },
           {
             en: 'Think of social as the handshake. The website is the meeting room where business actually happens.',
             ua: 'Уявіть соцмережі як знайомство та рукостискання. А сайт — це кімната переговорів, де укладаються угоди.',
       de: "Stellen Sie sich soziale Kontakte wie einen Händedruck vor. Die Website ist der Besprechungsraum, in dem tatsächlich Geschäfte stattfinden.",
       fr: "Considérez le social comme une poignée de main. Le site Web est la salle de réunion où les affaires se déroulent réellement.",
+      es: "Piense las redes como el apretón de manos. La web es la sala donde el negocio ocurre de verdad.",
           },
         ],
       },
@@ -3515,6 +4188,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Як це працює на практиці',
       de: "Wie das in der Praxis aussieht",
       fr: "À quoi cela ressemble en pratique",
+      es: "Cómo se ve esto en la práctica",
         },
         paragraphs: [
           {
@@ -3522,18 +4196,21 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Сильний сайт для бізнесу не має бути громіздким. Він повинен бути чітким, швидким та переконливим — із мобільною адаптацією та високою швидкістю завантаження.',
       de: "Eine starke Unternehmensseite muss nicht riesig sein. Es muss klar, schnell und glaubwürdig sein. Das bedeutet scharfe Texte, Mobile-First-Layout, schnelle Ladezeiten und eine Struktur, die mit Ihnen wächst.",
       fr: "Un site commercial solide n’a pas besoin d’être énorme. Il doit être clair, rapide et crédible. Cela signifie une copie nette, une mise en page adaptée aux mobiles, des temps de chargement rapides et une structure qui évolue avec vous.",
+      es: "Una web fuerte no tiene que ser enorme. Tiene que ser clara, rápida y creíble. Copy afilado, layout mobile-first, carga rápida y una estructura que crezca con usted.",
           },
           {
             en: 'I build exactly that: lean, high-performance websites and web products with React and Next.js. 4,200+ Upwork hours, 8+ years in production, 100+ launched projects. TypeScript, performance optimization, SEO-ready architecture, and clean code.',
             ua: 'Я створюю саме такі сайти: швидкі, сучасні та надійні веб-проєкти на React та Next.js. Понад 4 200+ годин на Upwork, 8+ років досвіду, 100+ запущених проєктів. TypeScript, оптимізація швидкості, готове SEO та чистий код.',
       de: "Ich baue genau das: schlanke, leistungsstarke Websites und Webprodukte mit React und Next.js. Über 4.200 Upwork-Stunden, über 8 Jahre in der Produktion, über 100 gestartete Projekte. TypeScript, Leistungsoptimierung, SEO-fähige Architektur und sauberer Code.",
       fr: "Je crée exactement cela : des sites Web et des produits Web allégés et performants avec React et Next.js. Plus de 4 200 heures de travail, plus de 8 ans de production, plus de 100 projets lancés. TypeScript, optimisation des performances, architecture prête pour le référencement et code propre.",
+      es: "Eso es lo que construyo: webs y productos lean, de alto rendimiento, con React y Next.js. 4.200+ horas en Upwork, más de 8 años en producción, 100+ proyectos lanzados. TypeScript, rendimiento, arquitectura lista para SEO y código limpio.",
           },
           {
             en: 'If your business lives on social but your website is missing, outdated, or just a template — reach out via the contacts below. We can map what you need in one short call.',
             ua: 'Якщо ваш бізнес є в соцмережах, але сайту немає або він застарів — зв\'яжіться зі мною через контакти нижче. Ми обговоримо ваші завдання під час короткого дзвінка.',
       de: "Wenn Ihr Unternehmen in sozialen Netzwerken lebt, Ihre Website jedoch fehlt, veraltet ist oder nur eine Vorlage enthält, wenden Sie sich an die unten aufgeführten Kontakte. Wir können in einem kurzen Anruf zusammenstellen, was Sie benötigen.",
       fr: "Si votre entreprise vit sur les réseaux sociaux mais que votre site Web est manquant, obsolète ou simplement un modèle, contactez via les contacts ci-dessous. Nous pouvons cartographier ce dont vous avez besoin en un court appel.",
+      es: "Si el negocio vive en redes pero la web falta, está anticuada o es solo una plantilla — escríbame por los contactos de abajo. En una llamada corta mapeamos lo que necesita.",
           },
         ],
       },
@@ -3547,18 +4224,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Як знайти веб-розробника для вашого проєкту (без втрати часу та бюджету)',
       de: "So finden Sie einen Webentwickler für Ihr Projekt (ohne Zeit oder Budget zu verschwenden)",
       fr: "Comment trouver un développeur Web pour votre projet (sans perdre de temps ni de budget)",
+      es: "Cómo encontrar un desarrollador web para su proyecto (sin perder tiempo ni presupuesto)",
     },
     excerpt: {
       en: 'Searching for and finding a web developer can feel overwhelming. Here is a practical guide to finding the right person — fast, safely, and with confidence.',
       ua: 'Пошук веб-розробника може здаватися складним завданням. Ось практичний посібник, як знайти потрібного фахівця швидко та надійно.',
       de: "Die Suche und Suche nach einem Webentwickler kann überwältigend sein. Hier finden Sie einen praktischen Leitfaden, um schnell, sicher und vertrauensvoll die richtige Person zu finden.",
       fr: "Rechercher et trouver un développeur Web peut sembler écrasant. Voici un guide pratique pour trouver la bonne personne — rapidement, en toute sécurité et en toute confiance.",
+      es: "Buscar y encontrar un desarrollador web puede abrumar. Una guía práctica para dar con la persona correcta — rápido, con seguridad y con criterio.",
     },
     readTime: {
       en: '6 min read',
       ua: '6 хв читання',
       de: "6 Min. Lesezeit",
       fr: "6 minutes de lecture",
+      es: "6 min de lectura",
     },
     tags: {
       en: ['Web Developer', 'Hiring', 'Freelance'],
@@ -3573,6 +4253,11 @@ export const businessPosts: RawBlogPost[] = [
         "Recrutement",
         "Freelance"
       ],
+      es: [
+        "Desarrollador web",
+        "Contratación",
+        "Freelance"
+      ],
     },
     content: [
       {
@@ -3582,12 +4267,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Незалежно від того, чи потрібен вам лендинг, перезапуск продукту чи постійна підтримка сайту, вибір веб-розробника — одне з найважливіших рішень для вашого бізнесу.',
       de: "Ganz gleich, ob Sie eine Landingpage, eine vollständige Produkterneuerung oder laufende Wartung benötigen, die Suche und Suche nach einem Webentwickler ist eine der wichtigsten Entscheidungen, die Sie treffen werden. Der Markt ist voller Optionen – Agenturen, Freiberufler, Offshore-Teams.",
       fr: "Que vous ayez besoin d'une page de destination, d'une reconstruction complète du produit ou d'une maintenance continue, rechercher et trouver un développeur Web est l'une des décisions les plus importantes que vous prendrez. Le marché regorge d'options : agences, indépendants, équipes offshore.",
+      es: "Da igual si necesita una landing, un rebuild del producto o maintenance continuo: elegir desarrollador web es de las decisiones que más pesan. El mercado está lleno — agencias, freelancers, equipos offshore.",
           },
           {
             en: 'This guide helps you cut through the noise and hire a web developer who actually fits your project, timeline, and budget.',
             ua: 'Цей посібник допоможе відсіяти зайве та знайти фахівця, який ідеально підійде під ваш проєкт, терміни та бюджет.',
       de: "Dieser Leitfaden hilft Ihnen, sich von der Masse abzuheben und einen Webentwickler zu engagieren, der tatsächlich zu Ihrem Projekt, Ihrem Zeitplan und Ihrem Budget passt.",
       fr: "Ce guide vous aide à éviter le bruit et à embaucher un développeur Web qui correspond réellement à votre projet, votre calendrier et votre budget.",
+      es: "Esta guía le ayuda a recortar el ruido y contratar a quien encaje de verdad con el proyecto, el plazo y el presupuesto.",
           },
         ],
       },
@@ -3597,6 +4284,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Визначте свої потреби перед пошуком',
       de: "Definieren Sie vor der Suche, was Sie benötigen",
       fr: "Définissez ce dont vous avez besoin avant de lancer une recherche",
+      es: "Defina qué necesita antes de buscar",
         },
         paragraphs: [
           {
@@ -3604,6 +4292,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Нечітке завдання веде до нечітких пропозицій. Перед публікацією або зверненням сформулюйте:',
       de: "Vage Schriftsätze ziehen vage Vorschläge nach sich. Bevor Sie eine Stelle ausschreiben oder sich an uns wenden, klären Sie Folgendes:",
       fr: "Les mémoires vagues attirent des propositions vagues. Avant de publier une offre d’emploi ou de nous contacter, clarifiez :",
+      es: "Un brief vago atrae propuestas vagas. Antes de publicar o escribir, aclare:",
           },
         ],
         list: [
@@ -3612,24 +4301,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Тип проєкту — сайт, веб-додаток, редизайн чи підтримка',
       de: "Projekttyp – Website, Web-App, Neugestaltung oder fortlaufender Support",
       fr: "Type de projet : site Web, application Web, refonte ou assistance continue",
+      es: "Tipo de proyecto — web, app, rediseño o soporte continuo",
           },
           {
             en: 'Must-have features — forms, payments, user accounts, CMS, integrations',
             ua: 'Обов\'язковий функціонал — форми, оплата, кабінети, інтеграції',
       de: "Unverzichtbare Funktionen – Formulare, Zahlungen, Benutzerkonten, CMS, Integrationen",
       fr: "Fonctionnalités indispensables : formulaires, paiements, comptes d'utilisateurs, CMS, intégrations",
+      es: "Features imprescindibles — formularios, pagos, cuentas, CMS, integraciones",
           },
           {
             en: 'Tech preferences — React, Next.js, or openness to recommendations',
             ua: 'Побажання щодо технологій — React, Next.js або відкритість до порад',
       de: "Technische Vorlieben – React, Next.js oder Offenheit für Empfehlungen",
       fr: "Préférences techniques – React, Next.js ou ouverture aux recommandations",
+      es: "Preferencias de stack — React, Next.js, o apertura a recomendaciones",
           },
           {
             en: 'Timeline and budget range — even a rough estimate saves weeks',
             ua: 'Орієнтовні терміни та бюджет — це зекономить тижні обговорень',
       de: "Zeitplan und Budgetspanne – selbst eine grobe Schätzung spart Wochen",
       fr: "Calendrier et plage budgétaire : même une estimation approximative permet de gagner des semaines",
+      es: "Plazo y rango de presupuesto — aunque sea aproximado, ahorra semanas",
           },
         ],
       },
@@ -3639,6 +4332,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Де шукати веб-розробника',
       de: "Wo kann man nach einem Webentwickler suchen?",
       fr: "Où chercher un développeur Web",
+      es: "Dónde buscar un desarrollador web",
         },
         paragraphs: [
           {
@@ -3646,6 +4340,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Обирайте майданчик залежно від того, наскільки пряма комунікація вам потрібна.',
       de: "Wählen Sie basierend darauf, wie viel Kontrolle und direkte Kommunikation Sie wünschen.",
       fr: "Choisissez en fonction du niveau de contrôle et de communication directe que vous souhaitez.",
+      es: "Elija según cuánto control y comunicación directa quiera.",
           },
         ],
         list: [
@@ -3654,24 +4349,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Фриланс-платформи (Upwork, Toptal) — велика база, відгуки, захист угод',
       de: "Freiberufliche Plattformen (Upwork, Toptal) – großer Talentpool, Bewertungen, Treuhandschutz",
       fr: "Plateformes indépendantes (Upwork, Toptal) – grand vivier de talents, avis, protection séquestre",
+      es: "Plataformas freelance (Upwork, Toptal) — pool amplio, reviews, escrow",
           },
           {
             en: 'LinkedIn — good for senior developers with verifiable work history',
             ua: 'LinkedIn — чудово підходить для пошуку досвідчених розробників',
       de: "LinkedIn – gut für erfahrene Entwickler mit nachweisbarem beruflichen Werdegang",
       fr: "LinkedIn – idéal pour les développeurs seniors avec un historique de travail vérifiable",
+      es: "LinkedIn — bien para seniors con trayectoria verificable",
           },
           {
             en: 'Referrals — trusted recommendations from founders or product teams',
             ua: 'Рекомендації — випробувані поради від знайомих підприємців',
       de: "Empfehlungen – vertrauenswürdige Empfehlungen von Gründern oder Produktteams",
       fr: "Références : recommandations fiables des fondateurs ou des équipes produit",
+      es: "Referencias — recomendaciones de founders o equipos de producto",
           },
           {
             en: 'Developer portfolios — find someone whose shipped work matches your vision',
             ua: 'Портфоліо — знайдіть розробника, чиї роботи відповідають вашому баченню',
       de: "Entwicklerportfolios – finden Sie jemanden, dessen gelieferte Arbeit Ihrer Vision entspricht",
       fr: "Portfolios de développeurs : trouvez quelqu'un dont le travail livré correspond à votre vision",
+      es: "Portfolios — alguien cuyo trabajo publicado se parezca a lo que imagina",
           },
         ],
       },
@@ -3681,6 +4380,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'На що звертати увагу в профілі розробника',
       de: "Was Sie im Profil eines Webentwicklers überprüfen sollten",
       fr: "Que vérifier dans le profil d'un développeur Web",
+      es: "Qué mirar en el perfil",
         },
         paragraphs: [
           {
@@ -3688,6 +4388,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Не орієнтуйтеся лише на низьку ціну. Недосвідчений розробник із помилками в коді зрештою коштуватиме дорожче, ніж Senior-фахівець, який зробить усе якісно з першого разу.',
       de: "Mieten Sie nicht nur aufgrund des Preises. Ein billiger Entwickler, der fehlerhaften Code liefert, kostet mehr als ein erfahrener Entwickler, der gleich beim ersten Mal alles richtig macht.",
       fr: "Ne louez pas uniquement en fonction du prix. Un développeur bon marché qui livre du code cassé coûte plus cher qu'un développeur senior qui livre correctement du premier coup.",
+      es: "No contrate solo por precio. Un desarrollador barato que entrega código roto sale más caro que un senior que acierta a la primera.",
           },
         ],
         list: [
@@ -3696,24 +4397,28 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Реальні працюючі сайти — а не лише картинки дизайну',
       de: "Live-Projekte, die Sie besuchen können – nicht nur statische Modelle",
       fr: "Des projets en direct que vous pouvez visiter – pas seulement des maquettes statiques",
+      es: "Proyectos en vivo que pueda visitar — no solo mockups estáticos",
           },
           {
             en: 'Relevant stack experience (React, Next.js, TypeScript for modern products)',
             ua: 'Досвід у потрібному стеку (React, Next.js, TypeScript)',
       de: "Relevante Stack-Erfahrung (React, Next.js, TypeScript für moderne Produkte)",
       fr: "Expérience pertinente en matière de pile (React, Next.js, TypeScript pour les produits modernes)",
+      es: "Experiencia de stack relevante (React, Next.js, TypeScript en productos modernos)",
           },
           {
             en: 'Client reviews mentioning communication, deadlines, and support',
             ua: 'Відгуки клієнтів про дотримання термінів та комунікацію',
       de: "Kundenbewertungen, in denen Kommunikation, Fristen und Support erwähnt werden",
       fr: "Avis clients mentionnant la communication, les délais et le support",
+      es: "Reviews que hablen de comunicación, plazos y soporte",
           },
           {
             en: 'Willingness to jump on a video call before signing anything',
             ua: 'Готовність провести відеодзвінок до початку співпраці',
       de: "Bereitschaft, einen Videoanruf zu starten, bevor Sie etwas unterschreiben",
       fr: "Volonté de passer un appel vidéo avant de signer quoi que ce soit",
+      es: "Disposición a una videollamada antes de firmar nada",
           },
         ],
       },
@@ -3723,6 +4428,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Співпраця з досвідченим фриланс-розробником',
       de: "Zusammenarbeit mit einem erfahrenen freiberuflichen Webentwickler",
       fr: "Travailler avec un développeur Web indépendant senior",
+      es: "Trabajar con un desarrollador web freelance senior",
         },
         paragraphs: [
           {
@@ -3730,12 +4436,14 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Якщо ви шукаєте фахівця для повного циклу розробки — від архітектури до запуску — пряма співпраця з Senior фрилансером заощаджує бюджет та забезпечує швидкий зв\'язок.',
       de: "Wenn Sie nach einem Webentwickler suchen, der den gesamten Zyklus abdeckt – von der Architektur über die Bereitstellung bis hin zu laufenden Verbesserungen –, verringert die direkte Zusammenarbeit mit einem erfahrenen Freiberufler den Agenturaufwand und sorgt für eine schnelle Kommunikation.",
       fr: "Si vous recherchez un développeur Web qui gère le cycle complet – de l'architecture au déploiement et aux améliorations continues – travailler directement avec un freelance senior réduit les frais généraux de l'agence et maintient une communication rapide.",
+      es: "Si busca a alguien que cubra el ciclo completo — de la arquitectura al deploy y las mejoras — un freelancer senior recorta el overhead de agencia y mantiene la comunicación rápida.",
           },
           {
             en: 'I work with clients worldwide on React and Next.js projects: 4,200+ Upwork hours, 100+ launched products, and a focus on performance, clean code, and long-term collaboration.',
             ua: 'Я працюю з клієнтами по всьому світу над React та Next.js проєктами: 4 200+ годин на Upwork, 100+ запущених сайтів, акцент на швидкості, чистому коді та довготривалій підтримці.',
       de: "Ich arbeite mit Kunden weltweit an React- und Next.js-Projekten: Über 4.200 Upwork-Stunden, über 100 eingeführte Produkte und ein Fokus auf Leistung, sauberen Code und langfristige Zusammenarbeit.",
       fr: "Je travaille avec des clients du monde entier sur des projets React et Next.js : plus de 4 200 heures de travail Upwork, plus de 100 produits lancés et un accent mis sur les performances, le code propre et la collaboration à long terme.",
+      es: "Trabajo con clientes de todo el mundo en React y Next.js: 4.200+ horas en Upwork, 100+ productos lanzados, foco en rendimiento, código limpio y colaboración a largo plazo.",
           },
         ],
       },
@@ -3749,18 +4457,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Як обрати правильного Frontend-розробника для вашого проєкту',
       de: "So wählen Sie den richtigen Frontend-Entwickler für Ihr Projekt aus",
       fr: "Comment choisir le bon développeur frontend pour votre projet",
+      es: "Cómo elegir al frontend developer correcto para su proyecto",
     },
     excerpt: {
       en: 'Not all developers deliver the same value. A practical checklist for founders and product owners hiring for web projects.',
       ua: 'Не всі розробники дають однаковий результат. Практичний чекліст для засновників та власників продуктів.',
       de: "Nicht alle Entwickler liefern den gleichen Wert. Eine praktische Checkliste für Gründer und Produktinhaber, die für Webprojekte einstellen.",
       fr: "Tous les développeurs n'offrent pas la même valeur. Une liste de contrôle pratique pour les fondateurs et les propriétaires de produits qui embauchent pour des projets Web.",
+      es: "No todos los desarrolladores entregan el mismo valor. Un checklist práctico para founders y product owners que contratan para la web.",
     },
     readTime: {
       en: '6 min read',
       ua: '6 хв читання',
       de: "6 Min. Lesezeit",
       fr: "6 minutes de lecture",
+      es: "6 min de lectura",
     },
     tags: {
       en: ['Hiring', 'Freelance', 'Tips'],
@@ -3775,6 +4486,11 @@ export const businessPosts: RawBlogPost[] = [
         "Freelance",
         "Conseils"
       ],
+      es: [
+        "Contratación",
+        "Freelance",
+        "Consejos"
+      ],
     },
     content: [
       {
@@ -3784,6 +4500,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Найм веб-розробника — це відповідальне рішення. Помилка може коштувати місяців переробок, а правильний вибір прискорює запуск та економить кошти.',
       de: "Die Beauftragung eines Webentwicklers ist eine der einflussreichsten Entscheidungen für Ihr digitales Produkt. Die falsche Wahl kostet monatelange Nacharbeit; das Richtige beschleunigt die Einführung und Wartung.",
       fr: "L'embauche d'un développeur Web est l'une des décisions les plus importantes pour votre produit numérique. Le mauvais choix coûte des mois de retravail ; celui de droite accélère le lancement et la maintenance.",
+      es: "Contratar un desarrollador web es de las decisiones de más impacto para el producto digital. La elección equivocada cuesta meses de rework; la correcta acelera el launch y el maintenance.",
           },
         ],
       },
@@ -3793,13 +4510,15 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Дивіться глибше за гарні скріншоти',
       de: "Schauen Sie über den Portfolio-Screenshot hinaus",
       fr: "Regardez au-delà de la capture d'écran du portfolio",
+      es: "Mire más allá del screenshot del portfolio",
         },
         paragraphs: [
           {
             en: 'Ask how the project performs today, not just how it looked on launch day. Do they mention accessibility, performance budgets, or deployment strategy?',
             ua: 'Поцікавтеся, як працює проєкт зараз, а не лише тим, як він виглядав у макеті. Чи враховує розробник швидкість, адаптивність та безпеку?',
       de: "Fragen Sie, wie das Projekt heute abschneidet – nicht nur, wie es am Launch-Tag aussah. Erwähnen sie Barrierefreiheit, Performance-Budgets oder eine Deploy-Strategie?",
-      fr: "Demandez comment le projet fonctionne aujourd'hui, et pas seulement à quoi il ressemblait le jour du lancement. Mentionnent-ils l’accessibilité, les budgets de performance ou la stratégie de déploiement ?"
+      fr: "Demandez comment le projet fonctionne aujourd'hui, et pas seulement à quoi il ressemblait le jour du lancement. Mentionnent-ils l’accessibilité, les budgets de performance ou la stratégie de déploiement ?",
+      es: "Pregunte cómo rinde el proyecto hoy, no solo cómo se veía el día del launch. ¿Hablan de accesibilidad, presupuestos de rendimiento o estrategia de deploy?"
           },
         ],
         list: [
@@ -3808,30 +4527,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Прозора комунікація та регулярні звіти про хід роботи',
       de: "Klare Kommunikation und proaktive Updates während des Projekts",
       fr: "Communication claire et mises à jour proactives pendant le projet",
+      es: "Comunicación clara y updates proactivos durante el proyecto",
           },
           {
             en: 'Experience with your stack (React, Next.js, TypeScript)',
             ua: 'Досвід у потрібних технологіях (React, Next.js, TypeScript)',
       de: "Erfahrung mit Ihrem Stack (React, Next.js, TypeScript)",
       fr: "Expérience avec votre stack (React, Next.js, TypeScript)",
+      es: "Experiencia con su stack (React, Next.js, TypeScript)",
           },
           {
             en: 'Proof of shipped, live products — not just mockups',
             ua: 'Реальні запущені сайти, якими можна скористатися',
       de: "Nachweis der versendeten Live-Produkte – nicht nur Modelle",
       fr: "Preuve des produits expédiés et en direct – pas seulement des maquettes",
+      es: "Prueba de productos en vivo y publicados — no solo mockups",
           },
           {
             en: 'Willingness to sign an NDA and work within your timezone',
             ua: 'Готовність підписати NDA та працювати у зручному часовому поясі',
       de: "Bereitschaft, eine NDA zu unterzeichnen und innerhalb Ihrer Zeitzone zu arbeiten",
       fr: "Volonté de signer un NDA et de travailler dans votre fuseau horaire",
+      es: "Disposición a firmar un NDA y trabajar en su franja horaria",
           },
           {
             en: 'A mindset for long-term support, not one-off delivery',
             ua: 'Орієнтація на довгострокову підтримку та партнерство',
       de: "Eine Einstellung zur langfristigen Unterstützung, nicht zur einmaligen Lieferung",
       fr: "Un état d'esprit axé sur le support à long terme et non sur une livraison ponctuelle",
+      es: "Mentalidad de soporte a largo plazo, no de entrega de un solo golpe",
           },
         ],
       },
@@ -3845,18 +4569,21 @@ export const businessPosts: RawBlogPost[] = [
       ua: 'Чого очікувати від співпраці з фриланс веб-розробником',
       de: "Was Sie bei der Zusammenarbeit mit einem freiberuflichen Webentwickler erwarten können",
       fr: "À quoi s'attendre lorsque vous travaillez avec un développeur Web indépendant",
+      es: "Qué esperar al trabajar con un desarrollador web freelance",
     },
     excerpt: {
       en: 'A transparent look at the process — from first call to launch and ongoing support — so you know exactly what you are signing up for.',
       ua: 'Прозорий огляд процесу розробки — від першого дзвінка до запуску та підтримки.',
       de: "Ein transparenter Blick auf den Prozess – vom ersten Anruf bis zur Einführung und dem laufenden Support – damit Sie genau wissen, wofür Sie sich anmelden.",
       fr: "Un aperçu transparent du processus – du premier appel au lancement et à l’assistance continue – afin que vous sachiez exactement à quoi vous vous inscrivez.",
+      es: "Una mirada transparente al proceso — de la primera llamada al launch y el soporte — para que sepa exactamente qué está contratando.",
     },
     readTime: {
       en: '5 min read',
       ua: '5 хв читання',
-      de: "5 Minuten gelesen",
+      de: "5 Min. Lesezeit",
       fr: "5 minutes de lecture",
+      es: "5 min de lectura",
     },
     tags: {
       en: ['Process', 'Collaboration', 'Freelance'],
@@ -3871,6 +4598,11 @@ export const businessPosts: RawBlogPost[] = [
         "Collaboration",
         "Freelance"
       ],
+      es: [
+        "Proceso",
+        "Colaboración",
+        "Freelance"
+      ],
     },
     content: [
       {
@@ -3880,6 +4612,7 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Співпраця з фрилансером має відчуватися як залучення досвідченого члена команди. Ось як я структурую роботу для комфорту та контролю клієнта.',
       de: "Die Zusammenarbeit mit einem Freiberufler sollte sich anfühlen, als würde man ein erfahrenes Teammitglied hinzufügen. So strukturiere ich Projekte, damit Kunden informiert bleiben und die Kontrolle behalten.",
       fr: "Travailler avec un pigiste devrait donner l’impression d’ajouter un membre senior à l’équipe. Voici comment je structure les projets pour que les clients restent informés et en contrôle.",
+      es: "Trabajar con una freelancer debería sentirse como sumar a un miembro senior del equipo. Así estructuro los proyectos para que el cliente esté informado y al mando.",
           },
         ],
       },
@@ -3889,6 +4622,7 @@ export const businessPosts: RawBlogPost[] = [
           ua: 'Типовий процес розробки',
       de: "Typischer Projektablauf",
       fr: "Flux de projet typique",
+      es: "Flujo típico del proyecto",
         },
         paragraphs: [],
         list: [
@@ -3897,30 +4631,35 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Перший дзвінок — обговорення цілей, термінів, технологій та бюджету',
       de: "Discovery Call – Ziele, Zeitplan, technische Einschränkungen und Budgetausrichtung",
       fr: "Appel de découverte : objectifs, calendrier, contraintes techniques et alignement budgétaire",
+      es: "Discovery call — objetivos, plazo, límites técnicos y alineación de presupuesto",
           },
           {
             en: 'Scope document — clear deliverables, milestones, and communication channels',
             ua: 'ТЗ та етапи — фіксація завдань, результатів та каналів зв\'язку',
       de: "Umfangsdokument – ​​klare Ergebnisse, Meilensteine ​​und Kommunikationskanäle",
       fr: "Document de portée : livrables, jalons et canaux de communication clairs",
+      es: "Documento de alcance — entregables claros, hitos y canales de comunicación",
           },
           {
             en: 'Design & build — iterative updates with regular demos',
             ua: 'Розробка — регулярні демонстрації та проміжні звіти',
       de: "Design & Build – iterative Updates mit regelmäßigen Demos",
       fr: "Conception et construction – mises à jour itératives avec des démos régulières",
+      es: "Diseño y build — updates iterativos con demos regulares",
           },
           {
             en: 'QA & launch — cross-browser testing, performance check, deployment',
             ua: 'Тестування та запуск — перевірка на пристроях, оптимізація та реліз',
       de: "Qualitätssicherung und Einführung – browserübergreifende Tests, Leistungsprüfung, Bereitstellung",
       fr: "Assurance qualité et lancement – tests multi-navigateurs, vérification des performances, déploiement",
+      es: "QA y launch — test cross-browser, chequeo de rendimiento, deploy",
           },
           {
             en: 'Post-launch support — bug fixes, improvements, and scaling as you grow',
             ua: 'Підтримка після запуску — усунення зауважень та розвиток проекту',
       de: "Post-Launch-Support – Fehlerbehebungen, Verbesserungen und Skalierung, wenn Sie wachsen",
       fr: "Assistance post-lancement : corrections de bugs, améliorations et mise à l'échelle au fur et à mesure de votre croissance",
+      es: "Soporte post-launch — bugs, mejoras y escala a medida que crece",
           },
         ],
       },

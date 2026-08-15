@@ -1,0 +1,287 @@
+{
+  "Next.js provides developers with incredible flexibility, offering static site generation, server-side rendering, and client-side updates out of the box. However, this flexibility is a double-edged sword. Without a strict, thoughtful architecture from day one, rapidly growing projects quickly accumulate technical debt, turning into unmaintainable \"spaghetti code\" folders within months.": {
+    "es": "Next.js da una flexibilidad enorme: SSG, SSR y updates en el cliente de serie. Esa flexibilidad corta por los dos lados. Sin arquitectura estricta desde el día uno, el proyecto crece y acumula deuda: en meses, carpetas de spaghetti inmantenibles.",
+    "it": "Next.js dà una flessibilità enorme: SSG, SSR e update sul client di serie. Quella flessibilità taglia da due lati. Senza architettura stretta dal giorno uno, il progetto cresce e accumula debito: in mesi, cartelle di spaghetti inmanutenibili.",
+    "tr": "Next.js inanılmaz esneklik verir: kutudan statik üretim, sunucu render ve istemci güncellemesi. Bu esneklik iki ucu keskin. Günden bir sıkı, düşünülmüş mimari yoksa hızla büyüyen projeler teknik borç biriktirir; aylar içinde bakılamaz «spaghetti» klasörlerine döner."
+  },
+  "Building a scalable Next.js and TypeScript application architecture requires establishing clear rules for file organization, strict compiler settings, segregated state management layers, and smart hybrid rendering boundaries.": {
+    "es": "Una arquitectura Next.js y TypeScript escalable pide reglas claras de archivos, compiler estricto, capas de estado separadas y fronteras de render híbrido inteligentes.",
+    "it": "Un’architettura Next.js e TypeScript scalabile chiede regole chiare sui file, compiler stretto, layer di stato separati e confini di render ibrido intelligenti.",
+    "tr": "Ölçeklenebilir bir Next.js ve TypeScript mimarisi net dosya kuralları, sıkı derleyici ayarları, ayrılmış state katmanları ve akıllı hibrit render sınırları ister."
+  },
+  "Directory Structure: Moving Beyond Simple flat folders": {
+    "es": "Estructura de directorios: más allá de carpetas planas",
+    "it": "Struttura delle directory: oltre le cartelle piatte",
+    "tr": "Dizin yapısı: düz klasörlerin ötesine"
+  },
+  "As applications scale, flat directories like placing all components in a single `/components` folder break down. Instead, adopt a feature-based structure where related components, hooks, assets, and api hooks live together:": {
+    "es": "Al escalar, meter todos los componentes en `/components` se rompe. Mejor una estructura por features: componentes, hooks, assets y api juntos:",
+    "it": "Scalando, mettere tutti i componenti in `/components` si rompe. Meglio una struttura per feature: componenti, hook, asset e api insieme:",
+    "tr": "Uygulama büyüyünce tüm bileşenleri tek `/components` klasörüne koymak çöker. Bunun yerine ilgili bileşen, hook, asset ve api’nin birlikte yaşadığı feature tabanlı yapı:"
+  },
+  "Shared UI Components (/src/components): Keep this directory clean, holding strictly reusable, generic UI components (buttons, badges, inputs, modals) that do not import any domain-specific business logic.": {
+    "es": "UI compartida (/src/components): limpia, solo componentes genéricos reutilizables (botones, badges, inputs, modales) sin lógica de dominio.",
+    "it": "UI condivisa (/src/components): pulita, solo componenti generici riutilizzabili (bottoni, badge, input, modal) senza logica di dominio.",
+    "tr": "Paylaşılan UI (/src/components): bu dizini temiz tutun — domain iş mantığı import etmeyen, yeniden kullanılabilir jenerik UI (buton, badge, input, modal)."
+  },
+  "Feature Modules (/src/features or /src/modules): Group components, custom hooks, and api services by business domains (e.g., /features/auth, /features/checkout, /features/dashboard). This encapsulates logic, making code easy to move or refactor.": {
+    "es": "Módulos de feature (/src/features o /src/modules): agrupe por dominio (auth, checkout, dashboard). Encapsula la lógica: más fácil mover o refactorizar.",
+    "it": "Moduli di feature (/src/features o /src/modules): raggruppate per dominio (auth, checkout, dashboard). Incapsula la logica: più facile spostare o refactorizzare.",
+    "tr": "Feature modülleri (/src/features veya /src/modules): bileşen, custom hook ve api servislerini iş alanına göre gruplayın (auth, checkout, dashboard). Mantığı kapsüller; taşımak veya refactor etmek kolaylaşır."
+  },
+  "Page Colocation (App Router): Place page-specific client components, schemas, or server actions directly in the route folder. Keep code near where it is used to avoid hunting through massive trees.": {
+    "es": "Colocation de página (App Router): componentes de cliente, schemas o server actions de esa página, en la carpeta de la ruta. El código cerca de donde se usa: menos caza en árboles enormes.",
+    "it": "Colocation di pagina (App Router): componenti client, schema o server action di quella pagina, nella cartella della route. Il codice vicino a dove si usa: meno caccia in alberi enormi.",
+    "tr": "Sayfa colocation (App Router): sayfaya özel client bileşen, schema veya server action’ı doğrudan route klasörüne koyun. Kod kullanıldığı yere yakın olsun; kocaman ağaçlarda avlanmayın."
+  },
+  "Strict TypeScript: Your Shield Against Production Errors": {
+    "es": "TypeScript estricto: su escudo contra errores en production",
+    "it": "TypeScript stretto: il vostro scudo contro gli errori in production",
+    "tr": "Sıkı TypeScript: production hatalarına kalkanınız"
+  },
+  "TypeScript is not just a syntax tool; it is a live contract of your application data flow. A scalable architecture uses strict configurations to identify bugs at compile time:": {
+    "es": "TypeScript no es solo sintaxis: es el contrato vivo del flujo de datos. Una arquitectura escalable usa configs estrictas para pillar bugs en compile:",
+    "it": "TypeScript non è solo sintassi: è il contratto vivo del flusso dati. Un’architettura scalabile usa config strette per beccare i bug in compile:",
+    "tr": "TypeScript yalnızca sözdizimi aracı değildir; uygulama veri akışının canlı sözleşmesidir. Ölçeklenebilir mimari, hataları derlemede yakalamak için sıkı ayar kullanır:"
+  },
+  "Enable strict mode: Ensure \"strict\": true is set in tsconfig.json to prevent implicit types and null-pointer exceptions.": {
+    "es": "Active strict: `\"strict\": true` en tsconfig.json para evitar tipos implícitos y null-pointer.",
+    "it": "Attivate strict: `\"strict\": true` in tsconfig.json per evitare tipi impliciti e null-pointer.",
+    "tr": "Strict mode açın: örtük tipler ve null-pointer’ı önlemek için tsconfig.json’da `\"strict\": true` olsun."
+  },
+  "Ban the \"any\" type completely: Always type inputs and api returns. Use \"unknown\" for external api responses, validating them at runtime using schemas (Zod or Valibot).": {
+    "es": "Prohíba `any` del todo: tipee inputs y retornos de API. Use `unknown` en APIs externas y valide en runtime con schemas (Zod o Valibot).",
+    "it": "Bandite `any` del tutto: tipizzate input e ritorni API. Usate `unknown` sulle API esterne e validate a runtime con schema (Zod o Valibot).",
+    "tr": "`any` tipini tamamen yasaklayın: girdi ve API dönüşlerini her zaman tiplayın. Dış API yanıtları için `unknown` kullanın, runtime’da schema ile (Zod veya Valibot) doğrulayın."
+  },
+  "Leverage utility types: Use TypeScript utility types (Pick, Omit, Partial, Record) to maintain clean type inheritance and avoid duplicating declarations.": {
+    "es": "Utility types: Pick, Omit, Partial, Record para herencia limpia y sin declaraciones duplicadas.",
+    "it": "Utility type: Pick, Omit, Partial, Record per eredità pulita e senza dichiarazioni duplicate.",
+    "tr": "Utility tipler: temiz tip kalıtımı ve tekrarlayan bildirimleri önlemek için Pick, Omit, Partial, Record kullanın."
+  },
+  "Clean State Management Strategy": {
+    "es": "Estrategia limpia de state management",
+    "it": "Strategia pulita di state management",
+    "tr": "Temiz state management stratejisi"
+  },
+  "A common architectural mistake is putting all data into a single global client-side store (like Redux or Zustand). Segregate states by their nature:": {
+    "es": "Error clásico: meterlo todo en un store global de cliente (Redux o Zustand). Segregue estados por naturaleza:",
+    "it": "Errore classico: mettere tutto in uno store globale client (Redux o Zustand). Separate gli stati per natura:",
+    "tr": "Yaygın mimari hata: tüm veriyi tek bir küresel istemci store’una (Redux veya Zustand) koymak. State’leri doğasına göre ayırın:"
+  },
+  "Server State (API Data): Use server caching tools like Next.js fetch or TanStack Query (React Query). Do not sync api payloads to global client states manually.": {
+    "es": "Estado de servidor (datos de API): caché de servidor — Next.js fetch o TanStack Query. No sincronice payloads a stores globales a mano.",
+    "it": "Stato server (dati API): cache server — Next.js fetch o TanStack Query. Non sincronizzate i payload su store globali a mano.",
+    "tr": "Sunucu state’i (API verisi): Next.js fetch veya TanStack Query (React Query) gibi sunucu cache araçları. API payload’ını küresel istemci state’ine elle senkronlamayın."
+  },
+  "Global UI State: For states that affect multiple distant components (authentication, cart, dark mode toggles), use lightweight client stores like Zustand.": {
+    "es": "Estado global de UI: lo que afecta a componentes lejanos (auth, carrito, dark mode) — stores ligeros como Zustand.",
+    "it": "Stato UI globale: ciò che tocca componenti lontani (auth, carrello, dark mode) — store leggeri come Zustand.",
+    "tr": "Küresel UI state: birden fazla uzak bileşeni etkileyen state’ler (auth, sepet, dark mode) için Zustand gibi hafif istemci store’ları."
+  },
+  "Local Component State: Keep state as close to the element as possible using useState/useReducer. Avoid premature global optimization.": {
+    "es": "Estado local: lo más cerca del elemento, con useState/useReducer. Evite optimizar a global demasiado pronto.",
+    "it": "Stato locale: il più vicino possibile all’elemento, con useState/useReducer. Evitate di ottimizzare a globale troppo presto.",
+    "tr": "Yerel bileşen state’i: useState/useReducer ile state’i öğeye mümkün olduğunca yakın tutun. Erken küresel optimizasyondan kaçının."
+  },
+  "Maximizing Server Components (RSC) and Client Boundaries": {
+    "es": "Maximizar Server Components (RSC) y fronteras de cliente",
+    "it": "Massimizzare i Server Components (RSC) e i confini client",
+    "tr": "Server Components (RSC) ve istemci sınırlarını en üstte tutmak"
+  },
+  "Next.js App Router relies on React Server Components (RSC). A clean scale-ready design puts Server Components by default, pushing interactivity to the leaves of the render tree:": {
+    "es": "App Router se apoya en React Server Components (RSC). Un diseño listo para escalar pone Server Components por defecto y empuja la interactividad a las hojas del árbol:",
+    "it": "App Router si appoggia ai React Server Components (RSC). Un design pronto a scalare mette i Server Components di default e spinge l’interattività alle foglie dell’albero:",
+    "tr": "Next.js App Router React Server Components’e (RSC) yaslanır. Ölçeğe hazır temiz tasarım varsayılanı Server Components yapar, etkileşimi render ağacının yapraklarına iter:"
+  },
+  "Server Components by default: Fetch data, render static grids, headers, and footer wrappers on the server to keep the client bundle size small.": {
+    "es": "Server Components por defecto: fetch, grids estáticos, headers y wrappers de footer en el servidor para un bundle de cliente pequeño.",
+    "it": "Server Components di default: fetch, griglie statiche, header e wrapper di footer sul server per un bundle client piccolo.",
+    "tr": "Varsayılan Server Components: veriyi çekin, statik grid, header ve footer sarmalayıcılarını sunucuda render edin — istemci bundle’ı küçük kalsın."
+  },
+  "Isolate Client Components: Put the \"use client\" directive only at the leaf components that require events, browser APIs, or state (e.g., a search button, an interactive slider).": {
+    "es": "Aísle Client Components: `\"use client\"` solo en las hojas que necesitan eventos, APIs del navegador o estado (botón de search, slider).",
+    "it": "Isolate i Client Components: `\"use client\"` solo sulle foglie che servono eventi, API del browser o stato (bottone search, slider).",
+    "tr": "Client Components’i izole edin: `\"use client\"` yalnızca olay, tarayıcı API’si veya state isteyen yapraklarda (arama butonu, etkileşimli slider)."
+  },
+  "Composition pattern: Pass Client Components as children or props into Server Components to render dynamic client UI inside static server layouts.": {
+    "es": "Patrón de composición: pase Client Components como children o props a Server Components para UI dinámica dentro de layouts estáticos de servidor.",
+    "it": "Pattern di composizione: passate Client Components come children o props ai Server Components per UI dinamica dentro layout statici di server.",
+    "tr": "Composition kalıbı: dinamik istemci UI’sini statik sunucu layout’larının içinde render etmek için Client Components’i children veya props olarak Server Components’e geçirin."
+  },
+  "How I Build Enterprise-Ready Frontend Architectures": {
+    "es": "Cómo construyo arquitecturas frontend listas para enterprise",
+    "it": "Come costruisco architetture frontend pronte per l’enterprise",
+    "tr": "Kurumsal hazır frontend mimarilerini nasıl kurarım"
+  },
+  "Setting up a clean, scalable Next.js and TypeScript codebase requires seasoned technical foresight, custom-tailored configuration settings, and component consistency.": {
+    "es": "Un codebase Next.js y TypeScript limpio y escalable pide previsión técnica, configs a medida y consistencia de componentes.",
+    "it": "Un codebase Next.js e TypeScript pulito e scalabile chiede lungimiranza tecnica, config su misura e coerenza di componenti.",
+    "tr": "Temiz, ölçeklenebilir bir Next.js ve TypeScript codebase deneyimli teknik öngörü, kişiye kesilmiş ayarlar ve bileşen tutarlılığı ister."
+  },
+  "I specialize in setting up, auditing, and refactoring large Next.js and React products. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched systems, I help businesses replace legacy technical debt with clean, module-driven architectures that accelerate feature delivery, improve core web vitals, and scale smoothly for years.": {
+    "es": "Me especializo en montar, auditar y refactorizar productos grandes de Next.js y React. Más de 8 años en production, 4.200+ horas en Upwork y 100+ sistemas lanzados: sustituyo deuda legacy por arquitecturas modulares que aceleran features, mejoran Core Web Vitals y escalan años.",
+    "it": "Mi specializzo nel montare, auditare e refactorizzare prodotti grandi di Next.js e React. Oltre 8 anni in production, 4.200+ ore su Upwork e 100+ sistemi lanciati: sostituisco debito legacy con architetture modulari che accelerano le feature, migliorano i Core Web Vitals e scalano per anni.",
+    "tr": "Büyük Next.js ve React ürünlerini kurma, denetleme ve refactor etmede uzmanım. 8+ yıl production, 4.200+ Upwork saati ve 100+ canlı sistem: işletmelerin legacy teknik borcunu, feature teslimini hızlandıran, Core Web Vitals’ı iyileştiren ve yıllarca sorunsuz ölçeklenen temiz, modül güdümlü mimarilerle değiştiririm."
+  },
+  "Starting a new web product or looking to restructure your current Next.js application codebase? Contact me in the connections section below for a professional architectural audit and project plan!": {
+    "es": "¿Nuevo producto web o reestructurar su codebase Next.js? Escríbame en contactos para una auditoría de arquitectura y un plan.",
+    "it": "Nuovo prodotto web o ristrutturare il codebase Next.js? Scrivetemi nei contatti per un audit di architettura e un piano.",
+    "tr": "Yeni bir web ürünü mü başlıyor, yoksa mevcut Next.js codebase’ini mi yeniden yapılandırıyorsunuz? Profesyonel mimari denetim ve proje planı için aşağıdaki iletişim bölümünden yazın."
+  },
+  "From Design Mockup to Production: How to Avoid 'Loss of Quality' When Implementing Complex Interfaces": {
+    "es": "Del mockup de diseño a production: cómo evitar la «pérdida de calidad» al implementar interfaces complejas",
+    "it": "Dal mockup di design alla production: come evitare la «perdita di qualità» implementando interfacce complesse",
+    "tr": "Tasarım mockup’ından production’a: karmaşık arayüzlerde «kalite kaybı» nasıl önlenir"
+  },
+  "Why does a perfect Figma design often turn into a mediocre layout in the browser? Discover how to structure handoffs and code implementation to preserve every design detail.": {
+    "es": "¿Por qué un Figma perfecto acaba en un layout mediocre en el navegador? Cómo estructurar el handoff y el código para conservar cada detalle.",
+    "it": "Perché un Figma perfetto finisce in un layout mediocre nel browser? Come strutturare handoff e codice per conservare ogni dettaglio.",
+    "tr": "Mükemmel bir Figma tasarımı tarayıcıda neden vasat bir layout’a döner? Her tasarım detayını korumak için handoff ve kodu nasıl yapılandırırsınız."
+  },
+  "Every product designer and founder knows the disappointment: a stunning, pixel-perfect layout in Figma with smooth spacing and clean typography ends up looking misaligned, stiff, or simply cheap in the live browser environment. This \"quality leakage\" is a common bottleneck in web product development.": {
+    "es": "Todo diseñador y fundador conoce la decepción: un layout pixel-perfect en Figma, con spacing suave y tipografía limpia, sale desalineado, rígido o barato en el navegador. Esa «fuga de calidad» es un cuello de botella habitual.",
+    "it": "Ogni designer e fondatore conosce la delusione: un layout pixel-perfect in Figma, con spacing morbido e tipografia pulita, esce disallineato, rigido o economico nel browser. Quella «fuga di qualità» è un collo di bottiglia abituale.",
+    "tr": "Her ürün tasarımcısı ve kurucu bu hayal kırıklığını bilir: Figma’da muhteşem, pixel-perfect, yumuşak boşluklu, temiz tipografili layout canlı tarayıcıda kaymış, sert veya ucuz durur. Bu «kalite sızıntısı» web ürün geliştirmede yaygın bir darboğazdır."
+  },
+  "Ensuring design fidelity in production requires more than just frontend skills — it demands component-driven engineering, a unified design system vocabulary, and a collaborative verification process between design and development.": {
+    "es": "La fidelidad de diseño en production pide más que skill frontend: ingeniería por componentes, un vocabulario de design system compartido y verificación conjunta entre diseño y desarrollo.",
+    "it": "La fedeltà di design in production chiede più della skill frontend: engineering a componenti, un vocabolario di design system condiviso e verifica congiunta tra design e sviluppo.",
+    "tr": "Production’da tasarım sadakati yalnızca frontend becerisi değildir — bileşen güdümlü mühendislik, ortak design system sözlüğü ve tasarım ile geliştirme arasında işbirlikçi doğrulama ister."
+  },
+  "Why Design Fidelity Gets Lost in Translation": {
+    "es": "Por qué se pierde la fidelidad de diseño en la traducción",
+    "it": "Perché la fedeltà di design si perde in traduzione",
+    "tr": "Tasarım sadakati çeviride neden kaybolur"
+  },
+  "The transition from vector layers to responsive code is complex. Quality is typically lost in these primary areas:": {
+    "es": "Pasar de capas vectoriales a código responsive es complejo. La calidad se pierde sobre todo aquí:",
+    "it": "Passare da layer vettoriali a codice responsive è complesso. La qualità si perde soprattutto qui:",
+    "tr": "Vektör katmanlardan responsive koda geçiş karmaşıktır. Kalite genelde şu alanlarda kaybolur:"
+  },
+  "Ignoring responsive fluid behavior: Figma is static. Static widths and coordinates in mockups fail to account for how elements stretch, shrink, and wrap on actual devices.": {
+    "es": "Ignorar el comportamiento fluido: Figma es estático. Anchos y coordenadas fijos no cuentan cómo se estiran, encogen y envuelven los elementos en dispositivos reales.",
+    "it": "Ignorare il comportamento fluido: Figma è statico. Larghezze e coordinate fisse non tengono conto di come gli elementi si stirano, restringono e vanno a capo sui dispositivi veri.",
+    "tr": "Akışkan responsive davranışı yok saymak: Figma statiktir. Mockup’taki sabit genişlik ve koordinatlar öğelerin gerçek cihazlarda nasıl gerilip büzülüp sardığını hesaba katmaz."
+  },
+  "Missing interactive states: Designers often forget to specify styles for hover, focus, disabled, active, loading, and form validation error states. Developers then build default browser styles or guess them.": {
+    "es": "Estados interactivos que faltan: a menudo no se especifican hover, focus, disabled, active, loading ni errores de formulario. El desarrollo improvisa o usa defaults del navegador.",
+    "it": "Stati interattivi che mancano: spesso non si specificano hover, focus, disabled, active, loading né errori di form. Lo sviluppo improvvisa o usa i default del browser.",
+    "tr": "Eksik etkileşimli state’ler: tasarımcılar sıkça hover, focus, disabled, active, loading ve form doğrulama hatalarını belirtmeyi unutur. Geliştirici tarayıcı varsayılanını koyar veya tahmin eder."
+  },
+  "Ignoring micro-interactions and transitions: Static mockups fail to display the timings, curves, and animations of dropdowns, modals, and page transitions. Without definition, the interface feels rigid and unresponsive.": {
+    "es": "Ignorar microinteracciones: el mockup estático no muestra timings, curvas ni animaciones de dropdowns, modales y transiciones. Sin definición, la interfaz se siente rígida.",
+    "it": "Ignorare le micro-interazioni: il mockup statico non mostra timing, curve e animazioni di dropdown, modal e transizioni. Senza definizione, l’interfaccia sembra rigida.",
+    "tr": "Mikro etkileşim ve geçişleri yok saymak: statik mockup dropdown, modal ve sayfa geçişlerinin zamanlamasını, eğrisini, animasyonunu göstermez. Tanım yoksa arayüz sert ve tepkisiz hisseder."
+  },
+  "Lack of design tokens: If the designer selects colors and spacing on the fly without a system, developers create ad-hoc values, quickly bloating the CSS stylesheets with inconsistencies.": {
+    "es": "Falta de design tokens: si el color y el spacing se eligen al vuelo, el código inventa valores ad-hoc y el CSS se hincha de inconsistencias.",
+    "it": "Mancanza di design token: se colore e spacing si scelgono al volo, il codice inventa valori ad-hoc e il CSS si gonfia di incoerenze.",
+    "tr": "Design token eksikliği: tasarımcı sistemi olmadan renk ve boşluğu uçuşta seçerse geliştirici ad-hoc değer üretir; CSS tutarsızlıkla şişer."
+  },
+  "How to Build a High-Fidelity Pipeline": {
+    "es": "Cómo construir un pipeline de alta fidelidad",
+    "it": "Come costruire una pipeline ad alta fedeltà",
+    "tr": "Yüksek sadakatli bir pipeline nasıl kurulur"
+  },
+  "To bridge the gap between design concepts and real code, successful teams establish structured pipelines and common design-code guidelines:": {
+    "es": "Para unir concepto y código, los equipos que funcionan fijan pipelines y una guía común diseño-código:",
+    "it": "Per unire concetto e codice, i team che funzionano fissano pipeline e una guida comune design-codice:",
+    "tr": "Tasarım kavramı ile gerçek kod arasındaki boşluğu kapatmak için başarılı ekipler yapılandırılmış pipeline ve ortak tasarım-kod kuralları kurar:"
+  },
+  "Use Design Tokens: Translate brand assets (colors, fonts, spacings, shadows) into variables (CSS custom properties or Tailwind configs). Both the designer in Figma and the developer in code must use the exact same variable names.": {
+    "es": "Use design tokens: color, fuente, spacing, sombra → variables (custom properties o Tailwind). Mismos nombres en Figma y en código.",
+    "it": "Usate design token: colore, font, spacing, ombra → variabili (custom property o Tailwind). Stessi nomi in Figma e nel codice.",
+    "tr": "Design token kullanın: marka varlıklarını (renk, font, boşluk, gölge) değişkenlere çevirin (CSS custom property veya Tailwind). Figma’daki tasarımcı ve koddaki geliştirici aynı değişken adlarını kullanmalı."
+  },
+  "Component-Driven Collaboration: Figma frames should map directly to React components. If a Card exists in design, it must exist as a single configurable component in code, sharing the exact same properties (props).": {
+    "es": "Colaboración por componentes: los frames de Figma mapean a componentes React. Si hay un Card en diseño, hay un componente configurable en código, con las mismas props.",
+    "it": "Collaborazione a componenti: i frame Figma mappano su componenti React. Se c’è una Card in design, c’è un componente configurabile nel codice, con le stesse props.",
+    "tr": "Bileşen güdümlü işbirliği: Figma frame’leri doğrudan React bileşenlerine map olmalı. Tasarımda Card varsa kodda da aynı props’ları paylaşan tek, yapılandırılabilir bir bileşen olmalı."
+  },
+  "Design with Auto-Layout in Figma: Figma Auto-Layout mimics modern CSS Flexbox and Grid. Designing with auto-layout ensures layouts are structurally buildable in code and respond naturally to viewport changes.": {
+    "es": "Diseñe con Auto-Layout: imita Flexbox y Grid. Así el layout es construible en código y responde al viewport.",
+    "it": "Progettate con Auto-Layout: imita Flexbox e Grid. Così il layout è costruibile in codice e risponde al viewport.",
+    "tr": "Figma’da Auto-Layout ile tasarlayın: modern CSS Flexbox ve Grid’i taklit eder. Auto-layout, layout’ların kodda yapısal kurulabilir ve viewport değişimine doğal yanıt vermesini sağlar."
+  },
+  "Define Interaction Specifications: Write clear rules for animation timings (e.g., cubic-bezier, 300ms transitions) and state changes before handoff.": {
+    "es": "Especifique interacciones: timings (cubic-bezier, 300ms) y cambios de estado, antes del handoff.",
+    "it": "Specificare le interazioni: timing (cubic-bezier, 300ms) e cambi di stato, prima dell’handoff.",
+    "tr": "Etkileşim spesifikasyonu yazın: handoff’tan önce animasyon zamanlaması (cubic-bezier, 300ms) ve state değişimi için net kurallar."
+  },
+  "Modern Frontend Engineering Standards": {
+    "es": "Estándares modernos de ingeniería frontend",
+    "it": "Standard moderni di engineering frontend",
+    "tr": "Modern frontend mühendisliği standartları"
+  },
+  "From the coding side, frontend engineers use modern tools and patterns to bring design to life with maximum precision:": {
+    "es": "En el código, el frontend usa herramientas y patrones modernos para dar vida al diseño con máxima precisión:",
+    "it": "Nel codice, il frontend usa tool e pattern moderni per dare vita al design con massima precisione:",
+    "tr": "Kod tarafında frontend mühendisleri tasarımı maksimum hassasiyetle hayata geçirmek için modern araç ve kalıplar kullanır:"
+  },
+  "Vector graphics optimization: Exporting icons as clean, optimized SVGs prevents pixelation and keeps page weight lightweight.": {
+    "es": "Optimizar vectores: iconos SVG limpios evitan pixelación y mantienen el peso bajo.",
+    "it": "Ottimizzare i vettori: icone SVG pulite evitano pixelation e tengono il peso basso.",
+    "tr": "Vektör grafik optimizasyonu: ikonları temiz, optimize SVG olarak dışa aktarmak pikselleşmeyi önler ve sayfa ağırlığını hafif tutar."
+  },
+  "Premium animation engines: Leveraging libraries like GSAP for complex scroll-driven animations and Framer Motion for smooth state transitions.": {
+    "es": "Motores de animación premium: GSAP para scroll complejo, Framer Motion para transiciones de estado suaves.",
+    "it": "Motori di animazione premium: GSAP per scroll complesso, Framer Motion per transizioni di stato morbide.",
+    "tr": "Premium animasyon motorları: karmaşık scroll animasyonu için GSAP, yumuşak state geçişleri için Framer Motion."
+  },
+  "Relative units for responsive layout: Building layouts with rem, em, percentages, and viewport units (vw/vh) ensures the design scales proportionally across screens.": {
+    "es": "Unidades relativas: rem, em, porcentajes y vw/vh para que el diseño escale con proporción.",
+    "it": "Unità relative: rem, em, percentuali e vw/vh perché il design scali in proporzione.",
+    "tr": "Responsive layout için göreli birimler: rem, em, yüzde ve viewport birimleri (vw/vh) tasarımın ekranlar arasında orantılı ölçeklenmesini sağlar."
+  },
+  "Strict font rendering settings: Correctly configuring antialiasing and line-heights to guarantee that typography renders cleanly on macOS, Windows, and mobile viewports alike.": {
+    "es": "Render de fuentes estricto: antialiasing y line-heights correctos en macOS, Windows y móvil.",
+    "it": "Render dei font stretto: antialiasing e line-height corretti su macOS, Windows e mobile.",
+    "tr": "Sıkı font render ayarları: tipografinin macOS, Windows ve mobilde temiz görünmesi için antialiasing ve satır yüksekliğini doğru kurmak."
+  },
+  "Design QA: Closing the Handoff Loop": {
+    "es": "Design QA: cerrar el bucle del handoff",
+    "it": "Design QA: chiudere il loop dell’handoff",
+    "tr": "Design QA: handoff döngüsünü kapatmak"
+  },
+  "Functional testing ensures the code works; Design QA ensures the code looks right. A structured visual verification process is key to preventing quality leaks:": {
+    "es": "El test funcional dice si el código funciona; el Design QA, si se ve bien. La verificación visual estructurada evita fugas de calidad:",
+    "it": "Il test funzionale dice se il codice funziona; il Design QA, se si vede bene. La verifica visiva strutturata evita fughe di qualità:",
+    "tr": "İşlevsel test kodun çalıştığını; Design QA doğru göründüğünü sağlar. Yapılandırılmış görsel doğrulama kalite sızıntısını önler:"
+  },
+  "Visual comparisons: Comparing browser renderings and Figma mockups side-by-side using overlay tools or screenshot matching.": {
+    "es": "Comparaciones visuales: render del navegador y Figma lado a lado, overlays o matching de capturas.",
+    "it": "Confronti visivi: render del browser e Figma affiancati, overlay o matching di screenshot.",
+    "tr": "Görsel karşılaştırma: overlay araçları veya ekran görüntüsü eşleştirme ile tarayıcı render’ı ve Figma mockup’ını yan yana."
+  },
+  "Testing under extreme data states: Checking how cards and lists look when strings are extremely long, images are missing, or text wraps to multiple lines.": {
+    "es": "Estados de datos extremos: cards y listas con textos larguísimos, imágenes que faltan o wraps a varias líneas.",
+    "it": "Stati di dati estremi: card e liste con testi lunghissimi, immagini mancanti o wrap su più righe.",
+    "tr": "Uç veri state’lerinde test: metin çok uzun, görsel yok veya yazı birden fazla satıra sardığında kart ve listelerin görünümü."
+  },
+  "Cross-browser rendering check: Ensuring shadows, gradients, and layouts render identically across Safari, Chrome, Firefox, and mobile engines.": {
+    "es": "Check cross-browser: sombras, degradados y layouts iguales en Safari, Chrome, Firefox y motores móviles.",
+    "it": "Check cross-browser: ombre, gradienti e layout uguali su Safari, Chrome, Firefox e motori mobile.",
+    "tr": "Tarayıcılar arası render kontrolü: gölge, gradyan ve layout’ların Safari, Chrome, Firefox ve mobil motorlarda aynı görünmesi."
+  },
+  "How I Bridge the Gap Between Design and Production": {
+    "es": "Cómo cierro el hueco entre diseño y production",
+    "it": "Come chiudo il vuoto tra design e production",
+    "tr": "Tasarım ile production arasındaki boşluğu nasıl kapatırım"
+  },
+  "As a Senior Web & Frontend Engineer, I specialize in translating complex Figma layouts, high-fidelity landing pages, and interactive UI systems into pixel-perfect, clean production code.": {
+    "es": "Como Senior Web y Frontend, traduzco layouts Figma complejos, landing de alta fidelidad y sistemas de UI interactivos a código de production limpio y pixel-perfect.",
+    "it": "Come Senior Web e Frontend, traduco layout Figma complessi, landing ad alta fedeltà e sistemi UI interattivi in codice di production pulito e pixel-perfect.",
+    "tr": "Senior Web ve Frontend mühendisi olarak karmaşık Figma layout’larını, yüksek sadakatli landing’leri ve etkileşimli UI sistemlerini pixel-perfect, temiz production koduna çeviririm."
+  },
+  "Using React, Next.js, and Tailwind CSS, I build modern web platforms with 100% design fidelity, fluid responsiveness, smooth animations, and high performance. With 8+ years of production experience and 100+ launched projects, I make sure the product you launch looks exactly as premium and professional as you envisioned it in design.": {
+    "es": "Con React, Next.js y Tailwind CSS construyo plataformas con fidelidad 100%, responsive fluido, animaciones suaves y alto rendimiento. Más de 8 años y 100+ proyectos: el producto se ve tan premium como lo imaginó en diseño.",
+    "it": "Con React, Next.js e Tailwind CSS costruisco piattaforme con fedeltà 100%, responsive fluido, animazioni morbide e alte prestazioni. Oltre 8 anni e 100+ progetti: il prodotto si vede così premium come l’avevate immaginato in design.",
+    "tr": "React, Next.js ve Tailwind CSS ile %100 tasarım sadakati, akışkan responsive, yumuşak animasyon ve yüksek performanslı modern web platformları kurarım. 8+ yıl production ve 100+ canlı proje: lansman yaptığınız ürün tasarımda hayal ettiğiniz kadar premium ve profesyonel durur."
+  },
+  "Have a complex Figma design ready for development or want to review your current site implementation? Reach out via the contacts section below for a visual audit and project consultation!": {
+    "es": "¿Tiene un Figma complejo listo para desarrollo o quiere revisar la implementación actual? Escríbame para una auditoría visual y una consulta.",
+    "it": "Avete un Figma complesso pronto per lo sviluppo o volete rivedere l’implementazione attuale? Scrivetemi per un audit visivo e una consulenza.",
+    "tr": "Geliştirmeye hazır karmaşık bir Figma tasarımınız mı var, yoksa mevcut site uygulamasını mı gözden geçirmek istiyorsunuz? Görsel denetim ve proje danışmanlığı için aşağıdaki iletişimden yazın."
+  }
+}
