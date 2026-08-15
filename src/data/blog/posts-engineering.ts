@@ -2,6 +2,880 @@ import type { RawBlogPost } from './types'
 
 export const engineeringPosts: RawBlogPost[] = [
   {
+    slug: 'how-i-would-build-a-saas',
+    date: '2026-08-14',
+    title: {
+      en: 'How I Would Build a SaaS — Tenancy, Billing, and What Makes It a Product',
+      ua: 'Як я б створював SaaS: тенанти, білінг і що робить це продуктом',
+      de: 'Wie ich ein SaaS bauen würde — Tenancy, Billing und was es zum Produkt macht',
+      fr: 'Comment je construirais un SaaS — tenancy, billing, et ce qui en fait un produit',
+    },
+    excerpt: {
+      en: 'An MVP can be a form. A SaaS is a product many companies rent. How I would design tenancy, subscriptions, onboarding, and ops — and what I would not copy from big platforms in year one.',
+      ua: 'MVP може бути формою. SaaS — продукт, який орендують багато компаній. Як я б проєктував тенантність, підписки, онбординг і підтримку — і що не копіював би з великих платформ у перший рік.',
+      de: 'Ein MVP kann ein Formular sein. Ein SaaS ist ein Produkt, das viele Firmen mieten. Wie ich Tenancy, Abos, Onboarding und Ops gestalten würde — und was ich im ersten Jahr nicht von großen Plattformen kopieren würde.',
+      fr: "Un MVP peut être un formulaire. Un SaaS est un produit que plusieurs entreprises louent. Comment je concevrais tenancy, abonnements, onboarding et ops — et ce que je ne copierais pas des grandes plateformes la première année.",
+    },
+    readTime: {
+      en: '9 min read',
+      ua: '9 хв читання',
+      de: '9 Min. Lesezeit',
+      fr: '9 minutes de lecture',
+    },
+    tags: {
+      en: ['SaaS', 'Product', 'Billing', 'Multi-tenant', 'Next.js', 'Engineering'],
+      ua: ['SaaS', 'Продукт', 'Білінг', 'Мультитенант', 'Next.js', 'Інженерія'],
+      de: ['SaaS', 'Produkt', 'Billing', 'Multi-Tenant', 'Next.js', 'Engineering'],
+      fr: ['SaaS', 'Produit', 'Billing', 'Multi-tenant', 'Next.js', 'Ingénierie'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'An MVP answers: will anyone finish this job? A SaaS answers: will many companies keep paying so we can run one codebase for all of them? That second question is not “add Stripe and a login.” It is tenancy, billing, onboarding, and a way to help a stranger at 2 a.m. without SSHing into their data.',
+            ua: 'MVP відповідає: чи хтось закінчить цю роботу? SaaS відповідає: чи багато компаній платитимуть далі, щоб ми тримали один код для всіх? Друге питання — не «додати Stripe і логін». Це тенантність, білінг, онбординг і спосіб допомогти незнайомцю о другій ночі, не заходячи SSH у їхні дані.',
+            de: 'Ein MVP beantwortet: wird jemand diesen Job zu Ende bringen? Ein SaaS beantwortet: werden viele Firmen weiterzahlen, damit wir eine Codebasis für alle betreiben? Die zweite Frage ist nicht „Stripe und Login dazu“. Es ist Tenancy, Billing, Onboarding und ein Weg, einem Fremden um 2 Uhr zu helfen, ohne per SSH in ihre Daten zu gehen.',
+            fr: "Un MVP répond : est-ce que quelqu'un finira ce job ? Un SaaS répond : est-ce que plusieurs entreprises continueront à payer pour qu'on tienne une seule base de code pour toutes ? La deuxième question n'est pas « ajouter Stripe et un login ». C'est tenancy, billing, onboarding, et un moyen d'aider un inconnu à 2 h du matin sans SSH dans leurs données.",
+          },
+          {
+            en: 'I already wrote how I would pick a stack for an MVP. This is the next layer: when the shape of the business is software-as-a-service, what I would actually build, in what order, and what I would refuse to copy from Linear or Salesforce in month one.',
+            ua: 'Як обирати стек для MVP, я вже писав. Це наступний шар: коли форма бізнесу — software-as-a-service, що я б реально збирав, в якому порядку, і що не копіював би з Linear чи Salesforce у перший місяць.',
+            de: 'Wie ich den Stack für ein MVP wähle, habe ich schon geschrieben. Das ist die nächste Schicht: wenn die Geschäftsform Software-as-a-Service ist, was ich wirklich bauen würde, in welcher Reihenfolge, und was ich im ersten Monat nicht von Linear oder Salesforce kopieren würde.',
+            fr: "Comment je choisirais la stack d'un MVP, je l'ai déjà écrit. Ici, la couche suivante : quand la forme du business est software-as-a-service, ce que je construirais vraiment, dans quel ordre, et ce que je ne copierais pas de Linear ou Salesforce au premier mois.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. First: is this actually SaaS?',
+          ua: '1. Спочатку: це взагалі SaaS?',
+          de: '1. Zuerst: ist das überhaupt SaaS?',
+          fr: "1. D'abord : est-ce vraiment un SaaS ?",
+        },
+        paragraphs: [
+          {
+            en: 'A lot of “SaaS ideas” are a custom system for one client with a monthly invoice. That can be a good business. It is not SaaS. SaaS means one product, many tenants, self-serve or light-touch sales, and the cost to add the next company is close to zero — not another project.',
+            ua: 'Багато «SaaS-ідей» — кастомна система для одного клієнта з щомісячним рахунком. Це може бути хороший бізнес. Це не SaaS. SaaS — один продукт, багато тенантів, self-serve або легкий продаж, і вартість наступної компанії близька до нуля — не ще один проєкт.',
+            de: 'Viele „SaaS-Ideen“ sind ein Custom-System für einen Kunden mit monatlicher Rechnung. Das kann ein gutes Geschäft sein. Es ist kein SaaS. SaaS heißt: ein Produkt, viele Tenants, Self-Serve oder leichter Vertrieb, und die Kosten für die nächste Firma liegen nahe null — nicht noch ein Projekt.',
+            fr: "Beaucoup d'« idées SaaS » sont un système custom pour un client avec une facture mensuelle. Ça peut être un bon business. Ce n'est pas du SaaS. SaaS veut dire : un produit, beaucoup de tenants, self-serve ou vente légère, et le coût d'ajouter la prochaine entreprise est proche de zéro — pas un autre projet.",
+          },
+        ],
+        list: [
+          {
+            en: 'SaaS: many orgs, same features, billing in the product, you own the uptime.',
+            ua: 'SaaS: багато організацій, ті самі фічі, білінг у продукті, аптайм — ваша відповідальність.',
+            de: 'SaaS: viele Orgs, dieselben Features, Billing im Produkt, Uptime ist Ihre Verantwortung.',
+            fr: "SaaS : beaucoup d'orgs, les mêmes features, billing dans le produit, l'uptime est votre responsabilité.",
+          },
+          {
+            en: 'Custom software: one buyer, unique workflows, you invoice for change requests. Do not pretend the second client will “just log in.”',
+            ua: 'Кастом: один покупець, унікальні процеси, виставляєте рахунок за change request. Не вдавайте, що другий клієнт «просто залогіниться».',
+            de: 'Custom: ein Käufer, einzigartige Workflows, Sie rechnen Change Requests ab. Tun Sie nicht so, als würde der zweite Kunde „einfach einloggen“.',
+            fr: "Custom : un acheteur, des workflows uniques, vous facturez les change requests. Ne faites pas semblant que le deuxième client « se connectera juste ».",
+          },
+          {
+            en: 'If the first three customers each need a fork, stop calling it SaaS. Sell projects until the overlap is obvious — then extract the product.',
+            ua: 'Якщо першим трьом клієнтам потрібен форк — припиніть називати це SaaS. Продавайте проєкти, доки перетин не стане очевидним, потім витягніть продукт.',
+            de: 'Wenn die ersten drei Kunden jeweils einen Fork brauchen, hören Sie auf, es SaaS zu nennen. Verkaufen Sie Projekte, bis die Überlappung offensichtlich ist — dann extrahieren Sie das Produkt.',
+            fr: "Si les trois premiers clients ont chacun besoin d'un fork, arrêtez d'appeler ça un SaaS. Vendez des projets jusqu'à ce que le recouvrement soit évident — puis extraire le produit.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. The unit of the product is the workspace, not the user',
+          ua: '2. Одиниця продукту — воркспейс, не користувач',
+          de: '2. Die Einheit des Produkts ist der Workspace, nicht der User',
+          fr: "2. L'unité du produit est le workspace, pas l'utilisateur",
+        },
+        paragraphs: [
+          {
+            en: 'I would model the domain around an organization (workspace, tenant, account — pick one word and keep it). Users belong to orgs. Data belongs to orgs. Bills belong to orgs. If you start with “User has Projects,” you will spend six months bolting on teams, invites, and “who pays.”',
+            ua: 'Я б моделював домен навколо організації (workspace, tenant, account — оберіть одне слово й тримайтеся його). Користувачі належать оргам. Дані належать оргам. Рахунки належать оргам. Якщо почати з «User має Projects», пів року прикручуватимете команди, інвайти і «хто платить».',
+            de: 'Ich würde die Domain um eine Organisation bauen (Workspace, Tenant, Account — ein Wort wählen und behalten). User gehören zu Orgs. Daten gehören zu Orgs. Rechnungen gehören zu Orgs. Wenn Sie mit „User hat Projects“ starten, schrauben Sie sechs Monate Teams, Invites und „wer zahlt“ drauf.',
+            fr: "Je modéliserais le domaine autour d'une organisation (workspace, tenant, account — un mot, et on s'y tient). Les users appartiennent aux orgs. Les données appartiennent aux orgs. Les factures appartiennent aux orgs. Si vous partez de « User a des Projects », vous passerez six mois à boulonner équipes, invitations et « qui paie ».",
+          },
+        ],
+        list: [
+          {
+            en: 'Org has a plan, a billing email, and a status: trial, active, past_due, canceled.',
+            ua: 'Орг має план, billing-email і статус: trial, active, past_due, canceled.',
+            de: 'Die Org hat einen Plan, eine Billing-E-Mail und einen Status: trial, active, past_due, canceled.',
+            fr: "L'org a un plan, un email de billing et un statut : trial, active, past_due, canceled.",
+          },
+          {
+            en: 'Membership is a row: user + org + role (owner, admin, member is enough at the start).',
+            ua: 'Членство — рядок: user + org + role (owner, admin, member на старті вистачає).',
+            de: 'Mitgliedschaft ist eine Zeile: User + Org + Rolle (owner, admin, member reicht am Anfang).',
+            fr: "L'appartenance est une ligne : user + org + rôle (owner, admin, member suffisent au départ).",
+          },
+          {
+            en: 'Every business table has org_id. Queries without org_id are bugs, not shortcuts.',
+            ua: 'Кожна бізнес-таблиця має org_id. Запит без org_id — баг, не шорткат.',
+            de: 'Jede Business-Tabelle hat org_id. Queries ohne org_id sind Bugs, keine Shortcuts.',
+            fr: "Chaque table métier a org_id. Une requête sans org_id est un bug, pas un raccourci.",
+          },
+          {
+            en: 'Invites before “create user for them.” Email in, accept, land in the right workspace.',
+            ua: 'Інвайти замість «створити їм юзера». Лист, accept, потрапляння в правильний воркспейс.',
+            de: 'Invites statt „User für die anlegen“. E-Mail rein, akzeptieren, im richtigen Workspace landen.',
+            fr: "Des invitations plutôt que « créer un user pour eux ». Email, acceptation, arrivée dans le bon workspace.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Tenancy: shared database, strict isolation',
+          ua: '3. Тенантність: спільна база, жорстка ізоляція',
+          de: '3. Tenancy: gemeinsame Datenbank, strikte Isolation',
+          fr: '3. Tenancy : base partagée, isolation stricte',
+        },
+        paragraphs: [
+          {
+            en: 'For a first SaaS I would not open a Postgres per customer. I would use one database, org_id on every row, and defense in depth so a missed WHERE cannot become a data leak. Database-per-tenant is for regulated isolation or noisy neighbors you have already measured — not for tenant number four.',
+            ua: 'Для першого SaaS я б не відкривав Postgres на кожного клієнта. Одна база, org_id на кожному рядку, і захист у глибину, щоб пропущений WHERE не став витоком. База-на-тенанта — для регульованої ізоляції або шумних сусідів, яких уже виміряли, не для четвертого клієнта.',
+            de: 'Für ein erstes SaaS würde ich kein Postgres pro Kunde aufmachen. Eine Datenbank, org_id auf jeder Zeile, und Defense in Depth, damit ein vergessenes WHERE kein Leak wird. Database-per-Tenant ist für regulierte Isolation oder noisy neighbors, die Sie schon gemessen haben — nicht für Tenant Nummer vier.',
+            fr: "Pour un premier SaaS je n'ouvrirais pas un Postgres par client. Une base, org_id sur chaque ligne, et une défense en profondeur pour qu'un WHERE oublié ne devienne pas une fuite. Database-per-tenant, c'est pour l'isolation régulée ou des voisins bruyants déjà mesurés — pas pour le tenant numéro quatre.",
+          },
+        ],
+        list: [
+          {
+            en: 'Row-level security or an equivalent query helper that always injects org_id from the session — not from the client body.',
+            ua: 'Row-level security або еквівалентний хелпер запитів, який завжди підставляє org_id із сесії — не з body клієнта.',
+            de: 'Row-Level Security oder ein Query-Helper, der org_id immer aus der Session zieht — nicht aus dem Client-Body.',
+            fr: "Row-level security ou un helper de requêtes qui injecte toujours org_id depuis la session — pas depuis le body client.",
+          },
+          {
+            en: 'IDs that are not guessable (UUIDs). Sequential /org/12/invoices/4 is an invitation.',
+            ua: 'ID, які не вгадаєш (UUID). Послідовні /org/12/invoices/4 — запрошення.',
+            de: 'IDs, die man nicht raten kann (UUIDs). Sequenzielle /org/12/invoices/4 sind eine Einladung.',
+            fr: "Des IDs non devinables (UUID). Les /org/12/invoices/4 séquentiels sont une invitation.",
+          },
+          {
+            en: 'File storage prefixed by org_id, signed URLs, never a public bucket of “all uploads.”',
+            ua: 'Файли з префіксом org_id, підписані URL, ніколи публічний бакет «усі завантаження».',
+            de: 'Dateispeicher mit org_id-Präfix, signierte URLs, niemals ein öffentlicher Bucket „alle Uploads“.',
+            fr: "Stockage fichiers préfixé par org_id, URLs signées, jamais un bucket public de « tous les uploads ».",
+          },
+          {
+            en: 'Schema-per-tenant or DB-per-tenant only when a contract, a compliance checklist, or a real noisy neighbor forces it. Migrations across 200 schemas are a product you did not want.',
+            ua: 'Схема-на-тенанта чи БД-на-тенанта лише коли контракт, чекліст compliance або реальний шумний сусід змушує. Міграції на 200 схемах — продукт, який ви не хотіли.',
+            de: 'Schema- oder DB-pro-Tenant nur, wenn Vertrag, Compliance-Checkliste oder ein echter noisy neighbor es erzwingt. Migrationen über 200 Schemas sind ein Produkt, das Sie nicht wollten.',
+            fr: "Schema-per-tenant ou DB-per-tenant seulement si un contrat, une checklist compliance ou un vrai voisin bruyant l'impose. Des migrations sur 200 schémas sont un produit que vous ne vouliez pas.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. Billing is a feature, not a plugin you add later',
+          ua: '4. Білінг — фіча, не плагін «потім»',
+          de: '4. Billing ist ein Feature, kein Plugin für später',
+          fr: "4. Le billing est une feature, pas un plugin pour plus tard",
+        },
+        paragraphs: [
+          {
+            en: 'If nobody can pay, you do not have SaaS. I would put Checkout in the critical path in week two, even if the rest of the app is thin. A “we will invoice manually” phase is allowed for the first five design partners — then the card has to work.',
+            ua: 'Якщо ніхто не може заплатити — у вас немає SaaS. Checkout я б поставив на critical path уже на другому тижні, навіть якщо решта застосунку худа. Фаза «виставимо рахунок руками» ок для перших п’яти design partners — далі картка має спрацювати.',
+            de: 'Wenn niemand zahlen kann, haben Sie kein SaaS. Checkout würde ich in Woche zwei auf den Critical Path legen, auch wenn der Rest der App dünn ist. Eine Phase „wir rechnen manuell ab“ ist für die ersten fünf Design Partners okay — danach muss die Karte funktionieren.',
+            fr: "Si personne ne peut payer, vous n'avez pas de SaaS. Je mettrais le Checkout sur le chemin critique dès la semaine deux, même si le reste de l'app est mince. Une phase « on facture à la main » est ok pour les cinq premiers design partners — ensuite la carte doit marcher.",
+          },
+        ],
+        list: [
+          {
+            en: 'Stripe Billing (or the processor your first market actually uses): products, prices, customer portal, webhooks. Do not store card numbers. Do not write a dunning engine.',
+            ua: 'Stripe Billing (або процесор, яким реально платять на першому ринку): products, prices, customer portal, webhooks. Не зберігайте номери карток. Не пишіть dunning-движок.',
+            de: 'Stripe Billing (oder der Prozessor, den Ihr erster Markt wirklich nutzt): Products, Prices, Customer Portal, Webhooks. Keine Kartennummern speichern. Keine Dunning-Engine schreiben.',
+            fr: "Stripe Billing (ou le processeur que votre premier marché utilise vraiment) : products, prices, customer portal, webhooks. Ne stockez pas les numéros de carte. N'écrivez pas un moteur de dunning.",
+          },
+          {
+            en: 'One or two plans, not seven. A trial with a clear end. After trial: read-only or hard block — pick one and say it in the UI.',
+            ua: 'Один-два плани, не сім. Тріал з чітким кінцем. Після тріалу: read-only або жорсткий блок — оберіть одне й напишіть це в UI.',
+            de: 'Ein oder zwei Pläne, nicht sieben. Trial mit klarem Ende. Nach dem Trial: read-only oder harter Block — eines wählen und im UI sagen.',
+            fr: "Un ou deux plans, pas sept. Un essai avec une fin claire. Après l'essai : lecture seule ou blocage dur — choisissez et dites-le dans l'UI.",
+          },
+          {
+            en: 'Price a thing customers understand: seats, projects, or monthly volume. Usage billing is powerful and easy to get wrong; start with a seat or a flat plan until you know what “usage” even is.',
+            ua: 'Ціна за річ, яку клієнт розуміє: місця, проєкти або місячний обсяг. Usage-білінг сильний і легко кривий; почніть із місця або flat, поки не зрозумієте, що таке «usage».',
+            de: 'Preis für etwas, das Kunden verstehen: Seats, Projekte oder Monatsvolumen. Usage-Billing ist mächtig und leicht falsch; starten Sie mit Seat oder Flat, bis Sie wissen, was „Usage“ überhaupt ist.',
+            fr: "Prix sur une chose que le client comprend : sièges, projets ou volume mensuel. Le billing à l'usage est puissant et facile à rater ; commencez par un siège ou un forfait jusqu'à savoir ce qu'est « l'usage ».",
+          },
+          {
+            en: 'Webhooks are the source of truth for “are they paid?” Your database mirrors Stripe (or Paddle). Cron that guesses is how you lock a paying customer out.',
+            ua: 'Webhooks — джерело правди для «чи вони заплатили?». Ваша база дзеркалить Stripe (чи Paddle). Cron, який здогадується, — це як заблокувати платника.',
+            de: 'Webhooks sind die Quelle der Wahrheit für „haben sie bezahlt?“. Ihre DB spiegelt Stripe (oder Paddle). Ein Cron, der rät, sperrt zahlende Kunden aus.',
+            fr: "Les webhooks sont la source de vérité pour « est-ce payé ? ». Votre base miroite Stripe (ou Paddle). Un cron qui devine, c'est comme ça qu'on lock un client payant.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. The stack I would use (and how it differs from a site MVP)',
+          ua: '5. Стек, який я б узяв (і чим він відрізняється від MVP-сайта)',
+          de: '5. Der Stack, den ich nehmen würde (und wie er sich vom Site-MVP unterscheidet)',
+          fr: "5. La stack que je prendrais (et en quoi elle diffère d'un MVP site)",
+        },
+        paragraphs: [
+          {
+            en: 'The web default still holds: Next.js, TypeScript, Tailwind, Postgres. SaaS adds a few pieces that a marketing site does not need — and still does not need a mesh of services.',
+            ua: 'Вебдефолт лишається: Next.js, TypeScript, Tailwind, Postgres. SaaS додає кілька частин, яких маркетинговому сайту не треба, — і досі не потребує сітки сервісів.',
+            de: 'Der Web-Default bleibt: Next.js, TypeScript, Tailwind, Postgres. SaaS fügt ein paar Teile hinzu, die eine Marketing-Site nicht braucht — und braucht immer noch kein Service-Mesh.',
+            fr: "Le défaut web tient toujours : Next.js, TypeScript, Tailwind, Postgres. Le SaaS ajoute quelques pièces dont un site marketing n'a pas besoin — et n'a toujours pas besoin d'un mesh de services.",
+          },
+        ],
+        list: [
+          {
+            en: 'Auth that understands orgs: Clerk, WorkOS, Auth.js plus your membership table — not a single global “logged in” flag.',
+            ua: 'Auth, який розуміє орги: Clerk, WorkOS, Auth.js плюс таблиця членства — не один глобальний прапорець «залогінений».',
+            de: 'Auth, der Orgs versteht: Clerk, WorkOS, Auth.js plus Membership-Tabelle — kein globales „eingeloggt“-Flag.',
+            fr: "Auth qui comprend les orgs : Clerk, WorkOS, Auth.js plus la table d'appartenance — pas un flag global « connecté ».",
+          },
+          {
+            en: 'Background jobs on day one if anything is slow or retryable: emails, Stripe webhooks, exports, LLM calls. A simple queue (Inngest, Trigger.dev, or a worker on the VPS) beats a setTimeout in a serverless function.',
+            ua: 'Фонові джоби з першого дня, якщо щось повільне або retryable: листи, Stripe webhooks, експорти, виклики LLM. Проста черга (Inngest, Trigger.dev або воркер на VPS) б’є setTimeout у serverless-функції.',
+            de: 'Background-Jobs ab Tag eins, wenn etwas langsam oder retryable ist: E-Mails, Stripe-Webhooks, Exports, LLM-Calls. Eine einfache Queue (Inngest, Trigger.dev oder ein Worker auf dem VPS) schlägt setTimeout in einer Serverless-Funktion.',
+            fr: "Des jobs de fond dès le premier jour si quelque chose est lent ou retryable : emails, webhooks Stripe, exports, appels LLM. Une file simple (Inngest, Trigger.dev ou un worker sur le VPS) bat un setTimeout dans une fonction serverless.",
+          },
+          {
+            en: 'Transactional email from minute one: invite, receipt, “your trial ends Friday.” If that mail does not arrive, the product feels dead.',
+            ua: 'Транзакційна пошта з першої хвилини: інвайт, квитанція, «тріал закінчується в п’ятницю». Якщо лист не доходить — продукт здається мертвим.',
+            de: 'Transactional E-Mail ab Minute eins: Invite, Beleg, „Ihr Trial endet Freitag.“ Kommt die Mail nicht an, fühlt sich das Produkt tot an.',
+            fr: "Email transactionnel dès la première minute : invitation, reçu, « votre essai finit vendredi ». Si le mail n'arrive pas, le produit paraît mort.",
+          },
+          {
+            en: 'Feature flags for plans (can_export, seat_limit), not if (org.plan === "pro") scattered in fifty files.',
+            ua: 'Feature flags для планів (can_export, seat_limit), а не if (org.plan === "pro") у п’ятдесяти файлах.',
+            de: 'Feature Flags für Pläne (can_export, seat_limit), nicht if (org.plan === "pro") in fünfzig Dateien.',
+            fr: 'Feature flags pour les plans (can_export, seat_limit), pas des if (org.plan === "pro") dans cinquante fichiers.',
+          },
+          {
+            en: 'Hosting: Vercel plus hosted Postgres is fine until a worker or residency says otherwise. One region is enough. Multi-region is a later problem.',
+            ua: 'Хостинг: Vercel плюс хостед Postgres ок, поки воркер або residency не скаже інакше. Одного регіону вистачає. Multi-region — пізніша проблема.',
+            de: 'Hosting: Vercel plus gehostetes Postgres ist okay, bis ein Worker oder Residency etwas anderes sagt. Eine Region reicht. Multi-Region ist später.',
+            fr: "Hébergement : Vercel plus Postgres hébergé, tant qu'un worker ou la résidence ne dit pas le contraire. Une région suffit. Le multi-région, c'est plus tard.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '6. Onboarding is the product for the first hour',
+          ua: '6. Онбординг — це продукт першої години',
+          de: '6. Onboarding ist das Produkt der ersten Stunde',
+          fr: "6. L'onboarding est le produit de la première heure",
+        },
+        paragraphs: [
+          {
+            en: 'Empty SaaS dashboards do not convert. I would design the first session as a job, not a tour: create the workspace, import or type the first real record, invite one teammate, see one result. Tooltips over a blank table are not onboarding.',
+            ua: 'Порожні SaaS-дашборди не конвертять. Першу сесію я б проєктував як роботу, не як тур: створити воркспейс, імпортувати або ввести перший живий запис, запросити колегу, побачити один результат. Тултіпи над порожньою таблицею — не онбординг.',
+            de: 'Leere SaaS-Dashboards konvertieren nicht. Die erste Session würde ich als Job gestalten, nicht als Tour: Workspace anlegen, den ersten echten Datensatz importieren oder tippen, ein Teammitglied einladen, ein Ergebnis sehen. Tooltips über einer leeren Tabelle sind kein Onboarding.',
+            fr: "Les dashboards SaaS vides ne convertissent pas. Je concevrais la première session comme un job, pas comme une visite : créer le workspace, importer ou saisir le premier vrai enregistrement, inviter un collègue, voir un résultat. Des tooltips sur une table vide ne sont pas de l'onboarding.",
+          },
+        ],
+        list: [
+          {
+            en: 'A sample workspace is allowed if it is clearly fake and one click away from “start with my data.”',
+            ua: 'Демо-воркспейс ок, якщо він явно фейковий і за один клік від «почати з моїх даних».',
+            de: 'Ein Sample-Workspace ist okay, wenn er klar fake ist und einen Klick von „mit meinen Daten starten“ entfernt.',
+            fr: "Un workspace d'exemple est ok s'il est clairement fake et à un clic de « commencer avec mes données ».",
+          },
+          {
+            en: 'Activation metric: they completed the core job once, not “signed up.” Track that. Pitch that.',
+            ua: 'Метрика активації: вони один раз закінчили ключову роботу, не «зареєструвались». Це трекайте. Це продавайте.',
+            de: 'Aktivierungsmetrik: sie haben den Kernjob einmal geschafft, nicht „sign-up“. Das tracken. Das pitchen.',
+            fr: "Métrique d'activation : ils ont fini le job central une fois, pas « inscrit ». Trackez ça. Vendez ça.",
+          },
+          {
+            en: 'Settings can be ugly. The empty state of the main screen cannot.',
+            ua: 'Налаштування можуть бути бридкими. Порожній стан головного екрана — ні.',
+            de: 'Settings dürfen hässlich sein. Der Leerzustand des Hauptbildschirms nicht.',
+            fr: "Les réglages peuvent être moches. L'état vide de l'écran principal, non.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '7. Ops: how you will support people you have never met',
+          ua: '7. Ops: як підтримувати людей, яких ви не знаєте',
+          de: '7. Ops: wie Sie Menschen unterstützen, die Sie nie getroffen haben',
+          fr: "7. Ops : comment supporter des gens que vous n'avez jamais rencontrés",
+        },
+        paragraphs: [
+          {
+            en: 'The day a paying org writes “I cannot see my invoices,” you need a path that is not production SSH. I would add a thin internal admin before the tenth customer, not after the first incident.',
+            ua: 'У день, коли платна орг напише «не бачу рахунків», потрібен шлях без SSH у прод. Тонку внутрішню адмінку я б додав до десятого клієнта, не після першого інциденту.',
+            de: 'An dem Tag, an dem eine zahlende Org schreibt „ich sehe meine Rechnungen nicht“, brauchen Sie einen Weg ohne Production-SSH. Ein dünnes internes Admin würde ich vor dem zehnten Kunden bauen, nicht nach dem ersten Vorfall.',
+            fr: "Le jour où une org payante écrit « je ne vois pas mes factures », il faut un chemin sans SSH prod. J'ajouterais un admin interne mince avant le dixième client, pas après le premier incident.",
+          },
+        ],
+        list: [
+          {
+            en: 'Admin: find org, see plan and last webhook, impersonate read-only, resend invite. Audit that impersonation.',
+            ua: 'Адмінка: знайти орг, бачити план і останній webhook, impersonate read-only, переслати інвайт. Impersonation — в audit log.',
+            de: 'Admin: Org finden, Plan und letzten Webhook sehen, read-only impersonaten, Invite neu senden. Impersonation auditieren.',
+            fr: "Admin : trouver l'org, voir le plan et le dernier webhook, impersonate en lecture seule, renvoyer l'invitation. Auditer l'impersonation.",
+          },
+          {
+            en: 'Logs with org_id and request id. “It failed” without a tenant is not a log line, it is a shrug.',
+            ua: 'Логи з org_id і request id. «Впало» без тенанта — не рядок логу, а знизування плечима.',
+            de: 'Logs mit org_id und Request-ID. „Es ist fehlgeschlagen“ ohne Tenant ist keine Logzeile, es ist ein Schulterzucken.',
+            fr: "Logs avec org_id et request id. « Ça a planté » sans tenant n'est pas une ligne de log, c'est un haussement d'épaules.",
+          },
+          {
+            en: 'Backups you have restored once. Nightly is enough at the start; untested backups are a story you tell yourself.',
+            ua: 'Бекапи, які ви хоча б раз відновлювали. На старті нічних вистачає; неперевірений бекап — казка для себе.',
+            de: 'Backups, die Sie einmal restored haben. Nachts reicht am Anfang; ungetestete Backups sind eine Geschichte, die Sie sich erzählen.',
+            fr: "Des backups que vous avez restaurés une fois. La nuit suffit au début ; un backup non testé est une histoire que vous vous racontez.",
+          },
+          {
+            en: 'Status page can wait. An email “we are down, here is what we know” cannot.',
+            ua: 'Status page може зачекати. Лист «ми лежимо, ось що знаємо» — ні.',
+            de: 'Eine Statuspage kann warten. Eine Mail „wir liegen, das wissen wir“ nicht.',
+            fr: "Une status page peut attendre. Un email « on est down, voilà ce qu'on sait », non.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '8. What I would not build in year one',
+          ua: '8. Що я б не будував у перший рік',
+          de: '8. Was ich im ersten Jahr nicht bauen würde',
+          fr: '8. Ce que je ne construirais pas la première année',
+        },
+        paragraphs: [
+          {
+            en: 'Big SaaS is a museum of features that paid for themselves later. Copying the museum is how you miss the one job.',
+            ua: 'Великий SaaS — музей фіч, які окупилися пізніше. Копіювати музей — спосіб промахнутися з однією роботою.',
+            de: 'Großes SaaS ist ein Museum von Features, die sich später bezahlt gemacht haben. Das Museum zu kopieren ist, wie man den einen Job verfehlt.',
+            fr: "Un grand SaaS est un musée de features qui se sont payées plus tard. Copier le musée, c'est rater le seul job.",
+          },
+        ],
+        list: [
+          {
+            en: 'SSO, SCIM, and a 40-page security questionnaire until a real deal is blocked on them. Then they become the sprint, not a side quest.',
+            ua: 'SSO, SCIM і 40-сторінкову security-анкету — поки реальна угода на них не стоїть. Тоді це і є спринт, не побічний квест.',
+            de: 'SSO, SCIM und ein 40-Seiten-Security-Fragebogen erst, wenn ein echter Deal daran hängt. Dann sind sie der Sprint, keine Nebenquest.',
+            fr: "SSO, SCIM et un questionnaire sécu de 40 pages seulement si un vrai deal est bloqué là-dessus. Alors c'est le sprint, pas une quête secondaire.",
+          },
+          {
+            en: 'A public API and a marketplace of integrations. One Zapier or a CSV export often unblocks the same buyer.',
+            ua: 'Публічне API і маркетплейс інтеграцій. Один Zapier або CSV-експорт часто розблоковує того самого покупця.',
+            de: 'Eine Public API und ein Integrations-Marktplatz. Ein Zapier oder ein CSV-Export entblockt oft denselben Käufer.',
+            fr: "Une API publique et un marketplace d'intégrations. Un Zapier ou un export CSV débloque souvent le même acheteur.",
+          },
+          {
+            en: 'Per-tenant custom domains, white-label, and a theme studio. A logo upload is enough for most early B2B.',
+            ua: 'Кастомні домени на тенанта, white-label і студія тем. Завантаження логотипу вистачає більшості раннього B2B.',
+            de: 'Custom Domains pro Tenant, White-Label und Theme-Studio. Ein Logo-Upload reicht für das meiste frühe B2B.',
+            fr: "Domaines custom par tenant, white-label et studio de thèmes. Un upload de logo suffit pour la plupart du B2B précoce.",
+          },
+          {
+            en: 'AI everywhere. One place where language is the job (search, drafts, extraction) with a schema and a billable meter. Not a chat bubble on every screen.',
+            ua: 'AI скрізь. Одне місце, де мова і є робота (пошук, чернетки, витяг) зі схемою і біллінговим лічильником. Не чат-бульбашка на кожному екрані.',
+            de: 'AI überall. Eine Stelle, wo Sprache der Job ist (Suche, Entwürfe, Extraktion), mit Schema und billbarem Zähler. Keine Chat-Blase auf jedem Screen.',
+            fr: "De l'IA partout. Un endroit où le langage est le job (recherche, brouillons, extraction), avec un schéma et un compteur facturable. Pas une bulle de chat sur chaque écran.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '9. A sequence I would actually follow',
+          ua: '9. Послідовність, якої я б реально дотримувався',
+          de: '9. Eine Reihenfolge, der ich wirklich folgen würde',
+          fr: '9. Une séquence que je suivrais vraiment',
+        },
+        paragraphs: [
+          {
+            en: 'Same calendar honesty as an MVP, with SaaS-shaped milestones. If a week has no tenant, no pay, or no job, it is not a SaaS week.',
+            ua: 'Та сама чесність календаря, що й для MVP, але з SaaS-віхами. Якщо в тижні немає тенанта, оплати або роботи — це не SaaS-тиждень.',
+            de: 'Dieselbe Kalender-Ehrlichkeit wie beim MVP, mit SaaS-Meilensteinen. Hat eine Woche keinen Tenant, keine Zahlung oder keinen Job, ist sie keine SaaS-Woche.',
+            fr: "La même honnêteté de calendrier que pour un MVP, avec des jalons en forme SaaS. Si une semaine n'a ni tenant, ni paiement, ni job, ce n'est pas une semaine SaaS.",
+          },
+        ],
+        list: [
+          {
+            en: 'Week 0: name the job, the buyer, the plan, the kill number (e.g. five paid orgs in 90 days or we stop). Non-goals on a page.',
+            ua: 'Тиждень 0: назвати роботу, покупця, план, kill-число (наприклад п’ять платних орг за 90 днів — або стоп). Non-goals на сторінці.',
+            de: 'Woche 0: Job, Käufer, Plan, Kill-Zahl benennen (z. B. fünf zahlende Orgs in 90 Tagen oder Stopp). Non-Goals auf einer Seite.',
+            fr: "Semaine 0 : nommer le job, l'acheteur, le plan, le chiffre d'abandon (ex. cinq orgs payantes en 90 jours ou on arrête). Non-goals sur une page.",
+          },
+          {
+            en: 'Weeks 1–2: org + membership + one happy path in production + Stripe test mode. Isolation tests: user A must not see user B.',
+            ua: 'Тижні 1–2: орг + членство + один happy path у проді + Stripe test mode. Тести ізоляції: user A не бачить user B.',
+            de: 'Wochen 1–2: Org + Membership + ein Happy Path in Produktion + Stripe Test Mode. Isolationstests: User A darf User B nicht sehen.',
+            fr: "Semaines 1–2 : org + appartenance + un happy path en prod + Stripe test mode. Tests d'isolation : user A ne voit pas user B.",
+          },
+          {
+            en: 'Weeks 3–4: live billing, invites, emails, empty-state onboarding, thin admin. Put it in front of named companies, not “the internet.”',
+            ua: 'Тижні 3–4: живий білінг, інвайти, листи, онбординг порожнього стану, тонка адмінка. Показати іменним компаніям, не «інтернету».',
+            de: 'Wochen 3–4: Live-Billing, Invites, Mails, Empty-State-Onboarding, dünnes Admin. Named Companies zeigen, nicht „dem Internet“.',
+            fr: "Semaines 3–4 : billing live, invitations, emails, onboarding d'état vide, admin mince. Le montrer à des entreprises nommées, pas « à internet ».",
+          },
+          {
+            en: 'Days 30–90: watch activation and churn reasons. Add the one integration or report they pay for. Do not add a second product.',
+            ua: 'Дні 30–90: дивитися активацію й причини відтоку. Додати одну інтеграцію або звіт, за який платять. Не додавати другий продукт.',
+            de: 'Tage 30–90: Aktivierung und Churn-Gründe ansehen. Die eine Integration oder den Report hinzufügen, für den sie zahlen. Kein zweites Produkt.',
+            fr: "Jours 30–90 : regarder l'activation et les raisons de churn. Ajouter la seule intégration ou le rapport pour lequel ils paient. Ne pas ajouter un second produit.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion: rent a job, not a platform',
+          ua: 'Висновок: здавайте в оренду роботу, не платформу',
+          de: 'Fazit: vermieten Sie einen Job, keine Plattform',
+          fr: 'Conclusion : louez un job, pas une plateforme',
+        },
+        paragraphs: [
+          {
+            en: 'I would build SaaS the same unglamorous way as an MVP, plus the parts that make many companies share one system: a workspace, a bill, a wall between tenants, a first hour that is not empty, and an admin so support is not a root shell. The stack can stay boring. The product cannot stay vague.',
+            ua: 'SaaS я б збирав так само непретензійно, як MVP, плюс те, що дає багатьом компаніям одну систему: воркспейс, рахунок, стіна між тенантами, перша година не порожня, і адмінка, щоб підтримка не була root-шеллом. Стек може лишатися нудним. Продукт — ні.',
+            de: 'SaaS würde ich genauso unglamourös bauen wie ein MVP, plus die Teile, die vielen Firmen ein System geben: Workspace, Rechnung, Wand zwischen Tenants, eine erste Stunde, die nicht leer ist, und ein Admin, damit Support keine Root-Shell ist. Der Stack darf langweilig bleiben. Das Produkt nicht vage.',
+            fr: "Je construirais un SaaS aussi peu glamour qu'un MVP, plus ce qui fait partager un système à plusieurs entreprises : un workspace, une facture, un mur entre tenants, une première heure qui n'est pas vide, et un admin pour que le support ne soit pas un root shell. La stack peut rester ennuyeuse. Le produit, non.",
+          },
+          {
+            en: 'If you have a workflow several companies already pay you to repeat, and you want it as a product instead of a pile of custom deploys — write via the contacts section. We can name the tenant model, the first plan, and a slice that takes a card without pretending to be Salesforce.',
+            ua: 'Якщо є процес, за повторення якого вам уже платять кілька компаній, і ви хочете продукт замість купи кастомних деплоїв — напишіть через блок контактів. Можемо назвати модель тенанта, перший план і зріз, який приймає картку, не прикидаючись Salesforce.',
+            de: 'Wenn Sie einen Workflow haben, für dessen Wiederholung Ihnen schon mehrere Firmen zahlen, und Sie daraus ein Produkt wollen statt einem Haufen Custom-Deploys — schreiben Sie über den Kontaktbereich. Wir können das Tenant-Modell, den ersten Plan und einen Slice benennen, der eine Karte nimmt, ohne Salesforce zu spielen.',
+            fr: "Si vous avez un workflow que plusieurs entreprises vous paient déjà à répéter, et que vous le voulez en produit plutôt qu'en tas de deploys custom — écrivez via la section contacts. On peut nommer le modèle de tenant, le premier plan, et une tranche qui prend une carte sans jouer à Salesforce.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'how-i-build-mvp-and-choose-tech-stack',
+    date: '2026-08-14',
+    title: {
+      en: 'How I Would Build an MVP — and How I Actually Pick the Stack',
+      ua: 'Як я б створював MVP і як насправді підбираю технології',
+      de: 'Wie ich ein MVP bauen würde — und wie ich den Stack wirklich auswähle',
+      fr: 'Comment je construirais un MVP — et comment je choisis vraiment la stack',
+    },
+    excerpt: {
+      en: 'A practical playbook: what an MVP is (and is not), the five filters I use to pick technology, a default 2026 web stack, and what I refuse to add before the first real users.',
+      ua: 'Практичний плейбук: що таке MVP (і чим він не є), п’ять фільтрів для вибору технологій, дефолтний вебстек 2026 і що я навмисно не додаю до перших живих користувачів.',
+      de: 'Ein praktisches Playbook: was ein MVP ist (und was nicht), fünf Filter für die Technologieauswahl, ein Default-Webstack 2026 — und was ich vor den ersten echten Nutzern bewusst weglasse.',
+      fr: "Un playbook pratique : ce qu'est un MVP (et ce qu'il n'est pas), cinq filtres pour choisir la techno, une stack web par défaut en 2026, et ce que je refuse d'ajouter avant les premiers vrais utilisateurs.",
+    },
+    readTime: {
+      en: '9 min read',
+      ua: '9 хв читання',
+      de: '9 Min. Lesezeit',
+      fr: '9 minutes de lecture',
+    },
+    tags: {
+      en: ['MVP', 'Tech Stack', 'Next.js', 'Product', 'Startup', 'Engineering'],
+      ua: ['MVP', 'Стек', 'Next.js', 'Продукт', 'Стартап', 'Інженерія'],
+      de: ['MVP', 'Tech-Stack', 'Next.js', 'Produkt', 'Startup', 'Engineering'],
+      fr: ['MVP', 'Stack technique', 'Next.js', 'Produit', 'Startup', 'Ingénierie'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'If you asked me tomorrow to build an MVP, I would not open a comparison of 40 frameworks. I would not draw a microservice map. I would not “future-proof” a product that has never met a paying user. I would write down one sentence: who this is for, what job it does, and what we will measure in four weeks. The stack comes after that sentence — not before.',
+            ua: 'Якщо завтра мене попросять зібрати MVP, я не відкрию таблицю з 40 фреймворками. Не намалюю карту мікросервісів. Не «захищу майбутнє» продукту, який ще не бачив платника. Я запишу одне речення: для кого це, яку роботу виконує, і що виміряємо за чотири тижні. Стек з’являється після цього речення — не до нього.',
+            de: 'Wenn Sie mich morgen bäten, ein MVP zu bauen, würde ich keine Tabelle mit 40 Frameworks öffnen. Ich würde keine Microservice-Karte zeichnen. Ich würde kein Produkt „zukunftssicher“ machen, das noch nie einen zahlenden Nutzer getroffen hat. Ich würde einen Satz aufschreiben: für wen das ist, welche Arbeit es erledigt, und was wir in vier Wochen messen. Der Stack kommt nach diesem Satz — nicht davor.',
+            fr: "Si on me demandait demain de construire un MVP, je n'ouvrirais pas un tableau de 40 frameworks. Je ne dessinerais pas une carte de microservices. Je ne « pérenniserais » pas un produit qui n'a jamais rencontré un utilisateur payant. J'écrirais une phrase : pour qui c'est, quel travail ça fait, et ce qu'on mesurera en quatre semaines. La stack vient après cette phrase — pas avant.",
+          },
+          {
+            en: 'Most failed MVPs are not too small. They are fake-big: a half-built “platform” with auth, dashboards, notifications, and three environments — and still no one completing the one job that would prove the idea. Technology is usually the alibi. This article is how I would actually ship.',
+            ua: 'Більшість провалених MVP не занадто малі. Вони фейково великі: напівзібрана «платформа» з авторизацією, дашбордами, нотифікаціями й трьома середовищами — і ніхто так і не виконав ту одну роботу, яка мала довести ідею. Технології часто стають алібі. Ця стаття — як я б реально шипив.',
+            de: 'Die meisten gescheiterten MVPs sind nicht zu klein. Sie sind falsch-groß: eine halb gebaute „Plattform“ mit Auth, Dashboards, Notifications und drei Umgebungen — und trotzdem erledigt niemand den einen Job, der die Idee beweisen würde. Technologie ist oft das Alibi. Dieser Artikel ist, wie ich wirklich ausliefern würde.',
+            fr: "La plupart des MVP ratés ne sont pas trop petits. Ils sont faussement grands : une « plateforme » à moitié construite avec auth, dashboards, notifications et trois environnements — et personne n'a encore accompli le seul job qui prouverait l'idée. La techno est souvent l'alibi. Cet article, c'est comment je livrerais vraiment.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. What an MVP is — and what I refuse to call one',
+          ua: '1. Що таке MVP — і чим я відмовляюся його називати',
+          de: '1. Was ein MVP ist — und was ich nicht so nenne',
+          fr: "1. Ce qu'est un MVP — et ce que je refuse d'appeler ainsi",
+        },
+        paragraphs: [
+          {
+            en: 'MVP is not “version 1 with fewer screens.” It is the cheapest experiment that can kill or strengthen the riskiest assumption. If the assumption is “people will pay to book this service online,” the MVP is a booking flow plus payment plus a human on the other end — not a CRM, not a loyalty program, not a native app.',
+            ua: 'MVP — це не «версія 1 з меншою кількістю екранів». Це найдешевший експеримент, який може вбити або підсилити найризикованіше припущення. Якщо припущення — «люди заплатять, щоб записатися онлайн», MVP — це запис плюс оплата плюс людина з того боку. Не CRM, не програма лояльності, не нативний застосунок.',
+            de: 'MVP ist nicht „Version 1 mit weniger Screens“. Es ist das billigste Experiment, das die riskanteste Annahme töten oder stärken kann. Wenn die Annahme lautet „Menschen zahlen, um diesen Service online zu buchen“, ist das MVP ein Buchungsflow plus Zahlung plus ein Mensch am anderen Ende — kein CRM, kein Treueprogramm, keine native App.',
+            fr: "Un MVP n'est pas « la version 1 avec moins d'écrans ». C'est l'expérience la moins chère qui peut tuer ou renforcer l'hypothèse la plus risquée. Si l'hypothèse est « les gens paieront pour réserver ce service en ligne », le MVP c'est un flux de réservation plus le paiement plus un humain de l'autre côté — pas un CRM, pas un programme de fidélité, pas une app native.",
+          },
+        ],
+        list: [
+          {
+            en: 'Viable means a real user can finish a real job. A clickable Figma prototype is research, not an MVP.',
+            ua: 'Viable означає: живий користувач може закінчити живу роботу. Клікабельний прототип у Figma — це дослідження, не MVP.',
+            de: 'Viable heißt: ein echter Nutzer kann einen echten Job zu Ende bringen. Ein klickbares Figma-Prototyp ist Research, kein MVP.',
+            fr: "Viable veut dire : un vrai utilisateur peut finir un vrai job. Un prototype Figma cliquable, c'est de la recherche, pas un MVP.",
+          },
+          {
+            en: 'Minimum means everything that does not serve that job is a later ticket — even if it looks “easy to add.”',
+            ua: 'Minimum означає: усе, що не служить цій роботі, — тікет на потім, навіть якщо «легко додати».',
+            de: 'Minimum heißt: alles, was diesen Job nicht bedient, ist ein späteres Ticket — auch wenn es „leicht hinzuzufügen“ wirkt.',
+            fr: "Minimum veut dire : tout ce qui ne sert pas ce job est un ticket plus tard — même si ça a l'air « facile à ajouter ».",
+          },
+          {
+            en: 'Product means you can repeat it next week without heroics. A Google Form plus a spreadsheet can be an MVP. A rewrite of Netflix’s architecture cannot.',
+            ua: 'Product означає: наступного тижня ви це повторите без героїзму. Google Form плюс таблиця можуть бути MVP. Перепис архітектури Netflix — ні.',
+            de: 'Product heißt: nächste Woche können Sie es ohne Heldentum wiederholen. Ein Google Form plus Tabelle kann ein MVP sein. Ein Rewrite der Netflix-Architektur nicht.',
+            fr: "Product veut dire : la semaine prochaine vous pouvez le répéter sans héroïsme. Un Google Form plus un tableur peut être un MVP. Réécrire l'architecture de Netflix, non.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. Five questions before any repository exists',
+          ua: '2. П’ять питань, доки репозиторію ще немає',
+          de: '2. Fünf Fragen, bevor ein Repository existiert',
+          fr: "2. Cinq questions avant qu'un dépôt n'existe",
+        },
+        paragraphs: [
+          {
+            en: 'Stack arguments are cheap. Unanswered product questions are expensive. I do not pick Postgres versus Mongo until I can answer these out loud — with the founder, not with a blog post.',
+            ua: 'Сперечатися про стек дешево. Незакриті продуктові питання — дорого. Я не обираю Postgres проти Mongo, поки не можу відповісти на це вголос — із засновником, не з блогом.',
+            de: 'Stack-Debatten sind billig. Offene Produktfragen sind teuer. Ich wähle Postgres gegen Mongo nicht, bevor ich das laut beantworten kann — mit der Gründerin, nicht mit einem Blogpost.',
+            fr: "Les débats de stack sont bon marché. Les questions produit sans réponse sont chères. Je ne choisis pas Postgres contre Mongo tant que je ne peux pas répondre à voix haute — avec le fondateur, pas avec un article.",
+          },
+        ],
+        list: [
+          {
+            en: 'Who is the first ten users, named if possible — not “everyone with a phone.”',
+            ua: 'Хто перші десять користувачів, бажано на ім’я — не «всі з телефоном».',
+            de: 'Wer sind die ersten zehn Nutzer, möglichst namentlich — nicht „jeder mit einem Handy“.',
+            fr: 'Qui sont les dix premiers utilisateurs, nommément si possible — pas « tout le monde avec un téléphone ».',
+          },
+          {
+            en: 'What is the one job they hire the product for this month? One. Not a platform.',
+            ua: 'Яку одну роботу вони «наймають» продукт виконати цього місяця? Одну. Не платформу.',
+            de: 'Für welchen einen Job stellen sie das Produkt diesen Monat ein? Einen. Keine Plattform.',
+            fr: 'Quel est le seul job pour lequel ils « embauchent » le produit ce mois-ci ? Un. Pas une plateforme.',
+          },
+          {
+            en: 'Where does the money or the signal come from — card charge, signed contract, booked slot, qualified lead?',
+            ua: 'Звідки гроші або сигнал — списання з картки, підписаний договір, зайнятий слот, кваліфікований лід?',
+            de: 'Woher kommt das Geld oder das Signal — Kartenzahlung, unterschriebener Vertrag, gebuchter Slot, qualifizierter Lead?',
+            fr: "D'où vient l'argent ou le signal — débit carte, contrat signé, créneau réservé, lead qualifié ?",
+          },
+          {
+            en: 'What constraint is real: four weeks, one developer, a regulated domain, an existing CRM, a Telegram audience?',
+            ua: 'Який constraint справжній: чотири тижні, один розробник, регульована ніша, наявна CRM, аудиторія в Telegram?',
+            de: 'Welche Constraint ist echt: vier Wochen, eine Entwicklerin, regulierte Nische, bestehendes CRM, Telegram-Audience?',
+            fr: 'Quelle contrainte est réelle : quatre semaines, un développeur, un domaine régulé, un CRM existant, une audience Telegram ?',
+          },
+          {
+            en: 'What would make us stop? If we cannot name a kill criterion, we are building a hobby, not an experiment.',
+            ua: 'Що змусить зупинитися? Якщо немає критерію «вбити ідею» — це хобі, не експеримент.',
+            de: 'Was würde uns stoppen? Wenn wir kein Kill-Kriterium nennen können, bauen wir ein Hobby, kein Experiment.',
+            fr: "Qu'est-ce qui nous ferait arrêter ? Si on ne peut pas nommer un critère d'abandon, on construit un hobby, pas une expérience.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Five filters I use to pick technology',
+          ua: '3. П’ять фільтрів, якими я обираю технології',
+          de: '3. Fünf Filter, mit denen ich Technologie wähle',
+          fr: '3. Cinq filtres pour choisir la technologie',
+        },
+        paragraphs: [
+          {
+            en: 'I do not pick tools because they are trending. I pick them because they survive contact with a solo developer, a small budget, and the first angry user. Every technology has to pass these filters.',
+            ua: 'Я не обираю інструменти, бо вони в тренді. Я обираю ті, що витримують контакт із соло-розробником, малим бюджетом і першим злим користувачем. Кожна технологія проходить ці фільтри.',
+            de: 'Ich wähle Tools nicht, weil sie trendig sind. Ich wähle sie, weil sie den Kontakt mit einer Solo-Entwicklerin, einem kleinen Budget und dem ersten wütenden Nutzer überleben. Jede Technologie muss durch diese Filter.',
+            fr: "Je ne choisis pas les outils parce qu'ils sont tendance. Je les choisis parce qu'ils survivent au contact d'un développeur solo, d'un petit budget et du premier utilisateur en colère. Chaque techno passe ces filtres.",
+          },
+        ],
+        list: [
+          {
+            en: 'Time to first real user. If the stack adds a week before anyone can click, it is the wrong stack for an MVP. Boring tools that I already ship in production beat a fashionable one I would learn under deadline.',
+            ua: 'Час до першого живого користувача. Якщо стек додає тиждень до першого кліка — це неправильний стек для MVP. Нудні інструменти, які я вже шиплю в продакшені, б’ють модний, який я вчитиму під дедлайном.',
+            de: 'Zeit bis zum ersten echten Nutzer. Wenn der Stack eine Woche kostet, bevor jemand klicken kann, ist er falsch für ein MVP. Langweilige Tools, die ich schon in Produktion ausliefere, schlagen ein modisches, das ich unter Deadline lernen müsste.',
+            fr: "Temps jusqu'au premier vrai utilisateur. Si la stack ajoute une semaine avant le premier clic, c'est la mauvaise stack pour un MVP. Les outils ennuyeux que je livre déjà en production battent un outil à la mode que j'apprendrais sous deadline.",
+          },
+          {
+            en: 'One-person operability. I should be able to deploy, read logs, restore a backup, and rotate a key without a platform team. Kubernetes fails this test for almost every early product.',
+            ua: 'Операбельність однією людиною. Я маю вміти задеплоїти, прочитати логи, відновити бекап і змінити ключ без platform-команди. Kubernetes цей тест на ранньому продукті майже завжди провалює.',
+            de: 'Bedienbarkeit durch eine Person. Ich muss deployen, Logs lesen, ein Backup wiederherstellen und einen Key rotieren können — ohne Platform-Team. Kubernetes fällt diesen Test für fast jedes frühe Produkt.',
+            fr: "Opérable par une personne. Je dois pouvoir déployer, lire les logs, restaurer un backup et faire tourner une clé sans équipe plateforme. Kubernetes rate ce test pour presque tous les produits précoces.",
+          },
+          {
+            en: 'Hireable and replaceable. TypeScript, Postgres, and React are not exciting. They are the languages other good people already speak. An MVP that only I can extend is a hostage, not an asset.',
+            ua: 'Можна найняти й замінити. TypeScript, Postgres і React не захоплюють. Ними вже розмовляють інші нормальні люди. MVP, який можу розвивати лише я, — заручник, не актив.',
+            de: 'Einstellbar und ersetzbar. TypeScript, Postgres und React sind nicht aufregend. Es sind Sprachen, die andere gute Leute schon sprechen. Ein MVP, das nur ich erweitern kann, ist eine Geisel, kein Asset.',
+            fr: "Recrutable et remplaçable. TypeScript, Postgres et React ne sont pas excitants. Ce sont les langages que d'autres bonnes personnes parlent déjà. Un MVP que moi seul peux étendre est un otage, pas un actif.",
+          },
+          {
+            en: 'Data gravity. Put the source of truth in a real database with migrations from day one if the product has users and money. Spreadsheets are fine for the experiment next to the product — not inside the checkout.',
+            ua: 'Гравітація даних. Джерело правди — у нормальній базі з міграціями з першого дня, якщо є користувачі й гроші. Таблиці ок для експерименту поруч із продуктом — не всередині checkout.',
+            de: 'Datengravitation. Die Quelle der Wahrheit gehört in eine echte Datenbank mit Migrationen ab Tag eins, wenn Nutzer und Geld im Spiel sind. Tabellen sind okay für das Experiment neben dem Produkt — nicht im Checkout.',
+            fr: "Gravité des données. La source de vérité va dans une vraie base avec des migrations dès le premier jour s'il y a des utilisateurs et de l'argent. Les tableurs sont ok pour l'expérience à côté du produit — pas dans le checkout.",
+          },
+          {
+            en: 'Escape hatch. I will use a managed auth, a hosted Postgres, a payment provider. I will not sign a five-year lock-in that makes export painful. Vendor is fine. Trap is not.',
+            ua: 'Люк евакуації. Візьму managed auth, хостед Postgres, платіжного провайдера. Не підпишу п’ятирічний lock-in, з якого боляче виходити. Вендор — нормально. Пастка — ні.',
+            de: 'Notausstieg. Ich nutze Managed Auth, gehostetes Postgres, einen Payment-Provider. Ich unterschreibe kein Fünf-Jahres-Lock-in, aus dem der Export weh tut. Vendor ist okay. Falle nicht.',
+            fr: "Issue de secours. J'utiliserai un auth managé, un Postgres hébergé, un prestataire de paiement. Je ne signerai pas un lock-in de cinq ans dont l'export fait mal. Un vendor, ça va. Un piège, non.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. The default web stack I would start with in 2026',
+          ua: '4. Дефолтний вебстек, з якого я б почав у 2026',
+          de: '4. Der Default-Webstack, mit dem ich 2026 starten würde',
+          fr: '4. La stack web par défaut avec laquelle je commencerais en 2026',
+        },
+        paragraphs: [
+          {
+            en: 'For a typical B2B or service MVP — booking, lead capture, a small customer portal, a calculator that turns into a quote — I would start here. Not because it is fashionable. Because I can ship it, SEO it, and still be able to hire someone else in six months.',
+            ua: 'Для типового B2B чи сервісного MVP — запис, збір лідів, невеликий кабінет, калькулятор, що стає комерційною пропозицією — я б почав звідси. Не тому, що модно. Тому що можу віддати в прод, зробити SEO і за пів року найняти когось іншого.',
+            de: 'Für ein typisches B2B- oder Service-MVP — Buchung, Lead-Capture, kleines Kundenportal, Rechner der zum Angebot wird — würde ich hier starten. Nicht weil es modisch ist. Weil ich es ausliefern, SEO-fähig machen und in sechs Monaten jemand anderen einstellen kann.',
+            fr: "Pour un MVP B2B ou service typique — réservation, capture de leads, petit portail client, calculateur qui devient un devis — je commencerais ici. Pas parce que c'est à la mode. Parce que je peux livrer, faire du SEO, et encore embaucher quelqu'un d'autre dans six mois.",
+          },
+        ],
+        list: [
+          {
+            en: 'Next.js + TypeScript + Tailwind: one app for marketing pages (SEO, server rendering) and the product UI. Fewer repos, one deploy, shared types. App Router is fine if the team already knows it; I will not rewrite a working Pages app “for purity.”',
+            ua: 'Next.js + TypeScript + Tailwind: один застосунок для маркетингових сторінок (SEO, серверний рендер) і продуктового UI. Менше репозиторіїв, один деплой, спільні типи. App Router ок, якщо команда його вже знає; робочий Pages-застосунок «заради чистоти» не переписуватиму.',
+            de: 'Next.js + TypeScript + Tailwind: eine App für Marketingseiten (SEO, Server-Rendering) und Produkt-UI. Weniger Repos, ein Deploy, geteilte Typen. App Router ist okay, wenn das Team ihn schon kennt; eine funktionierende Pages-App schreibe ich nicht „der Reinheit wegen“ um.',
+            fr: "Next.js + TypeScript + Tailwind : une app pour les pages marketing (SEO, rendu serveur) et l'UI produit. Moins de dépôts, un deploy, des types partagés. App Router convient si l'équipe le connaît déjà ; je ne réécrirai pas une app Pages qui marche « pour la pureté ».",
+          },
+          {
+            en: 'Postgres (often via Supabase, Neon, or a small VPS): relational data, transactions, and SQL I can inspect at 2 a.m. I reach for a document store only when the shape is genuinely document-shaped — not because “NoSQL is faster.”',
+            ua: 'Postgres (часто через Supabase, Neon або невеликий VPS): реляційні дані, транзакції і SQL, який я прочитаю о другій ночі. Документну базу беру лише коли форма справді документна — не тому, що «NoSQL швидший».',
+            de: 'Postgres (oft über Supabase, Neon oder einen kleinen VPS): relationale Daten, Transaktionen und SQL, das ich um 2 Uhr nachts lesen kann. Einen Document Store hole ich nur, wenn die Form wirklich dokumentförmig ist — nicht weil „NoSQL schneller ist“.',
+            fr: "Postgres (souvent via Supabase, Neon ou un petit VPS) : données relationnelles, transactions, et du SQL que je peux lire à 2 h du matin. Je prends un store documentaire seulement si la forme est vraiment documentaire — pas parce que « NoSQL est plus rapide ».",
+          },
+          {
+            en: 'Auth: a managed provider (Clerk, Auth.js + a known IdP, or Supabase Auth) unless the product is the auth. Rolling custom sessions in week one is how you leak tokens and stall the actual feature.',
+            ua: 'Auth: managed-провайдер (Clerk, Auth.js + відомий IdP, або Supabase Auth), якщо продукт — не сама авторизація. Кастомні сесії в перший тиждень — це як злити токени й зупинити справжню фічу.',
+            de: 'Auth: ein Managed Provider (Clerk, Auth.js plus bekannter IdP, oder Supabase Auth), außer das Produkt ist die Auth. Eigene Sessions in Woche eins sind, wie man Tokens leakt und das eigentliche Feature stoppt.',
+            fr: "Auth : un prestataire managé (Clerk, Auth.js + un IdP connu, ou Supabase Auth), sauf si le produit c'est l'auth. Des sessions custom en semaine une, c'est comme ça qu'on fuit des tokens et qu'on bloque la vraie feature.",
+          },
+          {
+            en: 'Payments: Stripe (or the local equivalent the first users actually use). No homemade billing engine. Invoices can wait; a working charge cannot.',
+            ua: 'Платежі: Stripe (або локальний еквівалент, яким реально платять перші користувачі). Жодного самописного білінгу. Рахунки-фактури можуть зачекати; робоче списання — ні.',
+            de: 'Zahlungen: Stripe (oder das lokale Äquivalent, das die ersten Nutzer wirklich nutzen). Keine selbst gebaute Billing-Engine. Rechnungen können warten; eine funktionierende Abbuchung nicht.',
+            fr: "Paiements : Stripe (ou l'équivalent local que les premiers utilisateurs utilisent vraiment). Pas de moteur de facturation maison. Les factures peuvent attendre ; un débit qui marche, non.",
+          },
+          {
+            en: 'Hosting: Vercel for the Next.js app if traffic is web-shaped and the team wants previews; a Hetzner/VPS + Docker Compose if we need a long-running worker, predictable cost, or data residency. I wrote about that trade-off separately — the MVP rule is: one environment you understand, nightly backups, HTTPS, and a domain.',
+            ua: 'Хостинг: Vercel для Next.js, якщо трафік «веб» і команді потрібні прев’ю; Hetzner/VPS + Docker Compose — якщо потрібен довгий воркер, передбачувана ціна або residency даних. Про цей вибір я писав окремо. Правило MVP: одне середовище, яке ви розумієте, нічні бекапи, HTTPS і домен.',
+            de: 'Hosting: Vercel für die Next.js-App, wenn der Traffic web-förmig ist und das Team Previews will; Hetzner/VPS + Docker Compose, wenn wir einen langlebigen Worker, planbare Kosten oder Data Residency brauchen. Den Trade-off habe ich separat beschrieben. MVP-Regel: eine Umgebung, die Sie verstehen, nächtliche Backups, HTTPS, eine Domain.',
+            fr: "Hébergement : Vercel pour l'app Next.js si le trafic est « web » et que l'équipe veut des previews ; Hetzner/VPS + Docker Compose s'il faut un worker long, un coût prévisible ou de la résidence des données. J'ai écrit ce trade-off ailleurs. Règle MVP : un environnement que vous comprenez, des backups la nuit, HTTPS, un domaine.",
+          },
+          {
+            en: 'Email and files: Resend or a similar transactional API; S3-compatible storage. Not “we will build an attachments module.”',
+            ua: 'Пошта й файли: Resend або схожий transactional API; S3-сумісне сховище. Не «збудуємо модуль вкладень».',
+            de: 'E-Mail und Dateien: Resend oder eine ähnliche Transactional-API; S3-kompatibler Speicher. Nicht „wir bauen ein Attachments-Modul“.',
+            fr: "Email et fichiers : Resend ou une API transactionnelle similaire ; stockage compatible S3. Pas « on va construire un module de pièces jointes ».",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. When I throw the default away',
+          ua: '5. Коли я викидаю дефолт',
+          de: '5. Wann ich den Default wegwerfe',
+          fr: '5. Quand je jette le défaut',
+        },
+        paragraphs: [
+          {
+            en: 'A default is a starting bet, not a religion. I change it when the constraint is the product.',
+            ua: 'Дефолт — стартова ставка, не релігія. Я його міняю, коли constraint і є продукт.',
+            de: 'Ein Default ist eine Startwette, keine Religion. Ich ändere ihn, wenn die Constraint das Produkt ist.',
+            fr: "Un défaut est un pari de départ, pas une religion. Je le change quand la contrainte est le produit.",
+          },
+        ],
+        list: [
+          {
+            en: 'The audience already lives in Telegram: a bot or Mini App can be the whole MVP. A website they will not open is not “more professional.” It is a second empty room.',
+            ua: 'Аудиторія вже живе в Telegram: бот або Mini App може бути всім MVP. Сайт, який ніхто не відкриє, — не «солідніше». Це друга порожня кімната.',
+            de: 'Die Audience lebt schon in Telegram: ein Bot oder Mini App kann das ganze MVP sein. Eine Website, die niemand öffnet, ist nicht „professioneller“. Es ist ein zweites leeres Zimmer.',
+            fr: "L'audience vit déjà dans Telegram : un bot ou une Mini App peut être tout le MVP. Un site qu'ils n'ouvriront pas n'est pas « plus professionnel ». C'est une deuxième pièce vide.",
+          },
+          {
+            en: 'The job is in the field with bad signal: I consider a local-first or PWA path, not a native rewrite in week one. Native is a distribution decision, not a badge.',
+            ua: 'Робота в полі зі слабким сигналом: дивлюсь на local-first або PWA, не на нативний перепис у перший тиждень. Натив — рішення про дистрибуцію, не бейдж.',
+            de: 'Der Job ist im Feld mit schlechtem Empfang: ich prüfe local-first oder PWA, keinen Native-Rewrite in Woche eins. Native ist eine Distributionsentscheidung, kein Abzeichen.',
+            fr: "Le job est sur le terrain avec un mauvais signal : je regarde du local-first ou une PWA, pas une réécriture native en semaine une. Le native est une décision de distribution, pas un badge.",
+          },
+          {
+            en: 'The core is language (support, quoting, document extraction): I add an LLM API behind a strict schema and a human review step. I do not wrap a chat widget and call it a product.',
+            ua: 'Ядро — мова (підтримка, комерційні, витяг з документів): додаю LLM API за строгою схемою і кроком людської перевірки. Не обгортаю чат-віджет і не називаю це продуктом.',
+            de: 'Der Kern ist Sprache (Support, Angebote, Dokumentextraktion): ich hänge eine LLM-API hinter ein striktes Schema und einen menschlichen Review-Schritt. Ich wickle kein Chat-Widget ein und nenne es Produkt.',
+            fr: "Le cœur est le langage (support, devis, extraction de documents) : j'ajoute une API LLM derrière un schéma strict et une étape de relecture humaine. Je n'emballe pas un widget de chat pour l'appeler produit.",
+          },
+          {
+            en: 'The founder is the operator and content is the product: a fast site plus a CMS they will actually use can beat a custom admin. WordPress is still allowed if the job is publishing, not an application.',
+            ua: 'Засновник — оператор, а контент — продукт: швидкий сайт плюс CMS, якою реально користуватимуться, може виграти в кастомної адмінки. WordPress досі ок, якщо робота — публікувати, а не будувати застосунок.',
+            de: 'Die Gründerin ist die Operatorin und Content ist das Produkt: eine schnelle Site plus ein CMS, das sie wirklich nutzt, kann ein Custom-Admin schlagen. WordPress ist noch erlaubt, wenn der Job Publizieren ist — keine Application.',
+            fr: "Le fondateur est l'opérateur et le contenu est le produit : un site rapide plus un CMS qu'ils utiliseront vraiment peut battre un admin custom. WordPress est encore permis si le job est de publier, pas de construire une application.",
+          },
+          {
+            en: 'Two-sided marketplace: I still ship one side first. Supply or demand — whichever is harder to get. A “platform” with empty seats on both sides is a landing page with extra tables.',
+            ua: 'Двосторонній маркетплейс: усе одно шиплю один бік першим. Пропозицію або попит — що важче зібрати. «Платформа» з порожніми стільцями з обох боків — лендинг із зайвими таблицями.',
+            de: 'Zweiseitiger Marktplatz: ich liefere trotzdem zuerst eine Seite. Angebot oder Nachfrage — was schwerer zu bekommen ist. Eine „Plattform“ mit leeren Stühlen auf beiden Seiten ist eine Landingpage mit Extra-Tabellen.',
+            fr: "Marketplace à deux faces : je livre quand même un côté d'abord. Offre ou demande — ce qui est le plus dur à obtenir. Une « plateforme » avec des chaises vides des deux côtés est une landing avec des tables en trop.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '6. What I refuse to add before the first users',
+          ua: '6. Що я відмовляюся додавати до перших користувачів',
+          de: '6. Was ich vor den ersten Nutzern ablehne',
+          fr: '6. Ce que je refuse d’ajouter avant les premiers utilisateurs',
+        },
+        paragraphs: [
+          {
+            en: 'The fastest way to miss the experiment is to build the company around the experiment. This is the list I keep next to the backlog.',
+            ua: 'Найшвидший спосіб провалити експеримент — збудувати компанію навколо експерименту. Цей список я тримаю поруч із беклогом.',
+            de: 'Der schnellste Weg, das Experiment zu verfehlen, ist, die Firma um das Experiment herum zu bauen. Diese Liste liegt neben dem Backlog.',
+            fr: "La façon la plus rapide de rater l'expérience, c'est de construire l'entreprise autour de l'expérience. Cette liste reste à côté du backlog.",
+          },
+        ],
+        list: [
+          {
+            en: 'Microservices, a message bus, and Kubernetes. One process, one database, one deploy. Split when a real bottleneck or a real team boundary appears — not when a diagram looks senior.',
+            ua: 'Мікросервіси, шина повідомлень і Kubernetes. Один процес, одна база, один деплой. Ділити, коли з’явиться справжній bottleneck або справжня межа команди — не коли діаграма виглядає “сеньйорно”.',
+            de: 'Microservices, Message Bus und Kubernetes. Ein Prozess, eine Datenbank, ein Deploy. Teilen, wenn ein echter Bottleneck oder eine echte Teamgrenze da ist — nicht wenn ein Diagramm senior wirkt.',
+            fr: "Microservices, bus de messages et Kubernetes. Un process, une base, un deploy. On découpe quand un vrai bottleneck ou une vraie frontière d'équipe apparaît — pas quand un diagramme a l'air senior.",
+          },
+          {
+            en: 'A design system with 80 tokens and no screens. Ship the three screens that collect money. Extract components when the third copy-paste hurts.',
+            ua: 'Дизайн-система на 80 токенів без екранів. Шипити три екрани, які збирають гроші. Витягати компоненти, коли третій copy-paste уже болить.',
+            de: 'Ein Design System mit 80 Tokens und keinen Screens. Die drei Screens ausliefern, die Geld einsammeln. Komponenten extrahieren, wenn das dritte Copy-Paste weh tut.',
+            fr: "Un design system avec 80 tokens et zéro écran. Livrer les trois écrans qui collectent l'argent. Extraire les composants quand le troisième copier-coller fait mal.",
+          },
+          {
+            en: 'Roles, permissions, audit logs, and SSO — unless a paying B2B buyer blocked the deal on them. Then they are the MVP, not a side quest.',
+            ua: 'Ролі, права, audit log і SSO — якщо платний B2B-покупець не заблокував угоду через них. Тоді це і є MVP, не побічний квест.',
+            de: 'Rollen, Rechte, Audit-Logs und SSO — außer ein zahlender B2B-Käufer hat den Deal daran blockiert. Dann sind sie das MVP, keine Nebenquest.',
+            fr: "Rôles, permissions, journaux d'audit et SSO — sauf si un acheteur B2B payant a bloqué le deal là-dessus. Alors c'est le MVP, pas une quête secondaire.",
+          },
+          {
+            en: 'A second mobile app. Responsive web or a Mini App covers the first hundred users in most service businesses I see.',
+            ua: 'Другий мобільний застосунок. Адаптивний веб або Mini App закриває першу сотню користувачів у більшості сервісних бізнесів, які я бачу.',
+            de: 'Eine zweite Mobile App. Responsives Web oder eine Mini App deckt die ersten hundert Nutzer in den meisten Service-Businesses ab, die ich sehe.',
+            fr: "Une deuxième app mobile. Le web responsive ou une Mini App couvre les cent premiers utilisateurs dans la plupart des businesses de service que je vois.",
+          },
+          {
+            en: 'Perfect test coverage of glue code. I do want tests on money, auth, and the core job. I do not want a week of mocks for a landing form.',
+            ua: 'Ідеальне покриття тестів на клейовому коді. Тести на гроші, auth і ключову роботу — так. Тиждень моків на форму лендингу — ні.',
+            de: 'Perfekte Testabdeckung von Glue-Code. Tests für Geld, Auth und den Kernjob will ich. Eine Woche Mocks für ein Landing-Formular nicht.',
+            fr: "Une couverture de tests parfaite du code-colle. Je veux des tests sur l'argent, l'auth et le job central. Pas une semaine de mocks pour un formulaire de landing.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '7. How the first four weeks would actually look',
+          ua: '7. Як насправді виглядали б перші чотири тижні',
+          de: '7. Wie die ersten vier Wochen wirklich aussehen würden',
+          fr: '7. À quoi ressembleraient vraiment les quatre premières semaines',
+        },
+        paragraphs: [
+          {
+            en: 'I treat the calendar as a product decision. If we cannot describe weeks, we do not have a plan — we have a wish.',
+            ua: 'Календар — це продуктове рішення. Якщо тижні не можна описати, плану немає — є бажання.',
+            de: 'Den Kalender behandle ich als Produktentscheidung. Wenn wir Wochen nicht beschreiben können, haben wir keinen Plan — wir haben einen Wunsch.',
+            fr: "Je traite le calendrier comme une décision produit. Si on ne peut pas décrire les semaines, on n'a pas de plan — on a un souhait.",
+          },
+        ],
+        list: [
+          {
+            en: 'Week 0 (two days, not two weeks): write the one-pager. User, job, kill criterion, non-goals. Sketch the three screens. Agree what “done” means: a stranger can complete the job without a Zoom call from us.',
+            ua: 'Тиждень 0 (два дні, не два тижні): one-pager. Користувач, робота, критерій зупинки, non-goals. Три екрани начерком. Домовитися, що таке «готово»: стороння людина проходить сценарій без нашого Zoom.',
+            de: 'Woche 0 (zwei Tage, nicht zwei Wochen): One-Pager. Nutzer, Job, Kill-Kriterium, Non-Goals. Drei Screens skizzieren. Sich auf „done“ einigen: eine fremde Person schafft den Job ohne unseren Zoom-Call.',
+            fr: "Semaine 0 (deux jours, pas deux semaines) : le one-pager. Utilisateur, job, critère d'abandon, non-goals. Esquisser les trois écrans. Se mettre d'accord sur « done » : un inconnu peut finir le job sans notre Zoom.",
+          },
+          {
+            en: 'Week 1: vertical slice. Domain, deploy, database, empty layout, one happy path in production (even if ugly). If we cannot deploy on day three, the stack is already lying.',
+            ua: 'Тиждень 1: вертикальний зріз. Домен, деплой, база, порожній макет, один happy path у продакшені (навіть якщо страшний). Якщо на третій день немає деплою — стек уже бреше.',
+            de: 'Woche 1: vertikaler Schnitt. Domain, Deploy, Datenbank, leeres Layout, ein Happy Path in Produktion (auch wenn hässlich). Wenn wir an Tag drei nicht deployen können, lügt der Stack schon.',
+            fr: "Semaine 1 : tranche verticale. Domaine, deploy, base, layout vide, un happy path en production (même moche). Si on ne peut pas déployer au jour trois, la stack ment déjà.",
+          },
+          {
+            en: 'Week 2: the job. Booking, quote, upload, payment — whatever we named in week 0. Manual operations behind the UI are allowed: a Telegram ping to the owner is a feature if it closes the loop.',
+            ua: 'Тиждень 2: робота. Запис, прорахунок, завантаження, оплата — що записали в тиждень 0. Ручні операції за UI дозволені: пінґ у Telegram власнику — фіча, якщо вона закриває цикл.',
+            de: 'Woche 2: der Job. Buchung, Angebot, Upload, Zahlung — was wir in Woche 0 genannt haben. Manuelle Ops hinter der UI sind erlaubt: ein Telegram-Ping an die Inhaberin ist ein Feature, wenn es die Schleife schließt.',
+            fr: "Semaine 2 : le job. Réservation, devis, upload, paiement — ce qu'on a nommé en semaine 0. Les ops manuelles derrière l'UI sont permises : un ping Telegram au propriétaire est une feature s'il ferme la boucle.",
+          },
+          {
+            en: 'Week 3: the ugly edges. Empty states, errors, mobile, emails, basic analytics (where did they drop). Not a data warehouse. A funnel you can read.',
+            ua: 'Тиждень 3: бридкі краї. Порожні стани, помилки, мобільний, листи, базова аналітика (де відвалились). Не data warehouse. Воронка, яку можна прочитати.',
+            de: 'Woche 3: die hässlichen Kanten. Leerzustände, Fehler, Mobile, E-Mails, Basis-Analytics (wo sie abbrechen). Kein Data Warehouse. Ein Funnel, den man lesen kann.',
+            fr: "Semaine 3 : les bords moches. États vides, erreurs, mobile, emails, analytics de base (où ils décrochent). Pas un data warehouse. Un funnel qu'on peut lire.",
+          },
+          {
+            en: 'Week 4: put it in front of the ten named people. Watch. Do not add a feature during the calls. Write down what they did instead of what they said they wanted.',
+            ua: 'Тиждень 4: показати тим десяти на ім’я. Дивитися. Не додавати фічі під час дзвінків. Записати, що вони зробили, а не що хотіли б.',
+            de: 'Woche 4: den zehn namentlich genannten Menschen zeigen. Zuschauen. Während der Calls kein Feature hinzufügen. Aufschreiben, was sie taten — nicht was sie sich wünschten.',
+            fr: "Semaine 4 : le mettre devant les dix personnes nommées. Regarder. Ne pas ajouter de feature pendant les appels. Noter ce qu'ils ont fait, pas ce qu'ils disaient vouloir.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '8. After launch: keep, extract, or rewrite',
+          ua: '8. Після запуску: лишити, витягти чи переписати',
+          de: '8. Nach dem Launch: behalten, extrahieren oder neu schreiben',
+          fr: '8. Après le lancement : garder, extraire ou réécrire',
+        },
+        paragraphs: [
+          {
+            en: 'A good MVP is allowed to be slightly embarrassing. It is not allowed to be a trap. The stack above is boring on purpose: you can grow into it. You rarely have to grow out of it in the first year.',
+            ua: 'Хороший MVP має право бути трохи ніяковим. Він не має права бути пасткою. Стек вище нудний навмисно: у нього можна вирости. Рідко треба з нього виростати в перший рік.',
+            de: 'Ein gutes MVP darf leicht peinlich sein. Es darf keine Falle sein. Der Stack oben ist absichtlich langweilig: Sie können hineinwachsen. Im ersten Jahr müssen Sie selten herauswachsen.',
+            fr: "Un bon MVP a le droit d'être un peu gênant. Il n'a pas le droit d'être un piège. La stack ci-dessus est ennuyeuse exprès : on peut grandir dedans. On a rarement besoin d'en sortir la première année.",
+          },
+        ],
+        list: [
+          {
+            en: 'Keep: the language, the database, the domain names in code. Those are cheap to live with and expensive to throw away.',
+            ua: 'Лишити: мову, базу, імена домену в коді. З цим дешево жити і дорого викидати.',
+            de: 'Behalten: die Sprache, die Datenbank, die Domainnamen im Code. Damit ist billig zu leben und teuer wegzuwerfen.',
+            fr: 'Garder : le langage, la base, les noms de domaine dans le code. Pas cher à vivre avec, cher à jeter.',
+          },
+          {
+            en: 'Extract: a worker, a second service, a real queue — when a job is slow, dangerous, or owned by another team. Not before.',
+            ua: 'Витягти: воркер, другий сервіс, чергу — коли джоба повільна, небезпечна або належить іншій команді. Не раніше.',
+            de: 'Extrahieren: einen Worker, einen zweiten Service, eine echte Queue — wenn ein Job langsam, gefährlich oder einem anderen Team gehört. Nicht vorher.',
+            fr: "Extraire : un worker, un second service, une vraie file — quand un job est lent, dangereux, ou appartient à une autre équipe. Pas avant.",
+          },
+          {
+            en: 'Rewrite only the part that learned the wrong lesson. If checkout is wrong, rewrite checkout. If the whole app is a vibe-coded maze, that is a people problem first: someone has to be able to explain it at 2 a.m.',
+            ua: 'Переписувати лише ту частину, яка засвоїла неправильний урок. Checkout кривий — переписуйте checkout. Увесь застосунок — вайб-лабіринт: спочатку проблема людей. Хтось має вміти пояснити систему о другій ночі.',
+            de: 'Nur den Teil neu schreiben, der die falsche Lektion gelernt hat. Checkout falsch — Checkout neu. Die ganze App ein Vibe-Labyrinth: zuerst ein Menschenproblem. Jemand muss das System um 2 Uhr erklären können.',
+            fr: "Ne réécrire que la partie qui a appris la mauvaise leçon. Checkout faux — réécrire le checkout. Toute l'app est un labyrinthe vibe-codé : d'abord un problème de gens. Quelqu'un doit pouvoir l'expliquer à 2 h du matin.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'Conclusion: pick the stack that survives the first no',
+          ua: 'Висновок: обирайте стек, який переживе перше «ні»',
+          de: 'Fazit: wählen Sie den Stack, der das erste Nein überlebt',
+          fr: 'Conclusion : choisissez la stack qui survit au premier non',
+        },
+        paragraphs: [
+          {
+            en: 'I would build an MVP the unglamorous way: one job, one database, one deploy, tools I can operate alone, and a date when we decide to continue or stop. The “best” technology is the one that does not distract us from that decision. Next.js, TypeScript, Postgres, a managed auth, and a payment provider are not a personality. They are a way to spend the scarce weeks on the product instead of on the platform.',
+            ua: 'Я б збирав MVP непретензійно: одна робота, одна база, один деплой, інструменти, які можу крутити сам, і дата, коли вирішуємо йти далі чи зупинитися. «Найкраща» технологія — та, що не відволікає від цього рішення. Next.js, TypeScript, Postgres, managed auth і платіжний провайдер — не особистість. Це спосіб витратити дефіцитні тижні на продукт, а не на платформу.',
+            de: 'Ich würde ein MVP unglamourös bauen: ein Job, eine Datenbank, ein Deploy, Tools, die ich allein betreiben kann, und ein Datum, an dem wir weiter oder stoppen. Die „beste“ Technologie ist die, die uns von dieser Entscheidung nicht ablenkt. Next.js, TypeScript, Postgres, Managed Auth und ein Payment-Provider sind keine Persönlichkeit. Sie sind ein Weg, die knappen Wochen ins Produkt zu stecken statt in die Plattform.',
+            fr: "Je construirais un MVP sans glamour : un job, une base, un deploy, des outils que je peux opérer seul, et une date où l'on décide de continuer ou d'arrêter. La « meilleure » techno est celle qui ne nous distrait pas de cette décision. Next.js, TypeScript, Postgres, un auth managé et un prestataire de paiement ne sont pas une personnalité. C'est une façon de dépenser les semaines rares sur le produit, pas sur la plateforme.",
+          },
+          {
+            en: 'If you have an idea, a deadline, and a fear of picking the “wrong” stack — write via the contacts section. We can scope the one job, name the non-goals, and ship a slice you can put in front of real people without building a fake platform first.',
+            ua: 'Якщо є ідея, дедлайн і страх обрати «не той» стек — напишіть через блок контактів. Можемо зафіксувати одну роботу, назвати non-goals і віддати в прод зріз, який можна показати живим людям, не зводячи спочатку фейкову платформу.',
+            de: 'Wenn Sie eine Idee, eine Deadline und Angst vor dem „falschen“ Stack haben — schreiben Sie über den Kontaktbereich. Wir können den einen Job scopen, Non-Goals benennen und einen Slice ausliefern, den Sie echten Menschen zeigen können, ohne zuerst eine Fake-Plattform zu bauen.',
+            fr: "Si vous avez une idée, une deadline et la peur de choisir la « mauvaise » stack — écrivez via la section contacts. On peut cadrer le seul job, nommer les non-goals, et livrer une tranche à montrer à de vraies personnes sans construire d'abord une fausse plateforme.",
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'outdated-ui-losing-customers-safe-redesign',
     date: '2026-08-12',
     title: {
