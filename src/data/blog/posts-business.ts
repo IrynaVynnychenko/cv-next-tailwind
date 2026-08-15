@@ -2,6 +2,462 @@ import type { RawBlogPost } from './types'
 
 export const businessPosts: RawBlogPost[] = [
   {
+    slug: 'website-for-smb-business-benefits',
+    date: '2026-08-15',
+    title: {
+      en: 'A Website for Small and Medium Business — What You Actually Get Out of It',
+      ua: 'Сайт для малого та середнього бізнесу: яка користь від нього насправді',
+      de: 'Eine Website für KMU — welchen Nutzen Sie wirklich davon haben',
+      fr: 'Un site web pour PME : ce que vous en gagnez vraiment',
+    },
+    excerpt: {
+      en: 'A site is not a status page. For an SMB it is a 24/7 sales desk, a Google listing you own, and a way to grow the number of people who actually order — not only those who already know you from a feed.',
+      ua: 'Сайт — не «статусна сторінка». Для малого й середнього бізнесу це відділ продажів 24/7, місце в Google, яке вам належить, і спосіб збільшити кількість тих, хто реально замовляє — не лише тих, хто вже знає вас зі стрічки.',
+      de: 'Eine Website ist keine Statusseite. Für KMU ist sie ein Vertrieb 24/7, ein Google-Eintrag, der Ihnen gehört, und ein Weg, die Zahl derer zu steigern, die wirklich bestellen — nicht nur derer, die Sie schon aus dem Feed kennen.',
+      fr: "Un site n'est pas une page de statut. Pour une PME, c'est un commercial 24/7, une fiche Google à vous, et un moyen d'augmenter le nombre de ceux qui commandent vraiment — pas seulement ceux qui vous connaissent déjà du fil.",
+    },
+    readTime: {
+      en: '9 min read',
+      ua: '9 хв читання',
+      de: '9 Min. Lesezeit',
+      fr: '9 minutes de lecture',
+    },
+    tags: {
+      en: ['SMB', 'Website', 'Business', 'Leads', 'SEO', 'Strategy'],
+      ua: ['МСБ', 'Сайт', 'Бізнес', 'Ліди', 'SEO', 'Стратегія'],
+      de: ['KMU', 'Website', 'Business', 'Leads', 'SEO', 'Strategie'],
+      fr: ['PME', 'Site web', 'Business', 'Leads', 'SEO', 'Stratégie'],
+    },
+    content: [
+      {
+        paragraphs: [
+          {
+            en: 'Most small and medium businesses delay a website for the same reason: it feels like a cost you can postpone. Ads, rent, payroll, and inventory are “real.” A site is “nice later.” That framing is wrong. The bill you are already paying is lost calls, staff time in messengers, and customers who compared you to a competitor who had a clear page and a form.',
+            ua: 'Більшість малого й середнього бізнесу відкладає сайт з однієї причини: це виглядає як витрата, яку можна перенести. Реклама, оренда, зарплати й товар — «реальні». Сайт — «потім». Це хибна рамка. Рахунок, який ви вже платите, — втрачені дзвінки, час співробітників у месенджерах і клієнти, які порівняли вас із конкурентом, у якого була зрозуміла сторінка й форма заявки.',
+            de: 'Die meisten KMU schieben eine Website aus demselben Grund auf: Sie fühlt sich wie eine Kostenstelle an, die warten kann. Ads, Miete, Löhne und Waren sind „real“. Eine Site ist „später schön“. Das ist die falsche Rahmung. Die Rechnung, die Sie schon zahlen, sind verlorene Anrufe, Mitarbeiterzeit in Messengern und Kunden, die Sie mit einem Wettbewerber verglichen haben, der eine klare Seite und ein Formular hatte.',
+            fr: "La plupart des PME reportent un site pour la même raison : ça ressemble à un coût qu'on peut remettre. Pubs, loyer, salaires et stock sont « réels ». Un site, c'est « plus tard ». Le cadre est faux. La facture que vous payez déjà, ce sont les appels perdus, le temps d'équipe dans les messageries, et les clients qui vous ont comparés à un concurrent avec une page claire et un formulaire.",
+          },
+          {
+            en: 'I have already written when a business outgrows Instagram, and why a feed is not a home. This piece is narrower: if you run a shop, a clinic, a workshop, a local service, or a 20–80 person company — what does a website actually buy you? Not “digital presence.” Hours, trust, and a larger pool of people who order — because they found you, finished the request, and came back.',
+            ua: 'Я вже писав, коли бізнес переростає Instagram і чому стрічка — не дім. Тут вужче: якщо ви тримаєте магазин, клініку, майстерню, локальний сервіс чи компанію на 20–80 людей — що саме купує сайт? Не «цифрову присутність». Години, довіру й більшу кількість тих, хто замовляє — бо вас знайшли, довели заявку до кінця й повернулися.',
+            de: 'Ich habe schon geschrieben, wann ein Business Instagram überwächst und warum ein Feed kein Zuhause ist. Hier enger: wenn Sie einen Laden, eine Praxis, eine Werkstatt, einen lokalen Service oder eine Firma mit 20–80 Leuten führen — was kauft eine Website wirklich? Nicht „digitale Präsenz“. Stunden, Vertrauen und mehr Menschen, die bestellen — weil sie Sie gefunden, die Anfrage zu Ende gebracht und wiedergekommen sind.',
+            fr: "J'ai déjà écrit quand une entreprise dépasse Instagram, et pourquoi un fil n'est pas un chez-soi. Ici, plus étroit : si vous tenez un magasin, une clinique, un atelier, un service local ou une société de 20–80 personnes — qu'est-ce qu'un site achète vraiment ? Pas une « présence digitale ». Des heures, de la confiance, et plus de gens qui commandent — parce qu'ils vous ont trouvés, ont fini la demande, et sont revenus.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '1. You stop renting the only door into the business',
+          ua: '1. Ви перестаєте орендувати єдині двері в бізнес',
+          de: '1. Sie hören auf, die einzige Tür ins Geschäft zu mieten',
+          fr: "1. Vous arrêtez de louer la seule porte de l'entreprise",
+        },
+        paragraphs: [
+          {
+            en: 'Instagram, TikTok, Google Maps, marketplaces, and Telegram are useful. They are also rented land. Algorithms cut reach. Accounts get limited. A marketplace can raise fees or bury your listing. If that is the only place a new customer can read who you are and how to buy, your revenue sits on someone else’s switch.',
+            ua: 'Instagram, TikTok, Google Maps, маркетплейси й Telegram корисні. Це ще й орендована земля. Алгоритми ріжуть охоплення. Акаунти обмежують. Маркетплейс підніме комісію або сховає картку. Якщо це єдине місце, де новий клієнт може прочитати, хто ви і як купити, — виручка сидить на чужому вимикачі.',
+            de: 'Instagram, TikTok, Google Maps, Marktplätze und Telegram sind nützlich. Es ist auch Pachtland. Algorithmen kürzen Reichweite. Accounts werden limitiert. Ein Marktplatz kann Gebühren erhöhen oder Ihr Listing vergraben. Wenn das der einzige Ort ist, an dem ein neuer Kunde lesen kann, wer Sie sind und wie man kauft, sitzt Ihr Umsatz auf fremdem Schalter.',
+            fr: "Instagram, TikTok, Google Maps, marketplaces et Telegram sont utiles. C'est aussi une terre louée. Les algos coupent la portée. Les comptes se font limiter. Une marketplace peut monter les frais ou enterrer votre fiche. Si c'est le seul endroit où un nouveau client peut lire qui vous êtes et comment acheter, votre CA est sur l'interrupteur de quelqu'un d'autre.",
+          },
+        ],
+        list: [
+          {
+            en: 'A domain you own (yourbrand.com) stays up when a social account is down.',
+            ua: 'Домен, який вам належить (yourbrand.com), працює, коли соцмережа лежить.',
+            de: 'Eine Domain, die Ihnen gehört (yourbrand.com), bleibt online, wenn ein Social-Account down ist.',
+            fr: "Un domaine à vous (yourbrand.com) reste en ligne quand un compte social tombe.",
+          },
+          {
+            en: 'Prices, terms, and a portfolio do not disappear behind last week’s Reels.',
+            ua: 'Ціни, умови й портфоліо не зникають за Reels минулого тижня.',
+            de: 'Preise, AGB und Portfolio verschwinden nicht hinter den Reels der letzten Woche.',
+            fr: "Prix, conditions et portfolio ne disparaissent pas derrière les Reels de la semaine dernière.",
+          },
+          {
+            en: 'Social still does the handshake. The site is the address you put on invoices, ads, and Google Business.',
+            ua: 'Соцмережі лишаються рукостисканням. Сайт — адреса на рахунках, в рекламі й у Google Business.',
+            de: 'Social bleibt der Händedruck. Die Website ist die Adresse auf Rechnungen, Ads und Google Business.',
+            fr: "Le social reste la poignée de main. Le site est l'adresse sur les factures, les pubs et Google Business.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '2. People who are ready to buy look you up — they do not wait for a post',
+          ua: '2. Хто готовий купити — гуглить вас, а не чекає поста',
+          de: '2. Wer kaufbereit ist, googelt Sie — und wartet nicht auf einen Post',
+          fr: "2. Qui est prêt à acheter vous cherche — il n'attend pas un post",
+        },
+        paragraphs: [
+          {
+            en: 'A post reaches people who already follow you. Search reaches people with a problem today: “plumber near me,” “accounting for LLC,” “kids dentist [city].” Without a page that answers that query, you are invisible at the moment of intent — or you lose to the firm whose site loaded on the phone in two seconds.',
+            ua: 'Пост доходить до тих, хто вже підписаний. Пошук доходить до тих, у кого проблема сьогодні: «сантехнік поруч», «бухгалтерія для ТОВ», «дитячий стоматолог [місто]». Без сторінки під цей запит ви невидимі в момент наміру — або програєте фірмі, чий сайт відкрився на телефоні за дві секунди.',
+            de: 'Ein Post erreicht Leute, die Ihnen schon folgen. Suche erreicht Leute mit einem Problem heute: „Klempner in der Nähe“, „Buchhaltung für GmbH“, „Kinderzahnarzt [Stadt]“. Ohne eine Seite zu dieser Query sind Sie unsichtbar im Moment der Absicht — oder Sie verlieren an die Firma, deren Site in zwei Sekunden auf dem Handy lud.',
+            fr: "Un post atteint ceux qui vous suivent déjà. La recherche atteint ceux qui ont un problème aujourd'hui : « plombier près de moi », « comptabilité SARL », « dentiste enfants [ville] ». Sans page pour cette requête, vous êtes invisible au moment d'intention — ou vous perdez face à la société dont le site s'est ouvert en deux secondes sur le téléphone.",
+          },
+        ],
+        list: [
+          {
+            en: 'Google Business + a real site beats a Maps pin with no website and three reviews.',
+            ua: 'Google Business + справжній сайт б’є піну на карті без сайту й трьох відгуків.',
+            de: 'Google Business + echte Website schlägt einen Maps-Pin ohne Site und drei Bewertungen.',
+            fr: 'Google Business + un vrai site bat une épingle Maps sans site et trois avis.',
+          },
+          {
+            en: 'Ads need a landing page. Sending paid traffic to a profile is paying to leak.',
+            ua: 'Рекламі потрібна посадкова сторінка. Гнати платний трафік у профіль — платити за витік.',
+            de: 'Ads brauchen eine Landingpage. Paid Traffic auf ein Profil zu schicken heißt: für Leak zahlen.',
+            fr: "Les pubs ont besoin d'une landing. Envoyer du trafic payant vers un profil, c'est payer pour fuir.",
+          },
+          {
+            en: 'A service page compounds: one article or FAQ can bring calls for years. A Reel expires in 48 hours.',
+            ua: 'Сторінка послуги накопичує: одна стаття чи FAQ може приводити дзвінки роками. Reel згорає за 48 годин.',
+            de: 'Eine Leistungsseite compoundiert: ein Artikel oder FAQ kann Jahre Anrufe bringen. Ein Reel ist in 48 Stunden tot.',
+            fr: "Une page service capitalise : un article ou une FAQ peut amener des appels pendant des années. Un Reel meurt en 48 h.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '3. Trust is the conversion bottleneck — especially above a certain ticket size',
+          ua: '3. Вузьке місце конверсії — довіра, особливо від певного чека',
+          de: '3. Der Conversion-Engpass ist Vertrauen — besonders ab einer gewissen Ticketgröße',
+          fr: "3. Le goulot de conversion, c'est la confiance — surtout au-dessus d'un certain ticket",
+        },
+        paragraphs: [
+          {
+            en: 'For a coffee or a T-shirt, a pretty feed can close. For a renovation, legal work, medical service, B2B contract, or a hire — the buyer will open a second tab. They look for an address, a team, cases, terms, and a way to write without begging in DMs. If that tab is empty or a 2019 template, they pick the next result.',
+            ua: 'Каву чи футболку закриє гарна стрічка. Ремонт, юриста, медицину, B2B-контракт чи найм — покупець відкриє другу вкладку. Шукатиме адресу, команду, кейси, умови й спосіб написати без благання в директ. Якщо вкладка порожня або шаблон 2019-го — візьмуть наступний результат.',
+            de: 'Für Kaffee oder ein T-Shirt reicht ein hübsches Feed. Für Sanierung, Recht, Medizin, B2B-Vertrag oder eine Einstellung öffnet der Käufer einen zweiten Tab. Er sucht Adresse, Team, Cases, AGB und einen Weg zu schreiben, ohne in DMs zu betteln. Ist der Tab leer oder ein Template von 2019, nimmt er das nächste Ergebnis.',
+            fr: "Pour un café ou un t-shirt, un joli fil peut closer. Pour une rénovation, du juridique, du médical, un contrat B2B ou un recrutement — l'acheteur ouvre un second onglet. Il cherche une adresse, une équipe, des cas, des conditions, et un moyen d'écrire sans mendier en DM. Si l'onglet est vide ou un template 2019, il prend le résultat suivant.",
+          },
+        ],
+        list: [
+          {
+            en: 'Corporate and public buyers often cannot pay a vendor with no site and no legal entity page.',
+            ua: 'Корпоративні й державні замовники часто фізично не можуть оплатити підрядника без сайту й сторінки юрособи.',
+            de: 'Konzerne und öffentliche Auftraggeber können oft keinen Vendor ohne Website und Impressum bezahlen.',
+            fr: "Les acheteurs corporate et publics ne peuvent souvent pas payer un prestataire sans site ni page d'entité légale.",
+          },
+          {
+            en: 'A clear “how we work / what it costs / what happens next” page cuts the first sales call in half.',
+            ua: 'Зрозуміла сторінка «як працюємо / що коштує / що далі» скорочує перший продажний дзвінок удвічі.',
+            de: 'Eine klare Seite „so arbeiten wir / was es kostet / was als Nächstes passiert“ halbiert den ersten Sales-Call.',
+            fr: "Une page claire « comment on bosse / ça coûte quoi / et après » coupe le premier appel commercial en deux.",
+          },
+          {
+            en: 'Reviews, photos of real work, and named people beat a logo on a white page.',
+            ua: 'Відгуки, фото реальної роботи й імена людей б’ють логотип на білій сторінці.',
+            de: 'Reviews, Fotos echter Arbeit und benannte Menschen schlagen ein Logo auf weißer Seite.',
+            fr: "Avis, photos de vrai travail et gens nommés battent un logo sur page blanche.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '4. The site does the repetitive work your people should not do',
+          ua: '4. Сайт робить повторювану роботу, яку не повинні робити люди',
+          de: '4. Die Website erledigt die repetitive Arbeit, die Ihre Leute nicht tun sollten',
+          fr: "4. Le site fait le travail répétitif que vos gens ne devraient pas faire",
+        },
+        paragraphs: [
+          {
+            en: 'In a 10–50 person company the hidden cost is not “no website.” It is a manager answering the same five questions every day: hours, price range, what is included, how to book, where you are. That is not hospitality. That is a missing FAQ and a form.',
+            ua: 'У компанії на 10–50 людей прихована ціна — не «немає сайту». Це менеджер, який щодня відповідає на ті самі п’ять питань: години, вилка цін, що входить, як записатися, де ви. Це не сервіс. Це відсутній FAQ і форма.',
+            de: 'In einer Firma mit 10–50 Leuten sind die versteckten Kosten nicht „keine Website“. Es ist ein Manager, der jeden Tag dieselben fünf Fragen beantwortet: Öffnungszeiten, Preisspanne, was inklusive ist, wie man bucht, wo Sie sind. Das ist keine Gastfreundschaft. Das ist ein fehlendes FAQ und ein Formular.',
+            fr: "Dans une société de 10–50 personnes, le coût caché n'est pas « pas de site ». C'est un manager qui répond tous les jours aux cinq mêmes questions : horaires, fourchette de prix, ce qui est inclus, comment réserver, où vous êtes. Ce n'est pas de l'hospitalité. C'est une FAQ manquante et un formulaire.",
+          },
+        ],
+        list: [
+          {
+            en: 'A form or booking calendar captures the lead at 22:40, when nobody is in the office.',
+            ua: 'Форма або календар запису ловить заявку о 22:40, коли в офісі нікого немає.',
+            de: 'Ein Formular oder Buchungskalender fängt den Lead um 22:40, wenn niemand im Büro ist.',
+            fr: "Un formulaire ou un calendrier de RDV capte le lead à 22h40, quand personne n'est au bureau.",
+          },
+          {
+            en: 'Price lists, service scopes, and PDFs stop living in five chat threads.',
+            ua: 'Прайс, склад послуг і PDF перестають жити в п’яти чатах.',
+            de: 'Preislisten, Leistungsumfang und PDFs leben nicht mehr in fünf Chat-Threads.',
+            fr: "Tarifs, périmètres de service et PDF cessent de vivre dans cinq fils de chat.",
+          },
+          {
+            en: 'CRM, payments, and reminders can sit behind one page — you do not need a custom ERP on day one.',
+            ua: 'CRM, оплата й нагадування можуть стояти за однією сторінкою — на старті не потрібен кастомний ERP.',
+            de: 'CRM, Zahlung und Erinnerungen können hinter einer Seite sitzen — Sie brauchen am Tag eins kein Custom-ERP.',
+            fr: "CRM, paiement et rappels peuvent tenir derrière une page — pas besoin d'ERP custom au jour un.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '5. Marketing starts to compound instead of resetting every Monday',
+          ua: '5. Маркетинг починає накопичуватися, а не обнулятися щопонеділка',
+          de: '5. Marketing beginnt zu compounden, statt jeden Montag auf null zu fallen',
+          fr: '5. Le marketing commence à capitaliser, au lieu de se remettre à zéro chaque lundi',
+        },
+        paragraphs: [
+          {
+            en: 'Paid ads without a site are rent: you pay, traffic arrives, you stop paying, it dies. A site you control is an asset. Pages rank. Old blog posts still get found. Email lists grow from a form, not from a platform that can lock the audience.',
+            ua: 'Платна реклама без сайту — оренда: платите, трафік є, перестали платити — померло. Сайт, яким ви керуєте, — актив. Сторінки ранжуються. Старі пости блогу досі знаходять. База email росте з форми, а не з платформи, яка може закрити аудиторію.',
+            de: 'Paid Ads ohne Website sind Miete: Sie zahlen, Traffic kommt, Sie hören auf zu zahlen, er stirbt. Eine Site, die Sie kontrollieren, ist ein Asset. Seiten ranken. Alte Blogposts werden noch gefunden. E-Mail-Listen wachsen über ein Formular, nicht über eine Plattform, die das Publikum zusperren kann.',
+            fr: "Les pubs payantes sans site, c'est du loyer : vous payez, le trafic arrive, vous arrêtez, ça meurt. Un site que vous contrôlez est un actif. Les pages rankent. Les vieux posts de blog se trouvent encore. La liste email grandit via un formulaire, pas via une plateforme qui peut verrouiller l'audience.",
+          },
+        ],
+        list: [
+          {
+            en: 'One landing per offer beats one overloaded homepage that tries to sell everything.',
+            ua: 'Одна посадкова під офер б’є перевантажену головну, яка намагається продати все.',
+            de: 'Eine Landing pro Angebot schlägt eine überladene Homepage, die alles verkaufen will.',
+            fr: 'Une landing par offre bat une home surchargée qui veut tout vendre.',
+          },
+          {
+            en: 'UTM links and a simple analytics setup tell you which channel paid for itself.',
+            ua: 'UTM-посилання й проста аналітика показують, який канал відбився.',
+            de: 'UTM-Links und ein schlichtes Analytics-Setup sagen Ihnen, welcher Kanal sich bezahlt hat.',
+            fr: "Les liens UTM et une analytique simple disent quel canal s'est payé.",
+          },
+          {
+            en: 'You can A/B a headline. You cannot A/B an Instagram bio.',
+            ua: 'Заголовок можна A/B-тестувати. Біо в Instagram — ні.',
+            de: 'Eine Headline können Sie A/B-testen. Eine Instagram-Bio nicht.',
+            fr: "Vous pouvez A/B tester un titre. Pas une bio Instagram.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '6. Hiring, partners, and “are you real?” checks',
+          ua: '6. Найм, партнери й перевірка «ви взагалі існуєте?»',
+          de: '6. Hiring, Partner und der Check „seid ihr überhaupt echt?“',
+          fr: "6. Recrutement, partenaires et le check « vous existez vraiment ? »",
+        },
+        paragraphs: [
+          {
+            en: 'SMB growth is not only customers. Candidates google the company before they apply. Distributors ask for a catalog URL. A bank or a grant program wants a public page. A site that looks like a going concern — even a short one — removes a silent veto you never hear about.',
+            ua: 'Зростання МСБ — не лише клієнти. Кандидати гуглять компанію перед відгуком. Дистриб’ютори просять URL каталогу. Банк чи грант хочуть публічну сторінку. Сайт, який виглядає як жива справа — навіть короткий — знімає тихе вето, про яке ви ніколи не дізнаєтесь.',
+            de: 'KMU-Wachstum ist nicht nur Kunden. Kandidaten googeln die Firma vor der Bewerbung. Distributoren wollen eine Katalog-URL. Eine Bank oder ein Förderprogramm will eine öffentliche Seite. Eine Site, die nach laufendem Geschäft aussieht — auch eine kurze — nimmt ein stilles Veto weg, von dem Sie nie hören.',
+            fr: "La croissance d'une PME, ce n'est pas que des clients. Les candidats googlent la boîte avant de postuler. Les distributeurs demandent une URL de catalogue. Une banque ou un programme de subvention veut une page publique. Un site qui a l'air d'une affaire vivante — même court — lève un veto silencieux dont vous n'entendrez jamais parler.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: '7. How the number of people who order actually grows',
+          ua: '7. Як реально росте кількість тих, хто замовляє',
+          de: '7. Wie die Zahl der Besteller wirklich wächst',
+          fr: '7. Comment le nombre de ceux qui commandent grandit vraiment',
+        },
+        paragraphs: [
+          {
+            en: 'A website does not magically “add +30% sales.” Orders grow when three numbers move: more people who never knew you, a higher share of visitors who finish the request, and more repeat work from people who already paid once. The site is the tool that moves all three at once — search, conversion, and coming back — without hiring another person to sit in chat.',
+            ua: 'Сайт не додає «+30% продажів» сам по собі. Замовлення ростуть, коли змінюються три цифри: більше людей, які вас не знали; більша частка відвідувачів, які доводять заявку до кінця; більше повторних замовлень від тих, хто вже платив. Сайт зрушує всі три одразу — пошук, конверсію й повернення — без ще однієї людини в чаті.',
+            de: 'Eine Website zaubert nicht „+30 % Umsatz“. Bestellungen wachsen, wenn drei Zahlen sich bewegen: mehr Menschen, die Sie nie kannten; ein höherer Anteil Besucher, die die Anfrage zu Ende bringen; mehr Wiederholungsaufträge von Leuten, die schon einmal gezahlt haben. Die Site bewegt alle drei zugleich — Suche, Conversion und Wiederkommen — ohne noch eine Person im Chat.',
+            fr: "Un site n'ajoute pas magiquement « +30 % de ventes ». Les commandes montent quand trois chiffres bougent : plus de gens qui ne vous connaissaient pas ; une plus grande part de visiteurs qui finissent la demande ; plus de commandes répétées de ceux qui ont déjà payé. Le site déplace les trois à la fois — recherche, conversion, retour — sans une personne de plus dans le chat.",
+          },
+          {
+            en: 'In practice that looks like a wider top of funnel and a shorter path to “yes.” Someone googles the service in your city at 22:40, reads proof, picks a package, and submits a form or pays. Yesterday that person never saw your Reel, or saw it, opened Direct, and left when nobody replied until morning.',
+            ua: 'На практиці це ширший верх воронки й коротший шлях до «так». Людина гуглить послугу у вашому місті о 22:40, читає докази, обирає пакет і надсилає форму або платить. Учора ця людина не бачила ваш Reel — або бачила, відкрила директ і пішла, бо відповіді не було до ранку.',
+            de: 'In der Praxis heißt das: breiterer Trichter oben und kürzerer Weg zum „Ja“. Jemand googelt die Leistung in Ihrer Stadt um 22:40, liest Beweise, wählt ein Paket und sendet ein Formular oder zahlt. Gestern hat diese Person Ihr Reel nie gesehen — oder gesehen, Direct geöffnet und ist gegangen, weil bis zum Morgen niemand antwortete.',
+            fr: "En pratique : un haut d'entonnoir plus large et un chemin plus court vers « oui ». Quelqu'un google le service dans votre ville à 22h40, lit des preuves, choisit un pack et envoie un formulaire ou paie. Hier cette personne n'avait pas vu votre Reel — ou l'avait vu, ouvert Direct, et parti parce que personne n'avait répondu avant le matin.",
+          },
+        ],
+        list: [
+          {
+            en: 'New buyers from search and Maps: people with intent today, not only followers. A page for “service + city” is a shop window that stays open after the last post.',
+            ua: 'Нові покупці з пошуку й Maps: люди з наміром сьогодні, не лише підписники. Сторінка «послуга + місто» — вітрина, яка не зачиняється після останнього поста.',
+            de: 'Neue Käufer aus Suche und Maps: Menschen mit Absicht heute, nicht nur Follower. Eine Seite „Leistung + Stadt“ ist ein Schaufenster, das nach dem letzten Post offen bleibt.',
+            fr: "Nouveaux acheteurs depuis la recherche et Maps : des gens avec une intention aujourd'hui, pas seulement des followers. Une page « service + ville » est une vitrine ouverte après le dernier post.",
+          },
+          {
+            en: 'Fewer abandoned requests: a form, booking, or pay button captures the order while the intent is hot. Chat that waits until 09:00 leaks the same people to whoever answered first.',
+            ua: 'Менше кинутих заявок: форма, запис або кнопка оплати ловить замовлення, поки намір гарячий. Чат до 09:00 зливає тих самих людей тому, хто відповів першим.',
+            de: 'Weniger abgebrochene Anfragen: Formular, Buchung oder Pay-Button fängt die Bestellung, solange die Absicht heiß ist. Chat bis 09:00 verliert dieselben Leute an den, der zuerst antwortet.',
+            fr: "Moins de demandes abandonnées : formulaire, RDV ou bouton payer capte la commande tant que l'intention est chaude. Un chat jusqu'à 09h00 fuit les mêmes gens vers celui qui a répondu en premier.",
+          },
+          {
+            en: 'Higher conversion of traffic you already pay for: ads and stories send people to a page with price, proof, and one button — not to a profile where the offer is three swipes down.',
+            ua: 'Вища конверсія трафіку, за який уже платите: реклама й сторіз ведуть на сторінку з ціною, доказами й однією кнопкою — не в профіль, де офер на три свайпи нижче.',
+            de: 'Höhere Conversion des Traffics, den Sie schon bezahlen: Ads und Stories landen auf einer Seite mit Preis, Beweis und einem Button — nicht auf einem Profil, wo das Angebot drei Swipes tiefer liegt.',
+            fr: "Meilleure conversion du trafic que vous payez déjà : pubs et stories envoient vers une page avec prix, preuves et un bouton — pas vers un profil où l'offre est trois swipes plus bas.",
+          },
+          {
+            en: 'Repeat and adjacent orders: a catalog, “order again,” related services, and a saved URL beat asking the client to remember which chat you used last time.',
+            ua: 'Повторні й сусідні замовлення: каталог, «замовити ще раз», суміжні послуги й збережене посилання б’ють прохання згадати, у якому чаті ви були минулого разу.',
+            de: 'Wiederholungs- und Anschlussaufträge: Katalog, „erneut bestellen“, verwandte Leistungen und eine gespeicherte URL schlagen die Bitte, sich zu erinnern, in welchem Chat Sie letztes Mal waren.',
+            fr: "Commandes répétées et adjacentes : catalogue, « commander à nouveau », services liés et une URL enregistrée battent la demande de se souvenir dans quel chat vous étiez la dernière fois.",
+          },
+          {
+            en: 'Referrals that convert: a client forwards yourbrand.com/service, not a screenshot of a story. The next buyer sees the same proof and can order without asking you to “send the price again.”',
+            ua: 'Рекомендації, які конвертять: клієнт пересилає yourbrand.com/service, а не скрін сторіз. Наступний покупець бачить ті самі докази й може замовити, не просячи «скиньте прайс ще раз».',
+            de: 'Empfehlungen, die konvertieren: ein Kunde schickt yourbrand.com/service weiter, kein Story-Screenshot. Der nächste Käufer sieht denselben Beweis und kann bestellen, ohne „Preis nochmal schicken“ zu bitten.',
+            fr: "Parrainages qui convertissent : un client transmet yourbrand.com/service, pas une capture de story. L'acheteur suivant voit les mêmes preuves et peut commander sans demander « renvoyez le tarif ».",
+          },
+          {
+            en: 'Same team, more closed orders: the site answers hours, scope, and “what’s included.” Staff spend time on quotes that are already warm instead of typing the FAQ into Direct fifty times a week.',
+            ua: 'Та сама команда — більше закритих замовлень: сайт відповідає на години, склад і «що входить». Люди витрачають час на теплі комерційні, а не вбивають FAQ у директ п’ятдесят разів на тиждень.',
+            de: 'Dasselbe Team, mehr abgeschlossene Aufträge: die Site beantwortet Zeiten, Umfang und „was inklusive ist“. Die Leute arbeiten an warmen Angeboten, statt die FAQ fünfzig Mal pro Woche in Direct zu tippen.',
+            fr: "Même équipe, plus de commandes closes : le site répond aux horaires, au périmètre et à « ce qui est inclus ». L'équipe passe du temps sur des devis déjà chauds, au lieu de retaper la FAQ dans Direct cinquante fois par semaine.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'What that looks like in numbers you can track',
+          ua: 'Як це виглядає в цифрах, які можна рахувати',
+          de: 'Wie das in Zahlen aussieht, die Sie zählen können',
+          fr: 'À quoi ça ressemble en chiffres que vous pouvez compter',
+        },
+        paragraphs: [
+          {
+            en: 'Do not wait for a vanity spike in visitors. Watch the chain from first visit to paid order. If any step is empty, that is where orders stall — not “we need more followers.”',
+            ua: 'Не чекайте красивого стрибка відвідувачів. Дивіться ланцюг від першого заходу до оплаченого замовлення. Якщо якась ланка порожня — там і стопоряться замовлення, а не в «треба більше підписників».',
+            de: 'Warten Sie nicht auf einen Eitelkeits-Spike bei Besuchern. Schauen Sie die Kette vom ersten Besuch bis zur bezahlten Bestellung. Ist ein Schritt leer, dort stocken die Aufträge — nicht bei „wir brauchen mehr Follower“.',
+            fr: "N'attendez pas un pic de visiteurs pour la galerie. Regardez la chaîne du premier passage à la commande payée. Si un maillon est vide, c'est là que les commandes calent — pas dans « il nous faut plus de followers ».",
+          },
+        ],
+        list: [
+          {
+            en: 'More first-time visitors with intent: Search Console / Maps queries for your service + city, plus ad clicks that land on a matching page.',
+            ua: 'Більше нових відвідувачів із наміром: запити в Search Console / Maps на послугу + місто і кліки з реклами на відповідну сторінку.',
+            de: 'Mehr Erstbesucher mit Absicht: Search Console / Maps-Queries zu Leistung + Stadt, plus Ad-Klicks auf eine passende Seite.',
+            fr: 'Plus de primo-visiteurs avec intention : requêtes Search Console / Maps service + ville, plus clics pub qui atterrissent sur la page correspondante.',
+          },
+          {
+            en: 'More completed requests: form submits, booked slots, or checkouts per 100 visits. A slow or vague page kills this even when traffic is fine.',
+            ua: 'Більше завершених заявок: форми, записи або оплати на 100 візитів. Повільна чи розмита сторінка вбиває це навіть при нормальному трафіку.',
+            de: 'Mehr abgeschlossene Anfragen: Formulare, Slots oder Checkouts pro 100 Besuche. Eine langsame oder vage Seite tötet das, selbst wenn der Traffic stimmt.',
+            fr: 'Plus de demandes terminées : formulaires, créneaux ou checkouts pour 100 visites. Une page lente ou floue tue ça même si le trafic est bon.',
+          },
+          {
+            en: 'More paid orders from the same staff hours: fewer “what’s the price?” threads, more quotes that already know the package.',
+            ua: 'Більше оплачених замовлень за ті самі години команди: менше тредів «яка ціна?», більше комерційних, де пакет уже зрозумілий.',
+            de: 'Mehr bezahlte Aufträge bei denselben Personalstunden: weniger „was kostet das?“-Threads, mehr Angebote, die das Paket schon kennen.',
+            fr: "Plus de commandes payées pour les mêmes heures d'équipe : moins de fils « c'est combien ? », plus de devis qui connaissent déjà le pack.",
+          },
+          {
+            en: 'More second orders: returning users, saved numbers, “order again” — the cheapest growth, and the one a chat history cannot productise.',
+            ua: 'Більше других замовлень: ті самі люди знову, збережений номер, «замовити ще» — найдешевше зростання, яке історія чату не вміє зробити продуктом.',
+            de: 'Mehr Zweitaufträge: wiederkehrende Nutzer, gespeicherte Nummer, „erneut bestellen“ — das billigste Wachstum, und das, was ein Chatverlauf nicht zum Produkt machen kann.',
+            fr: "Plus de deuxièmes commandes : les mêmes gens reviennent, numéro enregistré, « commander encore » — la croissance la moins chère, et celle qu'un historique de chat ne sait pas transformer en produit.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'What “enough” looks like — you do not need a portal',
+          ua: 'Як виглядає «достатньо» — портал не потрібен',
+          de: 'Wie „genug“ aussieht — Sie brauchen kein Portal',
+          fr: "À quoi ressemble « assez » — vous n'avez pas besoin d'un portail",
+        },
+        paragraphs: [
+          {
+            en: 'The useful first site for an SMB is small and specific. A bakery needs hours, menu, address, and a way to order a cake. A 40-person services firm needs services, cases, team, and a contact that lands in CRM. Both fail the same way: a 40-page brochure nobody maintains, or a builder theme that takes eight seconds on mobile.',
+            ua: 'Корисний перший сайт для МСБ — маленький і конкретний. Пекарні потрібні години, меню, адреса й спосіб замовити торт. Фірі на 40 людей — послуги, кейси, команда й контакт, який падає в CRM. Обидва провалюються однаково: 40-сторінкова брошура, яку ніхто не оновлює, або тема з конструктора, яка відкривається вісім секунд на телефоні.',
+            de: 'Die nützliche erste Site für KMU ist klein und konkret. Eine Bäckerei braucht Zeiten, Speisekarte, Adresse und einen Weg, eine Torte zu bestellen. Eine 40-Personen-Dienstleistungsfirma braucht Leistungen, Cases, Team und einen Kontakt, der im CRM landet. Beide scheitern gleich: eine 40-Seiten-Broschüre, die niemand pflegt, oder ein Builder-Theme, das auf dem Handy acht Sekunden braucht.',
+            fr: "Le premier site utile pour une PME est petit et précis. Une boulangerie a besoin d'horaires, menu, adresse et un moyen de commander un gâteau. Une société de services de 40 personnes a besoin de services, cas, équipe et un contact qui tombe dans le CRM. Les deux échouent pareil : une brochure de 40 pages que personne n'entretient, ou un thème builder qui met huit secondes sur mobile.",
+          },
+        ],
+        list: [
+          {
+            en: 'One clear offer, proof, and a single next step (call, form, book, pay).',
+            ua: 'Один чіткий офер, доказ і один наступний крок (дзвінок, форма, запис, оплата).',
+            de: 'Ein klares Angebot, Beweis und ein nächster Schritt (Anruf, Formular, buchen, zahlen).',
+            fr: 'Une offre claire, une preuve et une seule prochaine étape (appel, formulaire, RDV, paiement).',
+          },
+          {
+            en: 'Mobile first. Most SMB traffic is a phone in a car park or a kitchen.',
+            ua: 'Спочатку мобільний. Більшість трафіку МСБ — телефон на парковці чи на кухні.',
+            de: 'Mobile first. Der meiste KMU-Traffic ist ein Handy auf dem Parkplatz oder in der Küche.',
+            fr: "Mobile d'abord. La plupart du trafic PME, c'est un téléphone sur un parking ou dans une cuisine.",
+          },
+          {
+            en: 'Fast enough that Google and a tired customer do not bounce. Then add shop, cabinet, or blog when a page is earning its keep.',
+            ua: 'Достатньо швидко, щоб Google і втомлений клієнт не пішли. Далі магазин, кабінет чи блог — коли сторінка вже відпрацьовує.',
+            de: 'Schnell genug, dass Google und ein müder Kunde nicht abspringen. Dann Shop, Konto oder Blog, wenn eine Seite sich bezahlt macht.',
+            fr: "Assez rapide pour que Google et un client fatigué ne partent pas. Ensuite boutique, espace client ou blog — quand une page gagne déjà sa place.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'How to tell if it is working',
+          ua: 'Як зрозуміти, що це працює',
+          de: 'Woran Sie merken, dass es funktioniert',
+          fr: 'Comment savoir que ça marche',
+        },
+        paragraphs: [
+          {
+            en: 'Do not judge a site by “it looks modern.” Judge it by a short list you can check after 30–90 days:',
+            ua: 'Не оцінюйте сайт за «виглядає сучасно». Оцінюйте коротким списком через 30–90 днів:',
+            de: 'Bewerten Sie eine Site nicht nach „sieht modern aus“. Bewerten Sie sie nach einer kurzen Liste nach 30–90 Tagen:',
+            fr: "Ne jugez pas un site à « ça a l'air moderne ». Jugez-le sur une courte liste à 30–90 jours :",
+          },
+        ],
+        list: [
+          {
+            en: 'Inbound: form submits, calls from the site, booked slots, paid orders — not only followers.',
+            ua: 'Вхід: заявки з форми, дзвінки з сайту, записи, оплачені замовлення — не лише підписники.',
+            de: 'Inbound: Formular-Absendungen, Anrufe von der Site, gebuchte Slots, bezahlte Bestellungen — nicht nur Follower.',
+            fr: 'Inbound : envois de formulaire, appels depuis le site, créneaux bookés, commandes payées — pas seulement des followers.',
+          },
+          {
+            en: 'Order volume: first-time buyers vs repeat, and requests per week versus the month before the site (or before the new landing).',
+            ua: 'Обсяг замовлень: нові vs повторні покупці, і заявок на тиждень порівняно з місяцем до сайту (або до нового лендингу).',
+            de: 'Auftragsvolumen: Erstkäufer vs. Wiederholer, und Anfragen pro Woche gegenüber dem Monat vor der Site (oder vor der neuen Landing).',
+            fr: "Volume de commandes : primo-acheteurs vs répétition, et demandes par semaine vs le mois avant le site (ou avant la nouvelle landing).",
+          },
+          {
+            en: 'Time saved: fewer identical questions in chat and at the front desk.',
+            ua: 'Заощаджений час: менше однакових питань у чаті й на ресепшені.',
+            de: 'Zeit gespart: weniger identische Fragen im Chat und am Empfang.',
+            fr: 'Temps gagné : moins de questions identiques en chat et à l’accueil.',
+          },
+          {
+            en: 'Search: impressions for your city + service, even if you are not #1 yet.',
+            ua: 'Пошук: покази за місто + послуга, навіть якщо ви ще не перші.',
+            de: 'Suche: Impressionen für Stadt + Leistung, auch wenn Sie noch nicht #1 sind.',
+            fr: "Recherche : impressions pour ville + service, même si vous n'êtes pas encore n°1.",
+          },
+          {
+            en: 'Ad cost: cheaper leads when traffic lands on a page built for that offer.',
+            ua: 'Вартість реклами: дешевші ліди, коли трафік падає на сторінку під цей офер.',
+            de: 'Ad-Kosten: günstigere Leads, wenn Traffic auf einer Seite für dieses Angebot landet.',
+            fr: "Coût pub : leads moins chers quand le trafic arrive sur une page faite pour cette offre.",
+          },
+        ],
+      },
+      {
+        heading: {
+          en: 'If you are ready to stop postponing it',
+          ua: 'Якщо готові перестати відкладати',
+          de: 'Wenn Sie aufhören wollen, es aufzuschieben',
+          fr: "Si vous êtes prêts à arrêter de le remettre",
+        },
+        paragraphs: [
+          {
+            en: 'The benefit of a website for an SMB is not that you “have a site.” It is that more people can find you without a post, finish an order without a DM, and come back without hunting the old chat — while you own the address. That is how the number of buyers grows, cheaper than another year of rented attention.',
+            ua: 'Користь сайту для малого й середнього бізнесу — не в тому, що «є сайт». А в тому, що більше людей знаходять вас без поста, доводять замовлення без директ і повертаються без пошуку старого чату — і адреса належить вам. Так росте кількість тих, хто купує, дешевше за ще рік орендованої уваги.',
+            de: 'Der Nutzen einer Website für KMU ist nicht, dass Sie „eine Site haben“. Sondern dass mehr Menschen Sie ohne Post finden, eine Bestellung ohne DM zu Ende bringen und ohne alten Chat zurückkommen — und die Adresse Ihnen gehört. So wächst die Zahl der Käufer, billiger als ein weiteres Jahr gemietete Aufmerksamkeit.',
+            fr: "Le bénéfice d'un site pour une PME, ce n'est pas d'« avoir un site ». C'est que plus de gens vous trouvent sans post, finissent une commande sans DM, et reviennent sans chasser l'ancien chat — et l'adresse est à vous. C'est comme ça que le nombre d'acheteurs grandit, moins cher qu'une année de plus d'attention louée.",
+          },
+          {
+            en: 'I build lean, fast sites and web apps with Next.js and React: 8+ years in production, 4,200+ Upwork hours, 100+ launched projects. TypeScript, performance, SEO-ready structure, and a contact path that actually gets used.',
+            ua: 'Я збираю легкі, швидкі сайти й вебзастосунки на Next.js і React: 8+ років у продакшені, 4 200+ годин на Upwork, 100+ запущених проєктів. TypeScript, швидкість, SEO-готова структура й контакт, яким реально користуються.',
+            de: 'Ich baue schlanke, schnelle Sites und Web-Apps mit Next.js und React: 8+ Jahre Produktion, 4.200+ Upwork-Stunden, 100+ gestartete Projekte. TypeScript, Performance, SEO-fähige Struktur und ein Kontaktweg, der wirklich genutzt wird.',
+            fr: "Je construis des sites et apps web légers et rapides avec Next.js et React : 8+ ans en production, 4 200+ heures Upwork, 100+ projets lancés. TypeScript, perf, structure prête SEO, et un chemin de contact vraiment utilisé.",
+          },
+          {
+            en: 'If you need a first site, a replacement for a dead template, or a landing that can take ads — write via the contacts below. We can map the smallest useful version in one short call.',
+            ua: 'Якщо потрібен перший сайт, заміна мертвого шаблону або лендинг під рекламу — напишіть через контакти нижче. За короткий дзвінок зберемо найменшу корисну версію.',
+            de: 'Wenn Sie eine erste Site brauchen, einen toten Template-Ersatz oder eine Landing für Ads — schreiben Sie über die Kontakte unten. In einem kurzen Call skizzieren wir die kleinste nützliche Version.',
+            fr: "Si vous avez besoin d'un premier site, d'un remplacement de template mort, ou d'une landing pour les pubs — écrivez via les contacts ci-dessous. En un court appel, on cadastre la plus petite version utile.",
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'developer-to-project-manager-career-path',
     date: '2026-08-12',
     title: {
