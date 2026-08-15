@@ -1,0 +1,179 @@
+{
+  "Contracts": { "it": "Contratti", "tr": "Sözleşmeler" },
+  "Payments": { "it": "Pagamenti", "tr": "Ödemeler" },
+  "Collaboration": { "it": "Collaborazione", "tr": "İşbirliği" },
+  "Web Performance": { "it": "Performance", "tr": "Performans" },
+  "Next.js": { "it": "Next.js", "tr": "Next.js" },
+  "Blogging": { "it": "Blog", "tr": "Blog" },
+  "Case Study": { "it": "Case study", "tr": "Case study" },
+  "Web Solutions": { "it": "Soluzioni web", "tr": "Web çözümleri" },
+  "Summary": { "it": "Sintesi", "tr": "Özet" },
+  "Why Foreign Clients Prefer Upwork: Security, Contracts, and Hassle-Free Payments": {
+    "it": "Perché i clienti esteri preferiscono Upwork: sicurezza, contratti e pagamenti senza grattacapi",
+    "tr": "Yabancı müşteriler neden Upwork tercih eder: güvenlik, sözleşmeler ve sorunsuz ödemeler"
+  },
+  "Discover the key advantages of using Upwork for international client-developer collaboration—from legally compliant invoicing and automated contracts to complete peace of mind with escrow and hourly protection.": {
+    "it": "I vantaggi di Upwork per collaborare con un developer all’estero — fatture a norma, contratti automatici, escrow e protezione oraria. Tranquillità, non burocrazia.",
+    "tr": "Uluslararası müşteri-developer işbirliğinde Upwork’ün avantajları — yasal fatura, otomatik sözleşme, escrow ve saatlik koruma. İç rahatlığı."
+  },
+  "For international businesses, hiring a remote developer comes with a set of operational challenges: how to set up a secure contract, how to handle invoicing for local tax offices, and how to guarantee that the work is paid for fairly and on time. These friction points are precisely why many foreign clients prefer to collaborate through Upwork.": {
+    "it": "Per un’impresa internazionale, assumere un developer remoto porta attriti: come chiudere un contratto sicuro, come fatturare per il fisco locale, come garantire un pagamento giusto e puntuale. Quei punti di frizione sono esattamente perché molti clienti esteri preferiscono collaborare su Upwork.",
+    "tr": "Uluslararası bir iş için uzaktan developer tutmak operasyonel sürtünme getirir: güvenli sözleşme nasıl kurulur, yerel vergi için fatura nasıl işler, işin adil ve zamanında ödeneceği nasıl garanti edilir. Birçok yabancı müşterinin Upwork üzerinden çalışmayı tercih etmesinin nedeni tam da bu sürtünmelerdir."
+  },
+  "Upwork acts as a reliable middleman, taking care of all legal and financial nuances so that both clients and developers can focus on what matters most: building great products. Here is a detailed look at the core benefits of using Upwork for your next web development project.": {
+    "it": "Upwork fa da intermediario affidabile: si prende le sfumature legali e finanziarie, così cliente e developer si concentrano su ciò che conta — costruire prodotti. Ecco i benefici centrali per il prossimo progetto web.",
+    "tr": "Upwork güvenilir bir aracıdır: yasal ve mali nüansları üstlenir, böylece müşteri ve developer asıl işe odaklanır — iyi ürün kurmak. Sonraki web projeniz için temel faydalar."
+  },
+  "1. Instant legally-binding contracts and IP protection": {
+    "it": "1. Contratti vincolanti all’istante e protezione IP",
+    "tr": "1. Anında bağlayıcı sözleşmeler ve IP koruması"
+  },
+  "Drafting custom international service agreements is slow and expensive. Upwork solves this by automatically generating standardized, legally-binding service contracts when a contract starts. These agreements clearly define the project scope, payment terms, and ensure that all intellectual property (IP) rights are automatically transferred to the client upon payment.": {
+    "it": "Redigere accordi internazionali su misura è lento e caro. Upwork lo risolve generando automaticamente contratti di servizio standard, legalmente vincolanti, all’avvio. Definiscono scope e termini di pagamento, e trasferiscono i diritti IP al cliente al pagamento.",
+    "tr": "Özel uluslararası hizmet sözleşmesi yazmak yavaş ve pahalıdır. Upwork, sözleşme başlayınca standart, yasal bağlayıcı hizmet sözleşmesini otomatik üretir. Scope ve ödeme koşullarını net tanımlar; ödeme olunca tüm IP hakları müşteriye geçer."
+  },
+  "2. Compliant invoicing and hassle-free accounting": {
+    "it": "2. Fatturazione a norma e contabilità senza grattacapi",
+    "tr": "2. Uyumlu fatura ve sorunsuz muhasebe"
+  },
+  "For financial departments, paying individual remote freelancers can be an accounting nightmare. Upwork acts as the Merchant of Record. Instead of dealing with multiple bank coordinates or remote tax documents, clients receive standardized, tax-compliant invoices generated directly by Upwork. You pay Upwork, and Upwork handles all downstream compliance, tax withholding certifications, and payments to the developer.": {
+    "it": "Per la finanza, pagare freelancer remoti uno a uno è un incubo contabile. Upwork è il Merchant of Record. Invece di gestire IBAN e documenti fiscali remoti, ricevete fatture standard, a norma, generate da Upwork. Pagate Upwork; Upwork gestisce compliance a valle, certificazioni di ritenuta e il pagamento al developer.",
+    "tr": "Finans için tek tek uzaktan freelancer ödemek muhasebe kâbusu olabilir. Upwork Merchant of Record’dur. Birden fazla IBAN veya uzak vergi belgesi yerine Upwork’ün ürettiği standart, vergi uyumlu faturaları alırsınız. Siz Upwork’e ödersiniz; uyum, stopaj belgeleri ve developer ödemesini o halleder."
+  },
+  "3. Escrow and Payment Protection (Peace of Mind)": {
+    "it": "3. Escrow e protezione dei pagamenti (tranquillità)",
+    "tr": "3. Escrow ve ödeme koruması (iç rahatlığı)"
+  },
+  "Payment safety is built directly into Upwork's ecosystem, providing absolute peace of mind for both parties. For Fixed-Price contracts, funds are secured in escrow before the work starts. The developer only receives the money after you review and approve the submitted deliverables. For Hourly contracts, Upwork's Hourly Protection ensures that clients pay only for hours verified in the Work Diary, where screen captures and activity logs confirm active development.": {
+    "it": "La sicurezza del pagamento è nel sistema Upwork, per entrambe le parti. Nei contratti Fixed-Price i fondi stanno in escrow prima che parta il lavoro. Il developer riceve solo dopo che avete revisionato e approvato i deliverable. Negli Hourly, Hourly Protection fa pagare solo le ore verificate nel Work Diary — screenshot e log di attività confermano lo sviluppo attivo.",
+    "tr": "Ödeme güvenliği Upwork ekosistemine gömülüdür; iki taraf için de iç rahatlığı. Fixed-Price’ta iş başlamadan fon escrow’dadır. Developer parayı ancak teslimatı inceleyip onayladıktan sonra alır. Hourly’de Hourly Protection, Work Diary’de doğrulanan saatler için ödetir — ekran görüntüsü ve aktivite log’u aktif geliştirmeyi doğrular."
+  },
+  "4. Flexible payment structures: Fixed Price and Hourly Rate": {
+    "it": "4. Strutture di pagamento flessibili: Fixed Price e Hourly Rate",
+    "tr": "4. Esnek ödeme: Fixed Price ve Hourly Rate"
+  },
+  "Every project is unique, and I am always ready to discuss the model that works best for your business goals. For projects with a detailed, well-defined scope (such as a landing page or a specific feature addition), we can set up a milestone-based Fixed-Price contract. For dynamic, ongoing tasks, consulting, or iterative dashboard development, an Hourly Rate contract provides the flexibility needed to scale requirements as the project evolves.": {
+    "it": "Ogni progetto è unico, e sono sempre pronta a discutere il modello che serve ai vostri obiettivi. Per uno scope dettagliato e chiaro (una landing o una feature precisa) possiamo chiudere un Fixed-Price a milestone. Per task dinamici, consulting o dashboard iterativi, un Hourly Rate dà la flessibilità per scalare i requisiti man mano che il progetto evolve.",
+    "tr": "Her proje benzersizdir; iş hedeflerinize uyan modeli konuşmaya her zaman hazırım. Net, ayrıntılı scope’ta (bir landing veya belirli bir feature) milestone’lu Fixed-Price kurabiliriz. Dinamik, süren işler, danışmanlık veya yinelemeli dashboard için Hourly Rate, proje evrilirken gereksinimleri ölçekleme esnekliği verir."
+  },
+  "Collaborating through Upwork eliminates transaction risks, administrative overhead, and legal hurdles for foreign clients. It is a win-win: you get transparent, compliant progress tracking and payment security, while I focus on delivering clean, high-performance web applications. Let's connect and discuss the best approach for your next project!": {
+    "it": "Collaborare su Upwork toglie rischi di transazione, overhead amministrativo e ostacoli legali ai clienti esteri. È un win-win: voi avete tracking trasparente, a norma, e sicurezza di pagamento; io mi concentro su applicazioni web pulite e veloci. Connettiamoci e scegliamo l’approccio giusto per il prossimo progetto.",
+    "tr": "Upwork üzerinden çalışmak yabancı müşteri için işlem riskini, idari yükü ve yasal engeli siler. Kazan-kazan: siz şeffaf, uyumlu ilerleme takibi ve ödeme güvenliği alırsınız; ben temiz, yüksek performanslı web uygulamalarına odaklanırım. Bağlanalım; sonraki projeniz için en iyi yaklaşımı konuşalım."
+  },
+  "Need a Fast and Simple Website or Blog? Why Page Speed Matters and How to Get Started": {
+    "it": "Vi serve un sito o un blog veloce e semplice? Perché la velocità conta e da dove partire",
+    "tr": "Hızlı ve sade bir site veya blog mu lazım? Sayfa hızı neden önemli ve nasıl başlanır"
+  },
+  "Planning to launch a simple website, landing page, or personal blog? Discover why loading speed is the most critical metric for conversion and SEO, how custom solutions outclass generic website builders, and how to get started.": {
+    "it": "State per lanciare un sito semplice, una landing o un blog personale? Perché la velocità di caricamento è la metrica critica per conversione e SEO, perché il custom batte i builder generici, e da dove si parte.",
+    "tr": "Sade bir site, landing veya kişisel blog mu açacaksınız? Yükleme hızının dönüşüm ve SEO için neden kritik metrik olduğunu, özel çözümün jenerik builder’ları neden geçtiğini ve nasıl başlayacağınızı görün."
+  },
+  "In the digital age, speed is everything. When businesses or individuals decide to launch a simple website, a landing page, or a personal blog, they often reach for popular website builders or traditional CMS platforms. However, these tools often come with a hidden cost: bloated code, slow loading times, poor mobile optimization, and constant security vulnerabilities.": {
+    "it": "Nell’era digitale la velocità è tutto. Quando un’impresa o una persona decide di lanciare un sito semplice, una landing o un blog, spesso prende un builder popolare o un CMS classico. Quei tool hanno un costo nascosto: codice gonfio, caricamenti lenti, mobile debole e buchi di sicurezza continui.",
+    "tr": "Dijital çağda hız her şeydir. İşletme veya kişi sade bir site, landing veya kişisel blog açmaya karar verince çoğu zaman popüler builder veya klasik CMS’e uzanır. Bu araçların gizli maliyeti vardır: şişmiş kod, yavaş yükleme, zayıf mobil ve sürekli güvenlik açığı."
+  },
+  "A fast website is no longer just a luxury — it is a primary driver of visitor retention, conversion rates, and search engine visibility. If your website takes more than a few seconds to load, your potential clients will simply leave before they even see what you offer.": {
+    "it": "Un sito veloce non è più un lusso — è il motore di retention, conversione e visibilità su Google. Se il sito impiega più di pochi secondi, i clienti potenziali se ne vanno prima di vedere cosa offrite.",
+    "tr": "Hızlı site artık lüks değil — ziyaretçi tutma, dönüşüm ve arama görünürlüğünün ana sürücüsüdür. Site birkaç saniyeden uzun açılıyorsa potansiyel müşteri ne sunduğunuzu görmeden gider."
+  },
+  "1. Why Website Loading Speed Equals Business Success": {
+    "it": "1. Perché la velocità di caricamento è successo di business",
+    "tr": "1. Site hızı neden iş başarısıdır"
+  },
+  "Every millisecond counts when it comes to web performance. Here is why prioritizing loading speed is essential for your new website or blog:": {
+    "it": "Ogni millisecondo conta. Ecco perché dare priorità alla velocità è essenziale per il nuovo sito o blog:",
+    "tr": "Web performansında her milisaniye sayar. Yeni site veya blog için hızı öne almanın neden zorunlu olduğu:"
+  },
+  "Better SEO Rankings: Google officially uses page speed and Core Web Vitals as ranking factors. Fast-loading websites naturally rank higher in search results, bringing you free organic traffic.": {
+    "it": "SEO migliore: Google usa ufficialmente velocità e Core Web Vitals come fattori di ranking. I siti veloci salgono in SERP e vi portano traffico organico gratis.",
+    "tr": "Daha iyi SEO: Google sayfa hızını ve Core Web Vitals’ı resmi sıralama faktörü olarak kullanır. Hızlı siteler doğal olarak yükselir ve ücretsiz organik trafik getirir."
+  },
+  "Higher Conversions: Numerous studies show that a 1-second delay in page load time can reduce conversions by up to 7-10%. Fast pages build trust and make taking action (subscribing, buying, or contacting) frictionless.": {
+    "it": "Più conversioni: molti studi dicono che 1 secondo di ritardo può tagliare le conversioni del 7–10%. Le pagine veloci costruiscono fiducia e rendono l’azione (iscriversi, comprare, scrivere) senza attrito.",
+    "tr": "Daha yüksek dönüşüm: birçok çalışma 1 saniyelik gecikmenin dönüşümü %7–10 düşürebileceğini gösterir. Hızlı sayfa güven kurar; abone olmak, almak veya yazmak sürtünmesiz olur."
+  },
+  "Seamless Mobile Experience: A large portion of your traffic comes from mobile networks (3G/4G/5G). A lightweight, highly-optimized site loads instantly even under poor network conditions.": {
+    "it": "Mobile senza attrito: gran parte del traffico arriva da reti mobili (3G/4G/5G). Un sito leggero e ottimizzato si apre all’istante anche con rete debole.",
+    "tr": "Sorunsuz mobil: trafiğin büyük kısmı mobil ağlardan gelir (3G/4G/5G). Hafif, iyi optimize site zayıf ağda bile anında açılır."
+  },
+  "2. The Hidden Cons of Website Builders and Legacy CMS": {
+    "it": "2. I contro nascosti di builder e CMS legacy",
+    "tr": "2. Site builder ve eski CMS’in gizli eksileri"
+  },
+  "Platforms like WordPress, Wix, and Squarespace are popular because they require little to no coding. However, they come with substantial drawbacks for simple websites and blogs:": {
+    "it": "Piattaforme come WordPress, Wix e Squarespace sono popolari perché quasi non chiedono codice. Per siti e blog semplici, però, i limiti sono sostanziali:",
+    "tr": "WordPress, Wix ve Squarespace az veya hiç kod istemediği için popülerdir. Ama sade site ve blog için ciddi dezavantajları vardır:"
+  },
+  "Code Bloat: To support drag-and-drop page builders and countless configuration options, these platforms load heavy stylesheets, unused JavaScript frameworks, and excessive database queries.": {
+    "it": "Codice gonfio: per supportare builder drag-and-drop e infinite opzioni, caricano stylesheet pesanti, framework JS inutilizzati e troppe query al database.",
+    "tr": "Kod şişmesi: sürükle-bırak builder ve sayısız ayarı desteklemek için ağır stylesheet, kullanılmayan JavaScript framework’leri ve fazla veritabanı sorgusu yüklerler."
+  },
+  "Constant Maintenance & Security Risks: WordPress sites are prime targets for hackers. Keeping core systems, themes, and dozens of plugins updated is a never-ending chore that can break your design if not done carefully.": {
+    "it": "Manutenzione continua e rischi di sicurezza: i siti WordPress sono bersaglio. Tenere aggiornati core, temi e dozzine di plugin è una faccenda infinita che, se fatta male, rompe il design.",
+    "tr": "Sürekli bakım ve güvenlik riski: WordPress siteleri hedef tahtasıdır. Core, tema ve onlarca eklentiyi güncel tutmak bitmeyen bir iştir; dikkatsiz yapılırsa tasarımı kırar."
+  },
+  "Expensive Hosting and Upgrades: Free plans are slow and contain branding. Once you start adding premium extensions, custom domains, and fast hosting, the monthly fees quickly add up.": {
+    "it": "Hosting e upgrade cari: i piani free sono lenti e con branding. Appena aggiungete estensioni premium, dominio vostro e hosting veloce, le fee mensili salgono in fretta.",
+    "tr": "Pahalı hosting ve yükseltme: ücretsiz planlar yavaştır ve marka basar. Premium eklenti, özel alan adı ve hızlı hosting ekleyince aylık ücret hızla birikir."
+  },
+  "3. Our Stack: Modern Technologies for Millisecond Loading Times": {
+    "it": "3. La nostra stack: tecnologie moderne per caricamenti in millisecondi",
+    "tr": "3. Stack’imiz: milisaniyelik yükleme için modern teknolojiler"
+  },
+  "For simple sites and blogs, we bypass heavy legacy databases and bloated platforms. Instead, we focus on modern static generation and serverless hosting:": {
+    "it": "Per siti e blog semplici bypassiamo database legacy pesanti e piattaforme gonfie. Puntiamo su static generation moderna e hosting serverless:",
+    "tr": "Sade site ve blog için ağır eski veritabanlarını ve şişmiş platformları atlarız. Modern static generation ve serverless hosting’e odaklanırız:"
+  },
+  "Next.js & React: We leverage static export features in Next.js to pre-render pages into clean, highly optimized static files. Dynamic components load only when needed.": {
+    "it": "Next.js e React: usiamo l’export statico di Next.js per pre-renderizzare pagine in file statici puliti e ottimizzati. I componenti dinamici si caricano solo quando servono.",
+    "tr": "Next.js ve React: Next.js static export ile sayfaları temiz, iyi optimize statik dosyalara önceden render ederiz. Dinamik bileşenler yalnızca gerektiğinde yüklenir."
+  },
+  "Astro: For content-driven websites and blogs, Astro is an outstanding tool that delivers zero client-side JavaScript by default, making sites load blazingly fast.": {
+    "it": "Astro: per siti e blog guidati dal contenuto, Astro è eccellente — zero JavaScript lato client di default, e il sito vola.",
+    "tr": "Astro: içerik odaklı site ve blog için varsayılan olarak sıfır client-side JavaScript verir; siteler şimşek gibi açılır."
+  },
+  "Tailwind CSS: A utility-first CSS framework that compiles down to a tiny, single CSS file containing only the styles actually used on the page.": {
+    "it": "Tailwind CSS: un framework utility-first che compila in un unico file CSS minuscolo, con solo gli stili usati in pagina.",
+    "tr": "Tailwind CSS: utility-first bir CSS framework’ü; sayfada gerçekten kullanılan stilleri içeren tek, minik bir CSS dosyasına derlenir."
+  },
+  "CDN Distribution: By hosting static files on global Content Delivery Networks (like Vercel, Netlify, or AWS CloudFront), the website loads from a server physically closest to the visitor.": {
+    "it": "Distribuzione CDN: ospitando i file statici su CDN globali (Vercel, Netlify o AWS CloudFront), il sito parte dal server fisicamente più vicino al visitatore.",
+    "tr": "CDN dağıtımı: statik dosyaları küresel CDN’de (Vercel, Netlify veya AWS CloudFront) barındırınca site ziyaretçiye fiziksel olarak en yakın sunucudan açılır."
+  },
+  "4. What You Get with a Custom Fast Website": {
+    "it": "4. Cosa ottenete con un sito custom veloce",
+    "tr": "4. Özel hızlı bir sitede ne alırsınız"
+  },
+  "By trusting us to build your website or blog, you invest in a premium, stress-free digital presence:": {
+    "it": "Affidandoci sito o blog, investite in una presenza digitale premium, senza stress:",
+    "tr": "Site veya blogu bize emanet ederek stressiz, premium bir dijital varlığa yatırım yaparsınız:"
+  },
+  "PageSpeed score of 95-100/100 for both mobile and desktop views.": {
+    "it": "Punteggio PageSpeed 95–100/100 su mobile e desktop.",
+    "tr": "Mobil ve masaüstünde 95–100/100 PageSpeed skoru."
+  },
+  "SEO-ready structure with meta-tags, clean HTML, and schema markup built in.": {
+    "it": "Struttura pronta per la SEO: meta-tag, HTML pulito e schema markup già dentro.",
+    "tr": "SEO’ya hazır yapı: meta-tag, temiz HTML ve gömülü schema markup."
+  },
+  "Responsive design that looks stunning on phones, tablets, and high-res desktop monitors.": {
+    "it": "Design responsive che sta bene su telefono, tablet e monitor desktop ad alta risoluzione.",
+    "tr": "Telefon, tablet ve yüksek çözünürlüklü masaüstünde iyi duran responsive tasarım."
+  },
+  "No monthly platform subscription fees. Static hosting is often completely free for small projects.": {
+    "it": "Niente abbonamento mensile di piattaforma. L’hosting statico per progetti piccoli è spesso gratis.",
+    "tr": "Aylık platform aboneliği yok. Küçük projelerde static hosting çoğu zaman tamamen ücretsizdir."
+  },
+  "Conclusion: Let's Build Your Blazing Fast Website Today!": {
+    "it": "Conclusione: costruiamo oggi il vostro sito velocissimo",
+    "tr": "Sonuç: şimşek gibi sitenizi bugün kuralım"
+  },
+  "If you want a simple website, landing page, portfolio, or a personal blog that loads in milliseconds, ranks great on Google, and converts visitors into clients — look no further. Let's build it properly using modern, clean technology.": {
+    "it": "Se volete un sito semplice, una landing, un portfolio o un blog personale che si apre in millisecondi, posiziona su Google e converte visitatori in clienti — siete nel posto giusto. Costruiamolo per bene, con tecnologia moderna e pulita.",
+    "tr": "Milisaniyede açılan, Google’da iyi sıralanan ve ziyaretçiyi müşteriye çeviren sade bir site, landing, portföy veya kişisel blog istiyorsanız — doğru yerdesiniz. Modern, temiz teknolojiyle düzgün kuralım."
+  },
+  "Reach out using the contact form below for a free consultation and project estimate. Let's launch a website that sets you apart from the competition!": {
+    "it": "Scrivete col form qui sotto per una consulenza gratuita e una stima. Lanciamo un sito che vi distingue dalla concorrenza.",
+    "tr": "Ücretsiz danışma ve proje tahmini için aşağıdaki formu kullanın. Sizi rakipten ayıran bir site yayınlayalım."
+  }
+}

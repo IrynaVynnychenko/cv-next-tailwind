@@ -1,0 +1,222 @@
+{
+  "How a Developer Can Become a Project Manager — and Which Qualities Actually Matter": {
+    "it": "Come un developer diventa project manager — e quali qualità contano davvero",
+    "tr": "Bir developer nasıl project manager olur — ve hangi nitelikler gerçekten önemlidir"
+  },
+  "How communication and project-management skills raise the quality of full-stack delivery — plus a practical path from engineer to PM and the qualities that actually matter.": {
+    "it": "Come comunicazione e project management alzano la qualità della delivery full-stack — più un percorso concreto da engineer a PM e le qualità che contano davvero.",
+    "tr": "İletişim ve project management becerileri full-stack delivery kalitesini nasıl yükseltir — artı engineer’dan PM’e pratik bir yol ve gerçekten önemli nitelikler."
+  },
+  "Many strong developers eventually hit a fork: go deeper into architecture and staff engineering, or move closer to people, delivery, and business outcomes as a project manager (or engineering manager / delivery lead). The second path is not “easier management” — it is a different craft. Your coding background is an advantage only if you use it to reduce ambiguity, not to micromanage tickets.": {
+    "it": "Molti developer forti arrivano a un bivio: scendere più a fondo in architettura e staff engineering, o avvicinarsi a persone, delivery e risultati di business come project manager (o engineering manager / delivery lead). La seconda via non è «management più facile»: è un altro mestiere. Il background in codice è un vantaggio solo se lo usate per togliere ambiguità, non per microgestire i ticket.",
+    "tr": "Güçlü developer’ların çoğu bir kavşağa gelir: mimari ve staff engineering’de derinleşmek, ya da project manager (veya engineering manager / delivery lead) olarak insanlara, delivery’ye ve iş sonuçlarına yaklaşmak. İkinci yol «daha kolay yönetim» değildir — başka bir zanaattır. Kod geçmişiniz yalnızca belirsizliği azaltmak için kullanılırsa avantajdır, ticket’ları mikro yönetmek için değil."
+  },
+  "Even if you stay a full-stack developer, communication and PM skills are not “extra soft skills” — they directly shape the quality of the product you ship: fewer rewrites, clearer scope, predictable releases, and services that match the client’s real goal instead of a vague ticket list.": {
+    "it": "Anche se restate developer full-stack, comunicazione e skill da PM non sono «soft skills in più». Danno forma diretta alla qualità di ciò che consegnate: meno riscritture, scope più chiaro, release prevedibili e un servizio che chiude l’obiettivo reale del cliente, non una lista vaga di ticket.",
+    "tr": "Full-stack developer olarak kalsanız bile iletişim ve PM becerileri «ekstra soft skills» değildir. Teslim ettiğiniz ürünün kalitesini doğrudan şekillendirir: daha az rewrite, daha net scope, öngörülebilir release’ler ve belirsiz bir ticket listesi yerine müşterinin gerçek hedefine uyan hizmet."
+  },
+  "This article is a practical map: how those skills raise full-stack service quality, why teams hire developers into PM roles, which qualities convert technical credibility into trust, and a step-by-step transition you can start without quitting overnight.": {
+    "it": "Questo articolo è una mappa pratica: come quelle skill alzano la qualità del servizio full-stack, perché i team assumono developer in ruoli PM, quali qualità trasformano la credibilità tecnica in fiducia, e un passaggio passo-passo che potete iniziare senza lasciare il posto da un giorno all’altro.",
+    "tr": "Bu yazı pratik bir harita: o beceriler full-stack hizmet kalitesini nasıl yükseltir, ekipler neden developer’ları PM rollerine alır, hangi nitelikler teknik güvenilirliği güvene çevirir ve bir gecede istifa etmeden başlayabileceğiniz adım adım bir geçiş."
+  },
+  "1. Why Developers Make Strong PMs": {
+    "it": "1. Perché dai developer escono PM forti",
+    "tr": "1. Developer’lar neden güçlü PM olur"
+  },
+  "Stakeholders often struggle to translate business goals into realistic scope. A developer-turned-PM already knows estimation traps, dependency chains, technical debt, and what “done” actually means in production. That cuts weeks of back-and-forth and prevents commitments that the team cannot keep.": {
+    "it": "Agli stakeholder spesso costa tradurre obiettivi di business in uno scope realistico. Un developer diventato PM conosce già le trappole di stima, le catene di dipendenze, il debito tecnico e cosa significa davvero «fatto» in produzione. Questo taglia settimane di andirivieni ed evita impegni che il team non può mantenere.",
+    "tr": "Stakeholder’lar iş hedeflerini gerçekçi bir scope’a çevirmekte çoğu zaman zorlanır. PM olmuş bir developer tahmin tuzaklarını, bağımlılık zincirlerini, teknik borcu ve production’da «bitti»nin gerçekte ne demek olduğunu zaten bilir. Bu, haftalarca gidiş-gelişi keser ve ekibin tutamayacağı taahhütleri önler."
+  },
+  "You smell unrealistic deadlines early — and can negotiate scope instead of silently accepting burnout.": {
+    "it": "Sentite i deadline irreali in anticipo — e potete negoziare lo scope invece di accettare in silenzio il burnout.",
+    "tr": "Gerçekçi olmayan deadline’ları erken koklarsınız — ve sessizce burnout’u kabul etmek yerine scope’u müzakere edersiniz."
+  },
+  "You speak both languages: product intent and engineering constraints.": {
+    "it": "Parlate entrambe le lingue: intento di prodotto e vincoli di engineering.",
+    "tr": "İki dili de konuşursunuz: ürün niyeti ve mühendislik kısıtları."
+  },
+  "You facilitate better trade-offs (speed vs quality, MVP vs polish) because you have lived those trade-offs.": {
+    "it": "Facilitate trade-off migliori (velocità vs qualità, MVP vs polish) perché li avete già vissuti.",
+    "tr": "Daha iyi trade-off’ları kolaylaştırırsınız (hız vs kalite, MVP vs cilâ) çünkü bunları yaşamışsınızdır."
+  },
+  "Engineers trust you more when planning is grounded in how systems actually break.": {
+    "it": "Gli engineer si fidano di più quando la pianificazione poggia su come i sistemi si rompono davvero.",
+    "tr": "Planlama sistemlerin gerçekten nasıl kırıldığına dayanıyorsa engineer’lar size daha çok güvenir."
+  },
+  "2. Qualities That Matter Most (More Than Certifications)": {
+    "it": "2. Le qualità che contano di più (più dei certificati)",
+    "tr": "2. En çok önemli olan nitelikler (sertifikalardan fazla)"
+  },
+  "Courses and frameworks help, but teams remember how you behave under pressure. The most valuable qualities for a developer → PM transition are behavioral, not tool-based.": {
+    "it": "Corsi e framework aiutano, ma il team ricorda come vi comportate sotto pressione. Le qualità più preziose nel passaggio developer → PM sono di condotta, non di tool.",
+    "tr": "Kurslar ve framework’ler yardımcı olur, ama ekip baskı altında nasıl davrandığınızı hatırlar. Developer → PM geçişinde en değerli nitelikler davranışsaldır, tool tabanlı değil."
+  },
+  "Clarity under ambiguity — turn vague requests into written assumptions, options, and a decision.": {
+    "it": "Chiarezza nell’ambiguità — trasformate richieste vaghe in assunzioni scritte, opzioni e una decisione.",
+    "tr": "Belirsizlikte netlik — muğlak istekleri yazılı varsayımlara, seçeneklere ve bir karara çevirin."
+  },
+  "Communication without ego — explain risk to non-technical stakeholders without hiding behind jargon or blaming the team.": {
+    "it": "Comunicazione senza ego — spiegate il rischio a stakeholder non tecnici senza nascondervi dietro il gergo o incolpare il team.",
+    "tr": "Egosuz iletişim — jargona saklanmadan veya ekibi suçlamadan riski teknik olmayan stakeholder’lara anlatın."
+  },
+  "Ownership of outcomes — care about release impact, not only sprint velocity charts.": {
+    "it": "Ownership del risultato — importa l’impatto del release, non solo i grafici di velocity dello sprint.",
+    "tr": "Sonuç sahipliği — yalnızca sprint velocity grafiklerine değil, release etkisine önem verin."
+  },
+  "Empathy and facilitation — hear quiet voices in the room; protect focus time; resolve conflict early.": {
+    "it": "Empatia e facilitazione — ascoltate le voci silenziose in sala; proteggete il focus time; risolvete il conflitto presto.",
+    "tr": "Empati ve kolaylaştırma — odadaki sessiz sesleri duyun; focus time’ı koruyun; çatışmayı erken çözün."
+  },
+  "Prioritization discipline — say “not now” with a reason, a date, and an alternative.": {
+    "it": "Disciplina di priorità — dite «non ora» con un motivo, una data e un’alternativa.",
+    "tr": "Öncelik disiplini — bir gerekçe, bir tarih ve bir alternatifle «şimdi değil» deyin."
+  },
+  "Reliability — meeting notes, follow-ups, and status updates people can act on.": {
+    "it": "Affidabilità — note di meeting, follow-up e status su cui si può agire.",
+    "tr": "Güvenilirlik — üzerine harekete geçilebilen toplantı notları, follow-up’lar ve status güncellemeleri."
+  },
+  "Calm decision-making — when production burns, you sequence triage instead of adding panic.": {
+    "it": "Decisioni calme — quando brucia la produzione, ordinate il triage invece di aggiungere panico.",
+    "tr": "Sakin karar — production yanarken panik eklemek yerine triage’ı sıralarsınız."
+  },
+  "3. How Communication and PM Skills Raise Full-Stack Service Quality": {
+    "it": "3. Come comunicazione e skill da PM alzano la qualità del servizio full-stack",
+    "tr": "3. İletişim ve PM becerileri full-stack hizmet kalitesini nasıl yükseltir"
+  },
+  "For a full-stack developer, “quality of service” is more than clean React and a solid API. Clients judge the whole engagement: how fast you understand the problem, how honestly you estimate, how you handle change requests, and whether the shipped product works in their business context. Communication and project-management skills are the layer that turns strong engineering into a reliable service.": {
+    "it": "Per un developer full-stack, la «qualità del servizio» è più di un React pulito e una API solida. Il cliente giudica tutta la collaborazione: quanto in fretta capite il problema, quanto onestamente stimate, come gestite i change request e se il prodotto consegnato funziona nel suo contesto di business. Comunicazione e project management sono lo strato che trasforma un’ingegneria forte in un servizio affidabile.",
+    "tr": "Full-stack developer için «hizmet kalitesi» temiz React ve sağlam bir API’den fazlasıdır. Müşteri tüm işbirliğini yargılar: sorunu ne kadar hızlı anladığınız, ne kadar dürüst tahmin ettiğiniz, change request’leri nasıl yönettiğiniz ve teslim edilen ürünün iş bağlamında çalışıp çalışmadığı. İletişim ve project management, güçlü mühendisliği güvenilir bir hizmete çeviren katmandır."
+  },
+  "Without them, even senior code can look like a weak service: endless clarifications, surprise scope, silent delays, and a launch that “works technically” but misses the outcome. With them, the same full-stack skill set delivers higher perceived and real quality.": {
+    "it": "Senza di esse, anche il codice senior può sembrare un servizio debole: chiarimenti infiniti, scope a sorpresa, ritardi silenziosi e un launch che «funziona in tecnico» ma manca il risultato. Con esse, lo stesso stack full-stack consegna più qualità — percepita e reale.",
+    "tr": "Onlar olmadan senior kod bile zayıf bir hizmet gibi durur: bitmeyen netleştirmeler, sürpriz scope, sessiz gecikmeler ve «teknik olarak çalışan» ama sonucu ıskalayan bir launch. Onlarla aynı full-stack skill set hem algılanan hem gerçek kaliteyi yükseltir."
+  },
+  "Better discovery → fewer rewrites. Asking the right questions early (who uses it, what success looks like, what must not break) prevents building the wrong feature across UI, API, and database.": {
+    "it": "Discovery migliore → meno riscritture. Fare le domande giuste all’inizio (chi lo usa, com’è il successo, cosa non deve rompersi) evita di costruire la feature sbagliata su UI, API e database.",
+    "tr": "Daha iyi discovery → daha az rewrite. Erken doğru soruları sormak (kim kullanıyor, başarı neye benzer, ne kırılmamalı) UI, API ve veritabanında yanlış feature’ı kurmayı önler."
+  },
+  "Clear written agreements → predictable delivery. Scope, out-of-scope, acceptance criteria, and weekly status turn freelance chaos into a managed engagement clients can trust.": {
+    "it": "Accordi scritti chiari → delivery prevedibile. Scope, out-of-scope, acceptance criteria e status settimanale trasformano il caos freelance in una collaborazione gestita di cui il cliente si fida.",
+    "tr": "Net yazılı anlaşmalar → öngörülebilir delivery. Scope, out-of-scope, acceptance criteria ve haftalık status, freelance kaosunu müşterinin güvenebileceği yönetilen bir işbirliğine çevirir."
+  },
+  "Honest estimation and prioritization → less waste. A PM mindset helps cut nice-to-haves, sequence MVP → polish, and protect the deadline without burning quality on the critical path (auth, payments, data integrity).": {
+    "it": "Stima e priorità oneste → meno spreco. Una mentalità da PM aiuta a tagliare i nice-to-have, sequenziare MVP → polish e proteggere il deadline senza bruciare la qualità sul critical path (auth, pagamenti, integrità dei dati).",
+    "tr": "Dürüst tahmin ve önceliklendirme → daha az israf. PM zihniyeti nice-to-have’leri kesmeye, MVP → polish sıralamaya ve critical path’te (auth, ödemeler, veri bütünlüğü) kaliteyi yakmadan deadline’ı korumaya yardım eder."
+  },
+  "Risk communication → fewer production surprises. Naming API, third-party, and migration risks early lets the client choose buffers or simpler architecture instead of discovering blockers mid-build.": {
+    "it": "Comunicazione dei rischi → meno sorprese in produzione. Nominare presto i rischi di API, terze parti e migrazioni lascia al cliente la scelta: buffer o architettura più semplice — invece di scoprire i blocker a metà build.",
+    "tr": "Risk iletişimi → production’da daha az sürpriz. API, üçüncü taraf ve migration risklerini erken adlandırmak, müşterinin build ortasında blocker keşfetmek yerine buffer veya daha sade mimari seçmesini sağlar."
+  },
+  "Stakeholder alignment → end-to-end coherence. Full-stack work spans design, frontend, backend, and ops; good facilitation keeps one shared definition of “done,” so UI, contracts, and deploy do not drift apart.": {
+    "it": "Allineamento degli stakeholder → coerenza end-to-end. Il lavoro full-stack copre design, frontend, backend e ops; una buona facilitazione tiene una definizione condivisa di «fatto», così UI, contratti e deploy non divergono.",
+    "tr": "Stakeholder hizası → uçtan uca tutarlılık. Full-stack iş tasarım, frontend, backend ve ops’u kapsar; iyi kolaylaştırma ortak bir «bitti» tanımı tutar, böylece UI, sözleşmeler ve deploy birbirinden kaymaz."
+  },
+  "Calm incident and change handling → trust after launch. Clear triage, status, and next steps during bugs or scope changes are part of service quality — not separate from the code.": {
+    "it": "Incident e cambi in calma → fiducia dopo il launch. Un triage chiaro, lo status e i next step durante bug o cambi di scope sono parte della qualità del servizio — non qualcosa a parte dal codice.",
+    "tr": "Sakin incident ve değişiklik yönetimi → launch sonrası güven. Bug veya scope değişikliklerinde net triage, status ve next step hizmet kalitesinin parçasıdır — koddan ayrı bir şey değil."
+  },
+  "4. What to Unlearn as an Engineer": {
+    "it": "4. Cosa disimparare da engineer",
+    "tr": "4. Engineer olarak neyi unutmalısınız"
+  },
+  "The hardest part is identity. As a developer, value often felt like “I shipped the hard part.” As a PM, value is often invisible: a blocked teammate unblocked, a scope cut that saved the deadline, a stakeholder who stopped changing requirements mid-sprint.": {
+    "it": "La parte più dura è l’identità. Da developer, il valore spesso era «ho consegnato la parte difficile». Da PM, il valore è spesso invisibile: un collega sbloccato, un taglio di scope che ha salvato il deadline, uno stakeholder che ha smesso di cambiare i requisiti a metà sprint.",
+    "tr": "En zor kısım kimliktir. Developer olarak değer çoğu zaman «zor kısmı teslim ettim» gibi gelirdi. PM olarak değer çoğu zaman görünmezdir: bloğu kalkan bir ekip arkadaşı, deadline’ı kurtaran bir scope kesimi, sprint ortasında gereksinim değiştirmeyi bırakan bir stakeholder."
+  },
+  "Stop solving every technical debate yourself — coach the team to decide, then back the decision.": {
+    "it": "Smettete di risolvere da soli ogni dibattito tecnico — allenate il team a decidere, poi sostenete la decisione.",
+    "tr": "Her teknik tartışmayı kendiniz çözmeyi bırakın — ekibi karar vermeye koçluk edin, sonra kararı destekleyin."
+  },
+  "Stop optimizing for personal coding output — your bottleneck becomes coordination and clarity.": {
+    "it": "Smettete di ottimizzare l’output personale di codice — il collo di bottiglia diventa coordinamento e chiarezza.",
+    "tr": "Kişisel kod output’unu optimize etmeyi bırakın — darboğazınız koordinasyon ve netlik olur."
+  },
+  "Stop equating “busy calendar” with leadership — protect deep work for engineers; keep meetings short and purposeful.": {
+    "it": "Smettete di eguagliare «calendario pieno» a leadership — proteggete il deep work degli engineer; tenete i meeting corti e con uno scopo.",
+    "tr": "«Dolu takvim»i liderlikle eşitlemeyi bırakın — engineer’ların deep work’ünü koruyun; meeting’leri kısa ve amaçlı tutun."
+  },
+  "Stop treating process as the product — Scrum/Kanban are tools; predictable delivery is the goal.": {
+    "it": "Smettete di trattare il processo come il prodotto — Scrum/Kanban sono tool; l’obiettivo è una delivery prevedibile.",
+    "tr": "Süreci ürün gibi görmeyi bırakın — Scrum/Kanban araçtır; hedef öngörülebilir delivery’dir."
+  },
+  "5. Hard Skills Worth Building": {
+    "it": "5. Hard skill che vale la pena costruire",
+    "tr": "5. İnşa etmeye değer hard skill’ler"
+  },
+  "You do not need to become a pure MBA overnight. Focus on skills that multiply your technical background — especially if you sell full-stack delivery as a solo specialist.": {
+    "it": "Non dovete diventare un MBA puro da un giorno all’altro. Concentratevi sulle skill che moltiplicano il vostro background tecnico — soprattutto se vendete delivery full-stack come specialisti in solo.",
+    "tr": "Bir gecede saf bir MBA olmanız gerekmez. Teknik geçmişinizi çarpan becerilere odaklanın — özellikle solo uzman olarak full-stack delivery satıyorsanız."
+  },
+  "Scope writing — problem statement, success metrics, out-of-scope, risks, and acceptance criteria.": {
+    "it": "Scrittura dello scope — problema, metriche di successo, out-of-scope, rischi e acceptance criteria.",
+    "tr": "Scope yazımı — problem tanımı, başarı metrikleri, out-of-scope, riskler ve acceptance criteria."
+  },
+  "Estimation systems — story points, t-shirt sizing, or capacity planning; plus buffers for unknowns.": {
+    "it": "Sistemi di stima — story points, t-shirt sizing o capacity planning; più buffer per l’ignoto.",
+    "tr": "Tahmin sistemleri — story points, t-shirt sizing veya capacity planning; artı bilinmeyenler için buffer."
+  },
+  "Risk and dependency management — RAID logs, critical path, vendor/API blockers.": {
+    "it": "Gestione di rischi e dipendenze — log RAID, critical path, blocker di vendor/API.",
+    "tr": "Risk ve bağımlılık yönetimi — RAID log’ları, critical path, vendor/API blocker’ları."
+  },
+  "Stakeholder management — RACI, decision owners, escalation paths.": {
+    "it": "Gestione degli stakeholder — RACI, owner delle decisioni, vie di escalation.",
+    "tr": "Stakeholder yönetimi — RACI, karar sahipleri, escalation yolları."
+  },
+  "Delivery tooling — Jira/Linear, roadmaps, release notes, basic analytics for launch impact.": {
+    "it": "Tool di delivery — Jira/Linear, roadmap, release notes, analytics di base sull’impatto del launch.",
+    "tr": "Delivery araçları — Jira/Linear, roadmap’ler, release notes, launch etkisi için temel analitik."
+  },
+  "Optional credentials — CAPM/PMP, Scrum Master, or product discovery courses help interviews, but real delivery stories matter more.": {
+    "it": "Credenziali opzionali — CAPM/PMP, Scrum Master o corsi di product discovery aiutano in colloquio, ma pesano di più le storie reali di delivery.",
+    "tr": "İsteğe bağlı kimlikler — CAPM/PMP, Scrum Master veya product discovery kursları mülakatlara yardım eder, ama gerçek delivery hikâyeleri daha ağır basar."
+  },
+  "6. A Practical Transition Path": {
+    "it": "6. Un percorso di transizione pratico",
+    "tr": "6. Pratik bir geçiş yolu"
+  },
+  "You can grow into PM responsibilities gradually — often the safest and most credible route. The same steps also raise the quality of your full-stack freelance or in-house delivery today.": {
+    "it": "Potete crescere nelle responsabilità da PM un po’ alla volta — spesso è la via più sicura e credibile. Gli stessi passi alzano già oggi la qualità della vostra delivery full-stack, in freelance o in casa.",
+    "tr": "PM sorumluluklarına kademeli büyüyebilirsiniz — çoğu zaman en güvenli ve en inandırıcı yoldur. Aynı adımlar bugün freelance veya ev içi full-stack delivery kalitenizi de yükseltir."
+  },
+  "Step 1 — Own a feature end-to-end: clarify requirements, break work, sync with design/QA, demos, and rollout.": {
+    "it": "Passo 1 — Prendete in carico una feature end-to-end: chiarite i requisiti, spezzate il lavoro, sincronizzatevi con design/QA, demo e rollout.",
+    "tr": "Adım 1 — Bir feature’ı uçtan uca sahiplenin: gereksinimleri netleştirin, işi bölün, design/QA ile senkron olun, demo ve rollout."
+  },
+  "Step 2 — Run ceremonies well: planning, refinement, standup, retro — with agendas and outcomes, not theater.": {
+    "it": "Passo 2 — Conducete bene le cerimonie: planning, refinement, standup, retro — con agenda ed esiti, non teatro.",
+    "tr": "Adım 2 — Törenleri iyi yürütün: planning, refinement, standup, retro — ajanda ve sonuçla, tiyatroyla değil."
+  },
+  "Step 3 — Become the status source of truth: weekly written updates for stakeholders (progress, risks, asks).": {
+    "it": "Passo 3 — Diventate la fonte di verità dello status: update scritti settimanali per gli stakeholder (progresso, rischi, richieste).",
+    "tr": "Adım 3 — Status’un tek kaynağı olun: stakeholder’lara haftalık yazılı update (ilerleme, riskler, istekler)."
+  },
+  "Step 4 — Shadow a PM / ask for a hybrid title: Tech Lead + Delivery, Associate PM, Delivery Manager.": {
+    "it": "Passo 4 — Affiancate un PM / chiedete un titolo ibrido: Tech Lead + Delivery, Associate PM, Delivery Manager.",
+    "tr": "Adım 4 — Bir PM’i gölgeleyin / hibrit unvan isteyin: Tech Lead + Delivery, Associate PM, Delivery Manager."
+  },
+  "Step 5 — Document impact: “shipped X by cutting Y; unblocked Z; improved predictability from A to B.”": {
+    "it": "Passo 5 — Documentate l’impatto: «consegnato X tagliando Y; sbloccato Z; prevedibilità da A a B».",
+    "tr": "Adım 5 — Etkiyi belgeleyin: «Y’yi keserek X teslim edildi; Z bloğu kalktı; öngörülebilirlik A’dan B’ye çıktı»."
+  },
+  "Step 6 — Apply with stories, not slogans: interviews reward concrete delivery narratives more than buzzwords.": {
+    "it": "Passo 6 — Presentatevi con storie, non slogan: i colloqui premiano narrazioni concrete di delivery più dei buzzword.",
+    "tr": "Adım 6 — Sloganla değil hikâyeyle başvurun: mülakatlar buzzword’den çok somut delivery anlatılarını ödüllendirir."
+  },
+  "7. When to Stay in Engineering Instead": {
+    "it": "7. Quando è meglio restare in engineering",
+    "tr": "7. Ne zaman mühendislikte kalmalısınız"
+  },
+  "PM is the wrong move if you mainly want higher pay, less coding stress, or escape from a toxic team. Management amplifies stress of a different kind — politics, accountability without full control, and constant context switching. Stay (or go staff/principal) if deep technical craft still energizes you more than coordination does — and still invest in communication, because it compounds your full-stack service quality either way.": {
+    "it": "PM è la mossa sbagliata se volete soprattutto più stipendio, meno stress da codice o una fuga da un team tossico. Il management amplifica un altro stress — politica, responsabilità senza controllo pieno e context switch continuo. Restate (o andate staff/principal) se il mestiere tecnico profondo vi carica ancora più del coordinamento — e investite lo stesso in comunicazione: moltiplica la qualità del servizio full-stack in ogni caso.",
+    "tr": "Asıl istediğiniz daha yüksek maaş, daha az kod stresi veya toksik bir ekipten kaçışsa PM yanlış hamledir. Yönetim başka tür bir stresi büyütür — politika, tam kontrolsüz sorumluluk ve sürekli context switch. Derin teknik zanaat hâlâ koordinasyondan çok enerji veriyorsa kalın (veya staff/principal’a gidin) — ve yine de iletişime yatırım yapın: her durumda full-stack hizmet kalitenizi katlar."
+  },
+  "A developer becomes a stronger project manager — and a stronger full-stack partner — by keeping technical judgment while building clarity, prioritization, empathy, and reliable communication. Those skills are not a career side quest: they reduce rewrites, align end-to-end delivery, and make the service feel as solid as the code.": {
+    "it": "Un developer diventa un project manager più solido — e un partner full-stack più solido — se tiene il giudizio tecnico e costruisce chiarezza, priorità, empatia e una comunicazione affidabile. Quelle skill non sono una side quest di carriera: riducono le riscritture, allineano la delivery end-to-end e fanno sentire il servizio solido quanto il codice.",
+    "tr": "Bir developer, teknik yargıyı koruyup netlik, önceliklendirme, empati ve güvenilir iletişim kurarak daha güçlü bir project manager — ve daha güçlü bir full-stack partner — olur. Bu beceriler kariyer side quest’i değildir: rewrite’ı azaltır, uçtan uca delivery’yi hizalar ve hizmeti kod kadar sağlam hissettirir."
+  },
+  "Start small: own one delivery stream, write better status, and practice saying “not now” with options. If you need both senior engineering judgment and clear delivery ownership on your next product, that hybrid mindset often beats a process-only PM or a silent coder. Happy to discuss scope, risks, and a realistic roadmap for your next release.": {
+    "it": "Partite in piccolo: prendete un flusso di delivery, scrivete meglio lo status e allenate il «non ora» con opzioni. Se sul prossimo prodotto vi servono giudizio da engineer senior e ownership chiara della delivery, quella mentalità ibrida batte spesso un PM solo di processo o un coder silenzioso. Sono lieta di parlare di scope, rischi e una roadmap realistica per il prossimo release.",
+    "tr": "Küçük başlayın: bir delivery akışını sahiplenin, daha iyi status yazın ve seçeneklerle «şimdi değil» demeyi pratik edin. Sonraki üründe hem senior mühendislik yargısı hem net delivery sahipliği gerekiyorsa, o hibrit zihin çoğu zaman yalnızca süreç PM’ini veya sessiz bir coder’ı yener. Sonraki release için scope, riskler ve gerçekçi bir roadmap konuşmaktan memnuniyet duyarım."
+  }
+}

@@ -1975,7 +1975,7 @@ export const translations = {
       text: '© 2026 Iryna Vynnychenko — Sviluppatrice Frontend e Full-Stack',
     },
     blog: {
-      headerTag: 'Sviluppatrice Frontend e Full-Stack · Punti di riferimento per i clienti',
+      headerTag: 'Sviluppatrice Frontend e Full-Stack · Spunti per i clienti',
       title: 'Blog',
       description: 'Articoli pratici su performance, scelte tecnologiche e collaborazione con una sviluppatrice frontend e full-stack freelance — per decidere con sicurezza sul tuo progetto.',
       readMore: 'Leggi l’articolo →',
@@ -2018,7 +2018,7 @@ export const translations = {
       whyItems: [
         '8+ yıl | 4.200+ Upwork saati — güvenilir, top-rated uzmanlık',
         'Takım oyuncusu — backend ve ML mühendisleri için güvenilir bir frontend partneri',
-        'Tek geliştirici (ajans yok) — %100 sorumluluk, hızlı check-in, doğrudan iletişim, NDA’ya hazır',
+        'Tek geliştirici (ajans yok) — %100 sorumluluk, sıkı takip, doğrudan iletişim, NDA’ya hazır',
         'İş odağı — ürün ve operasyon hedeflerine uyan teknoloji geliştiriyorum',
       ],
       bio2: 'Açık sözlü, güvenilir ve görüntülü aramalar ile hızlı iletişim için her zaman ulaşılabilir — haydi birlikte bir şey yapalım.',
@@ -2103,7 +2103,7 @@ export const translations = {
         },
       ],
       aiTitle: 'Üretkenliği hızlandıran yapay zekâ',
-      aiDesc: 'Tekrarlayan işleri otomatikleştirmek, kurulumu ve refaktörü hızlandırmak için yapay zekâ destekli araçlar (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) kullanıyorum — teknik kararlar, mimari ve nihai kod kalitesi bende kalır.',
+      aiDesc: 'Tekrarlayan işleri otomatikleştirmek, kurulumu ve refactoring’i hızlandırmak için yapay zekâ destekli araçlar (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) kullanıyorum — teknik kararlar, mimari ve nihai kod kalitesi bende kalır.',
       aiFooter: 'Mimari veya kaliteden ödün vermeden daha hızlı teslimat.',
     },
     experience: {

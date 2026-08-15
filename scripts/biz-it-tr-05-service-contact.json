@@ -1,0 +1,227 @@
+{
+  "Contact": { "it": "Contatto", "tr": "İletişim" },
+  "Services": { "it": "Servizi", "tr": "Hizmetler" },
+  "Cooperation": { "it": "Cooperazione", "tr": "İşbirliği" },
+  "Ordering": { "it": "Ordine", "tr": "Sipariş" },
+  "Experience": { "it": "Esperienza", "tr": "Deneyim" },
+  "Optimizing Service and Beauty Businesses with Custom Web Solutions": {
+    "it": "Ottimizzare beauty e servizi con soluzioni web su misura",
+    "tr": "Hizmet ve güzellik işini özel web çözümleriyle optimize etmek"
+  },
+  "Learn how service-based businesses like cosmetology clinics and massage centers can automate scheduling, boost customer retention, and grow revenue through Next.js-powered web solutions.": {
+    "it": "Come cliniche di cosmetologia e centri massaggio automatizzano l’agenda, alzano la retention e crescono il fatturato con soluzioni web su Next.js.",
+    "tr": "Kozmetoloji klinikleri ve masaj merkezleri gibi hizmet işleri Next.js web çözümleriyle randevuyu nasıl otomatikleştirir, sadakati nasıl artırır ve ciroyu nasıl büyütür."
+  },
+  "Modern local service businesses—from beauty clinics to training schools—often face a glass ceiling when it comes to growth. While client demand might be high, administrative bottlenecks, manual scheduling, and poor online visibility limit their actual revenue. The transition from offline management to a digital-first approach is no longer just a trend; it is a necessity for scaling.": {
+    "it": "I servizi locali moderni — dalle cliniche beauty alle scuole — spesso battono un tetto di vetro. La domanda c’è, ma colli di bottiglia amministrativi, agenda a mano e visibilità online debole limitano il fatturato reale. Passare dalla gestione offline a un approccio digital-first non è più una moda: è necessario per scalare.",
+    "tr": "Modern yerel hizmet işleri — güzellik kliniklerinden eğitim okullarına — büyümede çoğu zaman cam tavana çarpar. Talep yüksek olsa da idari darboğaz, elle randevu ve zayıf online görünürlük gerçek ciroyu kısıtlar. Offline yönetimden digital-first’e geçiş artık trend değil; ölçeklemek için zorunluluk."
+  },
+  "By implementing tailored web solutions, service-oriented businesses can automate repetitive tasks, reduce booking friction, and build a predictable channel for new and returning clients.": {
+    "it": "Con soluzioni web su misura, un’impresa di servizi automatizza la routine, taglia l’attrito della prenotazione e costruisce un canale prevedibile per clienti nuovi e di ritorno.",
+    "tr": "Özel web çözümleriyle hizmet işi tekrarlayan işi otomatikleştirir, rezervasyon sürtünmesini azaltır ve yeni ile dönen müşteri için öngörülebilir bir kanal kurar."
+  },
+  "1. The Hidden Cost of Manual Operations": {
+    "it": "1. Il costo nascosto delle operazioni a mano",
+    "tr": "1. Elle operasyonun gizli maliyeti"
+  },
+  "For many SPA salons, beauty centers, and training schools, the main interface for booking is a phone number, Instagram DM, or messenger app. While personal, this approach has massive hidden costs. Administrative staff spend hours answering repetitive questions, resolving schedule conflicts, and sending reminders. Additionally, potential clients who look for services late in the evening are often lost because no one is online to confirm their booking.": {
+    "it": "Per molti SPA, centri beauty e scuole, l’interfaccia di prenotazione è un numero, un DM di Instagram o una chat. È personale. Ha costi nascosti enormi. Lo staff passa ore a rispondere alle stesse domande, a risolvere conflitti di agenda e a mandare reminder. Chi cerca un servizio a tarda sera spesso si perde: nessuno è online per confermare.",
+    "tr": "Birçok SPA, güzellik merkezi ve okul için rezervasyon arayüzü bir numara, Instagram DM veya mesaj uygulamasıdır. Kişiseldir. Gizli maliyeti büyüktür. İdari kadro saatlerce aynı soruları yanıtlar, takvim çatışması çözer, hatırlatma yollar. Akşam geç hizmet arayan potansiyel müşteri çoğu zaman kaybolur — rezervasyonu onaylayacak kimse online değildir."
+  },
+  "Lost late-night bookings due to lack of 24/7 online response.": {
+    "it": "Prenotazioni notturne perse perché manca una risposta online 24/7.",
+    "tr": "7/24 online yanıt olmadığı için kaybedilen gece rezervasyonları."
+  },
+  "High administrative overhead and human errors in scheduling.": {
+    "it": "Alto overhead amministrativo ed errori umani in agenda.",
+    "tr": "Yüksek idari yük ve randevuda insan hatası."
+  },
+  "No automated customer follow-ups or retention triggers.": {
+    "it": "Niente follow-up automatici né trigger di retention.",
+    "tr": "Otomatik müşteri follow-up’ı veya retention trigger’ı yok."
+  },
+  "2. High-Impact Web Solutions to Implement": {
+    "it": "2. Soluzioni web ad alto impatto da implementare",
+    "tr": "2. Uygulanacak yüksek etkili web çözümleri"
+  },
+  "Transforming a service business doesn't require rebuilding everything from scratch. Implementing targeted, high-performance web modules yields rapid returns. Here are the core features that drive the most growth:": {
+    "it": "Trasformare un’impresa di servizi non chiede di ricostruire tutto da zero. Moduli web mirati e veloci rendono in fretta. Ecco le feature che spingono di più la crescita:",
+    "tr": "Bir hizmet işini dönüştürmek her şeyi sıfırdan kurmayı gerektirmez. Hedefli, yüksek performanslı web modülleri hızlı getiri verir. Büyümeyi en çok süren çekirdek feature’lar:"
+  },
+  "24/7 Custom Booking Module: A fast, mobile-friendly Next.js widget where clients select a service, view real-time availability of their favorite therapist, and secure the slot with a prepayment (via Apple Pay, Google Pay, or local payment APIs).": {
+    "it": "Modulo di prenotazione custom 24/7: un widget Next.js veloce, mobile-friendly, dove il cliente sceglie il servizio, vede la disponibilità in tempo reale del terapeuta e blocca lo slot con un acconto (Apple Pay, Google Pay o API di pagamento locali).",
+    "tr": "7/24 özel rezervasyon modülü: hızlı, mobile-friendly bir Next.js widget’ı — müşteri hizmet seçer, favori terapistin gerçek zamanlı müsaitliğini görür ve slot’u ön ödemeyle kilitler (Apple Pay, Google Pay veya yerel ödeme API’leri)."
+  },
+  "Client Portal (Personal Account): A passwordless page (using Telegram or phone OTP) where clients view their upcoming visits, check their loyalty points, download treatment recommendations, and re-book their favorite service in one click.": {
+    "it": "Portale cliente (account personale): una pagina senza password (Telegram o OTP sul telefono) dove vedono le visite, i punti loyalty, scaricano le raccomandazioni e ri-prenotano il servizio preferito in un clic.",
+    "tr": "Müşteri portalı (kişisel hesap): şifresiz bir sayfa (Telegram veya telefon OTP) — yaklaşan ziyaretler, sadakat puanı, tedavi önerileri ve favori hizmeti tek tıkla yeniden rezervasyon."
+  },
+  "Automated Communication Loop: Integrating the website with a messaging bot (Telegram/Viber) linked to the CRM. The system automatically sends booking confirmations, reminder notifications 2 hours before the appointment, and triggers feedback collection afterwards.": {
+    "it": "Loop di comunicazione automatico: il sito si collega a un bot (Telegram/Viber) agganciato al CRM. Conferme di prenotazione, reminder 2 ore prima e raccolta feedback dopo — da soli.",
+    "tr": "Otomatik iletişim döngüsü: site, CRM’e bağlı bir mesaj botuyla (Telegram/Viber) entegre. Sistem rezervasyon onayı, randevudan 2 saat önce hatırlatma ve sonrasında geri bildirim toplar."
+  },
+  "3. Tech Stack and Performance Optimization": {
+    "it": "3. Stack tecnica e ottimizzazione delle prestazioni",
+    "tr": "3. Tech stack ve performans optimizasyonu"
+  },
+  "Speed is directly tied to conversions. A page that takes more than 3 seconds to load on a mobile network loses up to 50% of its visitors. Using Next.js enables static page generation (SSG) for informational content (services, prices, blogs) combined with dynamic server rendering (SSR) for real-time booking and portal data.": {
+    "it": "La velocità è legata diretto alle conversioni. Una pagina che su rete mobile impiega più di 3 secondi perde fino al 50% dei visitatori. Next.js consente SSG per i contenuti informativi (servizi, prezzi, blog) e SSR per prenotazione e dati del portale in tempo reale.",
+    "tr": "Hız dönüşüme doğrudan bağlıdır. Mobil ağda 3 saniyeden uzun açılan sayfa ziyaretçisinin %50’sine kadarını kaybeder. Next.js, bilgi içeriği (hizmetler, fiyatlar, blog) için SSG ve gerçek zamanlı rezervasyon ile portal verisi için SSR’ı birleştirir."
+  },
+  "By separating the frontend from the backend (headless architecture), we ensure that the customer-facing site remains lightning-fast, highly secure, and optimized for search engine rankings (SEO), while the administrative team continues to use their preferred CRM in the background.": {
+    "it": "Separando frontend e backend (architettura headless), il sito verso il cliente resta velocissimo, sicuro e ottimizzato per la SEO, mentre il team admin continua a usare il CRM che preferisce.",
+    "tr": "Frontend’i backend’den ayırarak (headless mimari) müşteriye bakan siteyi şimşek hızlı, güvenli ve SEO’ya optimize tutarız; idari ekip arkada tercih ettiği CRM’i kullanmaya devam eder."
+  },
+  "4. Measurable Outcomes and Business Impact": {
+    "it": "4. Esiti misurabili e impatto sul business",
+    "tr": "4. Ölçülebilir sonuçlar ve iş etkisi"
+  },
+  "Digitizing a service-based business delivers tangible, measurable results within the first few weeks of launch:": {
+    "it": "Digitalizzare un’impresa di servizi dà risultati tangibili e misurabili nelle prime settimane dal launch:",
+    "tr": "Hizmet işini dijitalleştirmek, launch’tan sonraki ilk haftalarda somut, ölçülebilir sonuç verir:"
+  },
+  "+30% Bookings: Converting late-night traffic into confirmed appointments without extra staff.": {
+    "it": "+30% prenotazioni: traffico notturno che diventa appuntamenti confermati, senza staff extra.",
+    "tr": "+%30 rezervasyon: gece trafiğini ekstra kadro olmadan onaylı randevuya çevirmek."
+  },
+  "-80% Admin Routine: Freeing up staff to focus on in-person guest hospitality and premium service.": {
+    "it": "−80% routine admin: lo staff si concentra sull’ospitalità in sala e sul servizio premium.",
+    "tr": "−%80 idari rutin: kadro yüz yüze misafirperverliğe ve premium hizmete odaklanır."
+  },
+  "+25% Customer Retention: Automated reminders and loyalty programs keep clients coming back regularly.": {
+    "it": "+25% retention: reminder automatici e programmi loyalty fanno tornare i clienti.",
+    "tr": "+%25 müşteri tutma: otomatik hatırlatmalar ve sadakat programları müşteriyi düzenli geri getirir."
+  },
+  "Conclusion: Elevating Your Business to the Next Level": {
+    "it": "Conclusione: portare il business al livello successivo",
+    "tr": "Sonuç: işinizi bir sonraki seviyeye çıkarmak"
+  },
+  "Custom web solutions bridge the gap between customer expectations and operational efficiency. By making scheduling effortless and interactions personalized, businesses can significantly scale their revenue and optimize their daily operations.": {
+    "it": "Le soluzioni web su misura chiudono il gap tra aspettative del cliente ed efficienza operativa. Agenda senza fatica e interazioni personalizzate: il fatturato scala e le operazioni quotidiane si ottimizzano.",
+    "tr": "Özel web çözümleri müşteri beklentisi ile operasyon verimi arasındaki boşluğu kapatır. Randevuyu zahmetsiz, etkileşimi kişiselleştirilmiş yaparak ciroyu ciddi ölçeklersiniz ve günlük operasyonu optimize edersiniz."
+  },
+  "If you want to optimize your salon, clinic, or training center with a custom booking system, SEO-optimized platform, or automated client loops, let's schedule a call to build a solution tailored to your goals!": {
+    "it": "Se volete ottimizzare salone, clinica o centro formazione con un sistema di prenotazione su misura, una piattaforma pronta per la SEO o loop automatici col cliente — fissiamo una chiamata e costruiamo la soluzione sui vostri obiettivi.",
+    "tr": "Salon, klinik veya eğitim merkezinizi özel rezervasyon sistemi, SEO’ya optimize platform veya otomatik müşteri döngüsüyle optimize etmek istiyorsanız — hedeflerinize özel çözümü kurmak için bir görüşme ayarlayalım."
+  },
+  "How to Contact Me and Ordering Options: Complete Client Cooperation Guide": {
+    "it": "Come contattarmi e opzioni d’ordine: guida completa alla collaborazione",
+    "tr": "Bana nasıl ulaşılır ve sipariş seçenekleri: tam işbirliği rehberi"
+  },
+  "A detailed overview of contact channels, service offerings (turnkey web apps, Figma to Code, optimization & support), project estimation steps, and collaboration formats.": {
+    "it": "Canali di contatto, servizi (app chiavi in mano, Figma to Code, ottimizzazione e supporto), passi di stima e formati di collaborazione.",
+    "tr": "İletişim kanalları, hizmetler (anahtar teslim web app, Figma to Code, optimizasyon ve destek), tahmin adımları ve işbirliği formatları."
+  },
+  "Building a high-quality website or web application starts with clear, simple communication. If you need a Senior Web & Frontend Engineer with 8+ years of production experience (4,200+ Upwork hours, 100+ launched projects) handling full-cycle React / Next.js development, this guide explains how to get in touch, what ordering options exist, and how project evaluation works.": {
+    "it": "Un sito o un’app di qualità parte da una comunicazione chiara e semplice. Se vi serve una Senior Web & Frontend Engineer con 8+ anni in produzione (4.200+ ore su Upwork, 100+ progetti lanciati) su React / Next.js a ciclo pieno, questa guida dice come scrivermi, quali opzioni d’ordine esistono e come si valuta un progetto.",
+    "tr": "Kaliteli bir site veya web uygulaması net, sade iletişimle başlar. 8+ yıl production (4.200+ Upwork saati, 100+ yayınlanmış proje) ile tam döngü React / Next.js yapan bir Senior Web & Frontend Engineer arıyorsanız, bu rehber nasıl ulaşacağınızı, sipariş seçeneklerini ve proje değerlendirmenin nasıl işlediğini anlatır."
+  },
+  "1. Convenient Contact Channels": {
+    "it": "1. Canali di contatto comodi",
+    "tr": "1. Uygun iletişim kanalları"
+  },
+  "You can choose the communication channel that suits you best. I am responsive during business hours and ready to discuss your inquiry quickly:": {
+    "it": "Scegliete il canale che vi sta meglio. Nelle ore lavorative rispondo e sono pronta a discutere la richiesta in fretta:",
+    "tr": "Size uyan kanalı seçebilirsiniz. Mesai saatlerinde yanıtlarım; talebinizi hızlı konuşmaya hazırım:"
+  },
+  "Email: Primary channel for detailed technical specifications, project files, and initial reviews (i.vynnychenko@gmail.com).": {
+    "it": "Email: canale principale per specifiche tecniche, file di progetto e prime revisioni (i.vynnychenko@gmail.com).",
+    "tr": "E-posta: ayrıntılı teknik spesifikasyon, proje dosyası ve ilk inceleme için ana kanal (i.vynnychenko@gmail.com)."
+  },
+  "Upwork Profile: Ideal for secure international contracting with escrow protection, hourly tracking, and verified reviews.": {
+    "it": "Profilo Upwork: ideale per contratti internazionali sicuri, con escrow, tracking orario e recensioni verificate.",
+    "tr": "Upwork profili: escrow korumalı güvenli uluslararası sözleşme, saat takibi ve doğrulanmış yorumlar için ideal."
+  },
+  "Telegram & WhatsApp: Perfect for quick questions, fast async syncs, and real-time project updates.": {
+    "it": "Telegram e WhatsApp: perfetti per domande rapide, sync async veloci e update di progetto in tempo reale.",
+    "tr": "Telegram ve WhatsApp: hızlı soru, kısa async senkron ve gerçek zamanlı proje update’i için."
+  },
+  "LinkedIn: For professional networking, recommendation reviews, and checking career history.": {
+    "it": "LinkedIn: networking professionale, recensioni e storia di carriera.",
+    "tr": "LinkedIn: profesyonel ağ, tavsiye incelemeleri ve kariyer geçmişi."
+  },
+  "Direct Contact Form: Located at the bottom of every page on this website for one-click outreach.": {
+    "it": "Form di contatto diretto: in fondo a ogni pagina di questo sito, un clic e si scrive.",
+    "tr": "Doğrudan iletişim formu: bu sitede her sayfanın altında, tek tıkla yazmak için."
+  },
+  "2. Key Services & Ordering Possibilities": {
+    "it": "2. Servizi chiave e possibilità d’ordine",
+    "tr": "2. Temel hizmetler ve sipariş seçenekleri"
+  },
+  "Depending on your business needs and current product stage, you can order full-cycle development or specialized technical solutions:": {
+    "it": "A seconda dei bisogni e dello stadio del prodotto, potete ordinare sviluppo a ciclo pieno o soluzioni tecniche specializzate:",
+    "tr": "İş ihtiyacına ve ürün evresine göre tam döngü geliştirme veya uzman teknik çözüm sipariş edebilirsiniz:"
+  },
+  "Full-Cycle Web & Application Development (Next.js / React): From architecture design and responsive coding to SSR/SSG setup, SEO optimization, API integrations, and production server deployment (Vercel, AWS, VPS).": {
+    "it": "Sviluppo web e app a ciclo pieno (Next.js / React): da architettura e codice responsive a SSR/SSG, SEO, integrazioni API e deploy in produzione (Vercel, AWS, VPS).",
+    "tr": "Tam döngü web ve uygulama geliştirme (Next.js / React): mimari ve responsive koddan SSR/SSG, SEO, API entegrasyonu ve production deploy’a (Vercel, AWS, VPS)."
+  },
+  "Figma to Code (Pixel-Perfect Conversion): Exact, high-fidelity translation of your Figma mockups into clean TypeScript and Tailwind CSS code with smooth micro-interactions (GSAP / Framer Motion).": {
+    "it": "Figma to Code (conversione pixel-perfect): i mockup Figma diventano TypeScript e Tailwind CSS puliti, con micro-interazioni fluide (GSAP / Framer Motion).",
+    "tr": "Figma to Code (pixel-perfect dönüşüm): Figma mockup’larınız temiz TypeScript ve Tailwind CSS’e, akıcı mikro etkileşimlerle (GSAP / Framer Motion) birebir çevrilir."
+  },
+  "Performance Optimization & Core Web Vitals Audit: Speeding up existing React/Next.js platforms, resolving layout issues, and elevating Google PageSpeed metrics to the green zone.": {
+    "it": "Ottimizzazione prestazioni e audit Core Web Vitals: accelerare piattaforme React/Next.js esistenti, sistemare il layout e portare le metriche PageSpeed in zona verde.",
+    "tr": "Performans optimizasyonu ve Core Web Vitals audit: mevcut React/Next.js platformlarını hızlandırmak, layout sorunlarını çözmek ve Google PageSpeed metriklerini yeşil bölgeye çıkarmak."
+  },
+  "Long-Term Support & Feature Iterations (Maintenance): Iterative feature rollouts, package updates, performance monitoring, and prompt bug fixes.": {
+    "it": "Supporto a lungo termine e iterazioni di feature (manutenzione): rollout iterativi, update di package, monitoraggio prestazioni e fix rapidi.",
+    "tr": "Uzun vadeli destek ve feature iterasyonları (bakım): yinelemeli feature rollout, paket güncellemesi, performans izleme ve hızlı bug fix."
+  },
+  "Technical Code Audit & Consulting: Architecture evaluation of existing codebases before scaling teams or launching major updates.": {
+    "it": "Audit tecnico e consulting: valutazione dell’architettura di codebase esistenti prima di scalare il team o lanciare update maggiori.",
+    "tr": "Teknik kod audit ve danışmanlık: ekibi ölçeklemeden veya büyük update yayınlamadan önce mevcut codebase mimarisini değerlendirmek."
+  },
+  "3. Flexible Cooperation Formats": {
+    "it": "3. Formati di collaborazione flessibili",
+    "tr": "3. Esnek işbirliği formatları"
+  },
+  "To ensure maximum predictability and convenience for clients worldwide, I offer flexible cooperation frameworks tailored to your project goals:": {
+    "it": "Per prevedibilità e comodità verso clienti in tutto il mondo, offro framework di collaborazione flessibili, tagliati sugli obiettivi del progetto:",
+    "tr": "Dünyadaki müşteriler için öngörülebilirlik ve kolaylık adına, proje hedeflerinize göre esnek işbirliği çerçeveleri sunuyorum:"
+  },
+  "Fixed Price (Milestone-based): Best for projects with clear specifications. Budget and timelines are locked upfront before development begins.": {
+    "it": "Fixed Price (a milestone): meglio per progetti con specifiche chiare. Budget e tempi si chiudono prima che parta lo sviluppo.",
+    "tr": "Fixed Price (milestone tabanlı): net spesifikasyonu olan projeler için en iyisi. Bütçe ve takvim geliştirme başlamadan kilitlenir."
+  },
+  "Hourly Rate: Optimal choice for dynamic projects where task scope evolves during development. Work is strictly based on tracked development hours.": {
+    "it": "Hourly Rate: scelta ottimale per progetti dinamici, dove lo scope evolve. Il lavoro è strettamente sulle ore tracciate.",
+    "tr": "Hourly Rate: scope’un geliştirme sırasında evrildiği dinamik projeler için optimal. İş, izlenen geliştirme saatine sıkı bağlıdır."
+  },
+  "Monthly Retainer: Dedicated developer hours reserved each month for continuous maintenance, feature rollouts, and priority support.": {
+    "it": "Retainer mensile: ore di developer riservate ogni mese per manutenzione continua, rollout di feature e supporto prioritario.",
+    "tr": "Aylık retainer: sürekli bakım, feature rollout ve öncelikli destek için her ay ayrılmış developer saati."
+  },
+  "4. Step-by-Step Project Order Roadmap": {
+    "it": "4. Roadmap passo-passo dell’ordine",
+    "tr": "4. Adım adım sipariş roadmap’i"
+  },
+  "Here is how your project goes from initial message to a fully published product:": {
+    "it": "Ecco come il progetto va dal primo messaggio a un prodotto pubblicato:",
+    "tr": "Projeniz ilk mesajdan tam yayınlanmış ürüne şöyle gider:"
+  },
+  "Step 1. Initial Contact: Send your project outline, Figma design links, or existing website URL.": {
+    "it": "Passo 1. Primo contatto: mandate outline, link Figma o URL del sito esistente.",
+    "tr": "Adım 1. İlk temas: proje özeti, Figma linkleri veya mevcut site URL’sini gönderin."
+  },
+  "Step 2. Discovery & Estimation: Short sync or async text Q&A to review details, followed by a formal price and timeline estimate.": {
+    "it": "Passo 2. Discovery e stima: sync breve o Q&A in testo, poi una stima formale di prezzo e tempi.",
+    "tr": "Adım 2. Discovery ve tahmin: kısa sync veya async metin Q&A, ardından resmi fiyat ve takvim tahmini."
+  },
+  "Step 3. Agreement & NDA: Finalize collaboration format (Fixed or Hourly), establish milestones, and sign an NDA if required.": {
+    "it": "Passo 3. Accordo e NDA: si chiude il formato (Fixed o Hourly), si fissano i milestone e, se serve, si firma un NDA.",
+    "tr": "Adım 3. Anlaşma ve NDA: işbirliği formatını (Fixed veya Hourly) netleştirin, milestone koyun, gerekirse NDA imzalayın."
+  },
+  "Step 4. Iterative Development & Staging Demos: Work proceeds with regular preview links on a staging server so you keep full visibility.": {
+    "it": "Passo 4. Sviluppo iterativo e demo in staging: si avanza con link di preview regolari su un server di staging, visibilità piena.",
+    "tr": "Adım 4. Yinelemeli geliştirme ve staging demo: iş, staging sunucusunda düzenli preview linkleriyle ilerler; görünürlük tamdır."
+  },
+  "Step 5. Design QA, Deployment & Guarantee Support: Cross-device testing on real mobile hardware, deployment to production domain, and warranty support.": {
+    "it": "Passo 5. Design QA, deploy e garanzia: test su hardware mobile reale, deploy sul dominio di produzione e supporto in garanzia.",
+    "tr": "Adım 5. Design QA, deploy ve garanti destek: gerçek mobilde çapraz cihaz testi, production domain’e deploy ve garanti desteği."
+  },
+  "Ready to launch your project or want to estimate development scope? Send me a message using the form below or pick your preferred channel — let’s build a high-performance web product together!": {
+    "it": "Pronti a lanciare il progetto o volete stimare lo scope? Scrivetemi col form qui sotto o scegliete il canale — costruiamo insieme un prodotto web ad alte prestazioni.",
+    "tr": "Projeyi yayınlamaya hazır mısınız veya geliştirme scope’unu tahmin etmek mi istiyorsunuz? Aşağıdaki formdan yazın veya kanalınızı seçin — yüksek performanslı bir web ürününü birlikte kuralım."
+  }
+}

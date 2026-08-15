@@ -58,7 +58,7 @@ export const engineeringPosts: RawBlogPost[] = [
             de: 'Wie ich den Stack für ein MVP wähle, habe ich schon geschrieben. Das ist die nächste Schicht: wenn die Geschäftsform Software-as-a-Service ist, was ich wirklich bauen würde, in welcher Reihenfolge, und was ich im ersten Monat nicht von Linear oder Salesforce kopieren würde.',
             fr: "Comment je choisirais la stack d'un MVP, je l'ai déjà écrit. Ici, la couche suivante : quand la forme du business est software-as-a-service, ce que je construirais vraiment, dans quel ordre, et ce que je ne copierais pas de Linear ou Salesforce au premier mois.",
             es: 'Cómo elegiría la stack de un MVP, ya lo he escrito. Esta es la capa siguiente: cuando la forma del negocio es software-as-a-service, qué construiría de verdad, en qué orden, y qué no copiaría de Linear o Salesforce el primer mes.',
-            it: "Come sceglierei la stack di un MVP, l’ho già scritto. Qui la fascia successiva: quando la forma del business è software-as-a-service, cosa costruirei davvero, in che ordine, e cosa non copierei da Linear o Salesforce il primo mese.",
+            it: "Come sceglierei la stack di un MVP, l’ho già scritto. Qui lo strato successivo: quando la forma del business è software-as-a-service, cosa costruirei davvero, in che ordine, e cosa non copierei da Linear o Salesforce il primo mese.",
             tr: 'Bir MVP için stack’i nasıl seçeceğimi zaten yazdım. Bu bir sonraki katman: işin şekli software-as-a-service olduğunda gerçekten ne kurardım, hangi sırayla, ve ilk ay Linear veya Salesforce’tan neyi kopyalamazdım.',
           },
         ],
@@ -2912,7 +2912,7 @@ export const engineeringPosts: RawBlogPost[] = [
         "Cartes interactives"
       ],
       es: ['Google Maps API', 'Desarrollo frontend', 'UX Design', 'JavaScript', 'Rendimiento web', 'Mapas interactivos'],
-      it: ['Google Maps API', 'Frontend development', 'UX Design', 'JavaScript', 'Web performance', 'Mappe interattive'],
+      it: ['Google Maps API', 'Sviluppo frontend', 'UX Design', 'JavaScript', 'Performance web', 'Mappe interattive'],
       tr: ['Google Maps API', 'Frontend geliştirme', 'UX Design', 'JavaScript', 'Web performansı', 'Etkileşimli haritalar'],
     },
     content: [
@@ -3465,7 +3465,7 @@ export const engineeringPosts: RawBlogPost[] = [
         "Crescita",
         "Ottimizzazione conversione",
         "Ricerca AI",
-        "User experience",
+        "Esperienza utente",
         "Sviluppo web"
       ],
       tr: [

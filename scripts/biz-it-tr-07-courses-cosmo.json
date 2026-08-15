@@ -1,0 +1,236 @@
+{
+  "Online Courses": { "it": "Corsi online", "tr": "Online kurslar" },
+  "EdTech": { "it": "EdTech", "tr": "EdTech" },
+  "Sales": { "it": "Vendite", "tr": "Satış" },
+  "Web Platform": { "it": "Piattaforma web", "tr": "Web platformu" },
+  "Cosmetology": { "it": "Cosmetologia", "tr": "Kozmetoloji" },
+  "Development": { "it": "Sviluppo", "tr": "Geliştirme" },
+  "I specialize in building custom, ultra-fast web applications with Next.js, React, and Tailwind CSS. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched products, I design custom booking platforms that automate client intake, prevent no-shows, and increase overall business profitability.": {
+    "it": "Mi specializzo in applicazioni web custom, velocissime, con Next.js, React e Tailwind CSS. 8+ anni in produzione, 4.200+ ore su Upwork, 100+ prodotti lanciati. Progetto piattaforme di prenotazione che automatizzano l’ingresso clienti, prevengono i no-show e alzano la redditività.",
+    "tr": "Next.js, React ve Tailwind CSS ile özel, ultra hızlı web uygulamaları kuruyorum. 8+ yıl production, 4.200+ Upwork saati, 100+ yayınlanmış ürün. Müşteri alımını otomatikleştiren, no-show’u önleyen ve kârlılığı artıran özel rezervasyon platformları tasarlarım."
+  },
+  "Want to automate your booking flow and boost sales? Reach out via the contacts section below for a free project consultation!": {
+    "it": "Volete automatizzare il flusso di prenotazione e alzare le vendite? Scrivete nella sezione contatti qui sotto per una consulenza gratuita.",
+    "tr": "Rezervasyon akışını otomatikleştirip satışı artırmak mı istiyorsunuz? Ücretsiz proje danışması için aşağıdaki iletişim bölümünden yazın."
+  },
+  "How to Increase Online Course Sales in 2026 — From Social Hype to Own Platform": {
+    "it": "Come aumentare le vendite dei corsi online nel 2026 — dall’hype social alla piattaforma vostra",
+    "tr": "2026’da online kurs satışını nasıl artırırsınız — sosyal hype’tan kendi platforma"
+  },
+  "Social media launches alone are no longer enough. Discover how to scale online course sales in 2026 using custom landing pages, automated funnels, and organic search traffic.": {
+    "it": "I launch solo sui social non bastano più. Come scalare le vendite dei corsi nel 2026 con landing custom, funnel automatici e traffico organico.",
+    "tr": "Yalnızca sosyal launch artık yetmez. 2026’da özel landing, otomatik funnel ve organik arama trafiğiyle online kurs satışını nasıl ölçeklersiniz."
+  },
+  "The online education market in 2026 has become more mature and competitive than ever. Consumers are tired of long, manipulative social media launch cycles, low-quality webinar funnels, and uninspired template sites. Today, buyers demand transparency, instant value demonstration, and a smooth, premium learning experience.": {
+    "it": "Il mercato della formazione online nel 2026 è più maturo e competitivo che mai. I consumatori sono stanchi di cicli di launch lunghi e manipolativi, funnel da webinar deboli e siti da template. Oggi chi compra chiede trasparenza, valore subito e un’esperienza di apprendimento premium, fluida.",
+    "tr": "2026’da online eğitim pazarı hiç olmadığı kadar olgun ve rekabetçi. Tüketici uzun, manipülatif sosyal launch döngülerinden, zayıf webinar funnel’larından ve ilhamsız şablon sitelerden yoruldu. Alıcı şeffaflık, anında değer ve akıcı, premium bir öğrenme deneyimi ister."
+  },
+  "To scale online course sales consistently year-round without burning out your audience or overpaying for ads, expert educators and course creators are upgrading from basic social media profiles to custom web platforms and automated sales funnels.": {
+    "it": "Per scalare le vendite tutto l’anno senza bruciare l’audience o pagare troppo in ads, chi insegna sul serio passa da profili social basici a piattaforme web custom e funnel automatici.",
+    "tr": "Kitleyi yakmadan veya reklama fazla ödemeden kurs satışını yıl boyu ölçeklemek için uzman eğitmenler temel sosyal profilden özel web platformuna ve otomatik satış funnel’ına geçiyor."
+  },
+  "Why Traditional Launch Models Fail in 2026": {
+    "it": "Perché i modelli di launch tradizionali falliscono nel 2026",
+    "tr": "Geleneksel launch modelleri 2026’da neden başarısız"
+  },
+  "Relying exclusively on stories, Telegram groups, or third-party constructor platforms creates severe operational limitations:": {
+    "it": "Affidarsi solo a stories, gruppi Telegram o constructor di terzi crea limiti operativi pesanti:",
+    "tr": "Yalnızca story, Telegram grubu veya üçüncü taraf constructor’a dayanmak ağır operasyon kısıtı yaratır:"
+  },
+  "Social media fatigue: Audiences skip predictable 3-week launch series, causing conversion rates from story views into buyers to drop sharply.": {
+    "it": "Fatica da social: l’audience salta le serie di launch da 3 settimane, e la conversione da view a acquirente crolla.",
+    "tr": "Sosyal yorgunluk: kitle öngörülebilir 3 haftalık launch serisini atlar; story görüntülemeden alıcıya dönüşüm sert düşer."
+  },
+  "Heavy commissions on third-party LMS platforms: Standard course platforms charge high monthly fees plus percentage fees on every transaction, eating up profit margins.": {
+    "it": "Commissioni pesanti sulle LMS di terzi: fee mensili alte più una percentuale su ogni transazione, e il margine se ne va.",
+    "tr": "Üçüncü taraf LMS’te ağır komisyon: yüksek aylık ücret artı her işlemde yüzde; kâr marjını yer."
+  },
+  "Slow page load times on constructors: Generic page builders load dozens of heavy third-party scripts. Every extra second of delay on mobile loses up to 20% of impulse buyers.": {
+    "it": "Caricamenti lenti sui constructor: i builder generici caricano dozzine di script pesanti. Ogni secondo in più su mobile perde fino al 20% degli acquisti d’impulso.",
+    "tr": "Constructor’da yavaş yükleme: jenerik builder onlarca ağır üçüncü taraf script yükler. Mobilde her ekstra saniye dürtü alıcıların %20’sine kadarını kaybettirir."
+  },
+  "Zero Google Organic Search Traffic: Social media posts and closed course portals do not rank on Google for valuable intent searches like \"best web development course 2026\".": {
+    "it": "Zero traffico organico da Google: post social e portali chiusi non si posizionano su ricerche di intento come «best web development course 2026».",
+    "tr": "Sıfır Google organik trafik: sosyal gönderiler ve kapalı kurs portalları «best web development course 2026» gibi niyet aramalarında sıralanmaz."
+  },
+  "Proven Strategies to Scale Course Sales in 2026": {
+    "it": "Strategie provate per scalare le vendite dei corsi nel 2026",
+    "tr": "2026’da kurs satışını ölçeklemek için kanıtlı stratejiler"
+  },
+  "Here are the key technical and strategic pillars top EdTech creators use to maximize conversion rates:": {
+    "it": "I pilastri tecnici e strategici che i creator EdTech usano per massimizzare la conversione:",
+    "tr": "En iyi EdTech creator’ların dönüşümü maksimize etmek için kullandığı teknik ve stratejik direkler:"
+  },
+  "Custom High-Converting Landing Page: A tailored landing page built with modern web tech (Next.js / React) with video teasers, interactive curriculum accordions, and student case studies.": {
+    "it": "Landing custom ad alta conversione: una landing su misura con tech moderna (Next.js / React), teaser video, accordion del curriculum e case study di studenti.",
+    "tr": "Özel yüksek dönüşümlü landing: modern web tech (Next.js / React) ile video teaser, etkileşimli müfredat accordion’u ve öğrenci case study’si."
+  },
+  "Automated Evergreen Sales Funnels: Offer immediate trial micro-lessons or instant diagnostic tests that lead to seamless 1-click checkout 24/7.": {
+    "it": "Funnel evergreen automatici: micro-lezioni di prova o test diagnostici immediati che portano a un checkout in 1 clic, 24/7.",
+    "tr": "Otomatik evergreen satış funnel’ı: anında deneme mikro-dersi veya tanı testi; 7/24 sorunsuz 1 tık checkout’a götürür."
+  },
+  "1-Click Multi-Currency Payment Gateway: Integrated payments via Apple Pay, Google Pay, Stripe, LiqPay, or MonoPay without sending manual card details in DMs.": {
+    "it": "Gateway multi-valuta in 1 clic: pagamenti integrati via Apple Pay, Google Pay, Stripe, LiqPay o MonoPay, senza mandare i dati della carta nei DM.",
+    "tr": "1 tık çok para birimli ödeme: Apple Pay, Google Pay, Stripe, LiqPay veya MonoPay — DM’de kart detayı yollamadan."
+  },
+  "Search Engine Optimization (SEO): Ranking your course pages on Google search for targeted keywords brings steady, high-intent students year-round with zero ad spend.": {
+    "it": "SEO: posizionare le pagine del corso su Google per keyword mirate porta studenti ad alto intento tutto l’anno, a zero spesa ads.",
+    "tr": "SEO: kurs sayfalarını hedefli kelimelerde Google’da sıralamak, sıfır reklam harcamasıyla yıl boyu yüksek niyetli öğrenci getirir."
+  },
+  "Interactive Quiz & Pricing Calculator: Help students choose the optimal tariff (Standard, Pro, VIP) based on their goals right on the site.": {
+    "it": "Quiz interattivo e calcolatore di prezzo: gli studenti scelgono la tariffa ottimale (Standard, Pro, VIP) in base agli obiettivi, sul sito.",
+    "tr": "Etkileşimli quiz ve fiyat hesaplayıcı: öğrenciler hedeflerine göre en uygun tarife (Standard, Pro, VIP) sitede seçer."
+  },
+  "Why a Custom Web Platform Beats Template Course Builders": {
+    "it": "Perché una piattaforma web custom batte i builder di corsi da template",
+    "tr": "Özel web platformu şablon kurs builder’larını neden yener"
+  },
+  "A custom web application designed specifically for your course brand provides strategic long-term benefits:": {
+    "it": "Un’applicazione web pensata per il brand del vostro corso dà benefici strategici di lungo periodo:",
+    "tr": "Kurs markanıza özel tasarlanmış bir web uygulaması uzun vadeli stratejik fayda sağlar:"
+  },
+  "100% Brand Ownership & Independence: No monthly subscription fees to third-party tools, no risk of platform shutdown or sudden policy changes.": {
+    "it": "Ownership del brand al 100%: niente abbonamenti mensili a tool di terzi, niente rischio di spegnimento piattaforma o cambi di policy improvvisi.",
+    "tr": "%100 marka sahipliği ve bağımsızlık: üçüncü taraf araçlara aylık abonelik yok, platform kapanması veya ani politika değişikliği riski yok."
+  },
+  "Perfect Core Web Vitals (90+ Google Score): Lightning-fast load speed ensures users never drop off while waiting for your page to render.": {
+    "it": "Core Web Vitals perfetti (score Google 90+): velocità fulminea, così nessuno se ne va mentre la pagina renderizza.",
+    "tr": "Mükemmel Core Web Vitals (90+ Google skoru): şimşek hızı, kullanıcı sayfa render olurken düşmez."
+  },
+  "Custom Student Dashboards & CRM Integration: Automatically sync student registrations with Telegram bots, CRM systems, and email flows.": {
+    "it": "Dashboard studenti custom e integrazione CRM: le iscrizioni si sincronizzano da sole con bot Telegram, CRM e flussi email.",
+    "tr": "Özel öğrenci dashboard’u ve CRM entegrasyonu: kayıtlar Telegram bot, CRM ve e-posta akışlarıyla otomatik senkron olur."
+  },
+  "High Security & Intellectual Property Protection: Custom domain architecture safeguards your valuable course content and materials.": {
+    "it": "Sicurezza alta e protezione IP: un’architettura su dominio vostro tutela contenuti e materiali del corso.",
+    "tr": "Yüksek güvenlik ve fikri mülkiyet koruması: özel domain mimarisi değerli kurs içeriğini ve materyali korur."
+  },
+  "How I Can Help You Build a High-Converting Course Platform": {
+    "it": "Come posso aiutarvi a costruire una piattaforma corsi ad alta conversione",
+    "tr": "Yüksek dönüşümlü bir kurs platformunu kurmanıza nasıl yardım ederim"
+  },
+  "Scaling online course sales requires a combination of high-converting landing page design, mobile speed optimization, automated funnels, and payment gateway integration.": {
+    "it": "Scalare le vendite dei corsi chiede landing ad alta conversione, velocità mobile, funnel automatici e integrazione dei gateway di pagamento.",
+    "tr": "Online kurs satışını ölçeklemek yüksek dönüşümlü landing tasarımı, mobil hız, otomatik funnel ve ödeme gateway entegrasyonu ister."
+  },
+  "I specialize in developing custom, ultra-fast websites and web platforms for course creators, educators, and EdTech businesses using Next.js, React, and Tailwind CSS. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched products, I ensure your course platform loads in milliseconds and maximizes your revenue.": {
+    "it": "Sviluppo siti e piattaforme custom, velocissime, per creator di corsi, educator e EdTech, con Next.js, React e Tailwind CSS. 8+ anni in produzione, 4.200+ ore su Upwork, 100+ prodotti lanciati. La piattaforma si apre in millisecondi e massimizza il fatturato.",
+    "tr": "Kurs creator’ları, eğitmenler ve EdTech için Next.js, React ve Tailwind CSS ile özel, ultra hızlı siteler ve platformlar geliştiriyorum. 8+ yıl production, 4.200+ Upwork saati, 100+ ürün. Kurs platformunuz milisaniyede açılır ve cironuzu maksimize eder."
+  },
+  "Planning to launch a new course or automate sales for your existing product? Reach out via the contacts section below for a free consultation!": {
+    "it": "State per lanciare un corso nuovo o automatizzare le vendite di un prodotto esistente? Scrivete nella sezione contatti per una consulenza gratuita.",
+    "tr": "Yeni bir kurs mu yayınlayacaksınız veya mevcut üründe satışı otomatikleştirmek mi istiyorsunuz? Ücretsiz danışma için aşağıdaki iletişimden yazın."
+  },
+  "Why a Cosmetologist Needs a Personal Website in 2026 — Beyond Instagram & DMs": {
+    "it": "Perché una cosmetologa nel 2026 ha bisogno di un sito personale — oltre Instagram e i DM",
+    "tr": "2026’da bir kozmetoloğun kişisel siteye neden ihtiyacı var — Instagram ve DM’nin ötesi"
+  },
+  "Social media algorithms cut reach and direct messages cause scheduling chaos. Discover why a website helps a cosmetologist automate bookings, build medical trust, and attract high-ticket clients.": {
+    "it": "Gli algoritmi tagliano la portata e i DM fanno caos in agenda. Perché un sito aiuta una cosmetologa ad automatizzare le prenotazioni, costruire fiducia medica e attrarre clienti high-ticket.",
+    "tr": "Sosyal algoritmalar erişimi keser, DM randevu kaosudur. Site bir kozmetoloğun rezervasyonu otomatikleştirmesine, tıbbi güven kurmasına ve high-ticket müşteri çekmesine neden yardım eder."
+  },
+  "Most cosmetologists, aesthetic medicine specialists, and beauty clinics begin their online presence on Instagram or TikTok. It feels quick and convenient to publish stories, show before-and-after results, and record short videos. However, as your client base expands and your schedule fills up, relying exclusively on social media creates significant bottlenecks.": {
+    "it": "La maggior parte delle cosmetologhe, specialiste di medicina estetica e cliniche beauty parte da Instagram o TikTok. È rapido: stories, prima-e-dopo, video corti. Quando la base clienti cresce e l’agenda si riempie, affidarsi solo ai social crea colli di bottiglia seri.",
+    "tr": "Çoğu kozmetolog, estetik tıp uzmanı ve güzellik kliniği online varlığa Instagram veya TikTok’ta başlar. Story atmak, önce-sonra göstermek, kısa video çekmek hızlı ve rahat gelir. Ama müşteri tabanı büyüyüp takvim dolunca yalnızca sosyal medyaya dayanmak ciddi darboğaz yaratır."
+  },
+  "In 2026, a personal website is no longer just a luxury. It is a powerful automated sales engine and trust hub that converts social media followers and Google searchers into loyal, high-ticket clients.": {
+    "it": "Nel 2026 un sito personale non è più un lusso. È un motore di vendita automatico e un hub di fiducia che converte follower e chi cerca su Google in clienti fedeli, high-ticket.",
+    "tr": "2026’da kişisel site artık lüks değildir. Sosyal takipçiyi ve Google’da arayanı sadık, high-ticket müşteriye çeviren güçlü otomatik satış motoru ve güven merkezidir."
+  },
+  "Why Instagram and DMs Are Not Enough in 2026": {
+    "it": "Perché Instagram e i DM non bastano nel 2026",
+    "tr": "2026’da Instagram ve DM neden yetmez"
+  },
+  "If your entire booking flow happens through Instagram Direct Messages, Telegram, or Viber, you inevitably encounter these systemic issues:": {
+    "it": "Se tutto il flusso di prenotazione passa da Instagram Direct, Telegram o Viber, incontrate questi problemi di sistema:",
+    "tr": "Tüm rezervasyon akışı Instagram Direct, Telegram veya Viber’dan geçiyorsa şu sistemik sorunlarla karşılaşırsınız:"
+  },
+  "Constant routine messaging: Answering identical questions daily about procedure costs, contraindications, and available time slots steals hours of valuable working time.": {
+    "it": "Messaggi di routine costanti: rispondere ogni giorno a costi, controindicazioni e slot liberi ruba ore di lavoro preziose.",
+    "tr": "Sürekli rutin mesaj: prosedür ücreti, kontrendikasyon ve müsait slot hakkında her gün aynı soruları yanıtlamak değerli çalışma saatini çalar."
+  },
+  "Lost and forgotten leads: Messages get buried in DMs, leading to delayed responses, frustrated patients, and missed revenue.": {
+    "it": "Lead persi e dimenticati: i messaggi si seppelliscono nei DM, le risposte ritardano, i pazienti si innervosiscono, il fatturato manca.",
+    "tr": "Kayıp ve unutulan lead: mesajlar DM’de gömülür; yanıt gecikir, hasta sinirlenir, ciro kaçar."
+  },
+  "Social media algorithm changes: Instagram cuts organic post reach unpredictably, forcing creators to constantly buy ads or post nonstop content.": {
+    "it": "Cambi di algoritmo: Instagram taglia la portata organica in modo imprevedibile, e vi spinge a comprare ads o postare senza sosta.",
+    "tr": "Sosyal algoritma değişimi: Instagram organik erişimi öngörülemez keser; sürekli reklam almak veya durmadan içerik atmak zorunda kalırsınız."
+  },
+  "Lack of medical structured trust: Instagram highlights brief stories and posts, but fails to properly display medical diplomas, hygiene certificates, equipment details, and preparation guidelines.": {
+    "it": "Manca fiducia medica strutturata: Instagram mette in evidenza stories e post brevi, ma non mostra bene diplomi, certificati di igiene, attrezzature e linee guida di preparazione.",
+    "tr": "Yapılandırılmış tıbbi güven eksik: Instagram kısa story ve gönderiyi öne çıkarır; diploma, hijyen belgesi, ekipman ve hazırlık rehberini düzgün göstermez."
+  },
+  "Key Advantages of Having a Personal Website for a Cosmetologist": {
+    "it": "I vantaggi chiave di un sito personale per una cosmetologa",
+    "tr": "Bir kozmetolog için kişisel sitenin temel avantajları"
+  },
+  "A dedicated website solves the core operational challenges of a cosmetology practice and elevates your brand status:": {
+    "it": "Un sito dedicato risolve le sfide operative di uno studio di cosmetologia e alza lo status del brand:",
+    "tr": "Ayrı bir site, kozmetoloji pratiğinin çekirdek operasyon sorunlarını çözer ve marka statüsünü yükseltir:"
+  },
+  "24/7 Automated Online Booking: Clients can choose a procedure, view available dates, and book an appointment at midnight without waiting for you to answer a message.": {
+    "it": "Prenotazione online automatica 24/7: il cliente sceglie la procedura, vede le date e prenota a mezzanotte, senza aspettare una risposta.",
+    "tr": "7/24 otomatik online rezervasyon: müşteri prosedürü seçer, müsait tarihleri görür ve mesaj yanıtlamanızı beklemeden gece yarısı randevu alır."
+  },
+  "Full Google Search & Local SEO Visibility: When potential patients search for \"botox Kyiv\", \"laser facial treatment\", or \"lip augmentation cosmetologist\", your website appears directly in Google search results.": {
+    "it": "Visibilità piena su Google e SEO locale: quando un paziente cerca «botox Kyiv», «laser facial treatment» o «lip augmentation cosmetologist», il sito compare diretto nei risultati.",
+    "tr": "Tam Google arama ve yerel SEO görünürlüğü: potansiyel hasta «botox Kyiv», «laser facial treatment» veya «lip augmentation cosmetologist» arayınca siteniz doğrudan sonuçlarda çıkar."
+  },
+  "Clear Catalog of Procedures & Pricing: Transparent pricing, detailed procedure descriptions, indications, contraindications, and rehabilitation steps build instant patient confidence.": {
+    "it": "Catalogo chiaro di procedure e prezzi: prezzi trasparenti, descrizioni, indicazioni, controindicazioni e passi di riabilitazione costruiscono fiducia all’istante.",
+    "tr": "Net prosedür ve fiyat kataloğu: şeffaf fiyat, ayrıntılı açıklama, endikasyon, kontrendikasyon ve rehabilitasyon adımları anında hasta güveni kurar."
+  },
+  "High-Quality Portfolio & Certificate Gallery: Present clean, high-resolution before-and-after galleries, hygiene protocols, medical equipment specs, and verified patient reviews.": {
+    "it": "Portfolio e galleria certificati di qualità: gallerie prima-e-dopo ad alta risoluzione, protocolli di igiene, specifiche delle attrezzature e recensioni verificate.",
+    "tr": "Yüksek kaliteli portföy ve sertifika galerisi: temiz, yüksek çözünürlüklü önce-sonra, hijyen protokolleri, tıbbi ekipman specleri ve doğrulanmış hasta yorumları."
+  },
+  "Pre-appointment Deposit Integration: Reduce no-shows by collecting online deposits or prepayments securely via web payment gateways.": {
+    "it": "Integrazione acconto pre-appuntamento: meno no-show raccogliendo depositi o prepagamenti sicuri via gateway web.",
+    "tr": "Randevu öncesi depozito entegrasyonu: web ödeme gateway’leriyle güvenli online depozito veya ön ödeme toplayarak no-show’u azaltın."
+  },
+  "What a High-Converting Cosmetology Website Should Include": {
+    "it": "Cosa deve includere un sito di cosmetologia ad alta conversione",
+    "tr": "Yüksek dönüşümlü bir kozmetoloji sitesi neleri içermeli"
+  },
+  "To turn visitors into booked patients, your website structure should be clean, fast, and mobile-friendly:": {
+    "it": "Per trasformare i visitatori in pazienti prenotati, la struttura deve essere pulita, veloce e mobile-friendly:",
+    "tr": "Ziyaretçiyi randevulu hastaya çevirmek için yapı temiz, hızlı ve mobile-friendly olmalı:"
+  },
+  "Mobile-First Design: Over 85% of cosmetology clients browse services from smartphones. Instant loading and touch-friendly buttons are mandatory.": {
+    "it": "Design mobile-first: oltre l’85% dei clienti di cosmetologia naviga da smartphone. Caricamento istantaneo e pulsanti touch-friendly sono obbligatori.",
+    "tr": "Mobile-first tasarım: kozmetoloji müşterilerinin %85’inden fazlası hizmete telefondan bakar. Anında yükleme ve dokunmatik düğmeler zorunlu."
+  },
+  "About the Specialist Section: Education, certificates, continuous training, philosophy, and hygiene standards.": {
+    "it": "Sezione sulla specialista: formazione, certificati, aggiornamento continuo, filosofia e standard di igiene.",
+    "tr": "Uzman hakkında bölüm: eğitim, sertifika, sürekli eğitim, felsefe ve hijyen standartları."
+  },
+  "Interactive Services Hub: Categorized procedure pages (injectable cosmetology, facial care, hardware cosmetology, body treatments).": {
+    "it": "Hub servizi interattivo: pagine di procedure per categoria (iniettabili, cura viso, hardware, corpo).",
+    "tr": "Etkileşimli hizmet hub’ı: kategorili prosedür sayfaları (enjekte kozmetoloji, yüz bakımı, cihaz, vücut)."
+  },
+  "Preparation & Post-Care Guides: Clear instructions for patients before and after treatment to avoid complications and ensure best outcomes.": {
+    "it": "Guide di preparazione e post-care: istruzioni chiare prima e dopo il trattamento, per evitare complicazioni e ottenere il risultato migliore.",
+    "tr": "Hazırlık ve sonrası rehberleri: komplikasyonu önlemek ve en iyi sonucu almak için tedavi öncesi ve sonrası net talimatlar."
+  },
+  "Location & Direct Contact Buttons: Interactive map, cabinet address, parking details, and 1-click links to Telegram, WhatsApp, and Viber.": {
+    "it": "Posizione e pulsanti di contatto diretto: mappa interattiva, indirizzo, parcheggio e link in 1 clic a Telegram, WhatsApp e Viber.",
+    "tr": "Konum ve doğrudan iletişim düğmeleri: etkileşimli harita, kabin adresi, otopark ve Telegram, WhatsApp, Viber’a 1 tık link."
+  },
+  "How I Can Help You Build a Modern Website for Your Practice": {
+    "it": "Come posso aiutarvi a costruire un sito moderno per lo studio",
+    "tr": "Pratiğiniz için modern bir site kurmanıza nasıl yardım ederim"
+  },
+  "Building a modern cosmetology website requires speed, elegant aesthetics, smooth animation, and technical SEO optimization.": {
+    "it": "Un sito moderno di cosmetologia chiede velocità, estetica elegante, animazioni fluide e SEO tecnica.",
+    "tr": "Modern bir kozmetoloji sitesi hız, zarif estetik, akıcı animasyon ve teknik SEO ister."
+  },
+  "I specialize in creating custom, ultra-fast web applications with Next.js, React, and Tailwind CSS. With 8+ years of production experience and 100+ launched projects, I will design a website that presents your services with medical authority, integrates automated online booking, and ranks high in Google Search.": {
+    "it": "Creo applicazioni web custom, velocissime, con Next.js, React e Tailwind CSS. 8+ anni in produzione, 100+ progetti lanciati. Un sito che presenta i servizi con autorità medica, integra la prenotazione automatica e si posiziona su Google.",
+    "tr": "Next.js, React ve Tailwind CSS ile özel, ultra hızlı web uygulamaları kuruyorum. 8+ yıl production, 100+ proje. Hizmetlerinizi tıbbi otoriteyle sunan, otomatik rezervasyonu bağlayan ve Google’da yükselen bir site tasarlarım."
+  },
+  "Ready to elevate your beauty business and automate your booking flow? Contact me today for a free consultation and project estimate!": {
+    "it": "Pronti a far salire il business beauty e automatizzare le prenotazioni? Scrivetemi oggi per una consulenza gratuita e una stima.",
+    "tr": "Güzellik işinizi yükseltmeye ve rezervasyonu otomatikleştirmeye hazır mısınız? Ücretsiz danışma ve proje tahmini için bugün yazın."
+  }
+}

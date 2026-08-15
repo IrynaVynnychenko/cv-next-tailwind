@@ -4,6 +4,8 @@ import { aiLlmPosts } from './posts-ai-llm'
 import { businessPosts } from './posts-business'
 import { engineeringPosts } from './posts-engineering'
 import { itRoleBlogPosts } from './posts-it-roles'
+import { socialPosts } from './posts-social'
+import { telegramExamplePosts } from './posts-telegram-examples'
 import { telegramPosts } from './posts-telegram'
 
 export type {
@@ -18,6 +20,8 @@ export type {
 const ALL_POSTS: RawBlogPost[] = [
   ...aiLlmPosts,
   ...telegramPosts,
+  ...telegramExamplePosts,
+  ...socialPosts,
   ...engineeringPosts,
   ...businessPosts,
   ...itRoleBlogPosts,
@@ -27,6 +31,12 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'social-media-by-country-2026',
+  'telegram-bots-with-payments-business-examples',
+  'telegram-bot-online-course-payments-example',
+  'telegram-bot-booking-prepayment-example',
+  'telegram-bot-online-shop-payments-example',
+  'telegram-bot-subscription-payments-example',
   'website-for-smb-business-benefits',
   'how-i-would-build-a-saas',
   'how-i-build-mvp-and-choose-tech-stack',
