@@ -31,6 +31,7 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'why-even-smallest-business-needs-website-2026',
   'social-media-by-country-2026',
   'telegram-bots-with-payments-business-examples',
   'telegram-bot-online-course-payments-example',
