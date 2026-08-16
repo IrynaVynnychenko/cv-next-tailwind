@@ -18,7 +18,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
   title: "Ірина Винниченко | Frontend & Full-Stack розробниця | Next.js, React, Node.js, AI",
-  description: "Frontend & Full-Stack розробниця зі спеціалізацією на кастомних CRM та складних вебдодатках. Next.js, React, Node.js, AI, APIs. 4 200+ годин на Upwork, 8+ років, 100+ запущених проєктів.",
+  description: "Frontend & Full-Stack розробниця: кастомні CRM і складні вебзастосунки. Next.js, React, Node.js, ШІ, API. 4 200+ годин на Upwork, 8+ років, 100+ запущених проєктів.",
   keywords: "Frontend розробниця, Full-Stack розробниця, Frontend розробник, React, Next.js, Node.js, TypeScript, Custom CRM, AI, OpenAI, Prisma, PostgreSQL, Tailwind CSS, Shadcn/ui, GSAP, Україна, Upwork",
   authors: [{ name: "Ірина Винниченко" }],
   verification: {
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Ірина Винниченко | Frontend & Full-Stack розробниця | Next.js, React, Node.js, AI",
-    description: "4 200+ годин на Upwork · 8+ років · 100+ запущених проєктів. Кастомні CRM, складні вебдодатки, Next.js / React / Node.js / AI.",
+    description: "4 200+ годин на Upwork · 8+ років · 100+ запущених проєктів. Кастомні CRM, складні вебзастосунки, Next.js / React / Node.js / ШІ.",
     url: 'https://vynnychenko.dev/ua/',
     siteName: 'Ірина Винниченко — Frontend & Full-Stack розробниця',
     type: "website",

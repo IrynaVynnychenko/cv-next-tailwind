@@ -10,7 +10,7 @@ import { getBlogIndexAlternates } from '@/lib/seo'
 export const metadata: Metadata = {
   title: 'Blog — Iryna Vynnychenko | Senior Web- & Frontend-Entwicklerin',
   description:
-    'Praktische Artikel zu Webentwicklung, Performance-Optimierung und Recruiting — für Founder und Product Owner.',
+    'Praxisnahe Artikel zu Webentwicklung, Performance und der Suche nach Entwicklerinnen und Entwicklern — für Founder und Product Owner.',
   alternates: getBlogIndexAlternates('de'),
 }
 

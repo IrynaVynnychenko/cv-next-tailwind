@@ -30,8 +30,8 @@ const copy = {
   },
   personDescription: {
     en: 'Frontend & Full-Stack Developer specializing in custom CRMs and complex web apps with Next.js, React, Node.js, and AI. 4,200+ Upwork hours, 8+ years, 100+ launched projects.',
-    ua: 'Frontend & Full-Stack розробниця зі спеціалізацією на кастомних CRM та складних вебдодатках на Next.js, React, Node.js і AI. 4 200+ годин на Upwork, 8+ років, 100+ запущених проєктів.',
-    de: 'Frontend- & Full-Stack-Entwicklerin mit Fokus auf Custom-CRMs und komplexe Web-Apps mit Next.js, React, Node.js und AI. 4.200+ Upwork-Stunden, 8+ Jahre, 100+ gelaunchte Projekte.',
+    ua: 'Frontend & Full-Stack розробниця: кастомні CRM і складні вебзастосунки на Next.js, React, Node.js і ШІ. 4 200+ годин на Upwork, 8+ років, 100+ запущених проєктів.',
+    de: 'Frontend- & Full-Stack-Entwicklerin für Custom-CRMs und komplexe Web-Apps mit Next.js, React, Node.js und KI. 4.200+ Upwork-Stunden, 8+ Jahre, 100+ veröffentlichte Projekte.',
     fr: 'Développeuse Frontend & Full-Stack spécialisée dans les CRM sur mesure et les applications web complexes avec Next.js, React, Node.js et l’IA. 4 200+ heures sur Upwork, 8+ ans, 100+ projets lancés.',
     es: 'Desarrolladora Frontend y Full-Stack especializada en CRM a medida y aplicaciones web complejas con Next.js, React, Node.js e IA. Más de 4.200 horas en Upwork, 8+ años, 100+ proyectos lanzados.',
     it: 'Sviluppatrice Frontend e Full-Stack specializzata in CRM su misura e applicazioni web complesse con Next.js, React, Node.js e IA. Oltre 4.200 ore su Upwork, 8+ anni, 100+ progetti lanciati.',
@@ -57,8 +57,8 @@ const copy = {
   },
   siteDescription: {
     en: 'Portfolio and blog of Iryna Vynnychenko. Frontend & Full-Stack development: Next.js, React, Node.js, AI, custom CRMs, and complex web apps.',
-    ua: 'Портфоліо та блог Ірини Винниченко. Frontend & Full-Stack розробка: Next.js, React, Node.js, AI, кастомні CRM та складні вебдодатки.',
-    de: 'Portfolio und Blog von Iryna Vynnychenko. Frontend- & Full-Stack-Entwicklung: Next.js, React, Node.js, AI, Custom-CRMs und komplexe Web-Apps.',
+    ua: 'Портфоліо та блог Ірини Винниченко. Frontend & Full-Stack: Next.js, React, Node.js, ШІ, кастомні CRM і складні вебзастосунки.',
+    de: 'Portfolio und Blog von Iryna Vynnychenko. Frontend- & Full-Stack-Entwicklung: Next.js, React, Node.js, KI, Custom-CRMs und komplexe Web-Apps.',
     fr: 'Portfolio et blog d’Iryna Vynnychenko. Développement Frontend & Full-Stack : Next.js, React, Node.js, IA, CRM sur mesure et applications web complexes.',
     es: 'Portfolio y blog de Iryna Vynnychenko. Desarrollo Frontend y Full-Stack: Next.js, React, Node.js, IA, CRM a medida y aplicaciones web complejas.',
     it: 'Portfolio e blog di Iryna Vynnychenko. Sviluppo Frontend e Full-Stack: Next.js, React, Node.js, IA, CRM su misura e applicazioni web complesse.',
@@ -75,7 +75,7 @@ const copy = {
   },
   blogDescription: {
     en: 'Practical articles on performance, technology choices, and working with a freelance web engineer.',
-    ua: 'Практичні статті про продуктивність, вибір технологій та співпрацю з фриланс-розробницею.',
+    ua: 'Практичні статті про швидкість сайтів, вибір технологій і роботу з фриланс-розробницею.',
     de: 'Praktische Artikel zu Performance, Technologieentscheidungen und der Zusammenarbeit mit einer Freelance-Webentwicklerin.',
     fr: 'Articles pratiques sur la performance, les choix technologiques et la collaboration avec une ingénieure web freelance.',
     es: 'Artículos prácticos sobre rendimiento, elección de tecnologías y colaboración con una ingeniera web freelance.',

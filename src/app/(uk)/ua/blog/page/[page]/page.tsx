@@ -31,7 +31,7 @@ export function generateMetadata({ params }: BlogPageProps): Metadata {
   return {
     title: `Блог — Сторінка ${pageNumber} — Ірина Винниченко | Senior Web & Frontend розробниця`,
     description:
-      'Корисні статті про веб-розробку, оптимізацію продуктивності та найм розробників — для фаундерів та власників продуктів.',
+      'Корисні статті про веброзробку, швидкість сайтів і найм розробників — для фаундерів і власників продуктів.',
     alternates: getBlogIndexAlternates('ua', pageNumber),
   }
 }

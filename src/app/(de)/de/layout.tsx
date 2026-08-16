@@ -18,7 +18,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
   title: "Iryna Vynnychenko | Frontend- & Full-Stack-Entwicklerin | Next.js, React, Node.js, AI",
-  description: "Frontend- & Full-Stack-Entwicklerin mit Fokus auf Custom-CRMs und komplexe Web-Apps. Next.js, React, Node.js, AI, APIs. 4.200+ Upwork-Stunden, 8+ Jahre, 100+ gelaunchte Projekte.",
+  description: "Frontend- & Full-Stack-Entwicklerin für Custom-CRMs und komplexe Web-Apps. Next.js, React, Node.js, KI, APIs. 4.200+ Upwork-Stunden, 8+ Jahre, 100+ veröffentlichte Projekte.",
   keywords: "Frontend-Entwicklerin, Full-Stack-Entwicklerin, React, Next.js, Node.js, TypeScript, Custom CRM, AI, OpenAI, Prisma, PostgreSQL, Tailwind CSS, Shadcn/ui, GSAP, Ukraine, Upwork, Deutschland",
   authors: [{ name: "Iryna Vynnychenko" }],
   verification: {
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Iryna Vynnychenko | Frontend- & Full-Stack-Entwicklerin | Next.js, React, Node.js, AI",
-    description: "4.200+ Upwork-Stunden · 8+ Jahre · 100+ gelaunchte Projekte. Custom-CRMs, komplexe Web-Apps, Next.js / React / Node.js / AI.",
+    description: "4.200+ Upwork-Stunden · 8+ Jahre · 100+ veröffentlichte Projekte. Custom-CRMs, komplexe Web-Apps, Next.js / React / Node.js / KI.",
     url: 'https://vynnychenko.dev/de/',
     siteName: 'Iryna Vynnychenko — Frontend- & Full-Stack-Entwicklerin',
     type: "website",
