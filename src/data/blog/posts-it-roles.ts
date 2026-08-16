@@ -1210,7 +1210,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Hire backend when you have complex business logic, multiple clients (web/mobile), sensitive data, or heavy integrations that cannot live safely in the browser.",
             ua: "Бекенд потрібен, коли є складна бізнес-логіка, кілька клієнтів (web/mobile), чутливі дані або важкі інтеграції, які небезпечно тримати в браузері.",
-            de: "Mieten Sie ein Backend, wenn Sie über komplexe Geschäftslogik, mehrere Clients (Web/Mobil), sensible Daten oder umfangreiche Integrationen verfügen, die nicht sicher im Browser ausgeführt werden können.",
+            de: "Stellen Sie Backend ein, wenn Sie komplexe Geschäftslogik, mehrere Clients (Web/Mobile), sensible Daten oder schwere Integrationen haben, die im Browser nicht sicher leben können.",
       fr: "Embauchez un backend lorsque vous avez une logique métier complexe, plusieurs clients (web/mobile), des données sensibles ou des intégrations lourdes qui ne peuvent pas vivre en toute sécurité dans le navigateur.",
       es: "Contrate Backend cuando hay lógica de negocio compleja, varios clientes (web/mobile), datos sensibles o integraciones pesadas que no pueden vivir con seguridad en el navegador.",
       it: "Assumete Backend quando avete logica di business complessa, più client (web/mobile), dati sensibili o integrazioni pesanti che non possono vivere in sicurezza nel browser.",
@@ -1248,8 +1248,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
     title: {
       en: "What Does a Full-Stack Developer Do? End-to-End Ownership Explained",
       ua: "Чим займається Full-Stack розробник: відповідальність end-to-end",
-      de: "Was macht ein Full-Stack-Entwickler? End-to-End-Verantwortung erklärt",
-      fr: "Que fait un développeur Full-Stack ? Responsabilité de bout en bout expliquée",
+      de: "Was macht ein Full-Stack-Entwickler? End-to-End-Ownership erklärt",
+      fr: "Que fait un développeur Full-Stack ? Ownership de bout en bout",
       es: "¿Qué hace un desarrollador Full-stack? Ownership de punta a punta",
       it: "Cosa fa uno sviluppatore Full-stack? Ownership end-to-end",
       tr: "Full-stack geliştirici ne yapar? Uçtan uca sahiplik"
@@ -1257,8 +1257,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
     excerpt: {
       en: "Full-stack developers own features from UI to database. Learn the real scope of the role, strengths, limits, and when it beats a split team.",
       ua: "Full-stack розробник веде фічу від UI до бази. Реальний скоуп ролі, сильні сторони, межі й коли це вигідніше за розділену команду.",
-      de: "Full-Stack-Entwickler verantworten Features von der Oberfläche bis zur Datenbank. Was die Rolle wirklich umfasst, wo ihre Stärken und Grenzen liegen – und wann sie einem geteilten Team überlegen ist.",
-      fr: "Les développeurs full-stack sont responsables des fonctionnalités, de l’interface jusqu’à la base de données. Découvrez la portée réelle du rôle, ses forces, ses limites et quand il l’emporte sur une équipe séparée.",
+      de: "Full-Stack-Entwickler verantworten Features von der UI bis zur Datenbank. Der echte Scope der Rolle, Stärken, Grenzen – und wann sie ein geteiltes Team schlägt.",
+      fr: "Les Full-stack portent la feature de l’UI jusqu’à la base de données. Le vrai périmètre du rôle, ses forces, ses limites, et quand ça gagne sur une équipe séparée.",
       es: "Los Full-stack son dueños de la feature de la UI a la base de datos. El alcance real, las fortalezas, los límites y cuándo gana a un equipo partido.",
       it: "I Full-stack sono responsabili della feature dalla UI al database. Lo scope reale, i punti di forza, i limiti e quando batte un team spezzato.",
       tr: "Full-stack geliştiriciler feature’ın UI’dan veritabanına sahibidir. Gerçek kapsam, güçlü yanlar, sınırlar ve ne zaman bölünmüş ekibi yener."
@@ -1329,8 +1329,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "A full-stack developer delivers vertical slices of a product: interface, API, data model, and often deployment. The value is end-to-end ownership — fewer handoffs, faster MVPs, and one person who understands how a change ripples through the system.",
             ua: "Full-stack розробник закриває вертикальний зріз продукту: інтерфейс, API, модель даних і часто деплой. Цінність — ownership end-to-end: менше передач, швидші MVP і одна людина, яка розуміє, як зміна проходить через усю систему.",
-            de: "Ein Full-Stack-Entwickler liefert vertikale Teile eines Produkts: Schnittstelle, API, Datenmodell und oft auch Bereitstellung. Der Wert liegt in der durchgängigen Verantwortung – weniger Übergaben, schnellere MVPs und eine Person, die versteht, wie sich eine Änderung im System auswirkt.",
-      fr: "Un développeur full-stack fournit des tranches verticales d'un produit : interface, API, modèle de données et souvent déploiement. La valeur réside dans la propriété de bout en bout : moins de transferts, des MVP plus rapides et une personne qui comprend comment un changement se répercute dans le système.",
+            de: "Ein Full-Stack-Entwickler liefert vertikale Slices eines Produkts: Interface, API, Datenmodell und oft auch Deploy. Der Wert ist End-to-End-Ownership – weniger Handoffs, schnellere MVPs und eine Person, die versteht, wie eine Änderung durchs System läuft.",
+      fr: "Un Full-stack livre des tranches verticales de produit : interface, API, modèle de données et souvent le deploy. La valeur, c’est l’ownership de bout en bout : moins de handoffs, des MVP plus rapides et une personne qui comprend comment un change se propage dans le système.",
       es: "Un Full-stack entrega rebanadas verticales de producto: interfaz, API, modelo de datos y a menudo el deploy. El valor es el ownership de punta a punta: menos handoffs, MVPs más rápidos y una persona que entiende cómo una change recorre el sistema.",
       it: "Un Full-stack consegna fette verticali di prodotto: interfaccia, API, modello dati e spesso il deploy. Il valore è l’ownership end-to-end: meno handoff, MVP più veloci e una persona che capisce come un change si propaga nel sistema.",
       tr: "Bir Full-stack geliştirici ürünün dikey dilimlerini teslim eder: arayüz, API, veri modeli ve çoğu zaman deploy. Değer uçtan uca sahipliktir — daha az el değiştirme, daha hızlı MVP ve değişikliğin sistemde nasıl yayıldığını anlayan bir kişi."
@@ -1371,8 +1371,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Ship features across frontend and backend in one delivery stream.",
             ua: "Віддає фічі через frontend і backend в одному потоці доставки.",
-            de: "Versenden Sie Funktionen im Frontend und Backend in einem einzigen Bereitstellungsstrom.",
-      fr: "Expédiez les fonctionnalités sur le frontend et le backend dans un seul flux de livraison.",
+            de: "Features über Frontend und Backend in einem Delivery-Strom ausliefern.",
+      fr: "Livrer les features sur le frontend et le backend dans un seul flux de delivery.",
       es: "Entregar features a través de Frontend y Backend en un solo flujo de delivery.",
       it: "Consegnare feature su Frontend e Backend in un unico flusso di delivery.",
       tr: "Frontend ve Backend’de feature’ları tek bir teslim akışında çıkarmak."
@@ -1380,8 +1380,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Design practical data models and UI flows together, not in isolation.",
             ua: "Проєктує модель даних і UI-флоу разом, а не окремо.",
-            de: "Entwerfen Sie praktische Datenmodelle und UI-Abläufe gemeinsam und nicht isoliert.",
-      fr: "Concevez des modèles de données pratiques et des flux d’interface utilisateur ensemble, et non isolément.",
+            de: "Praktische Datenmodelle und UI-Flows gemeinsam entwerfen, nicht isoliert.",
+      fr: "Concevoir ensemble des modèles de données concrets et des flux UI, pas isolément.",
       es: "Diseñar modelo de datos y flujos de UI juntos, no aislados.",
       it: "Progettare modello dati e flow UI insieme, non isolati.",
       tr: "Veri modelini ve UI akışlarını ayrı değil, birlikte tasarlamak."
@@ -1389,8 +1389,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Set up auth, forms, CRUD, dashboards, and integrations end-to-end.",
             ua: "Налаштовує auth, форми, CRUD, кабінети та інтеграції end-to-end.",
-            de: "Richten Sie Authentifizierung, Formulare, CRUD, Dashboards und Integrationen durchgängig ein.",
-      fr: "Configurez l'authentification, les formulaires, le CRUD, les tableaux de bord et les intégrations de bout en bout.",
+            de: "Auth, Formulare, CRUD, Dashboards und Integrationen end-to-end aufsetzen.",
+      fr: "Mettre en place auth, formulaires, CRUD, dashboards et intégrations de bout en bout.",
       es: "Montar auth, formularios, CRUD, dashboards e integraciones de punta a punta.",
       it: "Allestire auth, form, CRUD, dashboard e integrazioni end-to-end.",
       tr: "Auth, formlar, CRUD, dashboard ve entegrasyonları uçtan uca kurmak."
@@ -1398,8 +1398,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Balance speed vs quality for MVP, then harden what matters.",
             ua: "Балансує швидкість і якість для MVP, потім зміцнює критичне.",
-            de: "Gleichen Sie Geschwindigkeit und Qualität für MVP aus und härten Sie dann aus, worauf es ankommt.",
-      fr: "Équilibrez vitesse et qualité pour MVP, puis renforcez ce qui compte.",
+            de: "Tempo und Qualität fürs MVP ausbalancieren, dann härten, worauf es ankommt.",
+      fr: "Équilibrer vitesse et qualité pour le MVP, puis durcir ce qui compte.",
       es: "Equilibrar velocidad y calidad en el MVP; luego endurecer lo que importa.",
       it: "Bilanciare velocità e qualità per l’MVP, poi irrobustire ciò che conta.",
       tr: "MVP’de hız ve kaliteyi dengelemek, sonra kritik olanı sağlamlaştırmak."
@@ -1407,8 +1407,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Communicate scope, risks, and trade-offs directly with stakeholders.",
             ua: "Прямо комунікує скоуп, ризики й trade-off’и зі стейкхолдерами.",
-            de: "Kommunizieren Sie Umfang, Risiken und Kompromisse direkt mit den Stakeholdern.",
-      fr: "Communiquez la portée, les risques et les compromis directement avec les parties prenantes.",
+            de: "Scope, Risiken und Trade-offs direkt mit Stakeholdern kommunizieren.",
+      fr: "Communiquer scope, risques et trade-offs directement avec les stakeholders.",
       es: "Comunicar alcance, riesgos y trade-offs directo con stakeholders.",
       it: "Comunicare scope, rischi e trade-off direttamente con gli stakeholder.",
       tr: "Kapsamı, riskleri ve trade-off’ları paydaşlarla doğrudan konuşmak."
@@ -1449,8 +1449,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Databases, API design, auth, basic DevOps/deploy",
             ua: "БД, дизайн API, auth, базовий DevOps/деплой",
-            de: "Datenbanken, API-Design, Authentifizierung, grundlegende DevOps/Bereitstellung",
-      fr: "Bases de données, conception d'API, authentification, DevOps/déploiement de base",
+            de: "Datenbanken, API-Design, Auth, grundlegendes DevOps/Deploy",
+      fr: "Bases de données, API design, auth, DevOps/deploy de base",
       es: "Bases de datos, diseño de APIs, auth, DevOps/deploy básico",
       it: "Database, design delle API, auth, DevOps/deploy di base",
       tr: "Veritabanları, API tasarımı, auth, temel DevOps/deploy"
@@ -1458,8 +1458,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Product thinking: MVP scope, UX constraints, estimation",
             ua: "Продуктове мислення: скоуп MVP, UX-обмеження, оцінка",
-            de: "Produktdenken: MVP-Umfang, UX-Einschränkungen, Schätzung",
-      fr: "Réflexion produit : périmètre MVP, contraintes UX, estimation",
+            de: "Produktdenken: MVP-Scope, UX-Constraints, Schätzung",
+      fr: "Product thinking : scope MVP, contraintes UX, estimation",
       es: "Pensamiento de producto: alcance MVP, constraints de UX, estimación",
       it: "Product thinking: scope MVP, vincoli UX, stime",
       tr: "Ürün düşüncesi: MVP kapsamı, UX kısıtları, tahmin"
@@ -1467,8 +1467,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Debugging across the full request path (browser → server → DB)",
             ua: "Дебаг усього шляху запиту (браузер → сервер → БД)",
-            de: "Debuggen über den gesamten Anforderungspfad (Browser → Server → DB)",
-      fr: "Débogage sur le chemin complet de la requête (navigateur → serveur → base de données)",
+            de: "Debuggen über den ganzen Request-Pfad (Browser → Server → DB)",
+      fr: "Debug sur tout le chemin de la request (navigateur → serveur → DB)",
       es: "Debug en todo el camino de la request (navegador → servidor → DB)",
       it: "Debug sull’intero path della request (browser → server → DB)",
       tr: "İstek yolunun tamamında debug (tarayıcı → sunucu → DB)"
@@ -1489,8 +1489,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Best for startups, SMB products, CRMs, internal tools, and agencies/freelancers where one senior engineer can move faster than a fragmented squad — until scale demands deeper specialists.",
             ua: "Найкраще для стартапів, SMB-продуктів, CRM, внутрішніх інструментів і фрилансу/агенцій, де один senior рухається швидше за роздроблену команду — доки масштаб не вимагає вузьких спеціалістів.",
-            de: "Am besten geeignet für Start-ups, SMB-Produkte, CRMs, interne Tools und Agenturen/Freiberufler, bei denen ein leitender Ingenieur schneller agieren kann als ein fragmentiertes Team – bis die Skalierung tiefergehende Spezialisten erfordert.",
-      fr: "Idéal pour les startups, les produits PME, les CRM, les outils internes et les agences/indépendants où un ingénieur senior peut évoluer plus rapidement qu'une équipe fragmentée, jusqu'à ce que l'échelle exige des spécialistes plus approfondis.",
+            de: "Am besten für Startups, SMB-Produkte, CRMs, interne Tools und Agenturen/Freelancer, wo eine Senior schneller ist als ein zersplittertes Squad – bis die Skalierung tiefere Spezialistinnen und Spezialisten braucht.",
+      fr: "Idéal pour les startups, les produits SMB, les CRM, les outils internes et les agences/freelances, où une senior avance plus vite qu’une squad fragmentée — jusqu’à ce que la scale demande des spécialistes plus profonds.",
       es: "Encaja en startups, productos SMB, CRM, herramientas internas y agencias/freelancers donde un senior se mueve más rápido que un squad fragmentado — hasta que la escala pide especialistas más profundos.",
       it: "Ideale per startup, prodotti SMB, CRM, tool interni e agenzie/freelance dove un senior va più veloce di uno squad spezzato — finché la scala non chiede specialisti più profondi.",
       tr: "Startup’lar, KOBİ ürünleri, CRM’ler, iç araçlar ve bir senior’ın parçalı ekipten hızlı gittiği ajans/freelance işleri için en iyisi — ölçek daha derin uzman isteyene kadar."
@@ -1511,8 +1511,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Full-stack is not “knows a bit of everything.” Senior full-stack means owning outcomes: a working product in production, not two half-finished layers.",
             ua: "Full-stack — це не «трохи вміє все». Senior full-stack означає ownership результату: робочий продукт у продакшені, а не два напівготові шари.",
-            de: "Full-Stack bedeutet nicht „von allem etwas wissen“. Senior Full-Stack bedeutet, Ergebnisse zu liefern: ein funktionierendes Produkt in Production, nicht zwei halbfertige Schichten.",
-      fr: "Le full-stack ne signifie pas « savoir un peu tout ». Le full-stack senior, c’est être responsable des résultats : un produit fonctionnel en production, et non deux couches à moitié finies.",
+            de: "Full-Stack heißt nicht „von allem etwas wissen“. Senior Full-Stack heißt Ownership der Outcomes: ein Produkt, das in Production läuft, nicht zwei halbfertige Schichten.",
+      fr: "Le full-stack, ce n’est pas « savoir un peu tout ». Un Full-stack senior, c’est l’ownership des outcomes : un produit qui tourne en production, pas deux couches à moitié finies.",
       es: "Full-stack no es «sabe un poco de todo». Un Full-stack senior es dueño del outcome: un producto que funciona en production, no dos capas a medias.",
       it: "Full-stack non è «sa un po’ di tutto». Un Full-stack senior è responsabile degli outcome: un prodotto che funziona in production, non due layer a metà.",
       tr: "Full-stack «her şeyden biraz bilmek» değildir. Senior Full-stack outcome’ın sahibidir: production’da çalışan bir ürün — yarım kalmış iki katman değil."
@@ -4266,8 +4266,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "The expensive failure mode is a notebook that never becomes a monitored service. Hire for the path to production, not only accuracy slides.",
             ua: "Дорогий провал — ноутбук, який ніколи не стає сервісом із моніторингом. Найміть під шлях у продакшен, а не лише під слайди accuracy.",
-            de: "Der teure Ausfallmodus ist ein Notebook, das niemals zu einem überwachten Dienst wird. Mieten Sie für den Weg zur Produktion, nicht nur für Präzisionsschlitten.",
-      fr: "Le mode de défaillance coûteux est un ordinateur portable qui ne devient jamais un service surveillé. Embauchez pour le chemin vers la production, pas seulement pour les diapositives de précision.",
+            de: "Der teure Failure-Mode ist ein Notebook, das nie zum überwachten Service wird. Stellen Sie für den Weg in Production ein – nicht nur für Accuracy-Slides.",
+      fr: "Le failure mode coûteux, c’est un notebook qui ne devient jamais un service monitoré. Recrutez pour le chemin vers la production, pas seulement pour des slides d’accuracy.",
       es: "El modo de fallo caro es un notebook que nunca se convierte en un servicio con monitoring. Contrate para el camino a production, no solo para slides de accuracy.",
       it: "Il failure mode costoso è un notebook che non diventa mai un servizio monitorato. Assumete per il percorso verso la production, non solo per le slide di accuracy.",
       tr: "Pahalı hata modu, hiç izlenen bir servis olmayan bir notebook’tur. Yalnızca accuracy slaytları için değil, production yoluna işe alın."
