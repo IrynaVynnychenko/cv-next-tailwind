@@ -31,6 +31,9 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'what-is-an-llm-provider',
+  'what-is-an-llm-in-business',
+  'accept-payments-on-website-2026',
   'why-even-smallest-business-needs-website-2026',
   'social-media-by-country-2026',
   'telegram-bots-with-payments-business-examples',
