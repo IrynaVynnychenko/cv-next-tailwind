@@ -2,6 +2,7 @@ import { getBlogIndexPath } from '@/lib/i18n'
 import type { BlogLang, BlogPost, LocalizedText, RawBlogPost } from './types'
 import { aiLlmPosts } from './posts-ai-llm'
 import { businessPosts } from './posts-business'
+import { databasePosts } from './posts-databases'
 import { engineeringPosts } from './posts-engineering'
 import { itRoleBlogPosts } from './posts-it-roles'
 import { socialPosts } from './posts-social'
@@ -23,6 +24,7 @@ const ALL_POSTS: RawBlogPost[] = [
   ...telegramExamplePosts,
   ...socialPosts,
   ...engineeringPosts,
+  ...databasePosts,
   ...businessPosts,
   ...itRoleBlogPosts,
 ]
@@ -31,6 +33,7 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'types-of-databases-when-to-use',
   'website-administrator-for-small-business',
   'what-is-an-llm-provider',
   'what-is-an-llm-in-business',
