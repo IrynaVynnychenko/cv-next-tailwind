@@ -7,6 +7,7 @@ import { engineeringPosts } from './posts-engineering'
 import { itRoleBlogPosts } from './posts-it-roles'
 import { socialPosts } from './posts-social'
 import { telegramExamplePosts } from './posts-telegram-examples'
+import { telegramMiniAppPosts } from './posts-telegram-mini-app'
 import { telegramPosts } from './posts-telegram'
 
 export type {
@@ -21,6 +22,7 @@ export type {
 const ALL_POSTS: RawBlogPost[] = [
   ...aiLlmPosts,
   ...telegramPosts,
+  ...telegramMiniAppPosts,
   ...telegramExamplePosts,
   ...socialPosts,
   ...engineeringPosts,
@@ -33,6 +35,7 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'what-is-telegram-mini-app',
   'types-of-databases-when-to-use',
   'website-administrator-for-small-business',
   'what-is-an-llm-provider',
