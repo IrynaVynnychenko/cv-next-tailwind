@@ -19,9 +19,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Iryna Vynnychenko | Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL",
-  description: "Ingeniera de producto: CRM a medida, admin tipo ERP y SaaS multi-tenant con backend propio en Node.js/PostgreSQL. Más de 4.200 horas en Upwork, 100% Job Success, lista para NDA.",
-  keywords: "Product Engineer, Full-Stack, React, Next.js, Node.js, TypeScript, CRM a medida, RBAC, PostgreSQL, Prisma, GraphQL, TanStack Query, OpenAI, AWS, Ucrania, Upwork, España",
+  title: "Iryna Vynnychenko | Frontend y Full-Stack | Webflow, WordPress, Next.js",
+  description: "Sitios de marketing, Webflow, WordPress, estático, animación GSAP y Next.js fullstack — UI, APIs, PostgreSQL. Más de 4.200 horas en Upwork, 100% Job Success.",
+  keywords: "Frontend, Full-Stack, Next.js, Webflow, WordPress, sitio de marketing, landing, GSAP, animación, sitio estático, React, Node.js, TypeScript, PostgreSQL, Ucrania, Upwork, España",
   authors: [{ name: "Iryna Vynnychenko" }],
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Iryna Vynnychenko | Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL",
-    description: "CRM a medida, admin tipo ERP, SaaS multi-tenant. Next.js + Node.js / PostgreSQL. 4.200+ horas en Upwork · 100% Job Success · NDA.",
+    title: "Iryna Vynnychenko | Frontend y Full-Stack | Webflow, WordPress, Next.js",
+    description: "Sitios de marketing, Webflow, WordPress, animación GSAP, Next.js fullstack. 4.200+ horas en Upwork · 100% Job Success.",
     url: 'https://vynnychenko.dev/es/',
-    siteName: 'Iryna Vynnychenko - Full-Stack Product Engineer',
+    siteName: 'Iryna Vynnychenko - Ingeniera frontend y full-stack',
     type: "website",
     locale: getOgLocale('es'),
     images: getOpenGraphImages(),

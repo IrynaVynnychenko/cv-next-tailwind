@@ -17,7 +17,7 @@ export function Panel({
       data-slot="panel"
       className="screen-line-before screen-line-after border-x border-edge"
     >
-      <header className="screen-line-after px-4 py-2">
+      <header className="screen-line-after px-4 py-4">
         <h2 className="text-xl font-semibold tracking-tight">
           {title}
           {typeof count === 'number' && (

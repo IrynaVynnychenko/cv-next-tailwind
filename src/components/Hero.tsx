@@ -13,22 +13,12 @@ export default function Hero() {
 
   return (
     <div>
-      <div className="pattern-dots screen-line-before screen-line-after flex min-h-[260px] flex-col items-center justify-start gap-3 border-x border-edge px-4 pb-6 pt-24 text-center sm:min-h-[280px] sm:gap-4 sm:pb-8 sm:pt-28">
-        <p className="max-w-xl text-balance text-3xl font-semibold tracking-tight motion-safe:animate-hero-in sm:text-4xl md:text-5xl">
+      <div className="pattern-dots screen-line-before screen-line-after flex min-h-[240px] flex-col items-center justify-start gap-3 overflow-x-clip border-x border-edge px-4 pb-6 pt-24 text-center sm:min-h-[280px] sm:gap-4 sm:px-6 sm:pb-8 sm:pt-28">
+        <p className="w-full max-w-[22rem] text-[1.65rem] font-semibold leading-[1.2] tracking-tight motion-safe:animate-hero-in sm:max-w-4xl sm:text-4xl md:max-w-none md:whitespace-nowrap md:text-5xl">
           {c.heroHeadline}
         </p>
-        <p className="flex max-w-xl flex-wrap items-center justify-center gap-x-2 text-2xl font-semibold tracking-tight text-muted-foreground motion-safe:animate-hero-in sm:text-3xl md:text-4xl [animation-delay:120ms]">
-          {language === 'tr' ? (
-            <>
-              <RotatingWords words={c.heroRotate} className="text-sky-500" />
-              <span>{c.heroFor}</span>
-            </>
-          ) : (
-            <>
-              <span>{c.heroFor}</span>
-              <RotatingWords words={c.heroRotate} className="text-sky-500" />
-            </>
-          )}
+        <p className="flex w-full max-w-[22rem] items-center justify-center overflow-hidden text-[1.35rem] font-semibold leading-tight tracking-tight motion-safe:animate-hero-in sm:max-w-4xl sm:text-3xl md:max-w-none md:text-4xl [animation-delay:120ms]">
+          <RotatingWords words={c.heroRotate} className="text-sky-500" />
         </p>
         <a
           href="https://telegram.me/+380931844615"
@@ -47,7 +37,7 @@ export default function Hero() {
         </a>
       </div>
 
-      <div className="relative flex border-x border-edge px-3">
+      <div className="relative flex min-w-0 border-x border-edge px-3">
         <div className="shrink-0 border-r border-edge">
           <div className="mx-0.5 my-1">
             <Image
@@ -56,12 +46,12 @@ export default function Hero() {
               width={160}
               height={160}
               priority
-              className="size-[7.5rem] rounded-full object-cover object-top ring-1 ring-border ring-offset-2 ring-offset-background select-none motion-safe:animate-hero-in sm:size-40 [animation-delay:280ms]"
+              className="size-[6.5rem] rounded-full object-cover object-top ring-1 ring-border ring-offset-2 ring-offset-background select-none motion-safe:animate-hero-in sm:size-40 [animation-delay:280ms]"
             />
           </div>
         </div>
-        <div className="flex flex-1 flex-col">
-          <div className="flex grow items-end pb-1 pl-4">
+        <div className="flex min-w-0 flex-1 flex-col">
+          <div className="flex grow items-end pb-1 pl-3 sm:pl-4">
             <div className="hidden font-mono text-xs text-muted-foreground sm:inline-flex sm:items-center sm:gap-1">
               <svg className="mr-1 size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path
@@ -76,13 +66,15 @@ export default function Hero() {
             </div>
           </div>
           <div className="border-t border-edge">
-            <div className="flex items-center gap-2 pl-4">
-              <h1 className="-translate-y-px text-2xl font-semibold tracking-tight sm:text-3xl">{t.about.title}</h1>
+            <div className="flex min-w-0 items-start gap-1.5 py-0.5 pl-3 sm:items-center sm:gap-2 sm:pl-4">
+              <h1 className="min-w-0 text-[1.35rem] font-semibold leading-tight tracking-tight sm:text-3xl">
+                {t.about.title}
+              </h1>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                className="inline-block size-[1.125rem] select-none text-sky-500"
+                className="mt-1 inline-block size-4 shrink-0 select-none text-sky-500 sm:mt-0 sm:size-[1.125rem]"
                 aria-label="Verified"
                 role="img"
               >
@@ -92,8 +84,10 @@ export default function Hero() {
                 />
               </svg>
             </div>
-            <div className="h-auto border-t border-edge py-1 pl-4 sm:h-9">
-              <p className="font-mono text-sm text-balance text-muted-foreground">{t.header.role}</p>
+            <div className="border-t border-edge py-1.5 pl-3 sm:h-9 sm:py-1 sm:pl-4">
+              <p className="font-mono text-xs leading-snug text-muted-foreground sm:text-sm sm:text-balance">
+                {t.header.role}
+              </p>
             </div>
           </div>
         </div>

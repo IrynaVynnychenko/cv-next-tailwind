@@ -15,23 +15,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Full-Stack Product Engineer',
+      role: 'Frontend & Full-Stack Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, internal systems',
+      subtitle: 'Frontend & Full-Stack Engineer | Webflow, WordPress, animation, fullstack Next.js',
       tagline:
-        'I ship operational software with domain logic and a backend I own - not marketing sites.',
+        'Frontend and fullstack Next.js: marketing sites, Webflow, WordPress, static, animation — and Next.js with UI, APIs, and data.',
       fullCycle:
-        'End-to-end TypeScript: data models and APIs on Node.js / Prisma / PostgreSQL, then the operator UI in Next.js. Permissions, tenant isolation, integrations with existing services.',
+        'Marketing sites on Webflow, WordPress, or static. Motion with GSAP / Lottie / Framer Motion. Fullstack Next.js when it is a product: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI and backend in one app.',
       whyTitle: 'Why Clients Choose Me',
       whyItems: [
-        '8+ years in production on long-running product work, not one-off promo pages',
-        'I extend an existing backend or own the Node.js/PostgreSQL layer - not a UI-only handoff',
-        'Direct contractor, NDA-ready, accountable for architecture and delivery',
-        'I start from business rules and data, then build the interface operators actually use',
+        '8+ years: marketing sites on Webflow, WordPress, static — and fullstack Next.js in production',
+        'Animation and interaction: GSAP, Lottie, Framer Motion — motion that ships, not a template drop',
+        'Direct contractor. Delivery from Figma or from a brief, accountable for the result',
+        'Next.js is fullstack: dashboards, workflows, APIs, PostgreSQL — not a UI-only handoff',
       ],
-      bio2: 'I work as a senior individual contributor on complex internal products.',
+      bio2: 'Marketing sites and fullstack Next.js. One contractor, full delivery ownership.',
       location: 'Kyiv, Ukraine',
       upworkProfile: 'Upwork Profile',
       linkedinProfile: 'LinkedIn Profile',
@@ -40,7 +40,7 @@ export const translations = {
     },
     skills: {
       title: 'Skills & Expertise',
-      subtitle: 'Stack for internal systems: CRMs, admin platforms, and full-stack Next.js + Node.js / PostgreSQL products',
+      subtitle: 'Marketing sites, Webflow, WordPress, static, animation — and fullstack Next.js with PostgreSQL',
       categories: [
         {
           title: 'Frontend & UI',
@@ -48,6 +48,7 @@ export const translations = {
             'TypeScript, JavaScript (ES6+), React, Next.js (App / Pages Router)',
             'Full-stack Next.js (Server Components, Server Actions, API Routes)',
             'Tailwind CSS, SCSS, Shadcn/ui, Styled Components, CSS Modules',
+            'Webflow, WordPress, static sites (SSG / HTML)',
             'GSAP, Lottie Animations, Framer Motion',
             'Google Maps API customization',
             'Custom UI kits & design systems · semantic HTML5 · mobile-first UX',
@@ -107,7 +108,7 @@ export const translations = {
           items: [
             'Vue',
             'Angular, Alpine.js',
-            'CMS: WordPress',
+            'Joomla',
             'jQuery, Pug (Jade), Bootstrap',
           ],
         },
@@ -126,11 +127,12 @@ export const translations = {
         'Client names and URLs withheld under NDA. Scope: scalable product infrastructure for live SaaS and enterprise platforms.',
       items: [
         {
-          title: 'Full-Stack Product Engineer',
+          title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Present',
-          description: 'Independent product engineer on long-term engagements. Domain modeling, permissions, APIs, and an operational UI that has to hold real business logic - not landings or e-commerce storefronts.',
+          description: 'Independent engineer: marketing sites (Webflow, WordPress, static, animation) and fullstack Next.js — UI, APIs, PostgreSQL / Prisma in one app.',
           achievements: [
+            'Marketing sites: Webflow, WordPress, static HTML, GSAP / Lottie / Framer Motion',
             'Full-stack ownership: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, tenant isolation, audit-friendly data flows, tens to thousands of users',
             'Backend workflows, not screens only: status machines, permissions, integrations with existing APIs, TanStack Query for live operational UIs',
@@ -138,7 +140,7 @@ export const translations = {
             'Product AI (OpenAI, Vercel AI SDK, SSE/WebSocket streaming) as features inside the system',
             'NDA-ready for confidential corporate and enterprise products',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Ukrainian Massage School & Training Center',
             'https://niunkina.com/ - Business website for German cosmetologist (Next.js + TailwindCSS)',
@@ -276,7 +278,7 @@ export const translations = {
       items: [
         {
           q: 'What is your typical project workflow?',
-          a: 'We start from the domain: business rules, data model, existing APIs. Then architecture, milestones, iterative delivery with daily updates, QA, and deploy to Vercel/AWS. You work with me directly - no middle managers.',
+          a: 'For a marketing site we start from the brief or Figma. For product work we start from the domain: business rules, data model, existing APIs. Then architecture, milestones, iterative delivery with daily updates, QA, and deploy. You work with me directly - no middle managers.',
         },
         {
           q: 'Do you work under NDA (Non-Disclosure Agreement)?',
@@ -284,7 +286,7 @@ export const translations = {
         },
         {
           q: 'Which technologies do you specialize in?',
-          a: 'TypeScript end-to-end: Next.js operator UIs plus Node.js / PostgreSQL / Prisma backends. RBAC, multi-tenant isolation, GraphQL/REST, TanStack Query for live operational screens. Product AI (OpenAI, Vercel AI SDK) when it is a system feature, not a demo.',
+          a: 'Frontend: Webflow, WordPress, static sites, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript on the whole path.',
         },
         {
           q: 'How do we get started?',
@@ -309,20 +311,20 @@ export const translations = {
           q: 'What do you build?',
           a: 'Available for end-to-end development or jumping in at any stage:',
           list: [
-            'Operator tools and internal platforms with their own backends.',
-            'Domain logic: permissions, status workflows, integrations with existing APIs.',
-            'Long-running product work under NDA - not marketing landings or e-commerce storefronts.',
+            'Marketing sites: Webflow, WordPress, static HTML, landings and corporate sites.',
+            'Animation and interaction: GSAP, Lottie, Framer Motion.',
+            'Fullstack Next.js: UI, APIs, PostgreSQL / Prisma in one app. NDA-ready.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
+      text: '© 2026 Iryna Vynnychenko - Frontend & Full-Stack Engineer'
     },
     blog: {
-      headerTag: 'Full-Stack Product Engineer · Notes on building internal systems',
+      headerTag: 'Frontend & Full-Stack Engineer · Webflow, WordPress, fullstack Next.js',
       title: 'Blog',
-      description: 'Practical notes on product engineering: Next.js, Node.js, data models, and shipping operational software - so you can decide with a clear technical picture.',
+      description: 'Practical notes on frontend and product work: marketing sites, Webflow, WordPress, Next.js, animation, and shipping software you can hire me for.',
       readMore: 'Read article →',
       backToBlog: '← Back to Blog',
       previous: 'Previous',
@@ -350,23 +352,23 @@ export const translations = {
     },
     header: {
       name: 'Ірина Винниченко',
-      role: 'Full-Stack Product Engineer',
+      role: 'Frontend & Full-Stack Engineer',
     },
     about: {
       title: 'Ірина Винниченко',
-      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, внутрішні системи',
+      subtitle: 'Frontend і Full-Stack інженерка | Webflow, WordPress, анімація, fullstack Next.js',
       tagline:
-        'Роблю операційне ПЗ зі складною доменною логікою та власним бекендом - не маркетингові сайти.',
+        'Фронтенд і fullstack Next.js: маркетингові сайти, Webflow, WordPress, статика, анімація — і Next.js з UI, API та даними.',
       fullCycle:
-        'TypeScript на всьому шляху: моделі даних і API на Node.js / Prisma / PostgreSQL, далі операційний UI на Next.js. Права доступу, мульти-тенантна ізоляція, інтеграції з існуючими сервісами.',
+        'Маркетингові сайти на Webflow, WordPress або статиці. Анімація GSAP / Lottie / Framer Motion. Fullstack Next.js, коли це продукт: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI і бекенд в одному застосунку.',
       whyTitle: 'Чому клієнти обирають мене',
       whyItems: [
-        '8+ років у прод на довгих продуктових замовленнях, не на разових промо-сторінках',
-        'Можу розвивати існуючий бекенд або вести шар Node.js/PostgreSQL сама - не лише верстку з макета',
-        'Прямий підрядник, готова до NDA, відповідаю за архітектуру і здачу',
-        'Починаю з бізнес-правил і даних, потім збираю інтерфейс, яким користуються оператори',
+        '8+ років у проді: маркетингові сайти на Webflow, WordPress, статиці — і fullstack Next.js',
+        'Анімація та взаємодія: GSAP, Lottie, Framer Motion — не кинути шаблон, а здати рух у прод',
+        'Прямий підрядник. Здача з Figma або з бриффа, відповідальність за результат',
+        'Next.js — це fullstack: дашборди, воркфлоу, API, PostgreSQL — не лише верстка',
       ],
-      bio2: 'Працюю як senior IC на складних внутрішніх продуктах.',
+      bio2: 'Маркетингові сайти і fullstack Next.js. Один підрядник, повна відповідальність за здачу.',
       location: 'Київ, Україна',
       upworkProfile: 'Профіль на Upwork',
       linkedinProfile: 'Профіль на LinkedIn',
@@ -375,7 +377,7 @@ export const translations = {
     },
     skills: {
       title: 'Навички та експертиза',
-      subtitle: 'Стек для внутрішніх систем: CRM, адмін-платформи та full-stack продукти на Next.js + Node.js / PostgreSQL',
+      subtitle: 'Маркетингові сайти, Webflow, WordPress, статика, анімація — і fullstack Next.js з PostgreSQL',
       categories: [
         {
           title: 'Frontend і UI',
@@ -383,6 +385,7 @@ export const translations = {
             'TypeScript, JavaScript (ES6+), React, Next.js (App / Pages Router)',
             'Full-stack Next.js (Server Components, Server Actions, API Routes)',
             'Tailwind CSS, SCSS, Shadcn/ui, Styled Components, CSS Modules',
+            'Webflow, WordPress, статика (SSG / HTML)',
             'GSAP, Lottie Animations, Framer Motion',
             'Кастомізація Google Maps API',
             'Кастомні UI-кити та дизайн-системи · семантичний HTML5 · mobile-first UX',
@@ -442,7 +445,7 @@ export const translations = {
           items: [
             'Vue',
             'Angular, Alpine.js',
-            'CMS: WordPress',
+            'Joomla',
             'jQuery, Pug (Jade), Bootstrap',
           ],
         },
@@ -461,11 +464,12 @@ export const translations = {
         'Назви клієнтів і посилання не розкриваю за NDA. Фокус - масштабована інфраструктура живих SaaS- і enterprise-платформ.',
       items: [
         {
-          title: 'Full-Stack Product Engineer',
+          title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Дотепер',
-          description: 'Незалежна продуктова інженерка на довгих контрактах. У фокусі - доменна модель, права доступу, API й операційний UI зі справжньою бізнес-логікою, не лендинги й не вітрини e-commerce.',
+          description: 'Незалежна інженерка: маркетингові сайти (Webflow, WordPress, статика, анімація) і fullstack Next.js — UI, API, PostgreSQL / Prisma в одному застосунку.',
           achievements: [
+            'Маркетингові сайти: Webflow, WordPress, статика HTML, GSAP / Lottie / Framer Motion',
             'Повний стек: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, ізоляція тенантів, auditable потоки даних, від десятків до тисяч користувачів',
             'Бекенд-воркфлоу, не лише екрани: статусні машини, права, інтеграції з існуючими API, TanStack Query для живого операційного UI',
@@ -473,7 +477,7 @@ export const translations = {
             'AI всередині продукту (OpenAI, Vercel AI SDK, SSE/WebSocket streaming) як фічі системи',
             'Готова до NDA на корпоративних і enterprise-продуктах',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - українська школа масажу та навчальний центр',
             'https://niunkina.com/ - сайт для косметологині в Німеччині (Next.js + Tailwind CSS)',
@@ -611,7 +615,7 @@ export const translations = {
       items: [
         {
           q: 'Як зазвичай виглядає робота над проєктом?',
-          a: 'Починаємо з домену: бізнес-правила, модель даних, існуючі API. Далі архітектура, етапи, ітеративна здача з щоденними апдейтами, QA і деплой на Vercel/AWS. Ви працюєте напряму зі мною - без посередників.',
+          a: 'Для маркетингового сайту починаємо з бриффа або Figma. Для продукту — з домену: бізнес-правила, модель даних, існуючі API. Далі архітектура, етапи, ітеративна здача з щоденними апдейтами, QA і деплой. Ви працюєте напряму зі мною - без посередників.',
         },
         {
           q: 'Чи працюєте ви за NDA?',
@@ -619,7 +623,7 @@ export const translations = {
         },
         {
           q: 'На яких технологіях ви спеціалізуєтесь?',
-          a: 'TypeScript на всьому шляху: операційний UI на Next.js і бекенд на Node.js / PostgreSQL / Prisma. RBAC, мульти-тенантна ізоляція, GraphQL/REST, TanStack Query для живих операційних екранів. AI в продукті (OpenAI, Vercel AI SDK), коли це фіча системи, а не демо.',
+          a: 'Фронтенд: Webflow, WordPress, статика, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript на всьому шляху.',
         },
         {
           q: 'Як почати співпрацю?',
@@ -644,20 +648,20 @@ export const translations = {
           q: 'Що ви розробляєте?',
           a: 'Можу зробити «під ключ» або підключитися на будь-якому етапі:',
           list: [
-            'Операторські інструменти й внутрішні платформи з власним бекендом.',
-            'Доменна логіка: права доступу, статусні воркфлоу, інтеграції з існуючими API.',
-            'Довгі продуктові замовлення під NDA - не маркетингові лендинги й не вітрини e-commerce.',
+            'Маркетингові сайти: Webflow, WordPress, статика HTML, лендинги та корпоративні сайти.',
+            'Анімація та взаємодія: GSAP, Lottie, Framer Motion.',
+            'Fullstack Next.js: UI, API, PostgreSQL / Prisma в одному застосунку. Готова до NDA.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Ірина Винниченко - Full-Stack Product Engineer'
+      text: '© 2026 Ірина Винниченко - Frontend і Full-Stack інженерка'
     },
     blog: {
-      headerTag: 'Full-Stack Product Engineer · нотатки про внутрішні системи',
+      headerTag: 'Frontend і Full-Stack · Webflow, WordPress, fullstack Next.js',
       title: 'Блог',
-      description: 'Практичні нотатки про продуктову інженерію: Next.js, Node.js, моделі даних і поставку операційного ПЗ - щоб рішення були технічно зрозумілі.',
+      description: 'Практичні нотатки про фронтенд і продукти: маркетингові сайти, Webflow, WordPress, Next.js, анімація — щоб було зрозуміло, що можна замовити.',
       readMore: 'Читати статтю →',
       backToBlog: '← Назад до блогу',
       previous: 'Попередня',
@@ -685,23 +689,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Full-Stack Product Engineer',
+      role: 'Frontend & Full-Stack Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, interne Systeme',
+      subtitle: 'Frontend- und Full-Stack-Engineerin | Webflow, WordPress, Animation, Fullstack-Next.js',
       tagline:
-        'Ich liefere operative Software mit Domänenlogik und eigenem Backend - keine Marketing-Sites.',
+        'Frontend und Fullstack-Next.js: Marketing-Sites, Webflow, WordPress, Statik, Animation — und Next.js mit UI, APIs und Daten.',
       fullCycle:
-        'TypeScript durchgängig: Datenmodelle und APIs mit Node.js / Prisma / PostgreSQL, danach die Operator-UI in Next.js. Rechte, Multi-Tenant-Isolation, Anbindung bestehender Services.',
+        'Marketing-Sites in Webflow, WordPress oder statisch. Motion mit GSAP / Lottie / Framer Motion. Fullstack-Next.js, wenn es ein Produkt ist: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI und Backend in einer App.',
       whyTitle: 'Warum Kundinnen und Kunden mich beauftragen',
       whyItems: [
-        '8+ Jahre Produktion an langfristiger Produktarbeit, nicht an einmaligen Promo-Seiten',
-        'Ich erweitere ein bestehendes Backend oder verantworte die Node.js/PostgreSQL-Schicht - kein reines UI-Handoff',
-        'Direkte Auftragnehmerin, NDA-fähig, verantwortlich für Architektur und Lieferung',
-        'Ich starte bei Geschäftsregeln und Daten, dann baue ich die Oberfläche, die Operatoren wirklich nutzen',
+        '8+ Jahre: Marketing-Sites in Webflow, WordPress, Statik — und Fullstack-Next.js in Produktion',
+        'Animation und Interaktion: GSAP, Lottie, Framer Motion — Motion, die live geht, kein Template-Drop',
+        'Direkte Auftragnehmerin. Lieferung aus Figma oder aus dem Briefing, Verantwortung für das Ergebnis',
+        'Next.js ist Fullstack: Dashboards, Workflows, APIs, PostgreSQL — kein reines UI-Handoff',
       ],
-      bio2: 'Ich arbeite als Senior-IC an komplexen internen Produkten.',
+      bio2: 'Marketing-Sites und Fullstack-Next.js. Eine Auftragnehmerin, volle Verantwortung für die Lieferung.',
       location: 'Kiew, Ukraine',
       upworkProfile: 'Upwork-Profil',
       linkedinProfile: 'LinkedIn-Profil',
@@ -710,7 +714,7 @@ export const translations = {
     },
     skills: {
       title: 'Kompetenzen & Schwerpunkte',
-      subtitle: 'Der Stack für interne Systeme: CRMs, Admin-Plattformen und Full-Stack-Produkte mit Next.js + Node.js / PostgreSQL',
+      subtitle: 'Marketing-Sites, Webflow, WordPress, Statik, Animation — und Fullstack-Next.js mit PostgreSQL',
       categories: [
         {
           title: 'Frontend & UI',
@@ -718,6 +722,7 @@ export const translations = {
             'TypeScript, JavaScript (ES6+), React, Next.js (App / Pages Router)',
             'Full-Stack Next.js (Server Components, Server Actions, API Routes)',
             'Tailwind CSS, SCSS, Shadcn/ui, Styled Components, CSS Modules',
+            'Webflow, WordPress, statische Sites (SSG / HTML)',
             'GSAP, Lottie Animations, Framer Motion',
             'Google Maps API anpassen',
             'Custom UI-Kits & Design Systems · semantisches HTML5 · mobile-first UX',
@@ -777,7 +782,7 @@ export const translations = {
           items: [
             'Vue',
             'Angular, Alpine.js',
-            'CMS: WordPress',
+            'Joomla',
             'jQuery, Pug (Jade), Bootstrap',
           ],
         },
@@ -797,12 +802,13 @@ export const translations = {
         'Kundennamen und URLs unter NDA. Fokus: skalierbare Produktinfrastruktur für Live-SaaS- und Enterprise-Plattformen.',
       items: [
         {
-          title: 'Full-Stack Product Engineer',
+          title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - heute',
           description:
-            'Unabhängige Product Engineerin auf langen Engagements. Scope ist Domänenmodell, Rechte, APIs und eine operative UI mit echter Business-Logik - keine Landings, kein E-Commerce-Storefront.',
+            'Unabhängige Engineerin für Marketing-Sites (Webflow, WordPress, Statik, Animation) und Fullstack-Next.js — UI, APIs, PostgreSQL / Prisma in einer App.',
           achievements: [
+            'Marketing-Sites: Webflow, WordPress, statisches HTML, GSAP / Lottie / Framer Motion',
             'Full-Stack-Verantwortung: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, Tenant-Isolation, auditierbare Datenflüsse, Dutzende bis Tausende Nutzer',
             'Backend-Workflows, nicht nur Screens: Statusmaschinen, Rechte, Anbindung bestehender APIs, TanStack Query für operative UIs',
@@ -810,7 +816,7 @@ export const translations = {
             'Produkt-KI (OpenAI, Vercel AI SDK, SSE/WebSocket-Streaming) als System-Features',
             'NDA-fähig für vertrauliche Corporate- und Enterprise-Produkte',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Ukrainische Massageschule und Trainingszentrum',
             'https://niunkina.com/ - Website für eine Kosmetologin in Deutschland (Next.js + Tailwind CSS)',
@@ -951,7 +957,7 @@ export const translations = {
       items: [
         {
           q: 'Wie läuft ein Projekt bei Ihnen ab?',
-          a: 'Wir starten bei der Domäne: Geschäftsregeln, Datenmodell, vorhandene APIs. Dann Architektur, Meilensteine, iterative Lieferung mit täglichen Updates, QA und Deploy auf Vercel/AWS. Sie arbeiten direkt mit mir - ohne Zwischeninstanz.',
+          a: 'Für eine Marketing-Site starten wir beim Briefing oder in Figma. Für Produktarbeit bei der Domäne: Geschäftsregeln, Datenmodell, vorhandene APIs. Dann Architektur, Meilensteine, iterative Lieferung mit täglichen Updates, QA und Deploy. Sie arbeiten direkt mit mir - ohne Zwischeninstanz.',
         },
         {
           q: 'Arbeiten Sie unter NDA?',
@@ -959,7 +965,7 @@ export const translations = {
         },
         {
           q: 'Auf welche Technologien sind Sie spezialisiert?',
-          a: 'TypeScript durchgängig: Operator-UIs in Next.js plus Backends mit Node.js / PostgreSQL / Prisma. RBAC, Multi-Tenant-Isolation, GraphQL/REST, TanStack Query für operative Live-Oberflächen. Produkt-KI (OpenAI, Vercel AI SDK), wenn es ein System-Feature ist, kein Demo.',
+          a: 'Frontend: Webflow, WordPress, statische Sites, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript durchgängig.',
         },
         {
           q: 'Wie starten wir?',
@@ -984,18 +990,18 @@ export const translations = {
           q: 'Was entwickeln Sie?',
           a: 'End-to-End oder Einstieg in jeder Phase:',
           list: [
-            'Operator-Tools und interne Plattformen mit eigenem Backend.',
-            'Domänenlogik: Rechte, Status-Workflows, Anbindung vorhandener APIs.',
-            'Langfristige Produktarbeit unter NDA - keine Marketing-Landings und keine E-Commerce-Schaufenster.',
+            'Marketing-Sites: Webflow, WordPress, statisches HTML, Landings und Corporate Sites.',
+            'Animation und Interaktion: GSAP, Lottie, Framer Motion.',
+            'Fullstack-Next.js: UI, APIs, PostgreSQL / Prisma in einer App. NDA-fähig.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
+      text: '© 2026 Iryna Vynnychenko - Frontend & Full-Stack Engineer'
     },
     blog: {
-      headerTag: 'Full-Stack Product Engineer · Notizen zu internen Systemen',
+      headerTag: 'Frontend & Full-Stack Engineer · Webflow, WordPress, Fullstack-Next.js',
       title: 'Blog',
       description:
         'Praxisnahe Notizen zur Produktentwicklung: Next.js, Node.js, Datenmodelle und die Lieferung operativer Software - damit technische Entscheidungen klar sind.',
@@ -1026,23 +1032,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Full-Stack Product Engineer',
+      role: 'Frontend & Full-Stack Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, systèmes internes',
+      subtitle: 'Ingénieure frontend & full-stack | Webflow, WordPress, animation, Next.js fullstack',
       tagline:
-        'Je livre du logiciel opérationnel avec logique métier et un backend que je possède - pas des sites marketing.',
+        'Frontend et Next.js fullstack : sites marketing, Webflow, WordPress, statique, animation — et Next.js avec UI, APIs et données.',
       fullCycle:
-        'TypeScript de bout en bout : modèles de données et APIs en Node.js / Prisma / PostgreSQL, puis l’UI opérateur en Next.js. Droits, isolation multi-tenant, intégrations avec l’existant.',
+        'Sites marketing en Webflow, WordPress ou statique. Motion avec GSAP / Lottie / Framer Motion. Next.js fullstack quand c’est un produit : Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI et backend dans une seule app.',
       whyTitle: 'Pourquoi les clients me choisissent',
       whyItems: [
-        '8+ ans en production sur du produit long terme, pas des pages promo one-shot',
-        'Je prolonge un backend existant ou je porte la couche Node.js/PostgreSQL - pas un simple handoff UI',
-        'Contractante directe, NDA possible, responsable de l’architecture et de la livraison',
-        'Je pars des règles métier et des données, puis je construis l’interface que les opérateurs utilisent vraiment',
+        '8+ ans : sites marketing en Webflow, WordPress, statique — et Next.js fullstack en prod',
+        'Animation et interaction : GSAP, Lottie, Framer Motion — du motion qui part en prod, pas un drop de template',
+        'Contractante directe. Livraison depuis Figma ou depuis le brief, responsable du résultat',
+        'Next.js, c’est fullstack : dashboards, workflows, APIs, PostgreSQL — pas un handoff UI only',
       ],
-      bio2: 'J’interviens comme senior IC sur des produits internes complexes.',
+      bio2: 'Sites marketing et Next.js fullstack. Une seule contractante, responsabilité complète de la livraison.',
       location: 'Kyiv, Ukraine',
       upworkProfile: 'Profil Upwork',
       linkedinProfile: 'Profil LinkedIn',
@@ -1051,7 +1057,7 @@ export const translations = {
     },
     skills: {
       title: 'Compétences & expertise',
-      subtitle: 'Stack pour systèmes internes : CRM, plateformes d’admin et produits full-stack Next.js + Node.js / PostgreSQL',
+      subtitle: 'Sites marketing, Webflow, WordPress, statique, animation — et Next.js fullstack avec PostgreSQL',
       categories: [
         {
           title: 'Frontend & UI',
@@ -1059,6 +1065,7 @@ export const translations = {
             'TypeScript, JavaScript (ES6+), React, Next.js (App / Pages Router)',
             'Full-stack Next.js (Server Components, Server Actions, API Routes)',
             'Tailwind CSS, SCSS, Shadcn/ui, Styled Components, CSS Modules',
+            'Webflow, WordPress, sites statiques (SSG / HTML)',
             'GSAP, Lottie Animations, Framer Motion',
             'Personnalisation de Google Maps API',
             'Kits UI & design systems sur mesure · HTML5 sémantique · UX mobile-first',
@@ -1118,7 +1125,7 @@ export const translations = {
           items: [
             'Vue',
             'Angular, Alpine.js',
-            'CMS: WordPress',
+            'Joomla',
             'jQuery, Pug (Jade), Bootstrap',
           ],
         },
@@ -1138,12 +1145,13 @@ export const translations = {
         'Noms clients et URLs sous NDA. Périmètre : infrastructure produit scalable pour plateformes SaaS et enterprise en production.',
       items: [
         {
-          title: 'Full-Stack Product Engineer',
+          title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - aujourd’hui',
           description:
-            'Product engineer indépendante sur des missions longues. Le périmètre, c’est le modèle métier, les droits, les APIs et une UI opérationnelle avec de la vraie logique - pas des landings ni une vitrine e-commerce.',
+            'Ingénieure indépendante : sites marketing (Webflow, WordPress, statique, animation) et Next.js fullstack — UI, APIs, PostgreSQL / Prisma dans une seule app.',
           achievements: [
+            'Sites marketing : Webflow, WordPress, HTML statique, GSAP / Lottie / Framer Motion',
             'Ownership full-stack : Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, isolation des tenants, flux de données auditables, dizaines à milliers d’utilisateurs',
             'Workflows backend, pas seulement des écrans : machines à états, permissions, intégrations d’APIs existantes, TanStack Query pour l’UI opérationnelle',
@@ -1151,7 +1159,7 @@ export const translations = {
             'IA produit (OpenAI, Vercel AI SDK, streaming SSE/WebSocket) comme features du système',
             'NDA pour produits corporate et enterprise confidentiels',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - École ukrainienne de massage & centre de formation',
             'https://niunkina.com/ - Site vitrine pour une cosmétologue en Allemagne (Next.js + Tailwind CSS)',
@@ -1292,7 +1300,7 @@ export const translations = {
       items: [
         {
           q: 'À quoi ressemble votre processus projet habituel ?',
-          a: 'On part du domaine : règles métier, modèle de données, APIs existantes. Puis architecture, jalons, livraison itérative avec mises à jour quotidiennes, QA et deploy sur Vercel/AWS. Vous travaillez directement avec moi - sans intermédiaire.',
+          a: 'Pour un site marketing, on part du brief ou de Figma. Pour du produit, on part du domaine : règles métier, modèle de données, APIs existantes. Puis architecture, jalons, livraison itérative avec mises à jour quotidiennes, QA et deploy. Vous travaillez directement avec moi - sans intermédiaire.',
         },
         {
           q: 'Travaillez-vous sous NDA (accord de confidentialité) ?',
@@ -1300,7 +1308,7 @@ export const translations = {
         },
         {
           q: 'Sur quelles technologies êtes-vous spécialisée ?',
-          a: 'TypeScript de bout en bout : UI opérateur en Next.js et backends Node.js / PostgreSQL / Prisma. RBAC, isolation multi-tenant, GraphQL/REST, TanStack Query pour les écrans opérationnels live. IA produit (OpenAI, Vercel AI SDK) quand c’est une feature du système, pas une démo.',
+          a: 'Frontend : Webflow, WordPress, sites statiques, GSAP / Lottie / Framer Motion. Fullstack : Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript de bout en bout.',
         },
         {
           q: 'Comment démarrer ?',
@@ -1325,18 +1333,18 @@ export const translations = {
           q: 'Que développez-vous ?',
           a: 'Disponible pour un développement de bout en bout, ou pour intervenir à n’importe quelle étape :',
           list: [
-            'Outils opérateur et plateformes internes avec leur propre backend.',
-            'Logique métier : permissions, workflows de statuts, intégrations d’APIs existantes.',
-            'Travail produit long terme sous NDA - pas des landings marketing ni des vitrines e-commerce.',
+            'Sites marketing : Webflow, WordPress, HTML statique, landings et sites corporate.',
+            'Animation et interaction : GSAP, Lottie, Framer Motion.',
+            'Next.js fullstack : UI, APIs, PostgreSQL / Prisma dans une seule app. NDA possible.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
+      text: '© 2026 Iryna Vynnychenko - Frontend & Full-Stack Engineer'
     },
     blog: {
-      headerTag: 'Full-Stack Product Engineer · notes sur les systèmes internes',
+      headerTag: 'Ingénieure frontend & full-stack · Webflow, WordPress, Next.js fullstack',
       title: 'Blog',
       description:
         'Notes concrètes sur l’ingénierie produit : Next.js, Node.js, modèles de données et livraison de logiciel opérationnel - pour décider avec une image technique claire.',
@@ -1367,23 +1375,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Full-Stack Product Engineer',
+      role: 'Frontend & Full-Stack Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, sistemas internos',
+      subtitle: 'Ingeniera frontend y full-stack | Webflow, WordPress, animación, Next.js fullstack',
       tagline:
-        'Entrego software operativo con lógica de dominio y un backend propio - no sitios de marketing.',
+        'Frontend y Next.js fullstack: sitios de marketing, Webflow, WordPress, estático, animación — y Next.js con UI, APIs y datos.',
       fullCycle:
-        'TypeScript de extremo a extremo: modelos de datos y APIs en Node.js / Prisma / PostgreSQL, luego la UI de operadores en Next.js. Permisos, aislamiento multi-tenant, integraciones con servicios existentes.',
+        'Sitios de marketing en Webflow, WordPress o estático. Motion con GSAP / Lottie / Framer Motion. Next.js fullstack cuando es un producto: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI y backend en una sola app.',
       whyTitle: 'Por qué me eligen',
       whyItems: [
-        '8+ años en producción en producto de largo plazo, no en páginas promo sueltas',
-        'Extiendo un backend existente o asumo la capa Node.js/PostgreSQL - no un handoff solo de UI',
-        'Contratista directa, lista para NDA, responsable de arquitectura y entrega',
-        'Empiezo por las reglas de negocio y los datos, y luego construyo la interfaz que usan los operadores',
+        '8+ años: sitios de marketing en Webflow, WordPress, estático — y Next.js fullstack en producción',
+        'Animación e interacción: GSAP, Lottie, Framer Motion — motion que sale a prod, no un drop de plantilla',
+        'Contratista directa. Entrega desde Figma o desde el brief, responsable del resultado',
+        'Next.js es fullstack: dashboards, workflows, APIs, PostgreSQL — no un handoff solo de UI',
       ],
-      bio2: 'Trabajo como senior IC en productos internos complejos.',
+      bio2: 'Sitios de marketing y Next.js fullstack. Una sola contratista, responsabilidad completa de la entrega.',
       location: 'Kyiv, Ucrania',
       upworkProfile: 'Perfil de Upwork',
       linkedinProfile: 'Perfil de LinkedIn',
@@ -1392,7 +1400,7 @@ export const translations = {
     },
     skills: {
       title: 'Habilidades y especialización',
-      subtitle: 'Stack para sistemas internos: CRM, plataformas de admin y productos full-stack Next.js + Node.js / PostgreSQL',
+      subtitle: 'Sitios de marketing, Webflow, WordPress, estático, animación — y Next.js fullstack con PostgreSQL',
       categories: [
         {
           title: 'Frontend y UI',
@@ -1400,6 +1408,7 @@ export const translations = {
             'TypeScript, JavaScript (ES6+), React, Next.js (App / Pages Router)',
             'Full-stack Next.js (Server Components, Server Actions, API Routes)',
             'Tailwind CSS, SCSS, Shadcn/ui, Styled Components, CSS Modules',
+            'Webflow, WordPress, sitios estáticos (SSG / HTML)',
             'GSAP, animaciones Lottie, Framer Motion',
             'Personalización de Google Maps API',
             'Kits de UI y design systems · HTML5 semántico · UX mobile-first',
@@ -1459,7 +1468,7 @@ export const translations = {
           items: [
             'Vue',
             'Angular, Alpine.js',
-            'CMS: WordPress',
+            'Joomla',
             'jQuery, Pug (Jade), Bootstrap',
           ],
         },
@@ -1478,11 +1487,12 @@ export const translations = {
         'Nombres de clientes y URLs bajo NDA. Alcance: infraestructura de producto escalable para plataformas SaaS y enterprise en producción.',
       items: [
         {
-          title: 'Full-Stack Product Engineer',
+          title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Presente',
-          description: 'Ingeniera de producto independiente en encargos largos. El alcance es modelo de dominio, permisos, APIs y una UI operativa con lógica de negocio real - no landings ni vitrinas e-commerce.',
+          description: 'Ingeniera independiente: sitios de marketing (Webflow, WordPress, estático, animación) y Next.js fullstack — UI, APIs, PostgreSQL / Prisma en una sola app.',
           achievements: [
+            'Sitios de marketing: Webflow, WordPress, HTML estático, GSAP / Lottie / Framer Motion',
             'Ownership full-stack: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, aislamiento de tenant, flujos auditables, de decenas a miles de usuarios',
             'Workflows de backend, no solo pantallas: máquinas de estados, permisos, integración con APIs existentes, TanStack Query para UI operativa',
@@ -1490,7 +1500,7 @@ export const translations = {
             'IA de producto (OpenAI, Vercel AI SDK, streaming SSE/WebSocket) como features del sistema',
             'Lista para NDA en productos corporativos y enterprise',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Escuela y centro de formación de masaje en Ucrania',
             'https://niunkina.com/ - Web de negocio para cosmetóloga en Alemania (Next.js + TailwindCSS)',
@@ -1628,7 +1638,7 @@ export const translations = {
       items: [
         {
           q: '¿Cuál es tu forma habitual de trabajar?',
-          a: 'Empezamos por el dominio: reglas de negocio, modelo de datos, APIs existentes. Luego arquitectura, hitos, entrega iterativa con novedades cada día, QA y despliegue en Vercel/AWS. Trabajas conmigo, sin intermediarios.',
+          a: 'Para un sitio de marketing empezamos por el brief o Figma. Para producto, por el dominio: reglas de negocio, modelo de datos, APIs existentes. Luego arquitectura, hitos, entrega iterativa con novedades cada día, QA y despliegue. Trabajas conmigo, sin intermediarios.',
         },
         {
           q: '¿Trabajas bajo NDA (acuerdo de confidencialidad)?',
@@ -1636,7 +1646,7 @@ export const translations = {
         },
         {
           q: '¿En qué tecnologías te especializas?',
-          a: 'TypeScript de extremo a extremo: UI de operadores en Next.js y backends Node.js / PostgreSQL / Prisma. RBAC, aislamiento multi-tenant, GraphQL/REST, TanStack Query para pantallas operativas en vivo. IA de producto (OpenAI, Vercel AI SDK) cuando es una feature del sistema, no una demo.',
+          a: 'Frontend: Webflow, WordPress, sitios estáticos, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript de extremo a extremo.',
         },
         {
           q: '¿Cómo empezamos?',
@@ -1661,18 +1671,18 @@ export const translations = {
           q: '¿Qué desarrollas?',
           a: 'Disponible para desarrollo de extremo a extremo o para entrar en cualquier etapa:',
           list: [
-            'Herramientas de operador y plataformas internas con backend propio.',
-            'Lógica de dominio: permisos, workflows de estado, integraciones con APIs existentes.',
-            'Trabajo de producto a largo plazo bajo NDA - no landings de marketing ni vitrinas e-commerce.',
+            'Sitios de marketing: Webflow, WordPress, HTML estático, landings y sitios corporativos.',
+            'Animación e interacción: GSAP, Lottie, Framer Motion.',
+            'Next.js fullstack: UI, APIs, PostgreSQL / Prisma en una sola app. Lista para NDA.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
+      text: '© 2026 Iryna Vynnychenko - Frontend & Full-Stack Engineer'
     },
     blog: {
-      headerTag: 'Full-Stack Product Engineer · notas sobre sistemas internos',
+      headerTag: 'Ingeniera frontend y full-stack · Webflow, WordPress, Next.js fullstack',
       title: 'Blog',
       description: 'Notas prácticas de ingeniería de producto: Next.js, Node.js, modelos de datos y entrega de software operativo - para decidir con una imagen técnica clara.',
       readMore: 'Leer artículo →',
@@ -1702,23 +1712,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Full-Stack Product Engineer',
+      role: 'Frontend & Full-Stack Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, sistemi interni',
+      subtitle: 'Ingegnera frontend e full-stack | Webflow, WordPress, animazione, Next.js fullstack',
       tagline:
-        'Consegno software operativo con logica di dominio e un backend che gestisco io - non siti marketing.',
+        'Frontend e Next.js fullstack: siti marketing, Webflow, WordPress, statico, animazione — e Next.js con UI, API e dati.',
       fullCycle:
-        'TypeScript end-to-end: modelli dati e API su Node.js / Prisma / PostgreSQL, poi la UI operativa in Next.js. Permessi, isolamento multi-tenant, integrazioni con servizi esistenti.',
+        'Siti marketing su Webflow, WordPress o statico. Motion con GSAP / Lottie / Framer Motion. Next.js fullstack quando è un prodotto: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI e backend in una sola app.',
       whyTitle: 'Perché mi scelgono',
       whyItems: [
-        '8+ anni in produzione su prodotto di lungo periodo, non su pagine promo one-shot',
-        'Estendo un backend esistente o porto lo strato Node.js/PostgreSQL - non un handoff solo UI',
-        'Contractor diretta, pronta per NDA, responsabile di architettura e delivery',
-        'Parto dalle regole di business e dai dati, poi costruisco l’interfaccia che usano gli operatori',
+        '8+ anni: siti marketing su Webflow, WordPress, statico — e Next.js fullstack in produzione',
+        'Animazione e interazione: GSAP, Lottie, Framer Motion — motion che va in prod, non un drop di template',
+        'Contractor diretta. Consegna da Figma o dal brief, responsabile del risultato',
+        'Next.js è fullstack: dashboard, workflow, API, PostgreSQL — non un handoff solo UI',
       ],
-      bio2: 'Lavoro come senior IC su prodotti interni complessi.',
+      bio2: 'Siti marketing e Next.js fullstack. Una sola contractor, piena responsabilità della delivery.',
       location: 'Kyiv, Ucraina',
       upworkProfile: 'Profilo Upwork',
       linkedinProfile: 'Profilo LinkedIn',
@@ -1727,7 +1737,7 @@ export const translations = {
     },
     skills: {
       title: 'Competenze e specializzazione',
-      subtitle: 'Stack per sistemi interni: CRM, piattaforme admin e prodotti full-stack Next.js + Node.js / PostgreSQL',
+      subtitle: 'Siti marketing, Webflow, WordPress, statico, animazione — e Next.js fullstack con PostgreSQL',
       categories: [
         {
           title: 'Frontend e UI',
@@ -1735,6 +1745,7 @@ export const translations = {
             'TypeScript, JavaScript (ES6+), React, Next.js (App / Pages Router)',
             'Full-stack Next.js (Server Components, Server Actions, API Routes)',
             'Tailwind CSS, SCSS, Shadcn/ui, Styled Components, CSS Modules',
+            'Webflow, WordPress, siti statici (SSG / HTML)',
             'GSAP, animazioni Lottie, Framer Motion',
             'Personalizzazione Google Maps API',
             'Kit UI e design system · HTML5 semantico · UX mobile-first',
@@ -1794,7 +1805,7 @@ export const translations = {
           items: [
             'Vue',
             'Angular, Alpine.js',
-            'CMS: WordPress',
+            'Joomla',
             'jQuery, Pug (Jade), Bootstrap',
           ],
         },
@@ -1813,11 +1824,12 @@ export const translations = {
         'Nomi clienti e URL sotto NDA. Ambito: infrastruttura di prodotto scalabile per piattaforme SaaS ed enterprise in produzione.',
       items: [
         {
-          title: 'Full-Stack Product Engineer',
+          title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Presente',
-          description: 'Product engineer indipendente su incarichi lunghi. Lo scope è modello di dominio, permessi, API e una UI operativa con logica di business reale - non landing né vetrine e-commerce.',
+          description: 'Ingegnera indipendente: siti marketing (Webflow, WordPress, statico, animazione) e Next.js fullstack — UI, API, PostgreSQL / Prisma in una sola app.',
           achievements: [
+            'Siti marketing: Webflow, WordPress, HTML statico, GSAP / Lottie / Framer Motion',
             'Ownership full-stack: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, isolamento tenant, flussi auditabili, da decine a migliaia di utenti',
             'Workflow di backend, non solo schermate: state machine, permessi, integrazioni con API esistenti, TanStack Query per UI operativa',
@@ -1825,7 +1837,7 @@ export const translations = {
             'AI di prodotto (OpenAI, Vercel AI SDK, streaming SSE/WebSocket) come feature di sistema',
             'Pronta per NDA su prodotti corporate ed enterprise',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Scuola e centro di formazione per massaggi in Ucraina',
             'https://niunkina.com/ - Sito per una cosmetologa in Germania (Next.js + Tailwind CSS)',
@@ -1963,7 +1975,7 @@ export const translations = {
       items: [
         {
           q: 'Qual è il tuo flusso di lavoro tipico?',
-          a: 'Partiamo dal dominio: regole di business, modello dati, API esistenti. Poi architettura, milestone, delivery iterativa con aggiornamenti quotidiani, QA e deploy su Vercel/AWS. Lavori direttamente con me - niente intermediari.',
+          a: 'Per un sito marketing partiamo dal brief o da Figma. Per il prodotto, dal dominio: regole di business, modello dati, API esistenti. Poi architettura, milestone, delivery iterativa con aggiornamenti quotidiani, QA e deploy. Lavori direttamente con me - niente intermediari.',
         },
         {
           q: 'Lavori sotto NDA (accordo di riservatezza)?',
@@ -1971,7 +1983,7 @@ export const translations = {
         },
         {
           q: 'In quali tecnologie ti specializzi?',
-          a: 'TypeScript end-to-end: UI operativa in Next.js e backend Node.js / PostgreSQL / Prisma. RBAC, isolamento multi-tenant, GraphQL/REST, TanStack Query per schermate operative live. AI di prodotto (OpenAI, Vercel AI SDK) quando è una feature di sistema, non una demo.',
+          a: 'Frontend: Webflow, WordPress, siti statici, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript end-to-end.',
         },
         {
           q: 'Come iniziamo?',
@@ -1996,18 +2008,18 @@ export const translations = {
           q: 'Cosa sviluppi?',
           a: 'Disponibile per sviluppo end-to-end o per entrare in qualsiasi fase:',
           list: [
-            'Strumenti operatore e piattaforme interne con backend proprio.',
-            'Logica di dominio: permessi, workflow di stato, integrazioni con API esistenti.',
-            'Lavoro di prodotto di lungo periodo sotto NDA - non landing marketing né vetrine e-commerce.',
+            'Siti marketing: Webflow, WordPress, HTML statico, landing e siti corporate.',
+            'Animazione e interazione: GSAP, Lottie, Framer Motion.',
+            'Next.js fullstack: UI, API, PostgreSQL / Prisma in una sola app. Pronta per NDA.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
+      text: '© 2026 Iryna Vynnychenko - Frontend & Full-Stack Engineer'
     },
     blog: {
-      headerTag: 'Full-Stack Product Engineer · note sui sistemi interni',
+      headerTag: 'Ingegnera frontend e full-stack · Webflow, WordPress, Next.js fullstack',
       title: 'Blog',
       description: 'Note pratiche di product engineering: Next.js, Node.js, modelli dati e consegna di software operativo - per decidere con un quadro tecnico chiaro.',
       readMore: 'Leggi l’articolo →',
@@ -2037,23 +2049,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Full-Stack Product Engineer',
+      role: 'Frontend & Full-Stack Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, iç sistemler',
+      subtitle: 'Frontend ve Full-Stack mühendisi | Webflow, WordPress, animasyon, fullstack Next.js',
       tagline:
-        'Operasyonel yazılım teslim ederim: domain mantığı ve kendi backend’im - pazarlama siteleri değil.',
+        'Frontend ve fullstack Next.js: pazarlama siteleri, Webflow, WordPress, statik, animasyon — ve UI, API ve veriyle Next.js.',
       fullCycle:
-        'Uçtan uca TypeScript: Node.js / Prisma / PostgreSQL üzerinde veri modelleri ve API’ler, ardından Next.js ile operatör UI. Yetkiler, çok kiracılı izolasyon, mevcut servislerle entegrasyon.',
+        'Webflow, WordPress veya statik pazarlama siteleri. GSAP / Lottie / Framer Motion ile motion. Ürün olduğunda fullstack Next.js: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI ve backend tek uygulamada.',
       whyTitle: 'Neden benimle çalışıyorlar',
       whyItems: [
-        '8+ yıl üretim, uzun soluklu ürün işinde - tek seferlik promo sayfalarında değil',
-        'Mevcut backend’i genişletebilir veya Node.js/PostgreSQL katmanını üstlenebilirim - sadece UI teslimi değil',
-        'Doğrudan yüklenici, NDA’ya hazır, mimari ve teslimattan sorumlu',
-        'İş kurallarından ve veriden başlarım, sonra operatörlerin gerçekten kullandığı arayüzü kurarım',
+        '8+ yıl: Webflow, WordPress, statik pazarlama siteleri — ve üretimde fullstack Next.js',
+        'Animasyon ve etkileşim: GSAP, Lottie, Framer Motion — şablon bırakmak değil, motion’ı yayına almak',
+        'Doğrudan yüklenici. Teslimat Figma’dan veya briften, sonuçtan sorumlu',
+        'Next.js fullstack’tir: dashboard’lar, iş akışları, API’ler, PostgreSQL — yalnızca UI teslimi değil',
       ],
-      bio2: 'Karmaşık iç ürünlerde senior IC olarak çalışırım.',
+      bio2: 'Pazarlama siteleri ve fullstack Next.js. Tek yüklenici, teslimattan tam sorumluluk.',
       location: 'Kyiv, Ukrayna',
       upworkProfile: 'Upwork profili',
       linkedinProfile: 'LinkedIn profili',
@@ -2062,7 +2074,7 @@ export const translations = {
     },
     skills: {
       title: 'Yetkinlikler ve uzmanlık',
-      subtitle: 'İç sistemler için yığın: CRM’ler, admin platformları ve full-stack Next.js + Node.js / PostgreSQL ürünleri',
+      subtitle: 'Pazarlama siteleri, Webflow, WordPress, statik, animasyon — ve PostgreSQL ile fullstack Next.js',
       categories: [
         {
           title: 'Frontend ve UI',
@@ -2070,6 +2082,7 @@ export const translations = {
             'TypeScript, JavaScript (ES6+), React, Next.js (App / Pages Router)',
             'Full-stack Next.js (Server Components, Server Actions, API Routes)',
             'Tailwind CSS, SCSS, Shadcn/ui, Styled Components, CSS Modules',
+            'Webflow, WordPress, statik siteler (SSG / HTML)',
             'GSAP, Lottie animasyonları, Framer Motion',
             'Google Maps API özelleştirme',
             'Özel UI kitleri ve design system · semantik HTML5 · mobile-first UX',
@@ -2129,7 +2142,7 @@ export const translations = {
           items: [
             'Vue',
             'Angular, Alpine.js',
-            'CMS: WordPress',
+            'Joomla',
             'jQuery, Pug (Jade), Bootstrap',
           ],
         },
@@ -2148,11 +2161,12 @@ export const translations = {
         'Müşteri adları ve URL’ler NDA kapsamında. Kapsam: canlı SaaS ve kurumsal platformlar için ölçeklenebilir ürün altyapısı.',
       items: [
         {
-          title: 'Full-Stack Product Engineer',
+          title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Günümüz',
-          description: 'Uzun soluklu işlerde bağımsız ürün mühendisiyim. Kapsam domain modeli, yetkiler, API’ler ve gerçek iş mantığı taşıyan operasyonel UI - landing veya e-commerce vitrini değil.',
+          description: 'Pazarlama siteleri (Webflow, WordPress, statik, animasyon) ve fullstack Next.js için bağımsız mühendisim — UI, API’ler, PostgreSQL / Prisma tek uygulamada.',
           achievements: [
+            'Pazarlama siteleri: Webflow, WordPress, statik HTML, GSAP / Lottie / Framer Motion',
             'Full-stack sahiplik: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, tenant izolasyonu, denetlenebilir veri akışları, onlarcadan binlerce kullanıcıya',
             'Yalnızca ekran değil, backend iş akışları: durum makineleri, yetkiler, mevcut API entegrasyonları, operasyonel UI için TanStack Query',
@@ -2160,7 +2174,7 @@ export const translations = {
             'Ürün içi yapay zekâ (OpenAI, Vercel AI SDK, SSE/WebSocket streaming) sistem özelliği olarak',
             'Gizli kurumsal ve enterprise ürünler için NDA’ya hazır',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Ukrayna masaj okulu ve eğitim merkezi',
             'https://niunkina.com/ - Almanya’daki bir kozmetolog için iş sitesi (Next.js + Tailwind CSS)',
@@ -2298,7 +2312,7 @@ export const translations = {
       items: [
         {
           q: 'Tipik proje akışınız nedir?',
-          a: 'Alana domain’den başlarız: iş kuralları, veri modeli, mevcut API’ler. Sonra mimari, etaplar, günlük güncellemelerle iteratif teslim, QA ve Vercel/AWS’e yayın. Aracı yok - doğrudan benimle çalışırsınız.',
+          a: 'Pazarlama sitesinde brief veya Figma’dan başlarız. Ürün işinde domain’den: iş kuralları, veri modeli, mevcut API’ler. Sonra mimari, etaplar, günlük güncellemelerle iteratif teslim, QA ve yayın. Aracı yok - doğrudan benimle çalışırsınız.',
         },
         {
           q: 'NDA (gizlilik sözleşmesi) altında çalışır mısınız?',
@@ -2306,7 +2320,7 @@ export const translations = {
         },
         {
           q: 'Hangi teknolojilerde uzmanlaşıyorsunuz?',
-          a: 'Uçtan uca TypeScript: Next.js operatör UI’si ve Node.js / PostgreSQL / Prisma backend. RBAC, çok kiracılı izolasyon, GraphQL/REST, canlı operasyon ekranları için TanStack Query. Ürün içi yapay zekâ (OpenAI, Vercel AI SDK) sistem özelliği olduğunda - demo değil.',
+          a: 'Frontend: Webflow, WordPress, statik siteler, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. Tüm yolda TypeScript.',
         },
         {
           q: 'Nasıl başlarız?',
@@ -2331,18 +2345,18 @@ export const translations = {
           q: 'Neler geliştiriyorsunuz?',
           a: 'Uçtan uca geliştirme veya herhangi bir aşamada dahil olmak için müsaitim:',
           list: [
-            'Kendi backend’ine sahip operatör araçları ve iç platformlar.',
-            'Domain mantığı: yetkiler, durum iş akışları, mevcut API entegrasyonları.',
-            'NDA altında uzun soluklu ürün işi - pazarlama landing’leri veya e-commerce vitrinleri değil.',
+            'Pazarlama siteleri: Webflow, WordPress, statik HTML, landing’ler ve kurumsal siteler.',
+            'Animasyon ve etkileşim: GSAP, Lottie, Framer Motion.',
+            'Fullstack Next.js: UI, API’ler, PostgreSQL / Prisma tek uygulamada. NDA’ya hazır.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
+      text: '© 2026 Iryna Vynnychenko - Frontend & Full-Stack Engineer'
     },
     blog: {
-      headerTag: 'Full-Stack Product Engineer · iç sistemler üzerine notlar',
+      headerTag: 'Frontend ve Full-Stack mühendisi · Webflow, WordPress, fullstack Next.js',
       title: 'Blog',
       description: 'Ürün mühendisliği üzerine pratik notlar: Next.js, Node.js, veri modelleri ve operasyonel yazılım teslimi - teknik resmi net görerek karar verin.',
       readMore: 'Yazıyı oku →',

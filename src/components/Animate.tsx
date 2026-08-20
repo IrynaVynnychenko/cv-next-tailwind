@@ -27,14 +27,17 @@ export function RotatingWords({
   if (words.length === 0) return null
 
   return (
-    <span className={`relative inline-grid h-[1.15em] justify-items-center overflow-hidden leading-none ${className}`}>
+    <span className={`relative inline-grid max-w-full overflow-hidden align-baseline ${className}`}>
       <span className="sr-only">{words.join(', ')}</span>
-      <span className="invisible col-start-1 row-start-1 whitespace-nowrap" aria-hidden="true">
+      <span
+        className="invisible col-start-1 row-start-1 hidden whitespace-nowrap sm:inline"
+        aria-hidden="true"
+      >
         {longest}
       </span>
       <span
         key={`${words[index]}-${index}`}
-        className="col-start-1 row-start-1 whitespace-nowrap motion-safe:animate-text-up"
+        className="col-start-1 row-start-1 max-w-full text-center sm:whitespace-nowrap motion-safe:animate-text-up"
         aria-hidden="true"
       >
         {words[index]}
