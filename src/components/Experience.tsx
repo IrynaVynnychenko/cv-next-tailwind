@@ -1,130 +1,99 @@
 'use client'
 
+import { useState } from 'react'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
+import { chrome } from '@/data/chrome'
+import { Badge, Panel } from './Panel'
+
+const WORK_MODES = ['freelance', 'remote', 'onsite'] as const
+
+function initials(name: string) {
+  return name
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join('')
+    .toUpperCase()
+}
 
 export default function Experience() {
   const { language } = useLanguage()
   const t = translations[language].experience
+  const c = chrome[language]
+  const [openIndex, setOpenIndex] = useState<number | null>(0)
+
+  const modeLabel = {
+    freelance: c.freelance,
+    remote: c.remote,
+    onsite: c.onsite,
+  }
 
   return (
-    <section id="experience" className="pt-4">
-      <div className="border-b border-gray-200 dark:border-gray-700 pb-12">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
-          {t.title}
-        </h2>
-        <div className="space-y-10">
-          {t.items.map((exp, index) => (
-            <div key={index} className="relative">
-              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4">
-                <div className="flex-1">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
-                    {exp.title}
+    <Panel id="experience" title={t.title}>
+      <div className="pr-2 pl-4">
+        {t.items.map((exp, index) => {
+          const isOpen = openIndex === index
+          const mode = WORK_MODES[index] ?? 'remote'
+          return (
+            <div key={`${exp.company}-${exp.period}`} className="group relative space-y-4 py-4 screen-line-after last:after:content-none">
+              <div className="relative z-[1] mb-1 flex items-start gap-3 pl-4">
+                <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-muted font-mono text-xs font-semibold text-muted-foreground">
+                  {initials(exp.company)}
+                </div>
+                <div className="min-w-0 flex-1 pr-10">
+                  <h3 className="text-balance font-semibold leading-snug">
+                    {exp.company} — {exp.title}
                   </h3>
-                  <h4 className="text-base text-gray-600 dark:text-gray-400 mb-3 font-medium">
-                    {exp.company}
-                  </h4>
-                  <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-                    {exp.description}
-                  </p>
-                </div>
-                <div className="lg:ml-6 lg:flex-shrink-0">
-                  <span className="inline-block text-sm text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-800 px-3 py-1 rounded-md font-medium">
-                    {exp.period}
-                  </span>
-                </div>
-              </div>
-              
-              <div className="mb-4">
-                <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">
-                  {t.keyAchievements}
-                </h5>
-                <ul className="list-none space-y-1">
-                  {exp.achievements.map((achievement, idx) => (
-                    <li key={idx} className="text-sm text-gray-600 dark:text-gray-300 flex items-start">
-                      <span className="text-gray-400 dark:text-gray-500 mr-2 mt-1">•</span>
-                      {achievement}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              
-              <div className="mb-4">
-                <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">
-                  {t.technologies}
-                </h5>
-                <div className="flex flex-wrap gap-2">
-                  {exp.technologies.map((tech, idx) => (
-                    <span
-                      key={idx}
-                      className="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs rounded font-medium"
-                    >
-                      {tech}
+                  <div className="mt-0.5 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+                    <span>{modeLabel[mode]}</span>
+                    <span className="h-4 w-px bg-border" />
+                    <span className="flex items-center gap-0.5">
+                      <span>{exp.period}</span>
                     </span>
-                  ))}
+                  </div>
                 </div>
+                <button
+                  type="button"
+                  aria-expanded={isOpen}
+                  aria-label={c.toggleExperience}
+                  onClick={() => setOpenIndex(isOpen ? null : index)}
+                  className="absolute right-2 top-1 inline-flex size-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                >
+                  <svg className={`size-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m7 15 5 5 5-5M7 9l5-5 5 5" />
+                  </svg>
+                </button>
               </div>
-              
-              {exp.projects && exp.projects.length > 0 && (
-                <div>
-                  <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">
-                    {t.keyProjects}
-                  </h5>
-                  <div className="space-y-1">
-                    {exp.projects.map((project, idx) => (
-                      <div key={idx} className="text-sm">
-                        {project.includes('http') ? (
-                          <a
-                            href={project.split(' - ')[0]}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
-                          >
-                            {project.split(' - ')[0]}
-                          </a>
-                        ) : (
-                          <a
-                            href={project}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
-                          >
-                            {project}
-                          </a>
-                        )}
-                        {project.includes(' - ') && (
-                          <span className="text-gray-600 dark:text-gray-400 ml-2">
-                            {project.split(' - ')[1]}
-                          </span>
-                        )}
-                      </div>
-                    ))}
+
+              {isOpen && (
+                <div className="space-y-3 pl-9 pr-4 text-sm leading-relaxed text-muted-foreground">
+                  <p>{exp.description}</p>
+                  <div>
+                    <p className="mb-1 font-mono text-xs font-semibold tracking-tight text-foreground">{t.keyAchievements}</p>
+                    <ul className="space-y-1">
+                      {exp.achievements.map((achievement) => (
+                        <li key={achievement} className="flex items-start gap-2">
+                          <span className="mt-2 size-1 shrink-0 rounded-full bg-muted-foreground" />
+                          <span>{achievement}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               )}
 
-              {'ndaProjects' in exp && exp.ndaProjects.length > 0 && (
-                <div className={exp.projects && exp.projects.length > 0 ? 'mt-4' : ''}>
-                  <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">
-                    {t.ndaProjects}
-                  </h5>
-                  <p className="text-xs text-gray-500 dark:text-gray-400 mb-2 leading-relaxed">
-                    {t.ndaProjectsNote}
-                  </p>
-                  <ul className="list-none space-y-1">
-                    {exp.ndaProjects.map((project, idx) => (
-                      <li key={idx} className="text-sm text-gray-600 dark:text-gray-300 flex items-start">
-                        <span className="text-gray-400 dark:text-gray-500 mr-2 mt-1">•</span>
-                        {project}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+              <ul className="flex flex-wrap gap-1.5 pl-9">
+                {exp.technologies.slice(0, 8).map((tech) => (
+                  <li key={tech}>
+                    <Badge>{tech}</Badge>
+                  </li>
+                ))}
+              </ul>
             </div>
-          ))}
-        </div>
+          )
+        })}
       </div>
-    </section>
+    </Panel>
   )
 }

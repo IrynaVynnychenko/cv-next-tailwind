@@ -2,57 +2,45 @@
 
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
+import { Panel } from './Panel'
 
 export default function Testimonials() {
   const { language } = useLanguage()
   const t = translations[language].testimonials
 
   return (
-    <section id="testimonials" className="pt-4">
-      <div className="border-b border-gray-200 dark:border-gray-700 pb-12">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
-          {t.title}
-        </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {t.items.map((testimonial, index) => (
-            <div key={index} className="border border-gray-200 dark:border-gray-700 rounded-lg p-6 flex flex-col">
-              <div className="flex items-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="w-4 h-4 text-gray-400 fill-current" viewBox="0 0 20 20">
+    <Panel id="testimonials" title={t.title}>
+      <div className="divide-y divide-edge">
+        {t.items.map((testimonial) => (
+          <blockquote key={testimonial.text} className="p-4">
+            <p className="text-sm leading-relaxed text-muted-foreground">&ldquo;{testimonial.text}&rdquo;</p>
+            <footer className="mt-3 flex items-center justify-between gap-3">
+              <div>
+                <p className="text-sm font-medium">{testimonial.author}</p>
+                <p className="text-xs text-muted-foreground">{testimonial.project}</p>
+              </div>
+              <div className="flex text-muted-foreground" aria-hidden="true">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <svg key={i} className="size-3.5 fill-current" viewBox="0 0 20 20">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 ))}
               </div>
-              <blockquote className="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed">
-                &ldquo;{testimonial.text}&rdquo;
-              </blockquote>
-              <div className="flex items-center justify-between mt-auto">
-                <div>
-                  <p className="font-medium text-gray-900 dark:text-white text-sm">{testimonial.author}</p>
-                  <p className="text-xs text-gray-500 dark:text-gray-400">{testimonial.project}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-10 text-center">
-          <div className="inline-flex items-center bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-6 py-3 rounded-md">
-            <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-            </svg>
-            <a
-              href="https://www.upwork.com/freelancers/irynavynnychenko"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-sm hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
-            >
-              {t.jobSuccess}
-            </a>
-          </div>
-          <p className="text-gray-600 dark:text-gray-300 mt-2 text-sm">{t.stats}</p>
-        </div>
+            </footer>
+          </blockquote>
+        ))}
       </div>
-    </section>
+      <div className="border-t border-edge px-4 py-4 text-center">
+        <a
+          href="https://www.upwork.com/freelancers/irynavynnychenko"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm font-medium underline-offset-4 hover:underline"
+        >
+          {t.jobSuccess}
+        </a>
+        <p className="mt-1 text-xs text-muted-foreground">{t.stats}</p>
+      </div>
+    </Panel>
   )
 }

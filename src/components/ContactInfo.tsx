@@ -96,22 +96,22 @@ export default function ContactInfo({
 
   return (
     <div>
-      <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{title || defaultTitle}</h3>
+      <h3 className="mb-2 text-lg font-semibold">{title || defaultTitle}</h3>
       {description && (
-        <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">{description}</p>
+        <p className="mb-4 text-sm leading-relaxed text-muted-foreground">{description}</p>
       )}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {contactItemDefs.map((info) => {
           const labelText = labels[info.key]
           const displayValue = info.rawVal || (info.valueKey ? labels[info.valueKey] : '')
 
           return (
             <div key={info.key} className="flex items-center space-x-4">
-              <div className="flex-shrink-0 w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400">
+              <div className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-muted text-muted-foreground">
                 {info.icon}
               </div>
               <div>
-                <p className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide font-medium">
+                <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
                   {labelText}
                 </p>
                 {info.link ? (
@@ -119,12 +119,12 @@ export default function ContactInfo({
                     href={info.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors text-sm"
+                    className="text-sm underline-offset-4 hover:underline"
                   >
                     {displayValue}
                   </a>
                 ) : (
-                  <p className="text-gray-900 dark:text-white text-sm">{displayValue}</p>
+                  <p className="text-sm">{displayValue}</p>
                 )}
               </div>
             </div>

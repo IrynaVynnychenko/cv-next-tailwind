@@ -8,7 +8,7 @@ export default function Footer() {
   const t = translations[language].footer
 
   return (
-    <footer className="mt-auto max-w-5xl mx-auto w-full px-6 py-8 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700">
+    <footer className="screen-line-before w-full border-x border-edge px-4 py-8 text-center font-mono text-xs text-muted-foreground">
       {t.text}
     </footer>
   )

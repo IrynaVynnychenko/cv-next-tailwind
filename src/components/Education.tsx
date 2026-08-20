@@ -2,78 +2,49 @@
 
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
+import { Badge, Panel } from './Panel'
 
 export default function Education() {
   const { language } = useLanguage()
   const t = translations[language].education
 
   return (
-    <section id="education" className="pt-4">
-      <div className="border-b border-gray-200 dark:border-gray-700 pb-12">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
-          {t.title}
-        </h2>
-        
-        <div className="space-y-8 mb-10">
-          {t.items.map((edu, index) => (
-            <div key={index} className="relative">
-              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4">
-                <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
-                    {edu.degree}
-                  </h4>
-                  <h5 className="text-base text-gray-600 dark:text-gray-400 mb-3 font-medium">
-                    {edu.institution}
-                  </h5>
-                  <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed text-sm">
-                    {edu.description}
-                  </p>
-                </div>
-                <div className="lg:ml-6 lg:flex-shrink-0">
-                  <span className="inline-block text-sm text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-800 px-3 py-1 rounded-md font-medium">
-                    {edu.period}
-                  </span>
-                </div>
-              </div>
-              
+    <Panel id="education" title={t.title}>
+      <div className="divide-y divide-edge">
+        {t.items.map((edu) => (
+          <div key={`${edu.institution}-${edu.period}`} className="px-4 py-4">
+            <div className="flex items-start justify-between gap-4">
               <div>
-                <h6 className="text-sm font-medium text-gray-900 dark:text-white mb-2">
-                  {t.keyCourses}
-                </h6>
-                <div className="flex flex-wrap gap-2">
-                  {edu.relevantCourses.map((course, idx) => (
-                    <span
-                      key={idx}
-                      className="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs rounded font-medium"
-                    >
-                      {course}
-                    </span>
-                  ))}
-                </div>
+                <h3 className="font-semibold leading-snug">{edu.degree}</h3>
+                <p className="text-sm text-muted-foreground">{edu.institution}</p>
               </div>
+              <span className="shrink-0 font-mono text-xs text-muted-foreground">{edu.period}</span>
             </div>
-          ))}
-        </div>
-
-        <div>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-6">
-            {t.certificationsTitle}
-          </h3>
-          <div className="space-y-4">
-            {t.certifications.map((cert, index) => (
-              <div key={index} className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+            <p className="mt-2 text-sm text-muted-foreground">{edu.description}</p>
+            <ul className="mt-3 flex flex-wrap gap-1.5">
+              {edu.relevantCourses.map((course) => (
+                <li key={course}>
+                  <Badge>{course}</Badge>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+        <div className="px-4 py-4">
+          <h3 className="mb-3 text-sm font-semibold">{t.certificationsTitle}</h3>
+          <div className="space-y-3">
+            {t.certifications.map((cert) => (
+              <div key={cert.name} className="flex items-start justify-between gap-4">
                 <div>
-                  <h4 className="text-base font-medium text-gray-900 dark:text-white">{cert.name}</h4>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">{cert.issuer}</p>
+                  <p className="font-medium">{cert.name}</p>
+                  <p className="text-sm text-muted-foreground">{cert.issuer}</p>
                 </div>
-                <span className="text-sm text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-800 px-3 py-1 rounded-md font-medium w-fit">
-                  {cert.period}
-                </span>
+                <span className="font-mono text-xs text-muted-foreground">{cert.period}</span>
               </div>
             ))}
           </div>
         </div>
       </div>
-    </section>
+    </Panel>
   )
 }

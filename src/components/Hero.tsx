@@ -1,0 +1,72 @@
+'use client'
+
+import Image from 'next/image'
+import { useLanguage } from '@/context/LanguageContext'
+import { translations } from '@/data/translations'
+
+export default function Hero() {
+  const { language } = useLanguage()
+  const t = translations[language]
+
+  return (
+    <div>
+      <div className="pattern-dots screen-line-before screen-line-after flex aspect-[2/1] items-center justify-center border-x border-edge select-none sm:aspect-[3/1]">
+        <div className="font-semibold tracking-tight text-5xl sm:text-6xl">{t.about.title.split(' ')[0]}</div>
+      </div>
+
+      <div className="relative flex border-x border-edge px-3">
+        <div className="shrink-0 border-r border-edge">
+          <div className="mx-0.5 my-1">
+            <Image
+              src="/images/profile-photo.jpg"
+              alt={t.about.title}
+              width={160}
+              height={160}
+              priority
+              className="size-[7.5rem] rounded-full object-cover object-top ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-40"
+            />
+          </div>
+        </div>
+        <div className="flex flex-1 flex-col">
+          <div className="flex grow items-end pb-1 pl-4">
+            <div className="hidden font-mono text-xs text-muted-foreground sm:inline-flex sm:items-center sm:gap-1">
+              <svg className="mr-1 size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 01-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0116 0z"
+                />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              {t.about.location}
+            </div>
+          </div>
+          <div className="border-t border-edge">
+            <div className="flex items-center gap-2 pl-4">
+              <h1 className="-translate-y-px text-2xl font-semibold tracking-tight sm:text-3xl">{t.about.title}</h1>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                className="inline-block size-[1.125rem] select-none text-sky-500"
+                aria-label="Verified"
+                role="img"
+              >
+                <path
+                  fill="currentColor"
+                  d="M24 12a4.454 4.454 0 0 0-2.564-3.91 4.437 4.437 0 0 0-.948-4.578 4.436 4.436 0 0 0-4.577-.948A4.44 4.44 0 0 0 12 0a4.423 4.423 0 0 0-3.9 2.564 4.434 4.434 0 0 0-2.43-.178 4.425 4.425 0 0 0-2.158 1.126 4.42 4.42 0 0 0-1.12 2.156 4.42 4.42 0 0 0 .183 2.421A4.456 4.456 0 0 0 0 12a4.465 4.465 0 0 0 2.576 3.91 4.433 4.433 0 0 0 .936 4.577 4.459 4.459 0 0 0 4.577.95A4.454 4.454 0 0 0 12 24a4.439 4.439 0 0 0 3.91-2.563 4.26 4.26 0 0 0 5.526-5.526A4.453 4.453 0 0 0 24 12Zm-13.709 4.917-4.38-4.378 1.652-1.663 2.646 2.646L15.83 7.4l1.72 1.591-7.258 7.926Z"
+                />
+              </svg>
+            </div>
+            <div className="h-auto border-t border-edge py-1 pl-4 sm:h-9">
+              <p className="font-mono text-sm text-balance text-muted-foreground">{t.header.role}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="pattern-hatch h-8 w-full border-x border-edge" />
+    </div>
+  )
+}

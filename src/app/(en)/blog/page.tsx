@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import SiteFrame from '@/components/SiteFrame'
 import BlogIndex from '@/components/BlogIndex'
 import { getBlogPostsForPage } from '@/data/blog-posts'
 import { BlogSchema } from '@/components/SchemaMarkup'
@@ -17,13 +16,9 @@ export default function BlogPage() {
   const posts = getBlogPostsForPage(1, 'en')
 
   return (
-    <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+    <SiteFrame>
       <BlogSchema posts={posts} lang="en" />
-      <Header />
-      <main className="max-w-5xl mx-auto px-6 py-8 w-full">
         <BlogIndex currentPage={1} />
-      </main>
-      <Footer />
-    </div>
+    </SiteFrame>
   )
 }

@@ -1,38 +1,41 @@
 'use client'
 
-import ContactInfo from './ContactInfo'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
+import { chrome } from '@/data/chrome'
+import { Panel } from './Panel'
+import { UpworkIcon } from './Icons'
 
 export default function Contact() {
   const { language } = useLanguage()
   const t = translations[language].contact
+  const a = translations[language].about
+  const c = chrome[language]
 
   return (
-    <section id="contact" className="pt-4">
-      <div className="pb-12">
-        <div className="flex flex-col lg:flex-row items-start gap-8 mb-6">
-          <div className="flex-1">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
-              {t.title}
-            </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-              {t.subtitle}
-            </p>
-          </div>
+    <Panel id="contact" title={c.workTogether}>
+      <div className="space-y-5 p-4">
+        <p className="text-sm leading-relaxed text-muted-foreground">{c.workTogetherText}</p>
+        <p className="text-sm text-muted-foreground">{t.subtitle}</p>
+        <div className="flex flex-wrap gap-2">
+          <a
+            href="mailto:i.vynnychenko@gmail.com"
+            className="inline-flex items-center gap-2 rounded-md bg-foreground px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90"
+          >
+            {c.getInTouch}
+          </a>
+          <a
+            href="https://www.upwork.com/freelancers/irynavynnychenko"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-md border border-edge px-4 py-2 text-sm font-medium transition-colors hover:bg-accent"
+          >
+            <UpworkIcon className="size-4" />
+            {a.hireMeOnUpwork}
+          </a>
         </div>
-
-        <ContactInfo />
-
-        <div className="mt-8">
-          <h4 className="text-base font-semibold text-gray-900 dark:text-white mb-3">
-            {t.ctaTitle}
-          </h4>
-          <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-            {t.ctaText}
-          </p>
-        </div>
+        <p className="font-mono text-xs text-muted-foreground">i.vynnychenko@gmail.com</p>
       </div>
-    </section>
+    </Panel>
   )
 }

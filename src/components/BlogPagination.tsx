@@ -40,18 +40,18 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
 
   return (
     <nav
-      className="pt-12 flex flex-wrap items-center justify-center gap-2"
+      className="flex flex-wrap items-center justify-center gap-2 border-x border-edge px-4 py-8"
       aria-label={translations[language].a11y.blogPagination}
     >
       {currentPage > 1 ? (
         <Link
           href={getBlogPagePath(currentPage - 1, language)}
-          className="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-lg hover:border-gray-300 dark:hover:border-gray-600 hover:text-gray-900 dark:hover:text-white transition-colors"
+          className="rounded-md border border-edge px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
         >
           ← <span className="hidden sm:inline">{t.previous}</span>
         </Link>
       ) : (
-        <span className="px-3 py-2 text-sm font-medium text-gray-300 dark:text-gray-600 border border-gray-100 dark:border-gray-800 rounded-lg cursor-not-allowed">
+        <span className="cursor-not-allowed rounded-md border border-edge px-3 py-2 text-sm font-medium text-muted-foreground/40">
           ← <span className="hidden sm:inline">{t.previous}</span>
         </span>
       )}
@@ -59,10 +59,7 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
       {pages.map((page, index) => {
         if (page === '...') {
           return (
-            <span
-              key={`ellipsis-${index}`}
-              className="px-3 py-2 text-sm font-medium text-gray-400 dark:text-gray-500"
-            >
+            <span key={`ellipsis-${index}`} className="px-3 py-2 text-sm font-medium text-muted-foreground">
               ...
             </span>
           )
@@ -73,10 +70,10 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
             key={page}
             href={getBlogPagePath(page as number, language)}
             aria-current={page === currentPage ? 'page' : undefined}
-            className={`min-w-10 px-3 py-2 text-sm font-medium text-center rounded-lg transition-colors ${
+            className={`min-w-10 rounded-md px-3 py-2 text-center text-sm font-medium transition-colors ${
               page === currentPage
-                ? 'bg-green-700 text-white dark:bg-green-600'
-                : 'text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 hover:text-gray-900 dark:hover:text-white'
+                ? 'bg-foreground text-background'
+                : 'border border-edge text-muted-foreground hover:bg-accent hover:text-foreground'
             }`}
           >
             {page}
@@ -87,12 +84,12 @@ export default function BlogPagination({ currentPage }: BlogPaginationProps) {
       {currentPage < totalPages ? (
         <Link
           href={getBlogPagePath(currentPage + 1, language)}
-          className="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-lg hover:border-gray-300 dark:hover:border-gray-600 hover:text-gray-900 dark:hover:text-white transition-colors"
+          className="rounded-md border border-edge px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
         >
           <span className="hidden sm:inline">{t.next}</span> →
         </Link>
       ) : (
-        <span className="px-3 py-2 text-sm font-medium text-gray-300 dark:text-gray-600 border border-gray-100 dark:border-gray-800 rounded-lg cursor-not-allowed">
+        <span className="cursor-not-allowed rounded-md border border-edge px-3 py-2 text-sm font-medium text-muted-foreground/40">
           <span className="hidden sm:inline">{t.next}</span> →
         </span>
       )}

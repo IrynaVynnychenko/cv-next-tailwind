@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import SiteFrame from '@/components/SiteFrame'
 import BlogIndex from '@/components/BlogIndex'
 import { getBlogPageCount, getBlogPostsForPage } from '@/data/blog-posts'
 import { BlogSchema } from '@/components/SchemaMarkup'
@@ -45,13 +44,9 @@ export default function BlogPaginatedPage({ params }: BlogPaginatedPageProps) {
   const posts = getBlogPostsForPage(currentPage, 'en')
 
   return (
-    <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+    <SiteFrame>
       <BlogSchema posts={posts} lang="en" />
-      <Header />
-      <main className="max-w-5xl mx-auto px-6 py-8 w-full">
         <BlogIndex currentPage={currentPage} />
-      </main>
-      <Footer />
-    </div>
+    </SiteFrame>
   )
 }

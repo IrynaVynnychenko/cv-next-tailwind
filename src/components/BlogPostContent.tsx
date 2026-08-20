@@ -6,30 +6,22 @@ type BlogPostContentProps = {
 
 export default function BlogPostContent({ sections }: BlogPostContentProps) {
   return (
-    <div className="prose prose-gray dark:prose-invert max-w-none">
+    <div className="max-w-none">
       {sections.map((section, index) => (
         <div key={index} className="mb-8 last:mb-0">
           {section.heading && (
-            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
-              {section.heading}
-            </h2>
+            <h2 className="mb-4 text-xl font-semibold tracking-tight">{section.heading}</h2>
           )}
           {section.paragraphs.map((paragraph, pIndex) => (
-            <p
-              key={pIndex}
-              className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 last:mb-0"
-            >
+            <p key={pIndex} className="mb-4 leading-relaxed text-muted-foreground last:mb-0">
               {paragraph}
             </p>
           ))}
           {section.list && (
-            <ul className="space-y-2 mt-4">
+            <ul className="mt-4 space-y-2">
               {section.list.map((item) => (
-                <li
-                  key={item}
-                  className="text-gray-700 dark:text-gray-300 text-sm flex items-start"
-                >
-                  <span className="mr-2 text-green-600 dark:text-green-400">•</span>
+                <li key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
+                  <span className="mt-2 size-1 shrink-0 rounded-full bg-muted-foreground" />
                   {item}
                 </li>
               ))}

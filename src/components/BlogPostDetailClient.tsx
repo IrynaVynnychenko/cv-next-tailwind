@@ -106,81 +106,69 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
   }
 
   return (
-    <article className="pt-32 pb-12">
-      <Link
-        href={getBlogIndexPath(language)}
-        className="inline-flex items-center text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors mb-8"
-      >
-        {t.backToBlog}
-      </Link>
+    <article className="pt-14">
+      <div className="pattern-hatch h-8 w-full border-x border-edge" />
+      <div className="screen-line-before screen-line-after border-x border-edge p-4">
+        <Link
+          href={getBlogIndexPath(language)}
+          className="mb-6 inline-flex items-center text-sm text-muted-foreground transition-colors hover:text-foreground"
+        >
+          {t.backToBlog}
+        </Link>
 
-      <header className="border-b border-gray-200 dark:border-gray-700 pb-8 mb-8">
-        <div className="flex flex-wrap items-center gap-3 text-xs text-gray-500 dark:text-gray-400 mb-4">
-          <time dateTime={post.date}>{formatDate(post.date, language)}</time>
-          <span>·</span>
-          <span>{post.readTime}</span>
-        </div>
-
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
-          {post.title}
-        </h1>
-
-        <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-          {post.excerpt}
-        </p>
-
-        <div className="flex flex-wrap gap-2">
-          {post.tags.map((tag) => (
-            <span
-              key={tag}
-              className="text-xs px-2.5 py-1 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-      </header>
-
-      <BlogPostContent sections={post.content} />
-
-      {(slug === 'lazy-lead-phenomenon-2026-attraction-strategies' || slug === 'what-is-web-application-modern-guide') && (
-        <div className="mt-12 p-6 rounded-2xl border border-green-500/20 dark:border-green-500/10 bg-green-50/50 dark:bg-green-950/10 backdrop-blur-sm flex flex-col md:flex-row items-center justify-between gap-6 transition-all duration-300 hover:shadow-lg hover:shadow-green-500/5">
-          <div className="flex-1">
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 flex items-center gap-2">
-              <span className="flex h-3 w-3 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-              </span>
-              {slug === 'what-is-web-application-modern-guide'
-                ? ctaCopy.orderApp[language]
-                : ctaCopy.oneClick[language]}
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-              {slug === 'what-is-web-application-modern-guide'
-                ? ctaCopy.orderAppDesc[language]
-                : ctaCopy.oneClickDesc[language]}
-            </p>
+        <header className="mb-8 border-b border-edge pb-8">
+          <div className="mb-4 flex flex-wrap items-center gap-3 font-mono text-xs text-muted-foreground">
+            <time dateTime={post.date}>{formatDate(post.date, language)}</time>
+            <span>·</span>
+            <span>{post.readTime}</span>
           </div>
-          <div className="w-full md:w-auto flex-shrink-0">
+
+          <h1 className="mb-4 text-3xl font-semibold tracking-tight">{post.title}</h1>
+          <p className="mb-4 leading-relaxed text-muted-foreground">{post.excerpt}</p>
+          <div className="flex flex-wrap gap-1.5">
+            {post.tags.map((tag) => (
+              <span key={tag} className="inline-flex h-6 items-center rounded-md bg-muted px-[0.45rem] text-xs font-medium text-muted-foreground">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </header>
+
+        <BlogPostContent sections={post.content} />
+
+        {(slug === 'lazy-lead-phenomenon-2026-attraction-strategies' || slug === 'what-is-web-application-modern-guide') && (
+          <div className="mt-12 flex flex-col items-start justify-between gap-6 border border-edge bg-muted/40 p-5 md:flex-row md:items-center">
+            <div className="flex-1">
+              <h3 className="mb-2 text-lg font-semibold">
+                {slug === 'what-is-web-application-modern-guide'
+                  ? ctaCopy.orderApp[language]
+                  : ctaCopy.oneClick[language]}
+              </h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                {slug === 'what-is-web-application-modern-guide'
+                  ? ctaCopy.orderAppDesc[language]
+                  : ctaCopy.oneClickDesc[language]}
+              </p>
+            </div>
             <a
               href="https://www.upwork.com/freelancers/irynavynnychenko"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full md:w-auto inline-flex items-center justify-center px-6 py-3.5 text-base font-semibold rounded-xl text-white bg-[#14a800] hover:bg-[#129600] active:bg-[#108400] transition-all duration-300 transform hover:scale-[1.03] hover:shadow-lg hover:shadow-green-500/20 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 font-sans"
+              className="inline-flex items-center justify-center rounded-md bg-foreground px-5 py-2.5 text-sm font-medium text-background hover:opacity-90"
             >
               {slug === 'what-is-web-application-modern-guide'
                 ? ctaCopy.orderUpwork[language]
                 : ctaCopy.hireUpwork[language]}
             </a>
           </div>
-        </div>
-      )}
+        )}
 
-      <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
-        <ContactInfo
-          title={ctaCopy.title[language]}
-          description={ctaCopy.desc[language]}
-        />
+        <div className="mt-12 border-t border-edge pt-8">
+          <ContactInfo
+            title={ctaCopy.title[language]}
+            description={ctaCopy.desc[language]}
+          />
+        </div>
       </div>
     </article>
   )

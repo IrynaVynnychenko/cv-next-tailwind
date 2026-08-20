@@ -4,41 +4,120 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #18181b;
+  --muted: #f4f4f5;
+  --muted-foreground: #71717a;
+  --border: #e4e4e7;
+  --edge: color-mix(in srgb, var(--border) 64%, var(--background));
+  --accent: #f4f4f5;
+  --accent-muted: #f4f4f5;
+  --ring: #a1a1aa;
+  --primary: #2563eb;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #09090b;
+  --foreground: #fafafa;
+  --muted: #27272a;
+  --muted-foreground: #a1a1aa;
+  --border: #27272a;
+  --edge: color-mix(in srgb, var(--border) 72%, var(--background));
+  --accent: #27272a;
+  --accent-muted: #18181b;
+  --ring: #52525b;
+  --primary: #38bdf8;
+}
+
+html {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.6;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--primary) 22%, transparent);
+  color: var(--foreground);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-  
-  .prose {
-    max-width: none;
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
-  
-  .prose p {
-    margin-bottom: 1rem;
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
   }
-  
-  .prose-gray {
-    color: #374151;
-  }
-  
-  .dark .prose-invert {
-    color: #d1d5db;
-  }
+}
+
+.screen-line-before,
+.screen-line-after {
+  position: relative;
+}
+
+.screen-line-before::before,
+.screen-line-after::after {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 1px;
+  content: '';
+  background-color: var(--edge);
+  margin-left: calc(50% - 50vw);
+}
+
+.screen-line-before::before {
+  top: -1px;
+}
+
+.screen-line-after::after {
+  bottom: -1px;
+}
+
+.pattern-hatch {
+  position: relative;
+}
+
+.pattern-hatch::before {
+  position: absolute;
+  inset: 0 -100vw;
+  z-index: -1;
+  content: '';
+  background-image: repeating-linear-gradient(
+    315deg,
+    color-mix(in srgb, var(--edge) 56%, transparent) 0,
+    color-mix(in srgb, var(--edge) 56%, transparent) 1px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 10px 10px;
+}
+
+.pattern-dots {
+  background-image: radial-gradient(var(--pattern-dot) 1px, transparent 0);
+  background-size: 10px 10px;
+  background-position: center;
+  --pattern-dot: color-mix(in srgb, var(--foreground) 6%, transparent);
+}
+
+.dark .pattern-dots {
+  --pattern-dot: color-mix(in srgb, var(--foreground) 8%, transparent);
+}
+
+.prose p {
+  margin-bottom: 1rem;
 }

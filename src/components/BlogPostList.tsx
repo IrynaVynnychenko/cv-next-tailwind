@@ -5,6 +5,7 @@ import type { BlogPost } from '@/data/blog-posts'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
 import { getBlogPostPath, LOCALE_TAGS, type Language } from '@/lib/i18n'
+import { Badge } from '@/components/Panel'
 
 function formatDate(dateString: string, lang: Language) {
   return new Date(dateString).toLocaleDateString(LOCALE_TAGS[lang], {
@@ -23,44 +24,33 @@ export default function BlogPostList({ posts }: BlogPostListProps) {
   const t = translations[language].blog
 
   return (
-    <div className="pt-12 space-y-8">
+    <div className="border-x border-edge">
       {posts.map((post) => {
         const postHref = getBlogPostPath(language, post.slug)
 
         return (
-          <article
-            key={post.slug}
-            className="group border border-gray-200 dark:border-gray-700 rounded-lg p-6 hover:border-gray-300 dark:hover:border-gray-600 transition-colors"
-          >
-            <div className="flex flex-wrap items-center gap-3 text-xs text-gray-500 dark:text-gray-400 mb-3">
+          <article key={post.slug} className="border-b border-edge p-4 transition-colors hover:bg-accent-muted">
+            <div className="mb-2 flex flex-wrap items-center gap-3 font-mono text-xs text-muted-foreground">
               <time dateTime={post.date}>{formatDate(post.date, language)}</time>
               <span>·</span>
               <span>{post.readTime}</span>
             </div>
 
-            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 tracking-tight group-hover:text-green-700 dark:group-hover:text-green-400 transition-colors">
-              <Link href={postHref}>{post.title}</Link>
+            <h2 className="mb-2 text-lg font-semibold tracking-tight">
+              <Link href={postHref} className="underline-offset-4 hover:underline">
+                {post.title}
+              </Link>
             </h2>
 
-            <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">
-              {post.excerpt}
-            </p>
+            <p className="mb-3 text-sm leading-relaxed text-muted-foreground">{post.excerpt}</p>
 
-            <div className="flex flex-wrap gap-2 mb-4">
+            <div className="mb-3 flex flex-wrap gap-1.5">
               {post.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="text-xs px-2.5 py-1 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400"
-                >
-                  {tag}
-                </span>
+                <Badge key={tag}>{tag}</Badge>
               ))}
             </div>
 
-            <Link
-              href={postHref}
-              className="text-sm font-medium text-green-700 dark:text-green-400 hover:underline"
-            >
+            <Link href={postHref} className="text-sm font-medium underline-offset-4 hover:underline">
               {t.readMore}
             </Link>
           </article>

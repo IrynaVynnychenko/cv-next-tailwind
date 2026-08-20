@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import SiteFrame from '@/components/SiteFrame'
 import BlogPostDetailClient from '@/components/BlogPostDetailClient'
 import { SetLanguageClient } from '@/components/SetLanguageClient'
 import { getBlogPost, rawBlogPosts } from '@/data/blog-posts'
@@ -41,14 +40,10 @@ export default function DeBlogPostPage({ params }: BlogPostPageProps) {
   const post = getBlogPost(params.slug, 'de')
 
   return (
-    <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+    <SiteFrame>
       {post && <BlogPostingSchema post={post} lang="de" />}
       <SetLanguageClient lang="de" />
-      <Header />
-      <main className="max-w-5xl mx-auto px-6 py-8 w-full">
         <BlogPostDetailClient slug={params.slug} />
-      </main>
-      <Footer />
-    </div>
+    </SiteFrame>
   )
 }
