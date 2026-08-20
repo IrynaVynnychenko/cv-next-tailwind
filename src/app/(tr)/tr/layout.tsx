@@ -4,6 +4,7 @@ import Script from "next/script";
 import "../../globals.css";
 import Providers from "@/components/Providers";
 import ThemeScript from "@/components/ThemeScript";
+import { getOgLocale, getOpenGraphImages, getTwitterImageMetadata } from "@/lib/seo";
 
 const geistSans = localFont({
   src: "../../fonts/GeistVF.woff",
@@ -18,9 +19,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Iryna Vynnychenko | Frontend ve Full-Stack Geliştirici | Next.js, React, Node.js, Yapay Zekâ",
-  description: "Özel CRM ve karmaşık web uygulamalarında uzman Frontend ve Full-Stack Geliştirici. Next.js, React, Node.js, yapay zekâ, API. 4.200+ Upwork saati, 8+ yıl, 100+ yayına alınan proje.",
-  keywords: "Frontend Geliştirici, Full-Stack Geliştirici, React, Next.js, Node.js, TypeScript, özel CRM, yapay zekâ, OpenAI, Prisma, PostgreSQL, Tailwind CSS, Shadcn/ui, GSAP, Ukrayna, Upwork, Türkiye",
+  title: "Iryna Vynnychenko | Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL",
+  description: "Ürün mühendisi: özel CRM’ler, ERP tarzı admin platformları ve kendi Node.js/PostgreSQL backend’ine sahip çok kiracılı SaaS. 4.200+ Upwork saati, %100 Job Success, NDA’ya hazır.",
+  keywords: "Product Engineer, Full-Stack, React, Next.js, Node.js, TypeScript, özel CRM, RBAC, PostgreSQL, Prisma, GraphQL, TanStack Query, OpenAI, AWS, Ukrayna, Upwork, Türkiye",
   authors: [{ name: "Iryna Vynnychenko" }],
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
@@ -37,12 +38,15 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Iryna Vynnychenko | Frontend ve Full-Stack Geliştirici | Next.js, React, Node.js, Yapay Zekâ",
-    description: "4.200+ Upwork saati · 8+ yıl · 100+ yayına alınan proje. Özel CRM, karmaşık web uygulamaları, Next.js / React / Node.js / yapay zekâ.",
+    title: "Iryna Vynnychenko | Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL",
+    description: "Özel CRM, ERP tarzı admin, çok kiracılı SaaS. Next.js + Node.js / PostgreSQL. 4.200+ Upwork saati · %100 Job Success · NDA.",
     url: 'https://vynnychenko.dev/tr/',
-    siteName: 'Iryna Vynnychenko — Frontend ve Full-Stack Geliştirici',
+    siteName: 'Iryna Vynnychenko - Full-Stack Product Engineer',
     type: "website",
+    locale: getOgLocale('tr'),
+    images: getOpenGraphImages(),
   },
+  twitter: getTwitterImageMetadata(),
 };
 
 export default function TrRootLayout({

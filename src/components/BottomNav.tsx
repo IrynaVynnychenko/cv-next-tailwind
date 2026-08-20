@@ -36,7 +36,7 @@ export default function BottomNav() {
   }
 
   return (
-    <nav className="fixed bottom-4 left-1/2 z-50 w-[calc(100%-1.5rem)] max-w-lg -translate-x-1/2">
+    <nav className="fixed top-4 left-1/2 z-50 w-[calc(100%-6.5rem)] max-w-xl -translate-x-1/2 md:w-[calc(100%-2rem)]">
       <div className="flex items-center justify-between gap-1 overflow-x-auto no-scrollbar rounded-full border border-edge bg-background/80 px-2 py-1.5 shadow-lg backdrop-blur-md">
         {items.map((item) => {
           const active = item.id === 'blog' ? isBlog : false

@@ -15,23 +15,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Frontend & Full-Stack Developer',
+      role: 'Full-Stack Product Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Frontend & Full-Stack Developer | Next.js, React, Node.js, AI, APIs',
+      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, internal systems',
       tagline:
-        'Independent Frontend / Full-Stack Developer specializing in custom CRMs and complex web apps with pixel-perfect, mobile-first Next.js/React UIs.',
+        'I ship operational software with domain logic and a backend I own - not marketing sites.',
       fullCycle:
-        'Full-cycle development — from Figma specs to fully functional CRMs & web apps: TypeScript, responsive design, API integrations, CMS support, animations, SEO, and robust optimization.',
+        'End-to-end TypeScript: data models and APIs on Node.js / Prisma / PostgreSQL, then the operator UI in Next.js. Permissions, tenant isolation, integrations with existing services.',
       whyTitle: 'Why Clients Choose Me',
       whyItems: [
-        '8+ years | 4,200+ Upwork hours — reliable, top-rated expertise',
-        'Team player — a dependable frontend partner for backend & ML engineers',
-        'Solo developer (no agency) — 100% accountability, quick check-ins, direct communication, NDA-ready',
-        'Business focus — I build tech that meets product and operational goals',
+        '8+ years in production on long-running product work, not one-off promo pages',
+        'I extend an existing backend or own the Node.js/PostgreSQL layer - not a UI-only handoff',
+        'Direct contractor, NDA-ready, accountable for architecture and delivery',
+        'I start from business rules and data, then build the interface operators actually use',
       ],
-      bio2: `Direct, reliable, and always available for video calls & fast communication — let's build something.`,
+      bio2: 'I work as a senior individual contributor on complex internal products.',
       location: 'Kyiv, Ukraine',
       upworkProfile: 'Upwork Profile',
       linkedinProfile: 'LinkedIn Profile',
@@ -40,7 +40,7 @@ export const translations = {
     },
     skills: {
       title: 'Skills & Expertise',
-      subtitle: 'Core stack for custom CRMs, complex web apps, and full-stack Next.js / Node.js products',
+      subtitle: 'Stack for internal systems: CRMs, admin platforms, and full-stack Next.js + Node.js / PostgreSQL products',
       categories: [
         {
           title: 'Frontend & UI',
@@ -113,7 +113,7 @@ export const translations = {
         },
       ],
       aiTitle: 'AI as a productivity accelerator',
-      aiDesc: 'I leverage AI-assisted development tools (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) to automate repetitive tasks and accelerate setup and refactoring — while retaining full control over technical decisions, architecture, and final code quality.',
+      aiDesc: 'I leverage AI-assisted development tools (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) to automate repetitive tasks and accelerate setup and refactoring - while retaining full control over technical decisions, architecture, and final code quality.',
       aiFooter: 'Faster delivery without sacrificing architecture or quality.',
     },
     experience: {
@@ -126,19 +126,19 @@ export const translations = {
         'Client names and URLs withheld under NDA. Scope: scalable product infrastructure for live SaaS and enterprise platforms.',
       items: [
         {
-          title: 'Frontend Web Developer',
+          title: 'Full-Stack Product Engineer',
           company: 'Upwork',
           period: '2018 - Present',
-          description: 'Freelance frontend & full-stack developer on Upwork — full-cycle development from Figma to live CRMs and web apps. High-performance React/Next.js products with Node.js, AI integrations, and API-driven features. NDA-ready for secure projects and long-term collaboration worldwide.',
+          description: 'Independent product engineer on long-term engagements. Domain modeling, permissions, APIs, and an operational UI that has to hold real business logic - not landings or e-commerce storefronts.',
           achievements: [
-            '4,200+ Upwork hours · 100+ launched projects · 100% Job Success Rate',
-            'Custom CRMs, SaaS dashboards, and complex admin interfaces',
-            'Full-stack Next.js + Node.js: Server Components, Server Actions, API Routes, Prisma/PostgreSQL',
-            'AI features: OpenAI API, Vercel AI SDK, streaming UI (SSE/WebSockets)',
-            'Performance & SEO: Core Web Vitals, SSR/SSG/ISR, i18n, bundle-size reduction',
-            'NDA-ready for secure/confidential corporate & enterprise projects',
+            'Full-stack ownership: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
+            'RBAC, tenant isolation, audit-friendly data flows, tens to thousands of users',
+            'Backend workflows, not screens only: status machines, permissions, integrations with existing APIs, TanStack Query for live operational UIs',
+            'Production systems: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, preview vs production isolation',
+            'Product AI (OpenAI, Vercel AI SDK, SSE/WebSocket streaming) as features inside the system',
+            'NDA-ready for confidential corporate and enterprise products',
           ],
-          technologies: ['TypeScript', 'React', 'Next.js', 'Node.js', 'Python', 'PHP', 'Vue', 'PostgreSQL', 'Prisma', 'TanStack Query', 'Redux', 'Zustand', 'GraphQL', 'Tailwind CSS', 'Shadcn/ui', 'GSAP', 'OpenAI', 'Jest', 'Git'],
+          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Ukrainian Massage School & Training Center',
             'https://niunkina.com/ - Business website for German cosmetologist (Next.js + TailwindCSS)',
@@ -147,36 +147,39 @@ export const translations = {
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Interactive React dashboard built from Figma',
           ],
           ndaProjects: [
-            'Multi-tenant SaaS CRMs and admin platforms on Next.js + PostgreSQL/Prisma — RBAC, isolated data, built to grow from dozens to thousands of users',
+            'Multi-tenant product systems on Next.js + PostgreSQL/Prisma - isolated data, built to grow from dozens to thousands of users',
             'High-traffic delivery: SSR/SSG/ISR, CDN caching (CloudFront / Vercel Edge), code splitting, Core Web Vitals under load',
-            'AWS serverless: S3, CloudFront, Amplify — preview vs production isolation, CI/CD, repeatable deploys',
-            'API backends at scale (Node.js, REST/GraphQL) with TanStack Query — cache, retries, and optimistic UI for live products',
+            'AWS serverless: S3, CloudFront, Amplify - preview vs production isolation, CI/CD, repeatable deploys',
+            'API backends at scale (Node.js, REST/GraphQL) with TanStack Query - cache, retries, and optimistic UI for live products',
           ],
         },
         {
           title: 'Frontend Web Developer',
           company: 'ETNA Network',
           period: 'Apr 2021 - Jul 2022',
-          description: 'Frontend development for a DeFi, gaming, and NFT ecosystem with interconnected products across blockchain and web3.',
+          description: 'Built lightweight, responsive, pixel-perfect UI for a comprehensive Web3/Crypto ecosystem - DeFi, NFT, GameFi, and marketing surfaces - with Alpine.js and Tailwind CSS.',
           achievements: [
-            'Built user-facing interfaces for DeFi and NFT products',
-            'Developed responsive, interactive UI for crypto ecosystem',
-            'Collaborated with cross-functional team on multi-utility platform',
+            'Frontend on Alpine.js and Tailwind CSS: fast load times and a clean component architecture',
+            'DeFi & Utilities: staking platforms, cross-chain bridge (BSC ↔ Polygon/Matic), token sales, and airdrop portals',
+            'NFT & GameFi: marketplace/shop UI, Play-to-Earn web apps, and launch countdown modules',
+            'Marketing: high-converting promo landing pages, performance- and mobile-first',
+            'Close collaboration with designers and blockchain developers for seamless user flows',
           ],
-          technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'Git'],
+          technologies: ['Alpine.js', 'Tailwind CSS', 'JavaScript', 'HTML5', 'SCSS', 'Web3'],
           projects: [],
         },
         {
           title: 'Frontend Web Developer',
           company: 'LexStatus',
           period: 'Feb 2019 - Nov 2020',
-          description: 'Frontend development for a legal services company specializing in real estate documentation and property assessment in Ukraine.',
+          description: 'Developed and maintained corporate websites and marketing landing pages on WordPress and Joomla - with a focus on performance, technical SEO, and conversion.',
           achievements: [
-            'Developed and maintained corporate website and client-facing interfaces',
-            'Implemented responsive layouts for legal services platform',
-            'Worked with design team on pixel-perfect implementations',
+            'Corporate sites and marketing landings on WordPress and Joomla: build, iterate, and keep live',
+            'Web performance, SEO structure, and Core Web Vitals - 95+ Performance on Google PageSpeed Insights',
+            'Responsive, pixel-perfect, mobile-first layouts designed to lift conversions',
+            'On-page technical SEO, analytics tracking, and marketing-tool integrations',
           ],
-          technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'SCSS', 'Bootstrap'],
+          technologies: ['WordPress', 'Joomla', 'HTML5', 'SCSS', 'JavaScript', 'SEO'],
           projects: [],
         },
       ],
@@ -201,7 +204,7 @@ export const translations = {
           relevantCourses: ['JavaScript ES6+', 'DOM Manipulation', 'Async Programming'],
         },
         {
-          degree: 'HTML, CSS, jQuery — Front End Engineer',
+          degree: 'HTML, CSS, jQuery - Front End Engineer',
           institution: 'freeCodeCamp',
           period: '2018 - 2019',
           description: 'Self-paced frontend development curriculum with hands-on projects.',
@@ -218,8 +221,8 @@ export const translations = {
     },
     testimonials: {
       title: 'Client Testimonials',
-      jobSuccess: '100% Job Success Rate on Upwork',
-      stats: '4,200+ Upwork hours · 100+ launched projects',
+      jobSuccess: 'Upwork profile',
+      stats: 'Independent contractor since 2018',
       items: [
         {
           text: 'Iryna turned our Figma design into a live page flawlessly and ahead of schedule.',
@@ -273,7 +276,7 @@ export const translations = {
       items: [
         {
           q: 'What is your typical project workflow?',
-          a: 'My workflow is direct and transparent: we start with requirements gathering and Figma review, followed by milestone planning, iterative development with daily updates, QA testing, and finally, deployment to Vercel/AWS. You work directly with me — no middle managers.',
+          a: 'We start from the domain: business rules, data model, existing APIs. Then architecture, milestones, iterative delivery with daily updates, QA, and deploy to Vercel/AWS. You work with me directly - no middle managers.',
         },
         {
           q: 'Do you work under NDA (Non-Disclosure Agreement)?',
@@ -281,7 +284,7 @@ export const translations = {
         },
         {
           q: 'Which technologies do you specialize in?',
-          a: 'I specialize in Next.js, React, TypeScript, Node.js, and API-driven products — including custom CRMs, Tailwind CSS / Shadcn/ui, state management (Zustand, Redux, React Query), PostgreSQL/Prisma, and AI integrations (OpenAI, Vercel AI SDK). I also ship full-stack solutions with Server Actions and streaming UI.',
+          a: 'TypeScript end-to-end: Next.js operator UIs plus Node.js / PostgreSQL / Prisma backends. RBAC, multi-tenant isolation, GraphQL/REST, TanStack Query for live operational screens. Product AI (OpenAI, Vercel AI SDK) when it is a system feature, not a demo.',
         },
         {
           q: 'How do we get started?',
@@ -299,27 +302,27 @@ export const translations = {
             'Performance: Auditing legacy code, cutting bundle sizes, and maximizing page speed.',
             'Design Systems: Building reusable, accessible (a11y) UI kits for complex apps.',
             'Full-Stack Debugging: Tracking down and fixing production issues across frontend & backend.',
-            'AI-Powered Backend & Agentic Engineering (Node, Python, PHP): Applying agentic engineering practices — using Cursor & Claude to handle implementation under clear human guidance and test coverage to deliver secure APIs, backend logic, and automated workflows.',
+            'AI-Powered Backend & Agentic Engineering (Node, Python, PHP): Applying agentic engineering practices - using Cursor & Claude to handle implementation under clear human guidance and test coverage to deliver secure APIs, backend logic, and automated workflows.',
           ],
         },
         {
           q: 'What do you build?',
           a: 'Available for end-to-end development or jumping in at any stage:',
           list: [
-            'MVPs, custom CRMs, SaaS, and complex admin dashboards.',
-            'FinTech, real estate platforms, and secure transaction flows.',
-            'High-load, SEO-optimized software & web applications.',
+            'Operator tools and internal platforms with their own backends.',
+            'Domain logic: permissions, status workflows, integrations with existing APIs.',
+            'Long-running product work under NDA - not marketing landings or e-commerce storefronts.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko — Frontend & Full-Stack Developer',
+      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
     },
     blog: {
-      headerTag: 'Frontend & Full-Stack Developer · Insights for Clients',
+      headerTag: 'Full-Stack Product Engineer · Notes on building internal systems',
       title: 'Blog',
-      description: 'Practical articles on performance, technology choices, and working with a freelance frontend & full-stack developer — so you can make confident decisions for your project.',
+      description: 'Practical notes on product engineering: Next.js, Node.js, data models, and shipping operational software - so you can decide with a clear technical picture.',
       readMore: 'Read article →',
       backToBlog: '← Back to Blog',
       previous: 'Previous',
@@ -347,23 +350,23 @@ export const translations = {
     },
     header: {
       name: 'Ірина Винниченко',
-      role: 'Frontend & Full-Stack розробниця',
+      role: 'Full-Stack Product Engineer',
     },
     about: {
       title: 'Ірина Винниченко',
-      subtitle: 'Frontend & Full-Stack Developer | Next.js, React, Node.js, AI, APIs',
+      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, внутрішні системи',
       tagline:
-        'Незалежна Frontend / Full-Stack розробниця: кастомні CRM і складні вебзастосунки з точним, mobile-first інтерфейсом на Next.js і React.',
+        'Роблю операційне ПЗ зі складною доменною логікою та власним бекендом - не маркетингові сайти.',
       fullCycle:
-        'Повний цикл — від макетів Figma до робочих CRM і вебзастосунків: TypeScript, адаптивний дизайн, інтеграції API, CMS, анімації, SEO та ґрунтовна оптимізація.',
+        'TypeScript на всьому шляху: моделі даних і API на Node.js / Prisma / PostgreSQL, далі операційний UI на Next.js. Права доступу, мульти-тенантна ізоляція, інтеграції з існуючими сервісами.',
       whyTitle: 'Чому клієнти обирають мене',
       whyItems: [
-        '8+ років | 4 200+ годин на Upwork — стабільна експертиза з найвищим рейтингом',
-        'Легко працюю в команді — надійна frontend-партнерка для backend- і ML-інженерів',
-        'Працюю самостійно, без агенції — повна відповідальність, швидкий фідбек, прямий зв’язок, готова до NDA',
-        'Думаю бізнесом — роблю технології під продуктові та операційні цілі',
+        '8+ років у прод на довгих продуктових замовленнях, не на разових промо-сторінках',
+        'Можу розвивати існуючий бекенд або вести шар Node.js/PostgreSQL сама - не лише верстку з макета',
+        'Прямий підрядник, готова до NDA, відповідаю за архітектуру і здачу',
+        'Починаю з бізнес-правил і даних, потім збираю інтерфейс, яким користуються оператори',
       ],
-      bio2: `Пряма, надійна і завжди на зв’язку для відеодзвінків — давайте щось збудуємо.`,
+      bio2: 'Працюю як senior IC на складних внутрішніх продуктах.',
       location: 'Київ, Україна',
       upworkProfile: 'Профіль на Upwork',
       linkedinProfile: 'Профіль на LinkedIn',
@@ -372,7 +375,7 @@ export const translations = {
     },
     skills: {
       title: 'Навички та експертиза',
-      subtitle: 'Стек для кастомних CRM, складних вебзастосунків і full-stack продуктів на Next.js / Node.js',
+      subtitle: 'Стек для внутрішніх систем: CRM, адмін-платформи та full-stack продукти на Next.js + Node.js / PostgreSQL',
       categories: [
         {
           title: 'Frontend і UI',
@@ -445,8 +448,8 @@ export const translations = {
         },
       ],
       aiTitle: 'ШІ, який прискорює роботу',
-      aiDesc: 'Користуюсь інструментами розробки з підтримкою ШІ (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini): автоматизую рутину, швидше піднімаю проєкт і рефакторю — але технічні рішення, архітектуру та якість коду залишаю за собою.',
-      aiFooter: 'Швидше здаю проєкти — без компромісів щодо архітектури чи якості.',
+      aiDesc: 'Користуюсь інструментами розробки з підтримкою ШІ (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini): автоматизую рутину, швидше піднімаю проєкт і рефакторю - але технічні рішення, архітектуру та якість коду залишаю за собою.',
+      aiFooter: 'Швидше здаю проєкти - без компромісів щодо архітектури чи якості.',
     },
     experience: {
       title: 'Досвід роботи',
@@ -455,60 +458,63 @@ export const translations = {
       keyProjects: 'Ключові проєкти:',
       ndaProjects: 'NDA-проєкти:',
       ndaProjectsNote:
-        'Назви клієнтів і посилання не розкриваю за NDA. Фокус — масштабована інфраструктура живих SaaS- і enterprise-платформ.',
+        'Назви клієнтів і посилання не розкриваю за NDA. Фокус - масштабована інфраструктура живих SaaS- і enterprise-платформ.',
       items: [
         {
-          title: 'Frontend Web Developer',
+          title: 'Full-Stack Product Engineer',
           company: 'Upwork',
           period: '2018 - Дотепер',
-          description: 'Frontend і full-stack фрилансерка на Upwork: повний цикл від Figma до живих CRM і вебзастосунків. Швидкі продукти на React/Next.js з Node.js, інтеграціями ШІ та функціями через API. Готова до NDA, безпечних проєктів і довгострокової співпраці з клієнтами по всьому світу.',
+          description: 'Незалежна продуктова інженерка на довгих контрактах. У фокусі - доменна модель, права доступу, API й операційний UI зі справжньою бізнес-логікою, не лендинги й не вітрини e-commerce.',
           achievements: [
-            '4 200+ годин на Upwork · 100+ запущених проєктів · 100% Job Success Rate',
-            'Кастомні CRM, SaaS-дашборди та складні адмін-панелі',
-            'Full-stack Next.js + Node.js: Server Components, Server Actions, API Routes, Prisma/PostgreSQL',
-            'Функції на ШІ: OpenAI API, Vercel AI SDK, streaming UI (SSE/WebSockets)',
-            'Швидкість і SEO: Core Web Vitals, SSR/SSG/ISR, i18n, менший бандл',
-            'Готова працювати під NDA — у тому числі з корпоративними та конфіденційними проєктами',
+            'Повний стек: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
+            'RBAC, ізоляція тенантів, auditable потоки даних, від десятків до тисяч користувачів',
+            'Бекенд-воркфлоу, не лише екрани: статусні машини, права, інтеграції з існуючими API, TanStack Query для живого операційного UI',
+            'Прод: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, ізоляція preview і production',
+            'AI всередині продукту (OpenAI, Vercel AI SDK, SSE/WebSocket streaming) як фічі системи',
+            'Готова до NDA на корпоративних і enterprise-продуктах',
           ],
-          technologies: ['TypeScript', 'React', 'Next.js', 'Node.js', 'Python', 'PHP', 'Vue', 'PostgreSQL', 'Prisma', 'TanStack Query', 'Redux', 'Zustand', 'GraphQL', 'Tailwind CSS', 'Shadcn/ui', 'GSAP', 'OpenAI', 'Jest', 'Git'],
+          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
-            'https://massageschool.com.ua/ — українська школа масажу та навчальний центр',
-            'https://niunkina.com/ — сайт для косметологині в Німеччині (Next.js + Tailwind CSS)',
-            'https://plowguys.com/ — сайт компанії зі снігоприбирання (Webflow)',
-            'https://franchise.plowguys.com/ — лендинг франшизи зі сніго- та льодоуправління',
-            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ — інтерактивний React-дашборд за макетом Figma',
+            'https://massageschool.com.ua/ - українська школа масажу та навчальний центр',
+            'https://niunkina.com/ - сайт для косметологині в Німеччині (Next.js + Tailwind CSS)',
+            'https://plowguys.com/ - сайт компанії зі снігоприбирання (Webflow)',
+            'https://franchise.plowguys.com/ - лендинг франшизи зі сніго- та льодоуправління',
+            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - інтерактивний React-дашборд за макетом Figma',
           ],
           ndaProjects: [
-            'Мульти-тенантні SaaS-CRM і адмін-платформи на Next.js + PostgreSQL/Prisma — RBAC, ізоляція даних, розраховані на ріст від десятків до тисяч користувачів',
+            'Мульти-тенантні продуктові системи на Next.js + PostgreSQL/Prisma - ізоляція даних, розраховані на ріст від десятків до тисяч користувачів',
             'Високонавантажена віддача: SSR/SSG/ISR, CDN-кеш (CloudFront / Vercel Edge), code splitting, Core Web Vitals під навантаженням',
-            'AWS serverless: S3, CloudFront, Amplify — ізоляція preview і production, CI/CD, повторювані деплої',
-            'API-бекенди в масштабі (Node.js, REST/GraphQL) з TanStack Query — кеш, ретраї та optimistic UI для живих продуктів',
+            'AWS serverless: S3, CloudFront, Amplify - ізоляція preview і production, CI/CD, повторювані деплої',
+            'API-бекенди в масштабі (Node.js, REST/GraphQL) з TanStack Query - кеш, ретраї та optimistic UI для живих продуктів',
           ],
         },
         {
           title: 'Frontend Web Developer',
           company: 'ETNA Network',
           period: 'Кві 2021 - Лип 2022',
-          description: 'Frontend для екосистеми DeFi, геймінгу та NFT — лінійка пов’язаних продуктів на блокчейні та web3.',
+          description: 'Легкі, адаптивні, pixel-perfect інтерфейси для Web3/криптоекосистеми - DeFi, NFT, GameFi та маркетингові лендинги - на Alpine.js і Tailwind CSS.',
           achievements: [
-            'Інтерфейси для DeFi- та NFT-продуктів',
-            'Адаптивний, інтерактивний UI для криптоекосистеми',
-            'Робота в крос-функціональній команді над багатосервісною платформою',
+            'Frontend на Alpine.js і Tailwind CSS: швидке завантаження та чиста компонентна архітектура',
+            'DeFi & Utilities: стейкінг, кросчейн-міст (BSC ↔ Polygon/Matic), токенсейли та аірдроп-портали',
+            'NFT & GameFi: UI маркетплейсу/магазину, Play-to-Earn вебзастосунки та модулі зворотного відліку запуску',
+            'Маркетинг: промо-лендинги з високою конверсією, оптимізовані під швидкість і мобільні',
+            'Тісна робота з дизайнерами та блокчейн-розробниками над безшовними користувацькими флоу',
           ],
-          technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'Git'],
+          technologies: ['Alpine.js', 'Tailwind CSS', 'JavaScript', 'HTML5', 'SCSS', 'Web3'],
           projects: [],
         },
         {
           title: 'Frontend Web Developer',
           company: 'LexStatus',
           period: 'Лют 2019 - Лис 2020',
-          description: 'Frontend для юридичної компанії: документація з нерухомості та оцінка майна в Україні.',
+          description: 'Корпоративні сайти та маркетингові лендинги на WordPress і Joomla - з фокусом на швидкість, технічне SEO і конверсію.',
           achievements: [
-            'Корпоративний сайт і клієнтські інтерфейси — розробка та підтримка',
-            'Адаптивна верстка юридичної платформи',
-            'Сумісна робота з дизайнерами: макети втілювала піксель у піксель',
+            'Корпоративні сайти та промо-лендинги на WordPress і Joomla: розробка, ітерації, підтримка в проді',
+            'Швидкість, SEO-структура та Core Web Vitals - 95+ Performance у Google PageSpeed Insights',
+            'Адаптивні, pixel-perfect, mobile-first макети під зростання конверсії',
+            'On-page технічне SEO, аналітика та інтеграція маркетингових інструментів',
           ],
-          technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'SCSS', 'Bootstrap'],
+          technologies: ['WordPress', 'Joomla', 'HTML5', 'SCSS', 'JavaScript', 'SEO'],
           projects: [],
         },
       ],
@@ -533,7 +539,7 @@ export const translations = {
           relevantCourses: ['JavaScript ES6+', 'DOM Manipulation', 'Async Programming'],
         },
         {
-          degree: 'HTML, CSS, jQuery — Front End Engineer',
+          degree: 'HTML, CSS, jQuery - Front End Engineer',
           institution: 'freeCodeCamp',
           period: '2018 - 2019',
           description: 'Самостійний курс frontend-розробки з практичними проєктами.',
@@ -550,11 +556,11 @@ export const translations = {
     },
     testimonials: {
       title: 'Відгуки клієнтів',
-      jobSuccess: '100% Job Success Rate на Upwork',
-      stats: '4 200+ годин на Upwork · 100+ запущених проєктів',
+      jobSuccess: 'Профіль на Upwork',
+      stats: 'Незалежна підрядниця з 2018',
       items: [
         {
-          text: 'Ірина бездоганно перетворила наш дизайн із Figma на живий сайт — і здала раніше за дедлайн.',
+          text: 'Ірина бездоганно перетворила наш дизайн із Figma на живий сайт - і здала раніше за дедлайн.',
           author: 'Клієнт',
           project: 'З Figma на живий сайт',
         },
@@ -585,7 +591,7 @@ export const translations = {
       subtitle: 'Є питання або ідея для проєкту? Пишіть! 💬',
       infoTitle: 'Контакти',
       ctaTitle: 'Працюймо разом!',
-      ctaText: 'Завжди відкрита до нових проєктів. Якщо є питання або просто хочете привітатися — пишіть, не вагайтеся.',
+      ctaText: 'Завжди відкрита до нових проєктів. Якщо є питання або просто хочете привітатися - пишіть, не вагайтеся.',
       labels: {
         email: 'Email',
         location: 'Місто',
@@ -605,7 +611,7 @@ export const translations = {
       items: [
         {
           q: 'Як зазвичай виглядає робота над проєктом?',
-          a: 'Все просто й прозоро: збираємо вимоги, розбираємо макети Figma, плануємо етапи, розробляємо з щоденними апдейтами, перевіряємо якість і деплоїмо на Vercel або AWS. Ви працюєте напряму зі мною — без посередників.',
+          a: 'Починаємо з домену: бізнес-правила, модель даних, існуючі API. Далі архітектура, етапи, ітеративна здача з щоденними апдейтами, QA і деплой на Vercel/AWS. Ви працюєте напряму зі мною - без посередників.',
         },
         {
           q: 'Чи працюєте ви за NDA?',
@@ -613,11 +619,11 @@ export const translations = {
         },
         {
           q: 'На яких технологіях ви спеціалізуєтесь?',
-          a: 'Next.js, React, TypeScript, Node.js і продукти на API — зокрема кастомні CRM, Tailwind CSS / Shadcn/ui, стейт (Zustand, Redux, React Query), PostgreSQL/Prisma та інтеграції ШІ (OpenAI, Vercel AI SDK). Також роблю full-stack рішення з Server Actions і streaming UI.',
+          a: 'TypeScript на всьому шляху: операційний UI на Next.js і бекенд на Node.js / PostgreSQL / Prisma. RBAC, мульти-тенантна ізоляція, GraphQL/REST, TanStack Query для живих операційних екранів. AI в продукті (OpenAI, Vercel AI SDK), коли це фіча системи, а не демо.',
         },
         {
           q: 'Як почати співпрацю?',
-          a: 'Можемо зізвонитись або переписатись в Upwork, Telegram чи WhatsApp і обговорити обсяг. Коли вимоги зрозумілі — даю фіксовану оцінку або стартуємо погодинно.',
+          a: 'Можемо зізвонитись або переписатись в Upwork, Telegram чи WhatsApp і обговорити обсяг. Коли вимоги зрозумілі - даю фіксовану оцінку або стартуємо погодинно.',
         },
         {
           q: 'Чи працюєте ви з українськими компаніями як ФОП?',
@@ -627,31 +633,31 @@ export const translations = {
           q: 'Чим ви корисні бізнесу?',
           a: 'Архітектура й MVP, швидкість, дизайн-системи, дебаг на всьому стеку та бекенд зі ШІ.',
           list: [
-            'Архітектура й MVP: скоуп і запуск масштабованих вебпродуктів — від нуля до продакшену.',
+            'Архітектура й MVP: скоуп і запуск масштабованих вебпродуктів - від нуля до продакшену.',
             'Швидкість: аудит легасі, менший бандл, максимальна швидкість сторінок.',
             'Дизайн-системи: багаторазові, доступні (a11y) UI-кити для складних застосунків.',
             'Full-stack дебаг: знаходжу й закриваю продакшен-баги на фронті й бекенді.',
-            'Бекенд зі ШІ та agentic engineering (Node, Python, PHP): Cursor і Claude під чітким людським контролем і з тестами — безпечні API, бекенд-логіка, автоматизовані процеси.',
+            'Бекенд зі ШІ та agentic engineering (Node, Python, PHP): Cursor і Claude під чітким людським контролем і з тестами - безпечні API, бекенд-логіка, автоматизовані процеси.',
           ],
         },
         {
           q: 'Що ви розробляєте?',
           a: 'Можу зробити «під ключ» або підключитися на будь-якому етапі:',
           list: [
-            'MVP, кастомні CRM, SaaS і складні адмін-панелі.',
-            'FinTech, платформи нерухомості та безпечні платіжні сценарії.',
-            'Високонавантажене, SEO-оптимізоване ПЗ і вебзастосунки.',
+            'Операторські інструменти й внутрішні платформи з власним бекендом.',
+            'Доменна логіка: права доступу, статусні воркфлоу, інтеграції з існуючими API.',
+            'Довгі продуктові замовлення під NDA - не маркетингові лендинги й не вітрини e-commerce.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Ірина Винниченко — Frontend & Full-Stack розробниця',
+      text: '© 2026 Ірина Винниченко - Full-Stack Product Engineer'
     },
     blog: {
-      headerTag: 'Frontend & Full-Stack розробниця · корисне для клієнтів',
+      headerTag: 'Full-Stack Product Engineer · нотатки про внутрішні системи',
       title: 'Блог',
-      description: 'Практичні статті про швидкість сайтів, вибір технологій і роботу з фриланс frontend & full-stack розробницею — щоб ви впевнено приймали рішення щодо проєкту.',
+      description: 'Практичні нотатки про продуктову інженерію: Next.js, Node.js, моделі даних і поставку операційного ПЗ - щоб рішення були технічно зрозумілі.',
       readMore: 'Читати статтю →',
       backToBlog: '← Назад до блогу',
       previous: 'Попередня',
@@ -679,23 +685,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Frontend- & Full-Stack-Entwicklerin',
+      role: 'Full-Stack Product Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Frontend- & Full-Stack-Entwicklerin | Next.js, React, Node.js, AI, APIs',
+      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, interne Systeme',
       tagline:
-        'Selbstständige Frontend-/Full-Stack-Entwicklerin für Custom-CRMs und komplexe Web-Apps — mit pixelgenauem, mobile-first UI in Next.js und React.',
+        'Ich liefere operative Software mit Domänenlogik und eigenem Backend - keine Marketing-Sites.',
       fullCycle:
-        'Vom Figma-Entwurf bis zur fertigen CRM- oder Web-App: TypeScript, responsives Design, API-Anbindungen, CMS, Animationen, SEO und solide Performance.',
+        'TypeScript durchgängig: Datenmodelle und APIs mit Node.js / Prisma / PostgreSQL, danach die Operator-UI in Next.js. Rechte, Multi-Tenant-Isolation, Anbindung bestehender Services.',
       whyTitle: 'Warum Kundinnen und Kunden mich beauftragen',
       whyItems: [
-        '8+ Jahre | 4.200+ Upwork-Stunden — zuverlässige Expertise mit Top-Bewertung',
-        'Teamfähig — eine verlässliche Frontend-Partnerin für Backend- und ML-Engineers',
-        'Allein unterwegs, keine Agentur — volle Verantwortung, schnelles Feedback, direkte Abstimmung, NDA kein Problem',
-        'Business im Blick — ich baue Technik, die Produkt- und Betriebsziele trifft',
+        '8+ Jahre Produktion an langfristiger Produktarbeit, nicht an einmaligen Promo-Seiten',
+        'Ich erweitere ein bestehendes Backend oder verantworte die Node.js/PostgreSQL-Schicht - kein reines UI-Handoff',
+        'Direkte Auftragnehmerin, NDA-fähig, verantwortlich für Architektur und Lieferung',
+        'Ich starte bei Geschäftsregeln und Daten, dann baue ich die Oberfläche, die Operatoren wirklich nutzen',
       ],
-      bio2: 'Direkt, zuverlässig und für Video-Calls immer erreichbar — lassen Sie uns etwas bauen.',
+      bio2: 'Ich arbeite als Senior-IC an komplexen internen Produkten.',
       location: 'Kiew, Ukraine',
       upworkProfile: 'Upwork-Profil',
       linkedinProfile: 'LinkedIn-Profil',
@@ -704,7 +710,7 @@ export const translations = {
     },
     skills: {
       title: 'Kompetenzen & Schwerpunkte',
-      subtitle: 'Der Stack für Custom-CRMs, komplexe Web-Apps und Full-Stack-Produkte mit Next.js / Node.js',
+      subtitle: 'Der Stack für interne Systeme: CRMs, Admin-Plattformen und Full-Stack-Produkte mit Next.js + Node.js / PostgreSQL',
       categories: [
         {
           title: 'Frontend & UI',
@@ -778,7 +784,7 @@ export const translations = {
       ],
       aiTitle: 'KI, die die Arbeit beschleunigt',
       aiDesc:
-        'Ich nutze KI-gestützte Tools (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini), um Routine zu automatisieren und Setup sowie Refactoring zu beschleunigen — Entscheidungen zu Technik, Architektur und Codequalität treffe ich selbst.',
+        'Ich nutze KI-gestützte Tools (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini), um Routine zu automatisieren und Setup sowie Refactoring zu beschleunigen - Entscheidungen zu Technik, Architektur und Codequalität treffe ich selbst.',
       aiFooter: 'Schneller liefern, ohne bei Architektur oder Qualität nachzulassen.',
     },
     experience: {
@@ -791,40 +797,20 @@ export const translations = {
         'Kundennamen und URLs unter NDA. Fokus: skalierbare Produktinfrastruktur für Live-SaaS- und Enterprise-Plattformen.',
       items: [
         {
-          title: 'Frontend Web Developer',
+          title: 'Full-Stack Product Engineer',
           company: 'Upwork',
           period: '2018 - heute',
           description:
-            'Freelance Frontend- und Full-Stack-Entwicklerin auf Upwork — vom Figma-File bis zur live CRM oder Web-App. Performante React/Next.js-Produkte mit Node.js, KI-Anbindungen und API-Features. NDA möglich, langfristige Zusammenarbeit weltweit.',
+            'Unabhängige Product Engineerin auf langen Engagements. Scope ist Domänenmodell, Rechte, APIs und eine operative UI mit echter Business-Logik - keine Landings, kein E-Commerce-Storefront.',
           achievements: [
-            '4.200+ Upwork-Stunden · 100+ veröffentlichte Projekte · 100 % Job Success Rate',
-            'Custom-CRMs, SaaS-Dashboards und komplexe Admin-Oberflächen',
-            'Full-Stack Next.js + Node.js: Server Components, Server Actions, API Routes, Prisma/PostgreSQL',
-            'KI-Features: OpenAI API, Vercel AI SDK, Streaming-UI (SSE/WebSockets)',
-            'Performance & SEO: Core Web Vitals, SSR/SSG/ISR, i18n, kleinere Bundles',
-            'NDA für vertrauliche Corporate- und Enterprise-Projekte',
+            'Full-Stack-Verantwortung: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
+            'RBAC, Tenant-Isolation, auditierbare Datenflüsse, Dutzende bis Tausende Nutzer',
+            'Backend-Workflows, nicht nur Screens: Statusmaschinen, Rechte, Anbindung bestehender APIs, TanStack Query für operative UIs',
+            'Produktion: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, Preview vs. Production',
+            'Produkt-KI (OpenAI, Vercel AI SDK, SSE/WebSocket-Streaming) als System-Features',
+            'NDA-fähig für vertrauliche Corporate- und Enterprise-Produkte',
           ],
-          technologies: [
-            'TypeScript',
-            'React',
-            'Next.js',
-            'Node.js',
-            'Python',
-            'PHP',
-            'Vue',
-            'PostgreSQL',
-            'Prisma',
-            'TanStack Query',
-            'Redux',
-            'Zustand',
-            'GraphQL',
-            'Tailwind CSS',
-            'Shadcn/ui',
-            'GSAP',
-            'OpenAI',
-            'Jest',
-            'Git',
-          ],
+          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Ukrainische Massageschule und Trainingszentrum',
             'https://niunkina.com/ - Website für eine Kosmetologin in Deutschland (Next.js + Tailwind CSS)',
@@ -833,10 +819,10 @@ export const translations = {
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Interaktives React-Dashboard nach Figma',
           ],
           ndaProjects: [
-            'Multi-Tenant-SaaS-CRMs und Admin-Plattformen mit Next.js + PostgreSQL/Prisma — RBAC, Datenisolation, ausgelegt auf Wachstum von Dutzenden auf Tausende Nutzer',
+            'Multi-Tenant-Produktsysteme mit Next.js + PostgreSQL/Prisma - Datenisolation, ausgelegt auf Wachstum von Dutzenden auf Tausende Nutzer',
             'High-Traffic-Auslieferung: SSR/SSG/ISR, CDN-Caching (CloudFront / Vercel Edge), Code Splitting, Core Web Vitals unter Last',
-            'AWS Serverless: S3, CloudFront, Amplify — Isolation von Preview und Production, CI/CD, wiederholbare Deploys',
-            'API-Backends im Maßstab (Node.js, REST/GraphQL) mit TanStack Query — Cache, Retries und Optimistic UI für Live-Produkte',
+            'AWS Serverless: S3, CloudFront, Amplify - Isolation von Preview und Production, CI/CD, wiederholbare Deploys',
+            'API-Backends im Maßstab (Node.js, REST/GraphQL) mit TanStack Query - Cache, Retries und Optimistic UI für Live-Produkte',
           ],
         },
         {
@@ -844,13 +830,15 @@ export const translations = {
           company: 'ETNA Network',
           period: 'Apr 2021 - Jul 2022',
           description:
-            'Frontend für ein DeFi-, Gaming- und NFT-Ökosystem mit verbundenen Produkten in Blockchain und Web3.',
+            'Leichtgewichtige, responsive, pixelgenaue UI für ein Web3/Krypto-Ökosystem - DeFi, NFT, GameFi und Marketing - mit Alpine.js und Tailwind CSS.',
           achievements: [
-            'Oberflächen für DeFi- und NFT-Produkte',
-            'Responsives, interaktives UI für das Krypto-Ökosystem',
-            'Zusammenarbeit im cross-funktionalen Team an einer Multi-Utility-Plattform',
+            'Frontend mit Alpine.js und Tailwind CSS: schnelle Ladezeiten und klare Komponentenarchitektur',
+            'DeFi & Utilities: Staking, Cross-Chain-Bridge (BSC ↔ Polygon/Matic), Token Sales und Airdrop-Portale',
+            'NFT & GameFi: Marketplace-/Shop-UI, Play-to-Earn-Web-Apps und Launch-Countdown-Module',
+            'Marketing: conversionstarke Promo-Landings, performance- und mobile-first',
+            'Enge Zusammenarbeit mit Design und Blockchain-Entwicklung für nahtlose User Flows',
           ],
-          technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'Git'],
+          technologies: ['Alpine.js', 'Tailwind CSS', 'JavaScript', 'HTML5', 'SCSS', 'Web3'],
           projects: [],
         },
         {
@@ -858,13 +846,14 @@ export const translations = {
           company: 'LexStatus',
           period: 'Feb 2019 - Nov 2020',
           description:
-            'Frontend für ein Legal-Services-Unternehmen mit Fokus auf Immobiliendokumentation und -bewertung in der Ukraine.',
+            'Corporate Websites und Marketing-Landings mit WordPress und Joomla - Fokus auf Performance, technisches SEO und Conversion.',
           achievements: [
-            'Corporate Website und kundennahe Interfaces entwickelt und betreut',
-            'Responsive Layouts für die Plattform umgesetzt',
-            'Pixelgenaue Umsetzung gemeinsam mit dem Design-Team',
+            'Corporate Sites und Promo-Landings in WordPress und Joomla: Aufbau, Iteration, Live-Betrieb',
+            'Web-Performance, SEO-Struktur und Core Web Vitals - 95+ Performance in Google PageSpeed Insights',
+            'Responsive, pixelgenaue, mobile-first Layouts für höhere Conversion',
+            'Technisches On-Page-SEO, Analytics-Tracking und Integration von Marketing-Tools',
           ],
-          technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'SCSS', 'Bootstrap'],
+          technologies: ['WordPress', 'Joomla', 'HTML5', 'SCSS', 'JavaScript', 'SEO'],
           projects: [],
         },
       ],
@@ -889,7 +878,7 @@ export const translations = {
           relevantCourses: ['JavaScript ES6+', 'DOM Manipulation', 'Async Programming'],
         },
         {
-          degree: 'HTML, CSS, jQuery — Front End Engineer',
+          degree: 'HTML, CSS, jQuery - Front End Engineer',
           institution: 'freeCodeCamp',
           period: '2018 - 2019',
           description: 'Frontend-Curriculum im eigenen Tempo, mit Praxisprojekten.',
@@ -906,8 +895,8 @@ export const translations = {
     },
     testimonials: {
       title: 'Kundenstimmen',
-      jobSuccess: '100 % Job Success Rate auf Upwork',
-      stats: '4.200+ Upwork-Stunden · 100+ veröffentlichte Projekte',
+      jobSuccess: 'Upwork-Profil',
+      stats: 'Unabhängige Auftragnehmerin seit 2018',
       items: [
         {
           text: 'Iryna hat unser Figma-Design fehlerfrei und vor dem Termin in eine Live-Seite verwandelt.',
@@ -942,7 +931,7 @@ export const translations = {
       infoTitle: 'Kontakt',
       ctaTitle: 'Lassen Sie uns zusammenarbeiten!',
       ctaText:
-        'Ich bin offen für neue Projekte. Wenn Sie eine Frage haben oder einfach Hallo sagen möchten — gerne schreiben!',
+        'Ich bin offen für neue Projekte. Wenn Sie eine Frage haben oder einfach Hallo sagen möchten - gerne schreiben!',
       labels: {
         email: 'E-Mail',
         location: 'Standort',
@@ -962,7 +951,7 @@ export const translations = {
       items: [
         {
           q: 'Wie läuft ein Projekt bei Ihnen ab?',
-          a: 'Direkt und transparent: Wir klären Anforderungen und Figma, planen Meilensteine, entwickeln iterativ mit täglichen Updates, testen und gehen auf Vercel oder AWS live. Sie arbeiten mit mir — ohne Zwischeninstanz.',
+          a: 'Wir starten bei der Domäne: Geschäftsregeln, Datenmodell, vorhandene APIs. Dann Architektur, Meilensteine, iterative Lieferung mit täglichen Updates, QA und Deploy auf Vercel/AWS. Sie arbeiten direkt mit mir - ohne Zwischeninstanz.',
         },
         {
           q: 'Arbeiten Sie unter NDA?',
@@ -970,7 +959,7 @@ export const translations = {
         },
         {
           q: 'Auf welche Technologien sind Sie spezialisiert?',
-          a: 'Next.js, React, TypeScript, Node.js und API-getriebene Produkte — inklusive Custom-CRMs, Tailwind CSS / Shadcn/ui, State Management (Zustand, Redux, React Query), PostgreSQL/Prisma und KI-Anbindungen (OpenAI, Vercel AI SDK). Dazu Full-Stack-Lösungen mit Server Actions und Streaming-UI.',
+          a: 'TypeScript durchgängig: Operator-UIs in Next.js plus Backends mit Node.js / PostgreSQL / Prisma. RBAC, Multi-Tenant-Isolation, GraphQL/REST, TanStack Query für operative Live-Oberflächen. Produkt-KI (OpenAI, Vercel AI SDK), wenn es ein System-Feature ist, kein Demo.',
         },
         {
           q: 'Wie starten wir?',
@@ -984,32 +973,32 @@ export const translations = {
           q: 'Wobei helfen Sie einem Business konkret?',
           a: 'Architektur und MVPs, Performance, Designsysteme, Full-Stack-Debugging und KI-gestütztes Backend.',
           list: [
-            'Architektur und MVPs: Scope und Launch skalierbarer Webprodukte — von null bis Production.',
+            'Architektur und MVPs: Scope und Launch skalierbarer Webprodukte - von null bis Production.',
             'Performance: Legacy-Code prüfen, Bundles verkleinern, Page Speed hochziehen.',
             'Designsysteme: Wiederverwendbare, barrierefreie (a11y) UI-Kits für komplexe Apps.',
             'Full-Stack-Debugging: Production-Fehler über Frontend und Backend finden und beheben.',
-            'KI-Backend und Agentic Engineering (Node, Python, PHP): Cursor und Claude unter klarer menschlicher Führung und mit Tests — für sichere APIs, Backend-Logik und automatisierte Workflows.',
+            'KI-Backend und Agentic Engineering (Node, Python, PHP): Cursor und Claude unter klarer menschlicher Führung und mit Tests - für sichere APIs, Backend-Logik und automatisierte Workflows.',
           ],
         },
         {
           q: 'Was entwickeln Sie?',
           a: 'End-to-End oder Einstieg in jeder Phase:',
           list: [
-            'MVPs, Custom-CRMs, SaaS und komplexe Admin-Dashboards.',
-            'FinTech, Immobilienplattformen und sichere Transaktionsflows.',
-            'Hochlastige, SEO-optimierte Software und Webanwendungen.',
+            'Operator-Tools und interne Plattformen mit eigenem Backend.',
+            'Domänenlogik: Rechte, Status-Workflows, Anbindung vorhandener APIs.',
+            'Langfristige Produktarbeit unter NDA - keine Marketing-Landings und keine E-Commerce-Schaufenster.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko — Frontend- & Full-Stack-Entwicklerin',
+      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
     },
     blog: {
-      headerTag: 'Frontend- & Full-Stack-Entwicklerin · Impulse für Auftraggeber',
+      headerTag: 'Full-Stack Product Engineer · Notizen zu internen Systemen',
       title: 'Blog',
       description:
-        'Praxisnahe Artikel zu Performance, Technologieentscheidungen und der Zusammenarbeit mit einer freiberuflichen Frontend- und Full-Stack-Entwicklerin — damit Sie Ihr Projekt fundiert steuern können.',
+        'Praxisnahe Notizen zur Produktentwicklung: Next.js, Node.js, Datenmodelle und die Lieferung operativer Software - damit technische Entscheidungen klar sind.',
       readMore: 'Artikel lesen →',
       backToBlog: '← Zurück zum Blog',
       previous: 'Zurück',
@@ -1037,23 +1026,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Développeuse Frontend & Full-Stack',
+      role: 'Full-Stack Product Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Développeuse Frontend & Full-Stack | Next.js, React, Node.js, AI, APIs',
+      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, systèmes internes',
       tagline:
-        'Développeuse Frontend / Full-Stack indépendante : CRM sur mesure et applications web complexes, avec des interfaces Next.js/React pixel-perfect et pensées mobile-first.',
+        'Je livre du logiciel opérationnel avec logique métier et un backend que je possède - pas des sites marketing.',
       fullCycle:
-        'Du fichier Figma au CRM ou à l’app web en production : TypeScript, design responsive, intégrations API, CMS, animations, SEO et une optimisation solide.',
+        'TypeScript de bout en bout : modèles de données et APIs en Node.js / Prisma / PostgreSQL, puis l’UI opérateur en Next.js. Droits, isolation multi-tenant, intégrations avec l’existant.',
       whyTitle: 'Pourquoi les clients me choisissent',
       whyItems: [
-        '8+ ans | 4 200+ heures sur Upwork — une expertise fiable, très bien notée',
-        'À l’aise en équipe — une partenaire frontend de confiance pour les ingénieurs backend et ML',
-        'En solo, sans agence — 100 % de responsabilité, retours rapides, échange direct, NDA sans souci',
-        'Orientée business — je construis une tech qui sert le produit et l’opérationnel',
+        '8+ ans en production sur du produit long terme, pas des pages promo one-shot',
+        'Je prolonge un backend existant ou je porte la couche Node.js/PostgreSQL - pas un simple handoff UI',
+        'Contractante directe, NDA possible, responsable de l’architecture et de la livraison',
+        'Je pars des règles métier et des données, puis je construis l’interface que les opérateurs utilisent vraiment',
       ],
-      bio2: `Directe, fiable, dispo pour une visio et une réponse rapide — construisons quelque chose.`,
+      bio2: 'J’interviens comme senior IC sur des produits internes complexes.',
       location: 'Kyiv, Ukraine',
       upworkProfile: 'Profil Upwork',
       linkedinProfile: 'Profil LinkedIn',
@@ -1062,7 +1051,7 @@ export const translations = {
     },
     skills: {
       title: 'Compétences & expertise',
-      subtitle: 'Stack principal pour CRM sur mesure, applications web complexes et produits full-stack Next.js / Node.js',
+      subtitle: 'Stack pour systèmes internes : CRM, plateformes d’admin et produits full-stack Next.js + Node.js / PostgreSQL',
       categories: [
         {
           title: 'Frontend & UI',
@@ -1136,7 +1125,7 @@ export const translations = {
       ],
       aiTitle: 'L’IA pour aller plus vite',
       aiDesc:
-        'Je m’appuie sur des outils assistés par l’IA (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) pour automatiser le répétitif et accélérer le setup et le refactoring — tout en gardant la main sur les choix techniques, l’architecture et la qualité du code.',
+        'Je m’appuie sur des outils assistés par l’IA (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) pour automatiser le répétitif et accélérer le setup et le refactoring - tout en gardant la main sur les choix techniques, l’architecture et la qualité du code.',
       aiFooter: 'Livrer plus vite, sans céder sur l’architecture ni la qualité.',
     },
     experience: {
@@ -1149,40 +1138,20 @@ export const translations = {
         'Noms clients et URLs sous NDA. Périmètre : infrastructure produit scalable pour plateformes SaaS et enterprise en production.',
       items: [
         {
-          title: 'Frontend Web Developer',
+          title: 'Full-Stack Product Engineer',
           company: 'Upwork',
           period: '2018 - aujourd’hui',
           description:
-            'Développeuse frontend et full-stack freelance sur Upwork — du fichier Figma au CRM ou à l’app web en ligne. Produits React/Next.js performants, avec Node.js, intégrations IA et fonctionnalités API. NDA possible, collaborations long terme partout dans le monde.',
+            'Product engineer indépendante sur des missions longues. Le périmètre, c’est le modèle métier, les droits, les APIs et une UI opérationnelle avec de la vraie logique - pas des landings ni une vitrine e-commerce.',
           achievements: [
-            '4 200+ heures sur Upwork · 100+ projets lancés · 100 % Job Success Rate',
-            'CRM sur mesure, dashboards SaaS et interfaces d’administration complexes',
-            'Full-stack Next.js + Node.js : Server Components, Server Actions, API Routes, Prisma/PostgreSQL',
-            'Fonctionnalités IA : OpenAI API, Vercel AI SDK, streaming UI (SSE/WebSockets)',
-            'Performance & SEO : Core Web Vitals, SSR/SSG/ISR, i18n, réduction du bundle',
-            'NDA pour les projets corporate et enterprise confidentiels',
+            'Ownership full-stack : Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
+            'RBAC, isolation des tenants, flux de données auditables, dizaines à milliers d’utilisateurs',
+            'Workflows backend, pas seulement des écrans : machines à états, permissions, intégrations d’APIs existantes, TanStack Query pour l’UI opérationnelle',
+            'Production : SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, isolation preview / production',
+            'IA produit (OpenAI, Vercel AI SDK, streaming SSE/WebSocket) comme features du système',
+            'NDA pour produits corporate et enterprise confidentiels',
           ],
-          technologies: [
-            'TypeScript',
-            'React',
-            'Next.js',
-            'Node.js',
-            'Python',
-            'PHP',
-            'Vue',
-            'PostgreSQL',
-            'Prisma',
-            'TanStack Query',
-            'Redux',
-            'Zustand',
-            'GraphQL',
-            'Tailwind CSS',
-            'Shadcn/ui',
-            'GSAP',
-            'OpenAI',
-            'Jest',
-            'Git',
-          ],
+          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - École ukrainienne de massage & centre de formation',
             'https://niunkina.com/ - Site vitrine pour une cosmétologue en Allemagne (Next.js + Tailwind CSS)',
@@ -1191,10 +1160,10 @@ export const translations = {
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Dashboard React interactif à partir de Figma',
           ],
           ndaProjects: [
-            'CRM SaaS multi-tenant et plateformes d’admin en Next.js + PostgreSQL/Prisma — RBAC, isolation des données, conçus pour passer de dizaines à des milliers d’utilisateurs',
+            'Systèmes produit multi-tenant en Next.js + PostgreSQL/Prisma - isolation des données, conçus pour passer de dizaines à des milliers d’utilisateurs',
             'Livraison high-traffic : SSR/SSG/ISR, cache CDN (CloudFront / Vercel Edge), code splitting, Core Web Vitals sous charge',
-            'AWS serverless : S3, CloudFront, Amplify — isolation preview / production, CI/CD, deploys reproductibles',
-            'Backends API à l’échelle (Node.js, REST/GraphQL) avec TanStack Query — cache, retries et UI optimistic pour produits live',
+            'AWS serverless : S3, CloudFront, Amplify - isolation preview / production, CI/CD, deploys reproductibles',
+            'Backends API à l’échelle (Node.js, REST/GraphQL) avec TanStack Query - cache, retries et UI optimistic pour produits live',
           ],
         },
         {
@@ -1202,13 +1171,15 @@ export const translations = {
           company: 'ETNA Network',
           period: 'avr. 2021 - juil. 2022',
           description:
-            'Développement frontend pour un écosystème DeFi, gaming et NFT, avec des produits interconnectés autour de la blockchain et du web3.',
+            'UI légère, responsive et pixel-perfect pour un écosystème Web3/crypto - DeFi, NFT, GameFi et marketing - avec Alpine.js et Tailwind CSS.',
           achievements: [
-            'Interfaces utilisateur pour les produits DeFi et NFT',
-            'UI responsive et interactive pour l’écosystème crypto',
-            'Collaboration avec une équipe pluridisciplinaire sur une plateforme multi-usages',
+            'Frontend Alpine.js et Tailwind CSS : chargement rapide et architecture de composants propre',
+            'DeFi & Utilities : staking, pont cross-chain (BSC ↔ Polygon/Matic), ventes de tokens et portails d’airdrop',
+            'NFT & GameFi : UI marketplace/boutique, apps Play-to-Earn et modules de countdown de lancement',
+            'Marketing : landings promo à forte conversion, performance et mobile-first',
+            'Collaboration étroite avec designers et développeurs blockchain pour des parcours fluides',
           ],
-          technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'Git'],
+          technologies: ['Alpine.js', 'Tailwind CSS', 'JavaScript', 'HTML5', 'SCSS', 'Web3'],
           projects: [],
         },
         {
@@ -1216,13 +1187,14 @@ export const translations = {
           company: 'LexStatus',
           period: 'févr. 2019 - nov. 2020',
           description:
-            'Développement frontend pour un cabinet de services juridiques, axé sur la documentation immobilière et l’évaluation de biens en Ukraine.',
+            'Sites corporate et landings marketing sous WordPress et Joomla - performance, SEO technique et conversion.',
           achievements: [
-            'Site corporate et interfaces client développés et maintenus',
-            'Layouts responsive pour la plateforme de services juridiques',
-            'Collaboration avec l’équipe design pour des implémentations pixel-perfect',
+            'Sites corporate et landings promo sous WordPress et Joomla : développement, itérations, mise en prod',
+            'Performance web, structure SEO et Core Web Vitals - 95+ Performance sur Google PageSpeed Insights',
+            'Layouts responsive, pixel-perfect, mobile-first pensés pour la conversion',
+            'SEO technique on-page, tracking analytics et intégration d’outils marketing',
           ],
-          technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'SCSS', 'Bootstrap'],
+          technologies: ['WordPress', 'Joomla', 'HTML5', 'SCSS', 'JavaScript', 'SEO'],
           projects: [],
         },
       ],
@@ -1247,7 +1219,7 @@ export const translations = {
           relevantCourses: ['JavaScript ES6+', 'DOM Manipulation', 'Async Programming'],
         },
         {
-          degree: 'HTML, CSS, jQuery — Front End Engineer',
+          degree: 'HTML, CSS, jQuery - Front End Engineer',
           institution: 'freeCodeCamp',
           period: '2018 - 2019',
           description: 'Parcours frontend autodidacte avec des projets pratiques.',
@@ -1264,8 +1236,8 @@ export const translations = {
     },
     testimonials: {
       title: 'Avis clients',
-      jobSuccess: '100 % Job Success Rate sur Upwork',
-      stats: '4 200+ heures sur Upwork · 100+ projets lancés',
+      jobSuccess: 'Profil Upwork',
+      stats: 'Contractante indépendante depuis 2018',
       items: [
         {
           text: 'Iryna a transformé notre design Figma en page live, sans erreur et en avance sur le planning.',
@@ -1300,7 +1272,7 @@ export const translations = {
       infoTitle: 'Coordonnées',
       ctaTitle: 'Collaborons ensemble !',
       ctaText:
-        'Je suis ouverte aux nouveaux projets. Une question, ou juste un bonjour — écrivez-moi sans hésiter.',
+        'Je suis ouverte aux nouveaux projets. Une question, ou juste un bonjour - écrivez-moi sans hésiter.',
       labels: {
         email: 'E-mail',
         location: 'Localisation',
@@ -1320,7 +1292,7 @@ export const translations = {
       items: [
         {
           q: 'À quoi ressemble votre processus projet habituel ?',
-          a: 'Mon processus est direct et transparent : on commence par le recueil des besoins et la revue Figma, on planifie les jalons, on développe en itérations avec des mises à jour quotidiennes, on teste la qualité, puis on déploie sur Vercel/AWS. Vous travaillez directement avec moi — sans intermédiaire.',
+          a: 'On part du domaine : règles métier, modèle de données, APIs existantes. Puis architecture, jalons, livraison itérative avec mises à jour quotidiennes, QA et deploy sur Vercel/AWS. Vous travaillez directement avec moi - sans intermédiaire.',
         },
         {
           q: 'Travaillez-vous sous NDA (accord de confidentialité) ?',
@@ -1328,7 +1300,7 @@ export const translations = {
         },
         {
           q: 'Sur quelles technologies êtes-vous spécialisée ?',
-          a: 'Je me spécialise dans Next.js, React, TypeScript, Node.js et les produits API-driven — y compris les CRM sur mesure, Tailwind CSS / Shadcn/ui, la gestion d’état (Zustand, Redux, React Query), PostgreSQL/Prisma et les intégrations IA (OpenAI, Vercel AI SDK). Je livre aussi des solutions full-stack avec Server Actions et streaming UI.',
+          a: 'TypeScript de bout en bout : UI opérateur en Next.js et backends Node.js / PostgreSQL / Prisma. RBAC, isolation multi-tenant, GraphQL/REST, TanStack Query pour les écrans opérationnels live. IA produit (OpenAI, Vercel AI SDK) quand c’est une feature du système, pas une démo.',
         },
         {
           q: 'Comment démarrer ?',
@@ -1336,7 +1308,7 @@ export const translations = {
         },
         {
           q: 'Travaillez-vous avec des entreprises ukrainiennes en tant qu’entrepreneuse individuelle enregistrée ?',
-          a: 'Oui, tout à fait. Je suis officiellement enregistrée en Ukraine comme entrepreneuse individuelle (FOP, 3e groupe fiscal) — nous pouvons signer un contrat de prestations de développement web, émettre des factures et signer des actes de réception.',
+          a: 'Oui, tout à fait. Je suis officiellement enregistrée en Ukraine comme entrepreneuse individuelle (FOP, 3e groupe fiscal) - nous pouvons signer un contrat de prestations de développement web, émettre des factures et signer des actes de réception.',
         },
         {
           q: 'En quoi aidez-vous concrètement un business ?',
@@ -1353,21 +1325,21 @@ export const translations = {
           q: 'Que développez-vous ?',
           a: 'Disponible pour un développement de bout en bout, ou pour intervenir à n’importe quelle étape :',
           list: [
-            'MVP, CRM sur mesure, SaaS et dashboards d’administration complexes.',
-            'FinTech, plateformes immobilières et flux transactionnels sécurisés.',
-            'Logiciels et applications web à fort trafic, optimisés SEO.',
+            'Outils opérateur et plateformes internes avec leur propre backend.',
+            'Logique métier : permissions, workflows de statuts, intégrations d’APIs existantes.',
+            'Travail produit long terme sous NDA - pas des landings marketing ni des vitrines e-commerce.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko — Développeuse Frontend & Full-Stack',
+      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
     },
     blog: {
-      headerTag: 'Développeuse Frontend & Full-Stack · repères pour les clients',
+      headerTag: 'Full-Stack Product Engineer · notes sur les systèmes internes',
       title: 'Blog',
       description:
-        'Des articles concrets sur la performance, les choix tech et le travail avec une développeuse frontend & full-stack freelance — pour décider sereinement sur votre projet.',
+        'Notes concrètes sur l’ingénierie produit : Next.js, Node.js, modèles de données et livraison de logiciel opérationnel - pour décider avec une image technique claire.',
       readMore: 'Lire l’article →',
       backToBlog: '← Retour au blog',
       previous: 'Précédent',
@@ -1395,23 +1367,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Desarrolladora Frontend y Full-Stack',
+      role: 'Full-Stack Product Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Desarrolladora Frontend y Full-Stack | Next.js, React, Node.js, IA, APIs',
+      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, sistemas internos',
       tagline:
-        'Desarrolladora Frontend / Full-Stack independiente: CRM a medida y apps web complejas, con interfaces Next.js/React pixel-perfect y pensadas mobile-first.',
+        'Entrego software operativo con lógica de dominio y un backend propio - no sitios de marketing.',
       fullCycle:
-        'Del archivo de Figma al CRM o la app web en producción: TypeScript, diseño responsive, integraciones API, CMS, animaciones, SEO y una optimización sólida.',
+        'TypeScript de extremo a extremo: modelos de datos y APIs en Node.js / Prisma / PostgreSQL, luego la UI de operadores en Next.js. Permisos, aislamiento multi-tenant, integraciones con servicios existentes.',
       whyTitle: 'Por qué me eligen',
       whyItems: [
-        '8+ años | más de 4.200 horas en Upwork — experiencia fiable y muy bien valorada',
-        'Bien en equipo — una compañera de frontend de confianza para ingenieros de backend y ML',
-        'Trabajo sola, sin agencia — 100 % de responsabilidad, respuesta rápida, trato directo, lista para firmar un NDA',
-        'Orientada al negocio — construyo tecnología que cumple objetivos de producto y de operación',
+        '8+ años en producción en producto de largo plazo, no en páginas promo sueltas',
+        'Extiendo un backend existente o asumo la capa Node.js/PostgreSQL - no un handoff solo de UI',
+        'Contratista directa, lista para NDA, responsable de arquitectura y entrega',
+        'Empiezo por las reglas de negocio y los datos, y luego construyo la interfaz que usan los operadores',
       ],
-      bio2: 'Directa, fiable y siempre disponible para una videollamada — construyamos algo.',
+      bio2: 'Trabajo como senior IC en productos internos complejos.',
       location: 'Kyiv, Ucrania',
       upworkProfile: 'Perfil de Upwork',
       linkedinProfile: 'Perfil de LinkedIn',
@@ -1420,7 +1392,7 @@ export const translations = {
     },
     skills: {
       title: 'Habilidades y especialización',
-      subtitle: 'Stack principal para CRM a medida, apps web complejas y productos full-stack Next.js / Node.js',
+      subtitle: 'Stack para sistemas internos: CRM, plataformas de admin y productos full-stack Next.js + Node.js / PostgreSQL',
       categories: [
         {
           title: 'Frontend y UI',
@@ -1493,7 +1465,7 @@ export const translations = {
         },
       ],
       aiTitle: 'La IA para ir más rápido',
-      aiDesc: 'Uso herramientas de desarrollo asistido por IA (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) para automatizar lo repetitivo y acelerar el arranque y el refactor — sin soltar las decisiones técnicas, la arquitectura ni la calidad del código.',
+      aiDesc: 'Uso herramientas de desarrollo asistido por IA (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) para automatizar lo repetitivo y acelerar el arranque y el refactor - sin soltar las decisiones técnicas, la arquitectura ni la calidad del código.',
       aiFooter: 'Entregar antes, sin ceder en arquitectura ni en calidad.',
     },
     experience: {
@@ -1506,19 +1478,19 @@ export const translations = {
         'Nombres de clientes y URLs bajo NDA. Alcance: infraestructura de producto escalable para plataformas SaaS y enterprise en producción.',
       items: [
         {
-          title: 'Frontend Web Developer',
+          title: 'Full-Stack Product Engineer',
           company: 'Upwork',
           period: '2018 - Presente',
-          description: 'Desarrolladora frontend y full-stack freelance en Upwork: del Figma al CRM o la app web en producción. Productos React/Next.js rápidos, con Node.js, integraciones de IA y funciones vía API. Lista para firmar un NDA y colaborar a largo plazo en cualquier país.',
+          description: 'Ingeniera de producto independiente en encargos largos. El alcance es modelo de dominio, permisos, APIs y una UI operativa con lógica de negocio real - no landings ni vitrinas e-commerce.',
           achievements: [
-            'Más de 4.200 horas en Upwork · 100+ proyectos lanzados · 100 % Job Success Rate',
-            'CRM a medida, dashboards SaaS e interfaces de admin complejas',
-            'Full-stack Next.js + Node.js: Server Components, Server Actions, API Routes, Prisma/PostgreSQL',
-            'Funciones de IA: OpenAI API, Vercel AI SDK, streaming UI (SSE/WebSockets)',
-            'Rendimiento y SEO: Core Web Vitals, SSR/SSG/ISR, i18n, reducción de bundle',
-            'Lista para NDA en proyectos corporativos y enterprise confidenciales',
+            'Ownership full-stack: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
+            'RBAC, aislamiento de tenant, flujos auditables, de decenas a miles de usuarios',
+            'Workflows de backend, no solo pantallas: máquinas de estados, permisos, integración con APIs existentes, TanStack Query para UI operativa',
+            'Producción: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, aislamiento preview vs production',
+            'IA de producto (OpenAI, Vercel AI SDK, streaming SSE/WebSocket) como features del sistema',
+            'Lista para NDA en productos corporativos y enterprise',
           ],
-          technologies: ['TypeScript', 'React', 'Next.js', 'Node.js', 'Python', 'PHP', 'Vue', 'PostgreSQL', 'Prisma', 'TanStack Query', 'Redux', 'Zustand', 'GraphQL', 'Tailwind CSS', 'Shadcn/ui', 'GSAP', 'OpenAI', 'Jest', 'Git'],
+          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Escuela y centro de formación de masaje en Ucrania',
             'https://niunkina.com/ - Web de negocio para cosmetóloga en Alemania (Next.js + TailwindCSS)',
@@ -1527,36 +1499,39 @@ export const translations = {
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Dashboard interactivo en React a partir de Figma',
           ],
           ndaProjects: [
-            'CRM SaaS multi-tenant y plataformas de admin en Next.js + PostgreSQL/Prisma — RBAC, datos aislados, pensados para crecer de decenas a miles de usuarios',
+            'Sistemas de producto multi-tenant en Next.js + PostgreSQL/Prisma - datos aislados, pensados para crecer de decenas a miles de usuarios',
             'Entrega de alto tráfico: SSR/SSG/ISR, caché CDN (CloudFront / Vercel Edge), code splitting, Core Web Vitals bajo carga',
-            'AWS serverless: S3, CloudFront, Amplify — aislamiento preview vs producción, CI/CD, deploys repetibles',
-            'Backends API a escala (Node.js, REST/GraphQL) con TanStack Query — caché, reintentos y UI optimista en productos en vivo',
+            'AWS serverless: S3, CloudFront, Amplify - aislamiento preview vs producción, CI/CD, deploys repetibles',
+            'Backends API a escala (Node.js, REST/GraphQL) con TanStack Query - caché, reintentos y UI optimista en productos en vivo',
           ],
         },
         {
           title: 'Frontend Web Developer',
           company: 'ETNA Network',
           period: 'abr 2021 - jul 2022',
-          description: 'Desarrollo frontend para un ecosistema DeFi, gaming y NFT con productos interconectados en blockchain y web3.',
+          description: 'UI ligera, responsive y pixel-perfect para un ecosistema Web3/crypto - DeFi, NFT, GameFi y marketing - con Alpine.js y Tailwind CSS.',
           achievements: [
-            'Interfaces de usuario para productos DeFi y NFT',
-            'UI responsive e interactiva para el ecosistema crypto',
-            'Colaboración con un equipo multidisciplinar en una plataforma multi-utility',
+            'Frontend con Alpine.js y Tailwind CSS: carga rápida y arquitectura de componentes limpia',
+            'DeFi & Utilities: staking, puente cross-chain (BSC ↔ Polygon/Matic), ventas de tokens y portales de airdrop',
+            'NFT & GameFi: UI de marketplace/tienda, apps Play-to-Earn y módulos de countdown de lanzamiento',
+            'Marketing: landings promo de alta conversión, performance y mobile-first',
+            'Colaboración estrecha con diseñadores y developers blockchain para flujos fluidos',
           ],
-          technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'Git'],
+          technologies: ['Alpine.js', 'Tailwind CSS', 'JavaScript', 'HTML5', 'SCSS', 'Web3'],
           projects: [],
         },
         {
           title: 'Frontend Web Developer',
           company: 'LexStatus',
           period: 'feb 2019 - nov 2020',
-          description: 'Desarrollo frontend para una empresa de servicios legales especializada en documentación inmobiliaria y tasación de propiedades en Ucrania.',
+          description: 'Sitios corporativos y landings de marketing en WordPress y Joomla - rendimiento, SEO técnico y conversión.',
           achievements: [
-            'Web corporativa e interfaces de cliente desarrolladas y mantenidas',
-            'Layouts responsive para la plataforma de servicios legales',
-            'Implementaciones pixel-perfect con el equipo de diseño',
+            'Sitios corporativos y landings promo en WordPress y Joomla: desarrollo, iteración y producción',
+            'Rendimiento web, estructura SEO y Core Web Vitals - 95+ Performance en Google PageSpeed Insights',
+            'Layouts responsive, pixel-perfect y mobile-first pensados para convertir',
+            'SEO técnico on-page, analítica e integración de herramientas de marketing',
           ],
-          technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'SCSS', 'Bootstrap'],
+          technologies: ['WordPress', 'Joomla', 'HTML5', 'SCSS', 'JavaScript', 'SEO'],
           projects: [],
         },
       ],
@@ -1581,7 +1556,7 @@ export const translations = {
           relevantCourses: ['JavaScript ES6+', 'Manipulación del DOM', 'Programación asíncrona'],
         },
         {
-          degree: 'HTML, CSS, jQuery — Front End Engineer',
+          degree: 'HTML, CSS, jQuery - Front End Engineer',
           institution: 'freeCodeCamp',
           period: '2018 - 2019',
           description: 'Formación autodidacta de frontend con proyectos prácticos.',
@@ -1598,8 +1573,8 @@ export const translations = {
     },
     testimonials: {
       title: 'Opiniones de clientes',
-      jobSuccess: '100 % Job Success Rate en Upwork',
-      stats: 'Más de 4.200 horas en Upwork · 100+ proyectos lanzados',
+      jobSuccess: 'Perfil de Upwork',
+      stats: 'Contratista independiente desde 2018',
       items: [
         {
           text: 'Iryna convirtió nuestro diseño de Figma en una web en producción, impecable y antes de plazo.',
@@ -1653,7 +1628,7 @@ export const translations = {
       items: [
         {
           q: '¿Cuál es tu forma habitual de trabajar?',
-          a: 'Directo y transparente: empezamos por requisitos y revisión de Figma, luego hitos, desarrollo iterativo con novedades cada día, QA y despliegue en Vercel/AWS. Trabajas conmigo, sin intermediarios.',
+          a: 'Empezamos por el dominio: reglas de negocio, modelo de datos, APIs existentes. Luego arquitectura, hitos, entrega iterativa con novedades cada día, QA y despliegue en Vercel/AWS. Trabajas conmigo, sin intermediarios.',
         },
         {
           q: '¿Trabajas bajo NDA (acuerdo de confidencialidad)?',
@@ -1661,7 +1636,7 @@ export const translations = {
         },
         {
           q: '¿En qué tecnologías te especializas?',
-          a: 'Me especializo en Next.js, React, TypeScript, Node.js y productos basados en API — incluidos CRM a medida, Tailwind CSS / Shadcn/ui, gestión de estado (Zustand, Redux, React Query), PostgreSQL/Prisma e integraciones de IA (OpenAI, Vercel AI SDK). También entrego soluciones full-stack con Server Actions y streaming UI.',
+          a: 'TypeScript de extremo a extremo: UI de operadores en Next.js y backends Node.js / PostgreSQL / Prisma. RBAC, aislamiento multi-tenant, GraphQL/REST, TanStack Query para pantallas operativas en vivo. IA de producto (OpenAI, Vercel AI SDK) cuando es una feature del sistema, no una demo.',
         },
         {
           q: '¿Cómo empezamos?',
@@ -1686,20 +1661,20 @@ export const translations = {
           q: '¿Qué desarrollas?',
           a: 'Disponible para desarrollo de extremo a extremo o para entrar en cualquier etapa:',
           list: [
-            'MVPs, CRM a medida, SaaS y dashboards de administración complejos.',
-            'FinTech, plataformas inmobiliarias y flujos transaccionales seguros.',
-            'Software y aplicaciones web de alto tráfico, optimizadas para SEO.',
+            'Herramientas de operador y plataformas internas con backend propio.',
+            'Lógica de dominio: permisos, workflows de estado, integraciones con APIs existentes.',
+            'Trabajo de producto a largo plazo bajo NDA - no landings de marketing ni vitrinas e-commerce.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko — Desarrolladora Frontend y Full-Stack',
+      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
     },
     blog: {
-      headerTag: 'Desarrolladora Frontend y Full-Stack · ideas para clientes',
+      headerTag: 'Full-Stack Product Engineer · notas sobre sistemas internos',
       title: 'Blog',
-      description: 'Artículos prácticos sobre rendimiento, elecciones tecnológicas y el trabajo con una desarrolladora frontend y full-stack freelance — para decidir con criterio en tu proyecto.',
+      description: 'Notas prácticas de ingeniería de producto: Next.js, Node.js, modelos de datos y entrega de software operativo - para decidir con una imagen técnica clara.',
       readMore: 'Leer artículo →',
       backToBlog: '← Volver al blog',
       previous: 'Anterior',
@@ -1727,23 +1702,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Sviluppatrice Frontend e Full-Stack',
+      role: 'Full-Stack Product Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Sviluppatrice Frontend e Full-Stack | Next.js, React, Node.js, IA, API',
+      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, sistemi interni',
       tagline:
-        'Sviluppatrice Frontend / Full-Stack indipendente: CRM su misura e app web complesse, con UI Next.js/React pixel-perfect e pensate mobile-first.',
+        'Consegno software operativo con logica di dominio e un backend che gestisco io - non siti marketing.',
       fullCycle:
-        'Dal file Figma al CRM o all’app web in produzione: TypeScript, design responsive, integrazioni API, CMS, animazioni, SEO e un’ottimizzazione solida.',
+        'TypeScript end-to-end: modelli dati e API su Node.js / Prisma / PostgreSQL, poi la UI operativa in Next.js. Permessi, isolamento multi-tenant, integrazioni con servizi esistenti.',
       whyTitle: 'Perché mi scelgono',
       whyItems: [
-        '8+ anni | oltre 4.200 ore su Upwork — competenza affidabile e molto ben valutata',
-        'A mio agio in team — una partner frontend di fiducia per ingegneri backend e ML',
-        'Lavoro da sola, niente agenzia — 100 % di responsabilità, feedback rapido, contatto diretto, pronta a firmare un NDA',
-        'Orientata al business — costruisco tecnologia che serve gli obiettivi di prodotto e operativi',
+        '8+ anni in produzione su prodotto di lungo periodo, non su pagine promo one-shot',
+        'Estendo un backend esistente o porto lo strato Node.js/PostgreSQL - non un handoff solo UI',
+        'Contractor diretta, pronta per NDA, responsabile di architettura e delivery',
+        'Parto dalle regole di business e dai dati, poi costruisco l’interfaccia che usano gli operatori',
       ],
-      bio2: 'Diretta, affidabile e sempre disponibile per una videochiamata — costruiamo qualcosa.',
+      bio2: 'Lavoro come senior IC su prodotti interni complessi.',
       location: 'Kyiv, Ucraina',
       upworkProfile: 'Profilo Upwork',
       linkedinProfile: 'Profilo LinkedIn',
@@ -1752,7 +1727,7 @@ export const translations = {
     },
     skills: {
       title: 'Competenze e specializzazione',
-      subtitle: 'Stack principale per CRM su misura, app web complesse e prodotti full-stack Next.js / Node.js',
+      subtitle: 'Stack per sistemi interni: CRM, piattaforme admin e prodotti full-stack Next.js + Node.js / PostgreSQL',
       categories: [
         {
           title: 'Frontend e UI',
@@ -1825,7 +1800,7 @@ export const translations = {
         },
       ],
       aiTitle: 'L’IA per andare più veloce',
-      aiDesc: 'Uso strumenti di sviluppo assistito da IA (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) per automatizzare il ripetitivo e accelerare setup e refactor — tenendo per me le decisioni tecniche, l’architettura e la qualità del codice.',
+      aiDesc: 'Uso strumenti di sviluppo assistito da IA (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) per automatizzare il ripetitivo e accelerare setup e refactor - tenendo per me le decisioni tecniche, l’architettura e la qualità del codice.',
       aiFooter: 'Consegnare prima, senza cedere su architettura o qualità.',
     },
     experience: {
@@ -1838,19 +1813,19 @@ export const translations = {
         'Nomi clienti e URL sotto NDA. Ambito: infrastruttura di prodotto scalabile per piattaforme SaaS ed enterprise in produzione.',
       items: [
         {
-          title: 'Frontend Web Developer',
+          title: 'Full-Stack Product Engineer',
           company: 'Upwork',
           period: '2018 - Presente',
-          description: 'Sviluppatrice frontend e full-stack freelance su Upwork: dal Figma al CRM o all’app web in produzione. Prodotti React/Next.js performanti, con Node.js, integrazioni IA e funzioni via API. Pronta a firmare un NDA e a collaborazioni di lungo periodo in tutto il mondo.',
+          description: 'Product engineer indipendente su incarichi lunghi. Lo scope è modello di dominio, permessi, API e una UI operativa con logica di business reale - non landing né vetrine e-commerce.',
           achievements: [
-            'Oltre 4.200 ore su Upwork · 100+ progetti lanciati · 100 % Job Success Rate',
-            'CRM su misura, dashboard SaaS e interfacce admin complesse',
-            'Full-stack Next.js + Node.js: Server Components, Server Actions, API Routes, Prisma/PostgreSQL',
-            'Funzionalità IA: OpenAI API, Vercel AI SDK, streaming UI (SSE/WebSockets)',
-            'Performance e SEO: Core Web Vitals, SSR/SSG/ISR, i18n, riduzione del bundle',
-            'Pronta per NDA su progetti corporate ed enterprise riservati',
+            'Ownership full-stack: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
+            'RBAC, isolamento tenant, flussi auditabili, da decine a migliaia di utenti',
+            'Workflow di backend, non solo schermate: state machine, permessi, integrazioni con API esistenti, TanStack Query per UI operativa',
+            'Produzione: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, isolamento preview vs production',
+            'AI di prodotto (OpenAI, Vercel AI SDK, streaming SSE/WebSocket) come feature di sistema',
+            'Pronta per NDA su prodotti corporate ed enterprise',
           ],
-          technologies: ['TypeScript', 'React', 'Next.js', 'Node.js', 'Python', 'PHP', 'Vue', 'PostgreSQL', 'Prisma', 'TanStack Query', 'Redux', 'Zustand', 'GraphQL', 'Tailwind CSS', 'Shadcn/ui', 'GSAP', 'OpenAI', 'Jest', 'Git'],
+          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Scuola e centro di formazione per massaggi in Ucraina',
             'https://niunkina.com/ - Sito per una cosmetologa in Germania (Next.js + Tailwind CSS)',
@@ -1859,36 +1834,39 @@ export const translations = {
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Dashboard interattiva React da Figma',
           ],
           ndaProjects: [
-            'CRM SaaS multi-tenant e piattaforme admin su Next.js + PostgreSQL/Prisma — RBAC, dati isolati, pensati per crescere da decine a migliaia di utenti',
+            'Sistemi prodotto multi-tenant su Next.js + PostgreSQL/Prisma - dati isolati, pensati per crescere da decine a migliaia di utenti',
             'Delivery ad alto traffico: SSR/SSG/ISR, cache CDN (CloudFront / Vercel Edge), code splitting, Core Web Vitals sotto carico',
-            'AWS serverless: S3, CloudFront, Amplify — isolamento preview vs production, CI/CD, deploy ripetibili',
-            'Backend API su scala (Node.js, REST/GraphQL) con TanStack Query — cache, retry e UI ottimistica per prodotti live',
+            'AWS serverless: S3, CloudFront, Amplify - isolamento preview vs production, CI/CD, deploy ripetibili',
+            'Backend API su scala (Node.js, REST/GraphQL) con TanStack Query - cache, retry e UI ottimistica per prodotti live',
           ],
         },
         {
           title: 'Frontend Web Developer',
           company: 'ETNA Network',
           period: 'apr 2021 - lug 2022',
-          description: 'Sviluppo frontend per un ecosistema DeFi, gaming e NFT con prodotti interconnessi su blockchain e web3.',
+          description: 'UI leggera, responsive e pixel-perfect per un ecosistema Web3/crypto - DeFi, NFT, GameFi e marketing - con Alpine.js e Tailwind CSS.',
           achievements: [
-            'Interfacce utente per prodotti DeFi e NFT',
-            'UI responsive e interattiva per l’ecosistema crypto',
-            'Collaborazione con un team cross-funzionale su una piattaforma multi-utility',
+            'Frontend con Alpine.js e Tailwind CSS: caricamento rapido e architettura a componenti pulita',
+            'DeFi & Utilities: staking, bridge cross-chain (BSC ↔ Polygon/Matic), token sale e portali airdrop',
+            'NFT & GameFi: UI marketplace/shop, app Play-to-Earn e moduli countdown di lancio',
+            'Marketing: landing promo ad alta conversione, performance e mobile-first',
+            'Collaborazione stretta con designer e sviluppatori blockchain per flussi utente fluidi',
           ],
-          technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'Git'],
+          technologies: ['Alpine.js', 'Tailwind CSS', 'JavaScript', 'HTML5', 'SCSS', 'Web3'],
           projects: [],
         },
         {
           title: 'Frontend Web Developer',
           company: 'LexStatus',
           period: 'feb 2019 - nov 2020',
-          description: 'Sviluppo frontend per un’azienda di servizi legali specializzata in documentazione immobiliare e valutazione di immobili in Ucraina.',
+          description: 'Siti corporate e landing di marketing su WordPress e Joomla - performance, SEO tecnico e conversione.',
           achievements: [
-            'Sito corporate e interfacce per i clienti sviluppati e mantenuti',
-            'Layout responsive per la piattaforma di servizi legali',
-            'Implementazioni pixel-perfect con il team di design',
+            'Siti corporate e landing promo su WordPress e Joomla: sviluppo, iterazioni, produzione',
+            'Performance web, struttura SEO e Core Web Vitals - 95+ Performance su Google PageSpeed Insights',
+            'Layout responsive, pixel-perfect, mobile-first pensati per la conversione',
+            'SEO tecnico on-page, tracking analytics e integrazione di tool marketing',
           ],
-          technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'SCSS', 'Bootstrap'],
+          technologies: ['WordPress', 'Joomla', 'HTML5', 'SCSS', 'JavaScript', 'SEO'],
           projects: [],
         },
       ],
@@ -1913,7 +1891,7 @@ export const translations = {
           relevantCourses: ['JavaScript ES6+', 'Manipolazione del DOM', 'Programmazione asincrona'],
         },
         {
-          degree: 'HTML, CSS, jQuery — Front End Engineer',
+          degree: 'HTML, CSS, jQuery - Front End Engineer',
           institution: 'freeCodeCamp',
           period: '2018 - 2019',
           description: 'Percorso autodidatta di frontend con progetti pratici.',
@@ -1930,8 +1908,8 @@ export const translations = {
     },
     testimonials: {
       title: 'Testimonianze dei clienti',
-      jobSuccess: '100 % Job Success Rate su Upwork',
-      stats: 'Oltre 4.200 ore su Upwork · 100+ progetti lanciati',
+      jobSuccess: 'Profilo Upwork',
+      stats: 'Contractor indipendente dal 2018',
       items: [
         {
           text: 'Iryna ha trasformato il nostro design Figma in una pagina live in modo impeccabile e in anticipo sui tempi.',
@@ -1985,7 +1963,7 @@ export const translations = {
       items: [
         {
           q: 'Qual è il tuo flusso di lavoro tipico?',
-          a: 'Il flusso è diretto e trasparente: partiamo dai requisiti e dalla revisione Figma, poi pianificazione per milestone, sviluppo iterativo con aggiornamenti quotidiani, QA e deploy su Vercel/AWS. Lavori direttamente con me — niente intermediari.',
+          a: 'Partiamo dal dominio: regole di business, modello dati, API esistenti. Poi architettura, milestone, delivery iterativa con aggiornamenti quotidiani, QA e deploy su Vercel/AWS. Lavori direttamente con me - niente intermediari.',
         },
         {
           q: 'Lavori sotto NDA (accordo di riservatezza)?',
@@ -1993,7 +1971,7 @@ export const translations = {
         },
         {
           q: 'In quali tecnologie ti specializzi?',
-          a: 'Mi specializzo in Next.js, React, TypeScript, Node.js e prodotti guidati da API — inclusi CRM su misura, Tailwind CSS / Shadcn/ui, state management (Zustand, Redux, React Query), PostgreSQL/Prisma e integrazioni IA (OpenAI, Vercel AI SDK). Consegno anche soluzioni full-stack con Server Actions e streaming UI.',
+          a: 'TypeScript end-to-end: UI operativa in Next.js e backend Node.js / PostgreSQL / Prisma. RBAC, isolamento multi-tenant, GraphQL/REST, TanStack Query per schermate operative live. AI di prodotto (OpenAI, Vercel AI SDK) quando è una feature di sistema, non una demo.',
         },
         {
           q: 'Come iniziamo?',
@@ -2018,20 +1996,20 @@ export const translations = {
           q: 'Cosa sviluppi?',
           a: 'Disponibile per sviluppo end-to-end o per entrare in qualsiasi fase:',
           list: [
-            'MVP, CRM su misura, SaaS e dashboard admin complesse.',
-            'FinTech, piattaforme immobiliari e flussi transazionali sicuri.',
-            'Software e applicazioni web ad alto traffico, ottimizzate SEO.',
+            'Strumenti operatore e piattaforme interne con backend proprio.',
+            'Logica di dominio: permessi, workflow di stato, integrazioni con API esistenti.',
+            'Lavoro di prodotto di lungo periodo sotto NDA - non landing marketing né vetrine e-commerce.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko — Sviluppatrice Frontend e Full-Stack',
+      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
     },
     blog: {
-      headerTag: 'Sviluppatrice Frontend e Full-Stack · spunti per i clienti',
+      headerTag: 'Full-Stack Product Engineer · note sui sistemi interni',
       title: 'Blog',
-      description: 'Articoli pratici su performance, scelte tecnologiche e il lavoro con una sviluppatrice frontend e full-stack freelance — per decidere con sicurezza sul tuo progetto.',
+      description: 'Note pratiche di product engineering: Next.js, Node.js, modelli dati e consegna di software operativo - per decidere con un quadro tecnico chiaro.',
       readMore: 'Leggi l’articolo →',
       backToBlog: '← Torna al blog',
       previous: 'Precedente',
@@ -2059,23 +2037,23 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Frontend ve Full-Stack Geliştirici',
+      role: 'Full-Stack Product Engineer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Frontend ve Full-Stack Geliştirici | Next.js, React, Node.js, yapay zekâ, API',
+      subtitle: 'Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL, iç sistemler',
       tagline:
-        'Bağımsız Frontend / Full-Stack geliştirici: pixel-perfect, mobile-first Next.js/React arayüzleriyle özel CRM’ler ve karmaşık web uygulamaları.',
+        'Operasyonel yazılım teslim ederim: domain mantığı ve kendi backend’im - pazarlama siteleri değil.',
       fullCycle:
-        'Figma’dan çalışan CRM ve web uygulamasına kadar: TypeScript, responsive tasarım, API entegrasyonları, CMS, animasyonlar, SEO ve sağlam performans.',
+        'Uçtan uca TypeScript: Node.js / Prisma / PostgreSQL üzerinde veri modelleri ve API’ler, ardından Next.js ile operatör UI. Yetkiler, çok kiracılı izolasyon, mevcut servislerle entegrasyon.',
       whyTitle: 'Neden benimle çalışıyorlar',
       whyItems: [
-        '8+ yıl | 4.200+ Upwork saati — güvenilir, yüksek puanlı uzmanlık',
-        'Ekip içinde rahatım — backend ve ML mühendisleri için güvenilir bir frontend partneri',
-        'Tek başıma, ajans yok — tam sorumluluk, hızlı dönüş, doğrudan iletişim, NDA’ya hazırım',
-        'İş tarafını düşünürüm — ürün ve operasyon hedeflerine uyan teknoloji geliştiririm',
+        '8+ yıl üretim, uzun soluklu ürün işinde - tek seferlik promo sayfalarında değil',
+        'Mevcut backend’i genişletebilir veya Node.js/PostgreSQL katmanını üstlenebilirim - sadece UI teslimi değil',
+        'Doğrudan yüklenici, NDA’ya hazır, mimari ve teslimattan sorumlu',
+        'İş kurallarından ve veriden başlarım, sonra operatörlerin gerçekten kullandığı arayüzü kurarım',
       ],
-      bio2: 'Açık sözlüyüm, güvenilirim ve görüntülü görüşmeye her an açığım — haydi birlikte bir şey inşa edelim.',
+      bio2: 'Karmaşık iç ürünlerde senior IC olarak çalışırım.',
       location: 'Kyiv, Ukrayna',
       upworkProfile: 'Upwork profili',
       linkedinProfile: 'LinkedIn profili',
@@ -2084,7 +2062,7 @@ export const translations = {
     },
     skills: {
       title: 'Yetkinlikler ve uzmanlık',
-      subtitle: 'Özel CRM, karmaşık web uygulamaları ve full-stack Next.js / Node.js ürünleri için ana teknoloji yığını',
+      subtitle: 'İç sistemler için yığın: CRM’ler, admin platformları ve full-stack Next.js + Node.js / PostgreSQL ürünleri',
       categories: [
         {
           title: 'Frontend ve UI',
@@ -2157,7 +2135,7 @@ export const translations = {
         },
       ],
       aiTitle: 'İşi hızlandıran yapay zekâ',
-      aiDesc: 'Tekrarlayan işleri otomatikleştirmek, kurulumu ve refactoring’i hızlandırmak için yapay zekâ destekli araçlar (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) kullanıyorum — teknik kararlar, mimari ve kod kalitesi bende kalır.',
+      aiDesc: 'Tekrarlayan işleri otomatikleştirmek, kurulumu ve refactoring’i hızlandırmak için yapay zekâ destekli araçlar (Cursor IDE, Claude Opus, ChatGPT, Antigravity CLI, Gemini) kullanıyorum - teknik kararlar, mimari ve kod kalitesi bende kalır.',
       aiFooter: 'Mimari veya kaliteden ödün vermeden daha hızlı teslim.',
     },
     experience: {
@@ -2170,19 +2148,19 @@ export const translations = {
         'Müşteri adları ve URL’ler NDA kapsamında. Kapsam: canlı SaaS ve kurumsal platformlar için ölçeklenebilir ürün altyapısı.',
       items: [
         {
-          title: 'Frontend Web Developer',
+          title: 'Full-Stack Product Engineer',
           company: 'Upwork',
           period: '2018 - Günümüz',
-          description: 'Upwork’te serbest frontend ve full-stack geliştiriciyim — Figma’dan canlı CRM ve web uygulamasına. Node.js, yapay zekâ entegrasyonları ve API tabanlı özelliklerle yüksek performanslı React/Next.js ürünleri. Güvenli projeler ve dünya çapında uzun vadeli iş birliği için NDA’ya hazırım.',
+          description: 'Uzun soluklu işlerde bağımsız ürün mühendisiyim. Kapsam domain modeli, yetkiler, API’ler ve gerçek iş mantığı taşıyan operasyonel UI - landing veya e-commerce vitrini değil.',
           achievements: [
-            '4.200+ Upwork saati · 100+ yayına alınan proje · %100 Job Success Rate',
-            'Özel CRM, SaaS panelleri ve karmaşık admin arayüzleri',
-            'Full-stack Next.js + Node.js: Server Components, Server Actions, API Routes, Prisma/PostgreSQL',
-            'Yapay zekâ özellikleri: OpenAI API, Vercel AI SDK, streaming UI (SSE/WebSockets)',
-            'Performans ve SEO: Core Web Vitals, SSR/SSG/ISR, i18n, paket küçültme',
-            'Gizli kurumsal ve enterprise projeler için NDA’ya hazır',
+            'Full-stack sahiplik: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
+            'RBAC, tenant izolasyonu, denetlenebilir veri akışları, onlarcadan binlerce kullanıcıya',
+            'Yalnızca ekran değil, backend iş akışları: durum makineleri, yetkiler, mevcut API entegrasyonları, operasyonel UI için TanStack Query',
+            'Üretim: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, preview vs production izolasyonu',
+            'Ürün içi yapay zekâ (OpenAI, Vercel AI SDK, SSE/WebSocket streaming) sistem özelliği olarak',
+            'Gizli kurumsal ve enterprise ürünler için NDA’ya hazır',
           ],
-          technologies: ['TypeScript', 'React', 'Next.js', 'Node.js', 'Python', 'PHP', 'Vue', 'PostgreSQL', 'Prisma', 'TanStack Query', 'Redux', 'Zustand', 'GraphQL', 'Tailwind CSS', 'Shadcn/ui', 'GSAP', 'OpenAI', 'Jest', 'Git'],
+          technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Ukrayna masaj okulu ve eğitim merkezi',
             'https://niunkina.com/ - Almanya’daki bir kozmetolog için iş sitesi (Next.js + Tailwind CSS)',
@@ -2191,36 +2169,39 @@ export const translations = {
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Figma’dan etkileşimli React paneli',
           ],
           ndaProjects: [
-            'Next.js + PostgreSQL/Prisma ile çok kiracılı SaaS CRM ve admin platformları — RBAC, veri izolasyonu, onlarcadan binlerce kullanıcıya büyüyecek şekilde',
+            'Next.js + PostgreSQL/Prisma ile çok kiracılı ürün sistemleri - veri izolasyonu, onlarcadan binlerce kullanıcıya büyüyecek şekilde',
             'Yüksek trafikli teslimat: SSR/SSG/ISR, CDN önbelleği (CloudFront / Vercel Edge), code splitting, yük altında Core Web Vitals',
-            'AWS serverless: S3, CloudFront, Amplify — preview ve production izolasyonu, CI/CD, tekrarlanabilir deploy’lar',
-            'Ölçekte API backend’leri (Node.js, REST/GraphQL) ve TanStack Query — canlı ürünler için önbellek, retry ve optimistic UI',
+            'AWS serverless: S3, CloudFront, Amplify - preview ve production izolasyonu, CI/CD, tekrarlanabilir deploy’lar',
+            'Ölçekte API backend’leri (Node.js, REST/GraphQL) ve TanStack Query - canlı ürünler için önbellek, retry ve optimistic UI',
           ],
         },
         {
           title: 'Frontend Web Developer',
           company: 'ETNA Network',
           period: 'Nis 2021 - Tem 2022',
-          description: 'Blockchain ve web3 üzerinde birbirine bağlı ürünlerle DeFi, oyun ve NFT ekosistemi için frontend geliştirme.',
+          description: 'Alpine.js ve Tailwind CSS ile Web3/kripto ekosistemi için hafif, responsive, pixel-perfect UI - DeFi, NFT, GameFi ve pazarlama yüzeyleri.',
           achievements: [
-            'DeFi ve NFT ürünleri için kullanıcı arayüzleri',
-            'Kripto ekosistemi için responsive, etkileşimli UI',
-            'Çok amaçlı platformda çapraz fonksiyonel ekiple çalışma',
+            'Alpine.js ve Tailwind CSS frontend: hızlı yükleme ve temiz bileşen mimarisi',
+            'DeFi & Utilities: staking, cross-chain köprü (BSC ↔ Polygon/Matic), token satışları ve airdrop portalları',
+            'NFT & GameFi: marketplace/mağaza UI, Play-to-Earn web uygulamaları ve lansman countdown modülleri',
+            'Pazarlama: yüksek dönüşümlü promo landing’ler, performans ve mobile-first',
+            'Tasarımcılar ve blockchain geliştiricileriyle sorunsuz kullanıcı akışları',
           ],
-          technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'Git'],
+          technologies: ['Alpine.js', 'Tailwind CSS', 'JavaScript', 'HTML5', 'SCSS', 'Web3'],
           projects: [],
         },
         {
           title: 'Frontend Web Developer',
           company: 'LexStatus',
           period: 'Şub 2019 - Kas 2020',
-          description: 'Ukrayna’da gayrimenkul belgelendirme ve değerleme konusunda uzman bir hukuk hizmetleri şirketi için frontend geliştirme.',
+          description: 'WordPress ve Joomla ile kurumsal siteler ve pazarlama landing’leri - performans, teknik SEO ve dönüşüm odaklı.',
           achievements: [
-            'Kurumsal site ve müşteri arayüzlerinin geliştirilmesi ve bakımı',
-            'Hukuk hizmetleri platformu için responsive yerleşimler',
-            'Tasarım ekibiyle pixel-perfect uygulamalar',
+            'WordPress ve Joomla’da kurumsal siteler ve promo landing’ler: geliştirme, iterasyon, canlı tutma',
+            'Web performansı, SEO yapısı ve Core Web Vitals - Google PageSpeed Insights’ta 95+ Performance',
+            'Dönüşümü artırmak için responsive, pixel-perfect, mobile-first yerleşimler',
+            'On-page teknik SEO, analitik takibi ve pazarlama araçları entegrasyonu',
           ],
-          technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'SCSS', 'Bootstrap'],
+          technologies: ['WordPress', 'Joomla', 'HTML5', 'SCSS', 'JavaScript', 'SEO'],
           projects: [],
         },
       ],
@@ -2245,7 +2226,7 @@ export const translations = {
           relevantCourses: ['JavaScript ES6+', 'DOM manipülasyonu', 'Asenkron programlama'],
         },
         {
-          degree: 'HTML, CSS, jQuery — Front End Engineer',
+          degree: 'HTML, CSS, jQuery - Front End Engineer',
           institution: 'freeCodeCamp',
           period: '2018 - 2019',
           description: 'Uygulamalı projelerle kendi hızında frontend müfredatı.',
@@ -2262,8 +2243,8 @@ export const translations = {
     },
     testimonials: {
       title: 'Müşteri yorumları',
-      jobSuccess: 'Upwork’te %100 Job Success Rate',
-      stats: '4.200+ Upwork saati · 100+ yayına alınan proje',
+      jobSuccess: 'Upwork profili',
+      stats: '2018’den beri bağımsız yüklenici',
       items: [
         {
           text: 'Iryna Figma tasarımımızı canlı bir sayfaya kusursuz ve teslim tarihinden önce dönüştürdü.',
@@ -2317,7 +2298,7 @@ export const translations = {
       items: [
         {
           q: 'Tipik proje akışınız nedir?',
-          a: 'Süreç doğrudan ve şeffaftır: ihtiyaçları ve Figma’yı birlikte netleştiririz, sonra etap planı, günlük güncellemelerle iteratif geliştirme, QA ve Vercel/AWS’e yayın. Aracı yok — doğrudan benimle çalışırsınız.',
+          a: 'Alana domain’den başlarız: iş kuralları, veri modeli, mevcut API’ler. Sonra mimari, etaplar, günlük güncellemelerle iteratif teslim, QA ve Vercel/AWS’e yayın. Aracı yok - doğrudan benimle çalışırsınız.',
         },
         {
           q: 'NDA (gizlilik sözleşmesi) altında çalışır mısınız?',
@@ -2325,7 +2306,7 @@ export const translations = {
         },
         {
           q: 'Hangi teknolojilerde uzmanlaşıyorsunuz?',
-          a: 'Next.js, React, TypeScript, Node.js ve API tabanlı ürünlerde uzmanım — özel CRM, Tailwind CSS / Shadcn/ui, durum yönetimi (Zustand, Redux, React Query), PostgreSQL/Prisma ve yapay zekâ entegrasyonları (OpenAI, Vercel AI SDK) dahil. Server Actions ve streaming UI ile full-stack çözümler de teslim ederim.',
+          a: 'Uçtan uca TypeScript: Next.js operatör UI’si ve Node.js / PostgreSQL / Prisma backend. RBAC, çok kiracılı izolasyon, GraphQL/REST, canlı operasyon ekranları için TanStack Query. Ürün içi yapay zekâ (OpenAI, Vercel AI SDK) sistem özelliği olduğunda - demo değil.',
         },
         {
           q: 'Nasıl başlarız?',
@@ -2350,20 +2331,20 @@ export const translations = {
           q: 'Neler geliştiriyorsunuz?',
           a: 'Uçtan uca geliştirme veya herhangi bir aşamada dahil olmak için müsaitim:',
           list: [
-            'MVP, özel CRM, SaaS ve karmaşık admin panelleri.',
-            'FinTech, emlak platformları ve güvenli işlem akışları.',
-            'Yüksek trafikli, SEO odaklı yazılım ve web uygulamaları.',
+            'Kendi backend’ine sahip operatör araçları ve iç platformlar.',
+            'Domain mantığı: yetkiler, durum iş akışları, mevcut API entegrasyonları.',
+            'NDA altında uzun soluklu ürün işi - pazarlama landing’leri veya e-commerce vitrinleri değil.',
           ],
         },
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko — Frontend ve Full-Stack Geliştirici',
+      text: '© 2026 Iryna Vynnychenko - Full-Stack Product Engineer'
     },
     blog: {
-      headerTag: 'Frontend ve Full-Stack Geliştirici · müşteriler için notlar',
+      headerTag: 'Full-Stack Product Engineer · iç sistemler üzerine notlar',
       title: 'Blog',
-      description: 'Performans, teknoloji seçimleri ve serbest bir frontend ve full-stack geliştiriciyle çalışma üzerine pratik yazılar — projenizde net kararlar alın.',
+      description: 'Ürün mühendisliği üzerine pratik notlar: Next.js, Node.js, veri modelleri ve operasyonel yazılım teslimi - teknik resmi net görerek karar verin.',
       readMore: 'Yazıyı oku →',
       backToBlog: '← Bloga dön',
       previous: 'Önceki',

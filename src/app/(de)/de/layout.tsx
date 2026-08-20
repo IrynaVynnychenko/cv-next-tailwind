@@ -4,6 +4,7 @@ import Script from "next/script";
 import "../../globals.css";
 import Providers from "@/components/Providers";
 import ThemeScript from "@/components/ThemeScript";
+import { getOgLocale, getOpenGraphImages, getTwitterImageMetadata } from "@/lib/seo";
 
 const geistSans = localFont({
   src: "../../fonts/GeistVF.woff",
@@ -18,9 +19,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Iryna Vynnychenko | Frontend- & Full-Stack-Entwicklerin | Next.js, React, Node.js, AI",
-  description: "Frontend- & Full-Stack-Entwicklerin für Custom-CRMs und komplexe Web-Apps. Next.js, React, Node.js, KI, APIs. 4.200+ Upwork-Stunden, 8+ Jahre, 100+ veröffentlichte Projekte.",
-  keywords: "Frontend-Entwicklerin, Full-Stack-Entwicklerin, React, Next.js, Node.js, TypeScript, Custom CRM, AI, OpenAI, Prisma, PostgreSQL, Tailwind CSS, Shadcn/ui, GSAP, Ukraine, Upwork, Deutschland",
+  title: "Iryna Vynnychenko | Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL",
+  description: "Full-Stack Product Engineer für Custom-CRMs, Admin-Plattformen auf ERP-Niveau und Multi-Tenant-SaaS mit eigenem Node.js/PostgreSQL-Backend. 4.200+ Upwork-Stunden, 100% Job Success, NDA-fähig.",
+  keywords: "Product Engineer, Full-Stack, React, Next.js, Node.js, TypeScript, Custom CRM, RBAC, PostgreSQL, Prisma, GraphQL, TanStack Query, OpenAI, AWS, Ukraine, Upwork, Deutschland",
   authors: [{ name: "Iryna Vynnychenko" }],
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
@@ -37,12 +38,15 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Iryna Vynnychenko | Frontend- & Full-Stack-Entwicklerin | Next.js, React, Node.js, AI",
-    description: "4.200+ Upwork-Stunden · 8+ Jahre · 100+ veröffentlichte Projekte. Custom-CRMs, komplexe Web-Apps, Next.js / React / Node.js / KI.",
+    title: "Iryna Vynnychenko | Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL",
+    description: "Custom-CRMs, Admin auf ERP-Niveau, Multi-Tenant-SaaS. Next.js + Node.js / PostgreSQL. 4.200+ Upwork-Stunden · 100% Job Success · NDA.",
     url: 'https://vynnychenko.dev/de/',
-    siteName: 'Iryna Vynnychenko — Frontend- & Full-Stack-Entwicklerin',
+    siteName: 'Iryna Vynnychenko - Full-Stack Product Engineer',
     type: "website",
+    locale: getOgLocale('de'),
+    images: getOpenGraphImages(),
   },
+  twitter: getTwitterImageMetadata(),
 };
 
 export default function DeRootLayout({

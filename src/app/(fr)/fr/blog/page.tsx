@@ -7,9 +7,9 @@ import { BlogSchema } from '@/components/SchemaMarkup'
 import { getBlogIndexAlternates } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Blog — Iryna Vynnychenko | Développeuse Web & Frontend Senior',
+  title: 'Blog - Iryna Vynnychenko | Développeuse Web & Frontend Senior',
   description:
-    'Articles pratiques sur le développement web, la performance et le choix d’une développeuse — pour fondateurs et product owners.',
+    'Articles pratiques sur le développement web, la performance et le choix d’une développeuse - pour fondateurs et product owners.',
   alternates: getBlogIndexAlternates('fr'),
 }
 

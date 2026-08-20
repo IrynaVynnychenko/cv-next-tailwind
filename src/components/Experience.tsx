@@ -43,7 +43,7 @@ export default function Experience() {
                 </div>
                 <div className="min-w-0 flex-1 pr-10">
                   <h3 className="text-balance font-semibold leading-snug">
-                    {exp.company} — {exp.title}
+                    {exp.company} - {exp.title}
                   </h3>
                   <div className="mt-0.5 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
                     <span>{modeLabel[mode]}</span>

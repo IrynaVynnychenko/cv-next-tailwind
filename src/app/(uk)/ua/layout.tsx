@@ -4,6 +4,7 @@ import Script from "next/script";
 import "../../globals.css";
 import Providers from "@/components/Providers";
 import ThemeScript from "@/components/ThemeScript";
+import { getOgLocale, getOpenGraphImages, getTwitterImageMetadata } from "@/lib/seo";
 
 const geistSans = localFont({
   src: "../../fonts/GeistVF.woff",
@@ -18,9 +19,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Ірина Винниченко | Frontend & Full-Stack розробниця | Next.js, React, Node.js, AI",
-  description: "Frontend & Full-Stack розробниця: кастомні CRM і складні вебзастосунки. Next.js, React, Node.js, ШІ, API. 4 200+ годин на Upwork, 8+ років, 100+ запущених проєктів.",
-  keywords: "Frontend розробниця, Full-Stack розробниця, Frontend розробник, React, Next.js, Node.js, TypeScript, Custom CRM, AI, OpenAI, Prisma, PostgreSQL, Tailwind CSS, Shadcn/ui, GSAP, Україна, Upwork",
+  title: "Ірина Винниченко | Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL",
+  description: "Продуктова інженерка: кастомні CRM, адмін-платформи рівня ERP і мульти-тенантний SaaS із власним бекендом на Node.js/PostgreSQL. 4 200+ годин на Upwork, 100% Job Success, готова до NDA.",
+  keywords: "Product Engineer, Full-Stack, React, Next.js, Node.js, TypeScript, кастомна CRM, RBAC, PostgreSQL, Prisma, GraphQL, TanStack Query, OpenAI, AWS, Україна, Upwork",
   authors: [{ name: "Ірина Винниченко" }],
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
@@ -37,12 +38,15 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Ірина Винниченко | Frontend & Full-Stack розробниця | Next.js, React, Node.js, AI",
-    description: "4 200+ годин на Upwork · 8+ років · 100+ запущених проєктів. Кастомні CRM, складні вебзастосунки, Next.js / React / Node.js / ШІ.",
+    title: "Ірина Винниченко | Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL",
+    description: "Кастомні CRM, адмін рівня ERP, мульти-тенантний SaaS. Next.js + Node.js / PostgreSQL. 4 200+ годин на Upwork · 100% Job Success · NDA.",
     url: 'https://vynnychenko.dev/ua/',
-    siteName: 'Ірина Винниченко — Frontend & Full-Stack розробниця',
+    siteName: 'Ірина Винниченко - Full-Stack Product Engineer',
     type: "website",
+    locale: getOgLocale('ua'),
+    images: getOpenGraphImages('Ірина Винниченко'),
   },
+  twitter: getTwitterImageMetadata('Ірина Винниченко'),
 };
 
 export default function RootLayout({

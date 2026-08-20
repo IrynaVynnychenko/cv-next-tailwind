@@ -3,15 +3,48 @@
 import Image from 'next/image'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
+import { chrome } from '@/data/chrome'
+import { RotatingWords } from './Animate'
 
 export default function Hero() {
   const { language } = useLanguage()
   const t = translations[language]
+  const c = chrome[language]
 
   return (
     <div>
-      <div className="pattern-dots screen-line-before screen-line-after flex aspect-[2/1] items-center justify-center border-x border-edge select-none sm:aspect-[3/1]">
-        <div className="font-semibold tracking-tight text-5xl sm:text-6xl">{t.about.title.split(' ')[0]}</div>
+      <div className="pattern-dots screen-line-before screen-line-after flex min-h-[260px] flex-col items-center justify-start gap-3 border-x border-edge px-4 pb-6 pt-24 text-center sm:min-h-[280px] sm:gap-4 sm:pb-8 sm:pt-28">
+        <p className="max-w-xl text-balance text-3xl font-semibold tracking-tight motion-safe:animate-hero-in sm:text-4xl md:text-5xl">
+          {c.heroHeadline}
+        </p>
+        <p className="flex max-w-xl flex-wrap items-center justify-center gap-x-2 text-2xl font-semibold tracking-tight text-muted-foreground motion-safe:animate-hero-in sm:text-3xl md:text-4xl [animation-delay:120ms]">
+          {language === 'tr' ? (
+            <>
+              <RotatingWords words={c.heroRotate} className="text-sky-500" />
+              <span>{c.heroFor}</span>
+            </>
+          ) : (
+            <>
+              <span>{c.heroFor}</span>
+              <RotatingWords words={c.heroRotate} className="text-sky-500" />
+            </>
+          )}
+        </p>
+        <a
+          href="https://telegram.me/+380931844615"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full border border-edge bg-background/80 px-4 py-2 text-sm font-medium backdrop-blur-sm transition duration-300 hover:bg-accent motion-safe:animate-hero-in motion-safe:hover:scale-[1.03] motion-safe:active:scale-[0.98] [animation-delay:220ms]"
+        >
+          {c.heroCta}
+          <svg viewBox="0 0 24 24" className="size-4" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"
+            />
+          </svg>
+        </a>
       </div>
 
       <div className="relative flex border-x border-edge px-3">
@@ -23,7 +56,7 @@ export default function Hero() {
               width={160}
               height={160}
               priority
-              className="size-[7.5rem] rounded-full object-cover object-top ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-40"
+              className="size-[7.5rem] rounded-full object-cover object-top ring-1 ring-border ring-offset-2 ring-offset-background select-none motion-safe:animate-hero-in sm:size-40 [animation-delay:280ms]"
             />
           </div>
         </div>

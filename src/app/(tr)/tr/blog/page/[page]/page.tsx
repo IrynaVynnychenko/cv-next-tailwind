@@ -28,9 +28,9 @@ export function generateMetadata({ params }: BlogPageProps): Metadata {
   }
 
   return {
-    title: `Blog — Sayfa ${pageNumber} — Iryna Vynnychenko | Kıdemli Web ve Frontend Geliştirici`,
+    title: `Blog - Sayfa ${pageNumber} - Iryna Vynnychenko | Kıdemli Web ve Frontend Geliştirici`,
     description:
-      'Web geliştirme, performans ve geliştirici seçimi üzerine pratik yazılar — kurucular ve product owner’lar için.',
+      'Web geliştirme, performans ve geliştirici seçimi üzerine pratik yazılar - kurucular ve product owner’lar için.',
     alternates: getBlogIndexAlternates('tr', pageNumber),
   }
 }

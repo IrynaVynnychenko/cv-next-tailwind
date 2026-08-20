@@ -8,7 +8,6 @@ import { UpworkIcon } from './Icons'
 
 export default function Contact() {
   const { language } = useLanguage()
-  const t = translations[language].contact
   const a = translations[language].about
   const c = chrome[language]
 
@@ -16,7 +15,6 @@ export default function Contact() {
     <Panel id="contact" title={c.workTogether}>
       <div className="space-y-5 p-4">
         <p className="text-sm leading-relaxed text-muted-foreground">{c.workTogetherText}</p>
-        <p className="text-sm text-muted-foreground">{t.subtitle}</p>
         <div className="flex flex-wrap gap-2">
           <a
             href="mailto:i.vynnychenko@gmail.com"

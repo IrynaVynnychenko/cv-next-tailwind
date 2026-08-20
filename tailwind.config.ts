@@ -30,6 +30,26 @@ const config: Config = {
         sans: ["var(--font-geist-sans)", "system-ui", "sans-serif"],
         mono: ["var(--font-geist-mono)", "ui-monospace", "monospace"],
       },
+      keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
+        },
+        "text-up": {
+          from: { transform: "translateY(110%)", opacity: "0" },
+          to: { transform: "translateY(0)", opacity: "1" },
+        },
+        "hero-in": {
+          from: { transform: "translateY(12px)", opacity: "0" },
+          to: { transform: "translateY(0)", opacity: "1" },
+        },
+      },
+      animation: {
+        marquee: "marquee 36s linear infinite",
+        "marquee-reverse": "marquee 36s linear infinite reverse",
+        "text-up": "text-up 0.55s cubic-bezier(0.22, 1, 0.36, 1)",
+        "hero-in": "hero-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) both",
+      },
     },
   },
   plugins: [],

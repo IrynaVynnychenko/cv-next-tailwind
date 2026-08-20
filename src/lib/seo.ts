@@ -1,6 +1,43 @@
+import type { Metadata } from 'next'
 import { LOCALE_TAGS, withLangPrefix, type Language } from '@/lib/i18n'
 
 const BASE_URL = 'https://vynnychenko.dev'
+
+export const SITE_OG_IMAGE_PATH = '/images/profile-photo.jpg'
+export const SITE_OG_IMAGE_URL = `${BASE_URL}${SITE_OG_IMAGE_PATH}`
+
+const OG_LOCALES: Record<Language, string> = {
+  en: 'en_US',
+  ua: 'uk_UA',
+  de: 'de_DE',
+  fr: 'fr_FR',
+  es: 'es_ES',
+  it: 'it_IT',
+  tr: 'tr_TR',
+}
+
+export function getOgLocale(lang: Language) {
+  return OG_LOCALES[lang]
+}
+
+export function getOpenGraphImages(alt = 'Iryna Vynnychenko') {
+  return [
+    {
+      url: SITE_OG_IMAGE_PATH,
+      width: 1024,
+      height: 768,
+      alt,
+      type: 'image/jpeg',
+    },
+  ]
+}
+
+export function getTwitterImageMetadata(alt = 'Iryna Vynnychenko'): NonNullable<Metadata['twitter']> {
+  return {
+    card: 'summary_large_image',
+    images: [{ url: SITE_OG_IMAGE_PATH, alt }],
+  }
+}
 
 export function getLanguageAlternates(pathWithoutLang: string) {
   const en = `${BASE_URL}${withLangPrefix('en', pathWithoutLang)}`

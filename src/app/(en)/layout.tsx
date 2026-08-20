@@ -4,6 +4,7 @@ import Script from "next/script";
 import "../globals.css";
 import Providers from "@/components/Providers";
 import ThemeScript from "@/components/ThemeScript";
+import { getOgLocale, getOpenGraphImages, getTwitterImageMetadata } from "@/lib/seo";
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
@@ -18,9 +19,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Iryna Vynnychenko | Frontend & Full-Stack Developer | Next.js, React, Node.js, AI",
-  description: "Frontend & Full-Stack Developer specializing in custom CRMs and complex web apps. Next.js, React, Node.js, AI, APIs. 4,200+ Upwork hours, 8+ years, 100+ launched projects.",
-  keywords: "Frontend Developer, Full-Stack Developer, React, Next.js, Node.js, TypeScript, Custom CRM, AI, OpenAI, Prisma, PostgreSQL, TanStack Query, Redux, Zustand, GraphQL, Tailwind CSS, Shadcn/ui, GSAP, SSR, SSG, ISR, Core Web Vitals, Ukraine, Upwork",
+  title: "Iryna Vynnychenko | Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL",
+  description: "Full-Stack Product Engineer for custom CRMs, ERP-style admin platforms, and multi-tenant SaaS with own Node.js/PostgreSQL backends. 4,200+ Upwork hours, 100% Job Success, NDA-ready.",
+  keywords: "Product Engineer, Full-Stack, React, Next.js, Node.js, TypeScript, Custom CRM, RBAC, multi-tenant, PostgreSQL, Prisma, GraphQL, TanStack Query, OpenAI, AWS, Ukraine, Upwork",
   authors: [{ name: "Iryna Vynnychenko" }],
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
@@ -37,12 +38,15 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Iryna Vynnychenko | Frontend & Full-Stack Developer | Next.js, React, Node.js, AI",
-    description: "4,200+ Upwork hours · 8+ years · 100+ launched projects. Custom CRMs, complex web apps, Next.js / React / Node.js / AI.",
+    title: "Iryna Vynnychenko | Full-Stack Product Engineer | Next.js, Node.js, PostgreSQL",
+    description: "Custom CRMs, ERP-style admin, multi-tenant SaaS. Next.js + Node.js / PostgreSQL. 4,200+ Upwork hours · 100% Job Success · NDA-ready.",
     url: 'https://vynnychenko.dev',
-    siteName: 'Iryna Vynnychenko — Frontend & Full-Stack Developer',
+    siteName: 'Iryna Vynnychenko - Full-Stack Product Engineer',
     type: "website",
+    locale: getOgLocale('en'),
+    images: getOpenGraphImages(),
   },
+  twitter: getTwitterImageMetadata(),
 };
 
 export default function RootLayout({

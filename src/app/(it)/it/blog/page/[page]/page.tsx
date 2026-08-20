@@ -28,9 +28,9 @@ export function generateMetadata({ params }: BlogPageProps): Metadata {
   }
 
   return {
-    title: `Blog — Pagina ${pageNumber} — Iryna Vynnychenko | Sviluppatrice Web e Frontend Senior`,
+    title: `Blog - Pagina ${pageNumber} - Iryna Vynnychenko | Sviluppatrice Web e Frontend Senior`,
     description:
-      'Articoli pratici su sviluppo web, performance e come scegliere uno sviluppatore — per founder e product owner.',
+      'Articoli pratici su sviluppo web, performance e come scegliere uno sviluppatore - per founder e product owner.',
     alternates: getBlogIndexAlternates('it', pageNumber),
   }
 }

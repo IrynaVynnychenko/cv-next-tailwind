@@ -32,13 +32,13 @@ const ctaCopy = {
     tr: 'Projenizi konuşalım mı?',
   },
   desc: {
-    en: "I'm a senior web engineer specializing in React and Next.js — available for freelance projects worldwide.",
-    ua: 'Я senior веброзробниця, спеціалізуюсь на React і Next.js — відкрита до фриланс-проєктів по всьому світу.',
-    de: 'Ich bin Senior-Webentwicklerin mit Schwerpunkt React und Next.js — verfügbar für Freelance-Projekte weltweit.',
-    fr: 'Je suis ingénieure web senior, spécialisée en React et Next.js — disponible en freelance partout dans le monde.',
-    es: 'Soy ingeniera web senior, especializada en React y Next.js — disponible para proyectos freelance en cualquier país.',
-    it: 'Sono un’ingegnera web senior, specializzata in React e Next.js — disponibile per progetti freelance in tutto il mondo.',
-    tr: 'React ve Next.js konusunda uzman kıdemli bir web geliştiriciyim — dünya çapında freelance projelere açığım.',
+    en: "I'm a senior web engineer specializing in React and Next.js - available for freelance projects worldwide.",
+    ua: 'Я senior веброзробниця, спеціалізуюсь на React і Next.js - відкрита до фриланс-проєктів по всьому світу.',
+    de: 'Ich bin Senior-Webentwicklerin mit Schwerpunkt React und Next.js - verfügbar für Freelance-Projekte weltweit.',
+    fr: 'Je suis ingénieure web senior, spécialisée en React et Next.js - disponible en freelance partout dans le monde.',
+    es: 'Soy ingeniera web senior, especializada en React y Next.js - disponible para proyectos freelance en cualquier país.',
+    it: 'Sono un’ingegnera web senior, specializzata in React e Next.js - disponibile per progetti freelance in tutto il mondo.',
+    tr: 'React ve Next.js konusunda uzman kıdemli bir web geliştiriciyim - dünya çapında freelance projelere açığım.',
   },
   orderApp: {
     en: 'Order a web application',
@@ -69,12 +69,12 @@ const ctaCopy = {
   },
   oneClickDesc: {
     en: 'Hire me as your developer in 1 click. Start a secure Upwork contract to build high-converting web solutions for your business.',
-    ua: 'Найміть мене як розробницю в один клік. Безпечний контракт на Upwork — і зробимо вебрішення з високою конверсією.',
+    ua: 'Найміть мене як розробницю в один клік. Безпечний контракт на Upwork - і зробимо вебрішення з високою конверсією.',
     de: 'Beauftragen Sie mich mit einem Klick. Sicherer Upwork-Vertrag für Web-Lösungen mit starker Conversion.',
     fr: 'Engagez-moi en un clic. Un contrat Upwork sécurisé pour des solutions web qui convertissent.',
     es: 'Contrátame en un clic. Un contrato seguro en Upwork para soluciones web que convierten.',
     it: 'Assumimi in un clic. Un contratto sicuro su Upwork per soluzioni web che convertono.',
-    tr: 'Beni tek tıkla geliştiriciniz olarak işe alın. İşletmeniz için dönüşüm odaklı web çözümleri — güvenli Upwork sözleşmesiyle.',
+    tr: 'Beni tek tıkla geliştiriciniz olarak işe alın. İşletmeniz için dönüşüm odaklı web çözümleri - güvenli Upwork sözleşmesiyle.',
   },
   orderUpwork: {
     en: 'Order a web application',
@@ -106,7 +106,7 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
   }
 
   return (
-    <article className="pt-14">
+    <article className="pt-20">
       <div className="pattern-hatch h-8 w-full border-x border-edge" />
       <div className="screen-line-before screen-line-after border-x border-edge p-4">
         <Link

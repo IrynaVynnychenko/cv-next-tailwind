@@ -4,7 +4,7 @@ import BlogPostDetailClient from '@/components/BlogPostDetailClient'
 import { SetLanguageClient } from '@/components/SetLanguageClient'
 import { getBlogPost, rawBlogPosts } from '@/data/blog-posts'
 import { BlogPostingSchema } from '@/components/SchemaMarkup'
-import { getBlogPostAlternates } from '@/lib/seo'
+import { getBlogPostAlternates, getOpenGraphImages, getTwitterImageMetadata } from '@/lib/seo'
 
 type BlogPostPageProps = {
   params: { slug: string }
@@ -24,7 +24,7 @@ export function generateMetadata({ params }: BlogPostPageProps): Metadata {
   const alternates = getBlogPostAlternates(params.slug, 'tr')
 
   return {
-    title: `${post.title} — Iryna Vynnychenko | Kıdemli Web ve Frontend Geliştirici`,
+    title: `${post.title} - Iryna Vynnychenko | Kıdemli Web ve Frontend Geliştirici`,
     description: post.excerpt,
     alternates,
     openGraph: {
@@ -32,7 +32,9 @@ export function generateMetadata({ params }: BlogPostPageProps): Metadata {
       description: post.excerpt,
       type: 'article',
       url: alternates.canonical,
+      images: getOpenGraphImages(),
     },
+    twitter: getTwitterImageMetadata(),
   }
 }
 

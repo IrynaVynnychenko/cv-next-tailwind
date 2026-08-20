@@ -43,7 +43,7 @@ export default function BlogIndex({ currentPage }: BlogIndexProps) {
   const displayedPosts = isSearching ? filteredPosts : getBlogPostsForPage(currentPage, language)
 
   return (
-    <div className="pt-14">
+    <div className="pt-20">
       <div className="pattern-hatch h-8 w-full border-x border-edge" />
       <Panel title={t.title}>
         <div className="space-y-5 p-4">

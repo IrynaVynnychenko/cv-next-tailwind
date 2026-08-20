@@ -7,11 +7,12 @@ import { chrome } from '@/data/chrome'
 import { Badge, Panel } from './Panel'
 
 function parseProject(raw: string) {
-  const [url, ...rest] = raw.split(' - ')
+  const parts = raw.split(/\s[—–-]\s/)
+  const url = (parts[0] ?? '').trim()
   return {
-    url: url.trim(),
+    url,
     title: url.replace(/^https?:\/\//, '').replace(/\/$/, ''),
-    description: rest.join(' - ').trim(),
+    description: parts.slice(1).join(' - ').trim(),
   }
 }
 
@@ -50,7 +51,7 @@ export default function Projects() {
   const { language } = useLanguage()
   const t = translations[language].experience
   const c = chrome[language]
-  const [openIndex, setOpenIndex] = useState<number | null>(0)
+  const [openIndex, setOpenIndex] = useState<number | null>(-1)
   const freelance = t.items[0]
   const projects = freelance.projects.map(parseProject)
   const ndaProjects = 'ndaProjects' in freelance ? freelance.ndaProjects : []
@@ -58,6 +59,40 @@ export default function Projects() {
   return (
     <Panel id="projects" title={c.projects} count={projects.length + (ndaProjects.length ? 1 : 0)}>
       <div>
+        {ndaProjects.length > 0 && (
+          <div>
+            <div className="flex items-center hover:bg-accent-muted">
+              <div className="mx-4 flex size-6 shrink-0 items-center justify-center rounded-lg border border-muted-foreground/15 bg-muted text-muted-foreground ring-1 ring-edge ring-offset-1 ring-offset-background">
+                <BoxIcon />
+              </div>
+              <button
+                type="button"
+                onClick={() => setOpenIndex(openIndex === -1 ? null : -1)}
+                className="flex-1 border-l border-dashed border-edge p-4 text-left"
+              >
+                <h3 className="mb-1 font-medium">{c.ndaTitle}</h3>
+                <p className="text-sm text-muted-foreground">{t.ndaProjectsNote}</p>
+              </button>
+            </div>
+            {openIndex === -1 && (
+              <ul className="space-y-2 border-t border-edge p-4 text-sm text-muted-foreground">
+                {ndaProjects.map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <span className="mt-2 size-1 shrink-0 rounded-full bg-muted-foreground" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
+
+        {projects.length > 0 && (
+          <p className="border-t border-edge px-4 py-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground/60">
+            {c.publicWork}
+          </p>
+        )}
+
         {projects.map((project, index) => {
           const isOpen = openIndex === index
           return (
@@ -110,34 +145,6 @@ export default function Projects() {
             </div>
           )
         })}
-
-        {ndaProjects.length > 0 && (
-          <div>
-            <div className="flex items-center hover:bg-accent-muted">
-              <div className="mx-4 flex size-6 shrink-0 items-center justify-center rounded-lg border border-muted-foreground/15 bg-muted text-muted-foreground ring-1 ring-edge ring-offset-1 ring-offset-background">
-                <BoxIcon />
-              </div>
-              <button
-                type="button"
-                onClick={() => setOpenIndex(openIndex === -1 ? null : -1)}
-                className="flex-1 border-l border-dashed border-edge p-4 text-left"
-              >
-                <h3 className="mb-1 font-medium">{c.ndaTitle}</h3>
-                <p className="text-sm text-muted-foreground">{t.ndaProjectsNote}</p>
-              </button>
-            </div>
-            {openIndex === -1 && (
-              <ul className="space-y-2 border-t border-edge p-4 text-sm text-muted-foreground">
-                {ndaProjects.map((item) => (
-                  <li key={item} className="flex items-start gap-2">
-                    <span className="mt-2 size-1 shrink-0 rounded-full bg-muted-foreground" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-        )}
       </div>
     </Panel>
   )

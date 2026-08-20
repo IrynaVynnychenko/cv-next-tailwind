@@ -2,6 +2,7 @@ import { BlogPost } from '@/data/blog-posts'
 import { translations } from '@/data/translations'
 import type { Language } from '@/lib/i18n'
 import { getBlogIndexPath, getBlogPostPath, getHomePath, LOCALE_TAGS } from '@/lib/i18n'
+import { SITE_OG_IMAGE_URL } from '@/lib/seo'
 
 type Lang = Language
 
@@ -20,22 +21,22 @@ const copy = {
     tr: 'Iryna Vynnychenko',
   },
   jobTitle: {
-    en: 'Frontend & Full-Stack Developer',
-    ua: 'Frontend & Full-Stack розробниця',
-    de: 'Frontend- & Full-Stack-Entwicklerin',
-    fr: 'Développeuse Frontend & Full-Stack',
-    es: 'Desarrolladora Frontend y Full-Stack',
-    it: 'Sviluppatrice Frontend e Full-Stack',
-    tr: 'Frontend ve Full-Stack Geliştirici',
+    en: 'Full-Stack Product Engineer',
+    ua: 'Full-Stack Product Engineer',
+    de: 'Full-Stack Product Engineer',
+    fr: 'Full-Stack Product Engineer',
+    es: 'Full-Stack Product Engineer',
+    it: 'Full-Stack Product Engineer',
+    tr: 'Full-Stack Product Engineer',
   },
   personDescription: {
-    en: 'Frontend & Full-Stack Developer specializing in custom CRMs and complex web apps with Next.js, React, Node.js, and AI. 4,200+ Upwork hours, 8+ years, 100+ launched projects.',
-    ua: 'Frontend & Full-Stack розробниця: кастомні CRM і складні вебзастосунки на Next.js, React, Node.js і ШІ. 4 200+ годин на Upwork, 8+ років, 100+ запущених проєктів.',
-    de: 'Frontend- & Full-Stack-Entwicklerin für Custom-CRMs und komplexe Web-Apps mit Next.js, React, Node.js und KI. 4.200+ Upwork-Stunden, 8+ Jahre, 100+ veröffentlichte Projekte.',
-    fr: 'Développeuse Frontend & Full-Stack spécialisée dans les CRM sur mesure et les applications web complexes avec Next.js, React, Node.js et l’IA. 4 200+ heures sur Upwork, 8+ ans, 100+ projets lancés.',
-    es: 'Desarrolladora Frontend y Full-Stack especializada en CRM a medida y aplicaciones web complejas con Next.js, React, Node.js e IA. Más de 4.200 horas en Upwork, 8+ años, 100+ proyectos lanzados.',
-    it: 'Sviluppatrice Frontend e Full-Stack specializzata in CRM su misura e applicazioni web complesse con Next.js, React, Node.js e IA. Oltre 4.200 ore su Upwork, 8+ anni, 100+ progetti lanciati.',
-    tr: 'Next.js, React, Node.js ve yapay zekâ ile özel CRM ve karmaşık web uygulamaları geliştiren Frontend ve Full-Stack Geliştirici. 4.200+ Upwork saati, 8+ yıl, 100+ yayına alınan proje.',
+    en: 'Full-Stack Product Engineer for custom CRMs, ERP-style admin platforms, and multi-tenant SaaS with own Node.js/PostgreSQL backends. 4,200+ Upwork hours, 100% Job Success, NDA-ready.',
+    ua: 'Продуктова інженерка: кастомні CRM, адмін-платформи рівня ERP і мульти-тенантний SaaS із власним бекендом на Node.js/PostgreSQL. 4 200+ годин на Upwork, 100% Job Success, готова до NDA.',
+    de: 'Full-Stack Product Engineer für Custom-CRMs, Admin-Plattformen auf ERP-Niveau und Multi-Tenant-SaaS mit eigenem Node.js/PostgreSQL-Backend. 4.200+ Upwork-Stunden, 100% Job Success, NDA-fähig.',
+    fr: 'Product engineer : CRM sur mesure, admin type ERP et SaaS multi-tenant avec backend Node.js/PostgreSQL. 4 200+ heures Upwork, 100 % Job Success, NDA possible.',
+    es: 'Ingeniera de producto: CRM a medida, admin tipo ERP y SaaS multi-tenant con backend propio en Node.js/PostgreSQL. Más de 4.200 horas en Upwork, 100% Job Success, lista para NDA.',
+    it: 'Product engineer: CRM su misura, admin di livello ERP e SaaS multi-tenant con backend proprio su Node.js/PostgreSQL. Oltre 4.200 ore su Upwork, 100% Job Success, pronta per NDA.',
+    tr: 'Ürün mühendisi: özel CRM’ler, ERP tarzı admin platformları ve kendi Node.js/PostgreSQL backend’ine sahip çok kiracılı SaaS. 4.200+ Upwork saati, %100 Job Success, NDA’ya hazır.',
   },
   city: {
     en: 'Kyiv',
@@ -47,22 +48,22 @@ const copy = {
     tr: 'Kyiv',
   },
   siteName: {
-    en: 'Iryna Vynnychenko — Frontend & Full-Stack Developer',
-    ua: 'Ірина Винниченко — Frontend & Full-Stack розробниця',
-    de: 'Iryna Vynnychenko — Frontend- & Full-Stack-Entwicklerin',
-    fr: 'Iryna Vynnychenko — Développeuse Frontend & Full-Stack',
-    es: 'Iryna Vynnychenko — Desarrolladora Frontend y Full-Stack',
-    it: 'Iryna Vynnychenko — Sviluppatrice Frontend e Full-Stack',
-    tr: 'Iryna Vynnychenko — Frontend ve Full-Stack Geliştirici',
+    en: 'Iryna Vynnychenko - Full-Stack Product Engineer',
+    ua: 'Ірина Винниченко - Full-Stack Product Engineer',
+    de: 'Iryna Vynnychenko - Full-Stack Product Engineer',
+    fr: 'Iryna Vynnychenko - Full-Stack Product Engineer',
+    es: 'Iryna Vynnychenko - Full-Stack Product Engineer',
+    it: 'Iryna Vynnychenko - Full-Stack Product Engineer',
+    tr: 'Iryna Vynnychenko - Full-Stack Product Engineer',
   },
   siteDescription: {
-    en: 'Portfolio and blog of Iryna Vynnychenko. Frontend & Full-Stack development: Next.js, React, Node.js, AI, custom CRMs, and complex web apps.',
-    ua: 'Портфоліо та блог Ірини Винниченко. Frontend & Full-Stack: Next.js, React, Node.js, ШІ, кастомні CRM і складні вебзастосунки.',
-    de: 'Portfolio und Blog von Iryna Vynnychenko. Frontend- & Full-Stack-Entwicklung: Next.js, React, Node.js, KI, Custom-CRMs und komplexe Web-Apps.',
-    fr: 'Portfolio et blog d’Iryna Vynnychenko. Développement Frontend & Full-Stack : Next.js, React, Node.js, IA, CRM sur mesure et applications web complexes.',
-    es: 'Portfolio y blog de Iryna Vynnychenko. Desarrollo Frontend y Full-Stack: Next.js, React, Node.js, IA, CRM a medida y aplicaciones web complejas.',
-    it: 'Portfolio e blog di Iryna Vynnychenko. Sviluppo Frontend e Full-Stack: Next.js, React, Node.js, IA, CRM su misura e applicazioni web complesse.',
-    tr: 'Iryna Vynnychenko’nun portfolyosu ve blogu. Frontend ve Full-Stack geliştirme: Next.js, React, Node.js, yapay zekâ, özel CRM ve karmaşık web uygulamaları.',
+    en: 'Portfolio of Iryna Vynnychenko. Product engineering: custom CRMs, ERP-style admin, multi-tenant SaaS, Next.js + Node.js / PostgreSQL.',
+    ua: 'Портфоліо Ірини Винниченко. Продуктова інженерія: кастомні CRM, адмін рівня ERP, мульти-тенантний SaaS, Next.js + Node.js / PostgreSQL.',
+    de: 'Portfolio von Iryna Vynnychenko. Produktentwicklung: Custom-CRMs, Admin auf ERP-Niveau, Multi-Tenant-SaaS, Next.js + Node.js / PostgreSQL.',
+    fr: 'Portfolio d’Iryna Vynnychenko. Ingénierie produit : CRM sur mesure, admin type ERP, SaaS multi-tenant, Next.js + Node.js / PostgreSQL.',
+    es: 'Portfolio de Iryna Vynnychenko. Ingeniería de producto: CRM a medida, admin tipo ERP, SaaS multi-tenant, Next.js + Node.js / PostgreSQL.',
+    it: 'Portfolio di Iryna Vynnychenko. Product engineering: CRM su misura, admin di livello ERP, SaaS multi-tenant, Next.js + Node.js / PostgreSQL.',
+    tr: 'Iryna Vynnychenko’nun portfolyosu. Ürün mühendisliği: özel CRM, ERP tarzı admin, çok kiracılı SaaS, Next.js + Node.js / PostgreSQL.',
   },
   blogName: {
     en: "Iryna Vynnychenko's Blog",
@@ -180,7 +181,7 @@ export function ProfilePageSchema({ lang }: SchemaProps) {
       name: copy.name[lang],
       jobTitle: copy.jobTitle[lang],
       url: 'https://vynnychenko.dev',
-      image: 'https://vynnychenko.dev/images/profile-photo.jpg',
+      image: SITE_OG_IMAGE_URL,
       description: copy.personDescription[lang],
       sameAs: [
         'https://www.linkedin.com/in/iryna-vynnychenko-287202141/',
@@ -217,6 +218,7 @@ export function WebSiteSchema({ lang }: SchemaProps) {
     url: 'https://vynnychenko.dev',
     description: copy.siteDescription[lang],
     inLanguage: LOCALE_TAGS[lang],
+    image: SITE_OG_IMAGE_URL,
   }
 
   return (
@@ -241,10 +243,12 @@ export function BlogSchema({ posts, lang }: BlogSchemaProps) {
     name: copy.blogName[lang],
     description: copy.blogDescription[lang],
     url: blogUrl,
+    image: SITE_OG_IMAGE_URL,
     publisher: {
       '@type': 'Person',
       name: authorName,
       url: 'https://vynnychenko.dev',
+      image: SITE_OG_IMAGE_URL,
     },
     blogPost: posts.map((post) => ({
       '@type': 'BlogPosting',
@@ -252,6 +256,7 @@ export function BlogSchema({ posts, lang }: BlogSchemaProps) {
       description: post.excerpt,
       datePublished: post.date,
       url: `https://vynnychenko.dev${getBlogPostPath(lang, post.slug)}`,
+      image: SITE_OG_IMAGE_URL,
     })),
   }
 
@@ -283,18 +288,18 @@ export function BlogPostingSchema({ post, lang }: BlogPostingSchemaProps) {
     url: postUrl,
     inLanguage: LOCALE_TAGS[lang],
     keywords: post.tags.join(', '),
-    image: 'https://vynnychenko.dev/images/profile-photo.jpg',
+    image: SITE_OG_IMAGE_URL,
     author: {
       '@type': 'Person',
       name: authorName,
       url: authorUrl,
-      image: 'https://vynnychenko.dev/images/profile-photo.jpg',
+      image: SITE_OG_IMAGE_URL,
     },
     publisher: {
       '@type': 'Person',
       name: authorName,
       url: 'https://vynnychenko.dev',
-      image: 'https://vynnychenko.dev/images/profile-photo.jpg',
+      image: SITE_OG_IMAGE_URL,
     },
   }
 
