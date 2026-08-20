@@ -7,6 +7,7 @@ import { engineeringPosts } from './posts-engineering'
 import { itRoleBlogPosts } from './posts-it-roles'
 import { socialPosts } from './posts-social'
 import { telegramExamplePosts } from './posts-telegram-examples'
+import { telegramMiniAppIdeaPosts } from './posts-telegram-mini-app-ideas'
 import { telegramMiniAppPosts } from './posts-telegram-mini-app'
 import { telegramPosts } from './posts-telegram'
 
@@ -23,6 +24,7 @@ const ALL_POSTS: RawBlogPost[] = [
   ...aiLlmPosts,
   ...telegramPosts,
   ...telegramMiniAppPosts,
+  ...telegramMiniAppIdeaPosts,
   ...telegramExamplePosts,
   ...socialPosts,
   ...engineeringPosts,
@@ -35,6 +37,11 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'telegram-mini-app-exclusive-drop-example',
+  'telegram-mini-app-team-kanban-example',
+  'telegram-mini-app-product-patterns-2026',
+  'telegram-mini-app-group-expense-split-example',
+  'telegram-mini-app-and-pwa-same-codebase',
   'geo-chatgpt-citations-for-business-2026',
   'ai-agent-vs-chatbot-for-small-business',
   'nextjs-16-3-instant-navigations-agents',

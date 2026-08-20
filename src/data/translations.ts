@@ -23,7 +23,7 @@ export const translations = {
       tagline:
         'Frontend and fullstack Next.js: marketing sites, Webflow, WordPress, static, animation — and Next.js with UI, APIs, and data.',
       fullCycle:
-        'Marketing sites on Webflow, WordPress, or static. Motion with GSAP / Lottie / Framer Motion. Fullstack Next.js when it is a product: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI and backend in one app.',
+        'Marketing sites on Webflow, WordPress, or static. Motion with GSAP / Lottie / Framer Motion. Fullstack Next.js when it is a product: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI and backend in one web app.',
       whyTitle: 'Why Clients Choose Me',
       whyItems: [
         '8+ years: marketing sites on Webflow, WordPress, static — and fullstack Next.js in production',
@@ -99,7 +99,7 @@ export const translations = {
           items: [
             'Git / GitHub, CI/CD',
             'AWS (S3, CloudFront, Amplify / Serverless)',
-            'Vercel, Netlify',
+            'Vercel, VPS servers, Netlify',
             'Jest, React Testing Library',
           ],
         },
@@ -130,17 +130,17 @@ export const translations = {
           title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Present',
-          description: 'Independent engineer: marketing sites (Webflow, WordPress, static, animation) and fullstack Next.js — UI, APIs, PostgreSQL / Prisma in one app.',
+          description: 'Independent engineer: marketing sites (Webflow, WordPress, static, animation) and fullstack Next.js — UI, APIs, PostgreSQL / Prisma in one web app.',
           achievements: [
             'Marketing sites: Webflow, WordPress, static HTML, GSAP / Lottie / Framer Motion',
             'Full-stack ownership: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, tenant isolation, audit-friendly data flows, tens to thousands of users',
             'Backend workflows, not screens only: status machines, permissions, integrations with existing APIs, TanStack Query for live operational UIs',
-            'Production systems: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, preview vs production isolation',
+            'Production systems: SSR/SSG/ISR, CloudFront / Vercel Edge / VPS, AWS (S3, Amplify), CI/CD, preview vs production isolation',
             'Product AI (OpenAI, Vercel AI SDK, SSE/WebSocket streaming) as features inside the system',
             'NDA-ready for confidential corporate and enterprise products',
           ],
-          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'Vercel', 'VPS', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Ukrainian Massage School & Training Center',
             'https://niunkina.com/ - Business website for German cosmetologist (Next.js + TailwindCSS)',
@@ -150,7 +150,7 @@ export const translations = {
           ],
           ndaProjects: [
             'Multi-tenant product systems on Next.js + PostgreSQL/Prisma - isolated data, built to grow from dozens to thousands of users',
-            'High-traffic delivery: SSR/SSG/ISR, CDN caching (CloudFront / Vercel Edge), code splitting, Core Web Vitals under load',
+            'High-traffic delivery: SSR/SSG/ISR, CDN caching (CloudFront / Vercel Edge / VPS), code splitting, Core Web Vitals under load',
             'AWS serverless: S3, CloudFront, Amplify - preview vs production isolation, CI/CD, repeatable deploys',
             'API backends at scale (Node.js, REST/GraphQL) with TanStack Query - cache, retries, and optimistic UI for live products',
           ],
@@ -313,7 +313,7 @@ export const translations = {
           list: [
             'Marketing sites: Webflow, WordPress, static HTML, landings and corporate sites.',
             'Animation and interaction: GSAP, Lottie, Framer Motion.',
-            'Fullstack Next.js: UI, APIs, PostgreSQL / Prisma in one app. NDA-ready.',
+            'Fullstack Next.js: UI, APIs, PostgreSQL / Prisma in one web app. NDA-ready.',
           ],
         },
       ],
@@ -360,7 +360,7 @@ export const translations = {
       tagline:
         'Фронтенд і fullstack Next.js: маркетингові сайти, Webflow, WordPress, статика, анімація — і Next.js з UI, API та даними.',
       fullCycle:
-        'Маркетингові сайти на Webflow, WordPress або статиці. Анімація GSAP / Lottie / Framer Motion. Fullstack Next.js, коли це продукт: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI і бекенд в одному застосунку.',
+        'Маркетингові сайти на Webflow, WordPress або статиці. Анімація GSAP / Lottie / Framer Motion. Fullstack Next.js, коли це продукт: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI і бекенд в одному вебзастосунку.',
       whyTitle: 'Чому клієнти обирають мене',
       whyItems: [
         '8+ років у проді: маркетингові сайти на Webflow, WordPress, статиці — і fullstack Next.js',
@@ -436,7 +436,7 @@ export const translations = {
           items: [
             'Git / GitHub, CI/CD',
             'AWS (S3, CloudFront, Amplify / Serverless)',
-            'Vercel, Netlify',
+            'Vercel, VPS-сервери, Netlify',
             'Jest, React Testing Library',
           ],
         },
@@ -467,17 +467,17 @@ export const translations = {
           title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Дотепер',
-          description: 'Незалежна інженерка: маркетингові сайти (Webflow, WordPress, статика, анімація) і fullstack Next.js — UI, API, PostgreSQL / Prisma в одному застосунку.',
+          description: 'Незалежна інженерка: маркетингові сайти (Webflow, WordPress, статика, анімація) і fullstack Next.js — UI, API, PostgreSQL / Prisma в одному вебзастосунку.',
           achievements: [
             'Маркетингові сайти: Webflow, WordPress, статика HTML, GSAP / Lottie / Framer Motion',
             'Повний стек: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, ізоляція тенантів, auditable потоки даних, від десятків до тисяч користувачів',
             'Бекенд-воркфлоу, не лише екрани: статусні машини, права, інтеграції з існуючими API, TanStack Query для живого операційного UI',
-            'Прод: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, ізоляція preview і production',
+            'Прод: SSR/SSG/ISR, CloudFront / Vercel Edge / VPS, AWS (S3, Amplify), CI/CD, ізоляція preview і production',
             'AI всередині продукту (OpenAI, Vercel AI SDK, SSE/WebSocket streaming) як фічі системи',
             'Готова до NDA на корпоративних і enterprise-продуктах',
           ],
-          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'Vercel', 'VPS', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - українська школа масажу та навчальний центр',
             'https://niunkina.com/ - сайт для косметологині в Німеччині (Next.js + Tailwind CSS)',
@@ -487,7 +487,7 @@ export const translations = {
           ],
           ndaProjects: [
             'Мульти-тенантні продуктові системи на Next.js + PostgreSQL/Prisma - ізоляція даних, розраховані на ріст від десятків до тисяч користувачів',
-            'Високонавантажена віддача: SSR/SSG/ISR, CDN-кеш (CloudFront / Vercel Edge), code splitting, Core Web Vitals під навантаженням',
+            'Високонавантажена віддача: SSR/SSG/ISR, CDN-кеш (CloudFront / Vercel Edge / VPS), code splitting, Core Web Vitals під навантаженням',
             'AWS serverless: S3, CloudFront, Amplify - ізоляція preview і production, CI/CD, повторювані деплої',
             'API-бекенди в масштабі (Node.js, REST/GraphQL) з TanStack Query - кеш, ретраї та optimistic UI для живих продуктів',
           ],
@@ -650,7 +650,7 @@ export const translations = {
           list: [
             'Маркетингові сайти: Webflow, WordPress, статика HTML, лендинги та корпоративні сайти.',
             'Анімація та взаємодія: GSAP, Lottie, Framer Motion.',
-            'Fullstack Next.js: UI, API, PostgreSQL / Prisma в одному застосунку. Готова до NDA.',
+            'Fullstack Next.js: UI, API, PostgreSQL / Prisma в одному вебзастосунку. Готова до NDA.',
           ],
         },
       ],
@@ -697,7 +697,7 @@ export const translations = {
       tagline:
         'Frontend und Fullstack-Next.js: Marketing-Sites, Webflow, WordPress, Statik, Animation — und Next.js mit UI, APIs und Daten.',
       fullCycle:
-        'Marketing-Sites in Webflow, WordPress oder statisch. Motion mit GSAP / Lottie / Framer Motion. Fullstack-Next.js, wenn es ein Produkt ist: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI und Backend in einer App.',
+        'Marketing-Sites in Webflow, WordPress oder statisch. Motion mit GSAP / Lottie / Framer Motion. Fullstack-Next.js, wenn es ein Produkt ist: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI und Backend in einer Web-App.',
       whyTitle: 'Warum Kundinnen und Kunden mich beauftragen',
       whyItems: [
         '8+ Jahre: Marketing-Sites in Webflow, WordPress, Statik — und Fullstack-Next.js in Produktion',
@@ -773,7 +773,7 @@ export const translations = {
           items: [
             'Git / GitHub, CI/CD',
             'AWS (S3, CloudFront, Amplify / Serverless)',
-            'Vercel, Netlify',
+            'Vercel, VPS-Server, Netlify',
             'Jest, React Testing Library',
           ],
         },
@@ -806,17 +806,17 @@ export const translations = {
           company: 'Upwork',
           period: '2018 - heute',
           description:
-            'Unabhängige Engineerin für Marketing-Sites (Webflow, WordPress, Statik, Animation) und Fullstack-Next.js — UI, APIs, PostgreSQL / Prisma in einer App.',
+            'Unabhängige Engineerin für Marketing-Sites (Webflow, WordPress, Statik, Animation) und Fullstack-Next.js — UI, APIs, PostgreSQL / Prisma in einer Web-App.',
           achievements: [
             'Marketing-Sites: Webflow, WordPress, statisches HTML, GSAP / Lottie / Framer Motion',
             'Full-Stack-Verantwortung: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, Tenant-Isolation, auditierbare Datenflüsse, Dutzende bis Tausende Nutzer',
             'Backend-Workflows, nicht nur Screens: Statusmaschinen, Rechte, Anbindung bestehender APIs, TanStack Query für operative UIs',
-            'Produktion: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, Preview vs. Production',
+            'Produktion: SSR/SSG/ISR, CloudFront / Vercel Edge / VPS, AWS (S3, Amplify), CI/CD, Preview vs. Production',
             'Produkt-KI (OpenAI, Vercel AI SDK, SSE/WebSocket-Streaming) als System-Features',
             'NDA-fähig für vertrauliche Corporate- und Enterprise-Produkte',
           ],
-          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'Vercel', 'VPS', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Ukrainische Massageschule und Trainingszentrum',
             'https://niunkina.com/ - Website für eine Kosmetologin in Deutschland (Next.js + Tailwind CSS)',
@@ -826,7 +826,7 @@ export const translations = {
           ],
           ndaProjects: [
             'Multi-Tenant-Produktsysteme mit Next.js + PostgreSQL/Prisma - Datenisolation, ausgelegt auf Wachstum von Dutzenden auf Tausende Nutzer',
-            'High-Traffic-Auslieferung: SSR/SSG/ISR, CDN-Caching (CloudFront / Vercel Edge), Code Splitting, Core Web Vitals unter Last',
+            'High-Traffic-Auslieferung: SSR/SSG/ISR, CDN-Caching (CloudFront / Vercel Edge / VPS), Code Splitting, Core Web Vitals unter Last',
             'AWS Serverless: S3, CloudFront, Amplify - Isolation von Preview und Production, CI/CD, wiederholbare Deploys',
             'API-Backends im Maßstab (Node.js, REST/GraphQL) mit TanStack Query - Cache, Retries und Optimistic UI für Live-Produkte',
           ],
@@ -992,7 +992,7 @@ export const translations = {
           list: [
             'Marketing-Sites: Webflow, WordPress, statisches HTML, Landings und Corporate Sites.',
             'Animation und Interaktion: GSAP, Lottie, Framer Motion.',
-            'Fullstack-Next.js: UI, APIs, PostgreSQL / Prisma in einer App. NDA-fähig.',
+            'Fullstack-Next.js: UI, APIs, PostgreSQL / Prisma in einer Web-App. NDA-fähig.',
           ],
         },
       ],
@@ -1040,7 +1040,7 @@ export const translations = {
       tagline:
         'Frontend et Next.js fullstack : sites marketing, Webflow, WordPress, statique, animation — et Next.js avec UI, APIs et données.',
       fullCycle:
-        'Sites marketing en Webflow, WordPress ou statique. Motion avec GSAP / Lottie / Framer Motion. Next.js fullstack quand c’est un produit : Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI et backend dans une seule app.',
+        'Sites marketing en Webflow, WordPress ou statique. Motion avec GSAP / Lottie / Framer Motion. Next.js fullstack quand c’est un produit : Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI et backend dans une seule web app.',
       whyTitle: 'Pourquoi les clients me choisissent',
       whyItems: [
         '8+ ans : sites marketing en Webflow, WordPress, statique — et Next.js fullstack en prod',
@@ -1116,7 +1116,7 @@ export const translations = {
           items: [
             'Git / GitHub, CI/CD',
             'AWS (S3, CloudFront, Amplify / Serverless)',
-            'Vercel, Netlify',
+            'Vercel, serveurs VPS, Netlify',
             'Jest, React Testing Library',
           ],
         },
@@ -1149,17 +1149,17 @@ export const translations = {
           company: 'Upwork',
           period: '2018 - aujourd’hui',
           description:
-            'Ingénieure indépendante : sites marketing (Webflow, WordPress, statique, animation) et Next.js fullstack — UI, APIs, PostgreSQL / Prisma dans une seule app.',
+            'Ingénieure indépendante : sites marketing (Webflow, WordPress, statique, animation) et Next.js fullstack — UI, APIs, PostgreSQL / Prisma dans une seule web app.',
           achievements: [
             'Sites marketing : Webflow, WordPress, HTML statique, GSAP / Lottie / Framer Motion',
             'Ownership full-stack : Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, isolation des tenants, flux de données auditables, dizaines à milliers d’utilisateurs',
             'Workflows backend, pas seulement des écrans : machines à états, permissions, intégrations d’APIs existantes, TanStack Query pour l’UI opérationnelle',
-            'Production : SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, isolation preview / production',
+            'Production : SSR/SSG/ISR, CloudFront / Vercel Edge / VPS, AWS (S3, Amplify), CI/CD, isolation preview / production',
             'IA produit (OpenAI, Vercel AI SDK, streaming SSE/WebSocket) comme features du système',
             'NDA pour produits corporate et enterprise confidentiels',
           ],
-          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'Vercel', 'VPS', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - École ukrainienne de massage & centre de formation',
             'https://niunkina.com/ - Site vitrine pour une cosmétologue en Allemagne (Next.js + Tailwind CSS)',
@@ -1169,7 +1169,7 @@ export const translations = {
           ],
           ndaProjects: [
             'Systèmes produit multi-tenant en Next.js + PostgreSQL/Prisma - isolation des données, conçus pour passer de dizaines à des milliers d’utilisateurs',
-            'Livraison high-traffic : SSR/SSG/ISR, cache CDN (CloudFront / Vercel Edge), code splitting, Core Web Vitals sous charge',
+            'Livraison high-traffic : SSR/SSG/ISR, cache CDN (CloudFront / Vercel Edge / VPS), code splitting, Core Web Vitals sous charge',
             'AWS serverless : S3, CloudFront, Amplify - isolation preview / production, CI/CD, deploys reproductibles',
             'Backends API à l’échelle (Node.js, REST/GraphQL) avec TanStack Query - cache, retries et UI optimistic pour produits live',
           ],
@@ -1335,7 +1335,7 @@ export const translations = {
           list: [
             'Sites marketing : Webflow, WordPress, HTML statique, landings et sites corporate.',
             'Animation et interaction : GSAP, Lottie, Framer Motion.',
-            'Next.js fullstack : UI, APIs, PostgreSQL / Prisma dans une seule app. NDA possible.',
+            'Next.js fullstack : UI, APIs, PostgreSQL / Prisma dans une seule web app. NDA possible.',
           ],
         },
       ],
@@ -1383,7 +1383,7 @@ export const translations = {
       tagline:
         'Frontend y Next.js fullstack: sitios de marketing, Webflow, WordPress, estático, animación — y Next.js con UI, APIs y datos.',
       fullCycle:
-        'Sitios de marketing en Webflow, WordPress o estático. Motion con GSAP / Lottie / Framer Motion. Next.js fullstack cuando es un producto: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI y backend en una sola app.',
+        'Sitios de marketing en Webflow, WordPress o estático. Motion con GSAP / Lottie / Framer Motion. Next.js fullstack cuando es un producto: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI y backend en una sola web app.',
       whyTitle: 'Por qué me eligen',
       whyItems: [
         '8+ años: sitios de marketing en Webflow, WordPress, estático — y Next.js fullstack en producción',
@@ -1459,7 +1459,7 @@ export const translations = {
           items: [
             'Git / GitHub, CI/CD',
             'AWS (S3, CloudFront, Amplify / Serverless)',
-            'Vercel, Netlify',
+            'Vercel, servidores VPS, Netlify',
             'Jest, React Testing Library',
           ],
         },
@@ -1490,17 +1490,17 @@ export const translations = {
           title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Presente',
-          description: 'Ingeniera independiente: sitios de marketing (Webflow, WordPress, estático, animación) y Next.js fullstack — UI, APIs, PostgreSQL / Prisma en una sola app.',
+          description: 'Ingeniera independiente: sitios de marketing (Webflow, WordPress, estático, animación) y Next.js fullstack — UI, APIs, PostgreSQL / Prisma en una sola web app.',
           achievements: [
             'Sitios de marketing: Webflow, WordPress, HTML estático, GSAP / Lottie / Framer Motion',
             'Ownership full-stack: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, aislamiento de tenant, flujos auditables, de decenas a miles de usuarios',
             'Workflows de backend, no solo pantallas: máquinas de estados, permisos, integración con APIs existentes, TanStack Query para UI operativa',
-            'Producción: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, aislamiento preview vs production',
+            'Producción: SSR/SSG/ISR, CloudFront / Vercel Edge / VPS, AWS (S3, Amplify), CI/CD, aislamiento preview vs production',
             'IA de producto (OpenAI, Vercel AI SDK, streaming SSE/WebSocket) como features del sistema',
             'Lista para NDA en productos corporativos y enterprise',
           ],
-          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'Vercel', 'VPS', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Escuela y centro de formación de masaje en Ucrania',
             'https://niunkina.com/ - Web de negocio para cosmetóloga en Alemania (Next.js + TailwindCSS)',
@@ -1510,7 +1510,7 @@ export const translations = {
           ],
           ndaProjects: [
             'Sistemas de producto multi-tenant en Next.js + PostgreSQL/Prisma - datos aislados, pensados para crecer de decenas a miles de usuarios',
-            'Entrega de alto tráfico: SSR/SSG/ISR, caché CDN (CloudFront / Vercel Edge), code splitting, Core Web Vitals bajo carga',
+            'Entrega de alto tráfico: SSR/SSG/ISR, caché CDN (CloudFront / Vercel Edge / VPS), code splitting, Core Web Vitals bajo carga',
             'AWS serverless: S3, CloudFront, Amplify - aislamiento preview vs producción, CI/CD, deploys repetibles',
             'Backends API a escala (Node.js, REST/GraphQL) con TanStack Query - caché, reintentos y UI optimista en productos en vivo',
           ],
@@ -1673,7 +1673,7 @@ export const translations = {
           list: [
             'Sitios de marketing: Webflow, WordPress, HTML estático, landings y sitios corporativos.',
             'Animación e interacción: GSAP, Lottie, Framer Motion.',
-            'Next.js fullstack: UI, APIs, PostgreSQL / Prisma en una sola app. Lista para NDA.',
+            'Next.js fullstack: UI, APIs, PostgreSQL / Prisma en una sola web app. Lista para NDA.',
           ],
         },
       ],
@@ -1720,7 +1720,7 @@ export const translations = {
       tagline:
         'Frontend e Next.js fullstack: siti marketing, Webflow, WordPress, statico, animazione — e Next.js con UI, API e dati.',
       fullCycle:
-        'Siti marketing su Webflow, WordPress o statico. Motion con GSAP / Lottie / Framer Motion. Next.js fullstack quando è un prodotto: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI e backend in una sola app.',
+        'Siti marketing su Webflow, WordPress o statico. Motion con GSAP / Lottie / Framer Motion. Next.js fullstack quando è un prodotto: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI e backend in una sola web app.',
       whyTitle: 'Perché mi scelgono',
       whyItems: [
         '8+ anni: siti marketing su Webflow, WordPress, statico — e Next.js fullstack in produzione',
@@ -1796,7 +1796,7 @@ export const translations = {
           items: [
             'Git / GitHub, CI/CD',
             'AWS (S3, CloudFront, Amplify / Serverless)',
-            'Vercel, Netlify',
+            'Vercel, server VPS, Netlify',
             'Jest, React Testing Library',
           ],
         },
@@ -1827,17 +1827,17 @@ export const translations = {
           title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Presente',
-          description: 'Ingegnera indipendente: siti marketing (Webflow, WordPress, statico, animazione) e Next.js fullstack — UI, API, PostgreSQL / Prisma in una sola app.',
+          description: 'Ingegnera indipendente: siti marketing (Webflow, WordPress, statico, animazione) e Next.js fullstack — UI, API, PostgreSQL / Prisma in una sola web app.',
           achievements: [
             'Siti marketing: Webflow, WordPress, HTML statico, GSAP / Lottie / Framer Motion',
             'Ownership full-stack: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, isolamento tenant, flussi auditabili, da decine a migliaia di utenti',
             'Workflow di backend, non solo schermate: state machine, permessi, integrazioni con API esistenti, TanStack Query per UI operativa',
-            'Produzione: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, isolamento preview vs production',
+            'Produzione: SSR/SSG/ISR, CloudFront / Vercel Edge / VPS, AWS (S3, Amplify), CI/CD, isolamento preview vs production',
             'AI di prodotto (OpenAI, Vercel AI SDK, streaming SSE/WebSocket) come feature di sistema',
             'Pronta per NDA su prodotti corporate ed enterprise',
           ],
-          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'Vercel', 'VPS', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Scuola e centro di formazione per massaggi in Ucraina',
             'https://niunkina.com/ - Sito per una cosmetologa in Germania (Next.js + Tailwind CSS)',
@@ -1847,7 +1847,7 @@ export const translations = {
           ],
           ndaProjects: [
             'Sistemi prodotto multi-tenant su Next.js + PostgreSQL/Prisma - dati isolati, pensati per crescere da decine a migliaia di utenti',
-            'Delivery ad alto traffico: SSR/SSG/ISR, cache CDN (CloudFront / Vercel Edge), code splitting, Core Web Vitals sotto carico',
+            'Delivery ad alto traffico: SSR/SSG/ISR, cache CDN (CloudFront / Vercel Edge / VPS), code splitting, Core Web Vitals sotto carico',
             'AWS serverless: S3, CloudFront, Amplify - isolamento preview vs production, CI/CD, deploy ripetibili',
             'Backend API su scala (Node.js, REST/GraphQL) con TanStack Query - cache, retry e UI ottimistica per prodotti live',
           ],
@@ -2010,7 +2010,7 @@ export const translations = {
           list: [
             'Siti marketing: Webflow, WordPress, HTML statico, landing e siti corporate.',
             'Animazione e interazione: GSAP, Lottie, Framer Motion.',
-            'Next.js fullstack: UI, API, PostgreSQL / Prisma in una sola app. Pronta per NDA.',
+            'Next.js fullstack: UI, API, PostgreSQL / Prisma in una sola web app. Pronta per NDA.',
           ],
         },
       ],
@@ -2057,7 +2057,7 @@ export const translations = {
       tagline:
         'Frontend ve fullstack Next.js: pazarlama siteleri, Webflow, WordPress, statik, animasyon — ve UI, API ve veriyle Next.js.',
       fullCycle:
-        'Webflow, WordPress veya statik pazarlama siteleri. GSAP / Lottie / Framer Motion ile motion. Ürün olduğunda fullstack Next.js: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI ve backend tek uygulamada.',
+        'Webflow, WordPress veya statik pazarlama siteleri. GSAP / Lottie / Framer Motion ile motion. Ürün olduğunda fullstack Next.js: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI ve backend tek web uygulamasında.',
       whyTitle: 'Neden benimle çalışıyorlar',
       whyItems: [
         '8+ yıl: Webflow, WordPress, statik pazarlama siteleri — ve üretimde fullstack Next.js',
@@ -2133,7 +2133,7 @@ export const translations = {
           items: [
             'Git / GitHub, CI/CD',
             'AWS (S3, CloudFront, Amplify / Serverless)',
-            'Vercel, Netlify',
+            'Vercel, VPS sunucuları, Netlify',
             'Jest, React Testing Library',
           ],
         },
@@ -2164,17 +2164,17 @@ export const translations = {
           title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Günümüz',
-          description: 'Pazarlama siteleri (Webflow, WordPress, statik, animasyon) ve fullstack Next.js için bağımsız mühendisim — UI, API’ler, PostgreSQL / Prisma tek uygulamada.',
+          description: 'Pazarlama siteleri (Webflow, WordPress, statik, animasyon) ve fullstack Next.js için bağımsız mühendisim — UI, API’ler, PostgreSQL / Prisma tek web uygulamasında.',
           achievements: [
             'Pazarlama siteleri: Webflow, WordPress, statik HTML, GSAP / Lottie / Framer Motion',
             'Full-stack sahiplik: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
             'RBAC, tenant izolasyonu, denetlenebilir veri akışları, onlarcadan binlerce kullanıcıya',
             'Yalnızca ekran değil, backend iş akışları: durum makineleri, yetkiler, mevcut API entegrasyonları, operasyonel UI için TanStack Query',
-            'Üretim: SSR/SSG/ISR, CloudFront / Vercel Edge, AWS (S3, Amplify), CI/CD, preview vs production izolasyonu',
+            'Üretim: SSR/SSG/ISR, CloudFront / Vercel Edge / VPS, AWS (S3, Amplify), CI/CD, preview vs production izolasyonu',
             'Ürün içi yapay zekâ (OpenAI, Vercel AI SDK, SSE/WebSocket streaming) sistem özelliği olarak',
             'Gizli kurumsal ve enterprise ürünler için NDA’ya hazır',
           ],
-          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'AWS', 'Jest', 'Git'],
+          technologies: ['Webflow', 'WordPress', 'GSAP', 'TypeScript', 'Next.js', 'React', 'Node.js', 'PostgreSQL', 'Prisma', 'GraphQL', 'TanStack Query', 'Zustand', 'Redux', 'Tailwind CSS', 'Shadcn/ui', 'OpenAI', 'Vercel', 'VPS', 'AWS', 'Jest', 'Git'],
           projects: [
             'https://massageschool.com.ua/ - Ukrayna masaj okulu ve eğitim merkezi',
             'https://niunkina.com/ - Almanya’daki bir kozmetolog için iş sitesi (Next.js + Tailwind CSS)',
@@ -2184,7 +2184,7 @@ export const translations = {
           ],
           ndaProjects: [
             'Next.js + PostgreSQL/Prisma ile çok kiracılı ürün sistemleri - veri izolasyonu, onlarcadan binlerce kullanıcıya büyüyecek şekilde',
-            'Yüksek trafikli teslimat: SSR/SSG/ISR, CDN önbelleği (CloudFront / Vercel Edge), code splitting, yük altında Core Web Vitals',
+            'Yüksek trafikli teslimat: SSR/SSG/ISR, CDN önbelleği (CloudFront / Vercel Edge / VPS), code splitting, yük altında Core Web Vitals',
             'AWS serverless: S3, CloudFront, Amplify - preview ve production izolasyonu, CI/CD, tekrarlanabilir deploy’lar',
             'Ölçekte API backend’leri (Node.js, REST/GraphQL) ve TanStack Query - canlı ürünler için önbellek, retry ve optimistic UI',
           ],
@@ -2347,7 +2347,7 @@ export const translations = {
           list: [
             'Pazarlama siteleri: Webflow, WordPress, statik HTML, landing’ler ve kurumsal siteler.',
             'Animasyon ve etkileşim: GSAP, Lottie, Framer Motion.',
-            'Fullstack Next.js: UI, API’ler, PostgreSQL / Prisma tek uygulamada. NDA’ya hazır.',
+            'Fullstack Next.js: UI, API’ler, PostgreSQL / Prisma tek web uygulamasında. NDA’ya hazır.',
           ],
         },
       ],

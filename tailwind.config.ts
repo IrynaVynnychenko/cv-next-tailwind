@@ -43,12 +43,17 @@ const config: Config = {
           from: { transform: "translateY(12px)", opacity: "0" },
           to: { transform: "translateY(0)", opacity: "1" },
         },
+        "testimonial-in": {
+          from: { transform: "translateY(14px)", opacity: "0" },
+          to: { transform: "translateY(0)", opacity: "1" },
+        },
       },
       animation: {
         marquee: "marquee 36s linear infinite",
         "marquee-reverse": "marquee 36s linear infinite reverse",
         "text-up": "text-up 0.55s cubic-bezier(0.22, 1, 0.36, 1)",
         "hero-in": "hero-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) both",
+        "testimonial-in": "testimonial-in 0.55s cubic-bezier(0.22, 1, 0.36, 1) both",
       },
     },
   },

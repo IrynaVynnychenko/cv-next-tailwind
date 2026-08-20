@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
 import { chrome } from '@/data/chrome'
-import { Badge, Panel } from './Panel'
+import { Panel } from './Panel'
 
 function parseProject(raw: string) {
   const parts = raw.split(/\s[—–-]\s/)
@@ -38,14 +38,6 @@ function ArrowIcon() {
     </svg>
   )
 }
-
-const PROJECT_TAGS = [
-  ['Next.js', 'React', 'TypeScript'],
-  ['Next.js', 'Tailwind CSS'],
-  ['Webflow', 'CMS'],
-  ['Webflow', 'Landing'],
-  ['React', 'Figma', 'Dashboard'],
-]
 
 export default function Projects() {
   const { language } = useLanguage()
@@ -93,69 +85,35 @@ export default function Projects() {
           </p>
         )}
 
-        <div className="grid grid-cols-2 sm:grid-cols-1">
-          {projects.map((project, index) => {
-            const isOpen = openIndex === index
-            return (
+        <div className="grid grid-cols-1 sm:grid-cols-2">
+          {projects.map((project) => (
               <div
                 key={project.url}
-                className={`min-w-0 border-b border-edge max-sm:odd:border-r ${isOpen ? 'col-span-2 max-sm:border-r-0' : ''}`}
+                className="min-w-0 border-b border-edge sm:odd:border-r"
               >
                 <div className="flex min-w-0 items-center hover:bg-accent-muted">
-                  <div className="mx-4 hidden size-6 shrink-0 items-center justify-center rounded-lg border border-muted-foreground/15 bg-muted text-muted-foreground ring-1 ring-edge ring-offset-1 ring-offset-background sm:flex">
+                  <div className="mx-4 flex size-6 shrink-0 items-center justify-center rounded-lg border border-muted-foreground/15 bg-muted text-muted-foreground ring-1 ring-edge ring-offset-1 ring-offset-background sm:hidden">
                     <BoxIcon />
                   </div>
-                  <div className="min-w-0 flex-1 sm:border-l sm:border-dashed sm:border-edge">
-                    <div className="flex w-full min-w-0 items-center gap-1 p-3 sm:gap-2 sm:p-4 sm:pr-2">
-                      <a
-                        href={project.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title={project.title}
-                        className="min-w-0 flex-1"
-                      >
-                        <h3 className="truncate font-medium leading-snug sm:overflow-visible sm:whitespace-normal sm:text-balance">
-                          {project.title}
-                        </h3>
-                      </a>
-                      <button
-                        type="button"
-                        onClick={() => setOpenIndex(isOpen ? null : index)}
-                        className="hidden size-8 shrink-0 items-center justify-center rounded-md text-muted-foreground hover:bg-accent hover:text-foreground sm:inline-flex"
-                        aria-expanded={isOpen}
-                      >
-                        <span className="sr-only">{c.openProject}</span>
-                        <svg className={`size-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                        </svg>
-                      </button>
-                      <a
-                        href={project.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex size-8 shrink-0 items-center justify-center rounded-md text-muted-foreground hover:bg-accent hover:text-foreground"
-                        aria-label={c.openProject}
-                      >
+                  <div className="min-w-0 flex-1 border-l border-dashed border-edge sm:border-l-0">
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={project.title}
+                      className="flex w-full min-w-0 items-center gap-1 p-3 sm:gap-2 sm:p-4 sm:pr-2"
+                    >
+                      <h3 className="min-w-0 flex-1 truncate font-medium leading-snug">
+                        {project.title}
+                      </h3>
+                      <span className="inline-flex size-8 shrink-0 items-center justify-center rounded-md text-muted-foreground">
                         <ArrowIcon />
-                      </a>
-                    </div>
+                      </span>
+                    </a>
                   </div>
                 </div>
-                {isOpen && (
-                  <div className="space-y-4 border-t border-edge p-4">
-                    {project.description && <p className="text-sm text-muted-foreground">{project.description}</p>}
-                    <ul className="flex flex-wrap gap-1.5">
-                      {(PROJECT_TAGS[index] ?? ['Frontend']).map((tag) => (
-                        <li key={tag}>
-                          <Badge>{tag}</Badge>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
               </div>
-            )
-          })}
+            ))}
         </div>
       </div>
     </Panel>
