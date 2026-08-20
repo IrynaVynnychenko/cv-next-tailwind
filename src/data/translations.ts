@@ -121,6 +121,9 @@ export const translations = {
       keyAchievements: 'Key Achievements:',
       technologies: 'Technologies:',
       keyProjects: 'Key Projects:',
+      ndaProjects: 'NDA Projects:',
+      ndaProjectsNote:
+        'Client names and URLs withheld under NDA. Scope: scalable product infrastructure for live SaaS and enterprise platforms.',
       items: [
         {
           title: 'Frontend Web Developer',
@@ -142,6 +145,12 @@ export const translations = {
             'https://plowguys.com/ - Snow & ice management website (Webflow)',
             'https://franchise.plowguys.com/ - Commercial snow & ice franchise landing page',
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Interactive React dashboard built from Figma',
+          ],
+          ndaProjects: [
+            'Multi-tenant SaaS CRMs and admin platforms on Next.js + PostgreSQL/Prisma — RBAC, isolated data, built to grow from dozens to thousands of users',
+            'High-traffic delivery: SSR/SSG/ISR, CDN caching (CloudFront / Vercel Edge), code splitting, Core Web Vitals under load',
+            'AWS serverless: S3, CloudFront, Amplify — preview vs production isolation, CI/CD, repeatable deploys',
+            'API backends at scale (Node.js, REST/GraphQL) with TanStack Query — cache, retries, and optimistic UI for live products',
           ],
         },
         {
@@ -444,6 +453,9 @@ export const translations = {
       keyAchievements: 'Ключові досягнення:',
       technologies: 'Технології:',
       keyProjects: 'Ключові проєкти:',
+      ndaProjects: 'NDA-проєкти:',
+      ndaProjectsNote:
+        'Назви клієнтів і посилання не розкриваю за NDA. Фокус — масштабована інфраструктура живих SaaS- і enterprise-платформ.',
       items: [
         {
           title: 'Frontend Web Developer',
@@ -465,6 +477,12 @@ export const translations = {
             'https://plowguys.com/ — сайт компанії зі снігоприбирання (Webflow)',
             'https://franchise.plowguys.com/ — лендинг франшизи зі сніго- та льодоуправління',
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ — інтерактивний React-дашборд за макетом Figma',
+          ],
+          ndaProjects: [
+            'Мульти-тенантні SaaS-CRM і адмін-платформи на Next.js + PostgreSQL/Prisma — RBAC, ізоляція даних, розраховані на ріст від десятків до тисяч користувачів',
+            'Високонавантажена віддача: SSR/SSG/ISR, CDN-кеш (CloudFront / Vercel Edge), code splitting, Core Web Vitals під навантаженням',
+            'AWS serverless: S3, CloudFront, Amplify — ізоляція preview і production, CI/CD, повторювані деплої',
+            'API-бекенди в масштабі (Node.js, REST/GraphQL) з TanStack Query — кеш, ретраї та optimistic UI для живих продуктів',
           ],
         },
         {
@@ -768,6 +786,9 @@ export const translations = {
       keyAchievements: 'Wichtige Erfolge:',
       technologies: 'Technologien:',
       keyProjects: 'Wichtige Projekte:',
+      ndaProjects: 'NDA-Projekte:',
+      ndaProjectsNote:
+        'Kundennamen und URLs unter NDA. Fokus: skalierbare Produktinfrastruktur für Live-SaaS- und Enterprise-Plattformen.',
       items: [
         {
           title: 'Frontend Web Developer',
@@ -810,6 +831,12 @@ export const translations = {
             'https://plowguys.com/ - Website für Schnee- und Eismanagement (Webflow)',
             'https://franchise.plowguys.com/ - Franchise-Landingpage für gewerbliches Schnee- und Eismanagement',
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Interaktives React-Dashboard nach Figma',
+          ],
+          ndaProjects: [
+            'Multi-Tenant-SaaS-CRMs und Admin-Plattformen mit Next.js + PostgreSQL/Prisma — RBAC, Datenisolation, ausgelegt auf Wachstum von Dutzenden auf Tausende Nutzer',
+            'High-Traffic-Auslieferung: SSR/SSG/ISR, CDN-Caching (CloudFront / Vercel Edge), Code Splitting, Core Web Vitals unter Last',
+            'AWS Serverless: S3, CloudFront, Amplify — Isolation von Preview und Production, CI/CD, wiederholbare Deploys',
+            'API-Backends im Maßstab (Node.js, REST/GraphQL) mit TanStack Query — Cache, Retries und Optimistic UI für Live-Produkte',
           ],
         },
         {
@@ -1117,6 +1144,9 @@ export const translations = {
       keyAchievements: 'Réalisations clés :',
       technologies: 'Technologies :',
       keyProjects: 'Projets clés :',
+      ndaProjects: 'Projets sous NDA :',
+      ndaProjectsNote:
+        'Noms clients et URLs sous NDA. Périmètre : infrastructure produit scalable pour plateformes SaaS et enterprise en production.',
       items: [
         {
           title: 'Frontend Web Developer',
@@ -1159,6 +1189,12 @@ export const translations = {
             'https://plowguys.com/ - Site de déneigement et de gestion de la glace (Webflow)',
             'https://franchise.plowguys.com/ - Landing page franchise déneigement commercial',
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Dashboard React interactif à partir de Figma',
+          ],
+          ndaProjects: [
+            'CRM SaaS multi-tenant et plateformes d’admin en Next.js + PostgreSQL/Prisma — RBAC, isolation des données, conçus pour passer de dizaines à des milliers d’utilisateurs',
+            'Livraison high-traffic : SSR/SSG/ISR, cache CDN (CloudFront / Vercel Edge), code splitting, Core Web Vitals sous charge',
+            'AWS serverless : S3, CloudFront, Amplify — isolation preview / production, CI/CD, deploys reproductibles',
+            'Backends API à l’échelle (Node.js, REST/GraphQL) avec TanStack Query — cache, retries et UI optimistic pour produits live',
           ],
         },
         {
@@ -1465,6 +1501,9 @@ export const translations = {
       keyAchievements: 'Logros clave:',
       technologies: 'Tecnologías:',
       keyProjects: 'Proyectos clave:',
+      ndaProjects: 'Proyectos bajo NDA:',
+      ndaProjectsNote:
+        'Nombres de clientes y URLs bajo NDA. Alcance: infraestructura de producto escalable para plataformas SaaS y enterprise en producción.',
       items: [
         {
           title: 'Frontend Web Developer',
@@ -1486,6 +1525,12 @@ export const translations = {
             'https://plowguys.com/ - Web de gestión de nieve y hielo (Webflow)',
             'https://franchise.plowguys.com/ - Landing de franquicia comercial de nieve y hielo',
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Dashboard interactivo en React a partir de Figma',
+          ],
+          ndaProjects: [
+            'CRM SaaS multi-tenant y plataformas de admin en Next.js + PostgreSQL/Prisma — RBAC, datos aislados, pensados para crecer de decenas a miles de usuarios',
+            'Entrega de alto tráfico: SSR/SSG/ISR, caché CDN (CloudFront / Vercel Edge), code splitting, Core Web Vitals bajo carga',
+            'AWS serverless: S3, CloudFront, Amplify — aislamiento preview vs producción, CI/CD, deploys repetibles',
+            'Backends API a escala (Node.js, REST/GraphQL) con TanStack Query — caché, reintentos y UI optimista en productos en vivo',
           ],
         },
         {
@@ -1788,6 +1833,9 @@ export const translations = {
       keyAchievements: 'Risultati chiave:',
       technologies: 'Tecnologie:',
       keyProjects: 'Progetti chiave:',
+      ndaProjects: 'Progetti sotto NDA:',
+      ndaProjectsNote:
+        'Nomi clienti e URL sotto NDA. Ambito: infrastruttura di prodotto scalabile per piattaforme SaaS ed enterprise in produzione.',
       items: [
         {
           title: 'Frontend Web Developer',
@@ -1809,6 +1857,12 @@ export const translations = {
             'https://plowguys.com/ - Sito di gestione neve e ghiaccio (Webflow)',
             'https://franchise.plowguys.com/ - Landing page del franchise per lo sgombero neve commerciale',
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Dashboard interattiva React da Figma',
+          ],
+          ndaProjects: [
+            'CRM SaaS multi-tenant e piattaforme admin su Next.js + PostgreSQL/Prisma — RBAC, dati isolati, pensati per crescere da decine a migliaia di utenti',
+            'Delivery ad alto traffico: SSR/SSG/ISR, cache CDN (CloudFront / Vercel Edge), code splitting, Core Web Vitals sotto carico',
+            'AWS serverless: S3, CloudFront, Amplify — isolamento preview vs production, CI/CD, deploy ripetibili',
+            'Backend API su scala (Node.js, REST/GraphQL) con TanStack Query — cache, retry e UI ottimistica per prodotti live',
           ],
         },
         {
@@ -2111,6 +2165,9 @@ export const translations = {
       keyAchievements: 'Öne çıkan sonuçlar:',
       technologies: 'Teknolojiler:',
       keyProjects: 'Öne çıkan projeler:',
+      ndaProjects: 'NDA projeleri:',
+      ndaProjectsNote:
+        'Müşteri adları ve URL’ler NDA kapsamında. Kapsam: canlı SaaS ve kurumsal platformlar için ölçeklenebilir ürün altyapısı.',
       items: [
         {
           title: 'Frontend Web Developer',
@@ -2132,6 +2189,12 @@ export const translations = {
             'https://plowguys.com/ - Kar ve buz yönetimi sitesi (Webflow)',
             'https://franchise.plowguys.com/ - Ticari kar ve buz franchise landing sayfası',
             'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Figma’dan etkileşimli React paneli',
+          ],
+          ndaProjects: [
+            'Next.js + PostgreSQL/Prisma ile çok kiracılı SaaS CRM ve admin platformları — RBAC, veri izolasyonu, onlarcadan binlerce kullanıcıya büyüyecek şekilde',
+            'Yüksek trafikli teslimat: SSR/SSG/ISR, CDN önbelleği (CloudFront / Vercel Edge), code splitting, yük altında Core Web Vitals',
+            'AWS serverless: S3, CloudFront, Amplify — preview ve production izolasyonu, CI/CD, tekrarlanabilir deploy’lar',
+            'Ölçekte API backend’leri (Node.js, REST/GraphQL) ve TanStack Query — canlı ürünler için önbellek, retry ve optimistic UI',
           ],
         },
         {

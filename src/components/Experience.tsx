@@ -65,7 +65,7 @@ export default function Experience() {
                 </div>
               </div>
               
-              {exp.projects && (
+              {exp.projects && exp.projects.length > 0 && (
                 <div>
                   <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">
                     {t.keyProjects}
@@ -100,6 +100,25 @@ export default function Experience() {
                       </div>
                     ))}
                   </div>
+                </div>
+              )}
+
+              {'ndaProjects' in exp && exp.ndaProjects.length > 0 && (
+                <div className={exp.projects && exp.projects.length > 0 ? 'mt-4' : ''}>
+                  <h5 className="text-sm font-medium text-gray-900 dark:text-white mb-2">
+                    {t.ndaProjects}
+                  </h5>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 mb-2 leading-relaxed">
+                    {t.ndaProjectsNote}
+                  </p>
+                  <ul className="list-none space-y-1">
+                    {exp.ndaProjects.map((project, idx) => (
+                      <li key={idx} className="text-sm text-gray-600 dark:text-gray-300 flex items-start">
+                        <span className="text-gray-400 dark:text-gray-500 mr-2 mt-1">•</span>
+                        {project}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               )}
             </div>
