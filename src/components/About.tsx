@@ -18,8 +18,8 @@ export default function About() {
           <p className="mb-2 font-medium text-foreground">{t.whyTitle}</p>
           <ul className="space-y-2">
             {t.whyItems.map((item) => (
-              <li key={item} className="flex items-start gap-2">
-                <span className="mt-2 size-1 shrink-0 rounded-full bg-sky-500" />
+              <li key={item} className="flex items-center gap-2">
+                <span className="size-1 shrink-0 rounded-full bg-sky-500" />
                 <span>{item}</span>
               </li>
             ))}

@@ -93,58 +93,70 @@ export default function Projects() {
           </p>
         )}
 
-        {projects.map((project, index) => {
-          const isOpen = openIndex === index
-          return (
-            <div key={project.url}>
-              <div className="flex items-center hover:bg-accent-muted">
-                <div className="mx-4 flex size-6 shrink-0 items-center justify-center rounded-lg border border-muted-foreground/15 bg-muted text-muted-foreground ring-1 ring-edge ring-offset-1 ring-offset-background">
-                  <BoxIcon />
-                </div>
-                <div className="flex-1 border-l border-dashed border-edge">
-                  <div className="flex w-full items-center gap-2 p-4 pr-2">
-                    <a href={project.url} target="_blank" rel="noopener noreferrer" className="min-w-0 flex-1">
-                      <h3 className="mb-1 text-balance font-medium leading-snug">{project.title}</h3>
-                      <p className="text-sm text-muted-foreground">{freelance.period}</p>
-                    </a>
-                    <button
-                      type="button"
-                      onClick={() => setOpenIndex(isOpen ? null : index)}
-                      className="inline-flex size-8 items-center justify-center rounded-md text-muted-foreground hover:bg-accent hover:text-foreground"
-                      aria-expanded={isOpen}
-                    >
-                      <span className="sr-only">{c.openProject}</span>
-                      <svg className={`size-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </button>
-                    <a
-                      href={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex size-8 items-center justify-center rounded-md text-muted-foreground hover:bg-accent hover:text-foreground"
-                      aria-label={c.openProject}
-                    >
-                      <ArrowIcon />
-                    </a>
+        <div className="grid grid-cols-2 sm:grid-cols-1">
+          {projects.map((project, index) => {
+            const isOpen = openIndex === index
+            return (
+              <div
+                key={project.url}
+                className={`min-w-0 border-b border-edge max-sm:odd:border-r ${isOpen ? 'col-span-2 max-sm:border-r-0' : ''}`}
+              >
+                <div className="flex min-w-0 items-center hover:bg-accent-muted">
+                  <div className="mx-4 hidden size-6 shrink-0 items-center justify-center rounded-lg border border-muted-foreground/15 bg-muted text-muted-foreground ring-1 ring-edge ring-offset-1 ring-offset-background sm:flex">
+                    <BoxIcon />
+                  </div>
+                  <div className="min-w-0 flex-1 sm:border-l sm:border-dashed sm:border-edge">
+                    <div className="flex w-full min-w-0 items-center gap-1 p-3 sm:gap-2 sm:p-4 sm:pr-2">
+                      <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={project.title}
+                        className="min-w-0 flex-1"
+                      >
+                        <h3 className="truncate font-medium leading-snug sm:overflow-visible sm:whitespace-normal sm:text-balance">
+                          {project.title}
+                        </h3>
+                      </a>
+                      <button
+                        type="button"
+                        onClick={() => setOpenIndex(isOpen ? null : index)}
+                        className="hidden size-8 shrink-0 items-center justify-center rounded-md text-muted-foreground hover:bg-accent hover:text-foreground sm:inline-flex"
+                        aria-expanded={isOpen}
+                      >
+                        <span className="sr-only">{c.openProject}</span>
+                        <svg className={`size-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                      <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex size-8 shrink-0 items-center justify-center rounded-md text-muted-foreground hover:bg-accent hover:text-foreground"
+                        aria-label={c.openProject}
+                      >
+                        <ArrowIcon />
+                      </a>
+                    </div>
                   </div>
                 </div>
+                {isOpen && (
+                  <div className="space-y-4 border-t border-edge p-4">
+                    {project.description && <p className="text-sm text-muted-foreground">{project.description}</p>}
+                    <ul className="flex flex-wrap gap-1.5">
+                      {(PROJECT_TAGS[index] ?? ['Frontend']).map((tag) => (
+                        <li key={tag}>
+                          <Badge>{tag}</Badge>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
-              {isOpen && (
-                <div className="space-y-4 border-t border-edge p-4">
-                  {project.description && <p className="text-sm text-muted-foreground">{project.description}</p>}
-                  <ul className="flex flex-wrap gap-1.5">
-                    {(PROJECT_TAGS[index] ?? ['Frontend']).map((tag) => (
-                      <li key={tag}>
-                        <Badge>{tag}</Badge>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
-          )
-        })}
+            )
+          })}
+        </div>
       </div>
     </Panel>
   )
