@@ -64,10 +64,10 @@
     "it": "Audit e componentizzazione: spezzate la UI in elementi riutilizzabili (bottoni, input, card) e fissate un CSS/design system stretto.",
     "tr": "Denetim ve bileşenleştirme: UI’yi bağımsız, yeniden kullanılabilir öğelere (buton, input, kart) ayırın ve sıkı bir CSS/design system kurun."
   },
-  "Top-Level Infrastructure First: Replace global elements first — headers, footers, navigation, and sidebars — establishing the new visual framing.": {
-    "es": "Infra de primer nivel primero: sustituya lo global — headers, footers, navegación, sidebars — y fije el nuevo marco visual.",
-    "it": "Infra di primo livello prima: sostituite il globale — header, footer, navigazione, sidebar — e fissate il nuovo frame visivo.",
-    "tr": "Önce üst düzey altyapı: önce küresel öğeleri değiştirin — header, footer, navigasyon, sidebar — yeni görsel çerçeveyi kurun."
+  "Top-Level Infrastructure First: Replace global elements first - headers, footers, navigation, and sidebars - establishing the new visual framing.": {
+    "es": "Infra de primer nivel primero: sustituya lo global - headers, footers, navegación, sidebars - y fije el nuevo marco visual.",
+    "it": "Infra di primo livello prima: sostituite il globale - header, footer, navigazione, sidebar - e fissate il nuovo frame visivo.",
+    "tr": "Önce üst düzey altyapı: önce küresel öğeleri değiştirin - header, footer, navigasyon, sidebar - yeni görsel çerçeveyi kurun."
   },
   "Side-by-Side Execution via Feature Flags: Use toggle states to display the new UI to a subset of users (e.g., 5% beta testers) while keeping the original layout active for the rest.": {
     "es": "Ejecución en paralelo con feature flags: muestre el UI nuevo a un subconjunto (p. ej. 5% beta) y deje el layout original al resto.",
@@ -144,20 +144,20 @@
     "it": "Ridisegnare una piattaforma live chiede equilibrio: frontend ad alte prestazioni, architettura di componenti stretta e pianificazione delle release.",
     "tr": "Canlı bir web platformunu yeniden tasarlamak yüksek performanslı frontend, sıkı bileşen mimarisi ve sistematik release planının dikkatli dengesini ister."
   },
-  "I specialize in building and refactoring high-performance React and Next.js applications. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched products, I help businesses move from outdated legacy codebases to clean, lightning-fast design systems — maintaining 100% platform uptime throughout the entire migration.": {
+  "I specialize in building and refactoring high-performance React and Next.js applications. With 8+ years of production experience, 4,200+ Upwork hours, and 100+ launched products, I help businesses move from outdated legacy codebases to clean, lightning-fast design systems - maintaining 100% platform uptime throughout the entire migration.": {
     "es": "Construyo y refactorizo apps React y Next.js de alto rendimiento. Más de 8 años, 4.200+ horas en Upwork y 100+ productos: de codebases legacy a design systems limpios y rápidos, con uptime 100% en toda la migración.",
     "it": "Costruisco e refactorizzo app React e Next.js ad alte prestazioni. Oltre 8 anni, 4.200+ ore su Upwork e 100+ prodotti: da codebase legacy a design system puliti e veloci, con uptime 100% in tutta la migrazione.",
-    "tr": "Yüksek performanslı React ve Next.js uygulamaları kurma ve refactor etmede uzmanım. 8+ yıl production, 4.200+ Upwork saati ve 100+ canlı ürün: işletmeleri eski legacy codebase’lerden temiz, şimşek hızlı design system’lere taşırım — tüm göç boyunca platform uptime’ı %100."
+    "tr": "Yüksek performanslı React ve Next.js uygulamaları kurma ve refactor etmede uzmanım. 8+ yıl production, 4.200+ Upwork saati ve 100+ canlı ürün: işletmeleri eski legacy codebase’lerden temiz, şimşek hızlı design system’lere taşırım - tüm göç boyunca platform uptime’ı %100."
   },
   "Planning to update your product UI or tackle years of accumulated frontend technical debt? Contact me today via the connections section below for a free technical consultation!": {
     "es": "¿Va a actualizar el UI o atacar años de deuda frontend? Escríbame para una consulta técnica.",
     "it": "State per aggiornare la UI o attaccare anni di debito frontend? Scrivetemi per una consulenza tecnica.",
     "tr": "Ürün UI’sini güncellemeyi veya yılların birikmiş frontend teknik borcunu ele almayı mı planlıyorsunuz? Ücretsiz teknik danışma için aşağıdaki iletişimden yazın."
   },
-  "What Is Mobile-First Approach — Why It Is the Modern Web Standard": {
-    "es": "Qué es el enfoque mobile-first — por qué es el estándar web moderno",
-    "it": "Cos’è l’approccio mobile-first — perché è lo standard web moderno",
-    "tr": "Mobile-first yaklaşım nedir — neden modern web standardı"
+  "What Is Mobile-First Approach - Why It Is the Modern Web Standard": {
+    "es": "Qué es el enfoque mobile-first - por qué es el estándar web moderno",
+    "it": "Cos’è l’approccio mobile-first - perché è lo standard web moderno",
+    "tr": "Mobile-first yaklaşım nedir - neden modern web standardı"
   },
   "Designing for mobile first is no longer optional. Learn how Progressive Enhancement boosts user experience, speed, and Google SEO rankings.": {
     "es": "Diseñar primero para móvil ya no es opcional. Cómo el Progressive Enhancement sube UX, velocidad y rankings SEO de Google.",
@@ -205,14 +205,14 @@
     "tr": "Mobile-first felsefesini benimsemek kullanıcı etkileşimi ve arama görünürlüğünde doğrudan avantaj verir:"
   },
   "60%+ of global web traffic: Over 60% of all web traffic comes from smartphones. For most service and e-commerce niches, that number reaches 80-90%.": {
-    "es": "Más del 60% del tráfico web global viene de smartphones. En muchos nichos de servicio y e-commerce llega al 80–90%.",
-    "it": "Oltre il 60% del traffico web globale arriva da smartphone. In molti nicchie di servizi ed e-commerce arriva all’80–90%.",
-    "tr": "Küresel web trafiğinin %60’ından fazlası akıllı telefonlardan gelir. Çoğu hizmet ve e-ticaret nişinde bu sayı %80–90’a çıkar."
+    "es": "Más del 60% del tráfico web global viene de smartphones. En muchos nichos de servicio y e-commerce llega al 80-90%.",
+    "it": "Oltre il 60% del traffico web globale arriva da smartphone. In molti nicchie di servizi ed e-commerce arriva all’80-90%.",
+    "tr": "Küresel web trafiğinin %60’ından fazlası akıllı telefonlardan gelir. Çoğu hizmet ve e-ticaret nişinde bu sayı %80-90’a çıkar."
   },
   "Content clarity: Small screens force developers and designers to cut clutter, focusing strictly on clear headlines, core offers, and high-converting CTAs.": {
     "es": "Claridad de contenido: la pantalla pequeña obliga a cortar ruido y centrarse en titulares claros, oferta núcleo y CTAs que convierten.",
     "it": "Chiarezza di contenuto: lo schermo piccolo obbliga a tagliare rumore e concentrarsi su titoli chiari, offerta nucleo e CTA che convertono.",
-    "tr": "İçerik netliği: küçük ekran geliştirici ve tasarımcıyı dağınıklığı kesmeye zorlar — net başlık, çekirdek teklif ve yüksek dönüşümlü CTA."
+    "tr": "İçerik netliği: küçük ekran geliştirici ve tasarımcıyı dağınıklığı kesmeye zorlar - net başlık, çekirdek teklif ve yüksek dönüşümlü CTA."
   },
   "Touch-first UX: Ensures comfortable touch targets (44x44px min), intuitive gesture navigation, and avoids hover-dependent interactive traps.": {
     "es": "UX táctil: targets cómodos (mín. 44×44px), gestos intuitivos y sin trampas que dependan del hover.",
@@ -244,10 +244,10 @@
     "it": "Costruire applicazioni web mobile-first ad alte prestazioni",
     "tr": "Yüksek performanslı mobile-first web uygulamaları kurmak"
   },
-  "Mobile-first is not just about responsive layout breakpoints — it is about asset optimization, ultra-fast load times, and delivering seamless user experience across all devices.": {
+  "Mobile-first is not just about responsive layout breakpoints - it is about asset optimization, ultra-fast load times, and delivering seamless user experience across all devices.": {
     "es": "Mobile-first no es solo breakpoints: es optimizar assets, loads ultrarrápidos y una UX fluida en todos los dispositivos.",
     "it": "Il mobile-first non è solo breakpoint: è ottimizzare gli asset, load ultra-rapidi e una UX fluida su tutti i dispositivi.",
-    "tr": "Mobile-first yalnızca responsive layout breakpoint’leri değildir — varlık optimizasyonu, ultra hızlı yükleme ve tüm cihazlarda kesintisiz UX’tir."
+    "tr": "Mobile-first yalnızca responsive layout breakpoint’leri değildir - varlık optimizasyonu, ultra hızlı yükleme ve tüm cihazlarda kesintisiz UX’tir."
   },
   "I build modern, mobile-optimized web applications with Next.js, Tailwind CSS, and TypeScript. With 8+ years of production experience and 100+ launched projects, I make sure your web platform loads lightning fast and converts mobile visitors into loyal clients.": {
     "es": "Construyo aplicaciones web modernas, optimizadas para móvil, con Next.js, Tailwind CSS y TypeScript. Más de 8 años y 100+ proyectos: su plataforma carga en un relámpago y convierte visitantes móviles en clientes leales.",
@@ -299,10 +299,10 @@
     "it": "Un codebase manutenibile che cresce col prodotto",
     "tr": "Ürününüzle büyüyen bakılabilir bir codebase"
   },
-  "Smooth mobile experience — where most of your traffic lives": {
-    "es": "Experiencia móvil fluida — donde vive la mayor parte del tráfico",
-    "it": "Esperienza mobile fluida — dove vive la maggior parte del traffico",
-    "tr": "Akıcı mobil deneyim — trafiğinizin çoğu orada yaşar"
+  "Smooth mobile experience - where most of your traffic lives": {
+    "es": "Experiencia móvil fluida - donde vive la mayor parte del tráfico",
+    "it": "Esperienza mobile fluida - dove vive la maggior parte del traffico",
+    "tr": "Akıcı mobil deneyim - trafiğinizin çoğu orada yaşar"
   },
   "When it makes sense to invest": {
     "es": "Cuándo tiene sentido invertir",
@@ -314,20 +314,20 @@
     "it": "Se lanciate un prodotto, ridisegnate un sito vecchio o lottate con score di performance bassi, un rebuild Next.js si ripaga in fretta.",
     "tr": "Yeni bir ürün lansmanlıyor, eski bir siteyi yeniden tasarlıyor veya zayıf performans skorlarıyla boğuşuyorsanız Next.js yeniden yapımı hızla karşılığını verir."
   },
-  "I help businesses move from slow themes to lean, high-performance Next.js products — without disrupting your live operations.": {
-    "es": "Ayudo a pasar de themes lentos a productos Next.js magros y rápidos — sin interrumpir las ops live.",
-    "it": "Aiuto a passare da theme lenti a prodotti Next.js magri e veloci — senza interrompere le ops live.",
-    "tr": "İşletmeleri yavaş temalardan yalın, yüksek performanslı Next.js ürünlerine taşırım — canlı operasyonu bozmadan."
+  "I help businesses move from slow themes to lean, high-performance Next.js products - without disrupting your live operations.": {
+    "es": "Ayudo a pasar de themes lentos a productos Next.js magros y rápidos - sin interrumpir las ops live.",
+    "it": "Aiuto a passare da theme lenti a prodotti Next.js magri e veloci - senza interrompere le ops live.",
+    "tr": "İşletmeleri yavaş temalardan yalın, yüksek performanslı Next.js ürünlerine taşırım - canlı operasyonu bozmadan."
   },
   "Core Web Vitals: Why Website Speed Directly Affects Revenue": {
     "es": "Core Web Vitals: por qué la velocidad del sitio afecta directamente a los ingresos",
     "it": "Core Web Vitals: perché la velocità del sito tocca direttamente i ricavi",
     "tr": "Core Web Vitals: site hızı geliri neden doğrudan etkiler"
   },
-  "Google measures user experience — and so do your customers. Learn how performance metrics tie to real business outcomes.": {
-    "es": "Google mide la experiencia — y sus clientes también. Cómo las métricas de rendimiento se atan a resultados de negocio reales.",
-    "it": "Google misura l’esperienza — e i vostri clienti anche. Come le metriche di performance si legano a risultati di business veri.",
-    "tr": "Google kullanıcı deneyimini ölçer — müşterileriniz de. Performans metriklerinin gerçek iş sonuçlarına nasıl bağlandığı."
+  "Google measures user experience - and so do your customers. Learn how performance metrics tie to real business outcomes.": {
+    "es": "Google mide la experiencia - y sus clientes también. Cómo las métricas de rendimiento se atan a resultados de negocio reales.",
+    "it": "Google misura l’esperienza - e i vostri clienti anche. Come le metriche di performance si legano a risultati di business veri.",
+    "tr": "Google kullanıcı deneyimini ölçer - müşterileriniz de. Performans metriklerinin gerçek iş sonuçlarına nasıl bağlandığı."
   },
   "Core Web Vitals (LCP, INP, CLS) are Google's metrics for user experience. Poor scores mean lower search visibility and frustrated visitors who leave before converting.": {
     "es": "Core Web Vitals (LCP, INP, CLS) son las métricas de Google para la experiencia. Scores flojos: menos visibilidad y visitantes que se van antes de convertir.",
@@ -339,10 +339,10 @@
     "it": "L’impatto di business",
     "tr": "İş etkisi"
   },
-  "Studies consistently show that every second of delay increases bounce rate. Speed is not a technical nice-to-have — it is a revenue lever.": {
-    "es": "Los estudios coinciden: cada segundo de retraso sube el bounce. La velocidad no es un nice-to-have técnico — es una palanca de ingresos.",
-    "it": "Gli studi coincidono: ogni secondo di ritardo alza il bounce. La velocità non è un nice-to-have tecnico — è una leva di ricavi.",
-    "tr": "Çalışmalar tutarlı: her saniye gecikme bounce’u artırır. Hız teknik bir hoşluk değildir — bir gelir kaldıraçıdır."
+  "Studies consistently show that every second of delay increases bounce rate. Speed is not a technical nice-to-have - it is a revenue lever.": {
+    "es": "Los estudios coinciden: cada segundo de retraso sube el bounce. La velocidad no es un nice-to-have técnico - es una palanca de ingresos.",
+    "it": "Gli studi coincidono: ogni secondo di ritardo alza il bounce. La velocità non è un nice-to-have tecnico - è una leva di ricavi.",
+    "tr": "Çalışmalar tutarlı: her saniye gecikme bounce’u artırır. Hız teknik bir hoşluk değildir - bir gelir kaldıraçıdır."
   },
   "Largest Contentful Paint (LCP): how fast main content appears": {
     "es": "Largest Contentful Paint (LCP): qué tan rápido aparece el contenido principal",
@@ -367,7 +367,7 @@
   "WordPress is familiar; React is flexible. Is React better than WordPress? Explore this honest, detailed comparison of speed, SEO, security, and customizability to pick the right platform for your business.": {
     "es": "WordPress es familiar; React es flexible. ¿Es React mejor que WordPress? Comparación honesta de velocidad, SEO, seguridad y customización para elegir plataforma.",
     "it": "WordPress è familiare; React è flessibile. React è meglio di WordPress? Confronto onesto di velocità, SEO, sicurezza e customizzazione per scegliere piattaforma.",
-    "tr": "WordPress tanıdık; React esnek. React, WordPress’ten daha mı iyi? Hız, SEO, güvenlik ve özelleştirilebilirliğin dürüst karşılaştırması — işiniz için doğru platform."
+    "tr": "WordPress tanıdık; React esnek. React, WordPress’ten daha mı iyi? Hız, SEO, güvenlik ve özelleştirilebilirliğin dürüst karşılaştırması - işiniz için doğru platform."
   },
   "WordPress powers a huge share of the web, and it remains a popular option for simple websites. However, as business requirements grow and user expectations rise, more companies are asking: is React better than WordPress for modern web projects? Let’s dive into a head-to-head comparison to understand the strengths and weaknesses of both approaches.": {
     "es": "WordPress mueve una parte enorme de la web y sigue siendo popular para sitios simples. Pero al crecer requisitos y expectativas, más empresas preguntan: ¿es React mejor que WordPress? Cara a cara: fortalezas y debilidades de ambos.",

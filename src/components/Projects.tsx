@@ -7,7 +7,7 @@ import { chrome } from '@/data/chrome'
 import { Panel } from './Panel'
 
 function parseProject(raw: string) {
-  const parts = raw.split(/\s[—–-]\s/)
+  const parts = raw.split(/\s-\s/)
   const url = (parts[0] ?? '').trim()
   return {
     url,

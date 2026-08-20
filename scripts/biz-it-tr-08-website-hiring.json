@@ -3,9 +3,9 @@
   "Hiring": { "it": "Assunzione", "tr": "İşe alım" },
   "Tips": { "it": "Consigli", "tr": "İpuçları" },
   "Process": { "it": "Processo", "tr": "Süreç" },
-  "When Does Your Business Need a Website — And Why It Is Essential": {
-    "it": "Quando un’impresa ha bisogno di un sito — e perché è essenziale",
-    "tr": "İşiniz ne zaman siteye ihtiyaç duyar — ve neden zorunludur"
+  "When Does Your Business Need a Website - And Why It Is Essential": {
+    "it": "Quando un’impresa ha bisogno di un sito - e perché è essenziale",
+    "tr": "İşiniz ne zaman siteye ihtiyaç duyar - ve neden zorunludur"
   },
   "Social media brings attention, but a website builds trust and scales your business. Learn when your business critically needs a website and why.": {
     "it": "I social portano attenzione, ma un sito costruisce fiducia e scala il business. Quando un’impresa ha bisogno critico di un sito, e perché.",
@@ -15,9 +15,9 @@
     "it": "Molte piccole imprese e imprenditori iniziano a vendere su Instagram, TikTok o Telegram. È veloce, facile, a basso costo. Quando il business cresce, arriva il punto in cui un profilo social da solo non basta più.",
     "tr": "Birçok küçük işletme ve girişimci ürün veya hizmeti Instagram, TikTok veya Telegram’dan satmaya başlar. Hızlı, kolay, ucuzdur. Ama iş büyüyünce yalnızca sosyal profilin yetmediği bir nokta gelir."
   },
-  "In 2026, a website is not just a luxury add-on — it is your digital headquarters that belongs 100% to you, works 24/7 without days off, and systematically turns visitors into paying clients.": {
-    "it": "Nel 2026 un sito non è un extra di lusso — è il quartier generale digitale, vostro al 100%, che lavora 24/7 senza ferie e trasforma in modo sistematico i visitatori in clienti che pagano.",
-    "tr": "2026’da site lüks bir eklenti değildir — %100 size ait dijital merkezdir; tatilsiz 7/24 çalışır ve ziyaretçiyi sistematik olarak ödeyen müşteriye çevirir."
+  "In 2026, a website is not just a luxury add-on - it is your digital headquarters that belongs 100% to you, works 24/7 without days off, and systematically turns visitors into paying clients.": {
+    "it": "Nel 2026 un sito non è un extra di lusso - è il quartier generale digitale, vostro al 100%, che lavora 24/7 senza ferie e trasforma in modo sistematico i visitatori in clienti che pagano.",
+    "tr": "2026’da site lüks bir eklenti değildir - %100 size ait dijital merkezdir; tatilsiz 7/24 çalışır ve ziyaretçiyi sistematik olarak ödeyen müşteriye çevirir."
   },
   "When does a business critically need a website?": {
     "it": "Quando un’impresa ha bisogno critico di un sito?",
@@ -27,25 +27,25 @@
     "it": "I segnali che dicono che è ora di andare oltre i profili social e lanciare una piattaforma vostra:",
     "tr": "Sosyal profillerin ötesine geçip kendi web platformunuzu yayınlama zamanının geldiğini söyleyen sinyaller:"
   },
-  "Structured info needed — your pricing, detailed service list, portfolio, or FAQs get buried in social feeds.": {
-    "it": "Serve info strutturata — prezzi, elenco servizi, portfolio o FAQ si seppelliscono nel feed.",
-    "tr": "Yapılandırılmış bilgi lazım — fiyat, ayrıntılı hizmet listesi, portföy veya FAQ akışta gömülür."
+  "Structured info needed - your pricing, detailed service list, portfolio, or FAQs get buried in social feeds.": {
+    "it": "Serve info strutturata - prezzi, elenco servizi, portfolio o FAQ si seppelliscono nel feed.",
+    "tr": "Yapılandırılmış bilgi lazım - fiyat, ayrıntılı hizmet listesi, portföy veya FAQ akışta gömülür."
   },
-  "Automation required — you need automated bookings, inquiry forms, or payments without managing DM messages manually.": {
-    "it": "Serve automazione — prenotazioni, form di richiesta o pagamenti senza gestire i DM a mano.",
-    "tr": "Otomasyon gerekir — DM’leri elle yönetmeden otomatik rezervasyon, talep formu veya ödeme."
+  "Automation required - you need automated bookings, inquiry forms, or payments without managing DM messages manually.": {
+    "it": "Serve automazione - prenotazioni, form di richiesta o pagamenti senza gestire i DM a mano.",
+    "tr": "Otomasyon gerekir - DM’leri elle yönetmeden otomatik rezervasyon, talep formu veya ödeme."
   },
-  "Google Search & Ads — you want to capture high-intent search traffic from Google (SEO & Google Ads).": {
-    "it": "Google Search e Ads — volete catturare traffico ad alto intento da Google (SEO e Google Ads).",
-    "tr": "Google Search ve Ads — Google’dan yüksek niyetli arama trafiğini yakalamak istiyorsunuz (SEO ve Google Ads)."
+  "Google Search & Ads - you want to capture high-intent search traffic from Google (SEO & Google Ads).": {
+    "it": "Google Search e Ads - volete catturare traffico ad alto intento da Google (SEO e Google Ads).",
+    "tr": "Google Search ve Ads - Google’dan yüksek niyetli arama trafiğini yakalamak istiyorsunuz (SEO ve Google Ads)."
   },
-  "B2B & Enterprise partners — corporate clients, B2B partners, and investors expect a professional website as proof of credibility.": {
-    "it": "Partner B2B e enterprise — clienti corporate, partner e investitori si aspettano un sito professionale come prova di credibilità.",
-    "tr": "B2B ve enterprise partnerler — kurumsal müşteri, B2B partner ve yatırımcı güvenilirlik kanıtı olarak profesyonel site bekler."
+  "B2B & Enterprise partners - corporate clients, B2B partners, and investors expect a professional website as proof of credibility.": {
+    "it": "Partner B2B e enterprise - clienti corporate, partner e investitori si aspettano un sito professionale come prova di credibilità.",
+    "tr": "B2B ve enterprise partnerler - kurumsal müşteri, B2B partner ve yatırımcı güvenilirlik kanıtı olarak profesyonel site bekler."
   },
-  "Overwhelmed DMs — order volume is growing and social messages create operational friction and lost sales.": {
-    "it": "DM saturi — il volume degli ordini cresce e i messaggi social creano attrito operativo e vendite perse.",
-    "tr": "DM taşması — sipariş hacmi büyür; sosyal mesajlar operasyon sürtünmesi ve kayıp satış yaratır."
+  "Overwhelmed DMs - order volume is growing and social messages create operational friction and lost sales.": {
+    "it": "DM saturi - il volume degli ordini cresce e i messaggi social creano attrito operativo e vendite perse.",
+    "tr": "DM taşması - sipariş hacmi büyür; sosyal mesajlar operasyon sürtünmesi ve kayıp satış yaratır."
   },
   "Why social media alone is not enough": {
     "it": "Perché i social da soli non bastano",
@@ -55,21 +55,21 @@
     "it": "I canali social sono ottimi per awareness e cima del funnel. Affidarsi solo a piattaforme di terzi crea vulnerabilità pesanti:",
     "tr": "Sosyal kanallar farkındalık ve huninin üstü için iyidir. Ama yalnızca üçüncü taraf platformlara dayanmak büyük zafiyet yaratır:"
   },
-  "You do not own your profile — algorithm updates, reach drops, or account bans can halt your revenue overnight.": {
-    "it": "Il profilo non è vostro — update di algoritmo, cali di portata o ban possono fermare il fatturato da un giorno all’altro.",
-    "tr": "Profil size ait değildir — algoritma güncellemesi, erişim düşüşü veya hesap yasağı cironuzu bir gecede durdurabilir."
+  "You do not own your profile - algorithm updates, reach drops, or account bans can halt your revenue overnight.": {
+    "it": "Il profilo non è vostro - update di algoritmo, cali di portata o ban possono fermare il fatturato da un giorno all’altro.",
+    "tr": "Profil size ait değildir - algoritma güncellemesi, erişim düşüşü veya hesap yasağı cironuzu bir gecede durdurabilir."
   },
-  "Limited navigation — prospective clients struggle to find older posts, detailed terms, or exact pricing.": {
-    "it": "Navigazione limitata — i clienti potenziali faticano a trovare post vecchi, termini dettagliati o il prezzo esatto.",
-    "tr": "Sınırlı gezinme — potansiyel müşteri eski gönderiyi, ayrıntılı koşulları veya tam fiyatı bulmakta zorlanır."
+  "Limited navigation - prospective clients struggle to find older posts, detailed terms, or exact pricing.": {
+    "it": "Navigazione limitata - i clienti potenziali faticano a trovare post vecchi, termini dettagliati o il prezzo esatto.",
+    "tr": "Sınırlı gezinme - potansiyel müşteri eski gönderiyi, ayrıntılı koşulları veya tam fiyatı bulmakta zorlanır."
   },
-  "No organic Google SEO search presence — people search Google when they are ready to buy, not Instagram.": {
-    "it": "Niente presenza organica su Google — chi è pronto a comprare cerca su Google, non su Instagram.",
-    "tr": "Organik Google SEO yok — satın almaya hazır olan Google’da arar, Instagram’da değil."
+  "No organic Google SEO search presence - people search Google when they are ready to buy, not Instagram.": {
+    "it": "Niente presenza organica su Google - chi è pronto a comprare cerca su Google, non su Instagram.",
+    "tr": "Organik Google SEO yok - satın almaya hazır olan Google’da arar, Instagram’da değil."
   },
-  "Constrained branding — social feeds look identical for every profile; a website offers a unique brand experience.": {
-    "it": "Branding stretto — i feed social sono identici per ogni profilo; un sito offre un’esperienza di brand unica.",
-    "tr": "Kısıtlı marka — sosyal akış her profilde aynı durur; site benzersiz bir marka deneyimi sunar."
+  "Constrained branding - social feeds look identical for every profile; a website offers a unique brand experience.": {
+    "it": "Branding stretto - i feed social sono identici per ogni profilo; un sito offre un’esperienza di brand unica.",
+    "tr": "Kısıtlı marka - sosyal akış her profilde aynı durur; site benzersiz bir marka deneyimi sunar."
   },
   "Why a website converts interest into real business": {
     "it": "Perché un sito converte l’interesse in business reale",
@@ -79,21 +79,21 @@
     "it": "Un sito dedicato è l’hub centrale di marketing digitale e funnel di vendita:",
     "tr": "Ayrı bir site, tüm dijital pazarlama ve satış funnel’ının merkezi hub’ıdır:"
   },
-  "Total ownership & stability — your own domain name (yourcompany.dev), custom design, and full data control.": {
-    "it": "Ownership totale e stabilità — dominio vostro (yourcompany.dev), design custom e controllo pieno dei dati.",
-    "tr": "Tam sahiplik ve istikrar — kendi alan adınız (yourcompany.dev), özel tasarım ve tam veri kontrolü."
+  "Total ownership & stability - your own domain name (yourcompany.dev), custom design, and full data control.": {
+    "it": "Ownership totale e stabilità - dominio vostro (yourcompany.dev), design custom e controllo pieno dei dati.",
+    "tr": "Tam sahiplik ve istikrar - kendi alan adınız (yourcompany.dev), özel tasarım ve tam veri kontrolü."
   },
-  "Instant credibility & trust — a fast, modern website shows clients that your business is legitimate and established.": {
-    "it": "Credibilità e fiducia all’istante — un sito veloce e moderno mostra che l’impresa è reale e strutturata.",
-    "tr": "Anında güvenilirlik — hızlı, modern bir site müşteriye işinizin gerçek ve oturmuş olduğunu gösterir."
+  "Instant credibility & trust - a fast, modern website shows clients that your business is legitimate and established.": {
+    "it": "Credibilità e fiducia all’istante - un sito veloce e moderno mostra che l’impresa è reale e strutturata.",
+    "tr": "Anında güvenilirlik - hızlı, modern bir site müşteriye işinizin gerçek ve oturmuş olduğunu gösterir."
   },
-  "Business process automation — direct integrations with CRMs, payment gateways, calendar schedulers, and analytics.": {
-    "it": "Automazione dei processi — integrazioni dirette con CRM, gateway di pagamento, calendari e analytics.",
-    "tr": "İş süreci otomasyonu — CRM, ödeme gateway, takvim ve analitikle doğrudan entegrasyon."
+  "Business process automation - direct integrations with CRMs, payment gateways, calendar schedulers, and analytics.": {
+    "it": "Automazione dei processi - integrazioni dirette con CRM, gateway di pagamento, calendari e analytics.",
+    "tr": "İş süreci otomasyonu - CRM, ödeme gateway, takvim ve analitikle doğrudan entegrasyon."
   },
-  "24/7 availability — clients can explore options, calculate prices, and place orders at any hour of the day.": {
-    "it": "Disponibilità 24/7 — i clienti esplorano opzioni, calcolano prezzi e ordinano a qualsiasi ora.",
-    "tr": "7/24 erişilebilirlik — müşteri günün her saatinde seçenek bakabilir, fiyat hesaplayabilir, sipariş verebilir."
+  "24/7 availability - clients can explore options, calculate prices, and place orders at any hour of the day.": {
+    "it": "Disponibilità 24/7 - i clienti esplorano opzioni, calcolano prezzi e ordinano a qualsiasi ora.",
+    "tr": "7/24 erişilebilirlik - müşteri günün her saatinde seçenek bakabilir, fiyat hesaplayabilir, sipariş verebilir."
   },
   "Which type of website does your business need?": {
     "it": "Che tipo di sito serve al vostro business?",
@@ -103,21 +103,21 @@
     "it": "Non dovete costruire un portale enorme dal giorno uno. Scegliete la struttura in base allo stadio attuale:",
     "tr": "İlk günden kocaman bir portal kurmanız gerekmez. Mevcut evreye göre yapı seçin:"
   },
-  "Landing Page (One-page site) — ideal for showcasing a specific product, service, or lead magnet with max conversion focus.": {
-    "it": "Landing (sito one-page) — ideale per un prodotto, un servizio o un lead magnet, con focus massimo sulla conversione.",
-    "tr": "Landing (tek sayfa) — belirli bir ürün, hizmet veya lead magnet’i maksimum dönüşüm odağıyla göstermek için ideal."
+  "Landing Page (One-page site) - ideal for showcasing a specific product, service, or lead magnet with max conversion focus.": {
+    "it": "Landing (sito one-page) - ideale per un prodotto, un servizio o un lead magnet, con focus massimo sulla conversione.",
+    "tr": "Landing (tek sayfa) - belirli bir ürün, hizmet veya lead magnet’i maksimum dönüşüm odağıyla göstermek için ideal."
   },
-  "Business Card / Portfolio — concise presentation of specialist skills, agency services, project cases, and contact paths.": {
-    "it": "Biglietto da visita / Portfolio — presentazione concisa di skill, servizi, case e vie di contatto.",
-    "tr": "Kartvizit / Portföy — uzmanlık, ajans hizmeti, proje case’i ve iletişim yollarının kısa sunumu."
+  "Business Card / Portfolio - concise presentation of specialist skills, agency services, project cases, and contact paths.": {
+    "it": "Biglietto da visita / Portfolio - presentazione concisa di skill, servizi, case e vie di contatto.",
+    "tr": "Kartvizit / Portföy - uzmanlık, ajans hizmeti, proje case’i ve iletişim yollarının kısa sunumu."
   },
-  "Corporate Website — multi-page platform for growing companies with service hubs, blog/news, and team profiles.": {
-    "it": "Sito corporate — piattaforma multi-pagina per aziende in crescita, con hub di servizi, blog/news e profili del team.",
-    "tr": "Kurumsal site — büyüyen şirketler için hizmet hub’ı, blog/haber ve ekip profilli çok sayfalı platform."
+  "Corporate Website - multi-page platform for growing companies with service hubs, blog/news, and team profiles.": {
+    "it": "Sito corporate - piattaforma multi-pagina per aziende in crescita, con hub di servizi, blog/news e profili del team.",
+    "tr": "Kurumsal site - büyüyen şirketler için hizmet hub’ı, blog/haber ve ekip profilli çok sayfalı platform."
   },
-  "Web Application / E-commerce — interactive platforms featuring custom user portals, shopping carts, and dynamic workflows.": {
-    "it": "Applicazione web / E-commerce — piattaforme interattive con portali utente, carrelli e workflow dinamici.",
-    "tr": "Web uygulaması / E-commerce — özel kullanıcı portalı, sepet ve dinamik workflow’lu etkileşimli platformlar."
+  "Web Application / E-commerce - interactive platforms featuring custom user portals, shopping carts, and dynamic workflows.": {
+    "it": "Applicazione web / E-commerce - piattaforme interattive con portali utente, carrelli e workflow dinamici.",
+    "tr": "Web uygulaması / E-commerce - özel kullanıcı portalı, sepet ve dinamik workflow’lu etkileşimli platformlar."
   },
   "How to build a website that delivers real revenue": {
     "it": "Come costruire un sito che porta fatturato reale",
@@ -131,21 +131,21 @@
     "it": "Costruisco siti e applicazioni lean, velocissime, con Next.js e React. 8+ anni in produzione, 4.200+ ore su Upwork, 100+ progetti lanciati. Il sito sta premium e converte il traffico in clienti.",
     "tr": "Next.js ve React ile yalın, ultra hızlı siteler ve uygulamalar kuruyorum. 8+ yıl production, 4.200+ Upwork saati, 100+ proje. Siteniz premium durur ve trafiği müşteriye çevirir."
   },
-  "If your business is ready for its own digital home or needs a modern upgrade for an existing site — feel free to reach out via the contacts below for a free initial consultation!": {
-    "it": "Se il business è pronto per una casa digitale propria o un upgrade moderno del sito esistente — scrivete dai contatti sotto per una prima consulenza gratuita.",
-    "tr": "İşiniz kendi dijital evine hazırsa veya mevcut siteye modern bir yükseltme gerekiyorsa — ücretsiz ilk danışma için aşağıdaki iletişimden yazın."
+  "If your business is ready for its own digital home or needs a modern upgrade for an existing site - feel free to reach out via the contacts below for a free initial consultation!": {
+    "it": "Se il business è pronto per una casa digitale propria o un upgrade moderno del sito esistente - scrivete dai contatti sotto per una prima consulenza gratuita.",
+    "tr": "İşiniz kendi dijital evine hazırsa veya mevcut siteye modern bir yükseltme gerekiyorsa - ücretsiz ilk danışma için aşağıdaki iletişimden yazın."
   },
-  "Why Instagram and TikTok Are Not Enough — Your Business Still Needs a Website": {
-    "it": "Perché Instagram e TikTok non bastano — il business ha comunque bisogno di un sito",
-    "tr": "Instagram ve TikTok neden yetmez — işinizin hâlâ bir siteye ihtiyacı var"
+  "Why Instagram and TikTok Are Not Enough - Your Business Still Needs a Website": {
+    "it": "Perché Instagram e TikTok non bastano - il business ha comunque bisogno di un sito",
+    "tr": "Instagram ve TikTok neden yetmez - işinizin hâlâ bir siteye ihtiyacı var"
   },
   "Social media brings attention. A website brings trust. Here is why serious businesses invest in their own home on the web.": {
     "it": "I social portano attenzione. Un sito porta fiducia. Perché le imprese serie investono in una casa propria sul web.",
     "tr": "Sosyal medya dikkat getirir. Site güven getirir. Ciddi işler neden web’de kendi evine yatırım yapar."
   },
-  "Instagram and TikTok are powerful for reach. They help you show personality, run campaigns, and meet customers where they already scroll. But when someone is deciding whether to trust you with their money, their time, or a real project — they look for more than a feed.": {
-    "it": "Instagram e TikTok sono potenti per la portata. Mostrano personalità, fanno campagne, incontrano il cliente dove già scrolla. Ma quando qualcuno decide se affidarvi soldi, tempo o un progetto reale — cerca più di un feed.",
-    "tr": "Instagram ve TikTok erişim için güçlüdür. Kişiliği gösterir, kampanya yürütür, müşteriyi zaten kaydırdığı yerde bulur. Ama biri size para, zaman veya gerçek bir proje emanet edip etmeyeceğine karar verirken — bir akıştan fazlasını arar."
+  "Instagram and TikTok are powerful for reach. They help you show personality, run campaigns, and meet customers where they already scroll. But when someone is deciding whether to trust you with their money, their time, or a real project - they look for more than a feed.": {
+    "it": "Instagram e TikTok sono potenti per la portata. Mostrano personalità, fanno campagne, incontrano il cliente dove già scrolla. Ma quando qualcuno decide se affidarvi soldi, tempo o un progetto reale - cerca più di un feed.",
+    "tr": "Instagram ve TikTok erişim için güçlüdür. Kişiliği gösterir, kampanya yürütür, müşteriyi zaten kaydırdığı yerde bulur. Ama biri size para, zaman veya gerçek bir proje emanet edip etmeyeceğine karar verirken - bir akıştan fazlasını arar."
   },
   "A website is not a luxury add-on. It is the signal that your business is established, intentional, and worth taking seriously.": {
     "it": "Un sito non è un extra di lusso. È il segnale che l’impresa è strutturata, intenzionale e merita di essere presa sul serio.",
@@ -155,9 +155,9 @@
     "it": "I social costruiscono visibilità. Un sito costruisce credibilità.",
     "tr": "Sosyal medya görünürlük kurar. Site güvenilirlik kurar."
   },
-  "Profiles come and go. Algorithms change. Accounts get restricted. A website you own is stable ground — your name, your offer, your proof, in one place you control.": {
-    "it": "I profili vanno e vengono. Gli algoritmi cambiano. Gli account vengono limitati. Un sito vostro è terra stabile — nome, offerta, prove, in un posto che controllate.",
-    "tr": "Profiller gelir gider. Algoritmalar değişir. Hesaplar kısıtlanır. Size ait site sağlam zemindir — adınız, teklifiniz, kanıtınız, kontrol ettiğiniz tek yerde."
+  "Profiles come and go. Algorithms change. Accounts get restricted. A website you own is stable ground - your name, your offer, your proof, in one place you control.": {
+    "it": "I profili vanno e vengono. Gli algoritmi cambiano. Gli account vengono limitati. Un sito vostro è terra stabile - nome, offerta, prove, in un posto che controllate.",
+    "tr": "Profiller gelir gider. Algoritmalar değişir. Hesaplar kısıtlanır. Size ait site sağlam zemindir - adınız, teklifiniz, kanıtınız, kontrol ettiğiniz tek yerde."
   },
   "Clients, partners, and investors expect it. A clear, fast, professional site answers the questions social posts never fully cover: who you are, what you do, how you work, and why they should choose you.": {
     "it": "Clienti, partner e investitori se lo aspettano. Un sito chiaro, veloce, professionale risponde a ciò che i post non coprono: chi siete, cosa fate, come lavorate e perché scegliervi.",
@@ -167,41 +167,41 @@
     "it": "Cosa deve comunicare un sito di business",
     "tr": "Bir iş sitesi neyi iletmeli"
   },
-  "You do not need dozens of pages. You need a focused presence that sounds confident and reads easily — even on a phone between two TikToks.": {
-    "it": "Non servono dozzine di pagine. Serve una presenza focalizzata, sicura e facile da leggere — anche al telefono, tra due TikTok.",
+  "You do not need dozens of pages. You need a focused presence that sounds confident and reads easily - even on a phone between two TikToks.": {
+    "it": "Non servono dozzine di pagine. Serve una presenza focalizzata, sicura e facile da leggere - anche al telefono, tra due TikTok.",
     "tr": "Düzinelerce sayfa gerekmez. İki TikTok arasında telefonda bile kendinden emin ve kolay okunan odaklı bir varlık gerekir."
   },
-  "What you do — in plain language, without buzzwords": {
-    "it": "Cosa fate — in linguaggio piano, senza buzzword",
-    "tr": "Ne yaptığınız — sade dilde, buzzword’süz"
+  "What you do - in plain language, without buzzwords": {
+    "it": "Cosa fate - in linguaggio piano, senza buzzword",
+    "tr": "Ne yaptığınız - sade dilde, buzzword’süz"
   },
-  "Who you help — and what problem you solve for them": {
-    "it": "Chi aiutate — e quale problema risolvete",
-    "tr": "Kime yardım ettiğiniz — ve onlar için hangi sorunu çözdüğünüz"
+  "Who you help - and what problem you solve for them": {
+    "it": "Chi aiutate - e quale problema risolvete",
+    "tr": "Kime yardım ettiğiniz - ve onlar için hangi sorunu çözdüğünüz"
   },
-  "Proof — case studies, results, reviews, or shipped work": {
-    "it": "Prove — case study, risultati, recensioni o lavoro spedito",
-    "tr": "Kanıt — case study, sonuç, yorum veya yayınlanmış iş"
+  "Proof - case studies, results, reviews, or shipped work": {
+    "it": "Prove - case study, risultati, recensioni o lavoro spedito",
+    "tr": "Kanıt - case study, sonuç, yorum veya yayınlanmış iş"
   },
-  "How to start — one clear contact path, not five scattered links": {
-    "it": "Come iniziare — un percorso di contatto chiaro, non cinque link sparsi",
-    "tr": "Nasıl başlanır — beş dağınık link değil, tek net iletişim yolu"
+  "How to start - one clear contact path, not five scattered links": {
+    "it": "Come iniziare - un percorso di contatto chiaro, non cinque link sparsi",
+    "tr": "Nasıl başlanır - beş dağınık link değil, tek net iletişim yolu"
   },
   "Trust signals that social alone cannot provide": {
     "it": "Segnali di fiducia che i social da soli non danno",
     "tr": "Yalnızca sosyalin veremediği güven sinyalleri"
   },
-  "A custom domain (yourbrand.com) — not just a link-in-bio page": {
-    "it": "Un dominio vostro (yourbrand.com) — non solo una pagina link-in-bio",
-    "tr": "Özel alan adı (yourbrand.com) — yalnızca link-in-bio sayfası değil"
+  "A custom domain (yourbrand.com) - not just a link-in-bio page": {
+    "it": "Un dominio vostro (yourbrand.com) - non solo una pagina link-in-bio",
+    "tr": "Özel alan adı (yourbrand.com) - yalnızca link-in-bio sayfası değil"
   },
   "Structured service pages that show depth, not just highlights": {
     "it": "Pagine di servizio strutturate che mostrano profondità, non solo highlight",
     "tr": "Yalnızca öne çıkanlar değil, derinlik gösteren yapılandırılmış hizmet sayfaları"
   },
-  "SEO visibility — so people find you when they search, not only when you post": {
-    "it": "Visibilità SEO — così vi trovano quando cercano, non solo quando postate",
-    "tr": "SEO görünürlüğü — sizi yalnızca paylaştığınızda değil, aradıklarında bulsunlar"
+  "SEO visibility - so people find you when they search, not only when you post": {
+    "it": "Visibilità SEO - così vi trovano quando cercano, non solo quando postate",
+    "tr": "SEO görünürlüğü - sizi yalnızca paylaştığınızda değil, aradıklarında bulsunlar"
   },
   "Professional email and contact flow tied to your brand": {
     "it": "Email professionale e flusso di contatto legati al brand",
@@ -215,9 +215,9 @@
     "it": "Il setup migliore: social + sito, insieme",
     "tr": "En iyi kurulum: sosyal + site, birlikte"
   },
-  "Use Instagram and TikTok to attract attention. Send that traffic to a website that converts interest into action — a call, a quote request, a signup, a sale.": {
-    "it": "Usate Instagram e TikTok per attirare attenzione. Mandate quel traffico a un sito che converte l’interesse in azione — una chiamata, un preventivo, una signup, una vendita.",
-    "tr": "Dikkat çekmek için Instagram ve TikTok kullanın. O trafiği ilgiyi eyleme çeviren bir siteye gönderin — arama, teklif, kayıt, satış."
+  "Use Instagram and TikTok to attract attention. Send that traffic to a website that converts interest into action - a call, a quote request, a signup, a sale.": {
+    "it": "Usate Instagram e TikTok per attirare attenzione. Mandate quel traffico a un sito che converte l’interesse in azione - una chiamata, un preventivo, una signup, una vendita.",
+    "tr": "Dikkat çekmek için Instagram ve TikTok kullanın. O trafiği ilgiyi eyleme çeviren bir siteye gönderin - arama, teklif, kayıt, satış."
   },
   "Think of social as the handshake. The website is the meeting room where business actually happens.": {
     "it": "I social sono la stretta di mano. Il sito è la sala riunioni dove il business succede davvero.",
@@ -235,21 +235,21 @@
     "it": "Costruisco esattamente quello: siti e prodotti web lean, ad alte prestazioni, con React e Next.js. 4.200+ ore su Upwork, 8+ anni in produzione, 100+ progetti lanciati. TypeScript, ottimizzazione prestazioni, architettura pronta per la SEO e codice pulito.",
     "tr": "Tam olarak bunu kuruyorum: React ve Next.js ile yalın, yüksek performanslı siteler ve web ürünleri. 4.200+ Upwork saati, 8+ yıl production, 100+ proje. TypeScript, performans, SEO’ya hazır mimari ve temiz kod."
   },
-  "If your business lives on social but your website is missing, outdated, or just a template — reach out via the contacts below. We can map what you need in one short call.": {
-    "it": "Se il business vive sui social ma il sito manca, è vecchio o è solo un template — scrivete dai contatti sotto. In una chiamata breve disegniamo ciò che vi serve.",
-    "tr": "İşiniz sosyalde yaşıyor ama site yok, eski veya yalnızca bir şablonsa — aşağıdaki iletişimden yazın. Kısa bir görüşmede ihtiyacı çizeriz."
+  "If your business lives on social but your website is missing, outdated, or just a template - reach out via the contacts below. We can map what you need in one short call.": {
+    "it": "Se il business vive sui social ma il sito manca, è vecchio o è solo un template - scrivete dai contatti sotto. In una chiamata breve disegniamo ciò che vi serve.",
+    "tr": "İşiniz sosyalde yaşıyor ama site yok, eski veya yalnızca bir şablonsa - aşağıdaki iletişimden yazın. Kısa bir görüşmede ihtiyacı çizeriz."
   },
   "How to Find a Web Developer for Your Project (Without Wasting Time or Budget)": {
     "it": "Come trovare un web developer per il progetto (senza sprecare tempo o budget)",
     "tr": "Projeniz için web developer nasıl bulunur (zaman veya bütçe boşa harcamadan)"
   },
-  "Searching for and finding a web developer can feel overwhelming. Here is a practical guide to finding the right person — fast, safely, and with confidence.": {
-    "it": "Cercare un web developer può sembrare opprimente. Una guida pratica per trovare la persona giusta — in fretta, in sicurezza e con fiducia.",
+  "Searching for and finding a web developer can feel overwhelming. Here is a practical guide to finding the right person - fast, safely, and with confidence.": {
+    "it": "Cercare un web developer può sembrare opprimente. Una guida pratica per trovare la persona giusta - in fretta, in sicurezza e con fiducia.",
     "tr": "Web developer aramak bunaltıcı gelebilir. Doğru kişiyi hızlı, güvenli ve emin bulmak için pratik bir rehber."
   },
-  "Whether you need a landing page, a full product rebuild, or ongoing maintenance, searching for and finding a web developer is one of the most important decisions you will make. The market is full of options — agencies, freelancers, offshore teams.": {
+  "Whether you need a landing page, a full product rebuild, or ongoing maintenance, searching for and finding a web developer is one of the most important decisions you will make. The market is full of options - agencies, freelancers, offshore teams.": {
     "it": "Che vi serva una landing, un rebuild di prodotto o manutenzione continua, trovare un web developer è una delle decisioni più importanti. Il mercato è pieno: agency, freelancer, team offshore.",
-    "tr": "Bir landing, tam ürün rebuild’i veya sürekli bakım olsun, web developer bulmak vereceğiniz en önemli kararlardan biridir. Pazar dolu — ajans, freelancer, offshore ekip."
+    "tr": "Bir landing, tam ürün rebuild’i veya sürekli bakım olsun, web developer bulmak vereceğiniz en önemli kararlardan biridir. Pazar dolu - ajans, freelancer, offshore ekip."
   },
   "This guide helps you cut through the noise and hire a web developer who actually fits your project, timeline, and budget.": {
     "it": "Questa guida aiuta a tagliare il rumore e assumere un web developer che entra davvero nel progetto, nei tempi e nel budget.",
@@ -263,21 +263,21 @@
     "it": "Brief vaghi attirano proposte vaghe. Prima di postare un job o scrivere, chiarite:",
     "tr": "Muğlak brief muğlak teklif çeker. İş ilanı atmadan veya yazmadan önce netleştirin:"
   },
-  "Project type — website, web app, redesign, or ongoing support": {
-    "it": "Tipo di progetto — sito, web app, redesign o supporto continuo",
-    "tr": "Proje türü — site, web app, redesign veya sürekli destek"
+  "Project type - website, web app, redesign, or ongoing support": {
+    "it": "Tipo di progetto - sito, web app, redesign o supporto continuo",
+    "tr": "Proje türü - site, web app, redesign veya sürekli destek"
   },
-  "Must-have features — forms, payments, user accounts, CMS, integrations": {
-    "it": "Feature must-have — form, pagamenti, account, CMS, integrazioni",
-    "tr": "Olmazsa olmaz feature’lar — form, ödeme, kullanıcı hesabı, CMS, entegrasyon"
+  "Must-have features - forms, payments, user accounts, CMS, integrations": {
+    "it": "Feature must-have - form, pagamenti, account, CMS, integrazioni",
+    "tr": "Olmazsa olmaz feature’lar - form, ödeme, kullanıcı hesabı, CMS, entegrasyon"
   },
-  "Tech preferences — React, Next.js, or openness to recommendations": {
-    "it": "Preferenze tech — React, Next.js, o apertura a raccomandazioni",
-    "tr": "Teknoloji tercihi — React, Next.js veya öneriye açıklık"
+  "Tech preferences - React, Next.js, or openness to recommendations": {
+    "it": "Preferenze tech - React, Next.js, o apertura a raccomandazioni",
+    "tr": "Teknoloji tercihi - React, Next.js veya öneriye açıklık"
   },
-  "Timeline and budget range — even a rough estimate saves weeks": {
-    "it": "Tempi e fascia di budget — anche una stima grezza salva settimane",
-    "tr": "Takvim ve bütçe aralığı — kaba bir tahmin bile haftalar kazandırır"
+  "Timeline and budget range - even a rough estimate saves weeks": {
+    "it": "Tempi e fascia di budget - anche una stima grezza salva settimane",
+    "tr": "Takvim ve bütçe aralığı - kaba bir tahmin bile haftalar kazandırır"
   },
   "Where to look for a web developer": {
     "it": "Dove cercare un web developer",
@@ -287,21 +287,21 @@
     "it": "Scegliete in base a quanto controllo e comunicazione diretta volete.",
     "tr": "Ne kadar kontrol ve doğrudan iletişim istediğinize göre seçin."
   },
-  "Freelance platforms (Upwork, Toptal) — large talent pool, reviews, escrow protection": {
-    "it": "Piattaforme freelance (Upwork, Toptal) — pool ampio, recensioni, protezione escrow",
-    "tr": "Freelance platformlar (Upwork, Toptal) — geniş yetenek havuzu, yorum, escrow koruması"
+  "Freelance platforms (Upwork, Toptal) - large talent pool, reviews, escrow protection": {
+    "it": "Piattaforme freelance (Upwork, Toptal) - pool ampio, recensioni, protezione escrow",
+    "tr": "Freelance platformlar (Upwork, Toptal) - geniş yetenek havuzu, yorum, escrow koruması"
   },
-  "LinkedIn — good for senior developers with verifiable work history": {
-    "it": "LinkedIn — buono per developer senior con storia verificabile",
-    "tr": "LinkedIn — doğrulanabilir iş geçmişi olan senior developer için iyi"
+  "LinkedIn - good for senior developers with verifiable work history": {
+    "it": "LinkedIn - buono per developer senior con storia verificabile",
+    "tr": "LinkedIn - doğrulanabilir iş geçmişi olan senior developer için iyi"
   },
-  "Referrals — trusted recommendations from founders or product teams": {
-    "it": "Referral — raccomandazioni fidate da founder o team di prodotto",
-    "tr": "Tavsiye — kurucu veya ürün ekiplerinden güvenilir öneri"
+  "Referrals - trusted recommendations from founders or product teams": {
+    "it": "Referral - raccomandazioni fidate da founder o team di prodotto",
+    "tr": "Tavsiye - kurucu veya ürün ekiplerinden güvenilir öneri"
   },
-  "Developer portfolios — find someone whose shipped work matches your vision": {
-    "it": "Portfolio di developer — trovatene uno il cui lavoro spedito combacia con la vostra visione",
-    "tr": "Developer portföyleri — yayınlanmış işi vizyonunuza uyan birini bulun"
+  "Developer portfolios - find someone whose shipped work matches your vision": {
+    "it": "Portfolio di developer - trovatene uno il cui lavoro spedito combacia con la vostra visione",
+    "tr": "Developer portföyleri - yayınlanmış işi vizyonunuza uyan birini bulun"
   },
   "What to check in a web developer's profile": {
     "it": "Cosa controllare nel profilo di un web developer",
@@ -311,9 +311,9 @@
     "it": "Non assumete solo sul prezzo. Un developer economico che consegna codice rotto costa più di un senior che spedisce bene al primo colpo.",
     "tr": "Yalnızca fiyata bakarak tutmayın. Kırık kod teslim eden ucuz bir developer, ilk seferde doğru yayınlayan senior’dan daha pahalıya patlar."
   },
-  "Live projects you can visit — not just static mockups": {
-    "it": "Progetti live che potete visitare — non solo mockup statici",
-    "tr": "Ziyaret edebileceğiniz canlı projeler — yalnızca statik mockup değil"
+  "Live projects you can visit - not just static mockups": {
+    "it": "Progetti live che potete visitare - non solo mockup statici",
+    "tr": "Ziyaret edebileceğiniz canlı projeler - yalnızca statik mockup değil"
   },
   "Relevant stack experience (React, Next.js, TypeScript for modern products)": {
     "it": "Esperienza di stack rilevante (React, Next.js, TypeScript per prodotti moderni)",
@@ -331,8 +331,8 @@
     "it": "Lavorare con una web developer freelance senior",
     "tr": "Senior freelance web developer ile çalışmak"
   },
-  "If you are looking for a web developer who handles the full cycle — from architecture to deployment and ongoing improvements — working directly with a senior freelancer cuts agency overhead and keeps communication fast.": {
-    "it": "Se cercate una web developer che gestisce il ciclo pieno — da architettura a deploy e miglioramenti continui — lavorare diretto con una freelancer senior taglia l’overhead di agency e tiene la comunicazione veloce.",
+  "If you are looking for a web developer who handles the full cycle - from architecture to deployment and ongoing improvements - working directly with a senior freelancer cuts agency overhead and keeps communication fast.": {
+    "it": "Se cercate una web developer che gestisce il ciclo pieno - da architettura a deploy e miglioramenti continui - lavorare diretto con una freelancer senior taglia l’overhead di agency e tiene la comunicazione veloce.",
     "tr": "Mimariden deploy’a ve sürekli iyileştirmeye tam döngüyü yöneten bir web developer arıyorsanız, senior freelancer ile doğrudan çalışmak ajans overhead’ini keser ve iletişimi hızlı tutar."
   },
   "I work with clients worldwide on React and Next.js projects: 4,200+ Upwork hours, 100+ launched products, and a focus on performance, clean code, and long-term collaboration.": {
@@ -367,9 +367,9 @@
     "it": "Esperienza con la vostra stack (React, Next.js, TypeScript)",
     "tr": "Sizin stack’inizde deneyim (React, Next.js, TypeScript)"
   },
-  "Proof of shipped, live products — not just mockups": {
-    "it": "Prove di prodotti live spediti — non solo mockup",
-    "tr": "Yayınlanmış, canlı ürün kanıtı — yalnızca mockup değil"
+  "Proof of shipped, live products - not just mockups": {
+    "it": "Prove di prodotti live spediti - non solo mockup",
+    "tr": "Yayınlanmış, canlı ürün kanıtı - yalnızca mockup değil"
   },
   "Willingness to sign an NDA and work within your timezone": {
     "it": "Disponibilità a firmare un NDA e lavorare nel vostro fuso",
@@ -383,9 +383,9 @@
     "it": "Cosa aspettarsi lavorando con una web developer freelance",
     "tr": "Freelance web developer ile çalışırken ne beklemelisiniz"
   },
-  "A transparent look at the process — from first call to launch and ongoing support — so you know exactly what you are signing up for.": {
-    "it": "Uno sguardo trasparente al processo — dalla prima chiamata al launch e al supporto continuo — così sapete esattamente a cosa vi iscrivete.",
-    "tr": "Sürece şeffaf bir bakış — ilk aramadan launch ve sürekli desteğe — böylece tam olarak neye imza attığınızı bilirsiniz."
+  "A transparent look at the process - from first call to launch and ongoing support - so you know exactly what you are signing up for.": {
+    "it": "Uno sguardo trasparente al processo - dalla prima chiamata al launch e al supporto continuo - così sapete esattamente a cosa vi iscrivete.",
+    "tr": "Sürece şeffaf bir bakış - ilk aramadan launch ve sürekli desteğe - böylece tam olarak neye imza attığınızı bilirsiniz."
   },
   "Working with a freelancer should feel like adding a senior team member. Here is how I structure projects so clients stay informed and in control.": {
     "it": "Lavorare con una freelancer dovrebbe sembrare aggiungere un membro senior al team. Ecco come strutturare i progetti perché il cliente resti informato e in controllo.",
@@ -395,24 +395,24 @@
     "it": "Flusso tipico del progetto",
     "tr": "Tipik proje akışı"
   },
-  "Discovery call — goals, timeline, tech constraints, and budget alignment": {
-    "it": "Discovery call — obiettivi, tempi, vincoli tech e allineamento di budget",
-    "tr": "Discovery görüşmesi — hedefler, takvim, teknik kısıtlar ve bütçe hizası"
+  "Discovery call - goals, timeline, tech constraints, and budget alignment": {
+    "it": "Discovery call - obiettivi, tempi, vincoli tech e allineamento di budget",
+    "tr": "Discovery görüşmesi - hedefler, takvim, teknik kısıtlar ve bütçe hizası"
   },
-  "Scope document — clear deliverables, milestones, and communication channels": {
-    "it": "Documento di scope — deliverable chiari, milestone e canali di comunicazione",
-    "tr": "Scope belgesi — net teslimatlar, milestone’lar ve iletişim kanalları"
+  "Scope document - clear deliverables, milestones, and communication channels": {
+    "it": "Documento di scope - deliverable chiari, milestone e canali di comunicazione",
+    "tr": "Scope belgesi - net teslimatlar, milestone’lar ve iletişim kanalları"
   },
-  "Design & build — iterative updates with regular demos": {
-    "it": "Design e build — update iterativi con demo regolari",
-    "tr": "Tasarım ve kurulum — düzenli demo ile yinelemeli update"
+  "Design & build - iterative updates with regular demos": {
+    "it": "Design e build - update iterativi con demo regolari",
+    "tr": "Tasarım ve kurulum - düzenli demo ile yinelemeli update"
   },
-  "QA & launch — cross-browser testing, performance check, deployment": {
-    "it": "QA e launch — test cross-browser, check prestazioni, deploy",
-    "tr": "QA ve launch — tarayıcılar arası test, performans kontrolü, deploy"
+  "QA & launch - cross-browser testing, performance check, deployment": {
+    "it": "QA e launch - test cross-browser, check prestazioni, deploy",
+    "tr": "QA ve launch - tarayıcılar arası test, performans kontrolü, deploy"
   },
-  "Post-launch support — bug fixes, improvements, and scaling as you grow": {
-    "it": "Supporto post-launch — fix, miglioramenti e scala man mano che cresce",
-    "tr": "Launch sonrası destek — bug fix, iyileştirme ve büyüdükçe ölçekleme"
+  "Post-launch support - bug fixes, improvements, and scaling as you grow": {
+    "it": "Supporto post-launch - fix, miglioramenti e scala man mano che cresce",
+    "tr": "Launch sonrası destek - bug fix, iyileştirme ve büyüdükçe ölçekleme"
   }
 }

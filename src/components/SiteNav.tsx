@@ -49,6 +49,26 @@ function useNavItems() {
   return { items, isHome, isBlog, scrollTo, t, c }
 }
 
+function navLinkClass(active: boolean, compact = false) {
+  const tone = active
+    ? 'bg-muted text-foreground'
+    : compact
+      ? 'text-muted-foreground hover:bg-accent hover:text-foreground'
+      : 'text-foreground hover:bg-accent'
+
+  if (compact) {
+    return [
+      'whitespace-nowrap rounded-full px-2.5 py-1.5 text-xs font-medium transition-colors sm:px-3',
+      tone,
+    ].join(' ')
+  }
+
+  return [
+    'flex w-full items-center justify-between rounded-lg px-3 py-3 text-lg font-medium transition-colors',
+    tone,
+  ].join(' ')
+}
+
 export default function SiteNav() {
   const pathname = usePathname() || '/'
   const { language, setLanguage } = useLanguage()
@@ -84,15 +104,6 @@ export default function SiteNav() {
     }
   }
 
-  const linkClass = (active: boolean, compact = false) =>
-    compact
-      ? `whitespace-nowrap rounded-full px-2.5 py-1.5 text-xs font-medium transition-colors sm:px-3 ${
-          active ? 'bg-muted text-foreground' : 'text-muted-foreground hover:bg-accent hover:text-foreground'
-        }`
-      : `flex w-full items-center justify-between rounded-lg px-3 py-3 text-lg font-medium transition-colors ${
-          active ? 'bg-muted text-foreground' : 'text-foreground hover:bg-accent'
-        }`
-
   return (
     <>
       <nav className="pointer-events-none fixed inset-x-0 top-4 z-[60] px-3 md:px-4">
@@ -102,20 +113,20 @@ export default function SiteNav() {
               const active = item.id === 'blog' ? isBlog : false
               if (item.id === 'blog') {
                 return (
-                  <Link key={item.id} href={item.href} className={linkClass(active, true)}>
+                  <Link key={item.id} href={item.href} className={navLinkClass(active, true)}>
                     {item.label}
                   </Link>
                 )
               }
               if (isHome) {
                 return (
-                  <button key={item.id} type="button" onClick={() => scrollTo(item.id)} className={linkClass(active, true)}>
+                  <button key={item.id} type="button" onClick={() => scrollTo(item.id)} className={navLinkClass(active, true)}>
                     {item.label}
                   </button>
                 )
               }
               return (
-                <Link key={item.id} href={item.href} className={linkClass(active, true)}>
+                <Link key={item.id} href={item.href} className={navLinkClass(active, true)}>
                   {item.label}
                 </Link>
               )
@@ -167,20 +178,20 @@ export default function SiteNav() {
                   const active = item.id === 'blog' ? isBlog : false
                   if (item.id === 'blog') {
                     return (
-                      <Link key={item.id} href={item.href} className={linkClass(active)} onClick={() => setOpen(false)}>
+                      <Link key={item.id} href={item.href} className={navLinkClass(active)} onClick={() => setOpen(false)}>
                         {item.label}
                       </Link>
                     )
                   }
                   if (isHome) {
                     return (
-                      <button key={item.id} type="button" onClick={() => goToSection(item.id)} className={linkClass(active)}>
+                      <button key={item.id} type="button" onClick={() => goToSection(item.id)} className={navLinkClass(active)}>
                         {item.label}
                       </button>
                     )
                   }
                   return (
-                    <Link key={item.id} href={item.href} className={linkClass(active)} onClick={() => setOpen(false)}>
+                    <Link key={item.id} href={item.href} className={navLinkClass(active)} onClick={() => setOpen(false)}>
                       {item.label}
                     </Link>
                   )

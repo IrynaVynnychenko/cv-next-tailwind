@@ -1210,13 +1210,13 @@ export const businessPosts: RawBlogPost[] = [
             tr: "Çoğu KOBİ siteyi aynı nedenle erteler: ertelenebilir bir maliyet gibi durur. Reklam, kira, maaş ve stok «gerçek»tir. Site «sonra bakarız»dır. Bu bakış açısı yanlıştır. Zaten ödediğiniz fatura kayıp aramalar, mesajlaşmada personel zamanı ve sizi net bir sayfası ve formu olan rakiple karşılaştıran müşterilerdir.",
           },
           {
-            en: 'I have already written when a business outgrows Instagram, and why a feed is not a home. This piece is narrower: if you run a shop, a clinic, a workshop, a local service, or a 20–80 person company - what does a website actually buy you? Not “digital presence.” Hours, trust, and a larger pool of people who order - because they found you, finished the request, and came back.',
-            ua: 'Я вже писала, коли бізнес переростає Instagram і чому стрічка - не дім. Тут вужче: якщо ви тримаєте магазин, клініку, майстерню, локальний сервіс чи компанію на 20–80 людей - що саме дає сайт? Не «цифрову присутність». Години, довіру й більшу кількість тих, хто замовляє - бо вас знайшли, довели заявку до кінця й повернулися.',
-            de: 'Ich habe schon geschrieben, wann ein Business Instagram überwächst und warum ein Feed kein Zuhause ist. Hier enger: wenn Sie einen Laden, eine Praxis, eine Werkstatt, einen lokalen Service oder eine Firma mit 20–80 Leuten führen - was kauft eine Website wirklich? Nicht „digitale Präsenz“. Stunden, Vertrauen und mehr Menschen, die bestellen - weil sie Sie gefunden, die Anfrage zu Ende gebracht und wiedergekommen sind.',
-            fr: "J'ai déjà écrit quand une entreprise dépasse Instagram, et pourquoi un fil n'est pas un chez-soi. Ici, plus étroit : si vous tenez un magasin, une clinique, un atelier, un service local ou une société de 20–80 personnes - qu'est-ce qu'un site achète vraiment ? Pas une « présence digitale ». Des heures, de la confiance, et plus de gens qui commandent - parce qu'ils vous ont trouvés, ont fini la demande, et sont revenus.",
-            es: 'Ya he escrito cuándo un negocio se le queda pequeño Instagram y por qué un feed no es un hogar. Aquí el foco es más estrecho: si lleva una tienda, una clínica, un taller, un servicio local o una empresa de 20–80 personas - ¿qué le aporta de verdad una web? No «presencia digital». Horas, confianza y más gente que pide - porque le encontró, terminó la solicitud y volvió.',
-            it: "Ho già scritto quando un’impresa supera Instagram e perché un feed non è una casa. Qui si va più stretti: se gestite un negozio, una clinica, un’officina, un servizio locale o una società di 20–80 persone - cosa vi dà davvero un sito? Non la «presenza digitale». Ore, fiducia e più persone che ordinano - perché vi hanno trovati, hanno chiuso la richiesta e sono tornati.",
-            tr: "Bir işin Instagram’ı ne zaman aştığını ve bir akışın neden ev olmadığını zaten yazdım. Burada daha dar bakıyoruz: dükkân, klinik, atölye, yerel hizmet veya 20–80 kişilik bir şirket yönetiyorsanız - site size aslında ne kazandırır? «Dijital varlık» değil. Saat, güven ve sipariş veren daha geniş bir kitle - çünkü sizi buldular, talebi bitirdiler ve geri geldiler.",
+            en: 'I have already written when a business outgrows Instagram, and why a feed is not a home. This piece is narrower: if you run a shop, a clinic, a workshop, a local service, or a 20-80 person company - what does a website actually buy you? Not “digital presence.” Hours, trust, and a larger pool of people who order - because they found you, finished the request, and came back.',
+            ua: 'Я вже писала, коли бізнес переростає Instagram і чому стрічка - не дім. Тут вужче: якщо ви тримаєте магазин, клініку, майстерню, локальний сервіс чи компанію на 20-80 людей - що саме дає сайт? Не «цифрову присутність». Години, довіру й більшу кількість тих, хто замовляє - бо вас знайшли, довели заявку до кінця й повернулися.',
+            de: 'Ich habe schon geschrieben, wann ein Business Instagram überwächst und warum ein Feed kein Zuhause ist. Hier enger: wenn Sie einen Laden, eine Praxis, eine Werkstatt, einen lokalen Service oder eine Firma mit 20-80 Leuten führen - was kauft eine Website wirklich? Nicht „digitale Präsenz“. Stunden, Vertrauen und mehr Menschen, die bestellen - weil sie Sie gefunden, die Anfrage zu Ende gebracht und wiedergekommen sind.',
+            fr: "J'ai déjà écrit quand une entreprise dépasse Instagram, et pourquoi un fil n'est pas un chez-soi. Ici, plus étroit : si vous tenez un magasin, une clinique, un atelier, un service local ou une société de 20-80 personnes - qu'est-ce qu'un site achète vraiment ? Pas une « présence digitale ». Des heures, de la confiance, et plus de gens qui commandent - parce qu'ils vous ont trouvés, ont fini la demande, et sont revenus.",
+            es: 'Ya he escrito cuándo un negocio se le queda pequeño Instagram y por qué un feed no es un hogar. Aquí el foco es más estrecho: si lleva una tienda, una clínica, un taller, un servicio local o una empresa de 20-80 personas - ¿qué le aporta de verdad una web? No «presencia digital». Horas, confianza y más gente que pide - porque le encontró, terminó la solicitud y volvió.',
+            it: "Ho già scritto quando un’impresa supera Instagram e perché un feed non è una casa. Qui si va più stretti: se gestite un negozio, una clinica, un’officina, un servizio locale o una società di 20-80 persone - cosa vi dà davvero un sito? Non la «presenza digitale». Ore, fiducia e più persone che ordinano - perché vi hanno trovati, hanno chiuso la richiesta e sono tornati.",
+            tr: "Bir işin Instagram’ı ne zaman aştığını ve bir akışın neden ev olmadığını zaten yazdım. Burada daha dar bakıyoruz: dükkân, klinik, atölye, yerel hizmet veya 20-80 kişilik bir şirket yönetiyorsanız - site size aslında ne kazandırır? «Dijital varlık» değil. Saat, güven ve sipariş veren daha geniş bir kitle - çünkü sizi buldular, talebi bitirdiler ve geri geldiler.",
           },
         ],
       },
@@ -1385,13 +1385,13 @@ export const businessPosts: RawBlogPost[] = [
         },
         paragraphs: [
           {
-            en: 'In a 10–50 person company the hidden cost is not “no website.” It is a manager answering the same five questions every day: hours, price range, what is included, how to book, where you are. That is not hospitality. That is a missing FAQ and a form.',
-            ua: 'У компанії на 10–50 людей прихована ціна - не «немає сайту». Це менеджер, який щодня відповідає на ті самі п’ять питань: години, вилка цін, що входить, як записатися, де ви. Це не сервіс. Це відсутній FAQ і форма.',
-            de: 'In einer Firma mit 10–50 Leuten sind die versteckten Kosten nicht „keine Website“. Es ist ein Manager, der jeden Tag dieselben fünf Fragen beantwortet: Öffnungszeiten, Preisspanne, was inklusive ist, wie man bucht, wo Sie sind. Das ist keine Gastfreundschaft. Das ist ein fehlendes FAQ und ein Formular.',
-            fr: "Dans une société de 10–50 personnes, le coût caché n'est pas « pas de site ». C'est un manager qui répond tous les jours aux cinq mêmes questions : horaires, fourchette de prix, ce qui est inclus, comment réserver, où vous êtes. Ce n'est pas de l'hospitalité. C'est une FAQ manquante et un formulaire.",
-            es: 'En una empresa de 10–50 personas el coste oculto no es «no hay web». Es un manager que cada día responde las mismas cinco preguntas: horario, horquilla de precio, qué incluye, cómo reservar, dónde están. Eso no es hospitalidad. Es un FAQ y un formulario que faltan.',
-            it: "In un’azienda di 10–50 persone il costo nascosto non è «non c’è il sito». È un manager che ogni giorno risponde alle stesse cinque domande: orari, fascia di prezzo, cosa è incluso, come prenotare, dove siete. Non è ospitalità. È una FAQ e un modulo che mancano.",
-            tr: "10–50 kişilik bir şirkette gizli maliyet «site yok» değildir. Her gün aynı beş soruyu yanıtlayan bir yöneticidir: saatler, fiyat aralığı, neler dahil, nasıl randevu, neredesiniz. Bu misafirperverlik değildir. Eksik bir FAQ ve formdur.",
+            en: 'In a 10-50 person company the hidden cost is not “no website.” It is a manager answering the same five questions every day: hours, price range, what is included, how to book, where you are. That is not hospitality. That is a missing FAQ and a form.',
+            ua: 'У компанії на 10-50 людей прихована ціна - не «немає сайту». Це менеджер, який щодня відповідає на ті самі п’ять питань: години, вилка цін, що входить, як записатися, де ви. Це не сервіс. Це відсутній FAQ і форма.',
+            de: 'In einer Firma mit 10-50 Leuten sind die versteckten Kosten nicht „keine Website“. Es ist ein Manager, der jeden Tag dieselben fünf Fragen beantwortet: Öffnungszeiten, Preisspanne, was inklusive ist, wie man bucht, wo Sie sind. Das ist keine Gastfreundschaft. Das ist ein fehlendes FAQ und ein Formular.',
+            fr: "Dans une société de 10-50 personnes, le coût caché n'est pas « pas de site ». C'est un manager qui répond tous les jours aux cinq mêmes questions : horaires, fourchette de prix, ce qui est inclus, comment réserver, où vous êtes. Ce n'est pas de l'hospitalité. C'est une FAQ manquante et un formulaire.",
+            es: 'En una empresa de 10-50 personas el coste oculto no es «no hay web». Es un manager que cada día responde las mismas cinco preguntas: horario, horquilla de precio, qué incluye, cómo reservar, dónde están. Eso no es hospitalidad. Es un FAQ y un formulario que faltan.',
+            it: "In un’azienda di 10-50 persone il costo nascosto non è «non c’è il sito». È un manager che ogni giorno risponde alle stesse cinque domande: orari, fascia di prezzo, cosa è incluso, come prenotare, dove siete. Non è ospitalità. È una FAQ e un modulo che mancano.",
+            tr: "10-50 kişilik bir şirkette gizli maliyet «site yok» değildir. Her gün aynı beş soruyu yanıtlayan bir yöneticidir: saatler, fiyat aralığı, neler dahil, nasıl randevu, neredesiniz. Bu misafirperverlik değildir. Eksik bir FAQ ve formdur.",
           },
         ],
         list: [
@@ -1707,13 +1707,13 @@ export const businessPosts: RawBlogPost[] = [
         },
         paragraphs: [
           {
-            en: 'Do not judge a site by “it looks modern.” Judge it by a short list you can check after 30–90 days:',
-            ua: 'Не оцінюйте сайт за «виглядає сучасно». Оцінюйте коротким списком через 30–90 днів:',
-            de: 'Bewerten Sie eine Site nicht nach „sieht modern aus“. Bewerten Sie sie nach einer kurzen Liste nach 30–90 Tagen:',
-            fr: "Ne jugez pas un site à « ça a l'air moderne ». Jugez-le sur une courte liste à 30–90 jours :",
-            es: 'No juzgue una web por «se ve moderna». Júzguela con una lista corta a los 30–90 días:',
-            it: "Non giudicate un sito da «sembra moderno». Giudicatelo con una lista breve a 30–90 giorni:",
-            tr: "Bir siteyi «modern duruyor» diye yargılamayın. 30–90 gün sonra bakabileceğiniz kısa bir listeyle yargılayın:",
+            en: 'Do not judge a site by “it looks modern.” Judge it by a short list you can check after 30-90 days:',
+            ua: 'Не оцінюйте сайт за «виглядає сучасно». Оцінюйте коротким списком через 30-90 днів:',
+            de: 'Bewerten Sie eine Site nicht nach „sieht modern aus“. Bewerten Sie sie nach einer kurzen Liste nach 30-90 Tagen:',
+            fr: "Ne jugez pas un site à « ça a l'air moderne ». Jugez-le sur une courte liste à 30-90 jours :",
+            es: 'No juzgue una web por «se ve moderna». Júzguela con una lista corta a los 30-90 días:',
+            it: "Non giudicate un sito da «sembra moderno». Giudicatelo con una lista breve a 30-90 giorni:",
+            tr: "Bir siteyi «modern duruyor» diye yargılamayın. 30-90 gün sonra bakabileceğiniz kısa bir listeyle yargılayın:",
           },
         ],
         list: [
@@ -1938,7 +1938,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'You smell unrealistic deadlines early - and can negotiate scope instead of silently accepting burnout.',
             ua: 'Ви рано відчуваєте нереалістичні дедлайни - і можете торгуватися за скоуп, а не мовчки погоджуватися на вигорання.',
-      de: "Sie merken unrealistische Deadlines früh – und können den Scope verhandeln, statt still ein Burnout zu akzeptieren.",
+      de: "Sie merken unrealistische Deadlines früh - und können den Scope verhandeln, statt still ein Burnout zu akzeptieren.",
       fr: "Vous sentez tôt les deadlines irréalistes - et vous pouvez négocier le scope au lieu d’accepter le burnout en silence.",
       es: "Detecta los plazos irreales desde el principio - y puede negociar el alcance en vez de aceptar en silencio el burnout.",
       it: "Sentite i deadline irreali in anticipo - e potete negoziare lo scope invece di accettare in silenzio il burnout.",
@@ -2007,7 +2007,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Communication without ego - explain risk to non-technical stakeholders without hiding behind jargon or blaming the team.',
             ua: 'Комунікація без его - пояснювати ризик нетехнічним стейкхолдерам без жаргону і без звинувачень команди.',
-      de: "Kommunikation ohne Ego – Erklären Sie Risiken gegenüber technisch nicht versierten Stakeholdern, ohne sich hinter Fachjargon zu verstecken oder dem Team die Schuld zu geben.",
+      de: "Kommunikation ohne Ego - Erklären Sie Risiken gegenüber technisch nicht versierten Stakeholdern, ohne sich hinter Fachjargon zu verstecken oder dem Team die Schuld zu geben.",
       fr: "Communication sans ego - expliquez le risque aux parties prenantes non techniques sans vous cacher derrière le jargon ni blâmer l'équipe.",
       es: "Comunicación sin ego: explique el riesgo a stakeholders no técnicos sin esconderse detrás de jerga ni culpar al equipo.",
       it: "Comunicazione senza ego - spiegate il rischio a stakeholder non tecnici senza nascondervi dietro il gergo o incolpare il team.",
@@ -2034,7 +2034,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Prioritization discipline - say “not now” with a reason, a date, and an alternative.',
             ua: 'Дисципліна пріоритетів - казати «не зараз» з причиною, датою і альтернативою.',
-      de: "Priorisierungsdisziplin – sagen Sie „nicht jetzt“ mit einem Grund, einem Datum und einer Alternative.",
+      de: "Priorisierungsdisziplin - sagen Sie „nicht jetzt“ mit einem Grund, einem Datum und einer Alternative.",
       fr: "Discipline de priorisation : dites « pas maintenant » avec une raison, une date et une alternative.",
       es: "Disciplina de priorización: diga «ahora no» con un motivo, una fecha y una alternativa.",
       it: "Disciplina di priorità - dite «non ora» con un motivo, una data e un’alternativa.",
@@ -3531,11 +3531,11 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Higher Conversions: Numerous studies show that a 1-second delay in page load time can reduce conversions by up to 7-10%. Fast pages build trust and make taking action (subscribing, buying, or contacting) frictionless.',
             ua: 'Вища конверсія: Дослідження показують, що затримка завантаження навіть на 1 секунду може знизити конверсію на 7-10%. Швидкі сторінки викликають довіру та спонукають до дії.',
-      de: "Höhere Conversions: Zahlreiche Studien zeigen, dass eine Verzögerung der Seitenladezeit um 1 Sekunde die Conversions um bis zu 7–10 % reduzieren kann. Schnelle Seiten schaffen Vertrauen und machen das Handeln (Abonnieren, Kaufen oder Kontaktieren) reibungslos.",
+      de: "Höhere Conversions: Zahlreiche Studien zeigen, dass eine Verzögerung der Seitenladezeit um 1 Sekunde die Conversions um bis zu 7-10 % reduzieren kann. Schnelle Seiten schaffen Vertrauen und machen das Handeln (Abonnieren, Kaufen oder Kontaktieren) reibungslos.",
       fr: "Conversions plus élevées : de nombreuses études montrent qu'un délai d'une seconde dans le temps de chargement des pages peut réduire les conversions jusqu'à 7 à 10 %. Les pages rapides renforcent la confiance et facilitent les actions (abonnement, achat ou contact).",
-      es: "Más conversión: los estudios coinciden - 1 segundo de retraso puede bajar la conversión un 7–10 %. Una página rápida genera confianza y hace que suscribirse, comprar o escribir no cueste.",
-      it: "Più conversioni: molti studi dicono che 1 secondo di ritardo può tagliare le conversioni del 7–10%. Le pagine veloci costruiscono fiducia e rendono l’azione (iscriversi, comprare, scrivere) senza attrito.",
-      tr: "Daha yüksek dönüşüm: birçok çalışma 1 saniyelik gecikmenin dönüşümü %7–10 düşürebileceğini gösterir. Hızlı sayfa güven kurar; abone olmak, almak veya yazmak sürtünmesiz olur.",
+      es: "Más conversión: los estudios coinciden - 1 segundo de retraso puede bajar la conversión un 7-10 %. Una página rápida genera confianza y hace que suscribirse, comprar o escribir no cueste.",
+      it: "Più conversioni: molti studi dicono che 1 secondo di ritardo può tagliare le conversioni del 7-10%. Le pagine veloci costruiscono fiducia e rendono l’azione (iscriversi, comprare, scrivere) senza attrito.",
+      tr: "Daha yüksek dönüşüm: birçok çalışma 1 saniyelik gecikmenin dönüşümü %7-10 düşürebileceğini gösterir. Hızlı sayfa güven kurar; abone olmak, almak veya yazmak sürtünmesiz olur.",
           },
           {
             en: 'Seamless Mobile Experience: A large portion of your traffic comes from mobile networks (3G/4G/5G). A lightweight, highly-optimized site loads instantly even under poor network conditions.',
@@ -3684,11 +3684,11 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'PageSpeed score of 95-100/100 for both mobile and desktop views.',
             ua: 'Оцінку швидкості 95-100/100 в Google PageSpeed Insights як для ПК, так і для смартфонів.',
-      de: "PageSpeed-Wert von 95–100/100 für Mobil- und Desktop-Ansichten.",
+      de: "PageSpeed-Wert von 95-100/100 für Mobil- und Desktop-Ansichten.",
       fr: "Score PageSpeed ​​de 95 à 100/100 pour les vues sur mobile et sur ordinateur.",
-      es: "PageSpeed 95–100/100 en móvil y escritorio.",
-      it: "Punteggio PageSpeed 95–100/100 su mobile e desktop.",
-      tr: "Mobil ve masaüstünde 95–100/100 PageSpeed skoru.",
+      es: "PageSpeed 95-100/100 en móvil y escritorio.",
+      it: "Punteggio PageSpeed 95-100/100 su mobile e desktop.",
+      tr: "Mobil ve masaüstünde 95-100/100 PageSpeed skoru.",
           },
           {
             en: 'SEO-ready structure with meta-tags, clean HTML, and schema markup built in.',
@@ -4402,7 +4402,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Ready to launch your project or want to estimate development scope? Send me a message using the form below or pick your preferred channel - let’s build a high-performance web product together!',
             ua: 'Готові обговорити ваш проєкт або бажаєте оцінити обсяг розробки? Напишіть мені через форму нижче або оберіть зручний месенджер - і ми створимо швидкий, надійний та сучасний вебпродукт!',
-      de: "Sind Sie bereit, Ihr Projekt zu starten oder möchten den Entwicklungsumfang abschätzen? Senden Sie mir eine Nachricht über das untenstehende Formular oder wählen Sie Ihren bevorzugten Kanal aus – lassen Sie uns gemeinsam ein leistungsstarkes Webprodukt entwickeln!",
+      de: "Sind Sie bereit, Ihr Projekt zu starten oder möchten den Entwicklungsumfang abschätzen? Senden Sie mir eine Nachricht über das untenstehende Formular oder wählen Sie Ihren bevorzugten Kanal aus - lassen Sie uns gemeinsam ein leistungsstarkes Webprodukt entwickeln!",
       fr: "Envie de lancer votre projet ou souhaitez estimer le périmètre de développement ? Envoyez-moi un message en utilisant le formulaire ci-dessous ou choisissez votre canal préféré : construisons ensemble un produit Web performant !",
       es: "¿Quiere lanzar o estimar el alcance? Escríbame por el formulario o elija su canal - construyamos juntos un producto web de alto rendimiento.",
       it: "Pronti a lanciare il progetto o volete stimare lo scope? Scrivetemi col form qui sotto o scegliete il canale - costruiamo insieme un prodotto web ad alte prestazioni.",
@@ -4768,7 +4768,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'In 2026, convenience is the ultimate currency in consumer decision making. Modern clients expect to book services, schedule consultations, or reserve appointments instantly from their smartphones in just a few taps - without making phone calls or waiting hours for a reply in Instagram Direct.',
             ua: 'У 2026 році швидкість та зручність стали вирішальними факторами при виборі послуг. Сучасний клієнт очікує можливість записатися на прийом, консультацію чи процедуру миттєво зі смартфона в кілька кліків - без телефонних дзвінків та тривалого очікування відповіді в діректі.',
-      de: "Im Jahr 2026 ist Bequemlichkeit die ultimative Währung bei der Entscheidungsfindung von Verbrauchern. Moderne Kunden erwarten, dass sie mit nur wenigen Fingertipps direkt über ihr Smartphone Dienstleistungen buchen, Beratungsgespräche vereinbaren oder Termine reservieren können – ohne Anrufe zu tätigen oder stundenlang auf eine Antwort in Instagram Direct zu warten.",
+      de: "Im Jahr 2026 ist Bequemlichkeit die ultimative Währung bei der Entscheidungsfindung von Verbrauchern. Moderne Kunden erwarten, dass sie mit nur wenigen Fingertipps direkt über ihr Smartphone Dienstleistungen buchen, Beratungsgespräche vereinbaren oder Termine reservieren können - ohne Anrufe zu tätigen oder stundenlang auf eine Antwort in Instagram Direct zu warten.",
       fr: "En 2026, la commodité sera la monnaie ultime dans la prise de décision des consommateurs. Les clients modernes s'attendent à réserver des services, planifier des consultations ou prendre rendez-vous instantanément depuis leur smartphone en quelques clics, sans passer d'appels téléphoniques ni attendre des heures pour une réponse dans Instagram Direct.",
       es: "En 2026, la comodidad es la moneda que decide. El cliente espera reservar un servicio, una consulta o una cita desde el móvil en unos toques - sin llamar ni esperar horas una respuesta en Instagram Direct.",
       it: "Nel 2026 la comodità è la valuta delle decisioni. I clienti moderni si aspettano di prenotare un servizio, una consulenza o un appuntamento dal telefono in pochi tap - senza chiamare o aspettare ore un Direct di Instagram.",
@@ -4830,9 +4830,9 @@ export const businessPosts: RawBlogPost[] = [
             ua: 'Години даремної рутини: Адміністратори чи майстри витрачають до 20 годин на тиждень на узгодження вікон та перевірку оплат.',
       de: "Stundenverschwendung durch Routinekoordination: Die Mitarbeiter verbringen wöchentlich 15 bis 20 Stunden damit, Slots zu überprüfen, Kartennummern zu senden und Erinnerungsnachrichten zu schreiben.",
       fr: "Heures perdues en coordination de routine : le personnel passe 15 à 20 heures par semaine à vérifier les emplacements, à envoyer des numéros de carte et à saisir des messages de rappel.",
-      es: "Horas tiradas en coordinación rutinaria: 15–20 horas semanales mirando huecos, pasando números de tarjeta y escribiendo recordatorios.",
-      it: "Ore sprecate in coordinamento di routine: lo staff passa 15–20 ore a settimana a controllare slot, mandare numeri di carta e scrivere reminder.",
-      tr: "Rutin koordinasyonda boşa saat: kadro haftada 15–20 saat slot kontrol eder, kart numarası yollar, hatırlatma yazar.",
+      es: "Horas tiradas en coordinación rutinaria: 15-20 horas semanales mirando huecos, pasando números de tarjeta y escribiendo recordatorios.",
+      it: "Ore sprecate in coordinamento di routine: lo staff passa 15-20 ore a settimana a controllare slot, mandare numeri di carta e scrivere reminder.",
+      tr: "Rutin koordinasyonda boşa saat: kadro haftada 15-20 saat slot kontrol eder, kart numarası yollar, hatırlatma yazar.",
           },
           {
             en: 'High No-Show rates: Unconfirmed or unpaid verbal appointments lead to empty schedule gaps and lost revenue.',
@@ -4939,7 +4939,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Mobile-First UI: Over 85% of bookings are made on smartphones - the calendar and service selection must be ultra-fast and touch-friendly.',
             ua: 'Mobile-First інтерфейс: Понад 85% записів робляться зі смартфонів - вибір дати та послуги має бути ідеально адаптований під палець.',
-      de: "Mobile-First-Benutzeroberfläche: Über 85 % der Buchungen erfolgen über Smartphones – die Kalender- und Serviceauswahl muss ultraschnell und berührungsfreundlich sein.",
+      de: "Mobile-First-Benutzeroberfläche: Über 85 % der Buchungen erfolgen über Smartphones - die Kalender- und Serviceauswahl muss ultraschnell und berührungsfreundlich sein.",
       fr: "Interface utilisateur mobile First : plus de 85 % des réservations sont effectuées sur des smartphones : la sélection du calendrier et des services doit être ultra-rapide et conviviale.",
       es: "UI mobile-first: más del 85 % de las reservas se hacen en el móvil - calendario y servicios tienen que ser rápidos y pensados para el dedo.",
       it: "UI mobile-first: oltre l’85% delle prenotazioni è da smartphone - calendario e scelta del servizio devono essere velocissimi e touch-friendly.",
@@ -5013,8 +5013,8 @@ export const businessPosts: RawBlogPost[] = [
     title: {
       en: 'How to Increase Online Course Sales in 2026 - From Social Hype to Own Platform',
       ua: 'Як збільшити продажі онлайн-курсів у 2026 році - Від прогревів у соцмережах до власної навчальної платформи',
-      de: "So steigern Sie den Verkauf von Online-Kursen im Jahr 2026 – vom sozialen Hype zur eigenen Plattform",
-      fr: "Comment augmenter les ventes de cours en ligne en 2026 – du buzz social à votre propre plateforme",
+      de: "So steigern Sie den Verkauf von Online-Kursen im Jahr 2026 - vom sozialen Hype zur eigenen Plattform",
+      fr: "Comment augmenter les ventes de cours en ligne en 2026 - du buzz social à votre propre plateforme",
       es: "Cómo subir las ventas de cursos online en 2026 - del hype en redes a su propia plataforma",
       it: "Come aumentare le vendite dei corsi online nel 2026 - dall’hype social alla piattaforma vostra",
       tr: "2026’da online kurs satışını nasıl artırırsınız - sosyal hype’tan kendi platforma",
@@ -5774,7 +5774,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Structured info needed - your pricing, detailed service list, portfolio, or FAQs get buried in social feeds.',
             ua: 'Потрібна структурована інформація - прайс, детальний опис послуг, портфоліо чи FAQ губляться у стрічці соцмереж.',
-      de: "Strukturierte Informationen erforderlich – Ihre Preise, Ihre detaillierte Serviceliste, Ihr Portfolio oder Ihre FAQs werden in sozialen Feeds versteckt.",
+      de: "Strukturierte Informationen erforderlich - Ihre Preise, Ihre detaillierte Serviceliste, Ihr Portfolio oder Ihre FAQs werden in sozialen Feeds versteckt.",
       fr: "Informations structurées nécessaires : vos tarifs, votre liste de services détaillée, votre portefeuille ou vos FAQ sont enfouis dans les flux sociaux.",
       es: "Necesita info estructurada - precios, catálogo, portfolio o FAQ se entierran en el feed.",
       it: "Serve info strutturata - prezzi, elenco servizi, portfolio o FAQ si seppelliscono nel feed.",
@@ -5783,7 +5783,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Automation required - you need automated bookings, inquiry forms, or payments without managing DM messages manually.',
             ua: 'Потрібна автоматизація - ви хочете приймати заявки, бронювання чи оплату без постійної участі менеджера в чаті.',
-      de: "Automatisierung erforderlich – Sie benötigen automatisierte Buchungen, Anfrageformulare oder Zahlungen, ohne DM-Nachrichten manuell verwalten zu müssen.",
+      de: "Automatisierung erforderlich - Sie benötigen automatisierte Buchungen, Anfrageformulare oder Zahlungen, ohne DM-Nachrichten manuell verwalten zu müssen.",
       fr: "Automatisation requise : vous avez besoin de réservations, de formulaires de demande ou de paiements automatisés sans gérer manuellement les messages DM.",
       es: "Necesita automatización - reservas, formularios o pagos sin gestionar DMs a mano.",
       it: "Serve automazione - prenotazioni, form di richiesta o pagamenti senza gestire i DM a mano.",
@@ -5792,7 +5792,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Google Search & Ads - you want to capture high-intent search traffic from Google (SEO & Google Ads).',
             ua: 'Пошук у Google та реклама - ви хочете залучати гарячий трафік із пошуку Google (SEO) та контекстної реклами.',
-      de: "Google-Suche und -Anzeigen – Sie möchten Suchverkehr mit hoher Absicht von Google erfassen (SEO und Google Ads).",
+      de: "Google-Suche und -Anzeigen - Sie möchten Suchverkehr mit hoher Absicht von Google erfassen (SEO und Google Ads).",
       fr: "Recherche et annonces Google : vous souhaitez capturer le trafic de recherche à forte intention de Google (SEO et Google Ads).",
       es: "Google Search y Ads - quiere captar tráfico con intención (SEO y Google Ads).",
       it: "Google Search e Ads - volete catturare traffico ad alto intento da Google (SEO e Google Ads).",
@@ -5801,8 +5801,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'B2B & Enterprise partners - corporate clients, B2B partners, and investors expect a professional website as proof of credibility.',
             ua: 'Робота в B2B або з корпоративними клієнтами - партнери та інвестори вважають наявність сайту обов\'язковим стандартом довіри.',
-      de: "B2B- und Unternehmenspartner – Firmenkunden, B2B-Partner und Investoren erwarten eine professionelle Website als Beweis für ihre Glaubwürdigkeit.",
-      fr: "Partenaires B2B et entreprises – les entreprises clientes, les partenaires B2B et les investisseurs attendent un site Web professionnel comme preuve de crédibilité.",
+      de: "B2B- und Unternehmenspartner - Firmenkunden, B2B-Partner und Investoren erwarten eine professionelle Website als Beweis für ihre Glaubwürdigkeit.",
+      fr: "Partenaires B2B et entreprises - les entreprises clientes, les partenaires B2B et les investisseurs attendent un site Web professionnel comme preuve de crédibilité.",
       es: "Partners B2B y enterprise - clientes corporativos, partners e inversores esperan una web profesional como prueba de credibilidad.",
       it: "Partner B2B e enterprise - clienti corporate, partner e investitori si aspettano un sito professionale come prova di credibilità.",
       tr: "B2B ve enterprise partnerler - kurumsal müşteri, B2B partner ve yatırımcı güvenilirlik kanıtı olarak profesyonel site bekler.",
@@ -5810,7 +5810,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Overwhelmed DMs - order volume is growing and social messages create operational friction and lost sales.',
             ua: 'Перевантажені месенджери - обсяг замовлень зростає і хаос у приватних повідомленнях призводить до втрати клієнтів.',
-      de: "Überforderte DMs – das Bestellvolumen wächst und Social-Media-Nachrichten führen zu betrieblichen Reibungsverlusten und Umsatzeinbußen.",
+      de: "Überforderte DMs - das Bestellvolumen wächst und Social-Media-Nachrichten führen zu betrieblichen Reibungsverlusten und Umsatzeinbußen.",
       fr: "DM débordés : le volume des commandes augmente et les messages sociaux créent des frictions opérationnelles et des pertes de ventes.",
       es: "DMs desbordados - el volumen crece y los mensajes crean fricción y ventas perdidas.",
       it: "DM saturi - il volume degli ordini cresce e i messaggi social creano attrito operativo e vendite perse.",
@@ -5843,7 +5843,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'You do not own your profile - algorithm updates, reach drops, or account bans can halt your revenue overnight.',
             ua: 'Акаунт вам не належить - зміни алгоритмів, падіння охоплень або раптове блокування акаунту можуть миттєво зупинити всі ваші продажі.',
-      de: "Ihr Profil gehört nicht Ihnen – Algorithmusaktualisierungen, Reichweitenverluste oder Kontosperrungen können Ihren Umsatz über Nacht zum Erliegen bringen.",
+      de: "Ihr Profil gehört nicht Ihnen - Algorithmusaktualisierungen, Reichweitenverluste oder Kontosperrungen können Ihren Umsatz über Nacht zum Erliegen bringen.",
       fr: "Vous n'êtes pas propriétaire de votre profil : les mises à jour d'algorithmes, les baisses de portée ou les interdictions de compte peuvent stopper vos revenus du jour au lendemain.",
       es: "El perfil no es suyo - un cambio de algoritmo, una caída de alcance o un ban pueden parar el ingreso de un día para otro.",
       it: "Il profilo non è vostro - update di algoritmo, cali di portata o ban possono fermare il fatturato da un giorno all’altro.",
@@ -5852,7 +5852,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Limited navigation - prospective clients struggle to find older posts, detailed terms, or exact pricing.',
             ua: 'Складна навігація - у соцмережах важко знайти інформацію, опубліковану місяць тому, а ціни та деталі швидко губляться.',
-      de: "Eingeschränkte Navigation – potenzielle Kunden haben Schwierigkeiten, ältere Beiträge, detaillierte Bedingungen oder genaue Preise zu finden.",
+      de: "Eingeschränkte Navigation - potenzielle Kunden haben Schwierigkeiten, ältere Beiträge, detaillierte Bedingungen oder genaue Preise zu finden.",
       fr: "Navigation limitée : les clients potentiels ont du mal à trouver des articles plus anciens, des conditions détaillées ou des prix exacts.",
       es: "Navegación limitada - al cliente le cuesta encontrar un post viejo, las condiciones o el precio exacto.",
       it: "Navigazione limitata - i clienti potenziali faticano a trovare post vecchi, termini dettagliati o il prezzo esatto.",
@@ -5861,7 +5861,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'No organic Google SEO search presence - people search Google when they are ready to buy, not Instagram.',
             ua: 'Відсутність пошукового трафіку - коли люди шукають вирішення конкретної проблеми, вони йдуть у Google, а не в пошук Instagram.',
-      de: "Keine organische Google-SEO-Suchpräsenz – Menschen suchen bei Google, wenn sie zum Kauf bereit sind, nicht bei Instagram.",
+      de: "Keine organische Google-SEO-Suchpräsenz - Menschen suchen bei Google, wenn sie zum Kauf bereit sind, nicht bei Instagram.",
       fr: "Aucune présence de recherche organique sur Google SEO : les gens recherchent sur Google lorsqu'ils sont prêts à acheter, pas sur Instagram.",
       es: "Sin presencia SEO en Google - quien está listo para comprar busca en Google, no en Instagram.",
       it: "Niente presenza organica su Google - chi è pronto a comprare cerca su Google, non su Instagram.",
@@ -5870,7 +5870,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Constrained branding - social feeds look identical for every profile; a website offers a unique brand experience.',
             ua: 'Обмежений брендинг - у соцмережах ваш бренд обмежений рамками стандартного інтерфейсу платформи.',
-      de: "Eingeschränktes Branding – soziale Feeds sehen für jedes Profil identisch aus; eine Website bietet ein einzigartiges Markenerlebnis.",
+      de: "Eingeschränktes Branding - soziale Feeds sehen für jedes Profil identisch aus; eine Website bietet ein einzigartiges Markenerlebnis.",
       fr: "Image de marque contrainte : les flux sociaux sont identiques pour chaque profil ; un site Web offre une expérience de marque unique.",
       es: "Branding encajonado - todos los feeds se parecen; una web ofrece una experiencia de marca propia.",
       it: "Branding stretto - i feed social sono identici per ogni profilo; un sito offre un’esperienza di brand unica.",
@@ -5903,7 +5903,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Total ownership & stability - your own domain name (yourcompany.dev), custom design, and full data control.',
             ua: 'Незалежність та повний контроль - власний домен (yourcompany.dev), свій дизайн, ваші правила та цілковита стабільність.',
-      de: "Vollständige Eigentümerschaft und Stabilität – Ihr eigener Domainname (yourcompany.dev), individuelles Design und vollständige Datenkontrolle.",
+      de: "Vollständige Eigentümerschaft und Stabilität - Ihr eigener Domainname (yourcompany.dev), individuelles Design und vollständige Datenkontrolle.",
       fr: "Propriété et stabilité totales : votre propre nom de domaine (votreentreprise.dev), une conception personnalisée et un contrôle total des données.",
       es: "Propiedad y estabilidad - dominio propio (yourcompany.dev), diseño a medida y control de los datos.",
       it: "Ownership totale e stabilità - dominio vostro (yourcompany.dev), design custom e controllo pieno dei dati.",
@@ -5912,7 +5912,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Instant credibility & trust - a fast, modern website shows clients that your business is legitimate and established.',
             ua: 'Формування довіри - якісний та швидкий сайт миттєво підвищує статус вашої компанії в очах клієнтів.',
-      de: "Sofortige Glaubwürdigkeit und Vertrauen – eine schnelle, moderne Website zeigt Kunden, dass Ihr Unternehmen seriös und etabliert ist.",
+      de: "Sofortige Glaubwürdigkeit und Vertrauen - eine schnelle, moderne Website zeigt Kunden, dass Ihr Unternehmen seriös und etabliert ist.",
       fr: "Crédibilité et confiance instantanées : un site Web rapide et moderne montre aux clients que votre entreprise est légitime et établie.",
       es: "Credibilidad al instante - una web rápida y moderna dice que el negocio es real y está asentado.",
       it: "Credibilità e fiducia all’istante - un sito veloce e moderno mostra che l’impresa è reale e strutturata.",
@@ -5921,7 +5921,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Business process automation - direct integrations with CRMs, payment gateways, calendar schedulers, and analytics.',
             ua: 'Автоматизація процесів - інтеграція з CRM-системами, платіжними шлюзами, онлайн-записом та аналітикою.',
-      de: "Geschäftsprozessautomatisierung – direkte Integration mit CRMs, Zahlungsgateways, Kalenderplanern und Analysen.",
+      de: "Geschäftsprozessautomatisierung - direkte Integration mit CRMs, Zahlungsgateways, Kalenderplanern und Analysen.",
       fr: "Automatisation des processus métier : intégrations directes avec les CRM, les passerelles de paiement, les planificateurs de calendrier et les analyses.",
       es: "Automatización de procesos - CRM, pasarelas, calendarios y analítica, conectados.",
       it: "Automazione dei processi - integrazioni dirette con CRM, gateway di pagamento, calendari e analytics.",
@@ -5930,7 +5930,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: '24/7 availability - clients can explore options, calculate prices, and place orders at any hour of the day.',
             ua: '24/7 доступність - клієнт може ознайомитися з пропозицією та залишити заявку чи здійснити покупку навіть уночі.',
-      de: "Verfügbarkeit rund um die Uhr – Kunden können zu jeder Tageszeit Optionen erkunden, Preise berechnen und Bestellungen aufgeben.",
+      de: "Verfügbarkeit rund um die Uhr - Kunden können zu jeder Tageszeit Optionen erkunden, Preise berechnen und Bestellungen aufgeben.",
       fr: "Disponibilité 24h/24 et 7j/7 : les clients peuvent explorer les options, calculer les prix et passer des commandes à toute heure de la journée.",
       es: "Disponibilidad 24/7 - el cliente explora, calcula y pide a cualquier hora.",
       it: "Disponibilità 24/7 - i clienti esplorano opzioni, calcolano prezzi e ordinano a qualsiasi ora.",
@@ -5963,8 +5963,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Landing Page (One-page site) - ideal for showcasing a specific product, service, or lead magnet with max conversion focus.',
             ua: 'Landing Page (Односторінковий сайт) - ідеально для презентації конкретного товару, послуги чи спецпропозиції з фокусом на високу конверсію.',
-      de: "Landing Page (One-Page-Site) – ideal für die Präsentation eines bestimmten Produkts, einer bestimmten Dienstleistung oder eines Lead-Magneten mit maximalem Conversion-Fokus.",
-      fr: "Page de destination (site d'une page) – idéale pour présenter un produit, un service ou un aimant principal spécifique avec un objectif de conversion maximal.",
+      de: "Landing Page (One-Page-Site) - ideal für die Präsentation eines bestimmten Produkts, einer bestimmten Dienstleistung oder eines Lead-Magneten mit maximalem Conversion-Fokus.",
+      fr: "Page de destination (site d'une page) - idéale pour présenter un produit, un service ou un aimant principal spécifique avec un objectif de conversion maximal.",
       es: "Landing (one-page) - para un producto, un servicio o un lead magnet, con el foco en conversión.",
       it: "Landing (sito one-page) - ideale per un prodotto, un servizio o un lead magnet, con focus massimo sulla conversione.",
       tr: "Landing (tek sayfa) - belirli bir ürün, hizmet veya lead magnet’i maksimum dönüşüm odağıyla göstermek için ideal.",
@@ -5972,8 +5972,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Business Card / Portfolio - concise presentation of specialist skills, agency services, project cases, and contact paths.',
             ua: 'Сайт-візитка / Портфоліо - презентація компанії, фахівця чи студії з переліком послуг, кейсів та зручними контактами.',
-      de: "Visitenkarte/Portfolio – prägnante Darstellung von Fachkompetenzen, Agenturleistungen, Projektfällen und Kontaktwegen.",
-      fr: "Carte de visite/Portfolio – présentation concise des compétences spécialisées, des services de l'agence, des cas de projet et des chemins de contact.",
+      de: "Visitenkarte/Portfolio - prägnante Darstellung von Fachkompetenzen, Agenturleistungen, Projektfällen und Kontaktwegen.",
+      fr: "Carte de visite/Portfolio - présentation concise des compétences spécialisées, des services de l'agence, des cas de projet et des chemins de contact.",
       es: "Tarjeta / portfolio - presentación breve de skills, servicios, casos y cómo contactar.",
       it: "Biglietto da visita / Portfolio - presentazione concisa di skill, servizi, case e vie di contatto.",
       tr: "Kartvizit / Portföy - uzmanlık, ajans hizmeti, proje case’i ve iletişim yollarının kısa sunumu.",
@@ -5981,7 +5981,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Corporate Website - multi-page platform for growing companies with service hubs, blog/news, and team profiles.',
             ua: 'Корпоративний сайт - багатосторінковий ресурс для середнього та великого бізнесу із деталізацією всіх напрямків діяльності.',
-      de: "Unternehmenswebsite – mehrseitige Plattform für wachsende Unternehmen mit Service-Hubs, Blog/News und Teamprofilen.",
+      de: "Unternehmenswebsite - mehrseitige Plattform für wachsende Unternehmen mit Service-Hubs, Blog/News und Teamprofilen.",
       fr: "Site Web d'entreprise - plate-forme multipage pour les entreprises en croissance avec des centres de services, des blogs/actualités et des profils d'équipe.",
       es: "Web corporativa - varias páginas: hubs de servicio, blog/noticias y equipo.",
       it: "Sito corporate - piattaforma multi-pagina per aziende in crescita, con hub di servizi, blog/news e profili del team.",
@@ -5990,7 +5990,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Web Application / E-commerce - interactive platforms featuring custom user portals, shopping carts, and dynamic workflows.',
             ua: 'Web Application / E-commerce - складні ресурси з інтернет-магазином, особистими кабінетами та інтерактивними функціями.',
-      de: "Webanwendung/E-Commerce – interaktive Plattformen mit benutzerdefinierten Benutzerportalen, Einkaufswagen und dynamischen Arbeitsabläufen.",
+      de: "Webanwendung/E-Commerce - interaktive Plattformen mit benutzerdefinierten Benutzerportalen, Einkaufswagen und dynamischen Arbeitsabläufen.",
       fr: "Application Web/Commerce électronique : plates-formes interactives proposant des portails utilisateur personnalisés, des paniers d'achat et des flux de travail dynamiques.",
       es: "Aplicación web / e-commerce - portales de usuario, carrito y flujos dinámicos.",
       it: "Applicazione web / E-commerce - piattaforme interattive con portali utente, carrelli e workflow dinamici.",
@@ -6136,7 +6136,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Profiles come and go. Algorithms change. Accounts get restricted. A website you own is stable ground - your name, your offer, your proof, in one place you control.',
             ua: 'Профілі з\'являються і зникають. Алгоритми змінюються. Акаунти можуть блокуватися. Сайт, яким володієте ви - це стабільний фундамент: ваше ім\'я, ваші послуги та докази якості в одному місці, яке контролюєте ви.',
-      de: "Profile kommen und gehen. Algorithmen ändern sich. Konten werden eingeschränkt. Eine Website, die Sie besitzen, ist eine stabile Basis – Ihr Name, Ihr Angebot, Ihr Beweis, an einem Ort, den Sie kontrollieren.",
+      de: "Profile kommen und gehen. Algorithmen ändern sich. Konten werden eingeschränkt. Eine Website, die Sie besitzen, ist eine stabile Basis - Ihr Name, Ihr Angebot, Ihr Beweis, an einem Ort, den Sie kontrollieren.",
       fr: "Les profils vont et viennent. Les algorithmes changent. Les comptes sont restreints. Un site Web que vous possédez est un terrain stable : votre nom, votre offre, votre preuve, en un seul endroit que vous contrôlez.",
       es: "Los perfiles van y vienen. Los algoritmos cambian. Las cuentas se restringen. Una web suya es suelo estable: su nombre, su oferta, su prueba - en un sitio que controla.",
       it: "I profili vanno e vengono. Gli algoritmi cambiano. Gli account vengono limitati. Un sito vostro è terra stabile - nome, offerta, prove, in un posto che controllate.",
@@ -6167,7 +6167,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'You do not need dozens of pages. You need a focused presence that sounds confident and reads easily - even on a phone between two TikToks.',
             ua: 'Вам не потрібні десятки складних сторінок. Потрібна чітка та переконлива презентація, яка легко читається навіть зі смартфона.',
-      de: "Sie benötigen nicht Dutzende Seiten. Sie brauchen eine fokussierte Präsenz, die selbstbewusst klingt und sich leicht lesen lässt – sogar auf einem Telefon zwischen zwei TikToks.",
+      de: "Sie benötigen nicht Dutzende Seiten. Sie brauchen eine fokussierte Präsenz, die selbstbewusst klingt und sich leicht lesen lässt - sogar auf einem Telefon zwischen zwei TikToks.",
       fr: "Vous n'avez pas besoin de dizaines de pages. Vous avez besoin d’une présence ciblée qui semble confiante et qui se lit facilement, même sur un téléphone entre deux TikToks.",
       es: "No hacen falta decenas de páginas. Hace falta una presencia enfocada, que suene segura y se lea fácil - incluso en el móvil, entre dos TikToks.",
       it: "Non servono dozzine di pagine. Serve una presenza focalizzata, sicura e facile da leggere - anche al telefono, tra due TikTok.",
@@ -6178,8 +6178,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'What you do - in plain language, without buzzwords',
             ua: 'Чим ви займаєтеся - простою та зрозумілою мовою',
-      de: "Was Sie tun – im Klartext, ohne Buzzwords",
-      fr: "Ce que vous faites – dans un langage simple, sans mots à la mode",
+      de: "Was Sie tun - im Klartext, ohne Buzzwords",
+      fr: "Ce que vous faites - dans un langage simple, sans mots à la mode",
       es: "Qué hace - en lenguaje claro, sin buzzwords",
       it: "Cosa fate - in linguaggio piano, senza buzzword",
       tr: "Ne yaptığınız - sade dilde, buzzword’süz",
@@ -6187,8 +6187,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Who you help - and what problem you solve for them',
             ua: 'Кому ви допомагаєте - і яку саме проблему вирішуєте',
-      de: "Wem Sie helfen – und welches Problem Sie für sie lösen",
-      fr: "Qui vous aidez – et quel problème vous résolvez pour eux",
+      de: "Wem Sie helfen - und welches Problem Sie für sie lösen",
+      fr: "Qui vous aidez - et quel problème vous résolvez pour eux",
       es: "A quién ayuda - y qué problema le resuelve",
       it: "Chi aiutate - e quale problema risolvete",
       tr: "Kime yardım ettiğiniz - ve onlar için hangi sorunu çözdüğünüz",
@@ -6196,7 +6196,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Proof - case studies, results, reviews, or shipped work',
             ua: 'Докази - кейси, результати, відгуки та реальні проєкти',
-      de: "Beweise – Fallstudien, Ergebnisse, Rezensionen oder versendete Arbeiten",
+      de: "Beweise - Fallstudien, Ergebnisse, Rezensionen oder versendete Arbeiten",
       fr: "Preuve - études de cas, résultats, avis ou travaux livrés",
       es: "Prueba - casos, resultados, reseñas o trabajo publicado",
       it: "Prove - case study, risultati, recensioni o lavoro spedito",
@@ -6205,7 +6205,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'How to start - one clear contact path, not five scattered links',
             ua: 'Як почати співпрацю - один чіткий спосіб зв\'язку',
-      de: "So fangen Sie an – ein klarer Kontaktpfad, nicht fünf verstreute Links",
+      de: "So fangen Sie an - ein klarer Kontaktpfad, nicht fünf verstreute Links",
       fr: "Comment commencer : un chemin de contact clair, pas cinq liens dispersés",
       es: "Cómo empezar - un camino de contacto claro, no cinco enlaces sueltos",
       it: "Come iniziare - un percorso di contatto chiaro, non cinque link sparsi",
@@ -6228,8 +6228,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'A custom domain (yourbrand.com) - not just a link-in-bio page',
             ua: 'Власний домен (yourbrand.com) - а не просто посилання в профілі',
-      de: "Eine benutzerdefinierte Domain (yourbrand.com) – nicht nur eine Link-in-Bio-Seite",
-      fr: "Un domaine personnalisé (votremarque.com) – pas seulement une page de lien dans la bio",
+      de: "Eine benutzerdefinierte Domain (yourbrand.com) - nicht nur eine Link-in-Bio-Seite",
+      fr: "Un domaine personnalisé (votremarque.com) - pas seulement une page de lien dans la bio",
       es: "Un dominio propio (yourbrand.com) - no solo una página de link-in-bio",
       it: "Un dominio vostro (yourbrand.com) - non solo una pagina link-in-bio",
       tr: "Özel alan adı (yourbrand.com) - yalnızca link-in-bio sayfası değil",
@@ -6246,8 +6246,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'SEO visibility - so people find you when they search, not only when you post',
             ua: 'SEO-оптимізація - щоб вас знаходили через Google пошук',
-      de: "SEO-Sichtbarkeit – damit die Leute Sie bei der Suche finden und nicht nur, wenn Sie posten",
-      fr: "Visibilité SEO – pour que les gens vous trouvent lorsqu'ils effectuent une recherche, pas seulement lorsque vous publiez",
+      de: "SEO-Sichtbarkeit - damit die Leute Sie bei der Suche finden und nicht nur, wenn Sie posten",
+      fr: "Visibilité SEO - pour que les gens vous trouvent lorsqu'ils effectuent une recherche, pas seulement lorsque vous publiez",
       es: "Visibilidad SEO - que le encuentren cuando buscan, no solo cuando publica",
       it: "Visibilità SEO - così vi trovano quando cercano, non solo quando postate",
       tr: "SEO görünürlüğü - sizi yalnızca paylaştığınızda değil, aradıklarında bulsunlar",
@@ -6286,7 +6286,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Use Instagram and TikTok to attract attention. Send that traffic to a website that converts interest into action - a call, a quote request, a signup, a sale.',
             ua: 'Використовуйте Instagram та TikTok для залучення уваги. І направляйте цей трафік на сайт, який перетворює зацікавленість у дію - заявку, дзвінок або покупку.',
-      de: "Nutzen Sie Instagram und TikTok, um Aufmerksamkeit zu erregen. Leiten Sie diesen Traffic an eine Website weiter, die Interesse in Taten umwandelt – einen Anruf, eine Angebotsanfrage, eine Anmeldung, einen Verkauf.",
+      de: "Nutzen Sie Instagram und TikTok, um Aufmerksamkeit zu erregen. Leiten Sie diesen Traffic an eine Website weiter, die Interesse in Taten umwandelt - einen Anruf, eine Angebotsanfrage, eine Anmeldung, einen Verkauf.",
       fr: "Utilisez Instagram et TikTok pour attirer l'attention. Envoyez ce trafic vers un site Web qui convertit l'intérêt en action : un appel, une demande de devis, une inscription, une vente.",
       es: "Use Instagram y TikTok para atraer. Mande ese tráfico a una web que convierta interés en acción: una llamada, un presupuesto, un alta, una venta.",
       it: "Usate Instagram e TikTok per attirare attenzione. Mandate quel traffico a un sito che converte l’interesse in azione - una chiamata, un preventivo, una signup, una vendita.",
@@ -6452,7 +6452,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Project type - website, web app, redesign, or ongoing support',
             ua: 'Тип проєкту - сайт, веб-додаток, редизайн чи підтримка',
-      de: "Projekttyp – Website, Web-App, Neugestaltung oder fortlaufender Support",
+      de: "Projekttyp - Website, Web-App, Neugestaltung oder fortlaufender Support",
       fr: "Type de projet : site Web, application Web, refonte ou assistance continue",
       es: "Tipo de proyecto - web, app, rediseño o soporte continuo",
       it: "Tipo di progetto - sito, web app, redesign o supporto continuo",
@@ -6461,7 +6461,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Must-have features - forms, payments, user accounts, CMS, integrations',
             ua: 'Обов\'язковий функціонал - форми, оплата, кабінети, інтеграції',
-      de: "Unverzichtbare Funktionen – Formulare, Zahlungen, Benutzerkonten, CMS, Integrationen",
+      de: "Unverzichtbare Funktionen - Formulare, Zahlungen, Benutzerkonten, CMS, Integrationen",
       fr: "Fonctionnalités indispensables : formulaires, paiements, comptes d'utilisateurs, CMS, intégrations",
       es: "Features imprescindibles - formularios, pagos, cuentas, CMS, integraciones",
       it: "Feature must-have - form, pagamenti, account, CMS, integrazioni",
@@ -6470,8 +6470,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Tech preferences - React, Next.js, or openness to recommendations',
             ua: 'Побажання щодо технологій - React, Next.js або відкритість до порад',
-      de: "Technische Vorlieben – React, Next.js oder Offenheit für Empfehlungen",
-      fr: "Préférences techniques – React, Next.js ou ouverture aux recommandations",
+      de: "Technische Vorlieben - React, Next.js oder Offenheit für Empfehlungen",
+      fr: "Préférences techniques - React, Next.js ou ouverture aux recommandations",
       es: "Preferencias de stack - React, Next.js, o apertura a recomendaciones",
       it: "Preferenze tech - React, Next.js, o apertura a raccomandazioni",
       tr: "Teknoloji tercihi - React, Next.js veya öneriye açıklık",
@@ -6479,7 +6479,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Timeline and budget range - even a rough estimate saves weeks',
             ua: 'Орієнтовні терміни та бюджет - це зекономить тижні обговорень',
-      de: "Zeitplan und Budgetspanne – selbst eine grobe Schätzung spart Wochen",
+      de: "Zeitplan und Budgetspanne - selbst eine grobe Schätzung spart Wochen",
       fr: "Calendrier et plage budgétaire : même une estimation approximative permet de gagner des semaines",
       es: "Plazo y rango de presupuesto - aunque sea aproximado, ahorra semanas",
       it: "Tempi e fascia di budget - anche una stima grezza salva settimane",
@@ -6512,8 +6512,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Freelance platforms (Upwork, Toptal) - large talent pool, reviews, escrow protection',
             ua: 'Фриланс-платформи (Upwork, Toptal) - велика база, відгуки, захист угод',
-      de: "Freelance-Plattformen (Upwork, Toptal) – großer Talentpool, Bewertungen, Escrow-Schutz",
-      fr: "Plateformes freelance (Upwork, Toptal) – grand vivier de talents, avis, protection escrow",
+      de: "Freelance-Plattformen (Upwork, Toptal) - großer Talentpool, Bewertungen, Escrow-Schutz",
+      fr: "Plateformes freelance (Upwork, Toptal) - grand vivier de talents, avis, protection escrow",
       es: "Plataformas freelance (Upwork, Toptal) - pool amplio, reviews, escrow",
       it: "Piattaforme freelance (Upwork, Toptal) - pool ampio, recensioni, protezione escrow",
       tr: "Freelance platformlar (Upwork, Toptal) - geniş yetenek havuzu, yorum, escrow koruması",
@@ -6521,8 +6521,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'LinkedIn - good for senior developers with verifiable work history',
             ua: 'LinkedIn - чудово підходить для пошуку досвідчених розробників',
-      de: "LinkedIn – gut für erfahrene Entwickler mit nachweisbarem beruflichen Werdegang",
-      fr: "LinkedIn – idéal pour les développeurs seniors avec un historique de travail vérifiable",
+      de: "LinkedIn - gut für erfahrene Entwickler mit nachweisbarem beruflichen Werdegang",
+      fr: "LinkedIn - idéal pour les développeurs seniors avec un historique de travail vérifiable",
       es: "LinkedIn - bien para seniors con trayectoria verificable",
       it: "LinkedIn - buono per developer senior con storia verificabile",
       tr: "LinkedIn - doğrulanabilir iş geçmişi olan senior developer için iyi",
@@ -6530,7 +6530,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Referrals - trusted recommendations from founders or product teams',
             ua: 'Рекомендації - випробувані поради від знайомих підприємців',
-      de: "Empfehlungen – vertrauenswürdige Empfehlungen von Gründern oder Produktteams",
+      de: "Empfehlungen - vertrauenswürdige Empfehlungen von Gründern oder Produktteams",
       fr: "Références : recommandations fiables des fondateurs ou des équipes produit",
       es: "Referencias - recomendaciones de founders o equipos de producto",
       it: "Referral - raccomandazioni fidate da founder o team di prodotto",
@@ -6539,7 +6539,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Developer portfolios - find someone whose shipped work matches your vision',
             ua: 'Портфоліо - знайдіть розробника, чиї роботи відповідають вашому баченню',
-      de: "Entwicklerportfolios – finden Sie jemanden, dessen gelieferte Arbeit Ihrer Vision entspricht",
+      de: "Entwicklerportfolios - finden Sie jemanden, dessen gelieferte Arbeit Ihrer Vision entspricht",
       fr: "Portfolios de développeurs : trouvez quelqu'un dont le travail livré correspond à votre vision",
       es: "Portfolios - alguien cuyo trabajo publicado se parezca a lo que imagina",
       it: "Portfolio di developer - trovatene uno il cui lavoro spedito combacia con la vostra visione",
@@ -6572,8 +6572,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Live projects you can visit - not just static mockups',
             ua: 'Реальні працюючі сайти - а не лише картинки дизайну',
-      de: "Live-Projekte, die Sie besuchen können – nicht nur statische Modelle",
-      fr: "Des projets en direct que vous pouvez visiter – pas seulement des maquettes statiques",
+      de: "Live-Projekte, die Sie besuchen können - nicht nur statische Modelle",
+      fr: "Des projets en direct que vous pouvez visiter - pas seulement des maquettes statiques",
       es: "Proyectos en vivo que pueda visitar - no solo mockups estáticos",
       it: "Progetti live che potete visitare - non solo mockup statici",
       tr: "Ziyaret edebileceğiniz canlı projeler - yalnızca statik mockup değil",
@@ -6622,7 +6622,7 @@ export const businessPosts: RawBlogPost[] = [
             en: 'If you are looking for a web developer who handles the full cycle - from architecture to deployment and ongoing improvements - working directly with a senior freelancer cuts agency overhead and keeps communication fast.',
             ua: 'Якщо ви шукаєте фахівця для повного циклу розробки - від архітектури до запуску - пряма співпраця з Senior фрилансером заощаджує бюджет та забезпечує швидкий зв\'язок.',
       de: "Suchen Sie einen Webentwickler für den ganzen Zyklus - Architektur, Deploy, laufende Verbesserungen? Direkt mit einem Senior-Freelancer: weniger Agentur-Overhead, schnellere Kommunikation.",
-      fr: "Si vous recherchez un développeur Web qui gère le cycle complet – de l'architecture au déploiement et aux améliorations continues – travailler directement avec un freelance senior réduit les frais généraux de l'agence et maintient une communication rapide.",
+      fr: "Si vous recherchez un développeur Web qui gère le cycle complet - de l'architecture au déploiement et aux améliorations continues - travailler directement avec un freelance senior réduit les frais généraux de l'agence et maintient une communication rapide.",
       es: "Si busca a alguien que cubra el ciclo completo - de la arquitectura al deploy y las mejoras - un freelancer senior recorta el overhead de agencia y mantiene la comunicación rápida.",
       it: "Se cercate una web developer che gestisce il ciclo pieno - da architettura a deploy e miglioramenti continui - lavorare diretto con una freelancer senior taglia l’overhead di agency e tiene la comunicazione veloce.",
       tr: "Mimariden deploy’a ve sürekli iyileştirmeye tam döngüyü yöneten bir web developer arıyorsanız, senior freelancer ile doğrudan çalışmak ajans overhead’ini keser ve iletişimi hızlı tutar.",
@@ -6727,7 +6727,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Ask how the project performs today, not just how it looked on launch day. Do they mention accessibility, performance budgets, or deployment strategy?',
             ua: 'Поцікавтеся, як працює проєкт зараз, а не лише тим, як він виглядав у макеті. Чи враховує розробник швидкість, адаптивність та безпеку?',
-      de: "Fragen Sie, wie das Projekt heute abschneidet – nicht nur, wie es am Launch-Tag aussah. Erwähnen sie Barrierefreiheit, Performance-Budgets oder eine Deploy-Strategie?",
+      de: "Fragen Sie, wie das Projekt heute abschneidet - nicht nur, wie es am Launch-Tag aussah. Erwähnen sie Barrierefreiheit, Performance-Budgets oder eine Deploy-Strategie?",
       fr: "Demandez comment le projet fonctionne aujourd'hui, et pas seulement à quoi il ressemblait le jour du lancement. Mentionnent-ils l’accessibilité, les budgets de performance ou la stratégie de déploiement ?",
       es: "Pregunte cómo rinde el proyecto hoy, no solo cómo se veía el día del launch. ¿Hablan de accesibilidad, presupuestos de rendimiento o estrategia de deploy?",
       it: "Chiedete come performa il progetto oggi, non solo come stava il giorno del launch. Parlano di accessibilità, budget di performance o strategia di deploy?",
@@ -6799,8 +6799,8 @@ export const businessPosts: RawBlogPost[] = [
     excerpt: {
       en: 'A transparent look at the process - from first call to launch and ongoing support - so you know exactly what you are signing up for.',
       ua: 'Прозорий огляд процесу розробки - від першого дзвінка до запуску та підтримки.',
-      de: "Ein transparenter Blick auf den Prozess – vom ersten Anruf bis zur Einführung und dem laufenden Support – damit Sie genau wissen, wofür Sie sich anmelden.",
-      fr: "Un aperçu transparent du processus – du premier appel au lancement et à l’assistance continue – afin que vous sachiez exactement à quoi vous vous inscrivez.",
+      de: "Ein transparenter Blick auf den Prozess - vom ersten Anruf bis zur Einführung und dem laufenden Support - damit Sie genau wissen, wofür Sie sich anmelden.",
+      fr: "Un aperçu transparent du processus - du premier appel au lancement et à l’assistance continue - afin que vous sachiez exactement à quoi vous vous inscrivez.",
       es: "Una mirada transparente al proceso - de la primera llamada al launch y el soporte - para que sepa exactamente qué está contratando.",
       it: "Uno sguardo trasparente al processo - dalla prima chiamata al launch e al supporto continuo - così sapete esattamente a cosa vi iscrivete.",
       tr: "Sürece şeffaf bir bakış - ilk aramadan launch ve sürekli desteğe - böylece tam olarak neye imza attığınızı bilirsiniz.",
@@ -6872,7 +6872,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Discovery call - goals, timeline, tech constraints, and budget alignment',
             ua: 'Перший дзвінок - обговорення цілей, термінів, технологій та бюджету',
-      de: "Discovery Call – Ziele, Zeitplan, technische Einschränkungen und Budgetausrichtung",
+      de: "Discovery Call - Ziele, Zeitplan, technische Einschränkungen und Budgetausrichtung",
       fr: "Appel de découverte : objectifs, calendrier, contraintes techniques et alignement budgétaire",
       es: "Discovery call - objetivos, plazo, límites técnicos y alineación de presupuesto",
       it: "Discovery call - obiettivi, tempi, vincoli tech e allineamento di budget",
@@ -6881,7 +6881,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Scope document - clear deliverables, milestones, and communication channels',
             ua: 'ТЗ та етапи - фіксація завдань, результатів та каналів зв\'язку',
-      de: "Umfangsdokument – ​​klare Ergebnisse, Meilensteine ​​und Kommunikationskanäle",
+      de: "Umfangsdokument - ​​klare Ergebnisse, Meilensteine ​​und Kommunikationskanäle",
       fr: "Document de portée : livrables, jalons et canaux de communication clairs",
       es: "Documento de alcance - entregables claros, hitos y canales de comunicación",
       it: "Documento di scope - deliverable chiari, milestone e canali di comunicazione",
@@ -6890,8 +6890,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Design & build - iterative updates with regular demos',
             ua: 'Розробка - регулярні демонстрації та проміжні звіти',
-      de: "Design & Build – iterative Updates mit regelmäßigen Demos",
-      fr: "Conception et construction – mises à jour itératives avec des démos régulières",
+      de: "Design & Build - iterative Updates mit regelmäßigen Demos",
+      fr: "Conception et construction - mises à jour itératives avec des démos régulières",
       es: "Diseño y build - updates iterativos con demos regulares",
       it: "Design e build - update iterativi con demo regolari",
       tr: "Tasarım ve kurulum - düzenli demo ile yinelemeli update",
@@ -6899,8 +6899,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'QA & launch - cross-browser testing, performance check, deployment',
             ua: 'Тестування та запуск - перевірка на пристроях, оптимізація та реліз',
-      de: "Qualitätssicherung und Einführung – browserübergreifende Tests, Leistungsprüfung, Bereitstellung",
-      fr: "Assurance qualité et lancement – tests multi-navigateurs, vérification des performances, déploiement",
+      de: "Qualitätssicherung und Einführung - browserübergreifende Tests, Leistungsprüfung, Bereitstellung",
+      fr: "Assurance qualité et lancement - tests multi-navigateurs, vérification des performances, déploiement",
       es: "QA y launch - test cross-browser, chequeo de rendimiento, deploy",
       it: "QA e launch - test cross-browser, check prestazioni, deploy",
       tr: "QA ve launch - tarayıcılar arası test, performans kontrolü, deploy",
@@ -6908,7 +6908,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'Post-launch support - bug fixes, improvements, and scaling as you grow',
             ua: 'Підтримка після запуску - усунення зауважень та розвиток проекту',
-      de: "Post-Launch-Support – Fehlerbehebungen, Verbesserungen und Skalierung, wenn Sie wachsen",
+      de: "Post-Launch-Support - Fehlerbehebungen, Verbesserungen und Skalierung, wenn Sie wachsen",
       fr: "Assistance post-lancement : corrections de bugs, améliorations et mise à l'échelle au fur et à mesure de votre croissance",
       es: "Soporte post-launch - bugs, mejoras y escala a medida que crece",
       it: "Supporto post-launch - fix, miglioramenti e scala man mano che cresce",
@@ -7065,13 +7065,13 @@ export const businessPosts: RawBlogPost[] = [
         },
         paragraphs: [
           {
-            en: 'The invoice–webhook–fulfill pipeline is the same as in the bot article. I will not paste it again. A public URL adds three failure modes a chat does not have.',
-            ua: 'Пайплайн інвойс–вебхук–виконання той самий, що в статті про бота. Я його тут не повторюю. Публічний URL додає три поломки, яких у чаті немає.',
-            de: 'Die Pipeline Rechnung–Webhook–Erfüllung ist dieselbe wie im Bot-Artikel. Ich klebe sie hier nicht nochmal. Eine öffentliche URL bringt drei Brüche, die ein Chat nicht hat.',
-            fr: 'Le pipeline facture–webhook–livraison est le même que dans l’article bot. Je ne le recopie pas. Une URL publique ajoute trois pannes qu’un chat n’a pas.',
-            es: 'El pipeline factura–webhook–cumplir es el mismo que en el artículo del bot. No lo pego otra vez. Una URL pública añade tres fallos que un chat no tiene.',
-            it: 'La pipeline fattura–webhook–erogazione è la stessa dell’articolo sul bot. Non la incollo di nuovo. Un URL pubblico aggiunge tre guasti che una chat non ha.',
-            tr: 'Fatura–webhook–teslim borusu bot yazısındakiyle aynı. Buraya tekrar yapıştırmam. Genel bir URL sohbetin olmadığı üç kırılma ekler.',
+            en: 'The invoice-webhook-fulfill pipeline is the same as in the bot article. I will not paste it again. A public URL adds three failure modes a chat does not have.',
+            ua: 'Пайплайн інвойс-вебхук-виконання той самий, що в статті про бота. Я його тут не повторюю. Публічний URL додає три поломки, яких у чаті немає.',
+            de: 'Die Pipeline Rechnung-Webhook-Erfüllung ist dieselbe wie im Bot-Artikel. Ich klebe sie hier nicht nochmal. Eine öffentliche URL bringt drei Brüche, die ein Chat nicht hat.',
+            fr: 'Le pipeline facture-webhook-livraison est le même que dans l’article bot. Je ne le recopie pas. Une URL publique ajoute trois pannes qu’un chat n’a pas.',
+            es: 'El pipeline factura-webhook-cumplir es el mismo que en el artículo del bot. No lo pego otra vez. Una URL pública añade tres fallos que un chat no tiene.',
+            it: 'La pipeline fattura-webhook-erogazione è la stessa dell’articolo sul bot. Non la incollo di nuovo. Un URL pubblico aggiunge tre guasti che una chat non ha.',
+            tr: 'Fatura-webhook-teslim borusu bot yazısındakiyle aynı. Buraya tekrar yapıştırmam. Genel bir URL sohbetin olmadığı üç kırılma ekler.',
           },
         ],
         list: [

@@ -21,15 +21,15 @@ export const translations = {
       title: 'Iryna Vynnychenko',
       subtitle: 'Frontend & Full-Stack Engineer | Webflow, WordPress, animation, fullstack Next.js',
       tagline:
-        'Frontend and fullstack Next.js: marketing sites, Webflow, WordPress, static, animation — and Next.js with UI, APIs, and data.',
+        'Frontend and fullstack Next.js: marketing sites, Webflow, WordPress, static, animation - and Next.js with UI, APIs, and data.',
       fullCycle:
-        'Marketing sites on Webflow, WordPress, or static. Motion with GSAP / Lottie / Framer Motion. Fullstack Next.js when it is a product: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI and backend in one web app.',
+        'Marketing sites on Webflow, WordPress, or static. Motion with GSAP / Lottie / Framer Motion. Fullstack Next.js when it is a product: Server Components, Server Actions, API Routes, PostgreSQL / Prisma - UI and backend in one web app.',
       whyTitle: 'Why Clients Choose Me',
       whyItems: [
-        '8+ years: marketing sites on Webflow, WordPress, static — and fullstack Next.js in production',
-        'Animation and interaction: GSAP, Lottie, Framer Motion — motion that ships, not a template drop',
+        '8+ years: marketing sites on Webflow, WordPress, static - and fullstack Next.js in production',
+        'Animation and interaction: GSAP, Lottie, Framer Motion - motion that ships, not a template drop',
         'Direct contractor. Delivery from Figma or from a brief, accountable for the result',
-        'Next.js is fullstack: dashboards, workflows, APIs, PostgreSQL — not a UI-only handoff',
+        'Next.js is fullstack: dashboards, workflows, APIs, PostgreSQL - not a UI-only handoff',
       ],
       bio2: 'Marketing sites and fullstack Next.js. One contractor, full delivery ownership.',
       location: 'Kyiv, Ukraine',
@@ -40,7 +40,7 @@ export const translations = {
     },
     skills: {
       title: 'Skills & Expertise',
-      subtitle: 'Marketing sites, Webflow, WordPress, static, animation — and fullstack Next.js with PostgreSQL',
+      subtitle: 'Marketing sites, Webflow, WordPress, static, animation - and fullstack Next.js with PostgreSQL',
       categories: [
         {
           title: 'Frontend & UI',
@@ -130,7 +130,7 @@ export const translations = {
           title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Present',
-          description: 'Independent engineer: marketing sites (Webflow, WordPress, static, animation) and fullstack Next.js — UI, APIs, PostgreSQL / Prisma in one web app.',
+          description: 'Independent engineer: marketing sites (Webflow, WordPress, static, animation) and fullstack Next.js - UI, APIs, PostgreSQL / Prisma in one web app.',
           achievements: [
             'Marketing sites: Webflow, WordPress, static HTML, GSAP / Lottie / Framer Motion',
             'Full-stack ownership: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
@@ -286,7 +286,7 @@ export const translations = {
         },
         {
           q: 'Which technologies do you specialize in?',
-          a: 'Frontend: Webflow, WordPress, static sites, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript on the whole path.',
+          a: 'Frontend: Webflow, WordPress, static sites, GSAP / Lottie / Framer Motion. Fullstack: Next.js - Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript on the whole path.',
         },
         {
           q: 'How do we get started?',
@@ -358,15 +358,15 @@ export const translations = {
       title: 'Ірина Винниченко',
       subtitle: 'Frontend і Full-Stack інженерка | Webflow, WordPress, анімація, fullstack Next.js',
       tagline:
-        'Фронтенд і fullstack Next.js: маркетингові сайти, Webflow, WordPress, статика, анімація — і Next.js з UI, API та даними.',
+        'Фронтенд і fullstack Next.js: маркетингові сайти, Webflow, WordPress, статика, анімація - і Next.js з UI, API та даними.',
       fullCycle:
-        'Маркетингові сайти на Webflow, WordPress або статиці. Анімація GSAP / Lottie / Framer Motion. Fullstack Next.js, коли це продукт: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI і бекенд в одному вебзастосунку.',
+        'Маркетингові сайти на Webflow, WordPress або статиці. Анімація GSAP / Lottie / Framer Motion. Fullstack Next.js, коли це продукт: Server Components, Server Actions, API Routes, PostgreSQL / Prisma - UI і бекенд в одному вебзастосунку.',
       whyTitle: 'Чому клієнти обирають мене',
       whyItems: [
-        '8+ років у проді: маркетингові сайти на Webflow, WordPress, статиці — і fullstack Next.js',
-        'Анімація та взаємодія: GSAP, Lottie, Framer Motion — не кинути шаблон, а здати рух у прод',
+        '8+ років у проді: маркетингові сайти на Webflow, WordPress, статиці - і fullstack Next.js',
+        'Анімація та взаємодія: GSAP, Lottie, Framer Motion - не кинути шаблон, а здати рух у прод',
         'Прямий підрядник. Здача з Figma або з бриффа, відповідальність за результат',
-        'Next.js — це fullstack: дашборди, воркфлоу, API, PostgreSQL — не лише верстка',
+        'Next.js - це fullstack: дашборди, воркфлоу, API, PostgreSQL - не лише верстка',
       ],
       bio2: 'Маркетингові сайти і fullstack Next.js. Один підрядник, повна відповідальність за здачу.',
       location: 'Київ, Україна',
@@ -377,7 +377,7 @@ export const translations = {
     },
     skills: {
       title: 'Навички та експертиза',
-      subtitle: 'Маркетингові сайти, Webflow, WordPress, статика, анімація — і fullstack Next.js з PostgreSQL',
+      subtitle: 'Маркетингові сайти, Webflow, WordPress, статика, анімація - і fullstack Next.js з PostgreSQL',
       categories: [
         {
           title: 'Frontend і UI',
@@ -467,7 +467,7 @@ export const translations = {
           title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Дотепер',
-          description: 'Незалежна інженерка: маркетингові сайти (Webflow, WordPress, статика, анімація) і fullstack Next.js — UI, API, PostgreSQL / Prisma в одному вебзастосунку.',
+          description: 'Незалежна інженерка: маркетингові сайти (Webflow, WordPress, статика, анімація) і fullstack Next.js - UI, API, PostgreSQL / Prisma в одному вебзастосунку.',
           achievements: [
             'Маркетингові сайти: Webflow, WordPress, статика HTML, GSAP / Lottie / Framer Motion',
             'Повний стек: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
@@ -615,7 +615,7 @@ export const translations = {
       items: [
         {
           q: 'Як зазвичай виглядає робота над проєктом?',
-          a: 'Для маркетингового сайту починаємо з бриффа або Figma. Для продукту — з домену: бізнес-правила, модель даних, існуючі API. Далі архітектура, етапи, ітеративна здача з щоденними апдейтами, QA і деплой. Ви працюєте напряму зі мною - без посередників.',
+          a: 'Для маркетингового сайту починаємо з бриффа або Figma. Для продукту - з домену: бізнес-правила, модель даних, існуючі API. Далі архітектура, етапи, ітеративна здача з щоденними апдейтами, QA і деплой. Ви працюєте напряму зі мною - без посередників.',
         },
         {
           q: 'Чи працюєте ви за NDA?',
@@ -623,7 +623,7 @@ export const translations = {
         },
         {
           q: 'На яких технологіях ви спеціалізуєтесь?',
-          a: 'Фронтенд: Webflow, WordPress, статика, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript на всьому шляху.',
+          a: 'Фронтенд: Webflow, WordPress, статика, GSAP / Lottie / Framer Motion. Fullstack: Next.js - Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript на всьому шляху.',
         },
         {
           q: 'Як почати співпрацю?',
@@ -661,7 +661,7 @@ export const translations = {
     blog: {
       headerTag: 'Frontend і Full-Stack · Webflow, WordPress, fullstack Next.js',
       title: 'Блог',
-      description: 'Практичні нотатки про фронтенд і продукти: маркетингові сайти, Webflow, WordPress, Next.js, анімація — щоб було зрозуміло, що можна замовити.',
+      description: 'Практичні нотатки про фронтенд і продукти: маркетингові сайти, Webflow, WordPress, Next.js, анімація - щоб було зрозуміло, що можна замовити.',
       readMore: 'Читати статтю →',
       backToBlog: '← Назад до блогу',
       previous: 'Попередня',
@@ -695,15 +695,15 @@ export const translations = {
       title: 'Iryna Vynnychenko',
       subtitle: 'Frontend- und Full-Stack-Engineerin | Webflow, WordPress, Animation, Fullstack-Next.js',
       tagline:
-        'Frontend und Fullstack-Next.js: Marketing-Sites, Webflow, WordPress, Statik, Animation — und Next.js mit UI, APIs und Daten.',
+        'Frontend und Fullstack-Next.js: Marketing-Sites, Webflow, WordPress, Statik, Animation - und Next.js mit UI, APIs und Daten.',
       fullCycle:
-        'Marketing-Sites in Webflow, WordPress oder statisch. Motion mit GSAP / Lottie / Framer Motion. Fullstack-Next.js, wenn es ein Produkt ist: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI und Backend in einer Web-App.',
+        'Marketing-Sites in Webflow, WordPress oder statisch. Motion mit GSAP / Lottie / Framer Motion. Fullstack-Next.js, wenn es ein Produkt ist: Server Components, Server Actions, API Routes, PostgreSQL / Prisma - UI und Backend in einer Web-App.',
       whyTitle: 'Warum Kundinnen und Kunden mich beauftragen',
       whyItems: [
-        '8+ Jahre: Marketing-Sites in Webflow, WordPress, Statik — und Fullstack-Next.js in Produktion',
-        'Animation und Interaktion: GSAP, Lottie, Framer Motion — Motion, die live geht, kein Template-Drop',
+        '8+ Jahre: Marketing-Sites in Webflow, WordPress, Statik - und Fullstack-Next.js in Produktion',
+        'Animation und Interaktion: GSAP, Lottie, Framer Motion - Motion, die live geht, kein Template-Drop',
         'Direkte Auftragnehmerin. Lieferung aus Figma oder aus dem Briefing, Verantwortung für das Ergebnis',
-        'Next.js ist Fullstack: Dashboards, Workflows, APIs, PostgreSQL — kein reines UI-Handoff',
+        'Next.js ist Fullstack: Dashboards, Workflows, APIs, PostgreSQL - kein reines UI-Handoff',
       ],
       bio2: 'Marketing-Sites und Fullstack-Next.js. Eine Auftragnehmerin, volle Verantwortung für die Lieferung.',
       location: 'Kiew, Ukraine',
@@ -714,7 +714,7 @@ export const translations = {
     },
     skills: {
       title: 'Kompetenzen & Schwerpunkte',
-      subtitle: 'Marketing-Sites, Webflow, WordPress, Statik, Animation — und Fullstack-Next.js mit PostgreSQL',
+      subtitle: 'Marketing-Sites, Webflow, WordPress, Statik, Animation - und Fullstack-Next.js mit PostgreSQL',
       categories: [
         {
           title: 'Frontend & UI',
@@ -806,7 +806,7 @@ export const translations = {
           company: 'Upwork',
           period: '2018 - heute',
           description:
-            'Unabhängige Engineerin für Marketing-Sites (Webflow, WordPress, Statik, Animation) und Fullstack-Next.js — UI, APIs, PostgreSQL / Prisma in einer Web-App.',
+            'Unabhängige Engineerin für Marketing-Sites (Webflow, WordPress, Statik, Animation) und Fullstack-Next.js - UI, APIs, PostgreSQL / Prisma in einer Web-App.',
           achievements: [
             'Marketing-Sites: Webflow, WordPress, statisches HTML, GSAP / Lottie / Framer Motion',
             'Full-Stack-Verantwortung: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
@@ -965,7 +965,7 @@ export const translations = {
         },
         {
           q: 'Auf welche Technologien sind Sie spezialisiert?',
-          a: 'Frontend: Webflow, WordPress, statische Sites, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript durchgängig.',
+          a: 'Frontend: Webflow, WordPress, statische Sites, GSAP / Lottie / Framer Motion. Fullstack: Next.js - Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript durchgängig.',
         },
         {
           q: 'Wie starten wir?',
@@ -1038,15 +1038,15 @@ export const translations = {
       title: 'Iryna Vynnychenko',
       subtitle: 'Ingénieure frontend & full-stack | Webflow, WordPress, animation, Next.js fullstack',
       tagline:
-        'Frontend et Next.js fullstack : sites marketing, Webflow, WordPress, statique, animation — et Next.js avec UI, APIs et données.',
+        'Frontend et Next.js fullstack : sites marketing, Webflow, WordPress, statique, animation - et Next.js avec UI, APIs et données.',
       fullCycle:
-        'Sites marketing en Webflow, WordPress ou statique. Motion avec GSAP / Lottie / Framer Motion. Next.js fullstack quand c’est un produit : Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI et backend dans une seule web app.',
+        'Sites marketing en Webflow, WordPress ou statique. Motion avec GSAP / Lottie / Framer Motion. Next.js fullstack quand c’est un produit : Server Components, Server Actions, API Routes, PostgreSQL / Prisma - UI et backend dans une seule web app.',
       whyTitle: 'Pourquoi les clients me choisissent',
       whyItems: [
-        '8+ ans : sites marketing en Webflow, WordPress, statique — et Next.js fullstack en prod',
-        'Animation et interaction : GSAP, Lottie, Framer Motion — du motion qui part en prod, pas un drop de template',
+        '8+ ans : sites marketing en Webflow, WordPress, statique - et Next.js fullstack en prod',
+        'Animation et interaction : GSAP, Lottie, Framer Motion - du motion qui part en prod, pas un drop de template',
         'Contractante directe. Livraison depuis Figma ou depuis le brief, responsable du résultat',
-        'Next.js, c’est fullstack : dashboards, workflows, APIs, PostgreSQL — pas un handoff UI only',
+        'Next.js, c’est fullstack : dashboards, workflows, APIs, PostgreSQL - pas un handoff UI only',
       ],
       bio2: 'Sites marketing et Next.js fullstack. Une seule contractante, responsabilité complète de la livraison.',
       location: 'Kyiv, Ukraine',
@@ -1057,7 +1057,7 @@ export const translations = {
     },
     skills: {
       title: 'Compétences & expertise',
-      subtitle: 'Sites marketing, Webflow, WordPress, statique, animation — et Next.js fullstack avec PostgreSQL',
+      subtitle: 'Sites marketing, Webflow, WordPress, statique, animation - et Next.js fullstack avec PostgreSQL',
       categories: [
         {
           title: 'Frontend & UI',
@@ -1149,7 +1149,7 @@ export const translations = {
           company: 'Upwork',
           period: '2018 - aujourd’hui',
           description:
-            'Ingénieure indépendante : sites marketing (Webflow, WordPress, statique, animation) et Next.js fullstack — UI, APIs, PostgreSQL / Prisma dans une seule web app.',
+            'Ingénieure indépendante : sites marketing (Webflow, WordPress, statique, animation) et Next.js fullstack - UI, APIs, PostgreSQL / Prisma dans une seule web app.',
           achievements: [
             'Sites marketing : Webflow, WordPress, HTML statique, GSAP / Lottie / Framer Motion',
             'Ownership full-stack : Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
@@ -1308,7 +1308,7 @@ export const translations = {
         },
         {
           q: 'Sur quelles technologies êtes-vous spécialisée ?',
-          a: 'Frontend : Webflow, WordPress, sites statiques, GSAP / Lottie / Framer Motion. Fullstack : Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript de bout en bout.',
+          a: 'Frontend : Webflow, WordPress, sites statiques, GSAP / Lottie / Framer Motion. Fullstack : Next.js - Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript de bout en bout.',
         },
         {
           q: 'Comment démarrer ?',
@@ -1381,15 +1381,15 @@ export const translations = {
       title: 'Iryna Vynnychenko',
       subtitle: 'Ingeniera frontend y full-stack | Webflow, WordPress, animación, Next.js fullstack',
       tagline:
-        'Frontend y Next.js fullstack: sitios de marketing, Webflow, WordPress, estático, animación — y Next.js con UI, APIs y datos.',
+        'Frontend y Next.js fullstack: sitios de marketing, Webflow, WordPress, estático, animación - y Next.js con UI, APIs y datos.',
       fullCycle:
-        'Sitios de marketing en Webflow, WordPress o estático. Motion con GSAP / Lottie / Framer Motion. Next.js fullstack cuando es un producto: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI y backend en una sola web app.',
+        'Sitios de marketing en Webflow, WordPress o estático. Motion con GSAP / Lottie / Framer Motion. Next.js fullstack cuando es un producto: Server Components, Server Actions, API Routes, PostgreSQL / Prisma - UI y backend en una sola web app.',
       whyTitle: 'Por qué me eligen',
       whyItems: [
-        '8+ años: sitios de marketing en Webflow, WordPress, estático — y Next.js fullstack en producción',
-        'Animación e interacción: GSAP, Lottie, Framer Motion — motion que sale a prod, no un drop de plantilla',
+        '8+ años: sitios de marketing en Webflow, WordPress, estático - y Next.js fullstack en producción',
+        'Animación e interacción: GSAP, Lottie, Framer Motion - motion que sale a prod, no un drop de plantilla',
         'Contratista directa. Entrega desde Figma o desde el brief, responsable del resultado',
-        'Next.js es fullstack: dashboards, workflows, APIs, PostgreSQL — no un handoff solo de UI',
+        'Next.js es fullstack: dashboards, workflows, APIs, PostgreSQL - no un handoff solo de UI',
       ],
       bio2: 'Sitios de marketing y Next.js fullstack. Una sola contratista, responsabilidad completa de la entrega.',
       location: 'Kyiv, Ucrania',
@@ -1400,7 +1400,7 @@ export const translations = {
     },
     skills: {
       title: 'Habilidades y especialización',
-      subtitle: 'Sitios de marketing, Webflow, WordPress, estático, animación — y Next.js fullstack con PostgreSQL',
+      subtitle: 'Sitios de marketing, Webflow, WordPress, estático, animación - y Next.js fullstack con PostgreSQL',
       categories: [
         {
           title: 'Frontend y UI',
@@ -1490,7 +1490,7 @@ export const translations = {
           title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Presente',
-          description: 'Ingeniera independiente: sitios de marketing (Webflow, WordPress, estático, animación) y Next.js fullstack — UI, APIs, PostgreSQL / Prisma en una sola web app.',
+          description: 'Ingeniera independiente: sitios de marketing (Webflow, WordPress, estático, animación) y Next.js fullstack - UI, APIs, PostgreSQL / Prisma en una sola web app.',
           achievements: [
             'Sitios de marketing: Webflow, WordPress, HTML estático, GSAP / Lottie / Framer Motion',
             'Ownership full-stack: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
@@ -1646,7 +1646,7 @@ export const translations = {
         },
         {
           q: '¿En qué tecnologías te especializas?',
-          a: 'Frontend: Webflow, WordPress, sitios estáticos, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript de extremo a extremo.',
+          a: 'Frontend: Webflow, WordPress, sitios estáticos, GSAP / Lottie / Framer Motion. Fullstack: Next.js - Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript de extremo a extremo.',
         },
         {
           q: '¿Cómo empezamos?',
@@ -1718,15 +1718,15 @@ export const translations = {
       title: 'Iryna Vynnychenko',
       subtitle: 'Ingegnera frontend e full-stack | Webflow, WordPress, animazione, Next.js fullstack',
       tagline:
-        'Frontend e Next.js fullstack: siti marketing, Webflow, WordPress, statico, animazione — e Next.js con UI, API e dati.',
+        'Frontend e Next.js fullstack: siti marketing, Webflow, WordPress, statico, animazione - e Next.js con UI, API e dati.',
       fullCycle:
-        'Siti marketing su Webflow, WordPress o statico. Motion con GSAP / Lottie / Framer Motion. Next.js fullstack quando è un prodotto: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI e backend in una sola web app.',
+        'Siti marketing su Webflow, WordPress o statico. Motion con GSAP / Lottie / Framer Motion. Next.js fullstack quando è un prodotto: Server Components, Server Actions, API Routes, PostgreSQL / Prisma - UI e backend in una sola web app.',
       whyTitle: 'Perché mi scelgono',
       whyItems: [
-        '8+ anni: siti marketing su Webflow, WordPress, statico — e Next.js fullstack in produzione',
-        'Animazione e interazione: GSAP, Lottie, Framer Motion — motion che va in prod, non un drop di template',
+        '8+ anni: siti marketing su Webflow, WordPress, statico - e Next.js fullstack in produzione',
+        'Animazione e interazione: GSAP, Lottie, Framer Motion - motion che va in prod, non un drop di template',
         'Contractor diretta. Consegna da Figma o dal brief, responsabile del risultato',
-        'Next.js è fullstack: dashboard, workflow, API, PostgreSQL — non un handoff solo UI',
+        'Next.js è fullstack: dashboard, workflow, API, PostgreSQL - non un handoff solo UI',
       ],
       bio2: 'Siti marketing e Next.js fullstack. Una sola contractor, piena responsabilità della delivery.',
       location: 'Kyiv, Ucraina',
@@ -1737,7 +1737,7 @@ export const translations = {
     },
     skills: {
       title: 'Competenze e specializzazione',
-      subtitle: 'Siti marketing, Webflow, WordPress, statico, animazione — e Next.js fullstack con PostgreSQL',
+      subtitle: 'Siti marketing, Webflow, WordPress, statico, animazione - e Next.js fullstack con PostgreSQL',
       categories: [
         {
           title: 'Frontend e UI',
@@ -1827,7 +1827,7 @@ export const translations = {
           title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Presente',
-          description: 'Ingegnera indipendente: siti marketing (Webflow, WordPress, statico, animazione) e Next.js fullstack — UI, API, PostgreSQL / Prisma in una sola web app.',
+          description: 'Ingegnera indipendente: siti marketing (Webflow, WordPress, statico, animazione) e Next.js fullstack - UI, API, PostgreSQL / Prisma in una sola web app.',
           achievements: [
             'Siti marketing: Webflow, WordPress, HTML statico, GSAP / Lottie / Framer Motion',
             'Ownership full-stack: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
@@ -1983,7 +1983,7 @@ export const translations = {
         },
         {
           q: 'In quali tecnologie ti specializzi?',
-          a: 'Frontend: Webflow, WordPress, siti statici, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript end-to-end.',
+          a: 'Frontend: Webflow, WordPress, siti statici, GSAP / Lottie / Framer Motion. Fullstack: Next.js - Server Components, Server Actions, API Routes, PostgreSQL / Prisma. TypeScript end-to-end.',
         },
         {
           q: 'Come iniziamo?',
@@ -2055,15 +2055,15 @@ export const translations = {
       title: 'Iryna Vynnychenko',
       subtitle: 'Frontend ve Full-Stack mühendisi | Webflow, WordPress, animasyon, fullstack Next.js',
       tagline:
-        'Frontend ve fullstack Next.js: pazarlama siteleri, Webflow, WordPress, statik, animasyon — ve UI, API ve veriyle Next.js.',
+        'Frontend ve fullstack Next.js: pazarlama siteleri, Webflow, WordPress, statik, animasyon - ve UI, API ve veriyle Next.js.',
       fullCycle:
-        'Webflow, WordPress veya statik pazarlama siteleri. GSAP / Lottie / Framer Motion ile motion. Ürün olduğunda fullstack Next.js: Server Components, Server Actions, API Routes, PostgreSQL / Prisma — UI ve backend tek web uygulamasında.',
+        'Webflow, WordPress veya statik pazarlama siteleri. GSAP / Lottie / Framer Motion ile motion. Ürün olduğunda fullstack Next.js: Server Components, Server Actions, API Routes, PostgreSQL / Prisma - UI ve backend tek web uygulamasında.',
       whyTitle: 'Neden benimle çalışıyorlar',
       whyItems: [
-        '8+ yıl: Webflow, WordPress, statik pazarlama siteleri — ve üretimde fullstack Next.js',
-        'Animasyon ve etkileşim: GSAP, Lottie, Framer Motion — şablon bırakmak değil, motion’ı yayına almak',
+        '8+ yıl: Webflow, WordPress, statik pazarlama siteleri - ve üretimde fullstack Next.js',
+        'Animasyon ve etkileşim: GSAP, Lottie, Framer Motion - şablon bırakmak değil, motion’ı yayına almak',
         'Doğrudan yüklenici. Teslimat Figma’dan veya briften, sonuçtan sorumlu',
-        'Next.js fullstack’tir: dashboard’lar, iş akışları, API’ler, PostgreSQL — yalnızca UI teslimi değil',
+        'Next.js fullstack’tir: dashboard’lar, iş akışları, API’ler, PostgreSQL - yalnızca UI teslimi değil',
       ],
       bio2: 'Pazarlama siteleri ve fullstack Next.js. Tek yüklenici, teslimattan tam sorumluluk.',
       location: 'Kyiv, Ukrayna',
@@ -2074,7 +2074,7 @@ export const translations = {
     },
     skills: {
       title: 'Yetkinlikler ve uzmanlık',
-      subtitle: 'Pazarlama siteleri, Webflow, WordPress, statik, animasyon — ve PostgreSQL ile fullstack Next.js',
+      subtitle: 'Pazarlama siteleri, Webflow, WordPress, statik, animasyon - ve PostgreSQL ile fullstack Next.js',
       categories: [
         {
           title: 'Frontend ve UI',
@@ -2164,7 +2164,7 @@ export const translations = {
           title: 'Frontend & Full-Stack Engineer',
           company: 'Upwork',
           period: '2018 - Günümüz',
-          description: 'Pazarlama siteleri (Webflow, WordPress, statik, animasyon) ve fullstack Next.js için bağımsız mühendisim — UI, API’ler, PostgreSQL / Prisma tek web uygulamasında.',
+          description: 'Pazarlama siteleri (Webflow, WordPress, statik, animasyon) ve fullstack Next.js için bağımsız mühendisim - UI, API’ler, PostgreSQL / Prisma tek web uygulamasında.',
           achievements: [
             'Pazarlama siteleri: Webflow, WordPress, statik HTML, GSAP / Lottie / Framer Motion',
             'Full-stack sahiplik: Next.js (Server Components, Server Actions, API Routes) + Node.js + Prisma/PostgreSQL',
@@ -2320,7 +2320,7 @@ export const translations = {
         },
         {
           q: 'Hangi teknolojilerde uzmanlaşıyorsunuz?',
-          a: 'Frontend: Webflow, WordPress, statik siteler, GSAP / Lottie / Framer Motion. Fullstack: Next.js — Server Components, Server Actions, API Routes, PostgreSQL / Prisma. Tüm yolda TypeScript.',
+          a: 'Frontend: Webflow, WordPress, statik siteler, GSAP / Lottie / Framer Motion. Fullstack: Next.js - Server Components, Server Actions, API Routes, PostgreSQL / Prisma. Tüm yolda TypeScript.',
         },
         {
           q: 'Nasıl başlarız?',

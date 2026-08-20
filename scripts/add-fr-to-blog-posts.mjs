@@ -126,7 +126,7 @@ async function processFile(filePath, cache) {
   console.log(`\n${path.basename(filePath)}: jobs=${jobs.length}, unique EN=${unique.size}`)
 
   if (jobs.length === 0) {
-    console.log('Nothing to do — all localized objects already have fr.')
+    console.log('Nothing to do - all localized objects already have fr.')
     return
   }
 

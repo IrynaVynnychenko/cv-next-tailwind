@@ -22,7 +22,7 @@
   "Shared UI Components (/src/components): Keep this directory clean, holding strictly reusable, generic UI components (buttons, badges, inputs, modals) that do not import any domain-specific business logic.": {
     "es": "UI compartida (/src/components): limpia, solo componentes genéricos reutilizables (botones, badges, inputs, modales) sin lógica de dominio.",
     "it": "UI condivisa (/src/components): pulita, solo componenti generici riutilizzabili (bottoni, badge, input, modal) senza logica di dominio.",
-    "tr": "Paylaşılan UI (/src/components): bu dizini temiz tutun — domain iş mantığı import etmeyen, yeniden kullanılabilir jenerik UI (buton, badge, input, modal)."
+    "tr": "Paylaşılan UI (/src/components): bu dizini temiz tutun - domain iş mantığı import etmeyen, yeniden kullanılabilir jenerik UI (buton, badge, input, modal)."
   },
   "Feature Modules (/src/features or /src/modules): Group components, custom hooks, and api services by business domains (e.g., /features/auth, /features/checkout, /features/dashboard). This encapsulates logic, making code easy to move or refactor.": {
     "es": "Módulos de feature (/src/features o /src/modules): agrupe por dominio (auth, checkout, dashboard). Encapsula la lógica: más fácil mover o refactorizar.",
@@ -70,13 +70,13 @@
     "tr": "Yaygın mimari hata: tüm veriyi tek bir küresel istemci store’una (Redux veya Zustand) koymak. State’leri doğasına göre ayırın:"
   },
   "Server State (API Data): Use server caching tools like Next.js fetch or TanStack Query (React Query). Do not sync api payloads to global client states manually.": {
-    "es": "Estado de servidor (datos de API): caché de servidor — Next.js fetch o TanStack Query. No sincronice payloads a stores globales a mano.",
-    "it": "Stato server (dati API): cache server — Next.js fetch o TanStack Query. Non sincronizzate i payload su store globali a mano.",
+    "es": "Estado de servidor (datos de API): caché de servidor - Next.js fetch o TanStack Query. No sincronice payloads a stores globales a mano.",
+    "it": "Stato server (dati API): cache server - Next.js fetch o TanStack Query. Non sincronizzate i payload su store globali a mano.",
     "tr": "Sunucu state’i (API verisi): Next.js fetch veya TanStack Query (React Query) gibi sunucu cache araçları. API payload’ını küresel istemci state’ine elle senkronlamayın."
   },
   "Global UI State: For states that affect multiple distant components (authentication, cart, dark mode toggles), use lightweight client stores like Zustand.": {
-    "es": "Estado global de UI: lo que afecta a componentes lejanos (auth, carrito, dark mode) — stores ligeros como Zustand.",
-    "it": "Stato UI globale: ciò che tocca componenti lontani (auth, carrello, dark mode) — store leggeri come Zustand.",
+    "es": "Estado global de UI: lo que afecta a componentes lejanos (auth, carrito, dark mode) - stores ligeros como Zustand.",
+    "it": "Stato UI globale: ciò che tocca componenti lontani (auth, carrello, dark mode) - store leggeri come Zustand.",
     "tr": "Küresel UI state: birden fazla uzak bileşeni etkileyen state’ler (auth, sepet, dark mode) için Zustand gibi hafif istemci store’ları."
   },
   "Local Component State: Keep state as close to the element as possible using useState/useReducer. Avoid premature global optimization.": {
@@ -97,7 +97,7 @@
   "Server Components by default: Fetch data, render static grids, headers, and footer wrappers on the server to keep the client bundle size small.": {
     "es": "Server Components por defecto: fetch, grids estáticos, headers y wrappers de footer en el servidor para un bundle de cliente pequeño.",
     "it": "Server Components di default: fetch, griglie statiche, header e wrapper di footer sul server per un bundle client piccolo.",
-    "tr": "Varsayılan Server Components: veriyi çekin, statik grid, header ve footer sarmalayıcılarını sunucuda render edin — istemci bundle’ı küçük kalsın."
+    "tr": "Varsayılan Server Components: veriyi çekin, statik grid, header ve footer sarmalayıcılarını sunucuda render edin - istemci bundle’ı küçük kalsın."
   },
   "Isolate Client Components: Put the \"use client\" directive only at the leaf components that require events, browser APIs, or state (e.g., a search button, an interactive slider).": {
     "es": "Aísle Client Components: `\"use client\"` solo en las hojas que necesitan eventos, APIs del navegador o estado (botón de search, slider).",
@@ -144,10 +144,10 @@
     "it": "Ogni designer e fondatore conosce la delusione: un layout pixel-perfect in Figma, con spacing morbido e tipografia pulita, esce disallineato, rigido o economico nel browser. Quella «fuga di qualità» è un collo di bottiglia abituale.",
     "tr": "Her ürün tasarımcısı ve kurucu bu hayal kırıklığını bilir: Figma’da muhteşem, pixel-perfect, yumuşak boşluklu, temiz tipografili layout canlı tarayıcıda kaymış, sert veya ucuz durur. Bu «kalite sızıntısı» web ürün geliştirmede yaygın bir darboğazdır."
   },
-  "Ensuring design fidelity in production requires more than just frontend skills — it demands component-driven engineering, a unified design system vocabulary, and a collaborative verification process between design and development.": {
+  "Ensuring design fidelity in production requires more than just frontend skills - it demands component-driven engineering, a unified design system vocabulary, and a collaborative verification process between design and development.": {
     "es": "La fidelidad de diseño en production pide más que skill frontend: ingeniería por componentes, un vocabulario de design system compartido y verificación conjunta entre diseño y desarrollo.",
     "it": "La fedeltà di design in production chiede più della skill frontend: engineering a componenti, un vocabolario di design system condiviso e verifica congiunta tra design e sviluppo.",
-    "tr": "Production’da tasarım sadakati yalnızca frontend becerisi değildir — bileşen güdümlü mühendislik, ortak design system sözlüğü ve tasarım ile geliştirme arasında işbirlikçi doğrulama ister."
+    "tr": "Production’da tasarım sadakati yalnızca frontend becerisi değildir - bileşen güdümlü mühendislik, ortak design system sözlüğü ve tasarım ile geliştirme arasında işbirlikçi doğrulama ister."
   },
   "Why Design Fidelity Gets Lost in Translation": {
     "es": "Por qué se pierde la fidelidad de diseño en la traducción",

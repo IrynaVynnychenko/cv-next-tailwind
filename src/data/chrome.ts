@@ -72,7 +72,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Відкрити проєкт',
     workTogether: 'Працюймо разом',
     workTogetherText:
-      'Маркетингові сайти, Webflow, WordPress, анімація, fullstack Next.js. Скоуп і терміни — на короткому колі.',
+      'Маркетингові сайти, Webflow, WordPress, анімація, fullstack Next.js. Скоуп і терміни - на короткому колі.',
     getInTouch: 'Написати',
     socialTitle: 'Соцмережі',
     themeToggle: 'Змінити тему',
@@ -217,7 +217,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Projeyi aç',
     workTogether: 'Birlikte çalışalım',
     workTogetherText:
-      'Pazarlama siteleri, Webflow, WordPress, motion, fullstack Next.js. Kapsam ve tarih — kısa bir görüşmede.',
+      'Pazarlama siteleri, Webflow, WordPress, motion, fullstack Next.js. Kapsam ve tarih - kısa bir görüşmede.',
     getInTouch: 'İletişime geç',
     socialTitle: 'Sosyal bağlantılar',
     themeToggle: 'Temayı değiştir',

@@ -116,26 +116,26 @@ const MAP = {
     'Que fait un ingénieur Embedded / IoT ? Quand le firmware rencontre le monde physique',
   'Support is not a cost center if it shortens time-to-value and feeds a better roadmap.':
     'Le support n’est pas un centre de coûts s’il raccourcit le time-to-value et nourrit une meilleure roadmap.',
-  'If users cannot learn your product, they will not trust it — no matter how good the engineering is.':
-    'Si les utilisateurs ne peuvent pas apprendre votre produit, ils ne lui feront pas confiance — quelle que soit la qualité de l’engineering.',
+  'If users cannot learn your product, they will not trust it - no matter how good the engineering is.':
+    'Si les utilisateurs ne peuvent pas apprendre votre produit, ils ne lui feront pas confiance - quelle que soit la qualité de l’engineering.',
   'Developer platforms, APIs, complex B2B products, or when support volume is mostly “how do I…?” questions.':
     'Plateformes développeur, APIs, produits B2B complexes, ou lorsque le volume du support est surtout des questions « comment faire… ? ».',
   'Embedded and IoT engineers build software that runs on devices: firmware, sensors, connectivity, and edge constraints.':
     'Les ingénieurs Embedded et IoT construisent le logiciel qui tourne sur les appareils : firmware, capteurs, connectivité et contraintes edge.',
   'Web timelines do not map cleanly onto hardware cycles. Embedded success needs patience, test rigs, and respect for physics.':
     'Les calendriers web ne se superposent pas proprement aux cycles hardware. Le succès Embedded demande de la patience, des bancs de test et du respect pour la physique.',
-  'Cloud abstracts some networking — it does not eliminate the need for people who understand packets, paths, and failure domains.':
-    'Le cloud abstrait une partie du networking — il ne supprime pas le besoin de personnes qui comprennent les paquets, les chemins et les domaines de panne.',
+  'Cloud abstracts some networking - it does not eliminate the need for people who understand packets, paths, and failure domains.':
+    'Le cloud abstrait une partie du networking - il ne supprime pas le besoin de personnes qui comprennent les paquets, les chemins et les domaines de panne.',
   'Technical writers create docs, API references, and guides that reduce support load and speed adoption. When docs become a product.':
     'Les technical writers créent docs, références API et guides qui réduisent la charge du support et accélèrent l’adoption. Quand la documentation devient un produit.',
   'Enterprises, ISPs, large offices, factories, or any environment where “the internet is slow” is actually a network design problem.':
     'Entreprises, FAI, grands bureaux, usines, ou tout environnement où « internet est lent » est en réalité un problème de conception réseau.',
   'CTOs and VPs of Engineering set tech strategy, org design, and execution quality. How the roles differ and when startups need them.':
     'Les CTO et VP of Engineering définissent la stratégie tech, le design d’organisation et la qualité d’exécution. En quoi les rôles diffèrent et quand les startups en ont besoin.',
-  'Titles without mandate fail. CTO/VPE succeed when they create leverage for every team — not when they become the bottleneck approver.':
-    'Les titres sans mandat échouent. Un CTO/VPE réussit quand il crée du levier pour chaque équipe — pas quand il devient le goulot d’étranglement des validations.',
-  'Hardware products, industrial monitoring, smart devices, robotics-adjacent systems — anywhere software must survive the physical world.':
-    'Produits hardware, monitoring industriel, objets connectés, systèmes proches de la robotique — partout où le logiciel doit survivre au monde physique.',
+  'Titles without mandate fail. CTO/VPE succeed when they create leverage for every team - not when they become the bottleneck approver.':
+    'Les titres sans mandat échouent. Un CTO/VPE réussit quand il crée du levier pour chaque équipe - pas quand il devient le goulot d’étranglement des validations.',
+  'Hardware products, industrial monitoring, smart devices, robotics-adjacent systems - anywhere software must survive the physical world.':
+    'Produits hardware, monitoring industriel, objets connectés, systèmes proches de la robotique - partout où le logiciel doit survivre au monde physique.',
   'When founders/engineers drown in tickets, churn rises after confusing UX, or B2B clients expect SLAs and a human who understands the system.':
     'Quand fondateurs/ingénieurs croulent sous les tickets, que le churn monte après une UX confuse, ou que les clients B2B attendent des SLA et un humain qui comprend le système.',
   'Network engineers design and operate connectivity: LAN/WAN, firewalls, DNS, routing. When specialized networking still matters in cloud eras.':

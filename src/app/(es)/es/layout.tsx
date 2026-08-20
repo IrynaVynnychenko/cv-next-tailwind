@@ -20,7 +20,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
   title: "Iryna Vynnychenko | Frontend y Full-Stack | Webflow, WordPress, Next.js",
-  description: "Sitios de marketing, Webflow, WordPress, estático, animación GSAP y Next.js fullstack — UI, APIs, PostgreSQL. Más de 4.200 horas en Upwork, 100% Job Success.",
+  description: "Sitios de marketing, Webflow, WordPress, estático, animación GSAP y Next.js fullstack - UI, APIs, PostgreSQL. Más de 4.200 horas en Upwork, 100% Job Success.",
   keywords: "Frontend, Full-Stack, Next.js, Webflow, WordPress, sitio de marketing, landing, GSAP, animación, sitio estático, React, Node.js, TypeScript, PostgreSQL, Ucrania, Upwork, España",
   authors: [{ name: "Iryna Vynnychenko" }],
   verification: {
