@@ -43,7 +43,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Open project',
     workTogether: "Let's work together",
     workTogetherText:
-      'Marketing sites, Webflow, WordPress, motion, fullstack Next.js. Scope and timeline on a short call.',
+      'SaaS, MVPs, Web Apps, fullstack Next.js - or a marketing site on Webflow, WordPress, or static. Scope and timeline on a short call.',
     getInTouch: 'Get in touch',
     socialTitle: 'Social Links',
     themeToggle: 'Toggle theme',
@@ -57,7 +57,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroHeadline: 'Frontend & Full-Stack',
     heroCta: 'Book a call',
     heroFor: 'for',
-    heroRotate: ['marketing sites', 'Webflow', 'WordPress', 'animation', 'static sites', 'Next.js'],
+    heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
   },
   ua: {
     projects: 'Проєкти',
@@ -72,7 +72,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Відкрити проєкт',
     workTogether: 'Працюймо разом',
     workTogetherText:
-      'Маркетингові сайти, Webflow, WordPress, анімація, fullstack Next.js. Скоуп і терміни - на короткому колі.',
+      'SaaS, MVPs, Web Apps, fullstack Next.js - або маркетинговий сайт на Webflow, WordPress чи статиці. Скоуп і терміни - на короткому колі.',
     getInTouch: 'Написати',
     socialTitle: 'Соцмережі',
     themeToggle: 'Змінити тему',
@@ -86,7 +86,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroHeadline: 'Frontend & Full-Stack',
     heroCta: 'Book a call',
     heroFor: 'для',
-    heroRotate: ['маркетингові сайти', 'Webflow', 'WordPress', 'анімація', 'статика', 'Next.js'],
+    heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
   },
   de: {
     projects: 'Projekte',
@@ -101,7 +101,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Projekt öffnen',
     workTogether: 'Lassen Sie uns zusammenarbeiten',
     workTogetherText:
-      'Marketing-Sites, Webflow, WordPress, Motion, Fullstack-Next.js. Scope und Zeitplan in einem kurzen Call.',
+      'SaaS, MVPs, Web Apps, fullstack Next.js - oder eine Marketing-Site in Webflow, WordPress oder statisch. Scope und Zeitplan in einem kurzen Call.',
     getInTouch: 'Kontakt',
     socialTitle: 'Social Links',
     themeToggle: 'Thema wechseln',
@@ -115,7 +115,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroHeadline: 'Frontend & Full-Stack',
     heroCta: 'Book a call',
     heroFor: 'für',
-    heroRotate: ['Marketing-Sites', 'Webflow', 'WordPress', 'Animation', 'statische Sites', 'Next.js'],
+    heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
   },
   fr: {
     projects: 'Projets',
@@ -130,7 +130,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Ouvrir le projet',
     workTogether: 'Travaillons ensemble',
     workTogetherText:
-      'Sites marketing, Webflow, WordPress, motion, Next.js fullstack. Périmètre et délais sur un court call.',
+      'SaaS, MVPs, Web Apps, fullstack Next.js - ou un site marketing en Webflow, WordPress ou statique. Périmètre et délais sur un court call.',
     getInTouch: 'Me contacter',
     socialTitle: 'Réseaux',
     themeToggle: 'Changer de thème',
@@ -144,7 +144,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroHeadline: 'Frontend & Full-Stack',
     heroCta: 'Book a call',
     heroFor: 'pour',
-    heroRotate: ['sites marketing', 'Webflow', 'WordPress', 'animation', 'statique', 'Next.js'],
+    heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
   },
   es: {
     projects: 'Proyectos',
@@ -159,7 +159,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Abrir proyecto',
     workTogether: 'Trabajemos juntos',
     workTogetherText:
-      'Sitios de marketing, Webflow, WordPress, motion, Next.js fullstack. Alcance y plazos en una llamada corta.',
+      'SaaS, MVPs, Web Apps, fullstack Next.js - o un sitio de marketing en Webflow, WordPress o estático. Alcance y plazos en una llamada corta.',
     getInTouch: 'Contactar',
     socialTitle: 'Redes',
     themeToggle: 'Cambiar tema',
@@ -173,7 +173,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroHeadline: 'Frontend & Full-Stack',
     heroCta: 'Book a call',
     heroFor: 'para',
-    heroRotate: ['sitios de marketing', 'Webflow', 'WordPress', 'animación', 'sitios estáticos', 'Next.js'],
+    heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
   },
   it: {
     projects: 'Progetti',
@@ -188,7 +188,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Apri progetto',
     workTogether: 'Lavoriamo insieme',
     workTogetherText:
-      'Siti marketing, Webflow, WordPress, motion, Next.js fullstack. Scope e tempi in una breve call.',
+      'SaaS, MVPs, Web Apps, fullstack Next.js - o un sito marketing su Webflow, WordPress o statico. Scope e tempi in una breve call.',
     getInTouch: 'Contattami',
     socialTitle: 'Social',
     themeToggle: 'Cambia tema',
@@ -202,7 +202,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroHeadline: 'Frontend & Full-Stack',
     heroCta: 'Book a call',
     heroFor: 'per',
-    heroRotate: ['siti marketing', 'Webflow', 'WordPress', 'animazione', 'siti statici', 'Next.js'],
+    heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
   },
   tr: {
     projects: 'Projeler',
@@ -217,7 +217,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Projeyi aç',
     workTogether: 'Birlikte çalışalım',
     workTogetherText:
-      'Pazarlama siteleri, Webflow, WordPress, motion, fullstack Next.js. Kapsam ve tarih - kısa bir görüşmede.',
+      'SaaS, MVPs, Web Apps, fullstack Next.js - veya Webflow, WordPress ya da statik bir pazarlama sitesi. Kapsam ve tarih - kısa bir görüşmede.',
     getInTouch: 'İletişime geç',
     socialTitle: 'Sosyal bağlantılar',
     themeToggle: 'Temayı değiştir',
@@ -231,6 +231,6 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroHeadline: 'Frontend & Full-Stack',
     heroCta: 'Book a call',
     heroFor: 'için',
-    heroRotate: ['pazarlama siteleri', 'Webflow', 'WordPress', 'animasyon', 'statik siteler', 'Next.js'],
+    heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
   },
 }

@@ -46,7 +46,7 @@ export default function Hero() {
               width={160}
               height={160}
               priority
-              className="size-[6.5rem] rounded-full object-cover object-top ring-1 ring-border ring-offset-2 ring-offset-background select-none motion-safe:animate-hero-in sm:size-40 [animation-delay:280ms]"
+              className="size-[6.5rem] rounded-full object-cover object-left ring-2 ring-sky-500 ring-offset-2 ring-offset-background select-none motion-safe:animate-hero-in sm:size-40 [animation-delay:280ms]"
             />
           </div>
         </div>
