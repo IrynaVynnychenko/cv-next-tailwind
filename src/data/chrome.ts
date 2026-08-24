@@ -28,6 +28,7 @@ type ChromeCopy = {
   heroCta: string
   heroFor: string
   heroRotate: string[]
+  heroAnswer: string
 }
 
 export const chrome: Record<Language, ChromeCopy> = {
@@ -60,6 +61,8 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroCta: 'Book a call',
     heroFor: 'for',
     heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroAnswer:
+      'Iryna Vynnychenko, senior web engineer in Kyiv. Fullstack Next.js for SaaS, MVPs, and Telegram Mini Apps - and marketing sites on Webflow, WordPress, or static. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.',
   },
   ua: {
     projects: 'Проєкти',
@@ -90,6 +93,8 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroCta: 'Book a call',
     heroFor: 'для',
     heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroAnswer:
+      'Ірина Винниченко, senior web engineer у Києві. Fullstack Next.js для SaaS, MVP і Telegram Mini Apps — і маркетингові сайти на Webflow, WordPress або статиці. 8+ років у проді, 4 200+ годин на Upwork, 100+ запущених проєктів.',
   },
   de: {
     projects: 'Projekte',
@@ -120,6 +125,8 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroCta: 'Book a call',
     heroFor: 'für',
     heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroAnswer:
+      'Iryna Vynnychenko, Senior Web Engineer in Kiew. Fullstack-Next.js für SaaS, MVPs und Telegram Mini Apps - und Marketing-Sites in Webflow, WordPress oder statisch. 8+ Jahre Produktion, 4.200+ Upwork-Stunden, 100+ gelaunchte Projekte.',
   },
   fr: {
     projects: 'Projets',
@@ -150,6 +157,8 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroCta: 'Book a call',
     heroFor: 'pour',
     heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroAnswer:
+      'Iryna Vynnychenko, ingénieure web senior à Kyiv. Next.js fullstack pour SaaS, MVP et Telegram Mini Apps - et sites marketing en Webflow, WordPress ou statique. 8+ ans en production, 4 200+ heures Upwork, 100+ projets lancés.',
   },
   es: {
     projects: 'Proyectos',
@@ -180,6 +189,8 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroCta: 'Book a call',
     heroFor: 'para',
     heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroAnswer:
+      'Iryna Vynnychenko, ingeniera web senior en Kyiv. Next.js fullstack para SaaS, MVPs y Telegram Mini Apps - y sitios de marketing en Webflow, WordPress o estático. 8+ años en producción, 4.200+ horas en Upwork, 100+ proyectos lanzados.',
   },
   it: {
     projects: 'Progetti',
@@ -210,6 +221,8 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroCta: 'Book a call',
     heroFor: 'per',
     heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroAnswer:
+      'Iryna Vynnychenko, ingegnera web senior a Kyiv. Next.js fullstack per SaaS, MVP e Telegram Mini Apps - e siti marketing su Webflow, WordPress o statico. 8+ anni in produzione, 4.200+ ore su Upwork, 100+ progetti lanciati.',
   },
   tr: {
     projects: 'Projeler',
@@ -240,5 +253,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     heroCta: 'Book a call',
     heroFor: 'için',
     heroRotate: ['SaaS', 'MVPs', 'UI/UX to Code', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroAnswer:
+      'Iryna Vynnychenko, Kyiv’de senior web engineer. SaaS, MVP ve Telegram Mini Apps için fullstack Next.js - ve Webflow, WordPress veya statik pazarlama siteleri. Üretimde 8+ yıl, 4.200+ Upwork saati, 100+ yayınlanan proje.',
   },
 }

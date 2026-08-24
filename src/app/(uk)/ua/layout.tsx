@@ -62,7 +62,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-background font-sans text-foreground antialiased`}
       >
-        <Providers>
+        <Providers lang="ua">
           {children}
         </Providers>
         {process.env.NEXT_PUBLIC_GA_ID && (

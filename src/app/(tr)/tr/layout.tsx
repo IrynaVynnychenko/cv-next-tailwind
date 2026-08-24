@@ -62,7 +62,7 @@ export default function TrRootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-background font-sans text-foreground antialiased`}
       >
-        <Providers>
+        <Providers lang="tr">
           {children}
         </Providers>
         {process.env.NEXT_PUBLIC_GA_ID && (

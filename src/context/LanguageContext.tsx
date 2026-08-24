@@ -15,13 +15,17 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 const CYCLE: Language[] = ['en', 'de', 'fr', 'es', 'it', 'tr', 'ua']
 
-export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguageState] = useState<Language>('en')
+export function LanguageProvider({
+  children,
+  initialLanguage = 'en',
+}: {
+  children: ReactNode
+  initialLanguage?: Language
+}) {
+  const [language, setLanguageState] = useState<Language>(initialLanguage)
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      setLanguageState(getLangFromPath(window.location.pathname))
-    }
+    setLanguageState(getLangFromPath(window.location.pathname))
   }, [])
 
   const setLanguage = (lang: Language) => {
