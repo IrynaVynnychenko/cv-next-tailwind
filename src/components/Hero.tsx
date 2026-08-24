@@ -35,6 +35,10 @@ export default function Hero() {
             />
           </svg>
         </a>
+        <p className="inline-flex max-w-[22rem] items-center justify-center gap-1.5 font-mono text-[11px] leading-snug text-muted-foreground motion-safe:animate-hero-in sm:max-w-none [animation-delay:280ms]">
+          <span className="size-1.5 shrink-0 rounded-full bg-sky-500" aria-hidden="true" />
+          {c.heroAvailability}
+        </p>
       </div>
 
       <div className="relative flex min-w-0 border-x border-edge px-3">
