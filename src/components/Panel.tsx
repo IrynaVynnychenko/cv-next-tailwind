@@ -8,7 +8,7 @@ export function Panel({
 }: {
   id?: string
   title: string
-  count?: number
+  count?: number | string
   children: ReactNode
 }) {
   return (
@@ -20,7 +20,7 @@ export function Panel({
       <header className="screen-line-after px-4 py-4">
         <h2 className="text-xl font-semibold tracking-tight">
           {title}
-          {typeof count === 'number' && (
+          {count != null && count !== '' && (
             <sup className="-top-[0.25em] ml-1 text-sm font-medium text-muted-foreground tabular-nums select-none">
               ({count})
             </sup>

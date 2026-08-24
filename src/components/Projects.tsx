@@ -49,7 +49,7 @@ export default function Projects() {
   const ndaProjects = 'ndaProjects' in freelance ? freelance.ndaProjects : []
 
   return (
-    <Panel id="projects" title={c.projects} count={projects.length + (ndaProjects.length ? 1 : 0)}>
+    <Panel id="projects" title={c.projects} count={c.projectsCount}>
       <div>
         {ndaProjects.length > 0 && (
           <div>

@@ -2,6 +2,7 @@ import type { Language } from '@/lib/i18n'
 
 type ChromeCopy = {
   projects: string
+  projectsCount: string
   stack: string
   highlights: string
   workMode: string
@@ -32,6 +33,7 @@ type ChromeCopy = {
 export const chrome: Record<Language, ChromeCopy> = {
   en: {
     projects: 'Projects',
+    projectsCount: '100+',
     stack: 'Stack',
     highlights: 'Highlights',
     workMode: 'Work mode',
@@ -61,6 +63,7 @@ export const chrome: Record<Language, ChromeCopy> = {
   },
   ua: {
     projects: 'Проєкти',
+    projectsCount: '100+',
     stack: 'Стек',
     highlights: 'Коротко',
     workMode: 'Формат',
@@ -90,6 +93,7 @@ export const chrome: Record<Language, ChromeCopy> = {
   },
   de: {
     projects: 'Projekte',
+    projectsCount: '100+',
     stack: 'Stack',
     highlights: 'Highlights',
     workMode: 'Arbeitsmodus',
@@ -119,6 +123,7 @@ export const chrome: Record<Language, ChromeCopy> = {
   },
   fr: {
     projects: 'Projets',
+    projectsCount: '100+',
     stack: 'Stack',
     highlights: 'Points clés',
     workMode: 'Mode de travail',
@@ -148,6 +153,7 @@ export const chrome: Record<Language, ChromeCopy> = {
   },
   es: {
     projects: 'Proyectos',
+    projectsCount: '100+',
     stack: 'Stack',
     highlights: 'Destacados',
     workMode: 'Modalidad',
@@ -177,6 +183,7 @@ export const chrome: Record<Language, ChromeCopy> = {
   },
   it: {
     projects: 'Progetti',
+    projectsCount: '100+',
     stack: 'Stack',
     highlights: 'In evidenza',
     workMode: 'Modalità',
@@ -206,6 +213,7 @@ export const chrome: Record<Language, ChromeCopy> = {
   },
   tr: {
     projects: 'Projeler',
+    projectsCount: '100+',
     stack: 'Yığın',
     highlights: 'Öne çıkanlar',
     workMode: 'Çalışma şekli',

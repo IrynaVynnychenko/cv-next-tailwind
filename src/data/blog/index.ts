@@ -4,6 +4,7 @@ import { aiLlmPosts } from './posts-ai-llm'
 import { businessPosts } from './posts-business'
 import { databasePosts } from './posts-databases'
 import { engineeringPosts } from './posts-engineering'
+import { graphicsPosts } from './posts-graphics'
 import { itRoleBlogPosts } from './posts-it-roles'
 import { socialPosts } from './posts-social'
 import { telegramExamplePosts } from './posts-telegram-examples'
@@ -28,6 +29,7 @@ const ALL_POSTS: RawBlogPost[] = [
   ...telegramExamplePosts,
   ...socialPosts,
   ...engineeringPosts,
+  ...graphicsPosts,
   ...databasePosts,
   ...businessPosts,
   ...itRoleBlogPosts,
@@ -37,6 +39,8 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'why-use-threejs-and-pixijs',
+  'what-is-seo-and-why-it-matters',
   'telegram-mini-app-exclusive-drop-example',
   'telegram-mini-app-team-kanban-example',
   'telegram-mini-app-product-patterns-2026',
