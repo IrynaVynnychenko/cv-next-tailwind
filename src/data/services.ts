@@ -1383,6 +1383,18 @@ export const services: Record<ServiceId, ServiceCopy> = {
     },
     articles: [
       {
+        slug: 'what-is-mcp-for-small-business-2026',
+        label: {
+          en: 'What MCP is, and when a small business needs it',
+          ua: 'Що таке MCP і коли бізнесу воно потрібне',
+          de: 'Was MCP ist und wann ein Betrieb es braucht',
+          fr: 'Ce qu’est MCP et quand une entreprise en a besoin',
+          es: 'Qué es MCP y cuándo lo necesita un negocio',
+          it: 'Cos’è MCP e quando serve a un’impresa',
+          tr: 'MCP nedir ve bir işletme onu ne zaman ister',
+        },
+      },
+      {
         slug: 'ai-solutions-for-business-process-automation-guide',
         label: {
           en: 'AI solutions for business: RAG, agents, ROI',
@@ -1482,6 +1494,7 @@ export function getServiceIdForSlug(slug: string): ServiceId | null {
     slug.includes('ai-') ||
     slug.includes('llm') ||
     slug.includes('rag') ||
+    slug.includes('mcp') ||
     slug === 'how-to-automate-business-processes-with-ai'
   ) {
     return 'ai-solutions'

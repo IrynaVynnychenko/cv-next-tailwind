@@ -3,6 +3,7 @@ import { getServiceIdForSlug, services } from '@/data/services'
 import type { BlogLang, BlogPost, LocalizedText, RawBlogPost } from './types'
 import { aiLlmPosts } from './posts-ai-llm'
 import { businessPosts } from './posts-business'
+import { mcpPosts } from './posts-mcp'
 import { databasePosts } from './posts-databases'
 import { engineeringPosts } from './posts-engineering'
 import { graphicsPosts } from './posts-graphics'
@@ -23,6 +24,7 @@ export type {
 } from './types'
 
 const ALL_POSTS: RawBlogPost[] = [
+  ...mcpPosts,
   ...aiLlmPosts,
   ...telegramPosts,
   ...telegramMiniAppPosts,
@@ -40,6 +42,7 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'what-is-mcp-for-small-business-2026',
   'what-to-do-when-chatgpt-goes-down',
   'why-use-threejs-and-pixijs',
   'what-is-seo-and-why-it-matters',
