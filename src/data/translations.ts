@@ -334,6 +334,7 @@ export const translations = {
       noResults: 'No articles found matching your query.',
       clearSearch: 'Clear search',
       relatedTitle: 'More on this topic',
+      updated: 'Updated',
     },
   },
   ua: {
@@ -671,6 +672,7 @@ export const translations = {
       noResults: 'За цим запитом нічого не знайдено.',
       clearSearch: 'Очистити пошук',
       relatedTitle: 'Ще з цієї теми',
+      updated: 'Оновлено',
     },
   },
   de: {
@@ -1014,6 +1016,7 @@ export const translations = {
       noResults: 'Keine Artikel zu dieser Suche.',
       clearSearch: 'Suche löschen',
       relatedTitle: 'Mehr zu diesem Thema',
+      updated: 'Aktualisiert',
     },
   },
   fr: {
@@ -1357,6 +1360,7 @@ export const translations = {
       noResults: 'Aucun article ne correspond à votre recherche.',
       clearSearch: 'Effacer la recherche',
       relatedTitle: 'Dans le même sujet',
+      updated: 'Mis à jour',
     },
   },
   es: {
@@ -1694,6 +1698,7 @@ export const translations = {
       noResults: 'No hay artículos que coincidan con tu búsqueda.',
       clearSearch: 'Borrar búsqueda',
       relatedTitle: 'Más sobre este tema',
+      updated: 'Actualizado',
     },
   },
   it: {
@@ -2031,6 +2036,7 @@ export const translations = {
       noResults: 'Nessun articolo corrisponde alla ricerca.',
       clearSearch: 'Cancella ricerca',
       relatedTitle: 'Altri sullo stesso tema',
+      updated: 'Aggiornato',
     },
   },
   tr: {
@@ -2368,6 +2374,7 @@ export const translations = {
       noResults: 'Aramanızla eşleşen yazı yok.',
       clearSearch: 'Aramayı temizle',
       relatedTitle: 'Bu konuda daha fazla',
+      updated: 'Güncellendi',
     },
   },
 } as const

@@ -9,7 +9,8 @@ import { getBlogPost } from '@/data/blog-posts'
 import { getServiceIdForSlug, services } from '@/data/services'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
-import { getBlogIndexPath, LOCALE_TAGS, withLangPrefix, type Language } from '@/lib/i18n'
+import { getBlogIndexPath, getHomePath, LOCALE_TAGS, withLangPrefix, type Language } from '@/lib/i18n'
+import { AUTHOR_NAME } from '@/lib/site'
 
 type BlogPostDetailClientProps = {
   slug: string
@@ -123,12 +124,25 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
         <header className="mb-8 border-b border-edge pb-8">
           <div className="mb-4 flex flex-wrap items-center gap-3 font-mono text-xs text-muted-foreground">
             <time dateTime={post.date}>{formatDate(post.date, language)}</time>
+            {post.updated !== post.date && (
+              <>
+                <span>·</span>
+                <span>
+                  {t.updated}{' '}
+                  <time dateTime={post.updated}>{formatDate(post.updated, language)}</time>
+                </span>
+              </>
+            )}
             <span>·</span>
             <span>{post.readTime}</span>
+            <span>·</span>
+            <a href={getHomePath(language)} rel="author" className="hover:text-foreground">
+              {AUTHOR_NAME[language]}
+            </a>
           </div>
 
           <h1 className="mb-4 text-3xl font-semibold tracking-tight">{post.title}</h1>
-          <p className="mb-4 leading-relaxed text-muted-foreground">{post.excerpt}</p>
+          <p id="article-excerpt" className="mb-4 leading-relaxed text-muted-foreground">{post.excerpt}</p>
           <div className="flex flex-wrap gap-1.5">
             {post.tags.map((tag) => (
               <span key={tag} className="inline-flex h-6 items-center rounded-md bg-muted px-[0.45rem] text-xs font-medium text-muted-foreground">

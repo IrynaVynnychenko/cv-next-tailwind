@@ -2,10 +2,12 @@ import { MetadataRoute } from 'next'
 import { rawBlogPosts } from '@/data/blog-posts'
 import { EXPERIENCE_PATH } from '@/data/experience-page'
 import { SERVICE_ORDER, services } from '@/data/services'
+import { writeGeoFeeds } from '@/lib/geo-feeds'
 import { LANGUAGES, withLangPrefix } from '@/lib/i18n'
 import { getLanguageAlternates } from '@/lib/seo'
+import { BASE_URL } from '@/lib/site'
 
-const baseUrl = 'https://vynnychenko.dev'
+const baseUrl = BASE_URL
 
 function altHome() {
   return getLanguageAlternates('/')
@@ -24,6 +26,8 @@ function altPost(slug: string) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  writeGeoFeeds()
+
   const currentDate = new Date().toISOString().split('T')[0]
 
   const staticRoutes: MetadataRoute.Sitemap = LANGUAGES.flatMap((lang) => [
@@ -60,7 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPostRoutes: MetadataRoute.Sitemap = rawBlogPosts.flatMap((post) =>
     LANGUAGES.map((lang) => ({
       url: `${baseUrl}${withLangPrefix(lang, `/blog/${post.slug}/`)}`,
-      lastModified: post.date || currentDate,
+      lastModified: post.updated || post.date || currentDate,
       changeFrequency: 'monthly' as const,
       priority: 0.7,
       alternates: { languages: altPost(post.slug) },

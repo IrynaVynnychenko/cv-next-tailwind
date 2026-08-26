@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import { LOCALE_TAGS, withLangPrefix, type Language } from '@/lib/i18n'
+import { BASE_URL } from '@/lib/site'
 
-const BASE_URL = 'https://vynnychenko.dev'
+export { BASE_URL }
 
 export const SITE_OG_IMAGE_PATH = '/images/profile-photo.jpg'
 export const SITE_OG_IMAGE_URL = `${BASE_URL}${SITE_OG_IMAGE_PATH}`
@@ -72,6 +73,9 @@ export function getPageAlternates(pathWithoutLang: string, lang: Language) {
   return {
     canonical: `${BASE_URL}${canonicalPath}`,
     languages: getLanguageAlternates(pathWithoutLang),
+    types: {
+      'application/rss+xml': `${BASE_URL}/rss.xml`,
+    },
   }
 }
 

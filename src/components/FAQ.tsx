@@ -19,7 +19,7 @@ export default function FAQ() {
           return (
             <details key={item.q} className="group border-b border-edge last:border-b-0">
               <summary className="flex w-full cursor-pointer list-none items-center justify-between gap-4 px-4 py-4 text-left transition-colors hover:bg-accent-muted [&::-webkit-details-marker]:hidden">
-                <span className="pr-2 font-medium">{item.q}</span>
+                <h3 className="min-w-0 flex-1 pr-2 text-base font-medium">{item.q}</h3>
                 <svg
                   className="size-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
                   fill="none"

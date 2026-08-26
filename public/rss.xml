@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Iryna Vynnychenko — Frontend &amp; Full-Stack Engineer</title>
+    <link>https://vynnychenko.dev/blog/</link>
+    <description>Iryna Vynnychenko, Senior Web Engineer in Kyiv. Fullstack Next.js for SaaS, MVPs, and Telegram Mini Apps - and marketing sites on Webflow, WordPress, or static. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://vynnychenko.dev/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What MCP Is - and When a Small Business Actually Needs One</title>
+      <link>https://vynnychenko.dev/blog/what-is-mcp-for-small-business-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/what-is-mcp-for-small-business-2026/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+      <description>MCP is the USB port for AI tools: a model lists functions, calls them with a schema, and gets data back. It is not a chatbot and it is not a reason to buy a gateway. When a ten-person company should wire it this month, when a form is still the right product, and how I would connect Figma, Next.js, and a bounded agent.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>MCP</category><category>AI Agents</category><category>LLM</category><category>Next.js</category><category>Figma</category><category>SMB</category>
+    </item>
+    <item>
+      <title>What a Developer Should Do When ChatGPT Goes Down</title>
+      <link>https://vynnychenko.dev/blog/what-to-do-when-chatgpt-goes-down/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/what-to-do-when-chatgpt-goes-down/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+      <description>ChatGPT is down and the deadline is not. How to tell in five minutes what actually broke, what to switch to, when a local model helps, and which work you should still be able to do with no LLM at all.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>ChatGPT</category><category>LLM</category><category>Developer Workflow</category><category>Cursor</category><category>Productivity</category><category>Engineering</category>
+    </item>
+    <item>
+      <title>Why I Would Use Three.js and Pixi.js</title>
+      <link>https://vynnychenko.dev/blog/why-use-threejs-and-pixijs/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/why-use-threejs-and-pixijs/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+      <description>CSS and GSAP animate the page. Three.js and Pixi.js draw a scene on the GPU. When a product needs thousands of sprites, a 3D configurator, or a canvas that must hold 60 fps, the DOM is the wrong tool. How I choose between them.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Three.js</category><category>Pixi.js</category><category>WebGL</category><category>Frontend</category><category>Animation</category><category>Next.js</category>
+    </item>
+    <item>
+      <title>What SEO Actually Is - and Why a Site Without It Misses the Buyer Who Already Typed the Job</title>
+      <link>https://vynnychenko.dev/blog/what-is-seo-and-why-it-matters/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/what-is-seo-and-why-it-matters/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+      <description>SEO is not keywords in the footer and not a plugin. It is making a page findable when someone already typed the job into Google. What that actually means, why ads and Instagram do not replace it, and what I put on a site so a crawler can rank it.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>SEO</category><category>Google</category><category>Organic Traffic</category><category>Website</category><category>SMB</category><category>Next.js</category>
+    </item>
+    <item>
+      <title>Example: a Timed Drop Mini App for a VIP Telegram Channel</title>
+      <link>https://vynnychenko.dev/blog/telegram-mini-app-exclusive-drop-example/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-mini-app-exclusive-drop-example/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A channel that already hypes a drop, then dies in Direct. The Mini App opens at a timestamp, locks inventory, takes the invoice, and closes. How I would ship the clock without building a full shop.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Mini Apps</category><category>Example</category><category>E-commerce</category><category>Drops</category><category>Payments</category>
+    </item>
+    <item>
+      <title>Example: a Ten-Card Kanban Mini App for a Team That Already Lives in a Group</title>
+      <link>https://vynnychenko.dev/blog/telegram-mini-app-team-kanban-example/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-mini-app-team-kanban-example/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Not Jira in a webview. A small board opened from a work group: three columns, haptic on move, a bot line when a card hits done. Why `chat_instance` is the board, and what I would refuse to build.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Mini Apps</category><category>Example</category><category>Productivity</category><category>Teams</category><category>UX</category>
+    </item>
+    <item>
+      <title>Telegram Mini Apps Worth Copying in 2026: Product Patterns, Not Clicker Clones</title>
+      <link>https://vynnychenko.dev/blog/telegram-mini-app-product-patterns-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-mini-app-product-patterns-2026/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>The interesting Mini Apps in 2026 are not Hamster copies. Seven product patterns I would actually steal: group-native tools, a dual PWA door, exclusive drops, internal ops, one-job AI, matching without a fleet, and Stars as the receipt - not the product.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Mini Apps</category><category>Product</category><category>Examples</category><category>UX</category><category>Engineering</category>
+    </item>
+    <item>
+      <title>Example: a Telegram Mini App That Splits Group Expenses Inside the Chat</title>
+      <link>https://vynnychenko.dev/blog/telegram-mini-app-group-expense-split-example/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-mini-app-group-expense-split-example/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A concrete Mini App for a trip, a flat, or a small team: open from the group, log who paid, simplify debts, settle with Stars, an invoice, or TON. Why `chat_instance` is the workspace, and what I would ship first.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Mini Apps</category><category>Example</category><category>Groups</category><category>Payments</category><category>Product</category>
+    </item>
+    <item>
+      <title>Example: One Codebase as a Telegram Mini App and a PWA</title>
+      <link>https://vynnychenko.dev/blog/telegram-mini-app-and-pwa-same-codebase/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-mini-app-and-pwa-same-codebase/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Some customers live in Telegram. Some will never open a bot. Subeasy-style dual door: local-first UI, Telegram initData on one path, a normal session on the other, Stars when you are inside the messenger. How I would ship it without forking the product.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Mini Apps</category><category>PWA</category><category>Next.js</category><category>Example</category><category>Architecture</category>
+    </item>
+    <item>
+      <title>Google Rank Is Not Enough - ChatGPT Has to Cite You Before the Customer Clicks</title>
+      <link>https://vynnychenko.dev/blog/geo-chatgpt-citations-for-business-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/geo-chatgpt-citations-for-business-2026/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Buyers now ask ChatGPT, Perplexity, and Google AI Overviews who to hire. Ranking on Google does not put your name in that answer. What GEO actually is, why a JS-only site is invisible, and what I put on a page so a model can cite it.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>GEO</category><category>SEO</category><category>ChatGPT</category><category>AI Search</category><category>Next.js</category><category>SMB</category>
+    </item>
+    <item>
+      <title>An Agent Acts. A Chatbot Answers. Do Not Give the Model the Till</title>
+      <link>https://vynnychenko.dev/blog/ai-agent-vs-chatbot-for-small-business/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/ai-agent-vs-chatbot-for-small-business/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A chatbot produces text. An agent calls tools - books a slot, sends an invoice, hits an API. What a ten-person company can bound this month, what must stay behind a human confirm, and how I would wire that in Next.js after this summer’s agent-security news.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>AI Agents</category><category>Chatbots</category><category>MCP</category><category>LLM</category><category>Security</category><category>SMB</category>
+    </item>
+    <item>
+      <title>Next.js 16.3: Instant Navigations, and a Repo an Agent Can Actually Read</title>
+      <link>https://vynnychenko.dev/blog/nextjs-16-3-instant-navigations-agents/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/nextjs-16-3-instant-navigations-agents/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Next.js 16.3 went stable on 3 August 2026. Instant Navigations make a server-rendered site feel like an SPA. AGENTS.md, bundled docs, and skills stop coding agents inventing APIs from 2024. What I would actually do on an existing Next.js site this month.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Next.js</category><category>React</category><category>AGENTS.md</category><category>MCP</category><category>Performance</category><category>Vercel</category>
+    </item>
+    <item>
+      <title>What a Telegram Mini App Actually Is - and When I Would Build One</title>
+      <link>https://vynnychenko.dev/blog/what-is-telegram-mini-app/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/what-is-telegram-mini-app/</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A Mini App is a web product that runs inside Telegram - not a bot, not a native app. How it is wired, how initData auth actually works, the UX constraints that kill a pasted website, and when I would ship one instead of a site.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Mini Apps</category><category>WebApp SDK</category><category>Next.js</category><category>Product</category><category>Engineering</category>
+    </item>
+    <item>
+      <title>Types of Databases - SQL, NoSQL, and When I Actually Pick Each</title>
+      <link>https://vynnychenko.dev/blog/types-of-databases-when-to-use/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/types-of-databases-when-to-use/</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A practical map of database types for web products: relational, document, key-value, graph, time-series, vector - and the 2026 default I ship unless the data model forces something else.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Databases</category><category>PostgreSQL</category><category>SQL</category><category>NoSQL</category><category>Architecture</category><category>Engineering</category>
+    </item>
+    <item>
+      <title>Your Site Has No Owner. That Is Why Prices Are Wrong and the Form Goes to Spam</title>
+      <link>https://vynnychenko.dev/blog/website-administrator-for-small-business/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/website-administrator-for-small-business/</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Launch is not the end of the work. Without someone who updates prices, watches SSL and backups, and fixes the form - the asset dies quietly. What website administration actually is, and how I run it as a developer, not as a person who only clicks in WordPress.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Website</category><category>Administration</category><category>Maintenance</category><category>SMB</category><category>WordPress</category><category>Support</category>
+    </item>
+    <item>
+      <title>LLM Provider vs Chat Tab: Who Sells Tokens, Uptime, and the Data Policy</title>
+      <link>https://vynnychenko.dev/blog/what-is-an-llm-provider/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/what-is-an-llm-provider/</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+      <description>An LLM provider is the company that sells access to a large language model - tokens, uptime, and a data policy - not the chat tab and not the model name on a slide.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>LLM</category><category>LLM Provider</category><category>OpenAI</category><category>Anthropic</category><category>API</category><category>AI</category>
+    </item>
+    <item>
+      <title>An LLM in a Paid Workflow: Tickets, Emails, and PDFs Become a Step a Human Can Audit</title>
+      <link>https://vynnychenko.dev/blog/what-is-an-llm-in-business/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/what-is-an-llm-in-business/</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+      <description>An LLM in business is not “we have ChatGPT.” It is a model that turns language - tickets, emails, PDFs - into a step a paid workflow can run, with a human on the edge cases.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>LLM</category><category>Business</category><category>AI</category><category>Automation</category><category>Workflow</category>
+    </item>
+    <item>
+      <title>Website Payments in 2026: Checkout, Payment Link, and a Thank-You Page That Does Not Lie</title>
+      <link>https://vynnychenko.dev/blog/accept-payments-on-website-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/accept-payments-on-website-2026/</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A card number in chat is not a checkout. How a site you own takes money: payment link or landing, Apple Pay on a phone, fiscal PDF on thank-you - and why /success must not mark the order paid.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Payments</category><category>Website</category><category>Checkout</category><category>Apple Pay</category><category>Conversion</category><category>Fiscal receipt</category>
+    </item>
+    <item>
+      <title>A One-Page Site for Solo Work: Tutor, Nail Tech, Four-Table Cafe</title>
+      <link>https://vynnychenko.dev/blog/why-even-smallest-business-needs-website-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/why-even-smallest-business-needs-website-2026/</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A tutor, a nail tech, a four-table cafe: you do not need a 40-page portal. You need one fast page you own - because Instagram, Telegram, and Maps are rented, and strangers check you before they pay.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Website</category><category>Microbusiness</category><category>SMB</category><category>2026</category><category>Trust</category><category>SEO</category>
+    </item>
+    <item>
+      <title>Which Social Networks People Actually Use in Different Countries in 2026</title>
+      <link>https://vynnychenko.dev/blog/social-media-by-country-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/social-media-by-country-2026/</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Facebook is not the default everywhere. WhatsApp, Telegram, LINE, WeChat, and KakaoTalk win whole countries. A map of feeds vs messengers - and what that means if you sell across borders.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Social Media</category><category>Marketing</category><category>International</category><category>Messaging</category><category>Strategy</category><category>2026</category>
+    </item>
+    <item>
+      <title>Telegram Bots with Payments: Business Examples That Actually Collect Money</title>
+      <link>https://vynnychenko.dev/blog/telegram-bots-with-payments-business-examples/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-bots-with-payments-business-examples/</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Shop, courses, bookings, tickets, subscriptions, delivery, utilities - seven payment-bot shapes, when to use a chat bot vs a Mini App, and what a production checkout looks like.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Bots</category><category>Payments</category><category>Mini Apps</category><category>Examples</category><category>Checkout</category>
+    </item>
+    <item>
+      <title>Example: a Telegram Bot That Sells a Course and Unlocks Access After Payment</title>
+      <link>https://vynnychenko.dev/blog/telegram-bot-online-course-payments-example/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-bot-online-course-payments-example/</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A concrete payment-bot example for educators: catalog of courses, invoice, webhook, then a private channel invite, files, or a lesson Mini App. Installments and Telegram Stars included.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Bots</category><category>Payments</category><category>Online Courses</category><category>EdTech</category><category>Example</category>
+    </item>
+    <item>
+      <title>Example: a Telegram Booking Bot with Deposit Payment (Salon, Clinic, Tutor)</title>
+      <link>https://vynnychenko.dev/blog/telegram-bot-booking-prepayment-example/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-bot-booking-prepayment-example/</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A payment-bot example for appointment businesses: calendar in a Mini App, 20-50% deposit, reminders, reschedule rules. Empty slots stop being free options held by people who never show up.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Bots</category><category>Payments</category><category>Booking</category><category>Mini Apps</category><category>Example</category>
+    </item>
+    <item>
+      <title>Example: a Telegram Shop Bot with Catalog, Checkout, and Card Payments</title>
+      <link>https://vynnychenko.dev/blog/telegram-bot-online-shop-payments-example/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-bot-online-shop-payments-example/</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A payment-bot example for product sellers: Mini App catalog, variants, cart, Nova Poshta or courier, Mono / LiqPay / Stripe, fiscal receipt, and order statuses in the chat.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Bots</category><category>Payments</category><category>E-commerce</category><category>Mini Apps</category><category>Example</category>
+    </item>
+    <item>
+      <title>Example: a Telegram Subscription Bot (Membership, Gym, Paid Channel)</title>
+      <link>https://vynnychenko.dev/blog/telegram-bot-subscription-payments-example/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-bot-subscription-payments-example/</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A payment-bot example for recurring revenue: monthly invoices or Stripe subscriptions, grace period on failed charge, revoke channel access, and a dunning message that is not a human in Direct.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Bots</category><category>Payments</category><category>Subscriptions</category><category>Membership</category><category>Example</category>
+    </item>
+    <item>
+      <title>Hours, Trust, and More Orders: What a Shop or Clinic Site Actually Buys an SMB</title>
+      <link>https://vynnychenko.dev/blog/website-for-smb-business-benefits/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/website-for-smb-business-benefits/</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A site is not a status page. For an SMB it is a 24/7 sales desk, a Google listing you own, and a way to grow the number of people who actually order - not only those who already know you from a feed.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>SMB</category><category>Website</category><category>Business</category><category>Leads</category><category>SEO</category><category>Strategy</category>
+    </item>
+    <item>
+      <title>How I Would Build a SaaS - Tenancy, Billing, and What Makes It a Product</title>
+      <link>https://vynnychenko.dev/blog/how-i-would-build-a-saas/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/how-i-would-build-a-saas/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>An MVP can be a form. A SaaS is a product many companies rent. How I would design tenancy, subscriptions, onboarding, and ops - and what I would not copy from big platforms in year one.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>SaaS</category><category>Product</category><category>Billing</category><category>Multi-tenant</category><category>Next.js</category><category>Engineering</category>
+    </item>
+    <item>
+      <title>How I Would Build an MVP - and How I Actually Pick the Stack</title>
+      <link>https://vynnychenko.dev/blog/how-i-build-mvp-and-choose-tech-stack/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/how-i-build-mvp-and-choose-tech-stack/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A practical playbook: what an MVP is (and is not), the five filters I use to pick technology, a default 2026 web stack, and what I refuse to add before the first real users.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>MVP</category><category>Tech Stack</category><category>Next.js</category><category>Product</category><category>Startup</category><category>Engineering</category>
+    </item>
+    <item>
+      <title>What Is Vibe Coding - and Why It Does Not Replace Engineering</title>
+      <link>https://vynnychenko.dev/blog/what-is-vibe-coding/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/what-is-vibe-coding/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Vibe coding is building software by describing intent in natural language and iterating on what the AI produces. Here is what it is, when it works, when it fails, and how to use it without shipping a mess.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Vibe Coding</category><category>AI</category><category>Cursor</category><category>LLM</category><category>Frontend</category><category>Engineering</category>
+    </item>
+    <item>
+      <title>IT Roles Map 2026: Who Does What in a Modern Tech Team</title>
+      <link>https://vynnychenko.dev/blog/it-roles-map-who-does-what-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/it-roles-map-who-does-what-2026/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A practical map of major IT roles - engineering, product, design, data, security, and leadership - and how they collaborate to ship products.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>IT Roles</category><category>Hiring</category><category>Team Structure</category><category>Tech Leadership</category>
+    </item>
+    <item>
+      <title>What Does a Frontend Developer Do? Responsibilities, Skills, and When You Need One</title>
+      <link>https://vynnychenko.dev/blog/frontend-developer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/frontend-developer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A clear guide to the frontend developer role: UI implementation, performance, accessibility, and how this specialist fits into a product team.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Frontend</category><category>IT Roles</category><category>Web Development</category><category>Hiring</category>
+    </item>
+    <item>
+      <title>What Does a Backend Developer Do? APIs, Data, and System Logic Explained</title>
+      <link>https://vynnychenko.dev/blog/backend-developer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/backend-developer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Backend developers own server logic, databases, APIs, auth, and integrations. Here is what the role covers and when to hire one.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Backend</category><category>IT Roles</category><category>APIs</category><category>Hiring</category>
+    </item>
+    <item>
+      <title>What Does a Full-Stack Developer Do? End-to-End Ownership Explained</title>
+      <link>https://vynnychenko.dev/blog/fullstack-developer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/fullstack-developer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Full-stack developers own features from UI to database. Learn the real scope of the role, strengths, limits, and when it beats a split team.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Full-Stack</category><category>IT Roles</category><category>Web Development</category><category>Hiring</category>
+    </item>
+    <item>
+      <title>What Does a Mobile Developer Do? iOS, Android, and Cross-Platform Roles</title>
+      <link>https://vynnychenko.dev/blog/mobile-developer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/mobile-developer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Mobile developers build native or cross-platform apps. Responsibilities, skill sets, and when a mobile specialist is the right hire.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Mobile</category><category>IT Roles</category><category>iOS</category><category>Android</category>
+    </item>
+    <item>
+      <title>What Does a DevOps Engineer Do? CI/CD, Cloud, and Reliable Delivery</title>
+      <link>https://vynnychenko.dev/blog/devops-engineer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/devops-engineer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>DevOps engineers make shipping safe and repeatable: pipelines, infrastructure, monitoring, and automation. When your team needs one.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>DevOps</category><category>IT Roles</category><category>CI/CD</category><category>Cloud</category>
+    </item>
+    <item>
+      <title>What Does a QA Engineer Do? Manual Testing, Automation, and Quality Ownership</title>
+      <link>https://vynnychenko.dev/blog/qa-engineer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/qa-engineer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>QA engineers protect users from defects. Manual vs automation, responsibilities, and when quality needs a dedicated role.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>QA</category><category>IT Roles</category><category>Testing</category><category>Quality</category>
+    </item>
+    <item>
+      <title>What Does a UI/UX Designer Do? Research, Flows, and Interface Craft</title>
+      <link>https://vynnychenko.dev/blog/ui-ux-designer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/ui-ux-designer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>UI/UX designers shape how products feel and work. UX research, UI systems, handoff - and when design is the growth lever.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>UI/UX</category><category>IT Roles</category><category>Design</category><category>Product</category>
+    </item>
+    <item>
+      <title>What Does a Product Manager Do? Discovery, Priorities, and Outcomes</title>
+      <link>https://vynnychenko.dev/blog/product-manager-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/product-manager-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Product managers decide what to build and why. Scope of the PM role, difference from project managers, and hiring signals.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Product Management</category><category>IT Roles</category><category>Strategy</category>
+    </item>
+    <item>
+      <title>What Does a Project Manager Do in IT? Delivery, Scope, and Communication</title>
+      <link>https://vynnychenko.dev/blog/project-manager-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/project-manager-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>IT project managers keep delivery predictable: scope, timeline, risks, and stakeholder updates. How PM differs from Product Manager.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Project Management</category><category>IT Roles</category><category>Delivery</category>
+    </item>
+    <item>
+      <title>What Does a Business Analyst Do in IT? Requirements That Teams Can Build</title>
+      <link>https://vynnychenko.dev/blog/business-analyst-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/business-analyst-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Business analysts translate business needs into clear requirements. Role map, artifacts, and when BA prevents costly rework.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Business Analysis</category><category>IT Roles</category><category>Requirements</category>
+    </item>
+    <item>
+      <title>What Does a Data Analyst Do? Metrics, Insights, and Decision Support</title>
+      <link>https://vynnychenko.dev/blog/data-analyst-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/data-analyst-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Data analysts turn raw data into decisions: dashboards, SQL, experiments, and business storytelling with numbers.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Data</category><category>IT Roles</category><category>Analytics</category>
+    </item>
+    <item>
+      <title>What Does a Data Engineer Do? Pipelines, Warehouses, and Reliable Data</title>
+      <link>https://vynnychenko.dev/blog/data-engineer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/data-engineer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Data engineers build the plumbing for analytics and ML: ETL/ELT, warehouses, quality checks, and scalable pipelines.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Data Engineering</category><category>IT Roles</category><category>ETL</category>
+    </item>
+    <item>
+      <title>What Do Data Scientists and ML Engineers Do? Models That Reach Production</title>
+      <link>https://vynnychenko.dev/blog/data-scientist-ml-engineer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/data-scientist-ml-engineer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Data scientists explore and model; ML engineers productionize. Overlaps, differences, and when each role pays off.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Machine Learning</category><category>IT Roles</category><category>AI</category><category>Data Science</category>
+    </item>
+    <item>
+      <title>What Does an AI Engineer Do in 2026? LLM Apps, Agents, and Evaluation</title>
+      <link>https://vynnychenko.dev/blog/ai-engineer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/ai-engineer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>AI engineers build production LLM features: prompts, RAG, tools, streaming UX, safety, and cost. How the role differs from classic ML.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>AI</category><category>IT Roles</category><category>LLM</category><category>Engineering</category>
+    </item>
+    <item>
+      <title>What Does a Cybersecurity Specialist Do? Protecting Products and Data</title>
+      <link>https://vynnychenko.dev/blog/cybersecurity-specialist-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/cybersecurity-specialist-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Security specialists reduce breach risk: assessments, hardening, monitoring, and incident response. When to hire security expertise.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Cybersecurity</category><category>IT Roles</category><category>Security</category>
+    </item>
+    <item>
+      <title>What Does a System Administrator Do? Servers, Access, and Uptime</title>
+      <link>https://vynnychenko.dev/blog/system-administrator-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/system-administrator-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Sysadmins keep infrastructure running: servers, accounts, backups, updates. How the role relates to DevOps and cloud engineering.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>SysAdmin</category><category>IT Roles</category><category>Infrastructure</category>
+    </item>
+    <item>
+      <title>What Does a Cloud Engineer Do? Scalable Infrastructure on AWS, GCP, Azure</title>
+      <link>https://vynnychenko.dev/blog/cloud-engineer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/cloud-engineer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Cloud engineers design and run cloud platforms: networking, compute, cost, security. When cloud expertise beats generic hosting.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Cloud</category><category>IT Roles</category><category>AWS</category><category>Infrastructure</category>
+    </item>
+    <item>
+      <title>What Does a Site Reliability Engineer (SRE) Do? SLOs and Production Health</title>
+      <link>https://vynnychenko.dev/blog/sre-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/sre-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>SREs make production reliable with SLIs/SLOs, automation, and incident practice. How SRE differs from DevOps and classic ops.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>SRE</category><category>IT Roles</category><category>Reliability</category><category>DevOps</category>
+    </item>
+    <item>
+      <title>What Does a Software Architect Do? Structure, Trade-offs, and Longevity</title>
+      <link>https://vynnychenko.dev/blog/software-architect-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/software-architect-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Architects set technical direction: boundaries, patterns, and quality attributes. When architecture work saves (or wastes) years.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Architecture</category><category>IT Roles</category><category>Software Design</category>
+    </item>
+    <item>
+      <title>Tech Lead vs Engineering Manager: What Each Role Owns</title>
+      <link>https://vynnychenko.dev/blog/tech-lead-engineering-manager-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/tech-lead-engineering-manager-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Tech leads own technical excellence in a team; EMs own people and delivery systems. Clear boundaries and collaboration model.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Leadership</category><category>IT Roles</category><category>Tech Lead</category><category>Management</category>
+    </item>
+    <item>
+      <title>What Does a Scrum Master Do? Facilitation Without Ceremony Theater</title>
+      <link>https://vynnychenko.dev/blog/scrum-master-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/scrum-master-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Scrum masters improve team flow: remove impediments, coach agile habits, and protect focus. When the role helps - and when it is overhead.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Agile</category><category>IT Roles</category><category>Scrum</category><category>Delivery</category>
+    </item>
+    <item>
+      <title>What Does a Database Administrator (DBA) Do? Performance, Safety, Scale</title>
+      <link>https://vynnychenko.dev/blog/database-administrator-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/database-administrator-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>DBAs keep databases fast, safe, and recoverable. Responsibilities in the age of managed cloud databases - and when you still need one.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Database</category><category>IT Roles</category><category>DBA</category><category>PostgreSQL</category>
+    </item>
+    <item>
+      <title>What Does a Blockchain / Web3 Developer Do? Smart Contracts and dApps</title>
+      <link>https://vynnychenko.dev/blog/blockchain-web3-developer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/blockchain-web3-developer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Web3 developers build on-chain logic and wallet-connected apps. Responsibilities, risks, and when blockchain is the wrong tool.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Blockchain</category><category>Web3</category><category>IT Roles</category>
+    </item>
+    <item>
+      <title>What Does a Technical Support Engineer Do? From Tickets to Root Cause</title>
+      <link>https://vynnychenko.dev/blog/technical-support-engineer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/technical-support-engineer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Support engineers keep customers unblocked and feed product quality. L1-L3 scope, skills, and why great support is a growth channel.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Support</category><category>IT Roles</category><category>Customer Success</category>
+    </item>
+    <item>
+      <title>What Does a Technical Writer Do? Docs That Unblock Users and Teams</title>
+      <link>https://vynnychenko.dev/blog/technical-writer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/technical-writer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Technical writers create docs, API references, and guides that reduce support load and speed adoption. When docs become a product.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Technical Writing</category><category>IT Roles</category><category>Documentation</category>
+    </item>
+    <item>
+      <title>What Does a Network Engineer Do? Connectivity, Performance, and Resilience</title>
+      <link>https://vynnychenko.dev/blog/network-engineer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/network-engineer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Network engineers design and operate connectivity: LAN/WAN, firewalls, DNS, routing. When specialized networking still matters in cloud eras.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Networking</category><category>IT Roles</category><category>Infrastructure</category>
+    </item>
+    <item>
+      <title>What Does an Embedded / IoT Engineer Do? Firmware Meets the Physical World</title>
+      <link>https://vynnychenko.dev/blog/embedded-iot-engineer-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/embedded-iot-engineer-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Embedded and IoT engineers build software that runs on devices: firmware, sensors, connectivity, and edge constraints.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Embedded</category><category>IoT</category><category>IT Roles</category>
+    </item>
+    <item>
+      <title>What Does a CTO / VP of Engineering Do? Technology Leadership at Scale</title>
+      <link>https://vynnychenko.dev/blog/cto-vp-engineering-role-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/cto-vp-engineering-role-guide/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>CTOs and VPs of Engineering set tech strategy, org design, and execution quality. How the roles differ and when startups need them.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>CTO</category><category>Leadership</category><category>IT Roles</category><category>Executive</category>
+    </item>
+    <item>
+      <title>Your Outdated Interface Is Quietly Losing Customers - and You Can Fix It Without Stopping Sales</title>
+      <link>https://vynnychenko.dev/blog/outdated-ui-losing-customers-safe-redesign/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/outdated-ui-losing-customers-safe-redesign/</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Users do not complain - they leave. Why a clunky UI kills trust and conversion, and how a safe stepwise redesign refreshes the product without downtime or a risky “big bang” launch.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>UX/UI</category><category>Conversion</category><category>Refactoring</category><category>Business</category><category>Frontend</category>
+    </item>
+    <item>
+      <title>How a Developer Can Become a Project Manager - and Which Qualities Actually Matter</title>
+      <link>https://vynnychenko.dev/blog/developer-to-project-manager-career-path/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/developer-to-project-manager-career-path/</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <description>How communication and project-management skills raise the quality of full-stack delivery - plus a practical path from engineer to PM and the qualities that actually matter.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Career</category><category>Project Management</category><category>Soft Skills</category><category>Full-stack</category><category>Communication</category><category>Leadership</category>
+    </item>
+    <item>
+      <title>VPS vs AWS: Which Hosting to Choose for Your Product in 2026</title>
+      <link>https://vynnychenko.dev/blog/vps-vs-aws-hosting-comparison/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/vps-vs-aws-hosting-comparison/</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A practical VPS vs AWS comparison for startups and SMBs: pricing, bandwidth, scaling, ops complexity, and when Lightsail, DigitalOcean, Hetzner, or full EC2 actually make sense.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>VPS</category><category>AWS</category><category>Cloud Hosting</category><category>DevOps</category><category>DigitalOcean</category><category>Hetzner</category><category>Infrastructure</category>
+    </item>
+    <item>
+      <title>ChatGPT vs Claude vs Gemini vs API: LLM Pricing with Free Tiers, Without the Buzzwords</title>
+      <link>https://vynnychenko.dev/blog/what-is-llm-business-value-cost-comparison/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/what-is-llm-business-value-cost-comparison/</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A practical guide to Large Language Models for business owners: what an LLM is, where it creates ROI, and how ChatGPT, Claude, Gemini, and API pricing compare - including free tiers.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>LLM</category><category>AI for Business</category><category>ChatGPT</category><category>Claude</category><category>Gemini</category><category>API Pricing</category><category>Business Automation</category>
+    </item>
+    <item>
+      <title>AI Chatbot Development for Business Automation: Utility Meter Readings &amp; Payment Reminders</title>
+      <link>https://vynnychenko.dev/blog/ai-chatbot-business-automation-utility-payments/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/ai-chatbot-business-automation-utility-payments/</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Learn how custom AI chatbots automate utility meter reading submission, payment reminders, and billing workflows. A practical guide for OSBBs, housing cooperatives, and service providers - from conversational UX to CRM and payment gateway integration.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>AI Chatbot Development</category><category>Business Automation</category><category>Utility Payments</category><category>Telegram Bot</category><category>Process Automation</category>
+    </item>
+    <item>
+      <title>AI Solutions for Business: RAG, Agents, and Real ROI</title>
+      <link>https://vynnychenko.dev/blog/ai-solutions-for-business-process-automation-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/ai-solutions-for-business-process-automation-guide/</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description>AI solutions for business: custom RAG on your data, agents with a human confirm, CRM hooks, and metrics that show ROI — not a chatbot demo.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>AI for Business</category><category>Artificial Intelligence</category><category>Business Automation</category><category>RAG Architecture</category><category>AI Agents</category>
+    </item>
+    <item>
+      <title>Affordable AI for a 10-Person Company: Lead Capture, Content, and a Site That Uses It</title>
+      <link>https://vynnychenko.dev/blog/implementing-ai-solutions-for-smb-growth-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/implementing-ai-solutions-for-smb-growth-2026/</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A step-by-step guide for small and medium-sized businesses looking to leverage artificial intelligence. Discover budget-friendly AI tools, automated lead capture, smart content generation, and custom web integration strategies.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>AI for SMB</category><category>Business Automation</category><category>Lead Generation</category><category>AI Chatbots</category><category>Digital Transformation</category>
+    </item>
+    <item>
+      <title>Telegram Mini App Development Services: Next.js, Payments, TON</title>
+      <link>https://vynnychenko.dev/blog/telegram-mini-app-development-services-complete-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-mini-app-development-services-complete-guide/</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Telegram Mini App development services from a senior engineer: Next.js Mini Apps, payment bots, TON wallets, and what to prepare before kickoff. 4,200+ Upwork hours.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Mini Apps</category><category>Web3 Development</category><category>Crypto Payments</category><category>Next.js</category><category>TypeScript</category>
+    </item>
+    <item>
+      <title>Choosing a Telegram Mini App Development Company — Engineer vs Agency</title>
+      <link>https://vynnychenko.dev/blog/choosing-telegram-mini-app-development-company/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/choosing-telegram-mini-app-development-company/</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Choosing a Telegram Mini App development company: what to put in the brief, how to verify Web3, and when a senior engineer beats an agency. 4,200+ Upwork hours.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Mini Apps</category><category>Hiring Guide</category><category>Web3</category><category>Outsourcing</category><category>Project Planning</category>
+    </item>
+    <item>
+      <title>Telegram Bot Payments: Stripe, LiqPay, Monobank, Mini App Pay</title>
+      <link>https://vynnychenko.dev/blog/telegram-bot-payment-integration-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-bot-payment-integration-guide/</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description>How to take card and crypto payments in a Telegram bot: invoices, webhooks, Mini App checkout, Stripe, LiqPay, Monobank — without a broken checkout.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Payments</category><category>Telegram Bots</category><category>Monobank</category><category>Stripe</category><category>LiqPay</category><category>Crypto</category><category>Fintech</category>
+    </item>
+    <item>
+      <title>What is a Web Application? A Comprehensive Guide to Modern Web App Development</title>
+      <link>https://vynnychenko.dev/blog/what-is-web-application-modern-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/what-is-web-application-modern-guide/</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Understand the core concepts of web applications, how they differ from traditional websites, their modern architectures (SPA, SSR, PWA), and why they are vital for business growth.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Web Development</category><category>Web Applications</category><category>Software Architecture</category><category>Frontend Development</category><category>Tech Trends</category>
+    </item>
+    <item>
+      <title>Frontend Engineering Trends in 2026: AI Builders, Full-Stack, and QA Automation</title>
+      <link>https://vynnychenko.dev/blog/frontend-engineering-trends-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/frontend-engineering-trends-2026/</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Explore the key career paths and technical directions for Frontend Engineers in 2026, focusing on AI-driven interfaces, full-stack capabilities, and modern QA automation.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Frontend Development</category><category>Web Development</category><category>Artificial Intelligence</category><category>Full-Stack</category><category>QA Automation</category><category>Tech Trends</category>
+    </item>
+    <item>
+      <title>Maximizing AI Value in Marketing, Sales, Business Operations, and Daily Work</title>
+      <link>https://vynnychenko.dev/blog/maximizing-ai-value-marketing-sales-management/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/maximizing-ai-value-marketing-sales-management/</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Discover how to move beyond basic chatbot prompts and integrate AI systematically into your business. Learn actionable strategies for automating content creation, qualifying leads, streamlining CRM workflows, and supercharging daily productivity.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Artificial Intelligence</category><category>Business Automation</category><category>Digital Marketing</category><category>CRM Integrations</category><category>Productivity Hacks</category><category>Sales Strategies</category>
+    </item>
+    <item>
+      <title>Customizing Google Maps: Advanced Techniques with the Google Maps API</title>
+      <link>https://vynnychenko.dev/blog/google-maps-api-customization-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/google-maps-api-customization-guide/</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Learn how to transform default Google Maps into highly customized, brand-aligned visual experiences. We explore custom styling, Advanced Markers with custom HTML/SVG, performance optimizations, and interactive overlays.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Google Maps API</category><category>Frontend Development</category><category>UX Design</category><category>JavaScript</category><category>Web Performance</category><category>Interactive Maps</category>
+    </item>
+    <item>
+      <title>How to Process 5x More Orders Without Expanding Staff: E-Commerce Automation</title>
+      <link>https://vynnychenko.dev/blog/how-to-process-5x-more-orders-without-expanding-staff/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/how-to-process-5x-more-orders-without-expanding-staff/</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Discover how to scale your sales capacity by 5x using modern frontend optimization, CRM APIs, automated shipping labels, and smart notification funnels-all without hiring more operators.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Business Automation</category><category>E-commerce</category><category>CRM Integration</category><category>API Integrations</category><category>Web Development</category><category>UX Optimization</category>
+    </item>
+    <item>
+      <title>Why Vercel and Vercel Analytics Dominate Web Development in 2026</title>
+      <link>https://vynnychenko.dev/blog/why-vercel-vercel-analytics-dominate-web-development-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/why-vercel-vercel-analytics-dominate-web-development-2026/</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Explore why Vercel remains the industry standard for hosting and optimization in 2026, and how its built-in, privacy-first Analytics helps developers maximize page speed and user retention.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Vercel</category><category>Web Analytics</category><category>Next.js</category><category>Core Web Vitals</category><category>Performance</category><category>Web Development</category>
+    </item>
+    <item>
+      <title>Behavioral Analytics &amp; AI-Microinteractions: Building an AI-UX Feedback Collector</title>
+      <link>https://vynnychenko.dev/blog/behavioral-analytics-ai-microinteractions-ux-feedback-collector/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/behavioral-analytics-ai-microinteractions-ux-feedback-collector/</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Learn how to build a client-side behavioral engine that tracks user hesitation, click patterns, and latency to trigger context-aware AI hints and interactive tooltips at the perfect moment.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>AI Integration</category><category>UX Design</category><category>React</category><category>Behavioral Tracking</category><category>Micro-interactions</category><category>Frontend Logic</category>
+    </item>
+    <item>
+      <title>Building an AI Cost Estimator: Parsing LLM Outputs into Interactive UI Components</title>
+      <link>https://vynnychenko.dev/blog/ai-calculator-b2b-estimator-structured-json-react/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/ai-calculator-b2b-estimator-structured-json-react/</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Learn how to build an interactive B2B cost estimator. We show how to parse unstructured user input into typed JSON using LLM Structured Outputs, and bind it to React sliders, charts, and accordions.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>AI Integration</category><category>React</category><category>Zod</category><category>Structured Outputs</category><category>UI Components</category><category>Web Development</category>
+    </item>
+    <item>
+      <title>Dynamic Landing Pages: Real-Time AI Copy Adaptation without Layout Shifts (CLS)</title>
+      <link>https://vynnychenko.dev/blog/dynamic-landing-pages-ai-copy-adapt-cls-prevention/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/dynamic-landing-pages-ai-copy-adapt-cls-prevention/</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Learn how to build high-converting landing pages that adapt headlines and CTAs to traffic sources in real time. We explore both Edge Middleware (SSR) and Client-Side hydration techniques that prevent Cumulative Layout Shift (CLS).</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Web Development</category><category>Next.js</category><category>Conversion Optimization</category><category>Core Web Vitals</category><category>AI Integration</category>
+    </item>
+    <item>
+      <title>From Search Bar to Sales Engine: Site Search That Completes the Order, Not the Blank Page</title>
+      <link>https://vynnychenko.dev/blog/why-your-business-needs-site-search-in-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/why-your-business-needs-site-search-in-2026/</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <description>In 2026, users shaped by AI expect websites to understand their intent, not just keywords. Discover why modern site search is crucial for conversions, first-party data, and customer retention.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Business Growth</category><category>Conversion Optimization</category><category>AI Search</category><category>User Experience</category><category>Web Development</category>
+    </item>
+    <item>
+      <title>How an Online Calculator on Your Website Attracts Leads and How Bringing It to Telegram Can Explode Your Sales</title>
+      <link>https://vynnychenko.dev/blog/online-calculator-lead-generator-website-telegram/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/online-calculator-lead-generator-website-telegram/</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Interactive calculators are the ultimate tool for turning passive visitors into active leads. Discover how cost estimators drive conversions on websites and how Telegram Mini Apps can take your sales to the next level through direct engagement.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Lead Generation</category><category>Telegram Mini Apps</category><category>Conversion Optimization</category><category>Web Development</category><category>Business Automation</category>
+    </item>
+    <item>
+      <title>The Rise of Solo Developers and the Decline of Agencies on Upwork in 2026: Why Direct Communication Wins</title>
+      <link>https://vynnychenko.dev/blog/upwork-solo-developer-vs-agency-trend-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/upwork-solo-developer-vs-agency-trend-2026/</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Explore why international clients in 2026 are shifting away from digital agencies on Upwork in favor of solo developers, and how direct communication and AI-enhanced productivity are redefining successful software delivery.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Upwork</category><category>Freelance</category><category>Solo Developer</category><category>Business Strategy</category><category>Communication</category>
+    </item>
+    <item>
+      <title>The &quot;Lazy Lead&quot; Phenomenon in 2026: How to Attract High-Quality Leads Instantly</title>
+      <link>https://vynnychenko.dev/blog/lazy-lead-phenomenon-2026-attraction-strategies/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/lazy-lead-phenomenon-2026-attraction-strategies/</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <description>In 2026, user attention spans are shorter than ever, creating the era of the &quot;lazy lead.&quot; Discover how to optimize your website for instant value, 1-click interactions, and AI-driven qualification to capture premium clients without friction.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Lead Generation</category><category>Conversion Rate Optimization</category><category>UI/UX Design</category><category>Web Development</category><category>Business Strategy</category>
+    </item>
+    <item>
+      <title>Why Foreign Clients Prefer Upwork: Security, Contracts, and Hassle-Free Payments</title>
+      <link>https://vynnychenko.dev/blog/benefits-of-using-upwork-for-foreign-clients/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/benefits-of-using-upwork-for-foreign-clients/</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Discover the key advantages of using Upwork for international client-developer collaboration-from legally compliant invoicing and automated contracts to complete peace of mind with escrow and hourly protection.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Upwork</category><category>Freelance</category><category>Contracts</category><category>Payments</category><category>Collaboration</category>
+    </item>
+    <item>
+      <title>Prompt Engineering for Developers: Advanced Techniques for Coding, Refactoring, and Unit Testing</title>
+      <link>https://vynnychenko.dev/blog/prompt-engineering-for-developers-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/prompt-engineering-for-developers-guide/</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Master prompt engineering to accelerate your software development cycle. Explore concrete, copy-pasteable prompting strategies for writing production-grade React components, debugging memory leaks, and crafting high-coverage unit tests.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>AI Integration</category><category>Prompt Engineering</category><category>React</category><category>Next.js</category><category>Testing</category>
+    </item>
+    <item>
+      <title>Integrating AI Chatbots into Web Apps: From Basic API to Streaming Responses in Next.js</title>
+      <link>https://vynnychenko.dev/blog/integrating-ai-chatbots-streaming-nextjs/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/integrating-ai-chatbots-streaming-nextjs/</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Learn how to integrate AI models like OpenAI and Anthropic into web applications. We cover simple API calls, Server-Sent Events (SSE) for real-time response streaming, and building chat interfaces in Next.js.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>AI Integration</category><category>Next.js</category><category>Server-Sent Events</category><category>WebSockets</category><category>OpenAI</category>
+    </item>
+    <item>
+      <title>How to Build an Interactive Telegram Bot with Web App for Restaurants and Food Delivery</title>
+      <link>https://vynnychenko.dev/blog/telegram-bot-web-app-food-delivery-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-bot-web-app-food-delivery-guide/</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Discover how to build a modern food delivery system in Telegram. Learn how to combine a responsive Telegram Bot with an interactive Web App for ordering, payment integration, and real-time updates.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Mini Apps</category><category>Food Delivery</category><category>Web Development</category><category>React</category><category>Node.js</category>
+    </item>
+    <item>
+      <title>Page Speed vs Website Builders: Why a Fast Custom Landing Beats a Slow Template</title>
+      <link>https://vynnychenko.dev/blog/why-you-need-fast-simple-website-or-blog/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/why-you-need-fast-simple-website-or-blog/</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Planning to launch a simple website, landing page, or personal blog? Discover why loading speed is the most critical metric for conversion and SEO, how custom solutions outclass generic website builders, and how to get started.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Web Performance</category><category>Next.js</category><category>SEO</category><category>Web Development</category><category>Blogging</category>
+    </item>
+    <item>
+      <title>Telegram Mini Apps Fintech Development: KYC, Payments, Architecture</title>
+      <link>https://vynnychenko.dev/blog/telegram-mini-apps-fintech-development-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-mini-apps-fintech-development-guide/</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Telegram Mini Apps fintech development: Mini App architecture, KYC, payment safety, and how to ship a financial product inside Telegram.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Mini Apps</category><category>Fintech</category><category>Payments</category><category>Web Development</category><category>Mobile Apps</category>
+    </item>
+    <item>
+      <title>What Does &quot;AWS Knowledge&quot; Actually Mean for a Frontend Developer?</title>
+      <link>https://vynnychenko.dev/blog/what-aws-knowledge-means-for-frontend-developer/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/what-aws-knowledge-means-for-frontend-developer/</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Many frontend job descriptions list AWS as a key requirement. Let’s demystify what specific services and configurations (S3, CloudFront, Lambda, Cognito, SDK) are actually expected from a frontend engineer.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>AWS</category><category>Cloud Hosting</category><category>Serverless</category><category>DevOps</category>
+    </item>
+    <item>
+      <title>How to Leverage AI in Email Development and Newsletter Distribution</title>
+      <link>https://vynnychenko.dev/blog/how-ai-transforms-email-marketing-and-development/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/how-ai-transforms-email-marketing-and-development/</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Discover how AI tools and APIs can revolutionize your email marketing. From coding responsive templates with React Email to automating dynamic, hyper-personalized newsletters.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Email Marketing</category><category>AI/ML</category><category>React Email</category><category>Automation</category>
+    </item>
+    <item>
+      <title>Why Backend &amp; ML Engineers Need a Frontend Partner: The AI-UX Synergy</title>
+      <link>https://vynnychenko.dev/blog/frontend-developer-value-for-backend-ml-llm/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/frontend-developer-value-for-backend-ml-llm/</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Discover how Frontend developers act as strategic partners for ML and Backend engineers. From building AI playgrounds and evaluation tools to optimizing SSE streaming and human-in-the-loop annotation.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Web Development</category><category>AI/ML</category><category>Developer Experience</category><category>UX/UI</category><category>LLM</category>
+    </item>
+    <item>
+      <title>Local-First Web Applications: The Future of Instant UX and Offline-First Architecture</title>
+      <link>https://vynnychenko.dev/blog/local-first-web-applications-future-of-ux/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/local-first-web-applications-future-of-ux/</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Explore the paradigm shift to Local-First web development. Learn how CRDTs, client-side databases, and real-time sync engines eliminate latency and enable offline functionality.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Local-First</category><category>Web Architecture</category><category>CRDT</category><category>React</category><category>Offline-First</category>
+    </item>
+    <item>
+      <title>Retention and Recurring Visits: Custom Booking and CRM for a Salon or Clinic</title>
+      <link>https://vynnychenko.dev/blog/optimizing-service-business-with-web-solutions/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/optimizing-service-business-with-web-solutions/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Learn how service-based businesses like cosmetology clinics and massage centers can automate scheduling, boost customer retention, and grow revenue through Next.js-powered web solutions.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Business Automation</category><category>Next.js</category><category>Case Study</category><category>Web Solutions</category>
+    </item>
+    <item>
+      <title>Custom Telegram Bots for Utility and Service Payments: Integrating Stripe, PayPal, and Global Payment Gateways</title>
+      <link>https://vynnychenko.dev/blog/telegram-bots-utility-service-payments-integration/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-bots-utility-service-payments-integration/</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Discover how custom Telegram bots can automate utility bill payments and service ordering by integrating Stripe, PayPal, and global/regional payment gateways.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Telegram Bots</category><category>Payments</category><category>Automation</category><category>Stripe</category><category>PayPal</category>
+    </item>
+    <item>
+      <title>How to Automate Business Processes with AI — Without Giving It the Keys</title>
+      <link>https://vynnychenko.dev/blog/how-to-automate-business-processes-with-ai/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/how-to-automate-business-processes-with-ai/</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description>How to automate business processes with AI: support, documents, code, sales — with a human confirm on money and public actions. A four-track roadmap, not a chatbot demo.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>AI</category><category>Automation</category><category>Business</category><category>Web Development</category><category>Productivity</category>
+    </item>
+    <item>
+      <title>How to Contact Me and Ordering Options: Complete Client Cooperation Guide</title>
+      <link>https://vynnychenko.dev/blog/how-to-contact-me-and-ordering-options/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/how-to-contact-me-and-ordering-options/</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <description>A detailed overview of contact channels, service offerings (turnkey web apps, Figma to Code, optimization &amp; support), project estimation steps, and collaboration formats.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Contact</category><category>Services</category><category>Cooperation</category><category>Freelance</category><category>Ordering</category>
+    </item>
+    <item>
+      <title>The Power of Communication: How I Work with Clients Across Different Countries and Diverse Businesses</title>
+      <link>https://vynnychenko.dev/blog/multicultural-client-collaboration-and-communication/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/multicultural-client-collaboration-and-communication/</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+      <description>My experience collaborating with clients from the US to Germany and Ukraine: why flexibility, proactive communication, and active listening are the main keys to the success of any project.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Communication</category><category>Collaboration</category><category>Freelance</category><category>Experience</category>
+    </item>
+    <item>
+      <title>Figma to Code: How to Hire a Developer Who Translates Complex Design into a Pixel-Perfect Site Without Surprises</title>
+      <link>https://vynnychenko.dev/blog/figma-to-code-hiring-guide/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/figma-to-code-hiring-guide/</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description>Design agencies invest hundreds of hours into Figma designs. But finding a developer who can bring it to life pixel-for-pixel without constant micro-management is a challenge. Here is your hiring checklist.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Figma to Code</category><category>Hiring Guide</category><category>UX/UI</category><category>Freelance</category>
+    </item>
+    <item>
+      <title>Common Mistakes in Web Platform Development and How to Avoid Them at the Start</title>
+      <link>https://vynnychenko.dev/blog/common-mistakes-in-web-platform-development/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/common-mistakes-in-web-platform-development/</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>Why do most web platforms exceed budget and timelines before launch? Analyze critical engineering and product mistakes at the start and how to prevent them.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Mistakes</category><category>Business</category><category>Development</category><category>Product Strategy</category>
+    </item>
+    <item>
+      <title>Scalable Next.js / TypeScript Application Architecture: Designing a Production-Ready Next.js Architecture</title>
+      <link>https://vynnychenko.dev/blog/scalable-nextjs-typescript-architecture/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/scalable-nextjs-typescript-architecture/</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description>How to design a Next.js project structure and production-ready Next.js architecture that won't turn into spaghetti code in a year? Practical tips on folder organization, strict typing, state management, and rendering optimization.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Next.js</category><category>TypeScript</category><category>Architecture</category><category>Web Development</category>
+    </item>
+    <item>
+      <title>From Design Mockup to Production: How to Avoid 'Loss of Quality' When Implementing Complex Interfaces</title>
+      <link>https://vynnychenko.dev/blog/from-design-mockup-to-production-quality/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/from-design-mockup-to-production-quality/</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description>Why does a perfect Figma design often turn into a mediocre layout in the browser? Discover how to structure handoffs and code implementation to preserve every design detail.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Frontend</category><category>UX/UI</category><category>Design System</category><category>Pixel Perfect</category>
+    </item>
+    <item>
+      <title>Refactoring Legacy UI: How to Update the Interface Without Product Downtime</title>
+      <link>https://vynnychenko.dev/blog/refactoring-legacy-ui-without-downtime/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/refactoring-legacy-ui-without-downtime/</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <description>Updating the UI of a live product is like repairing a plane mid-flight. Discover safe UI refactoring strategies that protect user retention and avoid tech debt.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Refactoring</category><category>UX/UI</category><category>Frontend</category><category>Web Development</category>
+    </item>
+    <item>
+      <title>Why Online Booking on Your Website Boosts Business Revenue in 2026</title>
+      <link>https://vynnychenko.dev/blog/online-booking-system-benefits-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/online-booking-system-benefits-2026/</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description>Manual DM scheduling and missed calls cost service businesses up to 40% in lost revenue. Discover how online booking automates customer intake 24/7 and eliminates no-shows.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Online Booking</category><category>Automation</category><category>Business</category><category>Conversion</category><category>CRM</category>
+    </item>
+    <item>
+      <title>How to Increase Online Course Sales in 2026 - From Social Hype to Own Platform</title>
+      <link>https://vynnychenko.dev/blog/how-to-increase-course-sales-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/how-to-increase-course-sales-2026/</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description>Social media launches alone are no longer enough. Discover how to scale online course sales in 2026 using custom landing pages, automated funnels, and organic search traffic.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Online Courses</category><category>EdTech</category><category>Sales</category><category>Web Platform</category><category>Automation</category>
+    </item>
+    <item>
+      <title>Bookings Without the DM Chaos: A Cosmetologist Site That Collects Deposits</title>
+      <link>https://vynnychenko.dev/blog/why-cosmetologist-needs-website-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/why-cosmetologist-needs-website-2026/</guid>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <description>Social media algorithms cut reach and direct messages cause scheduling chaos. Discover why a website helps a cosmetologist automate bookings, build medical trust, and attract high-ticket clients.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Cosmetology</category><category>Business</category><category>Website</category><category>Automation</category><category>SEO</category>
+    </item>
+    <item>
+      <title>What Is Mobile-First Approach - Why It Is the Modern Web Standard</title>
+      <link>https://vynnychenko.dev/blog/mobile-first-approach-explained/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/mobile-first-approach-explained/</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Designing for mobile first is no longer optional. Learn how Progressive Enhancement boosts user experience, speed, and Google SEO rankings.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Mobile-First</category><category>UX/UI</category><category>Web Development</category><category>SEO</category>
+    </item>
+    <item>
+      <title>You Outgrew the Profile: Five Signs Instagram and Telegram No Longer Scale the Business</title>
+      <link>https://vynnychenko.dev/blog/when-business-needs-a-website/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/when-business-needs-a-website/</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Social media brings attention, but a website builds trust and scales your business. Learn when your business critically needs a website and why.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Business</category><category>Website</category><category>Strategy</category><category>Development</category>
+    </item>
+    <item>
+      <title>Reach Is Cheap, Trust Is Not: What a Feed Cannot Do When Someone Is About to Pay</title>
+      <link>https://vynnychenko.dev/blog/why-your-business-needs-a-website/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/why-your-business-needs-a-website/</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Social media brings attention. A website brings trust. Here is why serious businesses invest in their own home on the web.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Business</category><category>Website</category><category>Strategy</category>
+    </item>
+    <item>
+      <title>Where to Look and How to Screen: Finding a Web Developer Without Burning the Budget</title>
+      <link>https://vynnychenko.dev/blog/how-to-find-web-developer/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/how-to-find-web-developer/</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Searching for and finding a web developer can feel overwhelming. Here is a practical guide to finding the right person - fast, safely, and with confidence.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Web Developer</category><category>Hiring</category><category>Freelance</category>
+    </item>
+    <item>
+      <title>Next.js for a Marketing Homepage: SSR, Caching, and Why It Beats a Default CMS</title>
+      <link>https://vynnychenko.dev/blog/why-your-business-needs-nextjs/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/why-your-business-needs-nextjs/</guid>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Slow websites lose customers before they even see your offer. Here is why Next.js is the smart choice for business growth.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Next.js</category><category>Performance</category><category>Business</category>
+    </item>
+    <item>
+      <title>Frontend Hiring Checklist for Founders: Portfolio, Stack, and Red Flags Before the Contract</title>
+      <link>https://vynnychenko.dev/blog/how-to-choose-frontend-developer/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/how-to-choose-frontend-developer/</guid>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Not all developers deliver the same value. A practical checklist for founders and product owners hiring for web projects.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Hiring</category><category>Freelance</category><category>Tips</category>
+    </item>
+    <item>
+      <title>Core Web Vitals: Why Website Speed Directly Affects Revenue</title>
+      <link>https://vynnychenko.dev/blog/core-web-vitals-and-revenue/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/core-web-vitals-and-revenue/</guid>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Google measures user experience - and so do your customers. Learn how performance metrics tie to real business outcomes.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Performance</category><category>SEO</category><category>Core Web Vitals</category>
+    </item>
+    <item>
+      <title>React vs WordPress: Is React Better Than WordPress for Your Business Website?</title>
+      <link>https://vynnychenko.dev/blog/react-vs-wordpress-for-business/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/react-vs-wordpress-for-business/</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description>WordPress is familiar; React is flexible. Is React better than WordPress? Explore this honest, detailed comparison of speed, SEO, security, and customizability to pick the right platform for your business.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>React</category><category>WordPress</category><category>Strategy</category><category>Web Development</category>
+    </item>
+    <item>
+      <title>From First Call to Launch: How a Freelance Web Engagement Actually Runs</title>
+      <link>https://vynnychenko.dev/blog/working-with-freelance-web-developer/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/working-with-freelance-web-developer/</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+      <description>A transparent look at the process - from first call to launch and ongoing support - so you know exactly what you are signing up for.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Process</category><category>Collaboration</category><category>Freelance</category>
+    </item>
+  </channel>
+</rss>

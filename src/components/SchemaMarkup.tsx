@@ -1,9 +1,11 @@
 import { BlogPost } from '@/data/blog-posts'
 import { services, type ServiceId } from '@/data/services'
 import { translations } from '@/data/translations'
+import { getBlogPostModified, getBlogPostPlainText, getBlogPostWordCount } from '@/lib/blog-seo'
 import type { Language } from '@/lib/i18n'
 import { getBlogIndexPath, getBlogPostPath, getHomePath, LOCALE_TAGS, withLangPrefix } from '@/lib/i18n'
 import { SITE_OG_IMAGE_URL } from '@/lib/seo'
+import { AUTHOR_JOB_TITLE, AUTHOR_NAME, SAME_AS } from '@/lib/site'
 
 type Lang = Language
 
@@ -12,23 +14,25 @@ interface SchemaProps {
 }
 
 const copy = {
-  name: {
-    en: 'Iryna Vynnychenko',
-    ua: 'Ірина Винниченко',
-    de: 'Iryna Vynnychenko',
-    fr: 'Iryna Vynnychenko',
-    es: 'Iryna Vynnychenko',
-    it: 'Iryna Vynnychenko',
-    tr: 'Iryna Vynnychenko',
+  name: AUTHOR_NAME,
+  jobTitle: AUTHOR_JOB_TITLE,
+  home: {
+    en: 'Home',
+    ua: 'Головна',
+    de: 'Startseite',
+    fr: 'Accueil',
+    es: 'Inicio',
+    it: 'Home',
+    tr: 'Ana sayfa',
   },
-  jobTitle: {
-    en: 'Frontend & Full-Stack Engineer',
-    ua: 'Frontend і Full-Stack інженерка',
-    de: 'Frontend- und Full-Stack-Engineerin',
-    fr: 'Ingénieure frontend & full-stack',
-    es: 'Ingeniera frontend y full-stack',
-    it: 'Ingegnera frontend e full-stack',
-    tr: 'Frontend ve Full-Stack mühendisi',
+  blog: {
+    en: 'Blog',
+    ua: 'Блог',
+    de: 'Blog',
+    fr: 'Blog',
+    es: 'Blog',
+    it: 'Blog',
+    tr: 'Blog',
   },
   personDescription: {
     en: 'Frontend and fullstack Next.js: Telegram Mini Apps, AI solutions for business, marketing sites, Webflow, WordPress, static, GSAP animation. 4,200+ Upwork hours, 100% Job Success, NDA-ready.',
@@ -198,10 +202,7 @@ export function ProfilePageSchema({ lang }: SchemaProps) {
       url: 'https://vynnychenko.dev',
       image: SITE_OG_IMAGE_URL,
       description: copy.personDescription[lang],
-      sameAs: [
-        'https://www.linkedin.com/in/iryna-vynnychenko-287202141/',
-        'https://www.upwork.com/freelancers/irynavynnychenko',
-      ],
+      sameAs: [...SAME_AS],
       knowsAbout: copy.skills[lang],
       address: {
         '@type': 'PostalAddress',
@@ -214,6 +215,10 @@ export function ProfilePageSchema({ lang }: SchemaProps) {
         '@type': 'Organization',
         name: 'Upwork',
       },
+    },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['#hero-answer'],
     },
   }
 
@@ -234,6 +239,11 @@ export function WebSiteSchema({ lang }: SchemaProps) {
     description: copy.siteDescription[lang],
     inLanguage: LOCALE_TAGS[lang],
     image: SITE_OG_IMAGE_URL,
+    author: {
+      '@type': 'Person',
+      name: copy.name[lang],
+      url: `https://vynnychenko.dev${getHomePath(lang)}`,
+    },
   }
 
   return (
@@ -270,6 +280,7 @@ export function BlogSchema({ posts, lang }: BlogSchemaProps) {
       headline: post.title,
       description: post.excerpt,
       datePublished: post.date,
+      dateModified: getBlogPostModified(post),
       url: `https://vynnychenko.dev${getBlogPostPath(lang, post.slug)}`,
       image: SITE_OG_IMAGE_URL,
     })),
@@ -291,38 +302,85 @@ export function BlogPostingSchema({ post, lang }: BlogPostingSchemaProps) {
   const authorName = copy.name[lang]
   const authorUrl = `https://vynnychenko.dev${getHomePath(lang)}`
   const postUrl = `https://vynnychenko.dev${getBlogPostPath(lang, post.slug)}`
+  const articleBody = getBlogPostPlainText(post)
+  const modified = getBlogPostModified(post)
+  const homeUrl = `https://vynnychenko.dev${getHomePath(lang)}`
+  const blogUrl = `https://vynnychenko.dev${getBlogIndexPath(lang)}`
 
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
+    articleBody,
+    wordCount: getBlogPostWordCount(post),
     datePublished: post.date,
-    dateModified: post.date,
-    mainEntityOfPage: postUrl,
+    dateModified: modified,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': postUrl,
+    },
     url: postUrl,
     inLanguage: LOCALE_TAGS[lang],
     keywords: post.tags.join(', '),
+    isAccessibleForFree: true,
     image: SITE_OG_IMAGE_URL,
     author: {
       '@type': 'Person',
       name: authorName,
       url: authorUrl,
       image: SITE_OG_IMAGE_URL,
+      sameAs: [...SAME_AS],
     },
     publisher: {
       '@type': 'Person',
       name: authorName,
       url: 'https://vynnychenko.dev',
       image: SITE_OG_IMAGE_URL,
+      sameAs: [...SAME_AS],
+    },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['#article-excerpt'],
     },
   }
 
+  const breadcrumbs = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: copy.home[lang],
+        item: homeUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: copy.blog[lang],
+        item: blogUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: post.title,
+        item: postUrl,
+      },
+    ],
+  }
+
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
+      />
+    </>
   )
 }
 
@@ -377,9 +435,14 @@ export function ServicePageSchema({ id, lang }: SchemaProps & { id: ServiceId })
       name: authorName,
       url: authorUrl,
       image: SITE_OG_IMAGE_URL,
+      sameAs: [...SAME_AS],
     },
     areaServed: 'Worldwide',
     email: 'i.vynnychenko@gmail.com',
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['#service-lead'],
+    },
   }
 
   const faqSchema = {

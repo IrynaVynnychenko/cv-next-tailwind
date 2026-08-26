@@ -11,6 +11,7 @@ export type BlogPost = {
   title: string
   excerpt: string
   date: string
+  updated: string
   readTime: string
   tags: string[]
   content: BlogSection[]
@@ -35,6 +36,7 @@ export type LocalizedSection = {
 export type RawBlogPost = {
   slug: string
   date: string
+  updated?: string
   title: LocalizedText
   excerpt: LocalizedText
   readTime: LocalizedText

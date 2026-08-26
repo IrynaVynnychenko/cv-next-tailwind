@@ -4,8 +4,9 @@ import Link from 'next/link'
 import type { BlogPost } from '@/data/blog-posts'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
-import { getBlogPostPath, LOCALE_TAGS, type Language } from '@/lib/i18n'
+import { getBlogPostPath, getHomePath, LOCALE_TAGS, type Language } from '@/lib/i18n'
 import { Badge } from '@/components/Panel'
+import { AUTHOR_NAME } from '@/lib/site'
 
 function formatDate(dateString: string, lang: Language) {
   return new Date(dateString).toLocaleDateString(LOCALE_TAGS[lang], {
@@ -34,6 +35,10 @@ export default function BlogPostList({ posts }: BlogPostListProps) {
               <time dateTime={post.date}>{formatDate(post.date, language)}</time>
               <span>·</span>
               <span>{post.readTime}</span>
+              <span>·</span>
+              <a href={getHomePath(language)} rel="author" className="hover:text-foreground">
+                {AUTHOR_NAME[language]}
+              </a>
             </div>
 
             <h2 className="mb-2 text-lg font-semibold tracking-tight">

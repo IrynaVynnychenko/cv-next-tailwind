@@ -4,7 +4,7 @@ import BlogPostDetailClient from '@/components/BlogPostDetailClient'
 import { SetLanguageClient } from '@/components/SetLanguageClient'
 import { getBlogPost, rawBlogPosts } from '@/data/blog-posts'
 import { BlogPostingSchema } from '@/components/SchemaMarkup'
-import { getBlogPostAlternates, getOpenGraphImages, getTwitterImageMetadata } from '@/lib/seo'
+import { getBlogPostMetadata } from '@/lib/blog-seo'
 
 type BlogPostPageProps = {
   params: { slug: string }
@@ -15,27 +15,7 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: BlogPostPageProps): Metadata {
-  const post = getBlogPost(params.slug, 'tr')
-
-  if (!post) {
-    return { title: 'Yazı bulunamadı' }
-  }
-
-  const alternates = getBlogPostAlternates(params.slug, 'tr')
-
-  return {
-    title: `${post.title} - Iryna Vynnychenko | Kıdemli Web ve Frontend Geliştirici`,
-    description: post.excerpt,
-    alternates,
-    openGraph: {
-      title: post.title,
-      description: post.excerpt,
-      type: 'article',
-      url: alternates.canonical,
-      images: getOpenGraphImages(),
-    },
-    twitter: getTwitterImageMetadata(),
-  }
+  return getBlogPostMetadata(params.slug, 'tr')
 }
 
 export default function TrBlogPostPage({ params }: BlogPostPageProps) {

@@ -22,7 +22,7 @@ export default function ServiceLanding({ id }: { id: ServiceId }) {
           {s.availability[language]}
         </p>
         <h1 className="mt-3 max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">{s.h1[language]}</h1>
-        <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted-foreground">{s.lead[language]}</p>
+        <p id="service-lead" className="mt-4 max-w-2xl text-sm leading-relaxed text-muted-foreground">{s.lead[language]}</p>
         <div className="mt-6 flex flex-wrap items-center gap-2">
           <a
             href={mailto}
@@ -65,7 +65,7 @@ export default function ServiceLanding({ id }: { id: ServiceId }) {
           {s.faq.map((item) => (
             <details key={item.q.en} className="group border-b border-edge last:border-b-0">
               <summary className="flex w-full cursor-pointer list-none items-center justify-between gap-4 px-4 py-4 text-left transition-colors hover:bg-accent-muted [&::-webkit-details-marker]:hidden">
-                <span className="pr-2 font-medium">{item.q[language]}</span>
+                <h3 className="min-w-0 flex-1 pr-2 text-base font-medium">{item.q[language]}</h3>
                 <svg
                   className="size-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
                   fill="none"

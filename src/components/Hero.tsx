@@ -97,7 +97,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <p className="border-x border-t border-edge px-4 py-3 text-sm leading-relaxed text-muted-foreground">
+      <p id="hero-answer" className="border-x border-t border-edge px-4 py-3 text-sm leading-relaxed text-muted-foreground">
         {c.heroAnswer}
       </p>
 

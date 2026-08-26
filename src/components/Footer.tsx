@@ -25,6 +25,12 @@ export default function Footer() {
             {services[id].navLabel[language]}
           </Link>
         ))}
+        <a href="/rss.xml" className="hover:text-foreground">
+          RSS
+        </a>
+        <a href="/llms.txt" className="hover:text-foreground">
+          llms.txt
+        </a>
       </nav>
       {t.text}
     </footer>

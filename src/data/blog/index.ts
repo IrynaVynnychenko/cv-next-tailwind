@@ -180,6 +180,7 @@ export function getBlogPost(slug: string, lang: BlogLang = 'en'): BlogPost | und
   return {
     slug: raw.slug,
     date: raw.date,
+    updated: raw.updated || raw.date,
     title: pickText(raw.title, lang),
     excerpt: pickText(raw.excerpt, lang),
     readTime: pickText(raw.readTime, lang),

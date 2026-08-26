@@ -1,0 +1,51 @@
+# Iryna Vynnychenko
+
+> Iryna Vynnychenko, Senior Web Engineer in Kyiv. Fullstack Next.js for SaaS, MVPs, and Telegram Mini Apps - and marketing sites on Webflow, WordPress, or static. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.
+
+Iryna Vynnychenko (Ірина Винниченко) is a Frontend & Full-Stack Engineer in Kyiv, Ukraine. Available for remote B2B contracts globally.
+
+## Identity
+
+- Name: Iryna Vynnychenko / Ірина Винниченко
+- Role: Frontend & Full-Stack Engineer
+- Location: Kyiv, Ukraine
+- Site: https://vynnychenko.dev
+- Email: i.vynnychenko@gmail.com
+- Profiles: https://www.linkedin.com/in/iryna-vynnychenko-287202141/, https://www.upwork.com/freelancers/irynavynnychenko, https://github.com/irynavynnychenko
+
+## Services
+
+- [Website development](https://vynnychenko.dev/website-development/): I build marketing sites as a senior web engineer — Next.js, WordPress, or Webflow. The stack follows the job: custom and fast, weekly publishing, or pages you edit without a deploy. Direct contractor, not an agency. 8+ years in production, 4,200+ Upwork hours.
+- [Web app development](https://vynnychenko.dev/web-apps/): I build web apps as a senior web engineer — Next.js, React, APIs, PostgreSQL. This is not a marketing site: login, state, payments, ops. Direct contractor, not an agency. 8+ years in production, 4,200+ Upwork hours.
+- [Telegram Mini App development](https://vynnychenko.dev/telegram-mini-apps/): I build Mini Apps and payment bots as a senior web engineer — Next.js, React, webhooks, Stripe / LiqPay / Monobank / TON. Direct contractor, not an agency. 8+ years in production, 4,200+ Upwork hours.
+- [AI solutions for business](https://vynnychenko.dev/ai-solutions/): I wire AI into an existing product: RAG on your documents, agents that call tools with a human on the rejects, CRM / ops hooks, and a Next.js UI. 8+ years shipping software, 4,200+ Upwork hours.
+
+## Key pages
+
+- [Home](https://vynnychenko.dev/)
+- [Experience](https://vynnychenko.dev/experience/)
+- [Blog](https://vynnychenko.dev/blog/)
+- Ukrainian: https://vynnychenko.dev/ua/
+- German: https://vynnychenko.dev/de/
+- French: https://vynnychenko.dev/fr/
+- Spanish: https://vynnychenko.dev/es/
+- Italian: https://vynnychenko.dev/it/
+- Turkish: https://vynnychenko.dev/tr/
+
+## Selected writing
+
+- [Google Rank Is Not Enough - ChatGPT Has to Cite You Before the Customer Clicks](https://vynnychenko.dev/blog/geo-chatgpt-citations-for-business-2026/): Buyers now ask ChatGPT, Perplexity, and Google AI Overviews who to hire. Ranking on Google does not put your name in that answer. What GEO actually is, why a JS-only site is invisible, and what I put on a page so a model can cite it.
+- [What SEO Actually Is - and Why a Site Without It Misses the Buyer Who Already Typed the Job](https://vynnychenko.dev/blog/what-is-seo-and-why-it-matters/): SEO is not keywords in the footer and not a plugin. It is making a page findable when someone already typed the job into Google. What that actually means, why ads and Instagram do not replace it, and what I put on a site so a crawler can rank it.
+- [What a Telegram Mini App Actually Is - and When I Would Build One](https://vynnychenko.dev/blog/what-is-telegram-mini-app/): A Mini App is a web product that runs inside Telegram - not a bot, not a native app. How it is wired, how initData auth actually works, the UX constraints that kill a pasted website, and when I would ship one instead of a site.
+- [A One-Page Site for Solo Work: Tutor, Nail Tech, Four-Table Cafe](https://vynnychenko.dev/blog/why-even-smallest-business-needs-website-2026/): A tutor, a nail tech, a four-table cafe: you do not need a 40-page portal. You need one fast page you own - because Instagram, Telegram, and Maps are rented, and strangers check you before they pay.
+- [Hours, Trust, and More Orders: What a Shop or Clinic Site Actually Buys an SMB](https://vynnychenko.dev/blog/website-for-smb-business-benefits/): A site is not a status page. For an SMB it is a 24/7 sales desk, a Google listing you own, and a way to grow the number of people who actually order - not only those who already know you from a feed.
+- [An Agent Acts. A Chatbot Answers. Do Not Give the Model the Till](https://vynnychenko.dev/blog/ai-agent-vs-chatbot-for-small-business/): A chatbot produces text. An agent calls tools - books a slot, sends an invoice, hits an API. What a ten-person company can bound this month, what must stay behind a human confirm, and how I would wire that in Next.js after this summer’s agent-security news.
+- [An LLM in a Paid Workflow: Tickets, Emails, and PDFs Become a Step a Human Can Audit](https://vynnychenko.dev/blog/what-is-an-llm-in-business/): An LLM in business is not “we have ChatGPT.” It is a model that turns language - tickets, emails, PDFs - into a step a paid workflow can run, with a human on the edge cases.
+- [How I Would Build an MVP - and How I Actually Pick the Stack](https://vynnychenko.dev/blog/how-i-build-mvp-and-choose-tech-stack/): A practical playbook: what an MVP is (and is not), the five filters I use to pick technology, a default 2026 web stack, and what I refuse to add before the first real users.
+- [Core Web Vitals: Why Website Speed Directly Affects Revenue](https://vynnychenko.dev/blog/core-web-vitals-and-revenue/): Google measures user experience - and so do your customers. Learn how performance metrics tie to real business outcomes.
+- [From First Call to Launch: How a Freelance Web Engagement Actually Runs](https://vynnychenko.dev/blog/working-with-freelance-web-developer/): A transparent look at the process - from first call to launch and ongoing support - so you know exactly what you are signing up for.
+- [Telegram Mini Apps Worth Copying in 2026: Product Patterns, Not Clicker Clones](https://vynnychenko.dev/blog/telegram-mini-app-product-patterns-2026/): The interesting Mini Apps in 2026 are not Hamster copies. Seven product patterns I would actually steal: group-native tools, a dual PWA door, exclusive drops, internal ops, one-job AI, matching without a fleet, and Stars as the receipt - not the product.
+- [Website Payments in 2026: Checkout, Payment Link, and a Thank-You Page That Does Not Lie](https://vynnychenko.dev/blog/accept-payments-on-website-2026/): A card number in chat is not a checkout. How a site you own takes money: payment link or landing, Apple Pay on a phone, fiscal PDF on thank-you - and why /success must not mark the order paid.
+
+Full article list: https://vynnychenko.dev/llms-full.txt
+RSS: https://vynnychenko.dev/rss.xml
