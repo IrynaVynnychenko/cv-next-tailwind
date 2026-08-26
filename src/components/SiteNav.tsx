@@ -13,11 +13,13 @@ import {
   getBlogIndexPath,
   getEquivalentPath,
   getExperiencePath,
+  getHomePath,
   getLangFromPath,
   stripLangPrefix,
   withLangPrefix,
   type Language,
 } from '@/lib/i18n'
+import { IvFavicon } from './Icons'
 
 const LANG_OPTIONS: { code: Language; short: string; native: string }[] = [
   { code: 'ua', short: 'UA', native: 'Українська' },
@@ -120,7 +122,18 @@ export default function SiteNav() {
   return (
     <>
       <nav className="pointer-events-none fixed inset-x-0 top-4 z-[60] px-3 md:px-4">
-        <div className="mx-auto flex max-w-[1024px] items-center justify-end gap-2">
+        <div className="mx-auto flex max-w-[1024px] items-center justify-between gap-2 md:justify-end">
+          <Link
+            href={getHomePath(language)}
+            onClick={() => {
+              setOpen(false)
+              if (isHome) window.scrollTo({ top: 0, behavior: 'smooth' })
+            }}
+            className="pointer-events-auto size-8 overflow-hidden rounded-[7px] md:hidden"
+            aria-label={t.header.name}
+          >
+            <IvFavicon className="size-8" />
+          </Link>
           <div className="pointer-events-auto hidden w-fit items-center justify-center gap-0.5 overflow-x-auto no-scrollbar rounded-full border border-edge bg-background/80 px-2 py-1.5 shadow-lg backdrop-blur-md md:flex md:absolute md:left-1/2 md:-translate-x-1/2">
             {items.map((item) => {
               const active = isNavItemActive(item.id, pathname)
@@ -139,7 +152,7 @@ export default function SiteNav() {
             })}
           </div>
 
-          <div className="pointer-events-auto flex items-center gap-1 rounded-full border border-edge bg-background/80 p-1 shadow-lg backdrop-blur-md md:rounded-lg md:p-0.5">
+          <div className="pointer-events-auto flex items-center gap-1 rounded-lg border border-edge bg-background/80 p-0.5 shadow-lg backdrop-blur-md">
             <div className="hidden md:block">
               <LanguageChips compact />
             </div>
@@ -148,18 +161,18 @@ export default function SiteNav() {
             </div>
             <button
               type="button"
-              className="inline-flex size-10 items-center justify-center rounded-full text-foreground md:hidden"
+              className="inline-flex size-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-foreground md:hidden"
               aria-label={t.a11y.toggleMenu}
               aria-expanded={open}
               aria-controls="mobile-menu"
               onClick={() => setOpen((value) => !value)}
             >
               {open ? (
-                <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <svg className="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               ) : (
-                <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <svg className="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
               )}

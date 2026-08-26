@@ -61,3 +61,7 @@ export const UpworkIcon = ({ className = "w-5 h-5" }: { className?: string }) =>
   </svg>
 )
 
+export const IvFavicon = ({ className = 'size-8' }: { className?: string }) => (
+  <img src="/icon.svg" alt="" width={32} height={32} className={className} />
+)
+
