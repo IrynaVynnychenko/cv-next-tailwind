@@ -19,9 +19,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Ірина Винниченко | Frontend і Full-Stack | Webflow, WordPress, Next.js",
-  description: "Маркетингові сайти, Webflow, WordPress, статика, анімація GSAP і fullstack Next.js - UI, API, PostgreSQL. 4 200+ годин на Upwork, 100% Job Success.",
-  keywords: "Frontend, Full-Stack, Next.js, Webflow, WordPress, маркетинговий сайт, лендинг, анімація, GSAP, статика, React, Node.js, TypeScript, PostgreSQL, Україна, Upwork",
+  title: "Ірина Винниченко | Next.js, Telegram Mini Apps і AI",
+  description: "Розробка Telegram Mini App, AI рішення для бізнесу, fullstack Next.js. 4 200+ годин на Upwork, 100% Job Success.",
+  keywords: "розробка Telegram Mini App, AI рішення для бізнесу, Frontend, Full-Stack, Next.js, Webflow, WordPress, React, TypeScript, PostgreSQL, Україна, Upwork",
   authors: [{ name: "Ірина Винниченко" }],
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Ірина Винниченко | Frontend і Full-Stack | Webflow, WordPress, Next.js",
-    description: "Маркетингові сайти, Webflow, WordPress, анімація GSAP, fullstack Next.js. 4 200+ годин на Upwork · 100% Job Success.",
+    title: "Ірина Винниченко | Next.js, Telegram Mini Apps і AI",
+    description: "Розробка Telegram Mini App, AI рішення для бізнесу, fullstack Next.js. 4 200+ годин на Upwork · 100% Job Success.",
     url: 'https://vynnychenko.dev/ua/',
     siteName: 'Ірина Винниченко - Frontend і Full-Stack інженерка',
     type: "website",

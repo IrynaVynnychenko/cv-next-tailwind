@@ -19,7 +19,7 @@ export const translations = {
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Frontend & Full-Stack Engineer | SaaS, MVPs, fullstack Next.js, marketing sites',
+      subtitle: 'Frontend & Full-Stack Engineer | Telegram Mini Apps, Next.js, AI, marketing sites',
       tagline:
         'Two tracks: SaaS, MVPs, and AI-powered Web Apps on fullstack Next.js - and marketing sites on Webflow, WordPress, or static, with motion.',
       fullCycle:
@@ -262,6 +262,7 @@ export const translations = {
         location: 'Location',
         upwork: 'Upwork',
         telegram: 'Telegram',
+        viber: 'Viber',
         whatsapp: 'WhatsApp',
         linkedin: 'LinkedIn',
         locationValue: 'Kyiv, Ukraine',
@@ -354,7 +355,7 @@ export const translations = {
     },
     about: {
       title: 'Ірина Винниченко',
-      subtitle: 'Frontend і Full-Stack інженерка | SaaS, MVPs, fullstack Next.js, маркетингові сайти',
+      subtitle: 'Frontend і Full-Stack інженерка | Telegram Mini Apps, Next.js, AI, маркетингові сайти',
       tagline:
         'Два напрями: SaaS, MVPs і AI-powered Web Apps на fullstack Next.js - і маркетингові сайти на Webflow, WordPress або статиці, з анімацією.',
       fullCycle:
@@ -597,6 +598,7 @@ export const translations = {
         location: 'Місто',
         upwork: 'Upwork',
         telegram: 'Telegram',
+        viber: 'Viber',
         whatsapp: 'WhatsApp',
         linkedin: 'LinkedIn',
         locationValue: 'Київ, Україна',
@@ -689,7 +691,7 @@ export const translations = {
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Frontend- und Full-Stack-Engineerin | SaaS, MVPs, fullstack Next.js, Marketing-Sites',
+      subtitle: 'Frontend- und Full-Stack-Engineerin | Telegram Mini Apps, Next.js, KI, Marketing-Sites',
       tagline:
         'Zwei Schienen: SaaS, MVPs und AI-powered Web Apps auf fullstack Next.js - und Marketing-Sites in Webflow, WordPress oder statisch, mit Motion.',
       fullCycle:
@@ -937,6 +939,7 @@ export const translations = {
         location: 'Standort',
         upwork: 'Upwork',
         telegram: 'Telegram',
+        viber: 'Viber',
         whatsapp: 'WhatsApp',
         linkedin: 'LinkedIn',
         locationValue: 'Kiew, Ukraine',
@@ -1030,7 +1033,7 @@ export const translations = {
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Ingénieure frontend & full-stack | SaaS, MVPs, fullstack Next.js, sites marketing',
+      subtitle: 'Ingénieure frontend & full-stack | Telegram Mini Apps, Next.js, IA, sites marketing',
       tagline:
         'Deux pistes : SaaS, MVPs et AI-powered Web Apps en fullstack Next.js - et sites marketing en Webflow, WordPress ou statique, avec du motion.',
       fullCycle:
@@ -1278,6 +1281,7 @@ export const translations = {
         location: 'Localisation',
         upwork: 'Upwork',
         telegram: 'Telegram',
+        viber: 'Viber',
         whatsapp: 'WhatsApp',
         linkedin: 'LinkedIn',
         locationValue: 'Kyiv, Ukraine',
@@ -1371,7 +1375,7 @@ export const translations = {
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Ingeniera frontend y full-stack | SaaS, MVPs, fullstack Next.js, sitios de marketing',
+      subtitle: 'Ingeniera frontend y full-stack | Telegram Mini Apps, Next.js, IA, sitios de marketing',
       tagline:
         'Dos líneas: SaaS, MVPs y AI-powered Web Apps en fullstack Next.js - y sitios de marketing en Webflow, WordPress o estático, con motion.',
       fullCycle:
@@ -1614,6 +1618,7 @@ export const translations = {
         location: 'Ubicación',
         upwork: 'Upwork',
         telegram: 'Telegram',
+        viber: 'Viber',
         whatsapp: 'WhatsApp',
         linkedin: 'LinkedIn',
         locationValue: 'Kyiv, Ucrania',
@@ -1706,7 +1711,7 @@ export const translations = {
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Ingegnera frontend e full-stack | SaaS, MVPs, fullstack Next.js, siti marketing',
+      subtitle: 'Ingegnera frontend e full-stack | Telegram Mini Apps, Next.js, IA, siti marketing',
       tagline:
         'Due linee: SaaS, MVPs e AI-powered Web Apps su fullstack Next.js - e siti marketing su Webflow, WordPress o statico, con motion.',
       fullCycle:
@@ -1949,6 +1954,7 @@ export const translations = {
         location: 'Dove sono',
         upwork: 'Upwork',
         telegram: 'Telegram',
+        viber: 'Viber',
         whatsapp: 'WhatsApp',
         linkedin: 'LinkedIn',
         locationValue: 'Kyiv, Ucraina',
@@ -2041,7 +2047,7 @@ export const translations = {
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Frontend ve Full-Stack mühendisi | SaaS, MVPs, fullstack Next.js, pazarlama siteleri',
+      subtitle: 'Frontend ve Full-Stack mühendisi | Telegram Mini Apps, Next.js, AI, pazarlama siteleri',
       tagline:
         'İki hat: fullstack Next.js üzerinde SaaS, MVPs ve AI-powered Web Apps - ve Webflow, WordPress veya statikte, motion ile pazarlama siteleri.',
       fullCycle:
@@ -2284,6 +2290,7 @@ export const translations = {
         location: 'Konum',
         upwork: 'Upwork',
         telegram: 'Telegram',
+        viber: 'Viber',
         whatsapp: 'WhatsApp',
         linkedin: 'LinkedIn',
         locationValue: 'Kyiv, Ukrayna',

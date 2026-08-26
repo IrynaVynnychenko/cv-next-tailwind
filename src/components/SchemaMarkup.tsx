@@ -1,7 +1,8 @@
 import { BlogPost } from '@/data/blog-posts'
+import { services, type ServiceId } from '@/data/services'
 import { translations } from '@/data/translations'
 import type { Language } from '@/lib/i18n'
-import { getBlogIndexPath, getBlogPostPath, getHomePath, LOCALE_TAGS } from '@/lib/i18n'
+import { getBlogIndexPath, getBlogPostPath, getHomePath, LOCALE_TAGS, withLangPrefix } from '@/lib/i18n'
 import { SITE_OG_IMAGE_URL } from '@/lib/seo'
 
 type Lang = Language
@@ -30,13 +31,13 @@ const copy = {
     tr: 'Frontend ve Full-Stack mühendisi',
   },
   personDescription: {
-    en: 'Frontend and fullstack Next.js: marketing sites, Webflow, WordPress, static, GSAP animation, and Next.js with UI, APIs, PostgreSQL. 4,200+ Upwork hours, 100% Job Success, NDA-ready.',
-    ua: 'Фронтенд і fullstack Next.js: маркетингові сайти, Webflow, WordPress, статика, анімація GSAP і Next.js з UI, API, PostgreSQL. 4 200+ годин на Upwork, 100% Job Success, готова до NDA.',
-    de: 'Frontend und Fullstack-Next.js: Marketing-Sites, Webflow, WordPress, Statik, GSAP-Animation und Next.js mit UI, APIs, PostgreSQL. 4.200+ Upwork-Stunden, 100% Job Success, NDA-fähig.',
-    fr: 'Frontend et Next.js fullstack : sites marketing, Webflow, WordPress, statique, animation GSAP, et Next.js avec UI, APIs, PostgreSQL. 4 200+ heures Upwork, 100 % Job Success, NDA possible.',
-    es: 'Frontend y Next.js fullstack: sitios de marketing, Webflow, WordPress, estático, animación GSAP, y Next.js con UI, APIs, PostgreSQL. Más de 4.200 horas en Upwork, 100% Job Success, lista para NDA.',
-    it: 'Frontend e Next.js fullstack: siti marketing, Webflow, WordPress, statico, animazione GSAP, e Next.js con UI, API, PostgreSQL. Oltre 4.200 ore su Upwork, 100% Job Success, pronta per NDA.',
-    tr: 'Frontend ve fullstack Next.js: pazarlama siteleri, Webflow, WordPress, statik, GSAP animasyon ve UI, API, PostgreSQL ile Next.js. 4.200+ Upwork saati, %100 Job Success, NDA’ya hazır.',
+    en: 'Frontend and fullstack Next.js: Telegram Mini Apps, AI solutions for business, marketing sites, Webflow, WordPress, static, GSAP animation. 4,200+ Upwork hours, 100% Job Success, NDA-ready.',
+    ua: 'Фронтенд і fullstack Next.js: Telegram Mini Apps, AI рішення для бізнесу, маркетингові сайти, Webflow, WordPress, статика, анімація GSAP. 4 200+ годин на Upwork, 100% Job Success, готова до NDA.',
+    de: 'Frontend und Fullstack-Next.js: Telegram Mini Apps, KI-Lösungen für Unternehmen, Marketing-Sites, Webflow, WordPress, Statik, GSAP-Animation. 4.200+ Upwork-Stunden, 100% Job Success, NDA-fähig.',
+    fr: 'Frontend et Next.js fullstack : Telegram Mini Apps, solutions IA pour l’entreprise, sites marketing, Webflow, WordPress, statique, animation GSAP. 4 200+ heures Upwork, 100 % Job Success, NDA possible.',
+    es: 'Frontend y Next.js fullstack: Telegram Mini Apps, soluciones de IA para empresas, sitios de marketing, Webflow, WordPress, estático, animación GSAP. Más de 4.200 horas en Upwork, 100% Job Success, lista para NDA.',
+    it: 'Frontend e Next.js fullstack: Telegram Mini Apps, soluzioni IA per il business, siti marketing, Webflow, WordPress, statico, animazione GSAP. Oltre 4.200 ore su Upwork, 100% Job Success, pronta per NDA.',
+    tr: 'Frontend ve fullstack Next.js: Telegram Mini Apps, işletmeler için AI çözümleri, pazarlama siteleri, Webflow, WordPress, statik, GSAP animasyon. 4.200+ Upwork saati, %100 Job Success, NDA’ya hazır.',
   },
   city: {
     en: 'Kyiv',
@@ -353,5 +354,51 @@ export function FAQSchema({ lang }: SchemaProps) {
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
     />
+  )
+}
+
+export function ServicePageSchema({ id, lang }: SchemaProps & { id: ServiceId }) {
+  const service = services[id]
+  const name = service.h1[lang]
+  const description = service.lead[lang]
+  const url = `https://vynnychenko.dev${withLangPrefix(lang, service.path)}`
+  const authorName = copy.name[lang]
+  const authorUrl = `https://vynnychenko.dev${getHomePath(lang)}`
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    name,
+    description,
+    url,
+    inLanguage: LOCALE_TAGS[lang],
+    provider: {
+      '@type': 'Person',
+      name: authorName,
+      url: authorUrl,
+      image: SITE_OG_IMAGE_URL,
+    },
+    areaServed: 'Worldwide',
+    email: 'i.vynnychenko@gmail.com',
+  }
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: service.faq.map((item) => ({
+      '@type': 'Question',
+      name: item.q[lang],
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a[lang],
+      },
+    })),
+  }
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+    </>
   )
 }

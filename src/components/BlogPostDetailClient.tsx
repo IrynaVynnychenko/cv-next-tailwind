@@ -5,9 +5,10 @@ import { notFound } from 'next/navigation'
 import BlogPostContent from '@/components/BlogPostContent'
 import ContactInfo from '@/components/ContactInfo'
 import { getBlogPost } from '@/data/blog-posts'
+import { getServiceIdForSlug, services } from '@/data/services'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
-import { getBlogIndexPath, LOCALE_TAGS, type Language } from '@/lib/i18n'
+import { getBlogIndexPath, LOCALE_TAGS, withLangPrefix, type Language } from '@/lib/i18n'
 
 type BlogPostDetailClientProps = {
   slug: string
@@ -100,6 +101,8 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
   const { language } = useLanguage()
   const post = getBlogPost(slug, language)
   const t = translations[language].blog
+  const serviceId = getServiceIdForSlug(slug)
+  const service = serviceId ? services[serviceId] : null
 
   if (!post) {
     notFound()
@@ -135,6 +138,21 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
         </header>
 
         <BlogPostContent sections={post.content} />
+
+        {service && (
+          <div className="mt-12 flex flex-col items-start justify-between gap-6 border border-edge bg-muted/40 p-5 md:flex-row md:items-center">
+            <div className="flex-1">
+              <h3 className="mb-2 text-lg font-semibold">{service.blogCtaTitle[language]}</h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">{service.blogCtaText[language]}</p>
+            </div>
+            <Link
+              href={withLangPrefix(language, service.path)}
+              className="inline-flex items-center justify-center rounded-md bg-foreground px-5 py-2.5 text-sm font-medium text-background hover:opacity-90"
+            >
+              {service.cardTitle[language]}
+            </Link>
+          </div>
+        )}
 
         {(slug === 'lazy-lead-phenomenon-2026-attraction-strategies' || slug === 'what-is-web-application-modern-guide') && (
           <div className="mt-12 flex flex-col items-start justify-between gap-6 border border-edge bg-muted/40 p-5 md:flex-row md:items-center">

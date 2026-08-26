@@ -1,13 +1,14 @@
 'use client'
 
 import type { ReactNode } from 'react'
-import { WhatsAppIcon } from './Icons'
+import { WhatsAppIcon, ViberIcon } from './Icons'
+import { CONTACT_EMAIL, TELEGRAM_URL, VIBER_URL, WHATSAPP_URL } from '@/lib/contact'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
 
 export type ContactItem = {
   icon: ReactNode
-  key: 'email' | 'location' | 'upwork' | 'telegram' | 'whatsapp' | 'linkedin'
+  key: 'email' | 'location' | 'upwork' | 'telegram' | 'viber' | 'whatsapp' | 'linkedin'
   valueKey?: 'locationValue' | 'viewProfile' | 'connect' | 'contactMe'
   rawVal?: string
   link: string | null
@@ -22,8 +23,8 @@ const contactItemDefs: ContactItem[] = [
       </svg>
     ),
     key: 'email',
-    rawVal: 'i.vynnychenko@gmail.com',
-    link: 'mailto:i.vynnychenko@gmail.com',
+    rawVal: CONTACT_EMAIL,
+    link: `mailto:${CONTACT_EMAIL}`,
   },
   {
     icon: (
@@ -61,13 +62,19 @@ const contactItemDefs: ContactItem[] = [
     ),
     key: 'telegram',
     valueKey: 'contactMe',
-    link: 'https://telegram.me/+380931844615',
+    link: TELEGRAM_URL,
+  },
+  {
+    icon: <ViberIcon />,
+    key: 'viber',
+    valueKey: 'contactMe',
+    link: VIBER_URL,
   },
   {
     icon: <WhatsAppIcon />,
     key: 'whatsapp',
     valueKey: 'contactMe',
-    link: 'https://wa.me/380931844615',
+    link: WHATSAPP_URL,
   },
   {
     icon: (

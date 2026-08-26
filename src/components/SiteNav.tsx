@@ -6,7 +6,9 @@ import { usePathname } from 'next/navigation'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
 import { chrome } from '@/data/chrome'
+import { getContactMailto } from '@/lib/contact'
 import ThemeToggle from './ThemeToggle'
+import ChatLinks from './ChatLinks'
 import {
   getBlogIndexPath,
   getEquivalentPath,
@@ -210,15 +212,16 @@ export default function SiteNav() {
                 <ThemeToggle />
               </div>
 
-              <a
-                href="https://telegram.me/+380931844615"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-foreground px-4 py-3 text-sm font-medium text-background"
-                onClick={() => setOpen(false)}
-              >
-                {c.heroCta}
-              </a>
+              <div className="flex items-center gap-2">
+                <a
+                  href={getContactMailto(language)}
+                  className="inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-foreground px-4 py-3 text-sm font-medium text-background"
+                  onClick={() => setOpen(false)}
+                >
+                  {c.heroCta}
+                </a>
+                <ChatLinks onClick={() => setOpen(false)} />
+              </div>
             </div>
           </div>
         </div>

@@ -4,7 +4,9 @@ import Image from 'next/image'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
 import { chrome } from '@/data/chrome'
+import { getContactMailto } from '@/lib/contact'
 import { RotatingWords } from './Animate'
+import ChatLinks from './ChatLinks'
 
 export default function Hero() {
   const { language } = useLanguage()
@@ -20,21 +22,19 @@ export default function Hero() {
         <p className="flex w-full max-w-[22rem] items-center justify-center overflow-hidden text-[1.35rem] font-semibold leading-tight tracking-tight motion-safe:animate-hero-in sm:max-w-4xl sm:text-3xl md:max-w-none md:text-4xl [animation-delay:120ms]">
           <RotatingWords words={c.heroRotate} className="text-sky-500" />
         </p>
-        <a
-          href="https://telegram.me/+380931844615"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-full border border-edge bg-background/80 px-4 py-2 text-sm font-medium backdrop-blur-sm transition duration-300 hover:bg-accent motion-safe:animate-hero-in motion-safe:hover:scale-[1.03] motion-safe:active:scale-[0.98] [animation-delay:220ms]"
-        >
-          {c.heroCta}
-          <svg viewBox="0 0 24 24" className="size-4" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"
-            />
-          </svg>
-        </a>
+        <div className="flex items-center justify-center gap-2 motion-safe:animate-hero-in [animation-delay:220ms]">
+          <a
+            href={getContactMailto(language)}
+            className="inline-flex items-center gap-2 rounded-full border border-edge bg-background/80 px-4 py-2 text-sm font-medium backdrop-blur-sm transition duration-300 hover:bg-accent motion-safe:hover:scale-[1.03] motion-safe:active:scale-[0.98]"
+          >
+            {c.heroCta}
+            <svg viewBox="0 0 24 24" className="size-4" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="M22 7l-10 7L2 7" />
+            </svg>
+          </a>
+          <ChatLinks />
+        </div>
         <p className="inline-flex max-w-[22rem] items-center justify-center gap-1.5 font-mono text-[11px] leading-snug text-muted-foreground motion-safe:animate-hero-in sm:max-w-none [animation-delay:280ms]">
           <span className="size-1.5 shrink-0 rounded-full bg-sky-500" aria-hidden="true" />
           {c.heroAvailability}

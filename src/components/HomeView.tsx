@@ -9,6 +9,7 @@ import Contact from './Contact'
 import Hero from './Hero'
 import SocialLinks from './SocialLinks'
 import Highlights from './Highlights'
+import ServiceCards from './ServiceCards'
 
 export default function HomeView() {
   return (
@@ -16,6 +17,7 @@ export default function HomeView() {
       <Hero />
       <SocialLinks />
       <Highlights />
+      <ServiceCards />
       <About />
       <Experience />
       <Skills />

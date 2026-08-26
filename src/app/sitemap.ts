@@ -13,6 +13,14 @@ function altBlog() {
   return getLanguageAlternates('/blog/')
 }
 
+function altTelegram() {
+  return getLanguageAlternates('/telegram-mini-apps/')
+}
+
+function altAi() {
+  return getLanguageAlternates('/ai-solutions/')
+}
+
 function altPost(slug: string) {
   return getLanguageAlternates(`/blog/${slug}/`)
 }
@@ -34,6 +42,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily' as const,
       priority: 0.8,
       alternates: { languages: altBlog() },
+    },
+    {
+      url: `${baseUrl}${withLangPrefix(lang, '/telegram-mini-apps/')}`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+      alternates: { languages: altTelegram() },
+    },
+    {
+      url: `${baseUrl}${withLangPrefix(lang, '/ai-solutions/')}`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+      alternates: { languages: altAi() },
     },
   ])
 

@@ -19,9 +19,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Iryna Vynnychenko | Frontend & Full-Stack | Webflow, WordPress, Next.js",
-  description: "Sites marketing, Webflow, WordPress, statique, animation GSAP et Next.js fullstack - UI, APIs, PostgreSQL. 4 200+ heures Upwork, 100 % Job Success.",
-  keywords: "Frontend, Full-Stack, Next.js, Webflow, WordPress, site marketing, landing, GSAP, animation, site statique, React, Node.js, TypeScript, PostgreSQL, Ukraine, Upwork, France",
+  title: "Iryna Vynnychenko | Next.js, Telegram Mini Apps & IA",
+  description: "Développement Telegram Mini App, solutions IA pour l’entreprise, Next.js fullstack. 4 200+ heures Upwork, 100 % Job Success.",
+  keywords: "développement Telegram Mini App, solutions IA, Frontend, Full-Stack, Next.js, Webflow, WordPress, React, TypeScript, PostgreSQL, Ukraine, Upwork, France",
   authors: [{ name: "Iryna Vynnychenko" }],
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Iryna Vynnychenko | Frontend & Full-Stack | Webflow, WordPress, Next.js",
-    description: "Sites marketing, Webflow, WordPress, animation GSAP, Next.js fullstack. 4 200+ heures Upwork · 100 % Job Success.",
+    title: "Iryna Vynnychenko | Next.js, Telegram Mini Apps & IA",
+    description: "Développement Telegram Mini App, solutions IA pour l’entreprise, Next.js fullstack. 4 200+ heures Upwork · 100 % Job Success.",
     url: 'https://vynnychenko.dev/fr/',
     siteName: 'Iryna Vynnychenko - Ingénieure frontend & full-stack',
     type: "website",
