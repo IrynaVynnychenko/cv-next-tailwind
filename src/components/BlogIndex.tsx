@@ -69,7 +69,7 @@ export default function BlogIndex({ currentPage }: BlogIndexProps) {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder={t.searchPlaceholder}
-              className="block w-full rounded-md border border-edge bg-background py-2.5 pl-10 pr-10 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+              className="block w-full rounded-md border border-edge bg-background py-2.5 pl-10 pr-10 text-base placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
             />
             {searchQuery && (
               <button
