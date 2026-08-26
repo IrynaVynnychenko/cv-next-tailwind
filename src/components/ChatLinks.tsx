@@ -1,5 +1,5 @@
-import { TelegramIcon, ViberIcon } from './Icons'
-import { TELEGRAM_URL, VIBER_URL } from '@/lib/contact'
+import { TelegramIcon, ViberIcon, WhatsAppIcon } from './Icons'
+import { TELEGRAM_URL, VIBER_URL, WHATSAPP_URL } from '@/lib/contact'
 
 const iconBtn =
   'inline-flex size-9 shrink-0 items-center justify-center rounded-full border border-edge bg-background/80 transition hover:bg-accent'
@@ -18,6 +18,9 @@ export default function ChatLinks({
       </a>
       <a href={VIBER_URL} target="_blank" rel="noopener noreferrer" aria-label="Viber" className={iconBtn} onClick={onClick}>
         <ViberIcon className="size-4" />
+      </a>
+      <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className={iconBtn} onClick={onClick}>
+        <WhatsAppIcon className="size-4" />
       </a>
     </div>
   )
