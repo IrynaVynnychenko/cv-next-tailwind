@@ -34,7 +34,7 @@ export type ServiceCopy = {
 
 export const SERVICE_ORDER: ServiceId[] = ['telegram-mini-apps', 'ai-solutions']
 
-export const homeServices: { title: L; subtitle: L } = {
+export const homeServices: { title: L; subtitle: L; also: L } = {
   title: {
     en: 'Hire me for',
     ua: 'Що можна замовити',
@@ -43,6 +43,15 @@ export const homeServices: { title: L; subtitle: L } = {
     es: 'Contrátame para',
     it: 'Incaricami per',
     tr: 'Beni işe alın',
+  },
+  also: {
+    en: 'Also shipping',
+    ua: 'Також збираю',
+    de: 'Außerdem',
+    fr: 'Je livre aussi',
+    es: 'También entrego',
+    it: 'Consegno anche',
+    tr: 'Ayrıca teslim ettiğim',
   },
   subtitle: {
     en: 'Two product tracks I ship as a senior engineer — not an agency handoff.',
@@ -319,6 +328,18 @@ export const services: Record<ServiceId, ServiceCopy> = {
         },
       },
       {
+        slug: 'choosing-telegram-mini-app-development-company',
+        label: {
+          en: 'Choosing a Telegram Mini App development company',
+          ua: 'Як обрати компанію для розробки Telegram Mini App',
+          de: 'Telegram Mini App Development Company wählen',
+          fr: 'Choisir une Telegram Mini App development company',
+          es: 'Cómo elegir una Telegram Mini App development company',
+          it: 'Come scegliere una Telegram Mini App development company',
+          tr: 'Telegram Mini App development company seçmek',
+        },
+      },
+      {
         slug: 'telegram-bot-payment-integration-guide',
         label: {
           en: 'Telegram bot payments: Stripe, LiqPay, Monobank',
@@ -331,15 +352,15 @@ export const services: Record<ServiceId, ServiceCopy> = {
         },
       },
       {
-        slug: 'telegram-mini-app-product-patterns-2026',
+        slug: 'telegram-mini-apps-fintech-development-guide',
         label: {
-          en: 'Mini App product patterns worth copying',
-          ua: 'Продуктові моделі Mini App, які варто брати',
-          de: 'Mini-App-Produktmuster, die sich lohnen',
-          fr: 'Modèles produit Mini App à reprendre',
-          es: 'Patrones de producto Mini App que merecen copiarse',
-          it: 'Modelli di prodotto Mini App da copiare',
-          tr: 'Kopyalamaya değer Mini App ürün modelleri',
+          en: 'Telegram Mini Apps fintech development',
+          ua: 'Розробка Telegram Mini Apps для фінтеху',
+          de: 'Telegram Mini Apps Fintech Development',
+          fr: 'Telegram Mini Apps fintech development',
+          es: 'Telegram Mini Apps fintech development',
+          it: 'Telegram Mini Apps fintech development',
+          tr: 'Telegram Mini Apps fintech development',
         },
       },
     ],
@@ -663,13 +684,13 @@ export const services: Record<ServiceId, ServiceCopy> = {
       {
         slug: 'how-to-automate-business-processes-with-ai',
         label: {
-          en: 'How to automate a process with AI — without giving it the keys',
-          ua: 'Як автоматизувати процес з AI — не віддаючи ключі',
-          de: 'Einen Prozess mit KI automatisieren — ohne die Schlüssel abzugeben',
-          fr: 'Automatiser un process avec l’IA — sans lui donner les clés',
-          es: 'Automatizar un proceso con IA — sin darle las llaves',
-          it: 'Automatizzare un processo con l’IA — senza dargli le chiavi',
-          tr: 'AI ile süreci otomatikleştirmek — anahtarları vermeden',
+          en: 'How to automate business processes with AI',
+          ua: 'Як автоматизувати бізнес-процеси з AI',
+          de: 'Geschäftsprozesse mit KI automatisieren',
+          fr: 'Automatiser les processus métier avec l’IA',
+          es: 'Cómo automatizar procesos de negocio con IA',
+          it: 'Come automatizzare i processi aziendali con l’IA',
+          tr: 'AI ile iş süreçlerini otomatikleştirmek',
         },
       },
       {

@@ -16,5 +16,6 @@ export {
   getBlogPagePath,
   getBlogPost,
   getBlogPostsForPage,
+  getRelatedPosts,
   rawBlogPosts,
 } from './blog'

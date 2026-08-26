@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import BlogPostContent from '@/components/BlogPostContent'
 import ContactInfo from '@/components/ContactInfo'
+import RelatedPosts from '@/components/RelatedPosts'
 import { getBlogPost } from '@/data/blog-posts'
 import { getServiceIdForSlug, services } from '@/data/services'
 import { useLanguage } from '@/context/LanguageContext'
@@ -180,6 +181,8 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
             </a>
           </div>
         )}
+
+        <RelatedPosts slug={slug} />
 
         <div className="mt-12 border-t border-edge pt-8">
           <ContactInfo

@@ -1,4 +1,5 @@
 import { getBlogIndexPath } from '@/lib/i18n'
+import { getServiceIdForSlug, services } from '@/data/services'
 import type { BlogLang, BlogPost, LocalizedText, RawBlogPost } from './types'
 import { aiLlmPosts } from './posts-ai-llm'
 import { businessPosts } from './posts-business'
@@ -208,6 +209,70 @@ export function getBlogPagePath(page: number, lang: BlogLang = "en"): string {
 
 export function getAllBlogSlugs(): string[] {
   return rawBlogPosts.map((post) => post.slug)
+}
+
+const RELATED_LIMIT = 3
+
+function englishTags(post: RawBlogPost): Set<string> {
+  return new Set(post.tags.en.map((tag) => tag.toLowerCase()))
+}
+
+function slugTokenOverlap(a: string, b: string): number {
+  const tokens = (slug: string) => new Set(slug.split('-').filter((token) => token.length > 2))
+  const left = tokens(a)
+  let count = 0
+  for (const token of tokens(b)) {
+    if (left.has(token)) count += 1
+  }
+  return count
+}
+
+export function getRelatedPosts(slug: string, lang: BlogLang = 'en', limit = RELATED_LIMIT): BlogPost[] {
+  const current = rawBlogPosts.find((post) => post.slug === slug)
+  if (!current) return []
+
+  const serviceId = getServiceIdForSlug(slug)
+  const curated = serviceId ? services[serviceId].articles.map((article) => article.slug) : []
+  const currentTags = englishTags(current)
+
+  const ranked = rawBlogPosts
+    .filter((post) => {
+      if (post.slug === slug) return false
+      if (!serviceId && getServiceIdForSlug(post.slug)) return false
+      return true
+    })
+    .map((post) => {
+      let score = 0
+      const otherService = getServiceIdForSlug(post.slug)
+      if (serviceId && otherService === serviceId) score += 80
+
+      const curatedIndex = curated.indexOf(post.slug)
+      if (curatedIndex >= 0) score += 140 - curatedIndex * 8
+
+      let tagOverlap = 0
+      for (const tag of englishTags(post)) {
+        if (currentTags.has(tag)) tagOverlap += 1
+      }
+      score += tagOverlap * 12
+      score += slugTokenOverlap(slug, post.slug) * 8
+
+      return { post, score }
+    })
+    .filter((entry) => entry.score > 0)
+    .sort((a, b) => b.score - a.score || b.post.date.localeCompare(a.post.date))
+
+  const picked: RawBlogPost[] = ranked.slice(0, limit).map((entry) => entry.post)
+  if (picked.length < limit) {
+    const used = new Set(picked.map((post) => post.slug).concat(slug))
+    for (const post of rawBlogPosts) {
+      if (picked.length >= limit) break
+      if (used.has(post.slug)) continue
+      picked.push(post)
+      used.add(post.slug)
+    }
+  }
+
+  return picked.map((post) => getBlogPost(post.slug, lang)!)
 }
 
 export const blogPosts: BlogPost[] = rawBlogPosts.map((raw) => getBlogPost(raw.slug, 'en')!)

@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useLanguage } from '@/context/LanguageContext'
-import { services, type ServiceId } from '@/data/services'
+import { homeServices, SERVICE_ORDER, services, type ServiceId } from '@/data/services'
 import { getBlogPostPath, withLangPrefix } from '@/lib/i18n'
 import { CONTACT_EMAIL, getContactMailto } from '@/lib/contact'
 import { Panel } from './Panel'
@@ -120,6 +120,18 @@ export default function ServiceLanding({ id }: { id: ServiceId }) {
             >
               vynnychenko.dev
             </Link>
+          </p>
+          <p className="text-sm text-muted-foreground">
+            {homeServices.also[language]}:{' '}
+            {SERVICE_ORDER.filter((otherId) => otherId !== id).map((otherId) => (
+              <Link
+                key={otherId}
+                href={withLangPrefix(language, services[otherId].path)}
+                className="text-foreground underline-offset-4 hover:underline"
+              >
+                {services[otherId].cardTitle[language]}
+              </Link>
+            ))}
           </p>
         </div>
       </Panel>

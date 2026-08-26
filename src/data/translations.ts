@@ -333,6 +333,7 @@ export const translations = {
       searchPlaceholder: 'Search articles by title, tag, or content...',
       noResults: 'No articles found matching your query.',
       clearSearch: 'Clear search',
+      relatedTitle: 'More on this topic',
     },
   },
   ua: {
@@ -669,6 +670,7 @@ export const translations = {
       searchPlaceholder: 'Пошук за заголовком, тегами або текстом…',
       noResults: 'За цим запитом нічого не знайдено.',
       clearSearch: 'Очистити пошук',
+      relatedTitle: 'Ще з цієї теми',
     },
   },
   de: {
@@ -1011,6 +1013,7 @@ export const translations = {
       searchPlaceholder: 'Artikel nach Titel, Tag oder Inhalt suchen…',
       noResults: 'Keine Artikel zu dieser Suche.',
       clearSearch: 'Suche löschen',
+      relatedTitle: 'Mehr zu diesem Thema',
     },
   },
   fr: {
@@ -1353,6 +1356,7 @@ export const translations = {
       searchPlaceholder: 'Rechercher un article par titre, tag ou contenu...',
       noResults: 'Aucun article ne correspond à votre recherche.',
       clearSearch: 'Effacer la recherche',
+      relatedTitle: 'Dans le même sujet',
     },
   },
   es: {
@@ -1689,6 +1693,7 @@ export const translations = {
       searchPlaceholder: 'Buscar artículos por título, etiqueta o contenido...',
       noResults: 'No hay artículos que coincidan con tu búsqueda.',
       clearSearch: 'Borrar búsqueda',
+      relatedTitle: 'Más sobre este tema',
     },
   },
   it: {
@@ -2025,6 +2030,7 @@ export const translations = {
       searchPlaceholder: 'Cerca articoli per titolo, tag o contenuto...',
       noResults: 'Nessun articolo corrisponde alla ricerca.',
       clearSearch: 'Cancella ricerca',
+      relatedTitle: 'Altri sullo stesso tema',
     },
   },
   tr: {
@@ -2361,6 +2367,7 @@ export const translations = {
       searchPlaceholder: 'Başlık, etiket veya içeriğe göre ara…',
       noResults: 'Aramanızla eşleşen yazı yok.',
       clearSearch: 'Aramayı temizle',
+      relatedTitle: 'Bu konuda daha fazla',
     },
   },
 } as const
