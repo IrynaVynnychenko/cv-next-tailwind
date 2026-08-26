@@ -7,6 +7,7 @@ import { translations } from '@/data/translations'
 import { chrome } from '@/data/chrome'
 import {
   getBlogIndexPath,
+  getExperiencePath,
   getHomePath,
   stripLangPrefix,
   withLangPrefix,
@@ -20,13 +21,15 @@ export default function BottomNav() {
   const isHome = stripLangPrefix(pathname) === '/'
   const blogHref = getBlogIndexPath(language)
   const homeHref = getHomePath(language)
-  const isBlog = pathname.includes('/blog')
+  const path = stripLangPrefix(pathname)
+  const isBlog = path.startsWith('/blog')
+  const isExperience = path.startsWith('/experience')
 
   const items = [
     { id: 'about', label: t.nav.about, href: withLangPrefix(language, '/#about') },
-    { id: 'experience', label: t.nav.experience, href: withLangPrefix(language, '/#experience') },
+    { id: 'experience', label: t.nav.experience, href: getExperiencePath(language), page: true },
     { id: 'projects', label: c.projects, href: withLangPrefix(language, '/#projects') },
-    { id: 'blog', label: t.nav.blog, href: blogHref },
+    { id: 'blog', label: t.nav.blog, href: blogHref, page: true },
     { id: 'contact', label: t.nav.contact, href: withLangPrefix(language, '/#contact') },
   ]
 
@@ -39,14 +42,14 @@ export default function BottomNav() {
     <nav className="fixed top-4 left-1/2 z-50 w-[calc(100%-6.5rem)] max-w-xl -translate-x-1/2 md:w-[calc(100%-2rem)]">
       <div className="flex items-center justify-between gap-1 overflow-x-auto no-scrollbar rounded-full border border-edge bg-background/80 px-2 py-1.5 shadow-lg backdrop-blur-md">
         {items.map((item) => {
-          const active = item.id === 'blog' ? isBlog : false
+          const active = item.id === 'blog' ? isBlog : item.id === 'experience' ? isExperience : false
           const className = `whitespace-nowrap rounded-full px-2.5 py-1.5 text-xs font-medium transition-colors sm:px-3 ${
             active
               ? 'bg-muted text-foreground'
               : 'text-muted-foreground hover:bg-accent hover:text-foreground'
           }`
 
-          if (item.id === 'blog') {
+          if (item.page || !isHome) {
             return (
               <Link key={item.id} href={item.href} className={className}>
                 {item.label}
@@ -54,18 +57,10 @@ export default function BottomNav() {
             )
           }
 
-          if (isHome) {
-            return (
-              <button key={item.id} type="button" onClick={() => scrollTo(item.id)} className={className}>
-                {item.label}
-              </button>
-            )
-          }
-
           return (
-            <Link key={item.id} href={item.href} className={className}>
+            <button key={item.id} type="button" onClick={() => scrollTo(item.id)} className={className}>
               {item.label}
-            </Link>
+            </button>
           )
         })}
         <Link

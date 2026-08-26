@@ -123,14 +123,16 @@ export default function ServiceLanding({ id }: { id: ServiceId }) {
           </p>
           <p className="text-sm text-muted-foreground">
             {homeServices.also[language]}:{' '}
-            {SERVICE_ORDER.filter((otherId) => otherId !== id).map((otherId) => (
-              <Link
-                key={otherId}
-                href={withLangPrefix(language, services[otherId].path)}
-                className="text-foreground underline-offset-4 hover:underline"
-              >
-                {services[otherId].cardTitle[language]}
-              </Link>
+            {SERVICE_ORDER.filter((otherId) => otherId !== id).map((otherId, index) => (
+              <span key={otherId}>
+                {index > 0 ? ', ' : ''}
+                <Link
+                  href={withLangPrefix(language, services[otherId].path)}
+                  className="text-foreground underline-offset-4 hover:underline"
+                >
+                  {services[otherId].navLabel[language]}
+                </Link>
+              </span>
             ))}
           </p>
         </div>

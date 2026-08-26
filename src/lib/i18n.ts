@@ -63,6 +63,10 @@ export function getBlogPostPath(lang: Language, slug: string): string {
   return withLangPrefix(lang, `/blog/${slug}/`)
 }
 
+export function getExperiencePath(lang: Language): string {
+  return withLangPrefix(lang, '/experience/')
+}
+
 export function pickLocalized<T extends Partial<Record<Language, string>> & { en: string }>(
   value: T,
   lang: Language

@@ -6,11 +6,11 @@ import { translations } from '@/data/translations'
 import { chrome } from '@/data/chrome'
 import { Badge } from './Panel'
 
-export default function Education() {
+export default function Education({ defaultOpen = false }: { defaultOpen?: boolean }) {
   const { language } = useLanguage()
   const t = translations[language].education
   const c = chrome[language]
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(defaultOpen)
 
   return (
     <section

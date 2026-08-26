@@ -12,6 +12,7 @@ import ChatLinks from './ChatLinks'
 import {
   getBlogIndexPath,
   getEquivalentPath,
+  getExperiencePath,
   getLangFromPath,
   stripLangPrefix,
   withLangPrefix,
@@ -28,17 +29,27 @@ const LANG_OPTIONS: { code: Language; short: string; native: string }[] = [
   { code: 'tr', short: 'TR', native: 'Türkçe' },
 ]
 
+function isPageNavItem(id: string) {
+  return id === 'blog' || id === 'experience'
+}
+
+function isNavItemActive(id: string, pathname: string) {
+  const path = stripLangPrefix(pathname)
+  if (id === 'blog') return path.startsWith('/blog')
+  if (id === 'experience') return path.startsWith('/experience')
+  return false
+}
+
 function useNavItems() {
   const pathname = usePathname() || '/'
   const { language } = useLanguage()
   const t = translations[language]
   const c = chrome[language]
   const isHome = stripLangPrefix(pathname) === '/'
-  const isBlog = pathname.includes('/blog')
 
   const items = [
     { id: 'about', label: t.nav.about, href: withLangPrefix(language, '/#about') },
-    { id: 'experience', label: t.nav.experience, href: withLangPrefix(language, '/#experience') },
+    { id: 'experience', label: t.nav.experience, href: getExperiencePath(language) },
     { id: 'projects', label: c.projects, href: withLangPrefix(language, '/#projects') },
     { id: 'blog', label: t.nav.blog, href: getBlogIndexPath(language) },
     { id: 'contact', label: t.nav.contact, href: withLangPrefix(language, '/#contact') },
@@ -48,7 +59,7 @@ function useNavItems() {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
   }
 
-  return { items, isHome, isBlog, scrollTo, t, c }
+  return { items, isHome, scrollTo, t, c }
 }
 
 function navLinkClass(active: boolean, compact = false) {
@@ -74,7 +85,7 @@ function navLinkClass(active: boolean, compact = false) {
 export default function SiteNav() {
   const pathname = usePathname() || '/'
   const { language, setLanguage } = useLanguage()
-  const { items, isHome, isBlog, scrollTo, t, c } = useNavItems()
+  const { items, isHome, scrollTo, t, c } = useNavItems()
   const [open, setOpen] = useState(false)
 
   useEffect(() => {
@@ -112,25 +123,18 @@ export default function SiteNav() {
         <div className="mx-auto flex max-w-[1024px] items-center justify-end gap-2">
           <div className="pointer-events-auto hidden w-fit items-center justify-center gap-0.5 overflow-x-auto no-scrollbar rounded-full border border-edge bg-background/80 px-2 py-1.5 shadow-lg backdrop-blur-md md:flex md:absolute md:left-1/2 md:-translate-x-1/2">
             {items.map((item) => {
-              const active = item.id === 'blog' ? isBlog : false
-              if (item.id === 'blog') {
+              const active = isNavItemActive(item.id, pathname)
+              if (isPageNavItem(item.id) || !isHome) {
                 return (
                   <Link key={item.id} href={item.href} className={navLinkClass(active, true)}>
                     {item.label}
                   </Link>
                 )
               }
-              if (isHome) {
-                return (
-                  <button key={item.id} type="button" onClick={() => scrollTo(item.id)} className={navLinkClass(active, true)}>
-                    {item.label}
-                  </button>
-                )
-              }
               return (
-                <Link key={item.id} href={item.href} className={navLinkClass(active, true)}>
+                <button key={item.id} type="button" onClick={() => scrollTo(item.id)} className={navLinkClass(active, true)}>
                   {item.label}
-                </Link>
+                </button>
               )
             })}
           </div>
@@ -177,25 +181,18 @@ export default function SiteNav() {
             <div className="mx-auto max-w-md space-y-6">
               <div className="space-y-1 border-b border-edge pb-4">
                 {items.map((item) => {
-                  const active = item.id === 'blog' ? isBlog : false
-                  if (item.id === 'blog') {
+                  const active = isNavItemActive(item.id, pathname)
+                  if (isPageNavItem(item.id) || !isHome) {
                     return (
                       <Link key={item.id} href={item.href} className={navLinkClass(active)} onClick={() => setOpen(false)}>
                         {item.label}
                       </Link>
                     )
                   }
-                  if (isHome) {
-                    return (
-                      <button key={item.id} type="button" onClick={() => goToSection(item.id)} className={navLinkClass(active)}>
-                        {item.label}
-                      </button>
-                    )
-                  }
                   return (
-                    <Link key={item.id} href={item.href} className={navLinkClass(active)} onClick={() => setOpen(false)}>
+                    <button key={item.id} type="button" onClick={() => goToSection(item.id)} className={navLinkClass(active)}>
                       {item.label}
-                    </Link>
+                    </button>
                   )
                 })}
               </div>

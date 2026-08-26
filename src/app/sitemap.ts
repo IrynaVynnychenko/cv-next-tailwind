@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next'
 import { rawBlogPosts } from '@/data/blog-posts'
+import { EXPERIENCE_PATH } from '@/data/experience-page'
+import { SERVICE_ORDER, services } from '@/data/services'
 import { LANGUAGES, withLangPrefix } from '@/lib/i18n'
 import { getLanguageAlternates } from '@/lib/seo'
 
@@ -13,12 +15,8 @@ function altBlog() {
   return getLanguageAlternates('/blog/')
 }
 
-function altTelegram() {
-  return getLanguageAlternates('/telegram-mini-apps/')
-}
-
-function altAi() {
-  return getLanguageAlternates('/ai-solutions/')
+function altExperience() {
+  return getLanguageAlternates(EXPERIENCE_PATH)
 }
 
 function altPost(slug: string) {
@@ -44,19 +42,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: { languages: altBlog() },
     },
     {
-      url: `${baseUrl}${withLangPrefix(lang, '/telegram-mini-apps/')}`,
+      url: `${baseUrl}${withLangPrefix(lang, EXPERIENCE_PATH)}`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: altExperience() },
+    },
+    ...SERVICE_ORDER.map((id) => ({
+      url: `${baseUrl}${withLangPrefix(lang, services[id].path)}`,
       lastModified: currentDate,
       changeFrequency: 'monthly' as const,
       priority: 0.9,
-      alternates: { languages: altTelegram() },
-    },
-    {
-      url: `${baseUrl}${withLangPrefix(lang, '/ai-solutions/')}`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.9,
-      alternates: { languages: altAi() },
-    },
+      alternates: { languages: getLanguageAlternates(services[id].path) },
+    })),
   ])
 
   const blogPostRoutes: MetadataRoute.Sitemap = rawBlogPosts.flatMap((post) =>
