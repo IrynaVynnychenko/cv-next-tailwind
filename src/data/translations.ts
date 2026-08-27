@@ -144,7 +144,6 @@ export const translations = {
             'https://niunkina.com/ - Business website for German cosmetologist (Next.js + TailwindCSS)',
             'https://plowguys.com/ - Snow & ice management website (Webflow)',
             'https://franchise.plowguys.com/ - Commercial snow & ice franchise landing page',
-            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Interactive React dashboard built from Figma',
           ],
           ndaProjects: [
             'Multi-tenant product systems on Next.js + PostgreSQL/Prisma - isolated data, built to grow from dozens to thousands of users',
@@ -482,7 +481,6 @@ export const translations = {
             'https://niunkina.com/ - сайт для косметологині в Німеччині (Next.js + Tailwind CSS)',
             'https://plowguys.com/ - сайт компанії зі снігоприбирання (Webflow)',
             'https://franchise.plowguys.com/ - лендинг франшизи зі сніго- та льодоуправління',
-            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - інтерактивний React-дашборд за макетом Figma',
           ],
           ndaProjects: [
             'Мульти-тенантні продуктові системи на Next.js + PostgreSQL/Prisma - ізоляція даних, розраховані на ріст від десятків до тисяч користувачів',
@@ -822,7 +820,6 @@ export const translations = {
             'https://niunkina.com/ - Website für eine Kosmetologin in Deutschland (Next.js + Tailwind CSS)',
             'https://plowguys.com/ - Website für Schnee- und Eismanagement (Webflow)',
             'https://franchise.plowguys.com/ - Franchise-Landingpage für gewerbliches Schnee- und Eismanagement',
-            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Interaktives React-Dashboard nach Figma',
           ],
           ndaProjects: [
             'Multi-Tenant-Produktsysteme mit Next.js + PostgreSQL/Prisma - Datenisolation, ausgelegt auf Wachstum von Dutzenden auf Tausende Nutzer',
@@ -1166,7 +1163,6 @@ export const translations = {
             'https://niunkina.com/ - Site vitrine pour une cosmétologue en Allemagne (Next.js + Tailwind CSS)',
             'https://plowguys.com/ - Site de déneigement et de gestion de la glace (Webflow)',
             'https://franchise.plowguys.com/ - Landing page franchise déneigement commercial',
-            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Dashboard React interactif à partir de Figma',
           ],
           ndaProjects: [
             'Systèmes produit multi-tenant en Next.js + PostgreSQL/Prisma - isolation des données, conçus pour passer de dizaines à des milliers d’utilisateurs',
@@ -1508,7 +1504,6 @@ export const translations = {
             'https://niunkina.com/ - Web de negocio para cosmetóloga en Alemania (Next.js + TailwindCSS)',
             'https://plowguys.com/ - Web de gestión de nieve y hielo (Webflow)',
             'https://franchise.plowguys.com/ - Landing de franquicia comercial de nieve y hielo',
-            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Dashboard interactivo en React a partir de Figma',
           ],
           ndaProjects: [
             'Sistemas de producto multi-tenant en Next.js + PostgreSQL/Prisma - datos aislados, pensados para crecer de decenas a miles de usuarios',
@@ -1846,7 +1841,6 @@ export const translations = {
             'https://niunkina.com/ - Sito per una cosmetologa in Germania (Next.js + Tailwind CSS)',
             'https://plowguys.com/ - Sito di gestione neve e ghiaccio (Webflow)',
             'https://franchise.plowguys.com/ - Landing page del franchise per lo sgombero neve commerciale',
-            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Dashboard interattiva React da Figma',
           ],
           ndaProjects: [
             'Sistemi prodotto multi-tenant su Next.js + PostgreSQL/Prisma - dati isolati, pensati per crescere da decine a migliaia di utenti',
@@ -2184,7 +2178,6 @@ export const translations = {
             'https://niunkina.com/ - Almanya’daki bir kozmetolog için iş sitesi (Next.js + Tailwind CSS)',
             'https://plowguys.com/ - Kar ve buz yönetimi sitesi (Webflow)',
             'https://franchise.plowguys.com/ - Ticari kar ve buz franchise landing sayfası',
-            'https://irynavynnychenko.github.io/react-dashboard-from-figma/ - Figma’dan etkileşimli React paneli',
           ],
           ndaProjects: [
             'Next.js + PostgreSQL/Prisma ile çok kiracılı ürün sistemleri - veri izolasyonu, onlarcadan binlerce kullanıcıya büyüyecek şekilde',

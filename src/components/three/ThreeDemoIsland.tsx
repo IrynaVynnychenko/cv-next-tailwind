@@ -97,7 +97,7 @@ function Chip({
     <button
       type="button"
       onClick={onClick}
-      className={`inline-flex h-7 items-center rounded-md px-2.5 text-xs font-medium transition-colors ${
+      className={`inline-flex h-7 items-center rounded-md px-2.5 text-xs font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
         active
           ? 'bg-foreground text-background'
           : 'bg-muted text-muted-foreground hover:text-foreground'
