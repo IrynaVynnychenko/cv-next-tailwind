@@ -675,6 +675,18 @@ export const services: Record<ServiceId, ServiceCopy> = {
     },
     articles: [
       {
+        slug: 'threejs-product-scene-nextjs',
+        label: {
+          en: 'A Three.js object you can orbit',
+          ua: 'Об’єкт Three.js, який можна облетіти',
+          de: 'Ein Three.js-Objekt zum Umkreisen',
+          fr: 'Un objet Three.js à orbiter',
+          es: 'Un objeto Three.js para orbitar',
+          it: 'Un oggetto Three.js da orbitare',
+          tr: 'Yörüngeye alınan Three.js nesnesi',
+        },
+      },
+      {
         slug: 'what-is-web-application-modern-guide',
         label: {
           en: 'What is a web application',
@@ -1517,7 +1529,9 @@ export function getServiceIdForSlug(slug: string): ServiceId | null {
     slug === 'how-i-build-mvp-and-choose-tech-stack' ||
     slug === 'scalable-nextjs-typescript-architecture' ||
     slug === 'local-first-web-applications-future-of-ux' ||
-    slug === 'what-is-web-application-modern-guide'
+    slug === 'what-is-web-application-modern-guide' ||
+    slug.includes('threejs') ||
+    slug.includes('pixijs')
   ) {
     return 'web-apps'
   }

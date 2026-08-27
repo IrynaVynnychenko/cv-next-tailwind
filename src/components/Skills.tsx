@@ -10,6 +10,7 @@ const STACK = [
   'js',
   'react',
   'nextjs',
+  'threejs',
   'nodejs',
   'python',
   'php',

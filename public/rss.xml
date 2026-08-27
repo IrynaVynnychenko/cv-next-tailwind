@@ -5,8 +5,17 @@
     <link>https://vynnychenko.dev/blog/</link>
     <description>Iryna Vynnychenko, Senior Web Engineer in Kyiv. Fullstack Next.js for SaaS, MVPs, and Telegram Mini Apps - and marketing sites on Webflow, WordPress, or static. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://vynnychenko.dev/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A Three.js Object You Can Orbit</title>
+      <link>https://vynnychenko.dev/blog/threejs-product-scene-nextjs/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/threejs-product-scene-nextjs/</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <description>The last article was when I would leave the DOM. This one is the object. Drag it. Switch glass to chrome. The GPU paints the SKU; the copy around it stays HTML. How I wire that island in Next.js — and why it still does not live on the homepage.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Three.js</category><category>WebGL</category><category>Next.js</category><category>Frontend</category><category>Animation</category><category>Product</category>
+    </item>
     <item>
       <title>What MCP Is - and When a Small Business Actually Needs One</title>
       <link>https://vynnychenko.dev/blog/what-is-mcp-for-small-business-2026/</link>

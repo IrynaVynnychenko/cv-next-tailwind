@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import BlogPostContent from '@/components/BlogPostContent'
 import ContactInfo from '@/components/ContactInfo'
 import RelatedPosts from '@/components/RelatedPosts'
+import ThreeDemoIsland from '@/components/three/ThreeDemoIsland'
 import { getBlogPost } from '@/data/blog-posts'
 import { getServiceIdForSlug, services } from '@/data/services'
 import { useLanguage } from '@/context/LanguageContext'
@@ -151,6 +152,8 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
             ))}
           </div>
         </header>
+
+        {slug === 'threejs-product-scene-nextjs' && <ThreeDemoIsland />}
 
         <BlogPostContent sections={post.content} />
 

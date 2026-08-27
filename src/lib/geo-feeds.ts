@@ -9,6 +9,7 @@ import { AUTHOR_JOB_TITLE, AUTHOR_NAME, BASE_URL, CONTACT_EMAIL, SAME_AS } from 
 import { getBlogPostModified } from '@/lib/blog-seo'
 
 const SELECTED_SLUGS = [
+  'threejs-product-scene-nextjs',
   'geo-chatgpt-citations-for-business-2026',
   'what-is-seo-and-why-it-matters',
   'what-is-telegram-mini-app',
