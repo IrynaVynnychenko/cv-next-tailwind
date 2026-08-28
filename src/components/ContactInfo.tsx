@@ -103,7 +103,7 @@ export default function ContactInfo({
 
   return (
     <div>
-      <h3 className="mb-2 text-lg font-semibold">{title || defaultTitle}</h3>
+      {title !== '' && <h3 className="mb-2 text-lg font-semibold">{title || defaultTitle}</h3>}
       {description && (
         <p className="mb-4 text-sm leading-relaxed text-muted-foreground">{description}</p>
       )}

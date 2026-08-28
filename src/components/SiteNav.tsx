@@ -6,11 +6,11 @@ import { usePathname } from 'next/navigation'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
 import { chrome } from '@/data/chrome'
-import { getContactMailto } from '@/lib/contact'
 import ThemeToggle from './ThemeToggle'
 import ChatLinks from './ChatLinks'
 import {
   getBlogIndexPath,
+  getContactsPath,
   getEquivalentPath,
   getExperiencePath,
   getHomePath,
@@ -32,13 +32,14 @@ const LANG_OPTIONS: { code: Language; short: string; native: string }[] = [
 ]
 
 function isPageNavItem(id: string) {
-  return id === 'blog' || id === 'experience'
+  return id === 'blog' || id === 'experience' || id === 'contact'
 }
 
 function isNavItemActive(id: string, pathname: string) {
   const path = stripLangPrefix(pathname)
   if (id === 'blog') return path.startsWith('/blog')
   if (id === 'experience') return path.startsWith('/experience')
+  if (id === 'contact') return path.startsWith('/contacts')
   return false
 }
 
@@ -54,7 +55,7 @@ function useNavItems() {
     { id: 'experience', label: t.nav.experience, href: getExperiencePath(language) },
     { id: 'projects', label: c.projects, href: withLangPrefix(language, '/#projects') },
     { id: 'blog', label: t.nav.blog, href: getBlogIndexPath(language) },
-    { id: 'contact', label: t.nav.contact, href: withLangPrefix(language, '/#contact') },
+    { id: 'contact', label: t.nav.contact, href: getContactsPath(language) },
   ]
 
   const scrollTo = (id: string) => {
@@ -223,13 +224,13 @@ export default function SiteNav() {
               </div>
 
               <div className="flex items-center gap-2">
-                <a
-                  href={getContactMailto(language)}
+                <Link
+                  href={getContactsPath(language)}
                   className="inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-foreground px-4 py-3 text-sm font-medium text-background"
                   onClick={() => setOpen(false)}
                 >
                   {c.heroCta}
-                </a>
+                </Link>
                 <ChatLinks onClick={() => setOpen(false)} />
               </div>
             </div>

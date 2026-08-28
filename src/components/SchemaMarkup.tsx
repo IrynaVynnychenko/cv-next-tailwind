@@ -1,11 +1,12 @@
 import { BlogPost } from '@/data/blog-posts'
+import { contactsPage } from '@/data/contacts-page'
 import { services, type ServiceId } from '@/data/services'
 import { translations } from '@/data/translations'
 import { getBlogPostModified, getBlogPostPlainText, getBlogPostWordCount } from '@/lib/blog-seo'
 import type { Language } from '@/lib/i18n'
-import { getBlogIndexPath, getBlogPostPath, getHomePath, LOCALE_TAGS, withLangPrefix } from '@/lib/i18n'
+import { getBlogIndexPath, getBlogPostPath, getContactsPath, getHomePath, LOCALE_TAGS, withLangPrefix } from '@/lib/i18n'
 import { SITE_OG_IMAGE_URL } from '@/lib/seo'
-import { AUTHOR_JOB_TITLE, AUTHOR_NAME, SAME_AS } from '@/lib/site'
+import { AUTHOR_JOB_TITLE, AUTHOR_NAME, CONTACT_EMAIL, SAME_AS } from '@/lib/site'
 
 type Lang = Language
 
@@ -209,7 +210,7 @@ export function ProfilePageSchema({ lang }: SchemaProps) {
         addressLocality: copy.city[lang],
         addressCountry: 'UA',
       },
-      email: 'i.vynnychenko@gmail.com',
+      email: CONTACT_EMAIL,
       telephone: '+380931844615',
       worksFor: {
         '@type': 'Organization',
@@ -464,4 +465,29 @@ export function ServicePageSchema({ id, lang }: SchemaProps & { id: ServiceId })
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     </>
   )
+}
+
+export function ContactPageSchema({ lang }: SchemaProps) {
+  const url = `https://vynnychenko.dev${getContactsPath(lang)}`
+  const authorName = copy.name[lang]
+  const authorUrl = `https://vynnychenko.dev${getHomePath(lang)}`
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: contactsPage.h1[lang],
+    description: contactsPage.metaDescription[lang],
+    url,
+    inLanguage: LOCALE_TAGS[lang],
+    mainEntity: {
+      '@type': 'Person',
+      name: authorName,
+      url: authorUrl,
+      image: SITE_OG_IMAGE_URL,
+      email: CONTACT_EMAIL,
+      sameAs: [...SAME_AS],
+    },
+  }
+
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
 }

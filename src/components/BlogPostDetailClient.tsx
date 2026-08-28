@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import BlogPostContent from '@/components/BlogPostContent'
 import ContactInfo from '@/components/ContactInfo'
 import RelatedPosts from '@/components/RelatedPosts'
+import PixiDemoIsland from '@/components/pixi/PixiDemoIsland'
 import ThreeDemoIsland from '@/components/three/ThreeDemoIsland'
 import { getBlogPost } from '@/data/blog-posts'
 import { getServiceIdForSlug, services } from '@/data/services'
@@ -12,6 +13,8 @@ import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
 import { getBlogIndexPath, getHomePath, LOCALE_TAGS, withLangPrefix, type Language } from '@/lib/i18n'
 import { AUTHOR_NAME } from '@/lib/site'
+
+const CANVAS_DEMO_SLUGS = new Set(['threejs-product-scene-nextjs', 'pixijs-animated-game-nextjs'])
 
 type BlogPostDetailClientProps = {
   slug: string
@@ -118,7 +121,7 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
         <Link
           href={getBlogIndexPath(language)}
           className={`mb-6 inline-flex items-center text-sm transition-colors hover:text-foreground ${
-            slug === 'threejs-product-scene-nextjs' ? 'text-foreground/80' : 'text-muted-foreground'
+            CANVAS_DEMO_SLUGS.has(slug) ? 'text-foreground/80' : 'text-muted-foreground'
           }`}
         >
           {t.backToBlog}
@@ -126,7 +129,7 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
 
         <header className="mb-8 border-b border-edge pb-8">
           <div className={`mb-4 flex flex-wrap items-center gap-3 font-mono text-xs ${
-            slug === 'threejs-product-scene-nextjs' ? 'text-foreground/80' : 'text-muted-foreground'
+            CANVAS_DEMO_SLUGS.has(slug) ? 'text-foreground/80' : 'text-muted-foreground'
           }`}>
             <time dateTime={post.date}>{formatDate(post.date, language)}</time>
             {post.updated !== post.date && (
@@ -147,11 +150,11 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
           </div>
 
           <h1 className="mb-4 text-3xl font-semibold tracking-tight">{post.title}</h1>
-          <p id="article-excerpt" className={`mb-4 leading-relaxed ${slug === 'threejs-product-scene-nextjs' ? 'text-foreground/85' : 'text-muted-foreground'}`}>{post.excerpt}</p>
+          <p id="article-excerpt" className={`mb-4 leading-relaxed ${CANVAS_DEMO_SLUGS.has(slug) ? 'text-foreground/85' : 'text-muted-foreground'}`}>{post.excerpt}</p>
           <div className="flex flex-wrap gap-1.5">
             {post.tags.map((tag) => (
               <span key={tag} className={`inline-flex h-6 items-center rounded-md border px-[0.45rem] text-xs font-medium ${
-                slug === 'threejs-product-scene-nextjs'
+                CANVAS_DEMO_SLUGS.has(slug)
                   ? 'border-foreground/20 bg-background text-foreground'
                   : 'border-transparent bg-muted text-muted-foreground'
               }`}>
@@ -162,10 +165,11 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
         </header>
 
         {slug === 'threejs-product-scene-nextjs' && <ThreeDemoIsland />}
+        {slug === 'pixijs-animated-game-nextjs' && <PixiDemoIsland />}
 
         <BlogPostContent
           sections={post.content}
-          className={slug === 'threejs-product-scene-nextjs' ? 'text-foreground/85' : undefined}
+          className={CANVAS_DEMO_SLUGS.has(slug) ? 'text-foreground/85' : undefined}
         />
 
         {service && (

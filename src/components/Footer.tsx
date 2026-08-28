@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useLanguage } from '@/context/LanguageContext'
 import { SERVICE_ORDER, services } from '@/data/services'
 import { translations } from '@/data/translations'
-import { getExperiencePath, withLangPrefix } from '@/lib/i18n'
+import { getContactsPath, getExperiencePath, withLangPrefix } from '@/lib/i18n'
 
 export default function Footer() {
   const { language } = useLanguage()
@@ -15,6 +15,9 @@ export default function Footer() {
       <nav className="mb-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
         <Link href={getExperiencePath(language)} className="hover:text-foreground">
           {translations[language].nav.experience}
+        </Link>
+        <Link href={getContactsPath(language)} className="hover:text-foreground">
+          {translations[language].nav.contact}
         </Link>
         {SERVICE_ORDER.map((id) => (
           <Link

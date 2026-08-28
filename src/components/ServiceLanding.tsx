@@ -3,15 +3,15 @@
 import Link from 'next/link'
 import { useLanguage } from '@/context/LanguageContext'
 import { homeServices, SERVICE_ORDER, services, type ServiceId } from '@/data/services'
-import { getBlogPostPath, withLangPrefix } from '@/lib/i18n'
-import { CONTACT_EMAIL, getContactMailto } from '@/lib/contact'
+import { getBlogPostPath, getContactsPath, withLangPrefix } from '@/lib/i18n'
+import { CONTACT_EMAIL } from '@/lib/contact'
 import { Panel } from './Panel'
 import ChatLinks from './ChatLinks'
 
 export default function ServiceLanding({ id }: { id: ServiceId }) {
   const { language } = useLanguage()
   const s = services[id]
-  const mailto = getContactMailto(language, s.mailSubject[language])
+  const contactsHref = getContactsPath(language)
 
   return (
     <article className="pt-20">
@@ -24,8 +24,8 @@ export default function ServiceLanding({ id }: { id: ServiceId }) {
         <h1 className="mt-3 max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">{s.h1[language]}</h1>
         <p id="service-lead" className="mt-4 max-w-2xl text-sm leading-relaxed text-muted-foreground">{s.lead[language]}</p>
         <div className="mt-6 flex flex-wrap items-center gap-2">
-          <a
-            href={mailto}
+          <Link
+            href={contactsHref}
             className="inline-flex items-center gap-2 rounded-full border border-edge bg-background px-4 py-2 text-sm font-medium transition hover:bg-accent"
           >
             {s.ctaButton[language]}
@@ -33,7 +33,7 @@ export default function ServiceLanding({ id }: { id: ServiceId }) {
               <rect x="2" y="4" width="20" height="16" rx="2" />
               <path d="M22 7l-10 7L2 7" />
             </svg>
-          </a>
+          </Link>
           <ChatLinks />
         </div>
       </div>
@@ -104,18 +104,18 @@ export default function ServiceLanding({ id }: { id: ServiceId }) {
         <div className="space-y-4 p-4">
           <p className="text-sm leading-relaxed text-muted-foreground">{s.ctaText[language]}</p>
           <div className="flex flex-wrap items-center gap-2">
-            <a
-              href={mailto}
+            <Link
+              href={contactsHref}
               className="inline-flex items-center gap-2 rounded-md bg-foreground px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90"
             >
               {s.ctaButton[language]}
-            </a>
+            </Link>
             <ChatLinks />
           </div>
           <p className="font-mono text-xs text-muted-foreground">{CONTACT_EMAIL}</p>
           <p>
             <Link
-              href={withLangPrefix(language, '/#contact')}
+              href={getContactsPath(language)}
               className="text-sm text-muted-foreground underline-offset-4 hover:underline"
             >
               vynnychenko.dev

@@ -3,7 +3,7 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   basePath: '',
-  transpilePackages: ['three'],
+  transpilePackages: ['three', 'pixi.js'],
   images: {
     unoptimized: true
   }

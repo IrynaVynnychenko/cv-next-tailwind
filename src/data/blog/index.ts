@@ -7,6 +7,7 @@ import { mcpPosts } from './posts-mcp'
 import { databasePosts } from './posts-databases'
 import { engineeringPosts } from './posts-engineering'
 import { graphicsPosts } from './posts-graphics'
+import { pixiJsPosts } from './posts-pixi'
 import { threeJsPosts } from './posts-three'
 import { itRoleBlogPosts } from './posts-it-roles'
 import { socialPosts } from './posts-social'
@@ -33,6 +34,7 @@ const ALL_POSTS: RawBlogPost[] = [
   ...telegramExamplePosts,
   ...socialPosts,
   ...engineeringPosts,
+  ...pixiJsPosts,
   ...threeJsPosts,
   ...graphicsPosts,
   ...databasePosts,
@@ -44,6 +46,7 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'pixijs-animated-game-nextjs',
   'threejs-product-scene-nextjs',
   'what-is-mcp-for-small-business-2026',
   'what-to-do-when-chatgpt-goes-down',

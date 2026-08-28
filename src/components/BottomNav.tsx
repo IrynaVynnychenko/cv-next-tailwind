@@ -7,6 +7,7 @@ import { translations } from '@/data/translations'
 import { chrome } from '@/data/chrome'
 import {
   getBlogIndexPath,
+  getContactsPath,
   getExperiencePath,
   getHomePath,
   stripLangPrefix,
@@ -24,13 +25,14 @@ export default function BottomNav() {
   const path = stripLangPrefix(pathname)
   const isBlog = path.startsWith('/blog')
   const isExperience = path.startsWith('/experience')
+  const isContacts = path.startsWith('/contacts')
 
   const items = [
     { id: 'about', label: t.nav.about, href: withLangPrefix(language, '/#about') },
     { id: 'experience', label: t.nav.experience, href: getExperiencePath(language), page: true },
     { id: 'projects', label: c.projects, href: withLangPrefix(language, '/#projects') },
     { id: 'blog', label: t.nav.blog, href: blogHref, page: true },
-    { id: 'contact', label: t.nav.contact, href: withLangPrefix(language, '/#contact') },
+    { id: 'contact', label: t.nav.contact, href: getContactsPath(language), page: true },
   ]
 
   const scrollTo = (id: string) => {
@@ -42,7 +44,8 @@ export default function BottomNav() {
     <nav className="fixed top-4 left-1/2 z-50 w-[calc(100%-6.5rem)] max-w-xl -translate-x-1/2 md:w-[calc(100%-2rem)]">
       <div className="flex items-center justify-between gap-1 overflow-x-auto no-scrollbar rounded-full border border-edge bg-background/80 px-2 py-1.5 shadow-lg backdrop-blur-md">
         {items.map((item) => {
-          const active = item.id === 'blog' ? isBlog : item.id === 'experience' ? isExperience : false
+          const active =
+            item.id === 'blog' ? isBlog : item.id === 'experience' ? isExperience : item.id === 'contact' ? isContacts : false
           const className = `whitespace-nowrap rounded-full px-2.5 py-1.5 text-xs font-medium transition-colors sm:px-3 ${
             active
               ? 'bg-muted text-foreground'

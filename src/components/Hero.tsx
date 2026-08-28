@@ -1,10 +1,11 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { useLanguage } from '@/context/LanguageContext'
 import { translations } from '@/data/translations'
 import { chrome } from '@/data/chrome'
-import { getContactMailto } from '@/lib/contact'
+import { getContactsPath } from '@/lib/i18n'
 import { RotatingWords } from './Animate'
 import ChatLinks from './ChatLinks'
 
@@ -23,8 +24,8 @@ export default function Hero() {
           <RotatingWords words={c.heroRotate} className="text-sky-500" />
         </p>
         <div className="flex items-center justify-center gap-2 motion-safe:animate-hero-in [animation-delay:220ms]">
-          <a
-            href={getContactMailto(language)}
+          <Link
+            href={getContactsPath(language)}
             className="inline-flex items-center gap-2 rounded-full border border-edge bg-background/80 px-4 py-2 text-sm font-medium backdrop-blur-sm transition duration-300 hover:bg-accent motion-safe:hover:scale-[1.03] motion-safe:active:scale-[0.98]"
           >
             {c.heroCta}
@@ -32,7 +33,7 @@ export default function Hero() {
               <rect x="2" y="4" width="20" height="16" rx="2" />
               <path d="M22 7l-10 7L2 7" />
             </svg>
-          </a>
+          </Link>
           <ChatLinks />
         </div>
         <p className="inline-flex max-w-[22rem] items-center justify-center gap-1.5 font-mono text-[11px] leading-snug text-muted-foreground motion-safe:animate-hero-in sm:max-w-none [animation-delay:280ms]">

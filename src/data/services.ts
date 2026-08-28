@@ -675,6 +675,18 @@ export const services: Record<ServiceId, ServiceCopy> = {
     },
     articles: [
       {
+        slug: 'pixijs-animated-game-nextjs',
+        label: {
+          en: 'A Pixi.js game you can play',
+          ua: 'Гра на Pixi.js, в яку можна зіграти',
+          de: 'Ein Pixi.js-Spiel zum Spielen',
+          fr: 'Un jeu Pixi.js à jouer',
+          es: 'Un juego Pixi.js para jugar',
+          it: 'Un gioco Pixi.js da giocare',
+          tr: 'Oynanabilir bir Pixi.js oyunu',
+        },
+      },
+      {
         slug: 'threejs-product-scene-nextjs',
         label: {
           en: 'A Three.js object you can orbit',

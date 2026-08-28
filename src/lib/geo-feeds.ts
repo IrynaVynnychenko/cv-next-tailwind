@@ -2,6 +2,7 @@ import { writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { getAllBlogPosts } from '@/data/blog-posts'
 import { EXPERIENCE_PATH } from '@/data/experience-page'
+import { CONTACTS_PATH } from '@/data/contacts-page'
 import { SERVICE_ORDER, services } from '@/data/services'
 import { chrome } from '@/data/chrome'
 import { withLangPrefix } from '@/lib/i18n'
@@ -9,6 +10,7 @@ import { AUTHOR_JOB_TITLE, AUTHOR_NAME, BASE_URL, CONTACT_EMAIL, SAME_AS } from 
 import { getBlogPostModified } from '@/lib/blog-seo'
 
 const SELECTED_SLUGS = [
+  'pixijs-animated-game-nextjs',
   'threejs-product-scene-nextjs',
   'geo-chatgpt-citations-for-business-2026',
   'what-is-seo-and-why-it-matters',
@@ -75,6 +77,7 @@ ${serviceLines.join('\n')}
 
 - [Home](${BASE_URL}/)
 - [Experience](${absolute(EXPERIENCE_PATH)})
+- [Contacts](${absolute(CONTACTS_PATH)})
 - [Blog](${absolute('/blog/')})
 - Ukrainian: ${BASE_URL}/ua/
 - German: ${BASE_URL}/de/

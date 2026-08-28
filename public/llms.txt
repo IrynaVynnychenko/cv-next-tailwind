@@ -24,6 +24,7 @@ Iryna Vynnychenko (Ірина Винниченко) is a Frontend & Full-Stack E
 
 - [Home](https://vynnychenko.dev/)
 - [Experience](https://vynnychenko.dev/experience/)
+- [Contacts](https://vynnychenko.dev/contacts/)
 - [Blog](https://vynnychenko.dev/blog/)
 - Ukrainian: https://vynnychenko.dev/ua/
 - German: https://vynnychenko.dev/de/
@@ -34,6 +35,7 @@ Iryna Vynnychenko (Ірина Винниченко) is a Frontend & Full-Stack E
 
 ## Selected writing
 
+- [A Pixi.js Game You Can Play](https://vynnychenko.dev/blog/pixijs-animated-game-nextjs/): The last article was the 3D object. This one is the 2D stage. Catch the crystals. Dodge the embers. The GPU keeps the sprites at 60 fps; the score under it stays HTML. How I wire a branded minigame as a Next.js island — and why Pixi is still not a game engine.
 - [A Three.js Object You Can Orbit](https://vynnychenko.dev/blog/threejs-product-scene-nextjs/): The last article was when I would leave the DOM. This one is the object. Drag it. Switch glass to chrome. The GPU paints the SKU; the copy around it stays HTML. How I wire that island in Next.js — and why it still does not live on the homepage.
 - [Google Rank Is Not Enough - ChatGPT Has to Cite You Before the Customer Clicks](https://vynnychenko.dev/blog/geo-chatgpt-citations-for-business-2026/): Buyers now ask ChatGPT, Perplexity, and Google AI Overviews who to hire. Ranking on Google does not put your name in that answer. What GEO actually is, why a JS-only site is invisible, and what I put on a page so a model can cite it.
 - [What SEO Actually Is - and Why a Site Without It Misses the Buyer Who Already Typed the Job](https://vynnychenko.dev/blog/what-is-seo-and-why-it-matters/): SEO is not keywords in the footer and not a plugin. It is making a page findable when someone already typed the job into Google. What that actually means, why ads and Instagram do not replace it, and what I put on a site so a crawler can rank it.

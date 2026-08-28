@@ -67,6 +67,10 @@ export function getExperiencePath(lang: Language): string {
   return withLangPrefix(lang, '/experience/')
 }
 
+export function getContactsPath(lang: Language): string {
+  return withLangPrefix(lang, '/contacts/')
+}
+
 export function pickLocalized<T extends Partial<Record<Language, string>> & { en: string }>(
   value: T,
   lang: Language

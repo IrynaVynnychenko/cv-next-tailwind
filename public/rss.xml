@@ -5,8 +5,17 @@
     <link>https://vynnychenko.dev/blog/</link>
     <description>Iryna Vynnychenko, Senior Web Engineer in Kyiv. Fullstack Next.js for SaaS, MVPs, and Telegram Mini Apps - and marketing sites on Webflow, WordPress, or static. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://vynnychenko.dev/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A Pixi.js Game You Can Play</title>
+      <link>https://vynnychenko.dev/blog/pixijs-animated-game-nextjs/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/pixijs-animated-game-nextjs/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <description>The last article was the 3D object. This one is the 2D stage. Catch the crystals. Dodge the embers. The GPU keeps the sprites at 60 fps; the score under it stays HTML. How I wire a branded minigame as a Next.js island — and why Pixi is still not a game engine.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Pixi.js</category><category>WebGL</category><category>Next.js</category><category>Frontend</category><category>Animation</category><category>Game</category>
+    </item>
     <item>
       <title>A Three.js Object You Can Orbit</title>
       <link>https://vynnychenko.dev/blog/threejs-product-scene-nextjs/</link>

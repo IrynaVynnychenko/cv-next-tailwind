@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { rawBlogPosts } from '@/data/blog-posts'
 import { EXPERIENCE_PATH } from '@/data/experience-page'
+import { CONTACTS_PATH } from '@/data/contacts-page'
 import { SERVICE_ORDER, services } from '@/data/services'
 import { writeGeoFeeds } from '@/lib/geo-feeds'
 import { LANGUAGES, withLangPrefix } from '@/lib/i18n'
@@ -19,6 +20,10 @@ function altBlog() {
 
 function altExperience() {
   return getLanguageAlternates(EXPERIENCE_PATH)
+}
+
+function altContacts() {
+  return getLanguageAlternates(CONTACTS_PATH)
 }
 
 function altPost(slug: string) {
@@ -51,6 +56,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.8,
       alternates: { languages: altExperience() },
+    },
+    {
+      url: `${baseUrl}${withLangPrefix(lang, CONTACTS_PATH)}`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: altContacts() },
     },
     ...SERVICE_ORDER.map((id) => ({
       url: `${baseUrl}${withLangPrefix(lang, services[id].path)}`,
