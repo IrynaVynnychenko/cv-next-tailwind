@@ -23,7 +23,7 @@ type ThreeKnotSceneProps = {
 
 const BG = {
   dark: 0x09090b,
-  light: 0xe4e4e7,
+  light: 0xc4c4c8,
 } as const
 
 function makeGeometry(shape: SceneShape, mobile: boolean) {
@@ -41,41 +41,41 @@ function applyFinish(material: THREE.MeshPhysicalMaterial, finish: SceneFinish, 
   material.attenuationDistance = Infinity
 
   if (finish === 'glass') {
-    material.color.set(0xffffff)
-    material.metalness = 0.04
-    material.roughness = 0.05
-    material.transmission = 1
-    material.thickness = 1.55
+    material.color.set(dark ? 0xf0f9ff : 0x0c4a6e)
+    material.metalness = 0.08
+    material.roughness = dark ? 0.04 : 0.08
+    material.transmission = dark ? 0.92 : 0.55
+    material.thickness = 1.8
     material.ior = 1.5
     material.iridescence = 1
     material.iridescenceIOR = 1.28
     material.iridescenceThicknessRange = [120, 420]
     material.clearcoat = 1
-    material.clearcoatRoughness = 0.06
-    material.attenuationColor.set(dark ? 0x7dd3fc : 0x38bdf8)
-    material.attenuationDistance = 2.4
-    material.envMapIntensity = 1.35
+    material.clearcoatRoughness = 0.04
+    material.attenuationColor.set(dark ? 0x38bdf8 : 0x0369a1)
+    material.attenuationDistance = dark ? 1.8 : 1.2
+    material.envMapIntensity = dark ? 1.55 : 1.2
     return
   }
 
   if (finish === 'chrome') {
-    material.color.set(dark ? 0xd4d4d8 : 0xa1a1aa)
+    material.color.set(dark ? 0xf4f4f5 : 0x3f3f46)
     material.metalness = 1
-    material.roughness = 0.11
-    material.clearcoat = 0.55
-    material.clearcoatRoughness = 0.12
-    material.envMapIntensity = 1.25
+    material.roughness = dark ? 0.08 : 0.14
+    material.clearcoat = 0.7
+    material.clearcoatRoughness = 0.08
+    material.envMapIntensity = 1.45
     return
   }
 
-  material.color.set(dark ? 0x1c1917 : 0x292524)
+  material.color.set(dark ? 0x1c1917 : 0x1c1917)
   material.metalness = 0.72
-  material.roughness = 0.22
-  material.emissive.set(dark ? 0xea580c : 0xf97316)
-  material.emissiveIntensity = dark ? 1.05 : 0.7
-  material.clearcoat = 0.35
-  material.clearcoatRoughness = 0.28
-  material.envMapIntensity = 0.85
+  material.roughness = 0.18
+  material.emissive.set(dark ? 0xf97316 : 0xea580c)
+  material.emissiveIntensity = dark ? 1.2 : 1.05
+  material.clearcoat = 0.4
+  material.clearcoatRoughness = 0.22
+  material.envMapIntensity = 1
 }
 
 function makeParticles(count: number, dark: boolean) {
@@ -98,11 +98,11 @@ function makeParticles(count: number, dark: boolean) {
   const material = new THREE.ShaderMaterial({
     transparent: true,
     depthWrite: false,
-    blending: THREE.AdditiveBlending,
+    blending: dark ? THREE.AdditiveBlending : THREE.NormalBlending,
     uniforms: {
       uTime: { value: 0 },
       uMotion: { value: 1 },
-      uColor: { value: new THREE.Color(dark ? 0x7dd3fc : 0x0369a1) },
+      uColor: { value: new THREE.Color(dark ? 0x7dd3fc : 0x0e7490) },
     },
     vertexShader: `
       uniform float uTime;
@@ -115,7 +115,7 @@ function makeParticles(count: number, dark: boolean) {
         vec4 mvPosition = modelViewMatrix * vec4(p, 1.0);
         gl_PointSize = aSize * (150.0 / -mvPosition.z);
         gl_Position = projectionMatrix * mvPosition;
-        vAlpha = 0.28 + 0.72 * abs(sin(uTime * 0.7 + position.y * 2.4));
+        vAlpha = 0.45 + 0.55 * abs(sin(uTime * 0.7 + position.y * 2.4));
       }
     `,
     fragmentShader: `
@@ -181,7 +181,7 @@ export default function ThreeKnotScene({
     renderer.setSize(host.clientWidth, host.clientHeight, false)
     renderer.outputColorSpace = THREE.SRGBColorSpace
     renderer.toneMapping = THREE.ACESFilmicToneMapping
-    renderer.toneMappingExposure = dark ? 1.05 : 0.92
+    renderer.toneMappingExposure = dark ? 1.15 : 1.05
     renderer.domElement.style.display = 'block'
     renderer.domElement.style.width = '100%'
     renderer.domElement.style.height = '100%'
@@ -191,7 +191,7 @@ export default function ThreeKnotScene({
 
     const scene = new THREE.Scene()
     scene.background = new THREE.Color(BG[themeRef.current])
-    scene.fog = new THREE.Fog(BG[themeRef.current], 6.5, 14)
+    scene.fog = new THREE.Fog(BG[themeRef.current], 10, 20)
 
     const camera = new THREE.PerspectiveCamera(42, host.clientWidth / Math.max(host.clientHeight, 1), 0.1, 40)
     camera.position.set(2.55, 1.35, 3.35)
@@ -211,7 +211,7 @@ export default function ThreeKnotScene({
     const core = new THREE.Mesh(
       new THREE.SphereGeometry(0.26, 32, 32),
       new THREE.MeshBasicMaterial({
-        color: dark ? 0x38bdf8 : 0x0284c7,
+        color: dark ? 0x38bdf8 : 0x0e7490,
         transparent: true,
         opacity: 0.9,
       })
@@ -222,14 +222,15 @@ export default function ThreeKnotScene({
     const { points, material: particleMaterial } = makeParticles(particleCount, dark)
     scene.add(points)
 
-    const key = new THREE.PointLight(0x7dd3fc, dark ? 18 : 10, 12)
+    const key = new THREE.PointLight(0x7dd3fc, dark ? 22 : 16, 12)
     key.position.set(2.4, 2.1, 2.2)
-    const fill = new THREE.PointLight(0xf472b6, dark ? 8 : 5, 12)
+    const fill = new THREE.PointLight(0xf472b6, dark ? 10 : 8, 12)
     fill.position.set(-2.6, 0.4, 1.4)
-    const rim = new THREE.PointLight(0xfbbf24, dark ? 10 : 6, 12)
+    const rim = new THREE.PointLight(0xfbbf24, dark ? 12 : 9, 12)
     rim.position.set(0.2, -2.2, -1.8)
     scene.add(key, fill, rim)
-    scene.add(new THREE.AmbientLight(0xffffff, dark ? 0.22 : 0.42))
+    const ambient = new THREE.AmbientLight(0xffffff, dark ? 0.16 : 0.28)
+    scene.add(ambient)
 
     const controls = new OrbitControls(camera, renderer.domElement)
     controls.enableDamping = true
@@ -245,7 +246,7 @@ export default function ThreeKnotScene({
     composer.addPass(new RenderPass(scene, camera))
     const bloom = new UnrealBloomPass(
       new THREE.Vector2(host.clientWidth, host.clientHeight),
-      dark ? (mobile ? 0.32 : 0.48) : 0.32,
+      dark ? (mobile ? 0.38 : 0.55) : 0.22,
       0.55,
       0.22
     )
@@ -278,10 +279,15 @@ export default function ThreeKnotScene({
       if (themeChanged) {
         scene.background = new THREE.Color(BG[themeRef.current])
         if (scene.fog instanceof THREE.Fog) scene.fog.color.set(BG[themeRef.current])
-        renderer.toneMappingExposure = nextDark ? 1.05 : 0.92
-        bloom.strength = nextDark ? (mobile ? 0.32 : 0.48) : 0.32
-        particleMaterial.uniforms.uColor.value.set(nextDark ? 0x7dd3fc : 0x0369a1)
-        ;(core.material as THREE.MeshBasicMaterial).color.set(nextDark ? 0x38bdf8 : 0x0284c7)
+        renderer.toneMappingExposure = nextDark ? 1.15 : 1.05
+        bloom.strength = nextDark ? (mobile ? 0.38 : 0.55) : 0.22
+        particleMaterial.uniforms.uColor.value.set(nextDark ? 0x7dd3fc : 0x0e7490)
+        particleMaterial.blending = nextDark ? THREE.AdditiveBlending : THREE.NormalBlending
+        ;(core.material as THREE.MeshBasicMaterial).color.set(nextDark ? 0x38bdf8 : 0x0e7490)
+        key.intensity = nextDark ? 22 : 16
+        fill.intensity = nextDark ? 10 : 8
+        rim.intensity = nextDark ? 12 : 9
+        ambient.intensity = nextDark ? 0.16 : 0.28
         lastTheme = themeRef.current
       }
       if (finishChanged || themeChanged) {

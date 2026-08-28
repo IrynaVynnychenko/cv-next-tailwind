@@ -117,13 +117,17 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
       <div className="screen-line-before screen-line-after border-x border-edge p-4">
         <Link
           href={getBlogIndexPath(language)}
-          className="mb-6 inline-flex items-center text-sm text-muted-foreground transition-colors hover:text-foreground"
+          className={`mb-6 inline-flex items-center text-sm transition-colors hover:text-foreground ${
+            slug === 'threejs-product-scene-nextjs' ? 'text-foreground/80' : 'text-muted-foreground'
+          }`}
         >
           {t.backToBlog}
         </Link>
 
         <header className="mb-8 border-b border-edge pb-8">
-          <div className="mb-4 flex flex-wrap items-center gap-3 font-mono text-xs text-muted-foreground">
+          <div className={`mb-4 flex flex-wrap items-center gap-3 font-mono text-xs ${
+            slug === 'threejs-product-scene-nextjs' ? 'text-foreground/80' : 'text-muted-foreground'
+          }`}>
             <time dateTime={post.date}>{formatDate(post.date, language)}</time>
             {post.updated !== post.date && (
               <>
@@ -143,10 +147,14 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
           </div>
 
           <h1 className="mb-4 text-3xl font-semibold tracking-tight">{post.title}</h1>
-          <p id="article-excerpt" className="mb-4 leading-relaxed text-muted-foreground">{post.excerpt}</p>
+          <p id="article-excerpt" className={`mb-4 leading-relaxed ${slug === 'threejs-product-scene-nextjs' ? 'text-foreground/85' : 'text-muted-foreground'}`}>{post.excerpt}</p>
           <div className="flex flex-wrap gap-1.5">
             {post.tags.map((tag) => (
-              <span key={tag} className="inline-flex h-6 items-center rounded-md bg-muted px-[0.45rem] text-xs font-medium text-muted-foreground">
+              <span key={tag} className={`inline-flex h-6 items-center rounded-md border px-[0.45rem] text-xs font-medium ${
+                slug === 'threejs-product-scene-nextjs'
+                  ? 'border-foreground/20 bg-background text-foreground'
+                  : 'border-transparent bg-muted text-muted-foreground'
+              }`}>
                 {tag}
               </span>
             ))}
@@ -155,7 +163,10 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
 
         {slug === 'threejs-product-scene-nextjs' && <ThreeDemoIsland />}
 
-        <BlogPostContent sections={post.content} />
+        <BlogPostContent
+          sections={post.content}
+          className={slug === 'threejs-product-scene-nextjs' ? 'text-foreground/85' : undefined}
+        />
 
         {service && (
           <div className="mt-12 flex flex-col items-start justify-between gap-6 border border-edge bg-muted/40 p-5 md:flex-row md:items-center">

@@ -97,10 +97,10 @@ function Chip({
     <button
       type="button"
       onClick={onClick}
-      className={`inline-flex h-7 items-center rounded-md px-2.5 text-xs font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
+      className={`inline-flex h-7 items-center rounded-md border px-2.5 text-xs font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
         active
-          ? 'bg-foreground text-background'
-          : 'bg-muted text-muted-foreground hover:text-foreground'
+          ? 'border-foreground bg-foreground text-background'
+          : 'border-foreground/35 bg-background text-foreground hover:bg-accent'
       }`}
       aria-pressed={active}
     >
@@ -163,7 +163,7 @@ export default function ThreeDemoIsland() {
   return (
     <figure
       ref={hostRef}
-      className="my-8 overflow-hidden border border-edge bg-muted/40"
+      className="my-8 overflow-hidden border border-foreground/20 bg-background"
       aria-label={label}
     >
       <div className="relative aspect-[5/4] w-full sm:aspect-[16/10]">
@@ -172,7 +172,7 @@ export default function ThreeDemoIsland() {
           aria-hidden="true"
         />
         {failed ? (
-          <p className="absolute inset-0 flex items-center justify-center px-6 text-center text-sm text-muted-foreground">
+          <p className="absolute inset-0 flex items-center justify-center px-6 text-center text-sm text-foreground">
             {copy.fail[language]}
           </p>
         ) : Scene ? (
@@ -185,20 +185,20 @@ export default function ThreeDemoIsland() {
             onError={() => setFailed(true)}
           />
         ) : near ? (
-          <p className="absolute inset-0 flex items-center justify-center px-6 text-center font-mono text-xs text-muted-foreground">
+          <p className="absolute inset-0 flex items-center justify-center px-6 text-center font-mono text-xs text-foreground">
             {copy.loading[language]}
           </p>
         ) : null}
       </div>
 
-      <figcaption className="space-y-3 border-t border-edge px-4 py-3">
-        <p className="font-mono text-[11px] text-muted-foreground">{label}</p>
+      <figcaption className="space-y-3 border-t border-foreground/20 px-4 py-3">
+        <p className="font-mono text-xs text-foreground">{label}</p>
         {reducedMotion && (
-          <p className="text-xs text-muted-foreground">{copy.reduced[language]}</p>
+          <p className="text-xs text-foreground/80">{copy.reduced[language]}</p>
         )}
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-wrap items-center gap-1.5">
-            <span className="mr-1 text-xs text-muted-foreground">{copy.shape[language]}</span>
+            <span className="mr-1 text-xs font-medium text-foreground">{copy.shape[language]}</span>
             {SHAPES.map((id) => (
               <Chip key={id} active={shape === id} onClick={() => setShape(id)}>
                 {copy.shapes[id][language]}
@@ -206,7 +206,7 @@ export default function ThreeDemoIsland() {
             ))}
           </div>
           <div className="flex flex-wrap items-center gap-1.5">
-            <span className="mr-1 text-xs text-muted-foreground">{copy.finish[language]}</span>
+            <span className="mr-1 text-xs font-medium text-foreground">{copy.finish[language]}</span>
             {FINISHES.map((id) => (
               <Chip key={id} active={finish === id} onClick={() => setFinish(id)}>
                 {copy.finishes[id][language]}
