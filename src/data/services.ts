@@ -1407,6 +1407,18 @@ export const services: Record<ServiceId, ServiceCopy> = {
     },
     articles: [
       {
+        slug: 'frontend-fullstack-beside-ai-backend-2026',
+        label: {
+          en: 'Frontend / fullstack next to your AI backend specialist',
+          ua: 'Фронтенд / фуллстек поруч із AI-backend спеціалістом',
+          de: 'Frontend / Fullstack neben der AI-Backend-Spezialistin',
+          fr: 'Frontend / fullstack à côté du spécialiste AI backend',
+          es: 'Frontend / fullstack junto al especialista de AI backend',
+          it: 'Frontend / fullstack accanto allo specialista AI backend',
+          tr: 'AI backend uzmanının yanındaki frontend / fullstack',
+        },
+      },
+      {
         slug: 'what-is-mcp-for-small-business-2026',
         label: {
           en: 'What MCP is, and when a small business needs it',

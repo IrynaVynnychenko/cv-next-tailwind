@@ -53,13 +53,28 @@ export const translations = {
           ],
         },
         {
-          title: 'AI Integration & Features',
+          title: 'AI Integrations & Features',
           items: [
-            'OpenAI API',
             'Vercel AI SDK',
             'Figma-to-Code via MCP',
             'Streaming UI (SSE / WebSockets)',
-            'AI-assisted development & workflow automation',
+            'AI-assisted development',
+            'Workflow automation',
+            'AI-powered internal tools',
+          ],
+        },
+        {
+          title: 'LLM Integrations',
+          items: [
+            'OpenAI & Anthropic APIs',
+            'Prompt engineering',
+            'Structured outputs',
+            'Function / tool calling',
+            'Embeddings',
+            'Vector databases',
+            'Context management',
+            'AI agents',
+            'Multimodal AI',
           ],
         },
         {
@@ -70,7 +85,7 @@ export const translations = {
             'PHP',
             'PostgreSQL',
             'Prisma ORM',
-            'API integration',
+            'API Integration & Orchestration',
           ],
         },
         {
@@ -392,11 +407,26 @@ export const translations = {
         {
           title: 'ШІ-інтеграції та функції',
           items: [
-            'OpenAI API',
             'Vercel AI SDK',
             'Figma-to-Code через MCP',
             'Streaming UI (SSE / WebSockets)',
-            'Розробка з підтримкою ШІ та автоматизація робочих процесів',
+            'Розробка з підтримкою ШІ',
+            'Автоматизація робочих процесів',
+            'Внутрішні інструменти на базі ШІ',
+          ],
+        },
+        {
+          title: 'LLM-інтеграції',
+          items: [
+            'OpenAI і Anthropic API',
+            'Prompt engineering',
+            'Structured outputs',
+            'Function / tool calling',
+            'Embeddings',
+            'Векторні бази даних',
+            'Керування контекстом',
+            'AI-агенти',
+            'Мультимодальний AI',
           ],
         },
         {
@@ -407,7 +437,7 @@ export const translations = {
             'PHP',
             'PostgreSQL',
             'Prisma ORM',
-            'API-інтеграції',
+            'API Integration & Orchestration',
           ],
         },
         {
@@ -729,11 +759,26 @@ export const translations = {
         {
           title: 'KI-Integration & Features',
           items: [
-            'OpenAI API',
             'Vercel AI SDK',
             'Figma-to-Code via MCP',
             'Streaming UI (SSE / WebSockets)',
-            'AI-gestützte Entwicklung & Workflow-Automatisierung',
+            'KI-gestützte Entwicklung',
+            'Workflow-Automatisierung',
+            'KI-gestützte interne Tools',
+          ],
+        },
+        {
+          title: 'LLM-Integrationen',
+          items: [
+            'OpenAI- & Anthropic-APIs',
+            'Prompt Engineering',
+            'Structured Outputs',
+            'Function / Tool Calling',
+            'Embeddings',
+            'Vektordatenbanken',
+            'Kontextmanagement',
+            'KI-Agenten',
+            'Multimodale KI',
           ],
         },
         {
@@ -744,7 +789,7 @@ export const translations = {
             'PHP',
             'PostgreSQL',
             'Prisma ORM',
-            'API-Integration',
+            'API-Integration & Orchestrierung',
           ],
         },
         {
@@ -1072,11 +1117,26 @@ export const translations = {
         {
           title: 'Intégration IA et fonctionnalités',
           items: [
-            'OpenAI API',
             'Vercel AI SDK',
             'Figma-to-Code via MCP',
             'Streaming UI (SSE / WebSockets)',
-            'Développement assisté par l’IA et automatisation des workflows',
+            'Développement assisté par l’IA',
+            'Automatisation des workflows',
+            'Outils internes propulsés par l’IA',
+          ],
+        },
+        {
+          title: 'Intégrations LLM',
+          items: [
+            'APIs OpenAI et Anthropic',
+            'Prompt engineering',
+            'Sorties structurées',
+            'Function / tool calling',
+            'Embeddings',
+            'Bases vectorielles',
+            'Gestion du contexte',
+            'Agents IA',
+            'IA multimodale',
           ],
         },
         {
@@ -1087,7 +1147,7 @@ export const translations = {
             'PHP',
             'PostgreSQL',
             'Prisma ORM',
-            'Intégration API',
+            'Intégration et orchestration d’API',
           ],
         },
         {
@@ -1415,11 +1475,26 @@ export const translations = {
         {
           title: 'Integración de IA y funciones',
           items: [
-            'OpenAI API',
             'Vercel AI SDK',
             'Figma-to-Code vía MCP',
             'Streaming UI (SSE / WebSockets)',
-            'Desarrollo asistido por IA y automatización de flujos',
+            'Desarrollo asistido por IA',
+            'Automatización de flujos',
+            'Herramientas internas con IA',
+          ],
+        },
+        {
+          title: 'Integraciones LLM',
+          items: [
+            'APIs de OpenAI y Anthropic',
+            'Prompt engineering',
+            'Salidas estructuradas',
+            'Function / tool calling',
+            'Embeddings',
+            'Bases de datos vectoriales',
+            'Gestión de contexto',
+            'Agentes de IA',
+            'IA multimodal',
           ],
         },
         {
@@ -1430,7 +1505,7 @@ export const translations = {
             'PHP',
             'PostgreSQL',
             'Prisma ORM',
-            'Integración de APIs',
+            'Integración y orquestación de APIs',
           ],
         },
         {
@@ -1752,11 +1827,26 @@ export const translations = {
         {
           title: 'Integrazione IA e funzionalità',
           items: [
-            'OpenAI API',
             'Vercel AI SDK',
             'Figma-to-Code via MCP',
             'Streaming UI (SSE / WebSockets)',
-            'Sviluppo assistito da IA e automazione dei flussi',
+            'Sviluppo assistito da IA',
+            'Automazione dei flussi',
+            'Strumenti interni basati su IA',
+          ],
+        },
+        {
+          title: 'Integrazioni LLM',
+          items: [
+            'API OpenAI e Anthropic',
+            'Prompt engineering',
+            'Output strutturati',
+            'Function / tool calling',
+            'Embeddings',
+            'Database vettoriali',
+            'Gestione del contesto',
+            'Agenti IA',
+            'IA multimodale',
           ],
         },
         {
@@ -1767,7 +1857,7 @@ export const translations = {
             'PHP',
             'PostgreSQL',
             'Prisma ORM',
-            'Integrazione API',
+            'Integrazione e orchestrazione API',
           ],
         },
         {
@@ -2089,11 +2179,26 @@ export const translations = {
         {
           title: 'Yapay zekâ entegrasyonu ve özellikler',
           items: [
-            'OpenAI API',
             'Vercel AI SDK',
             'MCP ile Figma-to-Code',
             'Streaming UI (SSE / WebSockets)',
-            'Yapay zekâ destekli geliştirme ve iş akışı otomasyonu',
+            'Yapay zekâ destekli geliştirme',
+            'İş akışı otomasyonu',
+            'Yapay zekâ destekli iç araçlar',
+          ],
+        },
+        {
+          title: 'LLM entegrasyonları',
+          items: [
+            'OpenAI ve Anthropic API’leri',
+            'Prompt engineering',
+            'Structured outputs',
+            'Function / tool calling',
+            'Embeddings',
+            'Vektör veritabanları',
+            'Bağlam yönetimi',
+            'AI ajanları',
+            'Çok modlu yapay zekâ',
           ],
         },
         {
@@ -2104,7 +2209,7 @@ export const translations = {
             'PHP',
             'PostgreSQL',
             'Prisma ORM',
-            'API entegrasyonu',
+            'API entegrasyonu ve orkestrasyonu',
           ],
         },
         {

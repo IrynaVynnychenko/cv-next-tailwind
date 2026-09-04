@@ -2,6 +2,7 @@
 
 import { useLanguage } from '@/context/LanguageContext'
 import { chrome } from '@/data/chrome'
+import { translations } from '@/data/translations'
 import { Panel } from './Panel'
 import { Marquee } from './Animate'
 
@@ -55,6 +56,15 @@ function SkillIcon({ id }: { id: string }) {
 export default function Skills() {
   const { language } = useLanguage()
   const c = chrome[language]
+  const t = translations[language].skills
+  const featured = t.categories.filter((category) =>
+    category.items.some(
+      (item) =>
+        item.includes('Vercel AI SDK') ||
+        item.includes('Anthropic') ||
+        item.includes('Prisma ORM'),
+    ),
+  )
 
   return (
     <Panel id="skills" title={c.stack}>
@@ -69,6 +79,24 @@ export default function Skills() {
             <SkillIcon key={id} id={id} />
           ))}
         </Marquee>
+        {featured.length > 0 && (
+          <div className="space-y-4 border-t border-edge px-4 pt-4">
+            {featured.map((category) => (
+              <div key={category.title}>
+                <h3 className="mb-2 text-sm font-semibold tracking-tight">{category.title}</h3>
+                <ul className="flex flex-wrap gap-1.5">
+                  {category.items.map((item) => (
+                    <li key={item}>
+                      <span className="inline-flex max-w-full items-center rounded-md bg-muted px-2 py-1 text-xs font-medium leading-snug text-muted-foreground">
+                        {item}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </Panel>
   )

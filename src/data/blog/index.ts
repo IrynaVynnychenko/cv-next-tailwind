@@ -2,6 +2,8 @@ import { getBlogIndexPath } from '@/lib/i18n'
 import { getServiceIdForSlug, services } from '@/data/services'
 import type { BlogLang, BlogPost, LocalizedText, RawBlogPost } from './types'
 import { aiLlmPosts } from './posts-ai-llm'
+import { pythonLlmPosts } from './posts-python-llm'
+import { productAiPosts } from './posts-product-ai'
 import { businessPosts } from './posts-business'
 import { mcpPosts } from './posts-mcp'
 import { databasePosts } from './posts-databases'
@@ -26,6 +28,8 @@ export type {
 } from './types'
 
 const ALL_POSTS: RawBlogPost[] = [
+  ...productAiPosts,
+  ...pythonLlmPosts,
   ...mcpPosts,
   ...aiLlmPosts,
   ...telegramPosts,
@@ -46,6 +50,9 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'frontend-fullstack-beside-ai-backend-2026',
+  'ai-engineer-python-langgraph-rag-demand-2026',
+  'fullstack-python-react-llm-demand-2026',
   'pixijs-animated-game-nextjs',
   'threejs-product-scene-nextjs',
   'what-is-mcp-for-small-business-2026',
