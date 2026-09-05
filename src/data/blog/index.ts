@@ -7,6 +7,7 @@ import { productAiPosts } from './posts-product-ai'
 import { businessPosts } from './posts-business'
 import { mcpPosts } from './posts-mcp'
 import { databasePosts } from './posts-databases'
+import { sqlPythonPosts } from './posts-sql-python'
 import { engineeringPosts } from './posts-engineering'
 import { graphicsPosts } from './posts-graphics'
 import { pixiJsPosts } from './posts-pixi'
@@ -42,6 +43,7 @@ const ALL_POSTS: RawBlogPost[] = [
   ...threeJsPosts,
   ...graphicsPosts,
   ...databasePosts,
+  ...sqlPythonPosts,
   ...businessPosts,
   ...itRoleBlogPosts,
 ]
@@ -50,6 +52,8 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'sql-window-functions-instead-of-python-loops',
+  'python-postgres-stop-pulling-the-table',
   'frontend-fullstack-beside-ai-backend-2026',
   'ai-engineer-python-langgraph-rag-demand-2026',
   'fullstack-python-react-llm-demand-2026',
