@@ -4,7 +4,7 @@ import Script from "next/script";
 import "../globals.css";
 import Providers from "@/components/Providers";
 import ThemeScript from "@/components/ThemeScript";
-import { getOgLocale, getOpenGraphImages, getTwitterImageMetadata } from "@/lib/seo";
+import { getRootMetadata } from "@/lib/root-metadata";
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
@@ -17,37 +17,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Iryna Vynnychenko | Next.js, Telegram Mini Apps & AI",
-  description: "Telegram Mini App development, AI solutions for business, fullstack Next.js. 4,200+ Upwork hours, 100% Job Success. Book a call.",
-  keywords: "Telegram Mini App development, AI solutions for business, Frontend Engineer, Full-Stack, Next.js, Webflow, WordPress, React, TypeScript, PostgreSQL, Ukraine, Upwork",
-  authors: [{ name: "Iryna Vynnychenko" }],
-  verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-  openGraph: {
-    title: "Iryna Vynnychenko | Next.js, Telegram Mini Apps & AI",
-    description: "Telegram Mini App development, AI solutions for business, fullstack Next.js. 4,200+ Upwork hours · 100% Job Success.",
-    url: 'https://vynnychenko.dev',
-    siteName: 'Iryna Vynnychenko - Frontend & Full-Stack Engineer',
-    type: "website",
-    locale: getOgLocale('en'),
-    images: getOpenGraphImages(),
-  },
-  twitter: getTwitterImageMetadata(),
-};
+export const metadata: Metadata = getRootMetadata('en');
 
 export default function RootLayout({
   children,

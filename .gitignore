@@ -37,5 +37,8 @@ yarn-error.log*
 next-env.d.ts
 
 # translation script cache
-scripts/.fr-translate-cache.json
-scripts/.de-translate-cache.json
+scripts/**/.*-translate-cache.json
+
+# python build artifacts
+__pycache__/
+*.pyc

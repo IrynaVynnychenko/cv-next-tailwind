@@ -15,22 +15,22 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Product Frontend Developer',
+      role: 'Senior UI Engineer & Full Stack Developer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Product Frontend Developer | React, Next.js, SaaS, Telegram Mini Apps',
+      subtitle: 'Senior UI Engineer & Full Stack Developer | React, Next.js, SaaS, Telegram Mini Apps',
       tagline:
-        'Product frontend on React and Next.js: SaaS, MVPs, AI-powered web apps, Telegram Mini Apps.',
+        'Senior UI Engineer & Full Stack on React and Next.js: SaaS, MVPs, AI-powered web apps, Telegram Mini Apps.',
       fullCycle:
         'I ship product UI in React and Next.js — App Router, Server Components, TypeScript. From Figma or a brief to production.',
       whyTitle: 'What I take on',
       whyItems: [
         '8+ years in production: SaaS, MVPs, Web Apps on React and Next.js',
-        'Product frontend: React, Next.js, TypeScript, UI/UX to Code, AI features in the product',
+        'Senior UI Engineer & Full Stack: React, Next.js, TypeScript, UI/UX to Code, AI features in the product',
         'Direct contractor. Available for remote B2B contracts globally. Accountable for the result, not a handoff',
       ],
-      bio2: 'Product frontend. React and Next.js in production.',
+      bio2: 'Senior UI Engineer & Full Stack. React and Next.js in production.',
       location: 'Kyiv, Ukraine',
       upworkProfile: 'Upwork Profile',
       linkedinProfile: 'LinkedIn Profile',
@@ -139,7 +139,7 @@ export const translations = {
         'Client names and URLs withheld under NDA. Scope: scalable product infrastructure for live SaaS and enterprise platforms.',
       items: [
         {
-          title: 'Product Frontend Developer',
+          title: 'Senior UI Engineer & Full Stack Developer',
           company: 'Upwork',
           period: '2018 - Present',
           description: 'Independent engineer: marketing sites (Webflow, WordPress, static, animation) and fullstack Next.js - UI, APIs, PostgreSQL / Prisma in one web app.',
@@ -331,7 +331,7 @@ export const translations = {
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Product Frontend Developer'
+      text: '© 2026 Iryna Vynnychenko - Senior UI Engineer & Full Stack Developer'
     },
     blog: {
       headerTag: 'Frontend & Full-Stack Engineer · Webflow, WordPress, fullstack Next.js',
@@ -366,11 +366,11 @@ export const translations = {
     },
     header: {
       name: 'Ірина Винниченко',
-      role: 'Product Frontend Developer',
+      role: 'Senior UI Engineer & Full Stack Developer',
     },
     about: {
       title: 'Ірина Винниченко',
-      subtitle: 'Product frontend developer | React, Next.js, SaaS, Telegram Mini Apps',
+      subtitle: 'Senior UI Engineer & Full Stack Developer | React, Next.js, SaaS, Telegram Mini Apps',
       tagline:
         'Продуктовий фронтенд на React і Next.js: SaaS, MVP, AI-powered web apps, Telegram Mini Apps.',
       fullCycle:
@@ -378,7 +378,7 @@ export const translations = {
       whyTitle: 'За що берусь',
       whyItems: [
         '8+ років у проді: SaaS, MVP, Web Apps на React і Next.js',
-        'Product frontend: React, Next.js, TypeScript, UI/UX to Code, AI-функції в продукті',
+        'Senior UI Engineer & Full Stack: React, Next.js, TypeScript, UI/UX to Code, AI-функції в продукті',
         'Прямий підрядник. Віддалені B2B-контракти по всьому світу. Відповідальність за результат, не за handoff',
       ],
       bio2: 'Продуктовий фронтенд. React і Next.js у проді.',
@@ -490,7 +490,7 @@ export const translations = {
         'Назви клієнтів і посилання не розкриваю за NDA. Фокус - масштабована інфраструктура живих SaaS- і enterprise-платформ.',
       items: [
         {
-          title: 'Product Frontend Developer',
+          title: 'Senior UI Engineer & Full Stack Developer',
           company: 'Upwork',
           period: '2018 - Дотепер',
           description: 'Незалежна інженерка: маркетингові сайти (Webflow, WordPress, статика, анімація) і fullstack Next.js - UI, API, PostgreSQL / Prisma в одному вебзастосунку.',
@@ -717,22 +717,22 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Product Frontend Developer',
+      role: 'Senior UI Engineer & Full Stack Developer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Product Frontend Developerin | React, Next.js, SaaS, Telegram Mini Apps',
+      subtitle: 'Senior UI Engineer & Full Stack Developerin | React, Next.js, SaaS, Telegram Mini Apps',
       tagline:
-        'Product Frontend mit React und Next.js: SaaS, MVPs, AI-powered Web Apps, Telegram Mini Apps.',
+        'Senior UI Engineer & Full Stack mit React und Next.js: SaaS, MVPs, AI-powered Web Apps, Telegram Mini Apps.',
       fullCycle:
         'Ich liefere Produkt-UI in React und Next.js — App Router, Server Components, TypeScript. Aus Figma oder aus dem Briefing in Produktion.',
       whyTitle: 'Worum ich mich kümmere',
       whyItems: [
         '8+ Jahre in Produktion: SaaS, MVPs, Web Apps mit React und Next.js',
-        'Product Frontend: React, Next.js, TypeScript, UI/UX to Code, KI-Features im Produkt',
+        'Senior UI Engineer & Full Stack: React, Next.js, TypeScript, UI/UX to Code, KI-Features im Produkt',
         'Direkte Auftragnehmerin. Verfügbar für Remote-B2B-Verträge weltweit. Verantwortung für das Ergebnis, kein Handoff',
       ],
-      bio2: 'Product Frontend. React und Next.js in Produktion.',
+      bio2: 'Senior UI Engineer & Full Stack. React und Next.js in Produktion.',
       location: 'Kiew, Ukraine',
       upworkProfile: 'Upwork-Profil',
       linkedinProfile: 'LinkedIn-Profil',
@@ -842,7 +842,7 @@ export const translations = {
         'Kundennamen und URLs unter NDA. Fokus: skalierbare Produktinfrastruktur für Live-SaaS- und Enterprise-Plattformen.',
       items: [
         {
-          title: 'Product Frontend Developer',
+          title: 'Senior UI Engineer & Full Stack Developer',
           company: 'Upwork',
           period: '2018 - heute',
           description:
@@ -1038,7 +1038,7 @@ export const translations = {
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Product Frontend Developer'
+      text: '© 2026 Iryna Vynnychenko - Senior UI Engineer & Full Stack Developer'
     },
     blog: {
       headerTag: 'Frontend & Full-Stack Engineer · Webflow, WordPress, Fullstack-Next.js',
@@ -1074,11 +1074,11 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Product Frontend Developer',
+      role: 'Senior UI Engineer & Full Stack Developer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Product frontend developer | React, Next.js, SaaS, Telegram Mini Apps',
+      subtitle: 'Senior UI Engineer & Full Stack Developer | React, Next.js, SaaS, Telegram Mini Apps',
       tagline:
         'Frontend produit en React et Next.js : SaaS, MVPs, web apps IA, Telegram Mini Apps.',
       fullCycle:
@@ -1199,7 +1199,7 @@ export const translations = {
         'Noms clients et URLs sous NDA. Périmètre : infrastructure produit scalable pour plateformes SaaS et enterprise en production.',
       items: [
         {
-          title: 'Product Frontend Developer',
+          title: 'Senior UI Engineer & Full Stack Developer',
           company: 'Upwork',
           period: '2018 - aujourd’hui',
           description:
@@ -1395,7 +1395,7 @@ export const translations = {
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Product Frontend Developer'
+      text: '© 2026 Iryna Vynnychenko - Senior UI Engineer & Full Stack Developer'
     },
     blog: {
       headerTag: 'Ingénieure frontend & full-stack · Webflow, WordPress, Next.js fullstack',
@@ -1431,11 +1431,11 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Product Frontend Developer',
+      role: 'Senior UI Engineer & Full Stack Developer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Product frontend developer | React, Next.js, SaaS, Telegram Mini Apps',
+      subtitle: 'Senior UI Engineer & Full Stack Developer | React, Next.js, SaaS, Telegram Mini Apps',
       tagline:
         'Frontend de producto en React y Next.js: SaaS, MVPs, web apps con IA, Telegram Mini Apps.',
       fullCycle:
@@ -1555,7 +1555,7 @@ export const translations = {
         'Nombres de clientes y URLs bajo NDA. Alcance: infraestructura de producto escalable para plataformas SaaS y enterprise en producción.',
       items: [
         {
-          title: 'Product Frontend Developer',
+          title: 'Senior UI Engineer & Full Stack Developer',
           company: 'Upwork',
           period: '2018 - Presente',
           description: 'Ingeniera independiente: sitios de marketing (Webflow, WordPress, estático, animación) y Next.js fullstack - UI, APIs, PostgreSQL / Prisma en una sola web app.',
@@ -1747,7 +1747,7 @@ export const translations = {
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Product Frontend Developer'
+      text: '© 2026 Iryna Vynnychenko - Senior UI Engineer & Full Stack Developer'
     },
     blog: {
       headerTag: 'Ingeniera frontend y full-stack · Webflow, WordPress, Next.js fullstack',
@@ -1782,11 +1782,11 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Product Frontend Developer',
+      role: 'Senior UI Engineer & Full Stack Developer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Product frontend developer | React, Next.js, SaaS, Telegram Mini Apps',
+      subtitle: 'Senior UI Engineer & Full Stack Developer | React, Next.js, SaaS, Telegram Mini Apps',
       tagline:
         'Frontend di prodotto su React e Next.js: SaaS, MVP, web app con IA, Telegram Mini Apps.',
       fullCycle:
@@ -1906,7 +1906,7 @@ export const translations = {
         'Nomi clienti e URL sotto NDA. Ambito: infrastruttura di prodotto scalabile per piattaforme SaaS ed enterprise in produzione.',
       items: [
         {
-          title: 'Product Frontend Developer',
+          title: 'Senior UI Engineer & Full Stack Developer',
           company: 'Upwork',
           period: '2018 - Presente',
           description: 'Ingegnera indipendente: siti marketing (Webflow, WordPress, statico, animazione) e Next.js fullstack - UI, API, PostgreSQL / Prisma in una sola web app.',
@@ -2098,7 +2098,7 @@ export const translations = {
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Product Frontend Developer'
+      text: '© 2026 Iryna Vynnychenko - Senior UI Engineer & Full Stack Developer'
     },
     blog: {
       headerTag: 'Ingegnera frontend e full-stack · Webflow, WordPress, Next.js fullstack',
@@ -2133,11 +2133,11 @@ export const translations = {
     },
     header: {
       name: 'Iryna Vynnychenko',
-      role: 'Product Frontend Developer',
+      role: 'Senior UI Engineer & Full Stack Developer',
     },
     about: {
       title: 'Iryna Vynnychenko',
-      subtitle: 'Product frontend developer | React, Next.js, SaaS, Telegram Mini Apps',
+      subtitle: 'Senior UI Engineer & Full Stack Developer | React, Next.js, SaaS, Telegram Mini Apps',
       tagline:
         'React ve Next.js ile ürün frontend’i: SaaS, MVP, AI destekli web app, Telegram Mini Apps.',
       fullCycle:
@@ -2145,10 +2145,10 @@ export const translations = {
       whyTitle: 'Neleri alıyorum',
       whyItems: [
         '8+ yıl üretimde: React ve Next.js ile SaaS, MVP, Web Apps',
-        'Product frontend: React, Next.js, TypeScript, UI/UX to Code, üründe yapay zekâ özellikleri',
+        'Senior UI Engineer & Full Stack: React, Next.js, TypeScript, UI/UX to Code, üründe yapay zekâ özellikleri',
         'Doğrudan yüklenici. Dünya genelinde uzaktan B2B sözleşmelerine açığım. Handoff değil, sonuçtan sorumlu',
       ],
-      bio2: 'Product frontend. Üretimde React ve Next.js.',
+      bio2: 'Senior UI Engineer & Full Stack. Üretimde React ve Next.js.',
       location: 'Kyiv, Ukrayna',
       upworkProfile: 'Upwork profili',
       linkedinProfile: 'LinkedIn profili',
@@ -2257,7 +2257,7 @@ export const translations = {
         'Müşteri adları ve URL’ler NDA kapsamında. Kapsam: canlı SaaS ve kurumsal platformlar için ölçeklenebilir ürün altyapısı.',
       items: [
         {
-          title: 'Product Frontend Developer',
+          title: 'Senior UI Engineer & Full Stack Developer',
           company: 'Upwork',
           period: '2018 - Günümüz',
           description: 'Pazarlama siteleri (Webflow, WordPress, statik, animasyon) ve fullstack Next.js için bağımsız mühendisim - UI, API’ler, PostgreSQL / Prisma tek web uygulamasında.',
@@ -2449,7 +2449,7 @@ export const translations = {
       ],
     },
     footer: {
-      text: '© 2026 Iryna Vynnychenko - Product Frontend Developer'
+      text: '© 2026 Iryna Vynnychenko - Senior UI Engineer & Full Stack Developer'
     },
     blog: {
       headerTag: 'Frontend ve Full-Stack mühendisi · Webflow, WordPress, fullstack Next.js',

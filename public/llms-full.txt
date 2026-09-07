@@ -1,6 +1,6 @@
 # Iryna Vynnychenko — full writing index
 
-> Iryna Vynnychenko, product frontend developer in Kyiv. React and Next.js for SaaS, MVPs, and Telegram Mini Apps. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.
+> Iryna Vynnychenko, senior UI engineer & full stack developer in Kyiv. React and Next.js for SaaS, MVPs, and Telegram Mini Apps. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.
 
 See https://vynnychenko.dev/llms.txt for identity and services.
 

@@ -1,6 +1,6 @@
 import { rmSync } from 'node:fs'
 
-const dirs = ['.next', 'out']
+const dirs = ['.next', '.next-build', 'out']
 
 for (const dir of dirs) {
   rmSync(dir, { recursive: true, force: true })

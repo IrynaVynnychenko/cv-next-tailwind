@@ -4,7 +4,7 @@ import Script from "next/script";
 import "../../globals.css";
 import Providers from "@/components/Providers";
 import ThemeScript from "@/components/ThemeScript";
-import { getOgLocale, getOpenGraphImages, getTwitterImageMetadata } from "@/lib/seo";
+import { getRootMetadata } from "@/lib/root-metadata";
 
 const geistSans = localFont({
   src: "../../fonts/GeistVF.woff",
@@ -17,37 +17,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://vynnychenko.dev'),
-  title: "Ірина Винниченко | Next.js, Telegram Mini Apps і AI",
-  description: "Розробка Telegram Mini App, AI рішення для бізнесу, fullstack Next.js. 4 200+ годин на Upwork, 100% Job Success.",
-  keywords: "розробка Telegram Mini App, AI рішення для бізнесу, Frontend, Full-Stack, Next.js, Webflow, WordPress, React, TypeScript, PostgreSQL, Україна, Upwork",
-  authors: [{ name: "Ірина Винниченко" }],
-  verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-  openGraph: {
-    title: "Ірина Винниченко | Next.js, Telegram Mini Apps і AI",
-    description: "Розробка Telegram Mini App, AI рішення для бізнесу, fullstack Next.js. 4 200+ годин на Upwork · 100% Job Success.",
-    url: 'https://vynnychenko.dev/ua/',
-    siteName: 'Ірина Винниченко - Frontend і Full-Stack інженерка',
-    type: "website",
-    locale: getOgLocale('ua'),
-    images: getOpenGraphImages('Ірина Винниченко'),
-  },
-  twitter: getTwitterImageMetadata('Ірина Винниченко'),
-};
+export const metadata: Metadata = getRootMetadata('ua');
 
 export default function RootLayout({
   children,

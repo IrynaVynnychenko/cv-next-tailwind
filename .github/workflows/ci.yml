@@ -29,6 +29,9 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Run tests
+        run: npm run test
+
       - name: Clean build artifacts
         run: npm run clean
 

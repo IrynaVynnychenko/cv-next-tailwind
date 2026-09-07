@@ -178,12 +178,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Product systems under NDA',
     publicWork: 'Selected public work',
     to: 'to',
-    heroHeadline: 'Product Frontend',
+    heroHeadline: 'Senior UI Engineer & Full Stack',
     heroCta: "Let's discuss details",
     heroFor: 'for',
     heroRotate: HERO_ROTATE.en,
     heroAnswer:
-      'Iryna Vynnychenko, product frontend developer in Kyiv. React and Next.js for SaaS, MVPs, and Telegram Mini Apps. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.',
+      'Iryna Vynnychenko, senior UI engineer & full stack developer in Kyiv. React and Next.js for SaaS, MVPs, and Telegram Mini Apps. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.',
     heroAvailability: 'Available for remote B2B contracts globally',
   },
   ua: {
@@ -211,12 +211,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Продуктові системи під NDA',
     publicWork: 'Публічні кейси',
     to: '-',
-    heroHeadline: 'Product Frontend',
+    heroHeadline: 'Senior UI Engineer & Full Stack',
     heroCta: "Let's discuss details",
     heroFor: 'для',
     heroRotate: HERO_ROTATE.ua,
     heroAnswer:
-      'Ірина Винниченко, product frontend developer у Києві. React і Next.js для SaaS, MVP і Telegram Mini Apps. 8+ років у проді, 4 200+ годин на Upwork, 100+ запущених проєктів.',
+      'Ірина Винниченко, senior UI engineer & full stack developer у Києві. React і Next.js для SaaS, MVP і Telegram Mini Apps. 8+ років у проді, 4 200+ годин на Upwork, 100+ запущених проєктів.',
     heroAvailability: 'Віддалені B2B-контракти по всьому світу',
   },
   de: {
@@ -244,12 +244,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Produktsysteme unter NDA',
     publicWork: 'Ausgewählte öffentliche Arbeit',
     to: 'bis',
-    heroHeadline: 'Product Frontend',
+    heroHeadline: 'Senior UI Engineer & Full Stack',
     heroCta: "Let's discuss details",
     heroFor: 'für',
     heroRotate: HERO_ROTATE.de,
     heroAnswer:
-      'Iryna Vynnychenko, Product Frontend Developerin in Kiew. React und Next.js für SaaS, MVPs und Telegram Mini Apps. 8+ Jahre Produktion, 4.200+ Upwork-Stunden, 100+ gelaunchte Projekte.',
+      'Iryna Vynnychenko, Senior UI Engineer & Full Stack Developerin in Kiew. React und Next.js für SaaS, MVPs und Telegram Mini Apps. 8+ Jahre Produktion, 4.200+ Upwork-Stunden, 100+ gelaunchte Projekte.',
     heroAvailability: 'Verfügbar für Remote-B2B-Verträge weltweit',
   },
   fr: {
@@ -277,12 +277,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Systèmes produit sous NDA',
     publicWork: 'Travail public sélectionné',
     to: 'à',
-    heroHeadline: 'Product Frontend',
+    heroHeadline: 'Senior UI Engineer & Full Stack',
     heroCta: "Let's discuss details",
     heroFor: 'pour',
     heroRotate: HERO_ROTATE.fr,
     heroAnswer:
-      'Iryna Vynnychenko, product frontend developer à Kyiv. React et Next.js pour SaaS, MVP et Telegram Mini Apps. 8+ ans en production, 4 200+ heures Upwork, 100+ projets lancés.',
+      'Iryna Vynnychenko, senior UI engineer & full stack developer à Kyiv. React et Next.js pour SaaS, MVP et Telegram Mini Apps. 8+ ans en production, 4 200+ heures Upwork, 100+ projets lancés.',
     heroAvailability: 'Disponible pour des contrats B2B à distance, partout dans le monde',
   },
   es: {
@@ -310,12 +310,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Sistemas de producto bajo NDA',
     publicWork: 'Trabajo público seleccionado',
     to: 'a',
-    heroHeadline: 'Product Frontend',
+    heroHeadline: 'Senior UI Engineer & Full Stack',
     heroCta: "Let's discuss details",
     heroFor: 'para',
     heroRotate: HERO_ROTATE.es,
     heroAnswer:
-      'Iryna Vynnychenko, product frontend developer en Kyiv. React y Next.js para SaaS, MVPs y Telegram Mini Apps. 8+ años en producción, 4.200+ horas en Upwork, 100+ proyectos lanzados.',
+      'Iryna Vynnychenko, senior UI engineer & full stack developer en Kyiv. React y Next.js para SaaS, MVPs y Telegram Mini Apps. 8+ años en producción, 4.200+ horas en Upwork, 100+ proyectos lanzados.',
     heroAvailability: 'Disponible para contratos B2B remotos a nivel global',
   },
   it: {
@@ -343,12 +343,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Sistemi di prodotto sotto NDA',
     publicWork: 'Lavoro pubblico selezionato',
     to: 'a',
-    heroHeadline: 'Product Frontend',
+    heroHeadline: 'Senior UI Engineer & Full Stack',
     heroCta: "Let's discuss details",
     heroFor: 'per',
     heroRotate: HERO_ROTATE.it,
     heroAnswer:
-      'Iryna Vynnychenko, product frontend developer a Kyiv. React e Next.js per SaaS, MVP e Telegram Mini Apps. 8+ anni in produzione, 4.200+ ore su Upwork, 100+ progetti lanciati.',
+      'Iryna Vynnychenko, senior UI engineer & full stack developer a Kyiv. React e Next.js per SaaS, MVP e Telegram Mini Apps. 8+ anni in produzione, 4.200+ ore su Upwork, 100+ progetti lanciati.',
     heroAvailability: 'Disponibile per contratti B2B da remoto in tutto il mondo',
   },
   tr: {
@@ -376,12 +376,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'NDA altındaki ürün sistemleri',
     publicWork: 'Seçilmiş kamuya açık işler',
     to: '-',
-    heroHeadline: 'Product Frontend',
+    heroHeadline: 'Senior UI Engineer & Full Stack',
     heroCta: "Let's discuss details",
     heroFor: 'için',
     heroRotate: HERO_ROTATE.tr,
     heroAnswer:
-      'Iryna Vynnychenko, Kyiv’de product frontend developer. SaaS, MVP ve Telegram Mini Apps için React ve Next.js. Üretimde 8+ yıl, 4.200+ Upwork saati, 100+ yayınlanan proje.',
+      'Iryna Vynnychenko, Kyiv’de senior UI engineer & full stack developer. SaaS, MVP ve Telegram Mini Apps için React ve Next.js. Üretimde 8+ yıl, 4.200+ Upwork saati, 100+ yayınlanan proje.',
     heroAvailability: 'Dünya genelinde uzaktan B2B sözleşmelerine açığım',
   },
 }

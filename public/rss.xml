@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Iryna Vynnychenko — Product Frontend Developer (React, Next.js)</title>
+    <title>Iryna Vynnychenko — Senior UI Engineer &amp; Full Stack Developer (React, Next.js)</title>
     <link>https://vynnychenko.dev/blog/</link>
-    <description>Iryna Vynnychenko, product frontend developer in Kyiv. React and Next.js for SaaS, MVPs, and Telegram Mini Apps. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.</description>
+    <description>Iryna Vynnychenko, senior UI engineer &amp; full stack developer in Kyiv. React and Next.js for SaaS, MVPs, and Telegram Mini Apps. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.</description>
     <language>en</language>
     <lastBuildDate>Sat, 05 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://vynnychenko.dev/rss.xml" rel="self" type="application/rss+xml"/>

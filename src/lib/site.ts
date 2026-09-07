@@ -46,11 +46,11 @@ export const AUTHOR_NAME: Record<Language, string> = {
 }
 
 export const AUTHOR_JOB_TITLE: Record<Language, string> = {
-  en: 'Product Frontend Developer (React, Next.js)',
-  ua: 'Product frontend developer (React, Next.js)',
-  de: 'Product Frontend Developerin (React, Next.js)',
-  fr: 'Product frontend developer (React, Next.js)',
-  es: 'Product frontend developer (React, Next.js)',
-  it: 'Product frontend developer (React, Next.js)',
-  tr: 'Product frontend developer (React, Next.js)',
+  en: 'Senior UI Engineer & Full Stack Developer (React, Next.js)',
+  ua: 'Senior UI Engineer & Full Stack Developer (React, Next.js)',
+  de: 'Senior UI Engineer & Full Stack Developerin (React, Next.js)',
+  fr: 'Senior UI Engineer & Full Stack Developer (React, Next.js)',
+  es: 'Senior UI Engineer & Full Stack Developer (React, Next.js)',
+  it: 'Senior UI Engineer & Full Stack Developer (React, Next.js)',
+  tr: 'Senior UI Engineer & Full Stack Developer (React, Next.js)',
 }
