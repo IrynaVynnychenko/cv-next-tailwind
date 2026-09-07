@@ -3,44 +3,60 @@
 import { useEffect, useState, type ReactNode } from 'react'
 
 export function RotatingWords({
-  words,
+  items,
   className = '',
-  interval = 2400,
+  interval = 2800,
 }: {
-  words: string[]
+  items: { word: string; hint?: string }[]
   className?: string
   interval?: number
 }) {
   const [index, setIndex] = useState(0)
-  const longest = words.reduce((a, b) => (a.length >= b.length ? a : b), '')
 
   useEffect(() => {
-    if (words.length < 2) return
+    if (items.length < 2) return
     const media = window.matchMedia('(prefers-reduced-motion: reduce)')
     if (media.matches) return
     const id = window.setInterval(() => {
-      setIndex((current) => (current + 1) % words.length)
+      setIndex((current) => (current + 1) % items.length)
     }, interval)
     return () => window.clearInterval(id)
-  }, [interval, words.length])
+  }, [interval, items.length])
 
-  if (words.length === 0) return null
+  if (items.length === 0) return null
+
+  const current = items[index]
+  const longestWord = items.reduce((a, b) => (b.word.length > a.word.length ? b : a))
+  const longestHint = items.reduce<{ hint?: string } | undefined>(
+    (longest, item) => (item.hint && item.hint.length > (longest?.hint?.length ?? 0) ? item : longest),
+    undefined,
+  )
 
   return (
     <span className={`relative inline-grid max-w-full overflow-hidden align-baseline ${className}`}>
-      <span className="sr-only">{words.join(', ')}</span>
+      <span className="sr-only">{items.map((item) => item.word).join(', ')}</span>
       <span
-        className="invisible col-start-1 row-start-1 hidden whitespace-nowrap sm:inline"
+        className="invisible col-start-1 row-start-1 hidden flex-col sm:flex"
         aria-hidden="true"
       >
-        {longest}
+        <span className="whitespace-nowrap">{longestWord?.word}</span>
+        {longestHint?.hint ? (
+          <span className="mt-1 font-mono text-[11px] font-normal leading-snug text-muted-foreground sm:text-sm">
+            {longestHint.hint}
+          </span>
+        ) : null}
       </span>
       <span
-        key={`${words[index]}-${index}`}
-        className="col-start-1 row-start-1 max-w-full text-center sm:whitespace-nowrap motion-safe:animate-text-up"
+        key={`${current.word}-${index}`}
+        className="col-start-1 row-start-1 flex max-w-full flex-col items-center text-center motion-safe:animate-text-up"
         aria-hidden="true"
       >
-        {words[index]}
+        <span className="sm:whitespace-nowrap">{current.word}</span>
+        {current.hint ? (
+          <span className="mt-1 max-w-[22rem] font-mono text-[11px] font-normal leading-snug text-muted-foreground sm:max-w-none sm:text-sm">
+            {current.hint}
+          </span>
+        ) : null}
       </span>
     </span>
   )

@@ -1,18 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Iryna Vynnychenko — Frontend &amp; Full-Stack Engineer</title>
+    <title>Iryna Vynnychenko — Product Frontend Developer (React, Next.js)</title>
     <link>https://vynnychenko.dev/blog/</link>
-    <description>Iryna Vynnychenko, Senior Web Engineer in Kyiv. Fullstack Next.js for SaaS, MVPs, and Telegram Mini Apps - and marketing sites on Webflow, WordPress, or static. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.</description>
+    <description>Iryna Vynnychenko, product frontend developer in Kyiv. React and Next.js for SaaS, MVPs, and Telegram Mini Apps. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://vynnychenko.dev/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Five SQL Patterns That Replace a Python Loop — And Why They Win</title>
+      <link>https://vynnychenko.dev/blog/sql-window-functions-instead-of-python-loops/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/sql-window-functions-instead-of-python-loops/</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <description>The most expensive Python I review is for order in orders after a SELECT *. Last row per group, month-over-month, filtered counts, and upserts are queries. How I write them in Postgres instead of downloading the table.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>SQL</category><category>PostgreSQL</category><category>Python</category><category>Performance</category><category>Engineering</category>
+    </item>
+    <item>
+      <title>Python and Postgres: Stop Pulling the Table Into Memory</title>
+      <link>https://vynnychenko.dev/blog/python-postgres-stop-pulling-the-table/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/python-postgres-stop-pulling-the-table/</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <description>The SQL can be right and the API still dies: unbounded .all(), f-string queries, ORM N+1, a new connection per request, pandas as a warehouse on the web box. How I keep Python thin around Postgres in 2026.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Python</category><category>PostgreSQL</category><category>FastAPI</category><category>SQL</category><category>Performance</category><category>Engineering</category>
+    </item>
+    <item>
+      <title>I Am the Frontend / Fullstack Next to Your AI Backend Specialist</title>
+      <link>https://vynnychenko.dev/blog/frontend-fullstack-beside-ai-backend-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/frontend-fullstack-beside-ai-backend-2026/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <description>The product already has — or is hiring — the person for pipelines, embeddings, workers, notebooks, LangChain or LlamaIndex in Python. I am the other seat: frontend and fullstack for the product that specialist feeds. Not a substitute for them. Not the whole ML contour in one body.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Frontend</category><category>Fullstack</category><category>AI Backend</category><category>Next.js</category><category>Hiring</category><category>LLM</category>
+    </item>
+    <item>
+      <title>The Market Wants a Python AI Engineer With LangGraph — Not an “AI Person”</title>
+      <link>https://vynnychenko.dev/blog/ai-engineer-python-langgraph-rag-demand-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/ai-engineer-python-langgraph-rag-demand-2026/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Job posts in 2026 name LangChain or LangGraph, a RAG pipeline, and an LLM system that already ran in production. That is a Python systems seat around the model — not a researcher, not a chat-widget freelancer, and not the fullstack LLM hire.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Hiring</category><category>AI Engineer</category><category>LangGraph</category><category>RAG</category><category>Python</category><category>Job Market</category>
+    </item>
+    <item>
+      <title>A Separate Vacancy: Fullstack Python + React + TypeScript Who Already Shipped LLM to Users</title>
+      <link>https://vynnychenko.dev/blog/fullstack-python-react-llm-demand-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/fullstack-python-react-llm-demand-2026/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <description>The second posting on the 2026 market is not a softer AI engineer. It is one person who owns Python and the React TypeScript screen — and who has already put an LLM feature in front of real users. Mixing it with the LangGraph-production seat is how a JD asks for two seniors and pays for one.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>Hiring</category><category>Fullstack</category><category>Python</category><category>React</category><category>TypeScript</category><category>LLM</category>
+    </item>
     <item>
       <title>A Pixi.js Game You Can Play</title>
       <link>https://vynnychenko.dev/blog/pixijs-animated-game-nextjs/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/pixijs-animated-game-nextjs/</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
-      <description>The last article was the 3D object. This one is the 2D stage. Catch the crystals. Dodge the embers. The GPU keeps the sprites at 60 fps; the score under it stays HTML. How I wire a branded minigame as a Next.js island — and why Pixi is still not a game engine.</description>
+      <description>The last article was the 3D object. This one is the 2D stage. Catch the fruit. Dodge the rotten ones. The GPU keeps the sprites at 60 fps; the score under it stays HTML. How I wire a branded minigame as a Next.js island — and why Pixi is still not a game engine.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>Pixi.js</category><category>WebGL</category><category>Next.js</category><category>Frontend</category><category>Animation</category><category>Game</category>
     </item>

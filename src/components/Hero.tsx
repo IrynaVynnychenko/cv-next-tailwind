@@ -16,12 +16,12 @@ export default function Hero() {
 
   return (
     <div>
-      <div className="pattern-dots screen-line-before screen-line-after flex min-h-[240px] flex-col items-center justify-start gap-3 overflow-x-clip border-x border-edge px-4 pb-6 pt-24 text-center sm:min-h-[280px] sm:gap-4 sm:px-6 sm:pb-8 sm:pt-28">
+      <div className="pattern-dots screen-line-before screen-line-after flex min-h-[280px] flex-col items-center justify-start gap-3 overflow-x-clip border-x border-edge px-4 pb-6 pt-24 text-center sm:min-h-[320px] sm:gap-4 sm:px-6 sm:pb-8 sm:pt-28">
         <p className="w-full max-w-[22rem] text-[1.65rem] font-semibold leading-[1.2] tracking-tight motion-safe:animate-hero-in sm:max-w-4xl sm:text-4xl md:max-w-none md:whitespace-nowrap md:text-5xl">
           {c.heroHeadline}
         </p>
         <p className="flex w-full max-w-[22rem] items-center justify-center overflow-hidden text-[1.35rem] font-semibold leading-tight tracking-tight motion-safe:animate-hero-in sm:max-w-4xl sm:text-3xl md:max-w-none md:text-4xl [animation-delay:120ms]">
-          <RotatingWords words={c.heroRotate} className="text-sky-500" />
+          <RotatingWords items={c.heroRotate} className="text-sky-500" />
         </p>
         <div className="flex items-center justify-center gap-2 motion-safe:animate-hero-in [animation-delay:220ms]">
           <Link

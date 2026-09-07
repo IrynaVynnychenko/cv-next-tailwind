@@ -1,5 +1,10 @@
 import type { Language } from '@/lib/i18n'
 
+export type HeroRotateItem = {
+  word: string
+  hint: string
+}
+
 type ChromeCopy = {
   projects: string
   projectsCount: string
@@ -27,9 +32,124 @@ type ChromeCopy = {
   heroHeadline: string
   heroCta: string
   heroFor: string
-  heroRotate: string[]
+  heroRotate: HeroRotateItem[]
   heroAnswer: string
   heroAvailability: string
+}
+
+const HERO_ROTATE: Record<Language, HeroRotateItem[]> = {
+  en: [
+    { word: 'SaaS', hint: 'dashboards, settings, complex UI' },
+    { word: 'FinTech', hint: 'banking, payments, charts, transactions' },
+    { word: 'E-commerce', hint: 'catalogs, carts, checkout, recommendations' },
+    { word: 'EdTech', hint: 'learning platforms, tests, video, progress' },
+    { word: 'AI products', hint: 'AI chats, generators, agents, workspaces' },
+    { word: 'CRM / ERP', hint: 'tables, filters, workflows, analytics' },
+    { word: 'Healthcare', hint: 'portals, records, appointments' },
+    { word: 'Travel', hint: 'search, booking, maps, calendars' },
+    { word: 'Media', hint: 'video, feeds, editors, recommendations' },
+    { word: 'Social', hint: 'feeds, profiles, messaging, realtime' },
+    { word: 'Developer tools', hint: 'IDEs, dashboards, API consoles, docs' },
+    { word: 'Cybersecurity', hint: 'security dashboards, alerts, monitoring' },
+    { word: 'Marketplace', hint: 'search, filters, seller profiles, checkout' },
+    { word: 'Logistics', hint: 'tracking, routing, warehouses, dispatch' },
+  ],
+  ua: [
+    { word: 'SaaS', hint: 'кабінети, дашборди, налаштування, складні UI' },
+    { word: 'FinTech', hint: 'банкінг, платежі, графіки, транзакції' },
+    { word: 'E-commerce', hint: 'каталоги, кошики, checkout, рекомендації' },
+    { word: 'EdTech', hint: 'навчальні платформи, тести, відео, прогрес' },
+    { word: 'AI-продукти', hint: 'AI-чати, генератори, агенти, workspace' },
+    { word: 'CRM / ERP', hint: 'таблиці, фільтри, workflow, аналітика' },
+    { word: 'Healthcare', hint: 'кабінети, записи, медичні портали' },
+    { word: 'Travel', hint: 'пошук, бронювання, карти, календарі' },
+    { word: 'Media', hint: 'відео, стрічки, редактори, рекомендації' },
+    { word: 'Social', hint: 'стрічки, профілі, messaging, realtime' },
+    { word: 'Developer tools', hint: 'IDE, dashboards, API consoles, документація' },
+    { word: 'Cybersecurity', hint: 'security dashboards, alerts, monitoring' },
+    { word: 'Marketplace', hint: 'пошук, фільтри, профілі продавців, checkout' },
+    { word: 'Logistics', hint: 'трекінг, маршрути, склади, диспетчеризація' },
+  ],
+  de: [
+    { word: 'SaaS', hint: 'Dashboards, Einstellungen, komplexe UI' },
+    { word: 'FinTech', hint: 'Banking, Zahlungen, Charts, Transaktionen' },
+    { word: 'E-commerce', hint: 'Kataloge, Warenkörbe, Checkout, Empfehlungen' },
+    { word: 'EdTech', hint: 'Lernplattformen, Tests, Video, Fortschritt' },
+    { word: 'KI-Produkte', hint: 'KI-Chats, Generatoren, Agenten, Workspaces' },
+    { word: 'CRM / ERP', hint: 'Tabellen, Filter, Workflows, Analytics' },
+    { word: 'Healthcare', hint: 'Portale, Akten, Termine' },
+    { word: 'Travel', hint: 'Suche, Buchung, Karten, Kalender' },
+    { word: 'Media', hint: 'Video, Feeds, Editoren, Empfehlungen' },
+    { word: 'Social', hint: 'Feeds, Profile, Messaging, Echtzeit' },
+    { word: 'Developer Tools', hint: 'IDEs, Dashboards, API-Konsolen, Docs' },
+    { word: 'Cybersecurity', hint: 'Security-Dashboards, Alerts, Monitoring' },
+    { word: 'Marketplace', hint: 'Suche, Filter, Verkäuferprofile, Checkout' },
+    { word: 'Logistik', hint: 'Tracking, Routing, Lager, Dispatch' },
+  ],
+  fr: [
+    { word: 'SaaS', hint: 'dashboards, réglages, UI complexe' },
+    { word: 'FinTech', hint: 'banque, paiements, graphiques, transactions' },
+    { word: 'E-commerce', hint: 'catalogues, paniers, checkout, recommandations' },
+    { word: 'EdTech', hint: 'plateformes, tests, vidéo, progression' },
+    { word: 'Produits IA', hint: 'chats IA, générateurs, agents, workspaces' },
+    { word: 'CRM / ERP', hint: 'tableaux, filtres, workflows, analytics' },
+    { word: 'Healthcare', hint: 'portails, dossiers, rendez-vous' },
+    { word: 'Travel', hint: 'recherche, réservation, cartes, calendriers' },
+    { word: 'Media', hint: 'vidéo, flux, éditeurs, recommandations' },
+    { word: 'Social', hint: 'flux, profils, messaging, temps réel' },
+    { word: 'Developer tools', hint: 'IDE, dashboards, consoles API, docs' },
+    { word: 'Cybersecurity', hint: 'dashboards sécu, alertes, monitoring' },
+    { word: 'Marketplace', hint: 'recherche, filtres, profils vendeurs, checkout' },
+    { word: 'Logistique', hint: 'tracking, routage, entrepôts, dispatch' },
+  ],
+  es: [
+    { word: 'SaaS', hint: 'dashboards, ajustes, UI compleja' },
+    { word: 'FinTech', hint: 'banca, pagos, gráficos, transacciones' },
+    { word: 'E-commerce', hint: 'catálogos, carritos, checkout, recomendaciones' },
+    { word: 'EdTech', hint: 'plataformas, tests, vídeo, progreso' },
+    { word: 'Productos IA', hint: 'chats IA, generadores, agentes, workspaces' },
+    { word: 'CRM / ERP', hint: 'tablas, filtros, workflows, analítica' },
+    { word: 'Healthcare', hint: 'portales, historiales, citas' },
+    { word: 'Travel', hint: 'búsqueda, reservas, mapas, calendarios' },
+    { word: 'Media', hint: 'vídeo, feeds, editores, recomendaciones' },
+    { word: 'Social', hint: 'feeds, perfiles, messaging, tiempo real' },
+    { word: 'Developer tools', hint: 'IDE, dashboards, consolas API, docs' },
+    { word: 'Cybersecurity', hint: 'dashboards de seguridad, alertas, monitoring' },
+    { word: 'Marketplace', hint: 'búsqueda, filtros, perfiles de vendedores, checkout' },
+    { word: 'Logística', hint: 'tracking, rutas, almacenes, dispatch' },
+  ],
+  it: [
+    { word: 'SaaS', hint: 'dashboard, impostazioni, UI complesse' },
+    { word: 'FinTech', hint: 'banking, pagamenti, grafici, transazioni' },
+    { word: 'E-commerce', hint: 'cataloghi, carrelli, checkout, raccomandazioni' },
+    { word: 'EdTech', hint: 'piattaforme, test, video, progresso' },
+    { word: 'Prodotti IA', hint: 'chat IA, generatori, agenti, workspace' },
+    { word: 'CRM / ERP', hint: 'tabelle, filtri, workflow, analytics' },
+    { word: 'Healthcare', hint: 'portali, cartelle, appuntamenti' },
+    { word: 'Travel', hint: 'ricerca, prenotazioni, mappe, calendari' },
+    { word: 'Media', hint: 'video, feed, editor, raccomandazioni' },
+    { word: 'Social', hint: 'feed, profili, messaging, realtime' },
+    { word: 'Developer tools', hint: 'IDE, dashboard, console API, docs' },
+    { word: 'Cybersecurity', hint: 'dashboard di security, alert, monitoring' },
+    { word: 'Marketplace', hint: 'ricerca, filtri, profili venditori, checkout' },
+    { word: 'Logistica', hint: 'tracking, routing, magazzini, dispatch' },
+  ],
+  tr: [
+    { word: 'SaaS', hint: 'dashboards, ayarlar, karmaşık UI' },
+    { word: 'FinTech', hint: 'bankacılık, ödemeler, grafikler, işlemler' },
+    { word: 'E-commerce', hint: 'kataloglar, sepetler, checkout, öneriler' },
+    { word: 'EdTech', hint: 'öğrenme platformları, testler, video, ilerleme' },
+    { word: 'AI ürünleri', hint: 'AI sohbetler, üreticiler, ajanlar, workspace' },
+    { word: 'CRM / ERP', hint: 'tablolar, filtreler, workflow, analitik' },
+    { word: 'Healthcare', hint: 'portallar, kayıtlar, randevular' },
+    { word: 'Travel', hint: 'arama, rezervasyon, haritalar, takvimler' },
+    { word: 'Media', hint: 'video, akışlar, editörler, öneriler' },
+    { word: 'Social', hint: 'akışlar, profiller, messaging, realtime' },
+    { word: 'Developer tools', hint: 'IDE, dashboards, API konsolları, dokümantasyon' },
+    { word: 'Cybersecurity', hint: 'security dashboards, uyarılar, monitoring' },
+    { word: 'Marketplace', hint: 'arama, filtreler, satıcı profilleri, checkout' },
+    { word: 'Lojistik', hint: 'takip, rota, depolar, dispatch' },
+  ],
 }
 
 export const chrome: Record<Language, ChromeCopy> = {
@@ -47,7 +167,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Open project',
     workTogether: "Let's work together",
     workTogetherText:
-      'SaaS, MVPs, Web Apps, fullstack Next.js - or a marketing site on Webflow, WordPress, or static. Scope and timeline on a short call.',
+      'SaaS, MVPs, and product UI on React and Next.js. Scope and timeline on a short call.',
     getInTouch: 'Get in touch',
     socialTitle: 'Social Links',
     themeToggle: 'Toggle theme',
@@ -58,12 +178,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Product systems under NDA',
     publicWork: 'Selected public work',
     to: 'to',
-    heroHeadline: 'Frontend & Full-Stack',
+    heroHeadline: 'Product Frontend',
     heroCta: "Let's discuss details",
     heroFor: 'for',
-    heroRotate: ['Telegram Mini Apps', 'SaaS', 'MVPs', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroRotate: HERO_ROTATE.en,
     heroAnswer:
-      'Iryna Vynnychenko, Senior Web Engineer in Kyiv. Fullstack Next.js for SaaS, MVPs, and Telegram Mini Apps - and marketing sites on Webflow, WordPress, or static. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.',
+      'Iryna Vynnychenko, product frontend developer in Kyiv. React and Next.js for SaaS, MVPs, and Telegram Mini Apps. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.',
     heroAvailability: 'Available for remote B2B contracts globally',
   },
   ua: {
@@ -80,7 +200,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Відкрити проєкт',
     workTogether: 'Працюймо разом',
     workTogetherText:
-      'SaaS, MVPs, Web Apps, fullstack Next.js - або маркетинговий сайт на Webflow, WordPress чи статиці. Скоуп і терміни - на короткому колі.',
+      'SaaS, MVPs і продуктовий UI на React і Next.js. Скоуп і терміни — на короткому колі.',
     getInTouch: 'Написати',
     socialTitle: 'Соцмережі',
     themeToggle: 'Змінити тему',
@@ -91,12 +211,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Продуктові системи під NDA',
     publicWork: 'Публічні кейси',
     to: '-',
-    heroHeadline: 'Frontend & Full-Stack',
+    heroHeadline: 'Product Frontend',
     heroCta: "Let's discuss details",
     heroFor: 'для',
-    heroRotate: ['Telegram Mini Apps', 'SaaS', 'MVPs', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroRotate: HERO_ROTATE.ua,
     heroAnswer:
-      'Ірина Винниченко, Senior Web Engineer у Києві. Fullstack Next.js для SaaS, MVP і Telegram Mini Apps — і маркетингові сайти на Webflow, WordPress або статиці. 8+ років у проді, 4 200+ годин на Upwork, 100+ запущених проєктів.',
+      'Ірина Винниченко, product frontend developer у Києві. React і Next.js для SaaS, MVP і Telegram Mini Apps. 8+ років у проді, 4 200+ годин на Upwork, 100+ запущених проєктів.',
     heroAvailability: 'Віддалені B2B-контракти по всьому світу',
   },
   de: {
@@ -113,7 +233,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Projekt öffnen',
     workTogether: 'Lassen Sie uns zusammenarbeiten',
     workTogetherText:
-      'SaaS, MVPs, Web Apps, fullstack Next.js - oder eine Marketing-Site in Webflow, WordPress oder statisch. Scope und Zeitplan in einem kurzen Call.',
+      'SaaS, MVPs und Produkt-UI mit React und Next.js. Scope und Zeitplan in einem kurzen Call.',
     getInTouch: 'Kontakt',
     socialTitle: 'Social Links',
     themeToggle: 'Thema wechseln',
@@ -124,12 +244,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Produktsysteme unter NDA',
     publicWork: 'Ausgewählte öffentliche Arbeit',
     to: 'bis',
-    heroHeadline: 'Frontend & Full-Stack',
+    heroHeadline: 'Product Frontend',
     heroCta: "Let's discuss details",
     heroFor: 'für',
-    heroRotate: ['Telegram Mini Apps', 'SaaS', 'MVPs', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroRotate: HERO_ROTATE.de,
     heroAnswer:
-      'Iryna Vynnychenko, Senior Web Engineer in Kiew. Fullstack-Next.js für SaaS, MVPs und Telegram Mini Apps - und Marketing-Sites in Webflow, WordPress oder statisch. 8+ Jahre Produktion, 4.200+ Upwork-Stunden, 100+ gelaunchte Projekte.',
+      'Iryna Vynnychenko, Product Frontend Developerin in Kiew. React und Next.js für SaaS, MVPs und Telegram Mini Apps. 8+ Jahre Produktion, 4.200+ Upwork-Stunden, 100+ gelaunchte Projekte.',
     heroAvailability: 'Verfügbar für Remote-B2B-Verträge weltweit',
   },
   fr: {
@@ -146,7 +266,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Ouvrir le projet',
     workTogether: 'Travaillons ensemble',
     workTogetherText:
-      'SaaS, MVPs, Web Apps, fullstack Next.js - ou un site marketing en Webflow, WordPress ou statique. Périmètre et délais sur un court call.',
+      'SaaS, MVPs et UI produit en React et Next.js. Périmètre et délais sur un court call.',
     getInTouch: 'Me contacter',
     socialTitle: 'Réseaux',
     themeToggle: 'Changer de thème',
@@ -157,12 +277,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Systèmes produit sous NDA',
     publicWork: 'Travail public sélectionné',
     to: 'à',
-    heroHeadline: 'Frontend & Full-Stack',
+    heroHeadline: 'Product Frontend',
     heroCta: "Let's discuss details",
     heroFor: 'pour',
-    heroRotate: ['Telegram Mini Apps', 'SaaS', 'MVPs', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroRotate: HERO_ROTATE.fr,
     heroAnswer:
-      'Iryna Vynnychenko, ingénieure web senior à Kyiv. Next.js fullstack pour SaaS, MVP et Telegram Mini Apps - et sites marketing en Webflow, WordPress ou statique. 8+ ans en production, 4 200+ heures Upwork, 100+ projets lancés.',
+      'Iryna Vynnychenko, product frontend developer à Kyiv. React et Next.js pour SaaS, MVP et Telegram Mini Apps. 8+ ans en production, 4 200+ heures Upwork, 100+ projets lancés.',
     heroAvailability: 'Disponible pour des contrats B2B à distance, partout dans le monde',
   },
   es: {
@@ -179,7 +299,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Abrir proyecto',
     workTogether: 'Trabajemos juntos',
     workTogetherText:
-      'SaaS, MVPs, Web Apps, fullstack Next.js - o un sitio de marketing en Webflow, WordPress o estático. Alcance y plazos en una llamada corta.',
+      'SaaS, MVPs y UI de producto en React y Next.js. Alcance y plazos en una llamada corta.',
     getInTouch: 'Contactar',
     socialTitle: 'Redes',
     themeToggle: 'Cambiar tema',
@@ -190,12 +310,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Sistemas de producto bajo NDA',
     publicWork: 'Trabajo público seleccionado',
     to: 'a',
-    heroHeadline: 'Frontend & Full-Stack',
+    heroHeadline: 'Product Frontend',
     heroCta: "Let's discuss details",
     heroFor: 'para',
-    heroRotate: ['Telegram Mini Apps', 'SaaS', 'MVPs', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroRotate: HERO_ROTATE.es,
     heroAnswer:
-      'Iryna Vynnychenko, ingeniera web senior en Kyiv. Next.js fullstack para SaaS, MVPs y Telegram Mini Apps - y sitios de marketing en Webflow, WordPress o estático. 8+ años en producción, 4.200+ horas en Upwork, 100+ proyectos lanzados.',
+      'Iryna Vynnychenko, product frontend developer en Kyiv. React y Next.js para SaaS, MVPs y Telegram Mini Apps. 8+ años en producción, 4.200+ horas en Upwork, 100+ proyectos lanzados.',
     heroAvailability: 'Disponible para contratos B2B remotos a nivel global',
   },
   it: {
@@ -212,7 +332,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Apri progetto',
     workTogether: 'Lavoriamo insieme',
     workTogetherText:
-      'SaaS, MVPs, Web Apps, fullstack Next.js - o un sito marketing su Webflow, WordPress o statico. Scope e tempi in una breve call.',
+      'SaaS, MVP e UI di prodotto su React e Next.js. Scope e tempi in una breve call.',
     getInTouch: 'Contattami',
     socialTitle: 'Social',
     themeToggle: 'Cambia tema',
@@ -223,12 +343,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'Sistemi di prodotto sotto NDA',
     publicWork: 'Lavoro pubblico selezionato',
     to: 'a',
-    heroHeadline: 'Frontend & Full-Stack',
+    heroHeadline: 'Product Frontend',
     heroCta: "Let's discuss details",
     heroFor: 'per',
-    heroRotate: ['Telegram Mini Apps', 'SaaS', 'MVPs', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroRotate: HERO_ROTATE.it,
     heroAnswer:
-      'Iryna Vynnychenko, ingegnera web senior a Kyiv. Next.js fullstack per SaaS, MVP e Telegram Mini Apps - e siti marketing su Webflow, WordPress o statico. 8+ anni in produzione, 4.200+ ore su Upwork, 100+ progetti lanciati.',
+      'Iryna Vynnychenko, product frontend developer a Kyiv. React e Next.js per SaaS, MVP e Telegram Mini Apps. 8+ anni in produzione, 4.200+ ore su Upwork, 100+ progetti lanciati.',
     heroAvailability: 'Disponibile per contratti B2B da remoto in tutto il mondo',
   },
   tr: {
@@ -245,7 +365,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Projeyi aç',
     workTogether: 'Birlikte çalışalım',
     workTogetherText:
-      'SaaS, MVPs, Web Apps, fullstack Next.js - veya Webflow, WordPress ya da statik bir pazarlama sitesi. Kapsam ve tarih - kısa bir görüşmede.',
+      'SaaS, MVP ve React ile Next.js üzerinde ürün UI. Kapsam ve tarih — kısa bir görüşmede.',
     getInTouch: 'İletişime geç',
     socialTitle: 'Sosyal bağlantılar',
     themeToggle: 'Temayı değiştir',
@@ -256,12 +376,12 @@ export const chrome: Record<Language, ChromeCopy> = {
     ndaTitle: 'NDA altındaki ürün sistemleri',
     publicWork: 'Seçilmiş kamuya açık işler',
     to: '-',
-    heroHeadline: 'Frontend & Full-Stack',
+    heroHeadline: 'Product Frontend',
     heroCta: "Let's discuss details",
     heroFor: 'için',
-    heroRotate: ['Telegram Mini Apps', 'SaaS', 'MVPs', 'AI-powered Web Apps', 'fullstack Next.js'],
+    heroRotate: HERO_ROTATE.tr,
     heroAnswer:
-      'Iryna Vynnychenko, Kyiv’de Senior Web Engineer. SaaS, MVP ve Telegram Mini Apps için fullstack Next.js - ve Webflow, WordPress veya statik pazarlama siteleri. Üretimde 8+ yıl, 4.200+ Upwork saati, 100+ yayınlanan proje.',
+      'Iryna Vynnychenko, Kyiv’de product frontend developer. SaaS, MVP ve Telegram Mini Apps için React ve Next.js. Üretimde 8+ yıl, 4.200+ Upwork saati, 100+ yayınlanan proje.',
     heroAvailability: 'Dünya genelinde uzaktan B2B sözleşmelerine açığım',
   },
 }
