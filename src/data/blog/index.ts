@@ -2,6 +2,8 @@ import { getBlogIndexPath } from '@/lib/i18n'
 import { getServiceIdForSlug, services } from '@/data/services'
 import type { BlogLang, BlogPost, LocalizedText, RawBlogPost } from './types'
 import { aiLlmPosts } from './posts-ai-llm'
+import { aiWorkflowPosts } from './posts-ai-workflow'
+import { cursorFigmaMcpPosts } from './posts-cursor-figma-mcp'
 import { pythonLlmPosts } from './posts-python-llm'
 import { productAiPosts } from './posts-product-ai'
 import { businessPosts } from './posts-business'
@@ -29,6 +31,8 @@ export type {
 } from './types'
 
 const ALL_POSTS: RawBlogPost[] = [
+  ...cursorFigmaMcpPosts,
+  ...aiWorkflowPosts,
   ...productAiPosts,
   ...pythonLlmPosts,
   ...mcpPosts,
@@ -52,6 +56,8 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'cursor-figma-mcp-ios-safari-testing',
+  'how-i-use-ai-as-a-fullstack-developer',
   'sql-window-functions-instead-of-python-loops',
   'python-postgres-stop-pulling-the-table',
   'frontend-fullstack-beside-ai-backend-2026',
