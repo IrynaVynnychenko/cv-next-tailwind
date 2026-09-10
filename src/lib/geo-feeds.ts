@@ -101,7 +101,7 @@ export function buildLlmsFullTxt(): string {
     (post) => `- [${post.title}](${absolute(`/blog/${post.slug}/`)}) (${post.date}): ${post.excerpt}`
   )
 
-  return `# ${AUTHOR_NAME.en} — full writing index
+  return `# ${AUTHOR_NAME.en} – full writing index
 
 > ${chrome.en.heroAnswer}
 
@@ -139,7 +139,7 @@ export function buildRssXml(): string {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>${xmlEscape(`${AUTHOR_NAME.en} — ${AUTHOR_JOB_TITLE.en}`)}</title>
+    <title>${xmlEscape(`${AUTHOR_NAME.en} – ${AUTHOR_JOB_TITLE.en}`)}</title>
     <link>${BASE_URL}/blog/</link>
     <description>${xmlEscape(chrome.en.heroAnswer)}</description>
     <language>en</language>

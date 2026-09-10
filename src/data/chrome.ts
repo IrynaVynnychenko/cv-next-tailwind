@@ -200,7 +200,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Відкрити проєкт',
     workTogether: 'Працюймо разом',
     workTogetherText:
-      'SaaS, MVPs і продуктовий UI на React і Next.js. Скоуп і терміни — на короткому колі.',
+      'SaaS, MVPs і продуктовий UI на React і Next.js. Скоуп і терміни – на короткому колі.',
     getInTouch: 'Написати',
     socialTitle: 'Соцмережі',
     themeToggle: 'Змінити тему',
@@ -365,7 +365,7 @@ export const chrome: Record<Language, ChromeCopy> = {
     openProject: 'Projeyi aç',
     workTogether: 'Birlikte çalışalım',
     workTogetherText:
-      'SaaS, MVP ve React ile Next.js üzerinde ürün UI. Kapsam ve tarih — kısa bir görüşmede.',
+      'SaaS, MVP ve React ile Next.js üzerinde ürün UI. Kapsam ve tarih – kısa bir görüşmede.',
     getInTouch: 'İletişime geç',
     socialTitle: 'Sosyal bağlantılar',
     themeToggle: 'Temayı değiştir',

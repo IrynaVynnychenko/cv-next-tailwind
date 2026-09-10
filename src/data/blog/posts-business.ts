@@ -6,7 +6,7 @@ export const businessPosts: RawBlogPost[] = [
     date: '2026-08-24',
     title: {
       en: 'What SEO Actually Is - and Why a Site Without It Misses the Buyer Who Already Typed the Job',
-      ua: 'Що таке SEO насправді — і чому сайт без нього втрачає того, хто вже набрав задачу',
+      ua: 'Що таке SEO насправді – і чому сайт без нього втрачає того, хто вже набрав задачу',
       de: 'Was SEO wirklich ist - und warum eine Site ohne es den Käufer verpasst, der den Auftrag schon getippt hat',
       fr: 'Ce qu’est vraiment le SEO - et pourquoi un site sans lui rate l’acheteur qui a déjà tapé la tâche',
       es: 'Qué es de verdad el SEO - y por qué un sitio sin él pierde al comprador que ya escribió el trabajo',
@@ -15,7 +15,7 @@ export const businessPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: 'SEO is not keywords in the footer and not a plugin. It is making a page findable when someone already typed the job into Google. What that actually means, why ads and Instagram do not replace it, and what I put on a site so a crawler can rank it.',
-      ua: 'SEO — це не ключові слова в футері і не плагін. Це зробити сторінку знайденою, коли людина вже набрала задачу в Google. Що це означає насправді, чому реклама й Instagram цього не замінюють, і що я ставлю на сайт, щоб краулер міг його ранжувати.',
+      ua: 'SEO – це не ключові слова в футері і не плагін. Це зробити сторінку знайденою, коли людина вже набрала задачу в Google. Що це означає насправді, чому реклама й Instagram цього не замінюють, і що я ставлю на сайт, щоб краулер міг його ранжувати.',
       de: 'SEO ist kein Keyword-Footer und kein Plugin. Es heißt: eine Seite findbar machen, wenn jemand den Auftrag schon bei Google getippt hat. Was das wirklich bedeutet, warum Anzeigen und Instagram das nicht ersetzen, und was ich auf eine Site setze, damit ein Crawler sie ranken kann.',
       fr: 'Le SEO n’est pas des mots-clés dans le footer ni un plugin. C’est rendre une page trouvable quand quelqu’un a déjà tapé la tâche dans Google. Ce que ça veut dire vraiment, pourquoi les ads et Instagram ne le remplacent pas, et ce que je mets sur un site pour qu’un crawler puisse le classer.',
       es: 'El SEO no son palabras clave en el pie ni un plugin. Es hacer que una página se encuentre cuando alguien ya escribió el trabajo en Google. Qué significa de verdad, por qué los anuncios e Instagram no lo sustituyen, y qué pongo en un sitio para que un crawler pueda posicionarlo.',
@@ -54,7 +54,7 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'I already wrote why ChatGPT citations are the next layer, and why Core Web Vitals hit revenue. This piece is the base: what SEO is, why ads and a chat profile do not replace it, and what I would not outsource to a keyword-soup agency.',
-            ua: 'Я вже писала, чому цитати в ChatGPT — наступний шар, і чому Core Web Vitals б’ють по виручці. Тут основа: що таке SEO, чому реклама й профіль у чаті його не замінюють, і що я б не віддавала агенції з кашею ключових слів.',
+            ua: 'Я вже писала, чому цитати в ChatGPT – наступний шар, і чому Core Web Vitals б’ють по виручці. Тут основа: що таке SEO, чому реклама й профіль у чаті його не замінюють, і що я б не віддавала агенції з кашею ключових слів.',
             de: 'Ich habe schon geschrieben, warum ChatGPT-Zitate die nächste Schicht sind, und warum Core Web Vitals den Umsatz treffen. Hier die Basis: was SEO ist, warum Anzeigen und ein Chat-Profil das nicht ersetzen, und was ich keiner Keyword-Brei-Agentur überlassen würde.',
             fr: 'J’ai déjà écrit pourquoi les citations ChatGPT sont la couche suivante, et pourquoi les Core Web Vitals touchent le chiffre. Ici, la base : ce qu’est le SEO, pourquoi les ads et un profil de chat ne le remplacent pas, et ce que je ne déléguerais pas à une agence soupe de mots-clés.',
             es: 'Ya escribí por qué las citas de ChatGPT son la capa siguiente, y por qué Core Web Vitals pegan a los ingresos. Aquí la base: qué es el SEO, por qué los anuncios y un perfil de chat no lo sustituyen, y qué no encargaría a una agencia de sopa de palabras clave.',
@@ -76,7 +76,7 @@ export const businessPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: 'Keep them separate on a budget and in a contract. Mixing them is how you pay for ads and think you “did SEO,” then panic when the spend pauses.',
-            ua: 'Тримайте їх окремо в бюджеті й у договорі. Якщо змішати — ви платите за рекламу, думаєте, що «зробили SEO», і панікуєте, коли витрати ставлять на паузу.',
+            ua: 'Тримайте їх окремо в бюджеті й у договорі. Якщо змішати – ви платите за рекламу, думаєте, що «зробили SEO», і панікуєте, коли витрати ставлять на паузу.',
             de: 'Halten Sie sie im Budget und im Vertrag getrennt. Wer sie vermischt, zahlt für Anzeigen, glaubt er habe „SEO gemacht“, und panikt, wenn der Spend pausiert.',
             fr: 'Gardez-les distincts dans le budget et dans le contrat. Les confondre, c’est payer des ads, croire qu’on « a fait du SEO », puis paniquer quand la dépense s’arrête.',
             es: 'Manténgalos separados en el presupuesto y en el contrato. Si los mezcla, paga anuncios, cree que «hizo SEO» y entra en pánico cuando el gasto se pausa.',
@@ -96,7 +96,7 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'Ads: you pay per click. When the budget stops, the slot vanishes. Useful for a launch. That is SEM, not SEO. A paid result sitting above your missing organic page is not “optimization.”',
-            ua: 'Реклама: ви платите за клік. Коли бюджет зупиняється, слот зникає. Корисно на запуск. Це SEM, не SEO. Платний результат над відсутньою органікою — не «оптимізація».',
+            ua: 'Реклама: ви платите за клік. Коли бюджет зупиняється, слот зникає. Корисно на запуск. Це SEM, не SEO. Платний результат над відсутньою органікою – не «оптимізація».',
             de: 'Anzeigen: Sie zahlen pro Klick. Stoppt das Budget, ist der Slot weg. Nützlich für einen Launch. Das ist SEM, nicht SEO. Ein bezahltes Ergebnis über Ihrer fehlenden organischen Seite ist keine „Optimierung.“',
             fr: 'Ads : vous payez au clic. Quand le budget s’arrête, le créneau disparaît. Utile pour un lancement. C’est du SEM, pas du SEO. Un résultat payant au-dessus de votre page organique absente n’est pas de « l’optimisation ».',
             es: 'Anuncios: paga por clic. Cuando el presupuesto para, el hueco desaparece. Útil para un lanzamiento. Eso es SEM, no SEO. Un resultado de pago encima de su página orgánica que no existe no es «optimización».',
@@ -105,7 +105,7 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'Social: Instagram, Telegram, TikTok. Attention you rent. A stranger who googles “dentist near me” or “Next.js developer” does not open your Stories first. They open a page. If you have no page, they open a competitor.',
-            ua: 'Соцмережі: Instagram, Telegram, TikTok. Увага, яку ви орендуєте. Незнайомець, який гуглить «стоматолог біля мене» або «розробник Next.js», не відкриває спочатку ваші Stories. Він відкриває сторінку. Якщо сторінки немає — відкриває конкурента.',
+            ua: 'Соцмережі: Instagram, Telegram, TikTok. Увага, яку ви орендуєте. Незнайомець, який гуглить «стоматолог біля мене» або «розробник Next.js», не відкриває спочатку ваші Stories. Він відкриває сторінку. Якщо сторінки немає – відкриває конкурента.',
             de: 'Social: Instagram, Telegram, TikTok. Aufmerksamkeit, die Sie mieten. Ein Fremder, der „Zahnarzt in der Nähe“ oder „Next.js-Entwickler“ googelt, öffnet nicht zuerst Ihre Stories. Er öffnet eine Seite. Haben Sie keine, öffnet er einen Wettbewerber.',
             fr: 'Social : Instagram, Telegram, TikTok. De l’attention que vous louez. Un inconnu qui google « dentiste près de moi » ou « développeur Next.js » n’ouvre pas d’abord vos Stories. Il ouvre une page. S’il n’y en a pas, il ouvre un concurrent.',
             es: 'Social: Instagram, Telegram, TikTok. Atención que alquila. Un extraño que busca «dentista cerca» o «desarrollador Next.js» no abre primero sus Stories. Abre una página. Si no hay página, abre a un competidor.',
@@ -127,7 +127,7 @@ export const businessPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: 'A feed brings people who were already scrolling. Search brings people who typed a task. That gap is why a one-page site still beats a pretty bio when money is about to move.',
-            ua: 'Стрічка приводить тих, хто вже гортав. Пошук приводить тих, хто набрав задачу. Ця різниця — чому односторінковий сайт і далі б’є гарне біо, коли гроші вже збираються піти.',
+            ua: 'Стрічка приводить тих, хто вже гортав. Пошук приводить тих, хто набрав задачу. Ця різниця – чому односторінковий сайт і далі б’є гарне біо, коли гроші вже збираються піти.',
             de: 'Ein Feed bringt Leute, die schon scrollten. Suche bringt Leute, die eine Aufgabe getippt haben. Diese Lücke ist, warum eine One-Pager-Site ein hübsches Bio weiter schlägt, wenn Geld fließen soll.',
             fr: 'Un fil amène des gens qui défilaient déjà. La recherche amène des gens qui ont tapé une tâche. Cet écart, c’est pourquoi une page unique bat encore une jolie bio quand l’argent va bouger.',
             es: 'Un feed trae a quien ya hacía scroll. La búsqueda trae a quien escribió una tarea. Esa brecha es por qué una web de una página sigue ganando a una bio bonita cuando el dinero está a punto de moverse.',
@@ -138,7 +138,7 @@ export const businessPosts: RawBlogPost[] = [
         list: [
           {
             en: 'Intent: “manicure Podil,” “booking site for a salon,” “Telegram payments” is a job, not a mood. A stranger in that query is closer to paying than a like on a reel.',
-            ua: 'Намір: «манікюр Поділ», «сайт запису для салону», «оплата в Telegram» — це задача, не настрій. Незнайомець у цьому запиті ближче до оплати, ніж лайк під рілсом.',
+            ua: 'Намір: «манікюр Поділ», «сайт запису для салону», «оплата в Telegram» – це задача, не настрій. Незнайомець у цьому запиті ближче до оплати, ніж лайк під рілсом.',
             de: 'Intent: „Maniküre Podil“, „Buchungsseite für einen Salon“, „Telegram-Zahlungen“ ist ein Auftrag, keine Stimmung. Ein Fremder in dieser Query ist näher am Zahlen als ein Like unter einem Reel.',
             fr: 'Intention : « manucure Podil », « site de réservation pour un salon », « paiements Telegram » est une tâche, pas une humeur. Un inconnu dans cette requête est plus près de payer qu’un like sous un reel.',
             es: 'Intención: «manicura Podil», «web de reservas para un salón», «pagos en Telegram» es un trabajo, no un ánimo. Un extraño en esa consulta está más cerca de pagar que un like en un reel.',
@@ -147,7 +147,7 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'Cost: ads work. They also reset every month. A page that ranks is an asset you keep. Pause Google Ads and the paid slot dies. The organic URL does not.',
-            ua: 'Вартість: реклама працює. Вона також обнуляється щомісяця. Сторінка, яка ранжується, — актив, який лишається. Поставте Google Ads на паузу — платний слот помре. Органічний URL — ні.',
+            ua: 'Вартість: реклама працює. Вона також обнуляється щомісяця. Сторінка, яка ранжується, – актив, який лишається. Поставте Google Ads на паузу – платний слот помре. Органічний URL – ні.',
             de: 'Kosten: Anzeigen funktionieren. Sie setzen auch jeden Monat zurück. Eine Seite, die rankt, ist ein Asset, das bleibt. Pausieren Sie Google Ads, stirbt der bezahlte Slot. Die organische URL nicht.',
             fr: 'Coût : les ads marchent. Elles se réinitialisent aussi chaque mois. Une page qui classe est un actif que vous gardez. Pausez Google Ads, le créneau payant meurt. L’URL organique non.',
             es: 'Coste: los anuncios funcionan. También se reinician cada mes. Una página que posiciona es un activo que se queda. Pause Google Ads y el hueco de pago muere. La URL orgánica no.',
@@ -156,7 +156,7 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'Trust: a blue link in Google is a third-party check. A bio you wrote on Instagram is a claim. Buyers still google the name before they pay. If nothing ranks, they assume you are new - or gone.',
-            ua: 'Довіра: синє посилання в Google — перевірка третьою стороною. Біо, яке ви самі написали в Instagram, — заява. Покупці й далі гуглять ім’я перед оплатою. Якщо нічого не ранжується, вони вважають, що ви нові — або вас уже немає.',
+            ua: 'Довіра: синє посилання в Google – перевірка третьою стороною. Біо, яке ви самі написали в Instagram, – заява. Покупці й далі гуглять ім’я перед оплатою. Якщо нічого не ранжується, вони вважають, що ви нові – або вас уже немає.',
             de: 'Vertrauen: ein blauer Link bei Google ist eine Prüfung durch Dritte. Eine Bio, die Sie selbst auf Instagram schreiben, ist eine Behauptung. Käufer googeln den Namen weiter, bevor sie zahlen. Rankt nichts, halten sie Sie für neu - oder weg.',
             fr: 'Confiance : un lien bleu dans Google est une vérif tierce. Une bio que vous avez écrite sur Instagram est une affirmation. Les acheteurs googlen encore le nom avant de payer. Si rien ne classe, ils vous croient nouveau - ou parti.',
             es: 'Confianza: un enlace azul en Google es una comprobación de terceros. Una bio que usted escribió en Instagram es una afirmación. Quien compra sigue buscando el nombre antes de pagar. Si nada posiciona, asume que es nuevo - o que ya no está.',
@@ -165,7 +165,7 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'The next layer: if Google cannot fetch the page, ChatGPT cannot cite it either. SEO is still the floor under GEO. I already wrote that piece. This one is why the floor exists.',
-            ua: 'Наступний шар: якщо Google не може дістати сторінку, ChatGPT теж її не процитує. SEO і далі підлога під GEO. Ту статтю я вже писала. Тут — чому ця підлога існує.',
+            ua: 'Наступний шар: якщо Google не може дістати сторінку, ChatGPT теж її не процитує. SEO і далі підлога під GEO. Ту статтю я вже писала. Тут – чому ця підлога існує.',
             de: 'Die nächste Schicht: wenn Google die Seite nicht holen kann, kann ChatGPT sie auch nicht zitieren. SEO bleibt der Boden unter GEO. Den Text habe ich schon geschrieben. Hier, warum der Boden existiert.',
             fr: 'La couche suivante : si Google ne peut pas récupérer la page, ChatGPT ne peut pas la citer non plus. Le SEO reste le plancher sous le GEO. J’ai déjà écrit ce texte. Ici, pourquoi ce plancher existe.',
             es: 'La capa siguiente: si Google no puede recuperar la página, ChatGPT tampoco puede citarla. El SEO sigue siendo el suelo bajo el GEO. Esa pieza ya la escribí. Aquí, por qué existe ese suelo.',
@@ -177,7 +177,7 @@ export const businessPosts: RawBlogPost[] = [
       {
         heading: {
           en: '3. What actually ranks - not the folklore',
-          ua: '3. Що насправді ранжується — не фольклор',
+          ua: '3. Що насправді ранжується – не фольклор',
           de: '3. Was wirklich rankt - nicht die Folklore',
           fr: '3. Ce qui classe vraiment - pas le folklore',
           es: '3. Qué posiciona de verdad - no el folklore',
@@ -187,7 +187,7 @@ export const businessPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: 'Three layers. Skipping one is how you “did SEO” and stayed on page four. I do not sell a secret keyword list. I ship a page a crawler can read and a human can finish.',
-            ua: 'Три шари. Пропустити один — як «зробити SEO» і лишитись на четвертій сторінці. Я не продаю секретний список ключових слів. Я збираю сторінку, яку краулер читає, а людина може дочитати до кінця.',
+            ua: 'Три шари. Пропустити один – як «зробити SEO» і лишитись на четвертій сторінці. Я не продаю секретний список ключових слів. Я збираю сторінку, яку краулер читає, а людина може дочитати до кінця.',
             de: 'Drei Schichten. Eine zu überspringen ist, wie Sie „SEO gemacht“ haben und auf Seite vier bleiben. Ich verkaufe keine geheime Keyword-Liste. Ich liefere eine Seite, die ein Crawler liest und ein Mensch zu Ende bringen kann.',
             fr: 'Trois couches. En sauter une, c’est « avoir fait du SEO » et rester page quatre. Je ne vends pas une liste secrète de mots-clés. Je livre une page qu’un crawler lit et qu’un humain peut finir.',
             es: 'Tres capas. Saltar una es «hacer SEO» y quedarse en la página cuatro. No vendo una lista secreta de palabras clave. Entrego una página que un crawler lee y un humano puede terminar.',
@@ -198,7 +198,7 @@ export const businessPosts: RawBlogPost[] = [
         list: [
           {
             en: 'Technical: the crawler gets the same sentence the human gets. Server-rendered HTML, not a JavaScript shell. Fast enough that Google does not demote it - Core Web Vitals still count. Mobile that is the real site, not a leftover. Sitemap, canonicals, schema on top of copy that already exists.',
-            ua: 'Техніка: краулер отримує те саме речення, що й людина. Серверний HTML, не оболонка на JavaScript. Достатньо швидко, щоб Google не знижував — Core Web Vitals і далі рахуються. Мобільна версія, яка є справжнім сайтом, не залишком. Sitemap, канонікали, schema поверх тексту, який уже є.',
+            ua: 'Техніка: краулер отримує те саме речення, що й людина. Серверний HTML, не оболонка на JavaScript. Достатньо швидко, щоб Google не знижував – Core Web Vitals і далі рахуються. Мобільна версія, яка є справжнім сайтом, не залишком. Sitemap, канонікали, schema поверх тексту, який уже є.',
             de: 'Technik: der Crawler bekommt denselben Satz wie der Mensch. Serverseitiges HTML, keine JavaScript-Hülle. Schnell genug, dass Google nicht abstuft - Core Web Vitals zählen weiter. Mobil, das die echte Site ist, kein Rest. Sitemap, Canonicals, Schema oben auf Copy, die schon da ist.',
             fr: 'Technique : le crawler reçoit la même phrase que l’humain. HTML rendu serveur, pas une coquille JavaScript. Assez vite pour que Google ne rétrograde pas - les Core Web Vitals comptent encore. Un mobile qui est le vrai site, pas un reste. Sitemap, canonicals, schema par-dessus une copy qui existe déjà.',
             es: 'Técnica: el crawler recibe la misma frase que el humano. HTML renderizado en servidor, no un cascarón de JavaScript. Lo bastante rápido para que Google no baje el puesto - Core Web Vitals siguen contando. Un móvil que es el sitio de verdad, no un resto. Sitemap, canonicals, schema encima de un texto que ya existe.',
@@ -207,7 +207,7 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'Content: one page, one job. “Manicure in Podil, price, hours, book” beats a homepage that says “creative digital solutions.” Headings as questions people actually type. A date and one number a model - and a human - can lift.',
-            ua: 'Контент: одна сторінка, одна задача. «Манікюр на Подолі, ціна, години, запис» б’є головну зі «креативними цифровими рішеннями». Заголовки як питання, які люди реально друкують. Дата і одна цифра, яку модель — і людина — можуть підхопити.',
+            ua: 'Контент: одна сторінка, одна задача. «Манікюр на Подолі, ціна, години, запис» б’є головну зі «креативними цифровими рішеннями». Заголовки як питання, які люди реально друкують. Дата і одна цифра, яку модель – і людина – можуть підхопити.',
             de: 'Inhalt: eine Seite, ein Job. „Maniküre in Podil, Preis, Öffnungszeiten, buchen“ schlägt eine Startseite mit „kreativen digitalen Lösungen.“ Überschriften als Fragen, die Leute wirklich tippen. Ein Datum und eine Zahl, die ein Modell - und ein Mensch - übernehmen können.',
             fr: 'Contenu : une page, une tâche. « Manucure à Podil, prix, horaires, réserver » bat une homepage qui dit « solutions digitales créatives ». Des titres comme des questions qu’on tape vraiment. Une date et un chiffre qu’un modèle - et un humain - peuvent reprendre.',
             es: 'Contenido: una página, un trabajo. «Manicura en Podil, precio, horario, reservar» gana a una homepage que dice «soluciones digitales creativas». Titulares como preguntas que la gente escribe de verdad. Una fecha y un número que un modelo - y un humano - puedan citar.',
@@ -260,7 +260,7 @@ export const businessPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: 'SEO is being findable when the buyer already typed the work. Not a plugin, not a footer of keywords, not a replacement for a fast page with an offer. I build those pages in Next.js: HTML a crawler can read, answer-first copy, schema, a form that still works when the organic click lands. Write via the form with the query customers already type into Google. We will put a page on the internet that can actually rank - and later, be cited.',
-            ua: 'SEO — це бути знайденим, коли покупець уже набрав роботу. Не плагін, не футер з ключовими словами, не заміна швидкій сторінці з пропозицією. Я збираю такі сторінки на Next.js: HTML, який краулер читає, текст із відповіддю зверху, schema, форма, яка працює, коли прилітає органічний клік. Напишіть через форму запит, який клієнти вже друкують у Google. Поставимо в інтернет сторінку, яку реально можна ранжувати — а потім і процитувати.',
+            ua: 'SEO – це бути знайденим, коли покупець уже набрав роботу. Не плагін, не футер з ключовими словами, не заміна швидкій сторінці з пропозицією. Я збираю такі сторінки на Next.js: HTML, який краулер читає, текст із відповіддю зверху, schema, форма, яка працює, коли прилітає органічний клік. Напишіть через форму запит, який клієнти вже друкують у Google. Поставимо в інтернет сторінку, яку реально можна ранжувати – а потім і процитувати.',
             de: 'SEO heißt findbar sein, wenn der Käufer die Arbeit schon getippt hat. Kein Plugin, kein Keyword-Footer, kein Ersatz für eine schnelle Seite mit einem Angebot. Ich baue diese Seiten in Next.js: HTML, das ein Crawler liest, Text der zuerst antwortet, Schema, ein Formular das noch funktioniert, wenn der organische Klick landet. Schreiben Sie über das Formular die Query, die Kunden schon bei Google tippen. Wir stellen eine Seite ins Netz, die wirklich ranken kann - und später zitiert werden.',
             fr: 'Le SEO, c’est être trouvable quand l’acheteur a déjà tapé le travail. Pas un plugin, pas un footer de mots-clés, pas un remplaçant d’une page rapide avec une offre. Je construis ces pages en Next.js : du HTML qu’un crawler lit, un texte qui répond d’abord, du schema, un formulaire qui marche encore quand le clic organique atterrit. Écrivez via le formulaire la requête que les clients tapent déjà dans Google. On mettra en ligne une page qui peut vraiment classer - et plus tard, être citée.',
             es: 'El SEO es ser encontrable cuando el comprador ya escribió el trabajo. No un plugin, no un pie de palabras clave, no un recambio de una página rápida con una oferta. Construyo esas páginas en Next.js: HTML que un crawler lee, texto que responde primero, schema, un formulario que sigue funcionando cuando aterriza el clic orgánico. Escriba por el formulario la consulta que los clientes ya escriben en Google. Pondremos en internet una página que de verdad pueda posicionar - y luego ser citada.',
@@ -276,7 +276,7 @@ export const businessPosts: RawBlogPost[] = [
     date: '2026-08-20',
     title: {
       en: 'Google Rank Is Not Enough - ChatGPT Has to Cite You Before the Customer Clicks',
-      ua: 'Позиції в Google вже замало — ChatGPT має назвати вас ще до кліку клієнта',
+      ua: 'Позиції в Google вже замало – ChatGPT має назвати вас ще до кліку клієнта',
       de: 'Ein Platz bei Google reicht nicht: ChatGPT muss Sie zitieren, bevor der Kunde klickt',
       fr: 'Figurer dans Google ne suffit plus : ChatGPT doit vous citer avant que le client ne clique',
       es: 'Salir en Google ya no basta: ChatGPT tiene que citarle antes de que el cliente pulse',
@@ -324,12 +324,12 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'Generative Engine Optimization - GEO - is that work: become the source the model quotes, not only the blue link it used to rank. I already wrote what SEO is, why a one-page site beats a chat profile, and why site search closes orders. This is the next layer. The site has to ship as HTML, answer in the first screen, and stay dated enough that a crawler trusts it.',
-            ua: 'Generative Engine Optimization — GEO — саме ця робота: стати джерелом, яке модель цитує, а не лише синім посиланням у видачі. Я вже писала, що таке SEO, чому односторінковий сайт перемагає профіль у чаті і чому пошук на сайті закриває замовлення. Це наступний рівень. Сайт має віддаватись HTML-ем, відповідати на першому екрані й бути свіжим настільки, щоб краулер йому довіряв.',
-            de: 'Generative Engine Optimization — GEO — ist genau diese Arbeit: die Quelle werden, die das Modell zitiert, nicht nur der blaue Link, den es früher gerankt hat. Ich habe schon geschrieben, was SEO ist, warum eine One-Pager-Site ein Chat-Profil schlägt und warum die Suche auf der Site Aufträge abschließt. Das ist die nächste Ebene. Die Site muss als HTML ausgeliefert werden, auf dem ersten Screen antworten und frisch genug bleiben, dass ein Crawler ihr traut.',
-            fr: 'Le Generative Engine Optimization — GEO — c’est ce travail : devenir la source que le modèle cite, pas seulement le lien bleu qu’il classait. J’ai déjà écrit ce qu’est le SEO, pourquoi une page unique bat un profil de chat, et pourquoi la recherche sur le site clôt les commandes. Ici, la couche suivante. Le site doit partir en HTML, répondre dès le premier écran, et rester assez à jour pour qu’un crawler lui fasse confiance.',
-            es: 'Generative Engine Optimization — GEO — es ese trabajo: ser la fuente que el modelo cita, no solo el enlace azul que antes posicionaba. Ya escribí qué es el SEO, por qué una web de una página gana a un perfil de chat, y por qué la búsqueda en el sitio cierra pedidos. Esta es la capa siguiente. El sitio tiene que salir como HTML, responder en la primera pantalla y seguir lo bastante actualizado para que un crawler se fíe.',
-            it: 'Il Generative Engine Optimization — GEO — è proprio questo lavoro: diventare la fonte che il modello cita, non solo il link blu che un tempo posizionava. Ho già scritto cos’è la SEO, perché un sito di una pagina batte un profilo in chat, e perché la ricerca sul sito chiude gli ordini. Questo è lo strato successivo. Il sito deve uscire come HTML, rispondere al primo schermo e restare abbastanza aggiornato perché un crawler si fidi.',
-            tr: 'Generative Engine Optimization — GEO — tam olarak bu iştir: modelin kaynak gösterdiği yer olmak; eskiden sıraladığı mavi link olmak değil. SEO’nun ne olduğunu, tek sayfalık bir sitenin sohbet profilini neden yendiğini ve site içi aramanın siparişi neden kapattığını zaten yazdım. Bu bir sonraki katman. Site HTML olarak çıkmalı, ilk ekranda cevap vermeli ve bir crawler’ın güvenmesi için yeterince taze kalmalı.',
+            ua: 'Generative Engine Optimization – GEO – саме ця робота: стати джерелом, яке модель цитує, а не лише синім посиланням у видачі. Я вже писала, що таке SEO, чому односторінковий сайт перемагає профіль у чаті і чому пошук на сайті закриває замовлення. Це наступний рівень. Сайт має віддаватись HTML-ем, відповідати на першому екрані й бути свіжим настільки, щоб краулер йому довіряв.',
+            de: 'Generative Engine Optimization – GEO – ist genau diese Arbeit: die Quelle werden, die das Modell zitiert, nicht nur der blaue Link, den es früher gerankt hat. Ich habe schon geschrieben, was SEO ist, warum eine One-Pager-Site ein Chat-Profil schlägt und warum die Suche auf der Site Aufträge abschließt. Das ist die nächste Ebene. Die Site muss als HTML ausgeliefert werden, auf dem ersten Screen antworten und frisch genug bleiben, dass ein Crawler ihr traut.',
+            fr: 'Le Generative Engine Optimization – GEO – c’est ce travail : devenir la source que le modèle cite, pas seulement le lien bleu qu’il classait. J’ai déjà écrit ce qu’est le SEO, pourquoi une page unique bat un profil de chat, et pourquoi la recherche sur le site clôt les commandes. Ici, la couche suivante. Le site doit partir en HTML, répondre dès le premier écran, et rester assez à jour pour qu’un crawler lui fasse confiance.',
+            es: 'Generative Engine Optimization – GEO – es ese trabajo: ser la fuente que el modelo cita, no solo el enlace azul que antes posicionaba. Ya escribí qué es el SEO, por qué una web de una página gana a un perfil de chat, y por qué la búsqueda en el sitio cierra pedidos. Esta es la capa siguiente. El sitio tiene que salir como HTML, responder en la primera pantalla y seguir lo bastante actualizado para que un crawler se fíe.',
+            it: 'Il Generative Engine Optimization – GEO – è proprio questo lavoro: diventare la fonte che il modello cita, non solo il link blu che un tempo posizionava. Ho già scritto cos’è la SEO, perché un sito di una pagina batte un profilo in chat, e perché la ricerca sul sito chiude gli ordini. Questo è lo strato successivo. Il sito deve uscire come HTML, rispondere al primo schermo e restare abbastanza aggiornato perché un crawler si fidi.',
+            tr: 'Generative Engine Optimization – GEO – tam olarak bu iştir: modelin kaynak gösterdiği yer olmak; eskiden sıraladığı mavi link olmak değil. SEO’nun ne olduğunu, tek sayfalık bir sitenin sohbet profilini neden yendiğini ve site içi aramanın siparişi neden kapattığını zaten yazdım. Bu bir sonraki katman. Site HTML olarak çıkmalı, ilk ekranda cevap vermeli ve bir crawler’ın güvenmesi için yeterince taze kalmalı.',
           },
         ],
       },
@@ -366,16 +366,16 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'GEO is the extra job: the page must be extractable - a direct answer, facts, a date, a named service - so the model has a sentence to steal.',
-            ua: 'GEO — додаткова робота: зі сторінки має бути що витягти — пряма відповідь, факти, дата, названа послуга — щоб моделі було з чого скласти речення.',
-            de: 'GEO ist die Extra-Aufgabe: die Seite muss extrahierbar sein — eine direkte Antwort, Fakten, ein Datum, eine benannte Leistung —, damit das Modell einen Satz zum Zitieren hat.',
-            fr: 'Le GEO est le travail en plus : la page doit être extractible — une réponse directe, des faits, une date, un service nommé — pour que le modèle ait une phrase à reprendre.',
+            ua: 'GEO – додаткова робота: зі сторінки має бути що витягти – пряма відповідь, факти, дата, названа послуга – щоб моделі було з чого скласти речення.',
+            de: 'GEO ist die Extra-Aufgabe: die Seite muss extrahierbar sein – eine direkte Antwort, Fakten, ein Datum, eine benannte Leistung –, damit das Modell einen Satz zum Zitieren hat.',
+            fr: 'Le GEO est le travail en plus : la page doit être extractible – une réponse directe, des faits, une date, un service nommé – pour que le modèle ait une phrase à reprendre.',
             es: 'GEO es el trabajo extra: de la página tiene que poder extraerse una respuesta directa, hechos, una fecha, un servicio con nombre, para que el modelo tenga una frase que citar.',
             it: 'Il GEO è il lavoro in più: dalla pagina deve potersi estrarre una risposta diretta, fatti, una data, un servizio nominato, così il modello ha una frase da citare.',
-            tr: 'GEO ekstra iştir: sayfadan çıkarılabilir bir şey olmalı — doğrudan cevap, olgular, bir tarih, adı konmuş bir hizmet — modelin alıntılayacağı bir cümle bulunsun.',
+            tr: 'GEO ekstra iştir: sayfadan çıkarılabilir bir şey olmalı – doğrudan cevap, olgular, bir tarih, adı konmuş bir hizmet – modelin alıntılayacağı bir cümle bulunsun.',
           },
           {
             en: 'A lot of GEO winners sit outside Google’s top ten. Authority for a model is not the same as a blue-link rank.',
-            ua: 'Багато сторінок, які моделі цитують, сидять поза топ-10 Google. Авторитет для моделі — не те саме, що місце синього посилання.',
+            ua: 'Багато сторінок, які моделі цитують, сидять поза топ-10 Google. Авторитет для моделі – не те саме, що місце синього посилання.',
             de: 'Viele GEO-Gewinner liegen außerhalb der Google-Top-10. Autorität für ein Modell ist nicht derselbe Rang wie ein blauer Link.',
             fr: 'Beaucoup de pages citées en GEO sont hors du top 10 Google. L’autorité pour un modèle n’est pas le même rang qu’un lien bleu.',
             es: 'Muchas páginas que ganan en GEO están fuera del top 10 de Google. La autoridad para un modelo no es el mismo puesto que un enlace azul.',
@@ -406,12 +406,12 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'This is one reason I still start marketing sites in Next.js with server-rendered pages, not a client-only SPA and not a page builder. The crawler gets the same sentence the human gets. Schema markup on top of that is a hint, not a magic trick - FAQ, Article, LocalBusiness - but the sentence has to exist in the HTML first.',
-            ua: 'Одна з причин, чому маркетингові сайти я досі починаю з Next.js і серверного рендеру, а не з клієнтського SPA і не з конструктора. Краулер отримує те саме речення, що й людина. Schema зверху — підказка, не магія: FAQ, Article, LocalBusiness. Але речення спочатку має бути в HTML.',
-            de: 'Ein Grund, warum ich Marketing-Sites weiter in Next.js mit serverseitig gerenderten Seiten starte — nicht als reine Client-SPA und nicht im Page-Builder. Der Crawler bekommt denselben Satz wie der Mensch. Schema oben drauf ist ein Hinweis, kein Zauber — FAQ, Article, LocalBusiness —, aber der Satz muss zuerst im HTML stehen.',
-            fr: 'C’est une raison pour laquelle je démarre encore les sites marketing en Next.js avec des pages rendues serveur, pas une SPA uniquement client et pas un constructeur de pages. Le crawler reçoit la même phrase que l’humain. Le schema par-dessus est un indice, pas un tour de magie — FAQ, Article, LocalBusiness — mais la phrase doit d’abord exister dans le HTML.',
-            es: 'Esta es una razón por la que sigo empezando sitios de marketing en Next.js con páginas renderizadas en servidor, no una SPA solo en el cliente ni un maquetador. El crawler recibe la misma frase que el humano. El schema encima es una pista, no un truco — FAQ, Article, LocalBusiness — pero la frase tiene que existir primero en el HTML.',
-            it: 'È un motivo per cui parto ancora i siti marketing in Next.js con pagine renderizzate sul server, non una SPA solo client e non un page builder. Il crawler riceve la stessa frase dell’umano. Lo schema sopra è un indizio, non un trucco — FAQ, Article, LocalBusiness — ma la frase deve esistere prima nell’HTML.',
-            tr: 'Pazarlama sitelerine hâlâ Next.js ile sunucu tarafında render edilen sayfalarla başlamamın bir nedeni bu — yalnızca istemci SPA değil, sayfa kurucu da değil. Crawler, insanın aldığı aynı cümleyi alır. Üstüne schema bir ipucudur, sihir değil — FAQ, Article, LocalBusiness — ama cümle önce HTML’de olmalıdır.',
+            ua: 'Одна з причин, чому маркетингові сайти я досі починаю з Next.js і серверного рендеру, а не з клієнтського SPA і не з конструктора. Краулер отримує те саме речення, що й людина. Schema зверху – підказка, не магія: FAQ, Article, LocalBusiness. Але речення спочатку має бути в HTML.',
+            de: 'Ein Grund, warum ich Marketing-Sites weiter in Next.js mit serverseitig gerenderten Seiten starte – nicht als reine Client-SPA und nicht im Page-Builder. Der Crawler bekommt denselben Satz wie der Mensch. Schema oben drauf ist ein Hinweis, kein Zauber – FAQ, Article, LocalBusiness –, aber der Satz muss zuerst im HTML stehen.',
+            fr: 'C’est une raison pour laquelle je démarre encore les sites marketing en Next.js avec des pages rendues serveur, pas une SPA uniquement client et pas un constructeur de pages. Le crawler reçoit la même phrase que l’humain. Le schema par-dessus est un indice, pas un tour de magie – FAQ, Article, LocalBusiness – mais la phrase doit d’abord exister dans le HTML.',
+            es: 'Esta es una razón por la que sigo empezando sitios de marketing en Next.js con páginas renderizadas en servidor, no una SPA solo en el cliente ni un maquetador. El crawler recibe la misma frase que el humano. El schema encima es una pista, no un truco – FAQ, Article, LocalBusiness – pero la frase tiene que existir primero en el HTML.',
+            it: 'È un motivo per cui parto ancora i siti marketing in Next.js con pagine renderizzate sul server, non una SPA solo client e non un page builder. Il crawler riceve la stessa frase dell’umano. Lo schema sopra è un indizio, non un trucco – FAQ, Article, LocalBusiness – ma la frase deve esistere prima nell’HTML.',
+            tr: 'Pazarlama sitelerine hâlâ Next.js ile sunucu tarafında render edilen sayfalarla başlamamın bir nedeni bu – yalnızca istemci SPA değil, sayfa kurucu da değil. Crawler, insanın aldığı aynı cümleyi alır. Üstüne schema bir ipucudur, sihir değil – FAQ, Article, LocalBusiness – ama cümle önce HTML’de olmalıdır.',
           },
         ],
       },
@@ -475,12 +475,12 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'Let the relevant bots in. Blocking GPTBot while wanting ChatGPT citations is a contradiction. Training and search crawlers are not the same flag - set them on purpose.',
-            ua: 'Пускайте потрібних ботів. Блокувати GPTBot і хотіти цитати в ChatGPT — суперечність. Краулери для тренування і для пошуку — різні прапорці, ставте їх навмисно.',
-            de: 'Lassen Sie die relevanten Bots rein. GPTBot sperren und ChatGPT-Zitate wollen, ist ein Widerspruch. Trainings- und Such-Crawler sind nicht dieselbe Flagge — setzen Sie sie absichtlich.',
-            fr: 'Laissez entrer les bots utiles. Bloquer GPTBot tout en voulant des citations ChatGPT est une contradiction. Crawlers d’entraînement et de recherche ne sont pas le même réglage — réglez-les exprès.',
-            es: 'Deje entrar a los bots relevantes. Bloquear GPTBot y querer citas de ChatGPT es una contradicción. Los crawlers de entrenamiento y de búsqueda no son la misma bandera — póngalas a propósito.',
-            it: 'Fate entrare i bot utili. Bloccare GPTBot e volere citazioni ChatGPT è una contraddizione. Crawler di addestramento e di ricerca non sono la stessa flag — impostatele apposta.',
-            tr: 'İlgili botları içeri alın. GPTBot’u engelleyip ChatGPT alıntısı istemek çelişkidir. Eğitim ve arama crawler’ları aynı bayrak değildir — bilerek ayarlayın.',
+            ua: 'Пускайте потрібних ботів. Блокувати GPTBot і хотіти цитати в ChatGPT – суперечність. Краулери для тренування і для пошуку – різні прапорці, ставте їх навмисно.',
+            de: 'Lassen Sie die relevanten Bots rein. GPTBot sperren und ChatGPT-Zitate wollen, ist ein Widerspruch. Trainings- und Such-Crawler sind nicht dieselbe Flagge – setzen Sie sie absichtlich.',
+            fr: 'Laissez entrer les bots utiles. Bloquer GPTBot tout en voulant des citations ChatGPT est une contradiction. Crawlers d’entraînement et de recherche ne sont pas le même réglage – réglez-les exprès.',
+            es: 'Deje entrar a los bots relevantes. Bloquear GPTBot y querer citas de ChatGPT es una contradicción. Los crawlers de entrenamiento y de búsqueda no son la misma bandera – póngalas a propósito.',
+            it: 'Fate entrare i bot utili. Bloccare GPTBot e volere citazioni ChatGPT è una contraddizione. Crawler di addestramento e di ricerca non sono la stessa flag – impostatele apposta.',
+            tr: 'İlgili botları içeri alın. GPTBot’u engelleyip ChatGPT alıntısı istemek çelişkidir. Eğitim ve arama crawler’ları aynı bayrak değildir – bilerek ayarlayın.',
           },
         ],
       },
@@ -497,12 +497,12 @@ export const businessPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: 'I would not buy a “get cited in ChatGPT” agency package that rewrites the homepage into keyword soup. I would not invent statistics. I would not hide the offer behind a lead magnet the crawler cannot read. I would not treat GEO as a replacement for a site that still loads in eight seconds - Core Web Vitals still decide whether a human stays after the citation.',
-            ua: 'Я б не купувала агенційний пакет «потрапити в ChatGPT», який переписує головну на кашу з ключових слів. Не вигадувала б статистику. Не ховала б пропозицію за формою, яку краулер не читає. Не ставилась би до GEO як до заміни сайту, який досі вантажиться вісім секунд — Core Web Vitals і далі вирішують, чи людина лишиться після цитати.',
-            de: 'Ich würde kein Agentur-Paket „in ChatGPT zitiert werden“ kaufen, das die Startseite in Keyword-Brei umschreibt. Ich würde keine Statistik erfinden. Ich würde das Angebot nicht hinter einem Leadmagneten verstecken, den der Crawler nicht liest. Ich würde GEO nicht als Ersatz für eine Site behandeln, die noch acht Sekunden lädt — Core Web Vitals entscheiden weiter, ob ein Mensch nach dem Zitat bleibt.',
-            fr: 'Je n’achèterais pas un pack agence « soyez cité dans ChatGPT » qui réécrit la page d’accueil en soupe de mots-clés. Je n’inventerais pas de stats. Je ne cacherais pas l’offre derrière un aimant à leads que le crawler ne lit pas. Je ne traiterais pas le GEO comme un remplaçant d’un site qui met encore huit secondes à charger — les Core Web Vitals décident encore si un humain reste après la citation.',
-            es: 'No compraría un paquete de agencia «salga citado en ChatGPT» que reescribe la página de inicio en sopa de palabras clave. No inventaría estadísticas. No escondería la oferta detrás de un imán de leads que el crawler no lee. No trataría el GEO como recambio de un sitio que aún tarda ocho segundos — Core Web Vitals siguen decidiendo si un humano se queda después de la cita.',
-            it: 'Non comprerei un pacchetto agenzia «fatevi citare in ChatGPT» che riscrive la homepage in zuppa di parole chiave. Non inventerei statistiche. Non nasconderei l’offerta dietro un magnete per lead che il crawler non legge. Non tratterei il GEO come sostituto di un sito che carica ancora in otto secondi — i Core Web Vitals decidono ancora se un umano resta dopo la citazione.',
-            tr: 'Anasayfayı anahtar kelime çorbasına çeviren «ChatGPT’de alıntılanın» ajans paketini almazdım. İstatistik uydurmazdım. Teklifi crawler’ın okuyamadığı bir lead formu arkasına gizlemezdim. GEO’yu hâlâ sekiz saniyede açılan bir sitenin yerine koymazdım — alıntıdan sonra insanın kalıp kalmayacağına Core Web Vitals hâlâ karar verir.',
+            ua: 'Я б не купувала агенційний пакет «потрапити в ChatGPT», який переписує головну на кашу з ключових слів. Не вигадувала б статистику. Не ховала б пропозицію за формою, яку краулер не читає. Не ставилась би до GEO як до заміни сайту, який досі вантажиться вісім секунд – Core Web Vitals і далі вирішують, чи людина лишиться після цитати.',
+            de: 'Ich würde kein Agentur-Paket „in ChatGPT zitiert werden“ kaufen, das die Startseite in Keyword-Brei umschreibt. Ich würde keine Statistik erfinden. Ich würde das Angebot nicht hinter einem Leadmagneten verstecken, den der Crawler nicht liest. Ich würde GEO nicht als Ersatz für eine Site behandeln, die noch acht Sekunden lädt – Core Web Vitals entscheiden weiter, ob ein Mensch nach dem Zitat bleibt.',
+            fr: 'Je n’achèterais pas un pack agence « soyez cité dans ChatGPT » qui réécrit la page d’accueil en soupe de mots-clés. Je n’inventerais pas de stats. Je ne cacherais pas l’offre derrière un aimant à leads que le crawler ne lit pas. Je ne traiterais pas le GEO comme un remplaçant d’un site qui met encore huit secondes à charger – les Core Web Vitals décident encore si un humain reste après la citation.',
+            es: 'No compraría un paquete de agencia «salga citado en ChatGPT» que reescribe la página de inicio en sopa de palabras clave. No inventaría estadísticas. No escondería la oferta detrás de un imán de leads que el crawler no lee. No trataría el GEO como recambio de un sitio que aún tarda ocho segundos – Core Web Vitals siguen decidiendo si un humano se queda después de la cita.',
+            it: 'Non comprerei un pacchetto agenzia «fatevi citare in ChatGPT» che riscrive la homepage in zuppa di parole chiave. Non inventerei statistiche. Non nasconderei l’offerta dietro un magnete per lead che il crawler non legge. Non tratterei il GEO come sostituto di un sito che carica ancora in otto secondi – i Core Web Vitals decidono ancora se un umano resta dopo la citazione.',
+            tr: 'Anasayfayı anahtar kelime çorbasına çeviren «ChatGPT’de alıntılanın» ajans paketini almazdım. İstatistik uydurmazdım. Teklifi crawler’ın okuyamadığı bir lead formu arkasına gizlemezdim. GEO’yu hâlâ sekiz saniyede açılan bir sitenin yerine koymazdım – alıntıdan sonra insanın kalıp kalmayacağına Core Web Vitals hâlâ karar verir.',
           },
         ],
       },
@@ -519,12 +519,12 @@ export const businessPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: 'GEO is not a new CMS. It is a site a crawler can read, a first paragraph a model can lift, and a named person behind a named service. If ChatGPT already answers your category and your name is missing, the gap is usually the page - JavaScript shell, no facts, no date - not a missing plugin. I build those pages in Next.js with schema, answer-first copy, and a form that still works when the AI referral lands. Write via the form with the question customers already type into ChatGPT. We will put a page on the internet that can actually be cited.',
-            ua: 'GEO — це не нова CMS. Це сайт, який краулер читає, перший абзац, який модель може підхопити, і названа людина за названою послугою. Якщо ChatGPT уже відповідає у вашій категорії, а вашого імені немає, дірка зазвичай у сторінці — JS-оболонка, немає фактів, немає дати — а не в відсутньому плагіні. Я збираю такі сторінки на Next.js: schema, текст із відповіддю зверху, форма, яка працює, коли прилітає перехід з ШІ. Напишіть через форму питання, яке клієнти вже друкують у ChatGPT. Поставимо в інтернет сторінку, яку реально можна процитувати.',
-            de: 'GEO ist kein neues CMS. Es ist eine Site, die ein Crawler lesen kann, ein erster Absatz, den ein Modell übernehmen kann, und ein benannter Mensch hinter einer benannten Leistung. Wenn ChatGPT Ihre Kategorie schon beantwortet und Ihr Name fehlt, sitzt die Lücke meist in der Seite — JS-Hülle, keine Fakten, kein Datum —, nicht in einem fehlenden Plugin. Ich baue diese Seiten in Next.js mit Schema, Text, der zuerst antwortet, und einem Formular, das noch funktioniert, wenn die KI-Empfehlung landet. Schreiben Sie über das Formular die Frage, die Kunden schon in ChatGPT tippen. Wir stellen eine Seite ins Netz, die wirklich zitiert werden kann.',
-            fr: 'Le GEO n’est pas un nouveau CMS. C’est un site qu’un crawler peut lire, un premier paragraphe qu’un modèle peut reprendre, et une personne nommée derrière un service nommé. Si ChatGPT répond déjà dans votre catégorie et que votre nom manque, le trou est en général la page — coquille JS, pas de faits, pas de date —, pas un plugin manquant. Je construis ces pages en Next.js avec du schema, un texte qui répond d’abord, et un formulaire qui marche encore quand le trafic IA atterrit. Écrivez via le formulaire la question que les clients tapent déjà dans ChatGPT. On mettra en ligne une page qui peut vraiment être citée.',
-            es: 'GEO no es un CMS nuevo. Es un sitio que un crawler puede leer, un primer párrafo que un modelo puede citar y una persona con nombre detrás de un servicio con nombre. Si ChatGPT ya responde en su categoría y falta su nombre, el hueco suele ser la página — cascarón JS, sin hechos, sin fecha —, no un plugin que falta. Construyo esas páginas en Next.js con schema, texto que responde primero y un formulario que sigue funcionando cuando aterriza el tráfico de IA. Escriba por el formulario la pregunta que los clientes ya escriben en ChatGPT. Pondremos en internet una página que de verdad se pueda citar.',
-            it: 'Il GEO non è un CMS nuovo. È un sito che un crawler può leggere, un primo paragrafo che un modello può citare, e una persona nominata dietro un servizio nominato. Se ChatGPT risponde già nella vostra categoria e manca il vostro nome, il buco è di solito la pagina — guscio JS, niente fatti, niente data —, non un plugin mancante. Costruisco quelle pagine in Next.js con schema, testi che rispondono prima e un form che funziona ancora quando atterra il traffico AI. Scrivete dal form la domanda che i clienti già digitano in ChatGPT. Metteremo in rete una pagina che si può davvero citare.',
-            tr: 'GEO yeni bir CMS değildir. Bir crawler’ın okuyabileceği bir site, bir modelin alabileceği ilk paragraf ve adlı bir hizmetin arkasındaki adlı bir kişidir. ChatGPT kategorinizde zaten yanıtlıyor ve adınız yoksa boşluk genelde sayfadadır — JS kabuğu, olgu yok, tarih yok — eksik eklenti değil. Bu sayfaları Next.js’te schema, önce cevap veren metin ve yapay zeka yönlendirmesi indiğinde hâlâ çalışan bir formla kurarım. Müşterilerin ChatGPT’ye zaten yazdığı soruyu formdan yazın. Gerçekten alıntılanabilecek bir sayfayı internete koyalım.',
+            ua: 'GEO – це не нова CMS. Це сайт, який краулер читає, перший абзац, який модель може підхопити, і названа людина за названою послугою. Якщо ChatGPT уже відповідає у вашій категорії, а вашого імені немає, дірка зазвичай у сторінці – JS-оболонка, немає фактів, немає дати – а не в відсутньому плагіні. Я збираю такі сторінки на Next.js: schema, текст із відповіддю зверху, форма, яка працює, коли прилітає перехід з ШІ. Напишіть через форму питання, яке клієнти вже друкують у ChatGPT. Поставимо в інтернет сторінку, яку реально можна процитувати.',
+            de: 'GEO ist kein neues CMS. Es ist eine Site, die ein Crawler lesen kann, ein erster Absatz, den ein Modell übernehmen kann, und ein benannter Mensch hinter einer benannten Leistung. Wenn ChatGPT Ihre Kategorie schon beantwortet und Ihr Name fehlt, sitzt die Lücke meist in der Seite – JS-Hülle, keine Fakten, kein Datum –, nicht in einem fehlenden Plugin. Ich baue diese Seiten in Next.js mit Schema, Text, der zuerst antwortet, und einem Formular, das noch funktioniert, wenn die KI-Empfehlung landet. Schreiben Sie über das Formular die Frage, die Kunden schon in ChatGPT tippen. Wir stellen eine Seite ins Netz, die wirklich zitiert werden kann.',
+            fr: 'Le GEO n’est pas un nouveau CMS. C’est un site qu’un crawler peut lire, un premier paragraphe qu’un modèle peut reprendre, et une personne nommée derrière un service nommé. Si ChatGPT répond déjà dans votre catégorie et que votre nom manque, le trou est en général la page – coquille JS, pas de faits, pas de date –, pas un plugin manquant. Je construis ces pages en Next.js avec du schema, un texte qui répond d’abord, et un formulaire qui marche encore quand le trafic IA atterrit. Écrivez via le formulaire la question que les clients tapent déjà dans ChatGPT. On mettra en ligne une page qui peut vraiment être citée.',
+            es: 'GEO no es un CMS nuevo. Es un sitio que un crawler puede leer, un primer párrafo que un modelo puede citar y una persona con nombre detrás de un servicio con nombre. Si ChatGPT ya responde en su categoría y falta su nombre, el hueco suele ser la página – cascarón JS, sin hechos, sin fecha –, no un plugin que falta. Construyo esas páginas en Next.js con schema, texto que responde primero y un formulario que sigue funcionando cuando aterriza el tráfico de IA. Escriba por el formulario la pregunta que los clientes ya escriben en ChatGPT. Pondremos en internet una página que de verdad se pueda citar.',
+            it: 'Il GEO non è un CMS nuovo. È un sito che un crawler può leggere, un primo paragrafo che un modello può citare, e una persona nominata dietro un servizio nominato. Se ChatGPT risponde già nella vostra categoria e manca il vostro nome, il buco è di solito la pagina – guscio JS, niente fatti, niente data –, non un plugin mancante. Costruisco quelle pagine in Next.js con schema, testi che rispondono prima e un form che funziona ancora quando atterra il traffico AI. Scrivete dal form la domanda che i clienti già digitano in ChatGPT. Metteremo in rete una pagina che si può davvero citare.',
+            tr: 'GEO yeni bir CMS değildir. Bir crawler’ın okuyabileceği bir site, bir modelin alabileceği ilk paragraf ve adlı bir hizmetin arkasındaki adlı bir kişidir. ChatGPT kategorinizde zaten yanıtlıyor ve adınız yoksa boşluk genelde sayfadadır – JS kabuğu, olgu yok, tarih yok – eksik eklenti değil. Bu sayfaları Next.js’te schema, önce cevap veren metin ve yapay zeka yönlendirmesi indiğinde hâlâ çalışan bir formla kurarım. Müşterilerin ChatGPT’ye zaten yazdığı soruyu formdan yazın. Gerçekten alıntılanabilecek bir sayfayı internete koyalım.',
           },
         ],
       },
@@ -544,12 +544,12 @@ export const businessPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: 'Launch is not the end of the work. Without someone who updates prices, watches SSL and backups, and fixes the form - the asset dies quietly. What website administration actually is, and how I run it as a developer, not as a person who only clicks in WordPress.',
-      ua: 'Запуск сайту — ще не кінець роботи. Без людини, яка оновлює ціни, стежить за SSL і бекапами та лагодить форму, сайт тихо вмирає. Що таке адміністрування насправді — і як я його веду як розробниця, а не як «адмін, який лише клікає в WordPress».',
-      de: 'Live gehen ist nicht das Ende der Arbeit. Ohne jemanden, der Preise aktualisiert, SSL und Backups im Blick hat und das Formular repariert, stirbt die Site leise. Was Website-Administration wirklich ist — und wie ich das als Entwicklerin führe, nicht als jemand, der nur in WordPress klickt.',
-      fr: 'Mettre le site en ligne n’est pas la fin du travail. Sans quelqu’un qui met à jour les prix, surveille SSL et les sauvegardes, et répare le formulaire, le site meurt en silence. Ce qu’est vraiment l’administration d’un site — et comment je la tiens en développeuse, pas en personne qui ne clique que dans WordPress.',
-      es: 'Publicar no es el final del trabajo. Sin alguien que actualice precios, vigile SSL y copias de seguridad y arregle el formulario, la web se muere en silencio. Qué es de verdad administrar una web — y cómo lo cubro como desarrolladora, no como quien solo hace clic en WordPress.',
-      it: 'Andare online non è la fine del lavoro. Senza qualcuno che aggiorna i prezzi, guarda SSL e backup e sistema il form, il sito muore in silenzio. Cos’è davvero l’amministrazione di un sito — e come la porto avanti da sviluppatrice, non da chi clicca soltanto in WordPress.',
-      tr: 'Yayına almak işin sonu değildir. Fiyatları güncelleyen, SSL ve yedekleri izleyen, formu onaran biri yoksa site sessizce ölür. Site yönetimi aslında nedir — ve bunu yalnızca WordPress’te tıklayan biri olarak değil, geliştirici olarak nasıl yürütürüm.',
+      ua: 'Запуск сайту – ще не кінець роботи. Без людини, яка оновлює ціни, стежить за SSL і бекапами та лагодить форму, сайт тихо вмирає. Що таке адміністрування насправді – і як я його веду як розробниця, а не як «адмін, який лише клікає в WordPress».',
+      de: 'Live gehen ist nicht das Ende der Arbeit. Ohne jemanden, der Preise aktualisiert, SSL und Backups im Blick hat und das Formular repariert, stirbt die Site leise. Was Website-Administration wirklich ist – und wie ich das als Entwicklerin führe, nicht als jemand, der nur in WordPress klickt.',
+      fr: 'Mettre le site en ligne n’est pas la fin du travail. Sans quelqu’un qui met à jour les prix, surveille SSL et les sauvegardes, et répare le formulaire, le site meurt en silence. Ce qu’est vraiment l’administration d’un site – et comment je la tiens en développeuse, pas en personne qui ne clique que dans WordPress.',
+      es: 'Publicar no es el final del trabajo. Sin alguien que actualice precios, vigile SSL y copias de seguridad y arregle el formulario, la web se muere en silencio. Qué es de verdad administrar una web – y cómo lo cubro como desarrolladora, no como quien solo hace clic en WordPress.',
+      it: 'Andare online non è la fine del lavoro. Senza qualcuno che aggiorna i prezzi, guarda SSL e backup e sistema il form, il sito muore in silenzio. Cos’è davvero l’amministrazione di un sito – e come la porto avanti da sviluppatrice, non da chi clicca soltanto in WordPress.',
+      tr: 'Yayına almak işin sonu değildir. Fiyatları güncelleyen, SSL ve yedekleri izleyen, formu onaran biri yoksa site sessizce ölür. Site yönetimi aslında nedir – ve bunu yalnızca WordPress’te tıklayan biri olarak değil, geliştirici olarak nasıl yürütürüm.',
     },
     readTime: {
       en: '8 min read',
@@ -905,7 +905,7 @@ export const businessPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: 'The point of paying an administrator is not a dashboard of tickets. It is that on a normal week the site tells the truth, takes the lead, and does not surprise you on Monday. Scope we lock in writing. Typical work looks like this.',
-            ua: 'Платити адміністраторці — не за дошку тікетів. А щоб у звичайний тиждень сайт казав правду, брав заявку й не сюрпризив у понеділок. Обсяг фіксуємо письмово. Типова робота виглядає так.',
+            ua: 'Платити адміністраторці – не за дошку тікетів. А щоб у звичайний тиждень сайт казав правду, брав заявку й не сюрпризив у понеділок. Обсяг фіксуємо письмово. Типова робота виглядає так.',
             de: 'Eine Administratorin zu bezahlen heißt nicht ein Ticket-Dashboard. Es heißt: in einer normalen Woche sagt die Site die Wahrheit, nimmt die Anfrage, überrascht Sie montags nicht. Den Umfang halten wir schriftlich fest. Typische Arbeit sieht so aus.',
             fr: 'Payer une administratrice, ce n’est pas un tableau de tickets. C’est qu’une semaine normale, le site dit vrai, prend la demande, et ne vous surprend pas lundi. Le périmètre se fige par écrit. Le travail typique ressemble à ça.',
             es: 'Pagar a una administradora no es un tablero de tickets. Es que en una semana normal la web dice la verdad, coge la solicitud y no le sorprende el lunes. El alcance se cierra por escrito. El trabajo típico se ve así.',
@@ -995,7 +995,7 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'After I built the site: administration is the natural next contract. Launch without an owner is how last year’s project becomes this year’s embarrassment.',
             ua: 'Після того, як я зібрала сайт: адміністрування - природний наступний контракт. Запуск без господаря - так торішній проєкт стає соромом цього року.',
-            de: 'Nachdem ich die Site gebaut habe: Administration ist der natürliche Folgevertrag. Go-live ohne Besitzer — so wird das Projekt von letztem Jahr die Peinlichkeit von diesem.',
+            de: 'Nachdem ich die Site gebaut habe: Administration ist der natürliche Folgevertrag. Go-live ohne Besitzer – so wird das Projekt von letztem Jahr die Peinlichkeit von diesem.',
             fr: 'Après que j’ai construit le site : l’administration est le contrat suivant, naturel. Lancer sans responsable, c’est comme ça que le projet de l’an dernier devient la honte de cette année.',
             es: 'Después de que yo monté la web: administrar es el contrato siguiente, el natural. Lanzar sin dueño es cómo el proyecto del año pasado se vuelve la vergüenza de este.',
             it: 'Dopo che ho costruito il sito: l’amministrazione è il contratto successivo, naturale. Lanciare senza titolare è come il progetto dell’anno scorso diventa l’imbarazzo di quest’anno.',
@@ -1357,7 +1357,7 @@ export const businessPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: 'A constructor theme that takes eight seconds on a phone is worse than no site: it confirms the doubt. A 40-page brochure nobody updates is the other failure. Ship the thin version.',
-            ua: 'Тема з конструктора, яка відкривається вісім секунд на телефоні, гірша за відсутність сайту: вона підтверджує сумнів. Брошура на 40 сторінок, яку ніхто не оновлює, — друга помилка. Запустіть тонку версію.',
+            ua: 'Тема з конструктора, яка відкривається вісім секунд на телефоні, гірша за відсутність сайту: вона підтверджує сумнів. Брошура на 40 сторінок, яку ніхто не оновлює, – друга помилка. Запустіть тонку версію.',
             de: 'Ein Baukasten-Theme, das auf dem Handy acht Sekunden braucht, ist schlimmer als keine Site: es bestätigt den Zweifel. Eine 40-Seiten-Broschüre, die niemand pflegt, ist der andere Fehler. Die schlanke Version live nehmen.',
             fr: 'Un thème de constructeur qui met huit secondes sur téléphone est pire que pas de site : ça confirme le doute. Une brochure de 40 pages que personne ne tient, c’est l’autre échec. Mettez en ligne la version mince.',
             es: 'Un tema de constructor que tarda ocho segundos en el móvil es peor que no tener web: confirma la duda. Un folleto de 40 páginas que nadie actualiza es el otro fallo. Publique la versión delgada.',
@@ -1482,8 +1482,8 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'I have already written when a business outgrows Instagram, and why a feed is not a home. This piece is narrower: if you run a shop, a clinic, a workshop, a local service, or a 20-80 person company - what does a website actually buy you? Not “digital presence.” Hours, trust, and a larger pool of people who order - because they found you, finished the request, and came back.',
             ua: 'Я вже писала, коли бізнес переростає Instagram і чому стрічка - не дім. Тут вужче: якщо ви тримаєте магазин, клініку, майстерню, локальний сервіс чи компанію на 20-80 людей - що саме дає сайт? Не «цифрову присутність». Години, довіру й більшу кількість тих, хто замовляє - бо вас знайшли, довели заявку до кінця й повернулися.',
-            de: 'Ich habe schon geschrieben, wann ein Business Instagram überwächst und warum ein Feed kein Zuhause ist. Hier enger: wenn Sie einen Laden, eine Praxis, eine Werkstatt, einen lokalen Service oder eine Firma mit 20-80 Leuten führen — was bringt eine Website wirklich? Nicht „digitale Präsenz“. Stunden, Vertrauen und mehr Menschen, die bestellen — weil sie Sie gefunden, die Anfrage zu Ende gebracht und wiedergekommen sind.',
-            fr: "J'ai déjà écrit quand une entreprise dépasse Instagram, et pourquoi un fil n'est pas un chez-soi. Ici, plus étroit : si vous tenez un magasin, une clinique, un atelier, un service local ou une société de 20-80 personnes — qu'est-ce qu'un site apporte vraiment ? Pas une « présence digitale ». Des heures, de la confiance, et plus de gens qui commandent — parce qu'ils vous ont trouvés, ont fini la demande, et sont revenus.",
+            de: 'Ich habe schon geschrieben, wann ein Business Instagram überwächst und warum ein Feed kein Zuhause ist. Hier enger: wenn Sie einen Laden, eine Praxis, eine Werkstatt, einen lokalen Service oder eine Firma mit 20-80 Leuten führen – was bringt eine Website wirklich? Nicht „digitale Präsenz“. Stunden, Vertrauen und mehr Menschen, die bestellen – weil sie Sie gefunden, die Anfrage zu Ende gebracht und wiedergekommen sind.',
+            fr: "J'ai déjà écrit quand une entreprise dépasse Instagram, et pourquoi un fil n'est pas un chez-soi. Ici, plus étroit : si vous tenez un magasin, une clinique, un atelier, un service local ou une société de 20-80 personnes – qu'est-ce qu'un site apporte vraiment ? Pas une « présence digitale ». Des heures, de la confiance, et plus de gens qui commandent – parce qu'ils vous ont trouvés, ont fini la demande, et sont revenus.",
             es: 'Ya he escrito cuándo un negocio se le queda pequeño Instagram y por qué un feed no es un hogar. Aquí el foco es más estrecho: si lleva una tienda, una clínica, un taller, un servicio local o una empresa de 20-80 personas - ¿qué le aporta de verdad una web? No «presencia digital». Horas, confianza y más gente que pide - porque le encontró, terminó la solicitud y volvió.',
             it: "Ho già scritto quando un’impresa supera Instagram e perché un feed non è una casa. Qui si va più stretti: se gestite un negozio, una clinica, un’officina, un servizio locale o una società di 20-80 persone - cosa vi dà davvero un sito? Non la «presenza digitale». Ore, fiducia e più persone che ordinano - perché vi hanno trovati, hanno chiuso la richiesta e sono tornati.",
             tr: "Bir işin Instagram’ı ne zaman aştığını ve bir akışın neden ev olmadığını zaten yazdım. Burada daha dar bakıyoruz: dükkân, klinik, atölye, yerel hizmet veya 20-80 kişilik bir şirket yönetiyorsanız - site size aslında ne kazandırır? «Dijital varlık» değil. Saat, güven ve sipariş veren daha geniş bir kitle - çünkü sizi buldular, talebi bitirdiler ve geri geldiler.",
@@ -2081,22 +2081,22 @@ export const businessPosts: RawBlogPost[] = [
     date: '2026-08-12',
     title: {
       en: 'How a Developer Can Become a Project Manager - and Which Qualities Actually Matter',
-      ua: 'Як розробнику стати project manager — і які якості справді цінні',
-      de: "Wie ein Entwickler Project Manager wird — und welche Qualitäten wirklich zählen",
-      fr: "Comment un développeur devient project manager — et quelles qualités comptent vraiment",
-      es: "Cómo un desarrollador puede convertirse en project manager — y qué cualidades importan de verdad",
-      it: "Come uno sviluppatore diventa project manager — e quali qualità contano davvero",
-      tr: "Bir geliştirici nasıl project manager olur — ve hangi nitelikler gerçekten önemlidir",
+      ua: 'Як розробнику стати project manager – і які якості справді цінні',
+      de: "Wie ein Entwickler Project Manager wird – und welche Qualitäten wirklich zählen",
+      fr: "Comment un développeur devient project manager – et quelles qualités comptent vraiment",
+      es: "Cómo un desarrollador puede convertirse en project manager – y qué cualidades importan de verdad",
+      it: "Come uno sviluppatore diventa project manager – e quali qualità contano davvero",
+      tr: "Bir geliştirici nasıl project manager olur – ve hangi nitelikler gerçekten önemlidir",
     },
 
     excerpt: {
       en: 'How communication and project-management skills raise the quality of full-stack delivery - plus a practical path from engineer to PM and the qualities that actually matter.',
-      ua: 'Як комунікація та навички project manager підвищують якість fullstack-послуг — плюс практичний шлях від інженерки до PM і якості, які справді цінні.',
-      de: "Wie Kommunikation und Projektleitung die Qualität der Full-Stack-Umsetzung heben — plus ein praktischer Weg von der Engineer-Rolle zum PM und die Qualitäten, die wirklich zählen.",
-      fr: "Comment la communication et le project management relèvent la qualité de la livraison full-stack — plus un parcours concret d’ingénieure à PM et les qualités qui comptent vraiment.",
-      es: "Cómo la comunicación y las habilidades de project manager suben la calidad de la entrega full-stack — más un camino práctico de ingeniera a PM y las cualidades que de verdad importan.",
-      it: "Come comunicazione e project management alzano la qualità della consegna full-stack — più un percorso concreto da ingegnera a PM e le qualità che contano davvero.",
-      tr: "İletişim ve project management becerileri full-stack teslim kalitesini nasıl yükseltir — artı mühendisten PM’e pratik bir yol ve gerçekten önemli nitelikler.",
+      ua: 'Як комунікація та навички project manager підвищують якість fullstack-послуг – плюс практичний шлях від інженерки до PM і якості, які справді цінні.',
+      de: "Wie Kommunikation und Projektleitung die Qualität der Full-Stack-Umsetzung heben – plus ein praktischer Weg von der Engineer-Rolle zum PM und die Qualitäten, die wirklich zählen.",
+      fr: "Comment la communication et le project management relèvent la qualité de la livraison full-stack – plus un parcours concret d’ingénieure à PM et les qualités qui comptent vraiment.",
+      es: "Cómo la comunicación y las habilidades de project manager suben la calidad de la entrega full-stack – más un camino práctico de ingeniera a PM y las cualidades que de verdad importan.",
+      it: "Come comunicazione e project management alzano la qualità della consegna full-stack – più un percorso concreto da ingegnera a PM e le qualità che contano davvero.",
+      tr: "İletişim ve project management becerileri full-stack teslim kalitesini nasıl yükseltir – artı mühendisten PM’e pratik bir yol ve gerçekten önemli nitelikler.",
     },
     readTime: {
       en: '8 min read',
@@ -2156,18 +2156,18 @@ export const businessPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: 'Many strong developers eventually hit a fork: go deeper into architecture and staff engineering, or move closer to people, delivery, and business outcomes as a project manager (or engineering manager / delivery lead). The second path is not “easier management” - it is a different craft. Your coding background is an advantage only if you use it to reduce ambiguity, not to micromanage tickets.',
-            ua: 'Багато сильних розробників рано чи пізно опиняються на розвилці: йти глибше в архітектуру й staff engineering — або ближче до людей, здачі роботи та бізнес-результатів як project manager (чи engineering manager / delivery lead). Другий шлях — це не «легший менеджмент», а інша професія. Досвід у коді — перевага лише тоді, коли ви знімаєте невизначеність, а не мікроменеджите тікети.',
-      de: "Viele starke Entwickler stehen irgendwann an einer Gabelung: tiefer in Architektur und Staff Engineering — oder näher an Menschen, Umsetzung und Geschäftsergebnisse als Project Manager (oder Engineering Manager / Delivery Lead). Der zweite Weg ist kein „leichteres Management“. Es ist ein anderes Handwerk. Ihr Coding-Hintergrund hilft nur, wenn Sie Unklarheit reduzieren — nicht, wenn Sie Tickets mikromanagen.",
-      fr: "Beaucoup de développeurs solides arrivent à un carrefour : aller plus loin en architecture et staff engineering, ou se rapprocher des gens, de la livraison et des résultats business comme project manager (ou engineering manager / delivery lead). La deuxième voie n’est pas une « gestion plus facile ». C’est un autre métier. Votre parcours en code n’aide que si vous réduisez l’ambiguïté — pas si vous microgérez les tickets.",
+            ua: 'Багато сильних розробників рано чи пізно опиняються на розвилці: йти глибше в архітектуру й staff engineering – або ближче до людей, здачі роботи та бізнес-результатів як project manager (чи engineering manager / delivery lead). Другий шлях – це не «легший менеджмент», а інша професія. Досвід у коді – перевага лише тоді, коли ви знімаєте невизначеність, а не мікроменеджите тікети.',
+      de: "Viele starke Entwickler stehen irgendwann an einer Gabelung: tiefer in Architektur und Staff Engineering – oder näher an Menschen, Umsetzung und Geschäftsergebnisse als Project Manager (oder Engineering Manager / Delivery Lead). Der zweite Weg ist kein „leichteres Management“. Es ist ein anderes Handwerk. Ihr Coding-Hintergrund hilft nur, wenn Sie Unklarheit reduzieren – nicht, wenn Sie Tickets mikromanagen.",
+      fr: "Beaucoup de développeurs solides arrivent à un carrefour : aller plus loin en architecture et staff engineering, ou se rapprocher des gens, de la livraison et des résultats business comme project manager (ou engineering manager / delivery lead). La deuxième voie n’est pas une « gestion plus facile ». C’est un autre métier. Votre parcours en code n’aide que si vous réduisez l’ambiguïté – pas si vous microgérez les tickets.",
       es: "Muchos desarrolladores fuertes llegan antes o después a una encrucijada: profundizar en arquitectura y staff engineering, o acercarse a las personas, la entrega y los resultados de negocio como project manager (o engineering manager / delivery lead). El segundo camino no es «gestión más fácil»: es otro oficio. Su experiencia en código solo es una ventaja si la usa para reducir la ambigüedad, no para microgestionar tickets.",
       it: "Molti sviluppatori forti arrivano a un bivio: scendere più a fondo in architettura e staff engineering, o avvicinarsi a persone, consegna e risultati di business come project manager (o engineering manager / delivery lead). La seconda via non è «management più facile»: è un altro mestiere. Il percorso in codice è un vantaggio solo se lo usate per togliere ambiguità, non per microgestire i ticket.",
-      tr: "Güçlü geliştiricilerin çoğu bir kavşağa gelir: mimari ve staff engineering’de derinleşmek, ya da project manager (veya engineering manager / delivery lead) olarak insanlara, teslimata ve iş sonuçlarına yaklaşmak. İkinci yol «daha kolay yönetim» değildir — başka bir zanaattır. Kod geçmişiniz yalnızca belirsizliği azaltmak için kullanılırsa avantajdır, talepleri mikro yönetmek için değil.",
+      tr: "Güçlü geliştiricilerin çoğu bir kavşağa gelir: mimari ve staff engineering’de derinleşmek, ya da project manager (veya engineering manager / delivery lead) olarak insanlara, teslimata ve iş sonuçlarına yaklaşmak. İkinci yol «daha kolay yönetim» değildir – başka bir zanaattır. Kod geçmişiniz yalnızca belirsizliği azaltmak için kullanılırsa avantajdır, talepleri mikro yönetmek için değil.",
           },
           {
             en: 'Even if you stay a full-stack developer, communication and PM skills are not “extra soft skills” - they directly shape the quality of the product you ship: fewer rewrites, clearer scope, predictable releases, and services that match the client’s real goal instead of a vague ticket list.',
-            ua: 'Навіть якщо ви лишаєтеся fullstack-розробником, комунікація та навички PM — це не «додаткові м’які навички». Вони напряму впливають на якість послуг: менше переробок, чіткіший обсяг, передбачувані релізи і сервіс, який закриває реальну ціль клієнта, а не розмитий список тікетів.',
-      de: "Selbst wenn Sie Full-Stack-Entwickler bleiben, sind Kommunikation und PM-Können keine „extra Soft Skills“. Sie prägen die Qualität des Produkts direkt: weniger Nacharbeiten, klarerer Umfang, planbare Releases und ein Service, der zum echten Ziel des Kunden passt — nicht zu einer vagen Ticketliste.",
-      fr: "Même si vous restez développeur full-stack, communication et compétences de PM ne sont pas des « soft skills en plus ». Elles façonnent la qualité du produit : moins de reprises, un périmètre plus clair, des mises en ligne prévisibles et un service qui colle à l’objectif réel du client — pas à une liste vague de tickets.",
+            ua: 'Навіть якщо ви лишаєтеся fullstack-розробником, комунікація та навички PM – це не «додаткові м’які навички». Вони напряму впливають на якість послуг: менше переробок, чіткіший обсяг, передбачувані релізи і сервіс, який закриває реальну ціль клієнта, а не розмитий список тікетів.',
+      de: "Selbst wenn Sie Full-Stack-Entwickler bleiben, sind Kommunikation und PM-Können keine „extra Soft Skills“. Sie prägen die Qualität des Produkts direkt: weniger Nacharbeiten, klarerer Umfang, planbare Releases und ein Service, der zum echten Ziel des Kunden passt – nicht zu einer vagen Ticketliste.",
+      fr: "Même si vous restez développeur full-stack, communication et compétences de PM ne sont pas des « soft skills en plus ». Elles façonnent la qualité du produit : moins de reprises, un périmètre plus clair, des mises en ligne prévisibles et un service qui colle à l’objectif réel du client – pas à une liste vague de tickets.",
       es: "Aunque siga siendo desarrollador full-stack, la comunicación y las habilidades de PM no son «habilidades blandas de extra». Dan forma directa a la calidad del producto que entrega: menos reescrituras, un alcance más claro, publicaciones previsibles y un servicio que encaja con el objetivo real del cliente, no con una lista vaga de tickets.",
       it: "Anche se restate sviluppatori full-stack, comunicazione e competenze da PM non sono «soft skills in più». Danno forma diretta alla qualità di ciò che consegnate: meno riscritture, ambito più chiaro, rilasci prevedibili e un servizio che chiude l’obiettivo reale del cliente, non una lista vaga di ticket.",
       tr: "Full-stack geliştirici olarak kalsanız bile iletişim ve PM becerileri «ekstra yumuşak beceriler» değildir. Teslim ettiğiniz ürünün kalitesini doğrudan şekillendirir: daha az yeniden yazım, daha net kapsam, öngörülebilir yayınlar ve belirsiz bir talep listesi yerine müşterinin gerçek hedefine uyan hizmet.",
@@ -2176,7 +2176,7 @@ export const businessPosts: RawBlogPost[] = [
             en: 'This article is a practical map: how those skills raise full-stack service quality, why teams hire developers into PM roles, which qualities convert technical credibility into trust, and a step-by-step transition you can start without quitting overnight.',
             ua: 'Ця стаття - практична карта: як ці навички піднімають якість fullstack-послуг, чому команди беруть розробників у PM-ролі, які якості перетворюють технічну експертизу на довіру, і покроковий перехід без різкого звільнення.',
       de: "Dieser Text ist eine praktische Karte: wie diese Skills die Qualität des Full-Stack-Service heben, warum Teams Entwickler in PM-Rollen holen, welche Qualitäten technische Glaubwürdigkeit in Vertrauen drehen - und ein Übergang Schritt für Schritt, ohne über Nacht zu kündigen.",
-      fr: "Cet article est une carte pratique : comment ces compétences relèvent la qualité du service full-stack, pourquoi les équipes prennent des développeurs en rôles PM, quelles qualités transforment la crédibilité technique en confiance — et une transition pas à pas, sans démissionner du jour au lendemain.",
+      fr: "Cet article est une carte pratique : comment ces compétences relèvent la qualité du service full-stack, pourquoi les équipes prennent des développeurs en rôles PM, quelles qualités transforment la crédibilité technique en confiance – et une transition pas à pas, sans démissionner du jour au lendemain.",
       es: "Este artículo es un mapa práctico: cómo esas habilidades suben la calidad del servicio full-stack, por qué los equipos contratan desarrolladores para roles de PM, qué cualidades convierten la credibilidad técnica en confianza, y una transición paso a paso que puede empezar sin dejar el puesto de un día para otro.",
       it: "Questo articolo è una mappa pratica: come quelle skill alzano la qualità del servizio full-stack, perché i team assumono developer in ruoli PM, quali qualità trasformano la credibilità tecnica in fiducia, e un passaggio passo-passo che potete iniziare senza lasciare il posto da un giorno all’altro.",
       tr: "Bu yazı pratik bir harita: o beceriler full-stack hizmet kalitesini nasıl yükseltir, ekipler neden developer’ları PM rollerine alır, hangi nitelikler teknik güvenilirliği güvene çevirir ve bir gecede istifa etmeden başlayabileceğiniz adım adım bir geçiş.",
@@ -2198,7 +2198,7 @@ export const businessPosts: RawBlogPost[] = [
             en: 'Stakeholders often struggle to translate business goals into realistic scope. A developer-turned-PM already knows estimation traps, dependency chains, technical debt, and what “done” actually means in production. That cuts weeks of back-and-forth and prevents commitments that the team cannot keep.',
             ua: 'Стейкхолдерам часто важко перекласти бізнес-цілі в реалістичний обсяг. Розробник, який став PM, уже знає пастки оцінки, ланцюги залежностей, технічний борг і що насправді означає «готово» в продакшені. Це скорочує тижні листування і не дає обіцяти те, що команда фізично не вивезе.',
       de: "Stakeholder tun sich oft schwer, Geschäftsziele in einen realistischen Scope zu übersetzen. Ein Entwickler, der PM geworden ist, kennt Schätzfallen, Abhängigkeitsketten, Technical Debt - und was „done“ in Production wirklich heißt. Das spart Wochen Hin und Her. Und verhindert Zusagen, die das Team nicht halten kann.",
-      fr: "Les parties prenantes peinent souvent à traduire un objectif métier en périmètre réaliste. Un développeur devenu PM connaît déjà les pièges d’estimation, les chaînes de dépendances, la dette technique — et ce que « terminé » veut dire en production. Ça coupe des semaines d’allers-retours. Et évite des engagements que l’équipe ne peut pas tenir.",
+      fr: "Les parties prenantes peinent souvent à traduire un objectif métier en périmètre réaliste. Un développeur devenu PM connaît déjà les pièges d’estimation, les chaînes de dépendances, la dette technique – et ce que « terminé » veut dire en production. Ça coupe des semaines d’allers-retours. Et évite des engagements que l’équipe ne peut pas tenir.",
       es: "A los stakeholders les cuesta a menudo traducir objetivos de negocio en un alcance realista. Un desarrollador convertido en PM ya conoce las trampas de estimación, las cadenas de dependencias, la deuda técnica y qué significa de verdad «hecho» en producción. Eso recorta semanas de idas y venidas y evita compromisos que el equipo no puede cumplir.",
       it: "Agli stakeholder spesso costa tradurre obiettivi di business in un ambito realistico. Un developer diventato PM conosce già le trappole di stima, le catene di dipendenze, il debito tecnico e cosa significa davvero «fatto» in produzione. Questo taglia settimane di andirivieni ed evita impegni che il team non può mantenere.",
       tr: "Stakeholder’lar iş hedeflerini gerçekçi bir kapsama çevirmekte çoğu zaman zorlanır. PM olmuş bir developer tahmin tuzaklarını, bağımlılık zincirlerini, teknik borcu ve production’da «bitti»nin gerçekte ne demek olduğunu zaten bilir. Bu, haftalarca gidiş-gelişi keser ve ekibin tutamayacağı taahhütleri önler.",
@@ -2408,7 +2408,7 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'Calm incident and change handling → trust after launch. Clear triage, status, and next steps during bugs or scope changes are part of service quality - not separate from the code.',
-            ua: 'Спокійна робота з інцидентами і змінами → довіра після запуску. Чіткий triage, статус і next steps під час багів чи змін обсягу — частина якості послуг, а не «щось окреме від коду».',
+            ua: 'Спокійна робота з інцидентами і змінами → довіра після запуску. Чіткий triage, статус і next steps під час багів чи змін обсягу – частина якості послуг, а не «щось окреме від коду».',
       de: "Ruhiger Umgang mit Incidents und Changes → Vertrauen nach dem Launch. Klare Triage, Status und Next Steps bei Bugs oder Scope-Änderungen sind Teil der Servicequalität - nicht getrennt vom Code.",
       fr: "Incidents et changements gérés à froid → confiance après le launch. Un triage clair, un status et des next steps pendant les bugs ou les changements de scope font partie de la qualité de service - pas à part du code.",
       es: "Incidentes y cambios en calma → confianza después del launch. Un triage claro, el estado y los siguientes pasos durante bugs o cambios de alcance son parte de la calidad del servicio, no algo aparte del código.",
@@ -2501,8 +2501,8 @@ export const businessPosts: RawBlogPost[] = [
         list: [
           {
             en: 'Scope writing - problem statement, success metrics, out-of-scope, risks, and acceptance criteria.',
-            ua: 'Опис обсягу — проблема, метрики успіху, що поза обсягом, ризики та критерії приймання.',
-      de: "Leistungsbeschreibung — Problem, Erfolgskennzahlen, außerhalb des Umfangs, Risiken und Abnahmekriterien.",
+            ua: 'Опис обсягу – проблема, метрики успіху, що поза обсягом, ризики та критерії приймання.',
+      de: "Leistungsbeschreibung – Problem, Erfolgskennzahlen, außerhalb des Umfangs, Risiken und Abnahmekriterien.",
       fr: "Rédaction de scope - énoncé du problème, métriques de succès, hors-scope, risques et acceptance criteria.",
       es: "Redacción de alcance: planteamiento del problema, métricas de éxito, fuera de alcance, riesgos y criterios de aceptación.",
       it: "Scrittura dello scope - problema, metriche di successo, out-of-scope, rischi e acceptance criteria.",
@@ -2677,7 +2677,7 @@ export const businessPosts: RawBlogPost[] = [
           },
           {
             en: 'Start small: own one delivery stream, write better status, and practice saying “not now” with options. If you need both senior engineering judgment and clear delivery ownership on your next product, that hybrid mindset often beats a process-only PM or a silent coder. Happy to discuss scope, risks, and a realistic roadmap for your next release.',
-            ua: 'Почніть з малого: візьміть один потік здачі, пишіть кращі статуси і тренуйте «не зараз» з варіантами. Якщо на наступному продукті потрібні і senior-інженерне судження, і чітке володіння здачею — такий гібрид часто сильніший за «чистого» PM лише з процесами чи мовчазного кодера. Можу допомогти проговорити обсяг, ризики та реалістичний роадмап наступного релізу.',
+            ua: 'Почніть з малого: візьміть один потік здачі, пишіть кращі статуси і тренуйте «не зараз» з варіантами. Якщо на наступному продукті потрібні і senior-інженерне судження, і чітке володіння здачею – такий гібрид часто сильніший за «чистого» PM лише з процесами чи мовчазного кодера. Можу допомогти проговорити обсяг, ризики та реалістичний роадмап наступного релізу.',
       de: "Fangen Sie klein an: einen Delivery-Strom besitzen, besseren Status schreiben, „nicht jetzt“ mit Optionen üben. Brauchen Sie auf dem nächsten Produkt Senior-Engineering-Urteil und klare Delivery-Ownership, schlägt dieser Hybrid oft einen Prozess-only-PM oder einen stillen Coder. Schreiben Sie mir - Scope, Risiken und eine realistische Roadmap für den nächsten Release.",
       fr: "Commencez petit : prenez un flux de delivery, écrivez un meilleur status, entraînez le « pas maintenant » avec des options. Si le prochain produit demande jugement d’engineer senior et ownership claire de la delivery, ce mindset hybride bat souvent un PM uniquement process ou un coder silencieux. Écrivez-moi - scope, risques et une roadmap réaliste pour le prochain release.",
       es: "Empiece por poco: sea dueño de un flujo de entrega, escriba mejor el estado y practique decir «ahora no» con opciones. Si en su próximo producto necesita criterio de ingeniería senior y una propiedad clara de la entrega, esa mentalidad híbrida suele ganar a un PM solo de proceso o a un coder silencioso. Encantada de hablar del alcance, los riesgos y un roadmap realista para su próximo release.",
@@ -2703,11 +2703,11 @@ export const businessPosts: RawBlogPost[] = [
     excerpt: {
       en: 'Discover how to scale your sales capacity by 5x using modern frontend optimization, CRM APIs, automated shipping labels, and smart notification funnels-all without hiring more operators.',
       ua: 'Як масштабувати продажі в 5 разів: сучасний frontend, CRM API, автоматичні ТТН і розумні сповіщення - без нових операторів.',
-      de: "Wie Sie die Verkaufskapazität um 5× steigern: modernes Frontend, CRM-APIs, automatische Versandetiketten und Benachrichtigungsstrecken — ohne weitere Operatoren.",
-      fr: "Comment multiplier par 5 la capacité de vente : frontend moderne, API CRM, étiquettes d’expédition automatiques et parcours de notification — sans embaucher d’opérateurs.",
-      es: "Cómo multiplicar por 5 la capacidad de ventas: frontend moderno, APIs de CRM, etiquetas de envío automáticas y recorridos de notificación — sin más operadores.",
-      it: "Come moltiplicare per 5 la capacità di vendita: frontend moderno, API di CRM, etichette di spedizione automatiche e percorsi di notifica — senza altri operatori.",
-      tr: "Satış kapasitesini 5’e katlamak: modern frontend, CRM API’leri, otomatik kargo etiketleri ve bildirim akışları — ekstra operatör yok."
+      de: "Wie Sie die Verkaufskapazität um 5× steigern: modernes Frontend, CRM-APIs, automatische Versandetiketten und Benachrichtigungsstrecken – ohne weitere Operatoren.",
+      fr: "Comment multiplier par 5 la capacité de vente : frontend moderne, API CRM, étiquettes d’expédition automatiques et parcours de notification – sans embaucher d’opérateurs.",
+      es: "Cómo multiplicar por 5 la capacidad de ventas: frontend moderno, APIs de CRM, etiquetas de envío automáticas y recorridos de notificación – sin más operadores.",
+      it: "Come moltiplicare per 5 la capacità di vendita: frontend moderno, API di CRM, etichette di spedizione automatiche e percorsi di notifica – senza altri operatori.",
+      tr: "Satış kapasitesini 5’e katlamak: modern frontend, CRM API’leri, otomatik kargo etiketleri ve bildirim akışları – ekstra operatör yok."
     },
     readTime: {
       en: '6 min read',
@@ -2987,12 +2987,12 @@ export const businessPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: 'Explore why international clients in 2026 are shifting away from digital agencies on Upwork in favor of solo developers, and how direct communication and AI-enhanced productivity are redefining successful software delivery.',
-      ua: 'Чому в 2026 іноземні клієнти на Upwork йдуть від агенцій до соло-розробників — і як прямий контакт плюс ШІ змінюють здачу роботи.',
-      de: "Warum internationale Kunden 2026 auf Upwork von Agenturen zu Solo-Entwicklern wechseln — und wie direkte Kommunikation plus KI-Produktivität die Umsetzung neu definieren.",
-      fr: "Pourquoi en 2026 les clients internationaux quittent les agences sur Upwork pour des développeurs solo — et comment la communication directe plus la productivité IA redéfinissent la livraison.",
+      ua: 'Чому в 2026 іноземні клієнти на Upwork йдуть від агенцій до соло-розробників – і як прямий контакт плюс ШІ змінюють здачу роботи.',
+      de: "Warum internationale Kunden 2026 auf Upwork von Agenturen zu Solo-Entwicklern wechseln – und wie direkte Kommunikation plus KI-Produktivität die Umsetzung neu definieren.",
+      fr: "Pourquoi en 2026 les clients internationaux quittent les agences sur Upwork pour des développeurs solo – et comment la communication directe plus la productivité IA redéfinissent la livraison.",
       es: "Por qué en 2026 los clientes internacionales dejan las agencias en Upwork y eligen desarrolladores en solitario - y cómo la comunicación directa y la productividad con IA redefinen una entrega de software que funciona.",
-      it: "Perché nel 2026 i clienti internazionali lasciano le agenzie su Upwork e scelgono sviluppatori in solo — e come la comunicazione diretta e la produttività con AI ridefiniscono una consegna di software che funziona.",
-      tr: "2026’da uluslararası müşteriler neden Upwork’te ajansları bırakıp solo geliştirici seçiyor — ve doğrudan iletişim ile AI verimliliği çalışan bir yazılım teslimini nasıl yeniden tanımlıyor.",
+      it: "Perché nel 2026 i clienti internazionali lasciano le agenzie su Upwork e scelgono sviluppatori in solo – e come la comunicazione diretta e la produttività con AI ridefiniscono una consegna di software che funziona.",
+      tr: "2026’da uluslararası müşteriler neden Upwork’te ajansları bırakıp solo geliştirici seçiyor – ve doğrudan iletişim ile AI verimliliği çalışan bir yazılım teslimini nasıl yeniden tanımlıyor.",
     },
     readTime: {
       en: '6 min read',
@@ -3642,7 +3642,7 @@ export const businessPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: 'Every project is unique, and I am always ready to discuss the model that works best for your business goals. For projects with a detailed, well-defined scope (such as a landing page or a specific feature addition), we can set up a milestone-based Fixed-Price contract. For dynamic, ongoing tasks, consulting, or iterative dashboard development, an Hourly Rate contract provides the flexibility needed to scale requirements as the project evolves.',
-      ua: 'Кожен проєкт інший. Завжди готова обговорити модель під ваші цілі. Чіткий обсяг (посадкова сторінка чи конкретна фіча) — Fixed-Price з етапами. Динаміка, консалтинг, ітеративний dashboard — Hourly Rate, щоб нарощувати вимоги по ходу.',
+      ua: 'Кожен проєкт інший. Завжди готова обговорити модель під ваші цілі. Чіткий обсяг (посадкова сторінка чи конкретна фіча) – Fixed-Price з етапами. Динаміка, консалтинг, ітеративний dashboard – Hourly Rate, щоб нарощувати вимоги по ходу.',
       de: "Jedes Projekt ist anders. Ich bin immer bereit, das Modell zu besprechen, das zu Ihren Zielen passt. Klarer Umfang (Landingpage oder ein Feature): milestone-basiertes Fixed-Price. Dynamische Arbeit, Consulting, iteratives Dashboard: Hourly Rate, damit die Anforderungen mitwachsen können.",
       fr: "Chaque projet est unique. Je suis toujours prête à parler du modèle qui colle à vos objectifs. Périmètre net (une page d’atterrissage ou une fonctionnalité) : Fixed-Price par jalons. Travail dynamique, conseil, dashboard itératif : Hourly Rate, pour faire évoluer les besoins au fil du projet.",
       es: "Cada proyecto es distinto, y siempre estoy dispuesta a hablar del modelo que encaje con sus objetivos. Si el alcance está claro (una landing o una función concreta), montamos un Fixed-Price por hitos. Si el trabajo es dinámico - consultoría, un dashboard iterativo -, un Hourly Rate da la flexibilidad para ampliar requisitos según evolucione el proyecto.",
@@ -5614,7 +5614,7 @@ export const businessPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: 'Social media algorithms cut reach and direct messages cause scheduling chaos. Discover why a website helps a cosmetologist automate bookings, build medical trust, and attract high-ticket clients.',
-      ua: 'Алгоритми ріжуть охоплення, Direct — хаос у записі. Чому сайт косметологу автоматизує бронювання, будує медичну довіру й приводить дорогих клієнтів.',
+      ua: 'Алгоритми ріжуть охоплення, Direct – хаос у записі. Чому сайт косметологу автоматизує бронювання, будує медичну довіру й приводить дорогих клієнтів.',
       de: "Algorithmen kürzen die Reichweite, DMs machen Chaos in der Terminplanung. Warum eine Website Buchungen automatisiert, medizinisches Vertrauen aufbaut und zahlungskräftige Kundinnen holt.",
       fr: "Les algos coupent la portée, les DM mettent le chaos dans l’agenda. Pourquoi un site aide une cosmétologue à automatiser les réservations, construire une confiance médicale et attirer des clientes à fort panier.",
       es: "Los algoritmos recortan el alcance y los DMs desordenan la agenda. Por qué una web ayuda a una cosmetóloga a automatizar reservas, construir confianza médica y atraer clientes de ticket alto.",
@@ -5948,7 +5948,7 @@ export const businessPosts: RawBlogPost[] = [
       en: 'Social media brings attention, but a website builds trust and scales your business. Learn when your business critically needs a website and why.',
       ua: 'Соцмережі дають увагу. Сайт будує довіру й масштабує бізнес. Коли сайт уже критичний - і чому.',
       de: "Social Media bringt Aufmerksamkeit. Eine Website baut Vertrauen und skaliert das Geschäft. Wann Ihr Unternehmen eine Site wirklich braucht - und warum.",
-      fr: "Les réseaux amènent l’attention. Un site construit la confiance et fait grandir l’activité. Quand c’est critique d’en avoir un — et pourquoi.",
+      fr: "Les réseaux amènent l’attention. Un site construit la confiance et fait grandir l’activité. Quand c’est critique d’en avoir un – et pourquoi.",
       es: "Las redes traen atención. Una web construye confianza y hace crecer el negocio. Cuándo es crítico tenerla - y por qué.",
       it: "I social portano attenzione, ma un sito costruisce fiducia e scala il business. Quando un’impresa ha bisogno critico di un sito, e perché.",
       tr: "Sosyal medya dikkat getirir; site güven kurar ve işi ölçekler. İşinizin siteye ne zaman kritik ihtiyaç duyduğunu ve nedenini öğrenin.",
@@ -7202,12 +7202,12 @@ export const businessPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: 'A card number in chat is not a checkout. How a site you own takes money: payment link or landing, Apple Pay on a phone, fiscal PDF on thank-you - and why /success must not mark the order paid.',
-      ua: 'Номер картки в чаті — це не каса. Як сайт, який вам належить, бере гроші: платіжне посилання або посадкова сторінка, Apple Pay на телефоні, фіскальний PDF на подяці — і чому /success не має ставити «оплачено».',
-      de: 'Eine Kartennummer im Chat ist kein Checkout. Wie eine Site, die Ihnen gehört, kassiert: Zahlungslink oder Landingpage, Apple Pay am Handy, Kassen-PDF auf der Danke-Seite — und warum /success die Bestellung nicht auf bezahlt setzen darf.',
-      fr: 'Un numéro de carte dans un chat n’est pas une caisse. Comment un site à vous encaisse : lien de paiement ou page d’atterrissage, Apple Pay sur téléphone, PDF fiscal sur la page merci — et pourquoi /success ne doit pas marquer payé.',
-      es: 'Un número de tarjeta en el chat no es un cobro. Cómo cobra una web suya: enlace de pago o landing, Apple Pay en el móvil, PDF fiscal en la página de gracias — y por qué /success no debe marcar pagado.',
-      it: 'Un numero di carta in chat non è una cassa. Come incassa un sito vostro: link di pagamento o landing, Apple Pay sul telefono, PDF fiscale sulla pagina grazie — e perché /success non deve segnare pagato.',
-      tr: 'Sohbetteki kart numarası kasa değildir. Size ait site nasıl para alır: ödeme bağlantısı veya landing, telefonda Apple Pay, teşekkür sayfasında mali PDF — ve /success neden siparişi ödendi yapmamalı.',
+      ua: 'Номер картки в чаті – це не каса. Як сайт, який вам належить, бере гроші: платіжне посилання або посадкова сторінка, Apple Pay на телефоні, фіскальний PDF на подяці – і чому /success не має ставити «оплачено».',
+      de: 'Eine Kartennummer im Chat ist kein Checkout. Wie eine Site, die Ihnen gehört, kassiert: Zahlungslink oder Landingpage, Apple Pay am Handy, Kassen-PDF auf der Danke-Seite – und warum /success die Bestellung nicht auf bezahlt setzen darf.',
+      fr: 'Un numéro de carte dans un chat n’est pas une caisse. Comment un site à vous encaisse : lien de paiement ou page d’atterrissage, Apple Pay sur téléphone, PDF fiscal sur la page merci – et pourquoi /success ne doit pas marquer payé.',
+      es: 'Un número de tarjeta en el chat no es un cobro. Cómo cobra una web suya: enlace de pago o landing, Apple Pay en el móvil, PDF fiscal en la página de gracias – y por qué /success no debe marcar pagado.',
+      it: 'Un numero di carta in chat non è una cassa. Come incassa un sito vostro: link di pagamento o landing, Apple Pay sul telefono, PDF fiscale sulla pagina grazie – e perché /success non deve segnare pagato.',
+      tr: 'Sohbetteki kart numarası kasa değildir. Size ait site nasıl para alır: ödeme bağlantısı veya landing, telefonda Apple Pay, teşekkür sayfasında mali PDF – ve /success neden siparişi ödendi yapmamalı.',
     },
     readTime: {
       en: '8 min read',
@@ -7233,11 +7233,11 @@ export const businessPosts: RawBlogPost[] = [
           {
             en: 'The search that already brings people here is “Telegram bot payment”. The next one is quieter and larger: they want to take money on a page they own. A card number in Direct, a screenshot of a bank transfer, a “I paid, check please” thread - that is not acquiring. It is unpaid ops. A site checkout is the same job as a payment bot, in a URL Google can rank and a stranger can open without installing a messenger.',
             ua: 'Запит, який уже веде сюди людей, - «телеграм бот оплата». Наступний тихіший і більший: хочуть брати гроші на сторінці, яка їм належить. Номер картки в Direct, скрін переказу, тред «я сплатив, перевірте» - це не еквайринг. Це неоплачена операційка. Чекаут на сайті - та сама робота, що в платіжного бота, тільки в URL, який індексує Google і який незнайомець відкриє без месенджера.',
-            de: 'Die Suche, die schon Leute herbringt, ist „Telegram-Bot-Zahlung“. Die nächste ist leiser und größer: sie wollen Geld auf einer Seite kassieren, die ihnen gehört. Kartennummer im Direct, Screenshot einer Überweisung, Thread „ich habe gezahlt, bitte prüfen“ — das ist kein Acquiring. Das ist unbezahlter Betrieb. Ein Site-Checkout ist dieselbe Aufgabe wie ein Zahlungs-Bot, in einer URL, die Google indexiert und die ein Fremder ohne Messenger öffnet.',
-            fr: 'La requête qui amène déjà du monde ici, c’est « paiement bot Telegram ». La suivante est plus calme et plus large : encaisser sur une page à eux. Un numéro de carte en Direct, une capture de virement, un fil « j’ai payé, vérifiez » — ce n’est pas de l’encaissement. C’est de l’exploitation non payée. Un checkout sur le site, c’est le même travail qu’un bot de paiement, dans une URL que Google classe et qu’un inconnu ouvre sans messagerie.',
-            es: 'La búsqueda que ya trae gente aquí es «pago bot Telegram». La siguiente es más callada y más grande: cobrar en una página suya. Un número de tarjeta en Direct, un pantallazo de transferencia, un hilo «ya pagué, revisen» — eso no es cobro con pasarela. Es operativa sin pagar. Un checkout en la web es el mismo trabajo que un bot de pago, en una URL que Google posiciona y que un desconocido abre sin mensajería.',
-            it: 'La query che già porta gente qui è «pagamento bot Telegram». La successiva è più quieta e più grande: incassare su una pagina loro. Un numero di carta in Direct, uno screenshot di un bonifico, un thread «ho pagato, controllate» — non è acquiring. È operativa non pagata. Un checkout sul sito è lo stesso lavoro di un bot di pagamento, in un URL che Google posiziona e che uno sconosciuto apre senza messenger.',
-            tr: 'Buraya zaten insan getiren arama «Telegram bot ödeme». Sonraki daha sessiz ve daha büyük: kendilerine ait bir sayfada para almak. Direct’te kart numarası, havale ekran görüntüsü, «ödedim, kontrol edin» yazışması — bu sanal POS değildir. Ödenmemiş operasyondur. Sitedeki checkout, ödeme botuyla aynı iştir; Google’ın sıraladığı ve yabancının messenger kurmadan açtığı bir URL’de.',
+            de: 'Die Suche, die schon Leute herbringt, ist „Telegram-Bot-Zahlung“. Die nächste ist leiser und größer: sie wollen Geld auf einer Seite kassieren, die ihnen gehört. Kartennummer im Direct, Screenshot einer Überweisung, Thread „ich habe gezahlt, bitte prüfen“ – das ist kein Acquiring. Das ist unbezahlter Betrieb. Ein Site-Checkout ist dieselbe Aufgabe wie ein Zahlungs-Bot, in einer URL, die Google indexiert und die ein Fremder ohne Messenger öffnet.',
+            fr: 'La requête qui amène déjà du monde ici, c’est « paiement bot Telegram ». La suivante est plus calme et plus large : encaisser sur une page à eux. Un numéro de carte en Direct, une capture de virement, un fil « j’ai payé, vérifiez » – ce n’est pas de l’encaissement. C’est de l’exploitation non payée. Un checkout sur le site, c’est le même travail qu’un bot de paiement, dans une URL que Google classe et qu’un inconnu ouvre sans messagerie.',
+            es: 'La búsqueda que ya trae gente aquí es «pago bot Telegram». La siguiente es más callada y más grande: cobrar en una página suya. Un número de tarjeta en Direct, un pantallazo de transferencia, un hilo «ya pagué, revisen» – eso no es cobro con pasarela. Es operativa sin pagar. Un checkout en la web es el mismo trabajo que un bot de pago, en una URL que Google posiciona y que un desconocido abre sin mensajería.',
+            it: 'La query che già porta gente qui è «pagamento bot Telegram». La successiva è più quieta e più grande: incassare su una pagina loro. Un numero di carta in Direct, uno screenshot di un bonifico, un thread «ho pagato, controllate» – non è acquiring. È operativa non pagata. Un checkout sul sito è lo stesso lavoro di un bot di pagamento, in un URL che Google posiziona e che uno sconosciuto apre senza messenger.',
+            tr: 'Buraya zaten insan getiren arama «Telegram bot ödeme». Sonraki daha sessiz ve daha büyük: kendilerine ait bir sayfada para almak. Direct’te kart numarası, havale ekran görüntüsü, «ödedim, kontrol edin» yazışması – bu sanal POS değildir. Ödenmemiş operasyondur. Sitedeki checkout, ödeme botuyla aynı iştir; Google’ın sıraladığı ve yabancının messenger kurmadan açtığı bir URL’de.',
           },
           {
             en: 'I already wrote how invoices and webhooks work inside Telegram. This piece is the website twin: hosted checkout, payment link, Apple Pay on a landing page, fiscal receipt after paid. Same backend. Different door.',
@@ -7274,7 +7274,7 @@ export const businessPosts: RawBlogPost[] = [
         list: [
           {
             en: 'Payment link / invoice button: one SKU, one price, a “Pay” that opens Monobank or LiqPay. Right for a tutor, a deposit, a consulting hour. The page is the offer; the link is the till.',
-            ua: 'Платіжне посилання / кнопка інвойсу: один SKU, одна ціна, «Оплатити», що відкриває Monobank або LiqPay. Для репетитора, завдатку, години консультації. Сторінка — пропозиція; посилання — каса.',
+            ua: 'Платіжне посилання / кнопка інвойсу: один SKU, одна ціна, «Оплатити», що відкриває Monobank або LiqPay. Для репетитора, завдатку, години консультації. Сторінка – пропозиція; посилання – каса.',
             de: 'Zahlungslink / Rechnungsbutton: ein SKU, ein Preis, „Bezahlen“ öffnet Monobank oder LiqPay. Für Nachhilfe, Anzahlung, eine Beratungsstunde. Die Seite ist das Angebot; der Link die Kasse.',
             fr: 'Lien de paiement / bouton facture : un SKU, un prix, « Payer » ouvre Monobank ou LiqPay. Pour un prof, un acompte, une heure de conseil. La page est l’offre ; le lien est la caisse.',
             es: 'Enlace de pago / botón de factura: un SKU, un precio, «Pagar» abre Monobank o LiqPay. Para clases, señal, una hora de consultoría. La página es la oferta; el enlace es la caja.',

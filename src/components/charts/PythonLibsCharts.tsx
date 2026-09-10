@@ -174,7 +174,7 @@ function directLabelPlugin(getLabel: (datasetIndex: number, index: number, raw: 
     id: 'directLabels',
     afterDatasetsDraw(chart) {
       const width = chart.width
-      if (width < 260) return // too narrow for any label to help — legend/tooltip carry identity instead
+      if (width < 260) return // too narrow for any label to help – legend/tooltip carry identity instead
 
       const ctx = chart.ctx
       ctx.save()

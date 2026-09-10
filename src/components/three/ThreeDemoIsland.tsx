@@ -7,13 +7,13 @@ import type { SceneFinish, SceneShape } from './ThreeKnotScene'
 
 const copy = {
   kicker: {
-    en: 'Live scene — drag to orbit',
-    ua: 'Жива сцена — тягніть, щоб облетіти',
-    de: 'Live-Szene — ziehen zum Orbit',
-    fr: 'Scène live — glissez pour orbiter',
-    es: 'Escena en vivo — arrastre para orbitar',
-    it: 'Scena live — trascinare per orbitare',
-    tr: 'Canlı sahne — yörünge için sürükleyin',
+    en: 'Live scene – drag to orbit',
+    ua: 'Жива сцена – тягніть, щоб облетіти',
+    de: 'Live-Szene – ziehen zum Orbit',
+    fr: 'Scène live – glissez pour orbiter',
+    es: 'Escena en vivo – arrastre para orbitar',
+    it: 'Scena live – trascinare per orbitare',
+    tr: 'Canlı sahne – yörünge için sürükleyin',
   },
   loading: {
     en: 'Booting the GPU island…',
@@ -25,13 +25,13 @@ const copy = {
     tr: 'GPU adası açılıyor…',
   },
   fail: {
-    en: 'WebGL did not init on this device. The article below still stands — the object is a product scene, not the only way to read it.',
-    ua: 'WebGL на цьому пристрої не стартував. Текст нижче лишається — сцена не єдиний спосіб її прочитати.',
-    de: 'WebGL ist auf diesem Gerät nicht gestartet. Der Text darunter gilt trotzdem — die Szene ist nicht der einzige Weg, sie zu lesen.',
-    fr: 'WebGL n’a pas démarré sur cet appareil. L’article dessous tient — la scène n’est pas le seul moyen de la lire.',
-    es: 'WebGL no arrancó en este dispositivo. El artículo debajo sigue — la escena no es la única forma de leerlo.',
-    it: 'WebGL non è partito su questo dispositivo. L’articolo sotto resta — la scena non è l’unico modo di leggerlo.',
-    tr: 'WebGL bu cihazda başlamadı. Aşağıdaki yazı duruyor — sahne onu okumanın tek yolu değil.',
+    en: 'WebGL did not init on this device. The article below still stands – the object is a product scene, not the only way to read it.',
+    ua: 'WebGL на цьому пристрої не стартував. Текст нижче лишається – сцена не єдиний спосіб її прочитати.',
+    de: 'WebGL ist auf diesem Gerät nicht gestartet. Der Text darunter gilt trotzdem – die Szene ist nicht der einzige Weg, sie zu lesen.',
+    fr: 'WebGL n’a pas démarré sur cet appareil. L’article dessous tient – la scène n’est pas le seul moyen de la lire.',
+    es: 'WebGL no arrancó en este dispositivo. El artículo debajo sigue – la escena no es la única forma de leerlo.',
+    it: 'WebGL non è partito su questo dispositivo. L’articolo sotto resta – la scena non è l’unico modo di leggerlo.',
+    tr: 'WebGL bu cihazda başlamadı. Aşağıdaki yazı duruyor – sahne onu okumanın tek yolu değil.',
   },
   shape: {
     en: 'Shape',
@@ -62,13 +62,13 @@ const copy = {
     ember: { en: 'Ember', ua: 'Жар', de: 'Glut', fr: 'Braise', es: 'Brasa', it: 'Brace', tr: 'Kor' },
   },
   reduced: {
-    en: 'Reduced motion is on — the loop is still. Drag if you want to inspect.',
-    ua: 'Reduced motion увімкнено — цикл стоїть. Тягніть, якщо хочете роздивитися.',
-    de: 'Reduced motion ist an — die Schleife steht. Ziehen Sie, wenn Sie inspizieren wollen.',
-    fr: 'Reduced motion est actif — la boucle est arrêtée. Glissez pour inspecter.',
-    es: 'Reduced motion está activo — el bucle está quieto. Arrastre si quiere inspeccionar.',
-    it: 'Reduced motion è attivo — il loop è fermo. Trascinate per ispezionare.',
-    tr: 'Reduced motion açık — döngü duruyor. İncelemek için sürükleyin.',
+    en: 'Reduced motion is on – the loop is still. Drag if you want to inspect.',
+    ua: 'Reduced motion увімкнено – цикл стоїть. Тягніть, якщо хочете роздивитися.',
+    de: 'Reduced motion ist an – die Schleife steht. Ziehen Sie, wenn Sie inspizieren wollen.',
+    fr: 'Reduced motion est actif – la boucle est arrêtée. Glissez pour inspecter.',
+    es: 'Reduced motion está activo – el bucle está quieto. Arrastre si quiere inspeccionar.',
+    it: 'Reduced motion è attivo – il loop è fermo. Trascinate per ispezionare.',
+    tr: 'Reduced motion açık – döngü duruyor. İncelemek için sürükleyin.',
   },
 } as const
 

@@ -91,16 +91,16 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "“We need more IT people” is not a hiring plan. Modern products are built by specialists with different jobs: some shape the interface, some own data and models, some keep production alive, some decide what to build next. Mixing titles without clarity creates gaps, duplicate work, and expensive mis-hires.",
-            ua: "«Нам треба більше айтішників» — це ще не план найму. Я бачу це щодня: сучасний продукт зводять спеціалісти з різними задачами: хтось ліпить інтерфейс, хтось тримає дані й моделі, хтось не дає продакшену впасти, хтось вирішує, що робити далі. Коли посади змішані без ясності, з’являються дірки, подвійна робота і дорогі помилки в наймі.",
+            ua: "«Нам треба більше айтішників» – це ще не план найму. Я бачу це щодня: сучасний продукт зводять спеціалісти з різними задачами: хтось ліпить інтерфейс, хтось тримає дані й моделі, хтось не дає продакшену впасти, хтось вирішує, що робити далі. Коли посади змішані без ясності, з’являються дірки, подвійна робота і дорогі помилки в наймі.",
             de: "„Wir brauchen mehr IT-Leute“ ist kein Recruiting-Plan. Moderne Produkte entstehen durch Spezialistinnen und Spezialisten mit klar getrennten Aufgaben: die einen gestalten die Oberfläche, andere verantworten Daten und Modelle, andere halten den Produktivbetrieb, wieder andere entscheiden, was als Nächstes gebaut wird. Titel ohne Klarheit erzeugen Lücken, Doppelarbeit und teure Fehlbesetzungen.",
       fr: "« Il nous faut plus de gens d’IT » n’est pas un plan de recrutement. Les produits modernes se construisent avec des spécialistes aux missions distinctes : les uns façonnent l’interface, d’autres portent les données et les modèles, d’autres tiennent la production, d’autres encore décident de la suite. Mélanger les titres sans les clarifier crée des angles morts, du travail en double et des recrutements ruinés.",
       es: "«Necesitamos más gente de IT» no es un plan de contratación. Los productos modernos los construyen especialistas con oficios distintos: unos dan forma a la interfaz, otros responden de datos y modelos, otros sostienen producción, otros deciden qué construir después. Mezclar títulos sin aclararlos deja huecos, trabajo duplicado y contrataciones caras.",
-      it: "«Ci servono più persone IT» non è un piano di assunzione. I prodotti moderni li costruiscono specialisti con mestieri diversi: chi dà forma all’interfaccia, chi risponde di dati e modelli, chi tiene in piedi la produzione, chi decide cosa fare dopo. Mescolare i titoli senza chiarezza apre buchi, doppio lavoro e assunzioni sbagliate — e costose.",
+      it: "«Ci servono più persone IT» non è un piano di assunzione. I prodotti moderni li costruiscono specialisti con mestieri diversi: chi dà forma all’interfaccia, chi risponde di dati e modelli, chi tiene in piedi la produzione, chi decide cosa fare dopo. Mescolare i titoli senza chiarezza apre buchi, doppio lavoro e assunzioni sbagliate – e costose.",
       tr: "«Daha fazla IT’ci lazım» bir işe alım planı değildir. Modern ürünleri farklı işleri olan uzmanlar kurar: kimi arayüzü şekillendirir, kimi veri ve modellerden sorumludur, kimi canlı ortamı ayakta tutar, kimi sırada neyin yapılacağına karar verir. Unvanları netleştirmeden karıştırmak boşluk, çift iş ve pahalı yanlış işe alımlar yaratır."
           },
           {
             en: "This article is a map of the main IT positions you will meet in 2026 - what each role owns, how roles cluster, and how to choose the next hire. Companion deep-dives for each role live as separate articles in this series.",
-            ua: "Нижче — моя карта основних ІТ-позицій, з якими ви зіткнетеся у 2026-му: за що відповідає кожна роль, як вони групуються і як обрати наступну людину в команду. Глибші розбори кожної позиції — в окремих статтях цієї серії.",
+            ua: "Нижче – моя карта основних ІТ-позицій, з якими ви зіткнетеся у 2026-му: за що відповідає кожна роль, як вони групуються і як обрати наступну людину в команду. Глибші розбори кожної позиції – в окремих статтях цієї серії.",
             de: "In diesem Artikel zeichne ich die IT-Rollen, denen Sie 2026 begegnen: wofür jede Rolle verantwortlich ist, wie sie sich gruppieren und wie Sie die nächste Einstellung wählen. Die vertiefenden Guides zu jeder Rolle finden Sie als eigene Artikel in dieser Serie.",
       fr: "Je vous dresse ici la carte des métiers IT que vous rencontrerez en 2026 : de quoi chaque rôle est responsable, comment ils se regroupent, et comment choisir la prochaine embauche. Les analyses détaillées de chaque poste sont dans des articles à part de cette série.",
       es: "En este artículo le trazo el mapa de las posiciones IT que verá en 2026: de qué responde cada rol, cómo se agrupan y cómo elegir la siguiente contratación. Los desgloses de cada puesto están en artículos aparte de esta serie.",
@@ -133,57 +133,57 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         list: [
           {
             en: "Frontend - UI, browser performance, accessibility, client-side product feel.",
-            ua: "Frontend — інтерфейс, швидкість у браузері, доступність, як продукт «відчувається» на клієнті.",
-            de: "Frontend — Oberfläche, Tempo im Browser, Barrierefreiheit, das Gefühl des Produkts auf dem Client.",
-      fr: "Frontend — interface, performances dans le navigateur, accessibilité, le ressenti du produit côté client.",
-      es: "Frontend — interfaz, rendimiento en el navegador, accesibilidad, cómo se siente el producto en el cliente.",
-      it: "Frontend — interfaccia, prestazioni nel browser, accessibilità, come si percepisce il prodotto sul client.",
-      tr: "Frontend — arayüz, tarayıcı performansı, erişilebilirlik, ürünün istemci tarafındaki hissi."
+            ua: "Frontend – інтерфейс, швидкість у браузері, доступність, як продукт «відчувається» на клієнті.",
+            de: "Frontend – Oberfläche, Tempo im Browser, Barrierefreiheit, das Gefühl des Produkts auf dem Client.",
+      fr: "Frontend – interface, performances dans le navigateur, accessibilité, le ressenti du produit côté client.",
+      es: "Frontend – interfaz, rendimiento en el navegador, accesibilidad, cómo se siente el producto en el cliente.",
+      it: "Frontend – interfaccia, prestazioni nel browser, accessibilità, come si percepisce il prodotto sul client.",
+      tr: "Frontend – arayüz, tarayıcı performansı, erişilebilirlik, ürünün istemci tarafındaki hissi."
           },
           {
             en: "Backend - APIs, business logic, databases, auth, integrations.",
-            ua: "Backend — API, бізнес-логіка, бази даних, автентифікація, інтеграції.",
-            de: "Backend — APIs, Geschäftslogik, Datenbanken, Authentifizierung, Integrationen.",
-      fr: "Backend — API, logique métier, bases de données, authentification, intégrations.",
-      es: "Backend — APIs, lógica de negocio, bases de datos, autenticación, integraciones.",
-      it: "Backend — API, logica di business, database, autenticazione, integrazioni.",
-      tr: "Backend — API’ler, iş mantığı, veritabanları, kimlik doğrulama, entegrasyonlar."
+            ua: "Backend – API, бізнес-логіка, бази даних, автентифікація, інтеграції.",
+            de: "Backend – APIs, Geschäftslogik, Datenbanken, Authentifizierung, Integrationen.",
+      fr: "Backend – API, logique métier, bases de données, authentification, intégrations.",
+      es: "Backend – APIs, lógica de negocio, bases de datos, autenticación, integraciones.",
+      it: "Backend – API, logica di business, database, autenticazione, integrazioni.",
+      tr: "Backend – API’ler, iş mantığı, veritabanları, kimlik doğrulama, entegrasyonlar."
           },
           {
             en: "Full-stack - end-to-end feature ownership across UI and server.",
-            ua: "Full-stack — одна людина веде функцію від інтерфейсу до сервера.",
-            de: "Full-Stack — eine Person trägt eine Funktion von der Oberfläche bis zum Server.",
-      fr: "Full-stack — une même personne porte une fonctionnalité de l’interface jusqu’au serveur.",
-      es: "Full-stack — una persona lleva la funcionalidad de la interfaz al servidor.",
-      it: "Full-stack — una persona porta la funzionalità dall’interfaccia al server.",
-      tr: "Full-stack — bir kişi özelliği arayüzden sunucuya kadar götürür."
+            ua: "Full-stack – одна людина веде функцію від інтерфейсу до сервера.",
+            de: "Full-Stack – eine Person trägt eine Funktion von der Oberfläche bis zum Server.",
+      fr: "Full-stack – une même personne porte une fonctionnalité de l’interface jusqu’au serveur.",
+      es: "Full-stack – una persona lleva la funcionalidad de la interfaz al servidor.",
+      it: "Full-stack – una persona porta la funzionalità dall’interfaccia al server.",
+      tr: "Full-stack – bir kişi özelliği arayüzden sunucuya kadar götürür."
           },
           {
             en: "Mobile - iOS/Android or cross-platform apps, stores, device capabilities.",
-            ua: "Mobile — iOS/Android або кросплатформа, стори, можливості пристрою.",
-            de: "Mobile — iOS/Android oder plattformübergreifende Apps, Stores, Gerätefunktionen.",
-      fr: "Mobile — applications iOS/Android ou multiplateformes, stores et capacités de l’appareil.",
-      es: "Mobile — apps iOS/Android o multiplataforma, tiendas, capacidades del dispositivo.",
-      it: "Mobile — app iOS/Android o multipiattaforma, store, capacità del dispositivo.",
-      tr: "Mobile — iOS/Android veya çapraz platform uygulamaları, mağazalar, cihaz yetenekleri."
+            ua: "Mobile – iOS/Android або кросплатформа, стори, можливості пристрою.",
+            de: "Mobile – iOS/Android oder plattformübergreifende Apps, Stores, Gerätefunktionen.",
+      fr: "Mobile – applications iOS/Android ou multiplateformes, stores et capacités de l’appareil.",
+      es: "Mobile – apps iOS/Android o multiplataforma, tiendas, capacidades del dispositivo.",
+      it: "Mobile – app iOS/Android o multipiattaforma, store, capacità del dispositivo.",
+      tr: "Mobile – iOS/Android veya çapraz platform uygulamaları, mağazalar, cihaz yetenekleri."
           },
           {
             en: "Embedded/IoT - firmware and device software under physical constraints.",
-            ua: "Embedded/IoT — прошивки й ПЗ пристроїв у межах фізики: пам’ять, живлення, залізо.",
-            de: "Embedded/IoT — Firmware und Gerätesoftware unter physischen Grenzen.",
-      fr: "Embedded/IoT — micrologiciel et logiciel d’appareil sous contraintes physiques.",
-      es: "Embedded/IoT — firmware y software de dispositivo bajo límites físicos.",
-      it: "Embedded/IoT — firmware e software di dispositivo sotto vincoli fisici.",
-      tr: "Embedded/IoT — fiziksel kısıtlar altında firmware ve cihaz yazılımı."
+            ua: "Embedded/IoT – прошивки й ПЗ пристроїв у межах фізики: пам’ять, живлення, залізо.",
+            de: "Embedded/IoT – Firmware und Gerätesoftware unter physischen Grenzen.",
+      fr: "Embedded/IoT – micrologiciel et logiciel d’appareil sous contraintes physiques.",
+      es: "Embedded/IoT – firmware y software de dispositivo bajo límites físicos.",
+      it: "Embedded/IoT – firmware e software di dispositivo sotto vincoli fisici.",
+      tr: "Embedded/IoT – fiziksel kısıtlar altında firmware ve cihaz yazılımı."
           },
           {
             en: "Blockchain/Web3 - smart contracts and wallet-connected applications.",
-            ua: "Blockchain/Web3 — смартконтракти та застосунки, підключені до гаманця.",
-            de: "Blockchain/Web3 — Smart Contracts und Anwendungen mit Wallet-Anbindung.",
-      fr: "Blockchain/Web3 — smart contracts et applications reliées au portefeuille.",
-      es: "Blockchain/Web3 — smart contracts y aplicaciones conectadas a un wallet.",
-      it: "Blockchain/Web3 — smart contract e applicazioni collegate al wallet.",
-      tr: "Blockchain/Web3 — smart contract’lar ve cüzdana bağlı uygulamalar."
+            ua: "Blockchain/Web3 – смартконтракти та застосунки, підключені до гаманця.",
+            de: "Blockchain/Web3 – Smart Contracts und Anwendungen mit Wallet-Anbindung.",
+      fr: "Blockchain/Web3 – smart contracts et applications reliées au portefeuille.",
+      es: "Blockchain/Web3 – smart contracts y aplicaciones conectadas a un wallet.",
+      it: "Blockchain/Web3 – smart contract e applicazioni collegate al wallet.",
+      tr: "Blockchain/Web3 – smart contract’lar ve cüzdana bağlı uygulamalar."
           }
         ]
       },
@@ -200,7 +200,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Shipping is only half the job. These roles keep systems correct, deployable, and alive.",
-            ua: "Віддати реліз — лише половина справи. Ці ролі тримають системи правильними, готовими до викладки й живими.",
+            ua: "Віддати реліз – лише половина справи. Ці ролі тримають системи правильними, готовими до викладки й живими.",
             de: "Der Release ist nur die halbe Miete. Diese Rollen halten Systeme korrekt, auslieferbar und im Betrieb.",
       fr: "Livrer n’est que la moitié du travail. Ces rôles gardent les systèmes justes, déployables et en vie.",
       es: "Sacar la versión es solo la mitad. Estos roles mantienen los sistemas correctos, desplegables y en pie.",
@@ -211,66 +211,66 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         list: [
           {
             en: "QA (manual/automation) - finds defects and guards regressions.",
-            ua: "QA (ручне/авто) — знаходить дефекти й не дає регресіям повернутися.",
-            de: "QA (manuell/automatisiert) — findet Fehler und verhindert Regressionen.",
-      fr: "QA (manuel/automatisé) — trouve les défauts et empêche les régressions de revenir.",
-      es: "QA (manual/automatizado) — encuentra defectos y evita que vuelvan las regresiones.",
-      it: "QA (manuale/automation) — trova i difetti e impedisce alle regressioni di tornare.",
-      tr: "QA (manuel/otomasyon) — kusur bulur, regresyonların geri gelmesini engeller."
+            ua: "QA (ручне/авто) – знаходить дефекти й не дає регресіям повернутися.",
+            de: "QA (manuell/automatisiert) – findet Fehler und verhindert Regressionen.",
+      fr: "QA (manuel/automatisé) – trouve les défauts et empêche les régressions de revenir.",
+      es: "QA (manual/automatizado) – encuentra defectos y evita que vuelvan las regresiones.",
+      it: "QA (manuale/automation) – trova i difetti e impedisce alle regressioni di tornare.",
+      tr: "QA (manuel/otomasyon) – kusur bulur, regresyonların geri gelmesini engeller."
           },
           {
             en: "DevOps - CI/CD, infra automation, developer delivery platforms.",
-            ua: "DevOps — CI/CD, автоматизація інфраструктури, платформа, якою розробники випускають код.",
-            de: "DevOps — CI/CD, Infra-Automatisierung, die Plattform, über die Entwickler ausliefern.",
-      fr: "DevOps — CI/CD, automatisation de l’infra, la plateforme avec laquelle les devs livrent.",
-      es: "DevOps — CI/CD, automatización de infra, la plataforma con la que el equipo entrega.",
-      it: "DevOps — CI/CD, automazione dell’infra, la piattaforma con cui il team rilascia.",
-      tr: "DevOps — CI/CD, altyapı otomasyonu, geliştiricilerin kodu çıkardığı platform."
+            ua: "DevOps – CI/CD, автоматизація інфраструктури, платформа, якою розробники випускають код.",
+            de: "DevOps – CI/CD, Infra-Automatisierung, die Plattform, über die Entwickler ausliefern.",
+      fr: "DevOps – CI/CD, automatisation de l’infra, la plateforme avec laquelle les devs livrent.",
+      es: "DevOps – CI/CD, automatización de infra, la plataforma con la que el equipo entrega.",
+      it: "DevOps – CI/CD, automazione dell’infra, la piattaforma con cui il team rilascia.",
+      tr: "DevOps – CI/CD, altyapı otomasyonu, geliştiricilerin kodu çıkardığı platform."
           },
           {
             en: "SRE - SLOs, incident practice, reducing toil, reliability trade-offs.",
-            ua: "SRE — SLO, робота з інцидентами, менше ручної рутини, свідомі компроміси щодо надійності.",
-            de: "SRE — SLOs, Incident-Praxis, weniger manuelle Plackerei, bewusste Kompromisse bei der Zuverlässigkeit.",
-      fr: "SRE — SLO, pratique des incidents, moins de labeur manuel, arbitrages assumés sur la fiabilité.",
-      es: "SRE — SLO, práctica de incidentes, menos trabajo rutinario, compromisos explícitos de fiabilidad.",
-      it: "SRE — SLO, pratica degli incident, meno toil, compromessi espliciti sulla reliability.",
-      tr: "SRE — SLO’lar, olay pratiği, angaryayı azaltmak, güvenilirlikte bilinçli ödünler."
+            ua: "SRE – SLO, робота з інцидентами, менше ручної рутини, свідомі компроміси щодо надійності.",
+            de: "SRE – SLOs, Incident-Praxis, weniger manuelle Plackerei, bewusste Kompromisse bei der Zuverlässigkeit.",
+      fr: "SRE – SLO, pratique des incidents, moins de labeur manuel, arbitrages assumés sur la fiabilité.",
+      es: "SRE – SLO, práctica de incidentes, menos trabajo rutinario, compromisos explícitos de fiabilidad.",
+      it: "SRE – SLO, pratica degli incident, meno toil, compromessi espliciti sulla reliability.",
+      tr: "SRE – SLO’lar, olay pratiği, angaryayı azaltmak, güvenilirlikte bilinçli ödünler."
           },
           {
             en: "SysAdmin - classic infrastructure, access, backups, internal IT ops.",
-            ua: "SysAdmin — класична інфраструктура, доступи, резервні копії, внутрішня ІТ-експлуатація.",
-            de: "SysAdmin — klassische Infrastruktur, Zugänge, Backups, interner IT-Betrieb.",
-      fr: "SysAdmin — infrastructure classique, accès, sauvegardes, exploitation IT interne.",
-      es: "SysAdmin — infra clásica, accesos, copias de seguridad, operación IT interna.",
-      it: "SysAdmin — infra classica, accessi, backup, esercizio IT interno.",
-      tr: "SysAdmin — klasik altyapı, erişim, yedekler, iç IT işletimi."
+            ua: "SysAdmin – класична інфраструктура, доступи, резервні копії, внутрішня ІТ-експлуатація.",
+            de: "SysAdmin – klassische Infrastruktur, Zugänge, Backups, interner IT-Betrieb.",
+      fr: "SysAdmin – infrastructure classique, accès, sauvegardes, exploitation IT interne.",
+      es: "SysAdmin – infra clásica, accesos, copias de seguridad, operación IT interna.",
+      it: "SysAdmin – infra classica, accessi, backup, esercizio IT interno.",
+      tr: "SysAdmin – klasik altyapı, erişim, yedekler, iç IT işletimi."
           },
           {
             en: "Cloud Engineer - scalable secure architectures on AWS/GCP/Azure.",
-            ua: "Cloud Engineer — масштабовані й захищені архітектури на AWS/GCP/Azure.",
-            de: "Cloud Engineer — skalierbare, abgesicherte Architekturen auf AWS/GCP/Azure.",
-      fr: "Cloud Engineer — architectures évolutives et sécurisées sur AWS/GCP/Azure.",
-      es: "Cloud Engineer — arquitecturas escalables y seguras en AWS/GCP/Azure.",
-      it: "Cloud Engineer — architetture scalabili e sicure su AWS/GCP/Azure.",
-      tr: "Cloud Engineer — AWS/GCP/Azure üzerinde ölçeklenebilir, güvenli mimariler."
+            ua: "Cloud Engineer – масштабовані й захищені архітектури на AWS/GCP/Azure.",
+            de: "Cloud Engineer – skalierbare, abgesicherte Architekturen auf AWS/GCP/Azure.",
+      fr: "Cloud Engineer – architectures évolutives et sécurisées sur AWS/GCP/Azure.",
+      es: "Cloud Engineer – arquitecturas escalables y seguras en AWS/GCP/Azure.",
+      it: "Cloud Engineer – architetture scalabili e sicure su AWS/GCP/Azure.",
+      tr: "Cloud Engineer – AWS/GCP/Azure üzerinde ölçeklenebilir, güvenli mimariler."
           },
           {
             en: "Network Engineer - connectivity, segmentation, hybrid network design.",
-            ua: "Network Engineer — зв’язок, сегментація, гібридні мережі.",
-            de: "Network Engineer — Konnektivität, Segmentierung, hybrides Netzdesign.",
-      fr: "Network Engineer — connectivité, segmentation, conception de réseaux hybrides.",
-      es: "Network Engineer — conectividad, segmentación, diseño de red híbrida.",
-      it: "Network Engineer — connettività, segmentazione, rete ibrida.",
-      tr: "Network Engineer — bağlantı, segmentasyon, hibrit ağ tasarımı."
+            ua: "Network Engineer – зв’язок, сегментація, гібридні мережі.",
+            de: "Network Engineer – Konnektivität, Segmentierung, hybrides Netzdesign.",
+      fr: "Network Engineer – connectivité, segmentation, conception de réseaux hybrides.",
+      es: "Network Engineer – conectividad, segmentación, diseño de red híbrida.",
+      it: "Network Engineer – connettività, segmentazione, rete ibrida.",
+      tr: "Network Engineer – bağlantı, segmentasyon, hibrit ağ tasarımı."
           },
           {
             en: "DBA - database performance, HA, recovery, data platform health.",
-            ua: "DBA — швидкість баз, відмовостійкість, відновлення, здоров’я платформи даних.",
-            de: "DBA — Datenbankleistung, Hochverfügbarkeit, Wiederherstellung, Gesundheit der Datenplattform.",
-      fr: "DBA — performances des bases, haute disponibilité, reprise, santé de la plateforme data.",
-      es: "DBA — rendimiento de bases, alta disponibilidad, recuperación, salud de la plataforma de datos.",
-      it: "DBA — prestazioni dei database, alta disponibilità, ripristino, salute della piattaforma dati.",
-      tr: "DBA — veritabanı performansı, yüksek erişilebilirlik, kurtarma, veri platformunun sağlığı."
+            ua: "DBA – швидкість баз, відмовостійкість, відновлення, здоров’я платформи даних.",
+            de: "DBA – Datenbankleistung, Hochverfügbarkeit, Wiederherstellung, Gesundheit der Datenplattform.",
+      fr: "DBA – performances des bases, haute disponibilité, reprise, santé de la plateforme data.",
+      es: "DBA – rendimiento de bases, alta disponibilidad, recuperación, salud de la plataforma de datos.",
+      it: "DBA – prestazioni dei database, alta disponibilità, ripristino, salute della piattaforma dati.",
+      tr: "DBA – veritabanı performansı, yüksek erişilebilirlik, kurtarma, veri platformunun sağlığı."
           }
         ]
       },
@@ -287,59 +287,59 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "These roles reduce building the wrong thing - or building the right thing too chaotically.",
-            ua: "Ці ролі зменшують шанс збудувати не те — або збудувати правильне, але в хаосі.",
-            de: "Diese Rollen senken das Risiko, das Falsche zu bauen — oder das Richtige im Chaos.",
-      fr: "Ces rôles réduisent le risque de construire la mauvaise chose — ou la bonne, mais dans le chaos.",
-      es: "Estos roles reducen el riesgo de construir lo equivocado — o lo correcto, pero en caos.",
-      it: "Questi ruoli riducono il rischio di costruire la cosa sbagliata — o quella giusta, ma nel caos.",
-      tr: "Bu roller yanlış şeyi kurmayı — ya da doğruyu kaosta kurmayı — azaltır."
+            ua: "Ці ролі зменшують шанс збудувати не те – або збудувати правильне, але в хаосі.",
+            de: "Diese Rollen senken das Risiko, das Falsche zu bauen – oder das Richtige im Chaos.",
+      fr: "Ces rôles réduisent le risque de construire la mauvaise chose – ou la bonne, mais dans le chaos.",
+      es: "Estos roles reducen el riesgo de construir lo equivocado – o lo correcto, pero en caos.",
+      it: "Questi ruoli riducono il rischio di costruire la cosa sbagliata – o quella giusta, ma nel caos.",
+      tr: "Bu roller yanlış şeyi kurmayı – ya da doğruyu kaosta kurmayı – azaltır."
           }
         ],
         list: [
           {
             en: "Product Manager - what/why, roadmap, outcomes and prioritization.",
-            ua: "Product Manager — що і навіщо, дорожня карта, результати й пріоритети.",
-            de: "Product Manager — Was und Warum, Roadmap, Wirkung und Prioritäten.",
-      fr: "Product Manager — le quoi et le pourquoi, la feuille de route, les résultats et les priorités.",
-      es: "Product Manager — el qué y el porqué, la hoja de ruta, resultados y prioridades.",
-      it: "Product Manager — il cosa e il perché, roadmap, risultati e priorità.",
-      tr: "Product Manager — ne ve neden, yol haritası, sonuçlar ve öncelikler."
+            ua: "Product Manager – що і навіщо, дорожня карта, результати й пріоритети.",
+            de: "Product Manager – Was und Warum, Roadmap, Wirkung und Prioritäten.",
+      fr: "Product Manager – le quoi et le pourquoi, la feuille de route, les résultats et les priorités.",
+      es: "Product Manager – el qué y el porqué, la hoja de ruta, resultados y prioridades.",
+      it: "Product Manager – il cosa e il perché, roadmap, risultati e priorità.",
+      tr: "Product Manager – ne ve neden, yol haritası, sonuçlar ve öncelikler."
           },
           {
             en: "Project Manager - how/when, scope, risks, predictable delivery.",
-            ua: "Project Manager — як і коли, обсяг, ризики, передбачувана поставка.",
-            de: "Project Manager — Wie und Wann, Umfang, Risiken, planbare Lieferung.",
-      fr: "Project Manager — le comment et le quand, le périmètre, les risques, une livraison prévisible.",
-      es: "Project Manager — el cómo y el cuándo, el alcance, los riesgos, una entrega previsible.",
-      it: "Project Manager — il come e il quando, perimetro, rischi, consegna prevedibile.",
-      tr: "Project Manager — nasıl ve ne zaman, kapsam, riskler, öngörülebilir teslim."
+            ua: "Project Manager – як і коли, обсяг, ризики, передбачувана поставка.",
+            de: "Project Manager – Wie und Wann, Umfang, Risiken, planbare Lieferung.",
+      fr: "Project Manager – le comment et le quand, le périmètre, les risques, une livraison prévisible.",
+      es: "Project Manager – el cómo y el cuándo, el alcance, los riesgos, una entrega previsible.",
+      it: "Project Manager – il come e il quando, perimetro, rischi, consegna prevedibile.",
+      tr: "Project Manager – nasıl ve ne zaman, kapsam, riskler, öngörülebilir teslim."
           },
           {
             en: "Business Analyst - requirements clarity and process translation.",
-            ua: "Business Analyst — ясність вимог і переклад процесів мовою команди.",
-            de: "Business Analyst — klare Anforderungen und Übersetzung von Prozessen.",
-      fr: "Business Analyst — exigences limpides et traduction des processus pour l’équipe.",
-      es: "Business Analyst — requisitos claros y traducción de procesos para el equipo.",
-      it: "Business Analyst — requisiti chiari e traduzione dei processi per il team.",
-      tr: "Business Analyst — net gereksinimler ve süreçleri ekibin diline çevirmek."
+            ua: "Business Analyst – ясність вимог і переклад процесів мовою команди.",
+            de: "Business Analyst – klare Anforderungen und Übersetzung von Prozessen.",
+      fr: "Business Analyst – exigences limpides et traduction des processus pour l’équipe.",
+      es: "Business Analyst – requisitos claros y traducción de procesos para el equipo.",
+      it: "Business Analyst – requisiti chiari e traduzione dei processi per il team.",
+      tr: "Business Analyst – net gereksinimler ve süreçleri ekibin diline çevirmek."
           },
           {
             en: "UI/UX Designer - flows, usability, visual system, handoff quality.",
-            ua: "UI/UX Designer — сценарії, зручність, візуальна система, якісна передача в розробку.",
-            de: "UI/UX Designer — Abläufe, Nutzbarkeit, visuelles System, saubere Übergabe an die Entwicklung.",
-      fr: "UI/UX Designer — parcours, utilisabilité, système visuel, une passation propre vers le dev.",
-      es: "UI/UX Designer — flujos, usabilidad, sistema visual, un traspaso limpio a desarrollo.",
-      it: "UI/UX Designer — flussi, usabilità, sistema visivo, un passaggio pulito allo sviluppo.",
-      tr: "UI/UX Designer — akışlar, kullanılabilirlik, görsel sistem, geliştirme ekibine temiz teslim."
+            ua: "UI/UX Designer – сценарії, зручність, візуальна система, якісна передача в розробку.",
+            de: "UI/UX Designer – Abläufe, Nutzbarkeit, visuelles System, saubere Übergabe an die Entwicklung.",
+      fr: "UI/UX Designer – parcours, utilisabilité, système visuel, une passation propre vers le dev.",
+      es: "UI/UX Designer – flujos, usabilidad, sistema visual, un traspaso limpio a desarrollo.",
+      it: "UI/UX Designer – flussi, usabilità, sistema visivo, un passaggio pulito allo sviluppo.",
+      tr: "UI/UX Designer – akışlar, kullanılabilirlik, görsel sistem, geliştirme ekibine temiz teslim."
           },
           {
             en: "Scrum Master - team flow, impediments, useful agile habits.",
-            ua: "Scrum Master — ритм команди, перешкоди, корисні agile-звички — не ритуали заради ритуалів.",
-            de: "Scrum Master — Teamfluss, Hindernisse, agile Gewohnheiten, die helfen — keine Rituale um der Rituale willen.",
-      fr: "Scrum Master — le flux de l’équipe, les obstacles, des habitudes agile utiles — pas du théâtre de cérémonies.",
-      es: "Scrum Master — el ritmo del equipo, los impedimentos, hábitos agile que sirven — no teatro de ceremonias.",
-      it: "Scrum Master — flusso del team, impedimenti, abitudini agile che servono — non teatro di cerimonie.",
-      tr: "Scrum Master — ekip ritmi, engeller, işe yarayan agile alışkanlıklar — tören tiyatrosu değil."
+            ua: "Scrum Master – ритм команди, перешкоди, корисні agile-звички – не ритуали заради ритуалів.",
+            de: "Scrum Master – Teamfluss, Hindernisse, agile Gewohnheiten, die helfen – keine Rituale um der Rituale willen.",
+      fr: "Scrum Master – le flux de l’équipe, les obstacles, des habitudes agile utiles – pas du théâtre de cérémonies.",
+      es: "Scrum Master – el ritmo del equipo, los impedimentos, hábitos agile que sirven – no teatro de ceremonias.",
+      it: "Scrum Master – flusso del team, impedimenti, abitudini agile che servono – non teatro di cerimonie.",
+      tr: "Scrum Master – ekip ritmi, engeller, işe yarayan agile alışkanlıklar – tören tiyatrosu değil."
           }
         ]
       },
@@ -356,7 +356,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Data roles turn signals into decisions and models into production features.",
-            ua: "Data-ролі перетворюють сигнали на рішення, а моделі — на функції в продакшені.",
+            ua: "Data-ролі перетворюють сигнали на рішення, а моделі – на функції в продакшені.",
             de: "Data-Rollen machen aus Signalen Entscheidungen und aus Modellen Funktionen im Produktivbetrieb.",
       fr: "Les rôles data transforment les signaux en décisions et les modèles en fonctions en production.",
       es: "Los roles de datos convierten señales en decisiones y modelos en funciones en producción.",
@@ -367,39 +367,39 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         list: [
           {
             en: "Data Analyst - metrics, dashboards, decision support.",
-            ua: "Data Analyst — метрики, дашборди, опора для рішень.",
-            de: "Data Analyst — Kennzahlen, Dashboards, Entscheidungshilfe.",
-      fr: "Data Analyst — métriques, tableaux de bord, aide à la décision.",
-      es: "Data Analyst — métricas, paneles, apoyo a la decisión.",
-      it: "Data Analyst — metriche, dashboard, supporto alle decisioni.",
-      tr: "Data Analyst — metrikler, panolar, karar desteği."
+            ua: "Data Analyst – метрики, дашборди, опора для рішень.",
+            de: "Data Analyst – Kennzahlen, Dashboards, Entscheidungshilfe.",
+      fr: "Data Analyst – métriques, tableaux de bord, aide à la décision.",
+      es: "Data Analyst – métricas, paneles, apoyo a la decisión.",
+      it: "Data Analyst – metriche, dashboard, supporto alle decisioni.",
+      tr: "Data Analyst – metrikler, panolar, karar desteği."
           },
           {
             en: "Data Engineer - pipelines, warehouses, trustworthy datasets.",
-            ua: "Data Engineer — конвеєри, сховища, набори даних, яким можна вірити.",
-            de: "Data Engineer — Pipelines, Warehouses, Datensätze, denen man trauen kann.",
-      fr: "Data Engineer — pipelines, entrepôts, jeux de données dont on peut se fier.",
-      es: "Data Engineer — pipelines, almacenes, conjuntos de datos de fiar.",
-      it: "Data Engineer — pipeline, warehouse, dataset di cui ci si può fidare.",
-      tr: "Data Engineer — hatlar, depolar, güvenilir veri kümeleri."
+            ua: "Data Engineer – конвеєри, сховища, набори даних, яким можна вірити.",
+            de: "Data Engineer – Pipelines, Warehouses, Datensätze, denen man trauen kann.",
+      fr: "Data Engineer – pipelines, entrepôts, jeux de données dont on peut se fier.",
+      es: "Data Engineer – pipelines, almacenes, conjuntos de datos de fiar.",
+      it: "Data Engineer – pipeline, warehouse, dataset di cui ci si può fidare.",
+      tr: "Data Engineer – hatlar, depolar, güvenilir veri kümeleri."
           },
           {
             en: "Data Scientist / ML Engineer - models from experiment to production.",
-            ua: "Data Scientist / ML Engineer — моделі від експерименту до продакшену.",
-            de: "Data Scientist / ML Engineer — Modelle vom Experiment bis in den Produktivbetrieb.",
-      fr: "Data Scientist / ML Engineer — des modèles, de l’expérience jusqu’à la production.",
-      es: "Data Scientist / ML Engineer — modelos del experimento a producción.",
-      it: "Data Scientist / ML Engineer — modelli dall’esperimento alla produzione.",
-      tr: "Data Scientist / ML Engineer — deneyden canlıya modeller."
+            ua: "Data Scientist / ML Engineer – моделі від експерименту до продакшену.",
+            de: "Data Scientist / ML Engineer – Modelle vom Experiment bis in den Produktivbetrieb.",
+      fr: "Data Scientist / ML Engineer – des modèles, de l’expérience jusqu’à la production.",
+      es: "Data Scientist / ML Engineer – modelos del experimento a producción.",
+      it: "Data Scientist / ML Engineer – modelli dall’esperimento alla produzione.",
+      tr: "Data Scientist / ML Engineer – deneyden canlıya modeller."
           },
           {
             en: "AI Engineer - LLM apps, RAG, agents, evaluation, cost control.",
-            ua: "AI Engineer — застосунки на LLM, RAG, агенти, оцінювання якості, контроль вартості.",
-            de: "AI Engineer — LLM-Anwendungen, RAG, Agenten, Qualität messen, Kosten im Griff.",
-      fr: "AI Engineer — applications LLM, RAG, agents, évaluation, maîtrise des coûts.",
-      es: "AI Engineer — apps LLM, RAG, agentes, evaluación, control de coste.",
-      it: "AI Engineer — app LLM, RAG, agent, valutazione, controllo dei costi.",
-      tr: "AI Engineer — LLM uygulamaları, RAG, ajanlar, değerlendirme, maliyet kontrolü."
+            ua: "AI Engineer – застосунки на LLM, RAG, агенти, оцінювання якості, контроль вартості.",
+            de: "AI Engineer – LLM-Anwendungen, RAG, Agenten, Qualität messen, Kosten im Griff.",
+      fr: "AI Engineer – applications LLM, RAG, agents, évaluation, maîtrise des coûts.",
+      es: "AI Engineer – apps LLM, RAG, agentes, evaluación, control de coste.",
+      it: "AI Engineer – app LLM, RAG, agent, valutazione, controllo dei costi.",
+      tr: "AI Engineer – LLM uygulamaları, RAG, ajanlar, değerlendirme, maliyet kontrolü."
           }
         ]
       },
@@ -416,41 +416,41 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Often hired “too late” - then become existential. Plan them earlier than a breach or churn spike.",
-            ua: "Їх часто наймають «уже пізно» — і тоді від них залежить виживання. Закладайте ці ролі раніше, ніж станеться злам чи стрибок відтоку.",
-            de: "Oft erst „zu spät“ eingestellt — dann existenziell. Planen Sie sie, bevor ein Einbruch oder ein Churn-Sprung kommt.",
-      fr: "On les recrute souvent « trop tard » — et soudain c’est vital. Prévoyez-les avant une faille ou un pic de désabonnement.",
-      es: "A menudo se contratan «demasiado tarde» — y entonces son existenciales. Plánelos antes de una brecha o de un pico de baja.",
-      it: "Spesso si assumono «troppo tardi» — e allora diventano vitali. Pianificateli prima di una violazione o di un picco di abbandono.",
-      tr: "Çoğu zaman «çok geç» işe alınırlar — sonra varoluşsal olurlar. Bir ihlal veya kayıp sıçramasından önce planlayın."
+            ua: "Їх часто наймають «уже пізно» – і тоді від них залежить виживання. Закладайте ці ролі раніше, ніж станеться злам чи стрибок відтоку.",
+            de: "Oft erst „zu spät“ eingestellt – dann existenziell. Planen Sie sie, bevor ein Einbruch oder ein Churn-Sprung kommt.",
+      fr: "On les recrute souvent « trop tard » – et soudain c’est vital. Prévoyez-les avant une faille ou un pic de désabonnement.",
+      es: "A menudo se contratan «demasiado tarde» – y entonces son existenciales. Plánelos antes de una brecha o de un pico de baja.",
+      it: "Spesso si assumono «troppo tardi» – e allora diventano vitali. Pianificateli prima di una violazione o di un picco di abbandono.",
+      tr: "Çoğu zaman «çok geç» işe alınırlar – sonra varoluşsal olurlar. Bir ihlal veya kayıp sıçramasından önce planlayın."
           }
         ],
         list: [
           {
             en: "Cybersecurity - risk reduction, hardening, incidents, secure SDLC.",
-            ua: "Кібербезпека — знизити ризик, укріпити системи, інциденти, безпечний цикл розробки.",
-            de: "Cybersicherheit — Risiko senken, Systeme härten, Incidents, sicherer Entwicklungszyklus.",
-      fr: "Cybersécurité — réduire le risque, durcir les systèmes, incidents, cycle de développement sécurisé.",
-      es: "Ciberseguridad — bajar el riesgo, endurecer sistemas, incidentes, ciclo de desarrollo seguro.",
-      it: "Cybersecurity — ridurre il rischio, indurire i sistemi, incident, ciclo di sviluppo sicuro.",
-      tr: "Siber güvenlik — riski düşürmek, sistemleri sıkılaştırmak, olaylar, güvenli geliştirme döngüsü."
+            ua: "Кібербезпека – знизити ризик, укріпити системи, інциденти, безпечний цикл розробки.",
+            de: "Cybersicherheit – Risiko senken, Systeme härten, Incidents, sicherer Entwicklungszyklus.",
+      fr: "Cybersécurité – réduire le risque, durcir les systèmes, incidents, cycle de développement sécurisé.",
+      es: "Ciberseguridad – bajar el riesgo, endurecer sistemas, incidentes, ciclo de desarrollo seguro.",
+      it: "Cybersecurity – ridurre il rischio, indurire i sistemi, incident, ciclo di sviluppo sicuro.",
+      tr: "Siber güvenlik – riski düşürmek, sistemleri sıkılaştırmak, olaylar, güvenli geliştirme döngüsü."
           },
           {
             en: "Technical Support - unblock users, escalate well, feed roadmap.",
-            ua: "Technical Support — розблокувати користувачів, ескалювати вчасно, насичувати дорожню карту реальним болем.",
-            de: "Technical Support — Nutzer entblocken, sauber eskalieren, die Roadmap mit echtem Schmerz speisen.",
-      fr: "Technical Support — débloquer les utilisateurs, escalader proprement, nourrir la feuille de route du vrai terrain.",
-      es: "Technical Support — desbloquear a quienes usan el producto, escalar bien, alimentar la hoja de ruta con dolor real.",
-      it: "Technical Support — sbloccare chi usa il prodotto, escalare bene, alimentare la roadmap col dolore vero.",
-      tr: "Technical Support — kullanıcıyı açmak, doğru yükseltmek, yol haritasını sahadaki acıyla beslemek."
+            ua: "Technical Support – розблокувати користувачів, ескалювати вчасно, насичувати дорожню карту реальним болем.",
+            de: "Technical Support – Nutzer entblocken, sauber eskalieren, die Roadmap mit echtem Schmerz speisen.",
+      fr: "Technical Support – débloquer les utilisateurs, escalader proprement, nourrir la feuille de route du vrai terrain.",
+      es: "Technical Support – desbloquear a quienes usan el producto, escalar bien, alimentar la hoja de ruta con dolor real.",
+      it: "Technical Support – sbloccare chi usa il prodotto, escalare bene, alimentare la roadmap col dolore vero.",
+      tr: "Technical Support – kullanıcıyı açmak, doğru yükseltmek, yol haritasını sahadaki acıyla beslemek."
           },
           {
             en: "Technical Writer - docs that speed adoption and cut “how do I?” load.",
-            ua: "Technical Writer — тексти, з яких продукт швидше беруть у роботу, і менше питань «а як це зробити?».",
-            de: "Technical Writer — Texte, die Adoption beschleunigen und die „Wie mache ich das?“-Flut drosseln.",
-      fr: "Technical Writer — des docs qui accélèrent l’adoption et coupent la charge du « comment je fais ? ».",
-      es: "Technical Writer — docs que aceleran la adopción y recortan la carga de «¿cómo se hace?».",
-      it: "Technical Writer — documenti che accelerano l’adozione e tagliano il carico di «come si fa?».",
-      tr: "Technical Writer — ürünü daha çabuk benimseten ve «nasıl yapılır?» yükünü kesen metinler."
+            ua: "Technical Writer – тексти, з яких продукт швидше беруть у роботу, і менше питань «а як це зробити?».",
+            de: "Technical Writer – Texte, die Adoption beschleunigen und die „Wie mache ich das?“-Flut drosseln.",
+      fr: "Technical Writer – des docs qui accélèrent l’adoption et coupent la charge du « comment je fais ? ».",
+      es: "Technical Writer – docs que aceleran la adopción y recortan la carga de «¿cómo se hace?».",
+      it: "Technical Writer – documenti che accelerano l’adozione e tagliano il carico di «come si fa?».",
+      tr: "Technical Writer – ürünü daha çabuk benimseten ve «nasıl yapılır?» yükünü kesen metinler."
           }
         ]
       },
@@ -478,39 +478,39 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         list: [
           {
             en: "Software/Solutions Architect - structure, boundaries, long-term trade-offs.",
-            ua: "Software/Solutions Architect — структура, межі сервісів, довгострокові компроміси.",
-            de: "Software/Solutions Architect — Struktur, Grenzen, langfristige Kompromisse.",
-      fr: "Software/Solutions Architect — structure, frontières, arbitrages de long terme.",
-      es: "Software/Solutions Architect — estructura, límites, compromisos a largo plazo.",
-      it: "Software/Solutions Architect — struttura, confini, compromessi di lungo periodo.",
-      tr: "Software/Solutions Architect — yapı, sınırlar, uzun vadeli ödünler."
+            ua: "Software/Solutions Architect – структура, межі сервісів, довгострокові компроміси.",
+            de: "Software/Solutions Architect – Struktur, Grenzen, langfristige Kompromisse.",
+      fr: "Software/Solutions Architect – structure, frontières, arbitrages de long terme.",
+      es: "Software/Solutions Architect – estructura, límites, compromisos a largo plazo.",
+      it: "Software/Solutions Architect – struttura, confini, compromessi di lungo periodo.",
+      tr: "Software/Solutions Architect – yapı, sınırlar, uzun vadeli ödünler."
           },
           {
             en: "Tech Lead - technical bar inside a team; still close to code.",
-            ua: "Tech Lead — технічна планка в команді; досі близько до коду.",
-            de: "Tech Lead — die technische Messlatte im Team; weiterhin nah am Code.",
-      fr: "Tech Lead — le niveau technique dans une équipe ; toujours proche du code.",
-      es: "Tech Lead — el listón técnico dentro de un equipo; sigue cerca del código.",
-      it: "Tech Lead — l’asticella tecnica dentro un team; resta vicino al codice.",
-      tr: "Tech Lead — ekip içindeki teknik çıta; hâlâ koda yakın."
+            ua: "Tech Lead – технічна планка в команді; досі близько до коду.",
+            de: "Tech Lead – die technische Messlatte im Team; weiterhin nah am Code.",
+      fr: "Tech Lead – le niveau technique dans une équipe ; toujours proche du code.",
+      es: "Tech Lead – el listón técnico dentro de un equipo; sigue cerca del código.",
+      it: "Tech Lead – l’asticella tecnica dentro un team; resta vicino al codice.",
+      tr: "Tech Lead – ekip içindeki teknik çıta; hâlâ koda yakın."
           },
           {
             en: "Engineering Manager - people, performance, delivery system.",
-            ua: "Engineering Manager — люди, розвиток, система, якою команда постачає.",
-            de: "Engineering Manager — Menschen, Entwicklung, das System, mit dem das Team liefert.",
-      fr: "Engineering Manager — les gens, le développement, le système avec lequel l’équipe livre.",
-      es: "Engineering Manager — personas, desarrollo, el sistema con el que el equipo entrega.",
-      it: "Engineering Manager — persone, crescita, il sistema con cui il team consegna.",
-      tr: "Engineering Manager — insanlar, gelişim, ekibin teslim ettiği sistem."
+            ua: "Engineering Manager – люди, розвиток, система, якою команда постачає.",
+            de: "Engineering Manager – Menschen, Entwicklung, das System, mit dem das Team liefert.",
+      fr: "Engineering Manager – les gens, le développement, le système avec lequel l’équipe livre.",
+      es: "Engineering Manager – personas, desarrollo, el sistema con el que el equipo entrega.",
+      it: "Engineering Manager – persone, crescita, il sistema con cui il team consegna.",
+      tr: "Engineering Manager – insanlar, gelişim, ekibin teslim ettiği sistem."
           },
           {
             en: "CTO / VP Engineering - tech strategy and eng org at company scale.",
-            ua: "CTO / VP Engineering — техстратегія і організація інженерії на рівні компанії.",
-            de: "CTO / VP Engineering — Technologiestrategie und Engineering-Organisation im Unternehmensmaßstab.",
-      fr: "CTO / VP Engineering — stratégie tech et organisation d’ingénierie à l’échelle de l’entreprise.",
-      es: "CTO / VP Engineering — estrategia tech y organización de ingeniería a escala de empresa.",
-      it: "CTO / VP Engineering — strategia tech e organizzazione engineering a scala aziendale.",
-      tr: "CTO / VP Engineering — şirket ölçeğinde teknoloji stratejisi ve mühendislik organizasyonu."
+            ua: "CTO / VP Engineering – техстратегія і організація інженерії на рівні компанії.",
+            de: "CTO / VP Engineering – Technologiestrategie und Engineering-Organisation im Unternehmensmaßstab.",
+      fr: "CTO / VP Engineering – stratégie tech et organisation d’ingénierie à l’échelle de l’entreprise.",
+      es: "CTO / VP Engineering – estrategia tech y organización de ingeniería a escala de empresa.",
+      it: "CTO / VP Engineering – strategia tech e organizzazione engineering a scala aziendale.",
+      tr: "CTO / VP Engineering – şirket ölçeğinde teknoloji stratejisi ve mühendislik organizasyonu."
           }
         ]
       },
@@ -586,12 +586,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Hire for the bottleneck you actually have - not the trendiest title.",
-            ua: "Наймайте під вузьке місце, яке у вас є насправді, — не під наймоднішу назву посади.",
-            de: "Stellen Sie für den Engpass ein, den Sie wirklich haben — nicht für den angesagtesten Titel.",
-      fr: "Recrutez pour le goulot que vous avez vraiment — pas pour le titre le plus en vogue.",
-      es: "Contrate para el cuello de botella que tiene de verdad — no para el título de moda.",
-      it: "Assumete per il collo di bottiglia che avete davvero — non per il titolo più di tendenza.",
-      tr: "Gerçekten yaşadığınız darboğaz için işe alın — en moda unvan için değil."
+            ua: "Наймайте під вузьке місце, яке у вас є насправді, – не під наймоднішу назву посади.",
+            de: "Stellen Sie für den Engpass ein, den Sie wirklich haben – nicht für den angesagtesten Titel.",
+      fr: "Recrutez pour le goulot que vous avez vraiment – pas pour le titre le plus en vogue.",
+      es: "Contrate para el cuello de botella que tiene de verdad – no para el título de moda.",
+      it: "Assumete per il collo di bottiglia che avete davvero – non per il titolo più di tendenza.",
+      tr: "Gerçekten yaşadığınız darboğaz için işe alın – en moda unvan için değil."
           }
         ],
         list: [
@@ -770,21 +770,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A frontend developer builds everything users see and interact with in the browser or web app: layouts, forms, navigation, animations, client-side state, and the connection to APIs. Their job is not “make it pretty” - it is to turn designs and product requirements into fast, accessible, reliable interfaces.",
-            ua: "Frontend-розробник збирає все, що людина бачить і натискає в браузері: верстку, форми, навігацію, анімації, стан на клієнті й зв’язок з API. Це не «зробити гарно» — це перетворити макети й продуктові вимоги на швидкий, доступний і надійний інтерфейс.",
+            ua: "Frontend-розробник збирає все, що людина бачить і натискає в браузері: верстку, форми, навігацію, анімації, стан на клієнті й зв’язок з API. Це не «зробити гарно» – це перетворити макети й продуктові вимоги на швидкий, доступний і надійний інтерфейс.",
             de: "Ein Frontend-Entwickler baut alles, was Menschen im Browser sehen und bedienen: Layouts, Formulare, Navigation, Animationen, Client-State und die Anbindung an APIs. Die Aufgabe ist nicht, „es hübsch zu machen“, sondern Designs und Produktanforderungen in schnelle, barrierefreie, zuverlässige Oberflächen zu übersetzen.",
       fr: "Un développeur frontend construit tout ce que l’on voit et manipule dans le navigateur : mises en page, formulaires, navigation, animations, état côté client et branchement aux API. Le métier n’est pas de « faire joli » : c’est de transformer maquettes et besoins produit en interfaces rapides, accessibles et fiables.",
       es: "Un desarrollador frontend construye todo lo que se ve y se usa en el navegador: layouts, formularios, navegación, animaciones, estado en el cliente y la conexión a las APIs. El trabajo no es «que quede bonito»: es convertir diseño y requisitos en interfaces rápidas, accesibles y fiables.",
       it: "Uno sviluppatore frontend costruisce tutto ciò che si vede e si usa nel browser: layout, form, navigazione, animazioni, stato sul client e il collegamento alle API. Il mestiere non è «renderlo carino»: è tradurre design e requisiti di prodotto in interfacce veloci, accessibili e affidabili.",
-      tr: "Bir frontend geliştirici, tarayıcıda görülen ve tıklanan her şeyi kurar: yerleşim, formlar, gezinme, animasyonlar, istemci durumu ve API bağlantısı. İşi «güzel yapmak» değildir — tasarım ve ürün gereksinimlerini hızlı, erişilebilir, güvenilir arayüzlere çevirmektir."
+      tr: "Bir frontend geliştirici, tarayıcıda görülen ve tıklanan her şeyi kurar: yerleşim, formlar, gezinme, animasyonlar, istemci durumu ve API bağlantısı. İşi «güzel yapmak» değildir – tasarım ve ürün gereksinimlerini hızlı, erişilebilir, güvenilir arayüzlere çevirmektir."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -870,7 +870,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -952,12 +952,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "If your bottleneck is a slow or confusing interface - not the database - a strong frontend (or full-stack frontend) engineer usually delivers the highest ROI first.",
-            ua: "Якщо вузьке місце — повільний чи заплутаний інтерфейс, а не база, сильний frontend (або full-stack із фокусом на клієнт) зазвичай дає найшвидшу віддачу.",
-            de: "Wenn Ihr Engpass eine langsame oder verwirrende Oberfläche ist — nicht die Datenbank — bringt starkes Frontend (oder Full-Stack mit Frontend-Fokus) meist zuerst den höchsten Ertrag.",
-      fr: "Si le goulot est une interface lente ou confuse — pas la base de données — un frontend solide (ou un full-stack orienté client) rapporte généralement le plus, et d’abord.",
-      es: "Si el cuello de botella es una interfaz lenta o confusa — no la base de datos — un frontend fuerte (o un full-stack con foco en el cliente) suele dar el retorno más alto primero.",
-      it: "Se il collo di bottiglia è un’interfaccia lenta o confusa — non il database — un frontend solido (o un full-stack con focus sul client) di solito dà prima il ritorno più alto.",
-      tr: "Darboğaz veritabanı değil, yavaş veya kafa karıştıran bir arayüzse — güçlü bir frontend (veya istemci odaklı full-stack) genellikle ilk ve en yüksek getiriyi verir."
+            ua: "Якщо вузьке місце – повільний чи заплутаний інтерфейс, а не база, сильний frontend (або full-stack із фокусом на клієнт) зазвичай дає найшвидшу віддачу.",
+            de: "Wenn Ihr Engpass eine langsame oder verwirrende Oberfläche ist – nicht die Datenbank – bringt starkes Frontend (oder Full-Stack mit Frontend-Fokus) meist zuerst den höchsten Ertrag.",
+      fr: "Si le goulot est une interface lente ou confuse – pas la base de données – un frontend solide (ou un full-stack orienté client) rapporte généralement le plus, et d’abord.",
+      es: "Si el cuello de botella es una interfaz lenta o confusa – no la base de datos – un frontend fuerte (o un full-stack con foco en el cliente) suele dar el retorno más alto primero.",
+      it: "Se il collo di bottiglia è un’interfaccia lenta o confusa – non il database – un frontend solido (o un full-stack con focus sul client) di solito dà prima il ritorno più alto.",
+      tr: "Darboğaz veritabanı değil, yavaş veya kafa karıştıran bir arayüzse – güçlü bir frontend (veya istemci odaklı full-stack) genellikle ilk ve en yüksek getiriyi verir."
           }
         ]
       }
@@ -1049,7 +1049,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A backend developer builds the invisible machinery of a product: business rules, databases, APIs, authentication, queues, and third-party integrations. If the frontend is the storefront, the backend is the warehouse, accounting, and security system behind it.",
-            ua: "Backend-розробник збирає невидиму машинерію продукту: бізнес-правила, бази, API, автентифікацію, черги й інтеграції. Якщо frontend — вітрина, backend — склад, бухгалтерія й охорона за нею.",
+            ua: "Backend-розробник збирає невидиму машинерію продукту: бізнес-правила, бази, API, автентифікацію, черги й інтеграції. Якщо frontend – вітрина, backend – склад, бухгалтерія й охорона за нею.",
             de: "Ein Backend-Entwickler baut die unsichtbare Maschinerie: Geschäftsregeln, Datenbanken, APIs, Authentifizierung, Warteschlangen und Integrationen. Ist das Frontend das Schaufenster, ist das Backend Lager, Buchhaltung und Wachdienst dahinter.",
       fr: "Un développeur backend construit la machinerie invisible : règles métier, bases, API, authentification, files d’attente et intégrations. Si le frontend est la vitrine, le backend est l’entrepôt, la compta et la sécurité derrière.",
       es: "Un desarrollador backend construye la maquinaria invisible: reglas de negocio, bases, APIs, autenticación, colas e integraciones. Si el frontend es el escaparate, el backend es el almacén, la contabilidad y la seguridad de detrás.",
@@ -1058,12 +1058,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -1149,7 +1149,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -1231,12 +1231,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A weak backend shows up as “random bugs,” slow lists, broken payments, and security incidents - even if the UI looks modern.",
-            ua: "Слабкий бекенд проявляється «рандомними багами», повільними списками, зламаними платежами й інцидентами безпеки — навіть якщо інтерфейс виглядає сучасно.",
-            de: "Ein schwaches Backend zeigt sich als „zufällige Bugs“, langsame Listen, kaputte Zahlungen und Sicherheitsvorfälle — selbst wenn die Oberfläche modern wirkt.",
-      fr: "Un backend faible se voit en « bugs au hasard », listes lentes, paiements cassés et incidents de sécurité — même si l’interface a l’air moderne.",
-      es: "Un backend flojo se nota en «bugs aleatorios», listas lentas, pagos rotos e incidentes de seguridad — aunque la interfaz se vea moderna.",
-      it: "Un backend debole si vede in «bug a caso», liste lente, pagamenti rotti e incident di security — anche se l’interfaccia sembra moderna.",
-      tr: "Zayıf bir backend «rastgele bug», yavaş listeler, kırık ödemeler ve güvenlik olayları olarak görünür — arayüz modern dursa bile."
+            ua: "Слабкий бекенд проявляється «рандомними багами», повільними списками, зламаними платежами й інцидентами безпеки – навіть якщо інтерфейс виглядає сучасно.",
+            de: "Ein schwaches Backend zeigt sich als „zufällige Bugs“, langsame Listen, kaputte Zahlungen und Sicherheitsvorfälle – selbst wenn die Oberfläche modern wirkt.",
+      fr: "Un backend faible se voit en « bugs au hasard », listes lentes, paiements cassés et incidents de sécurité – même si l’interface a l’air moderne.",
+      es: "Un backend flojo se nota en «bugs aleatorios», listas lentas, pagos rotos e incidentes de seguridad – aunque la interfaz se vea moderna.",
+      it: "Un backend debole si vede in «bug a caso», liste lente, pagamenti rotti e incident di security – anche se l’interfaccia sembra moderna.",
+      tr: "Zayıf bir backend «rastgele bug», yavaş listeler, kırık ödemeler ve güvenlik olayları olarak görünür – arayüz modern dursa bile."
           }
         ]
       }
@@ -1328,7 +1328,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A full-stack developer delivers vertical slices of a product: interface, API, data model, and often deployment. The value is end-to-end ownership - fewer handoffs, faster MVPs, and one person who understands how a change ripples through the system.",
-            ua: "Full-stack закриває функцію наскрізь: інтерфейс, API, модель даних і часто викладку. Цінність — одна відповідальність на весь шлях: менше передач, швидші MVP і людина, яка розуміє, як зміна розходиться системою.",
+            ua: "Full-stack закриває функцію наскрізь: інтерфейс, API, модель даних і часто викладку. Цінність – одна відповідальність на весь шлях: менше передач, швидші MVP і людина, яка розуміє, як зміна розходиться системою.",
             de: "Ein Full-Stack-Entwickler liefert eine Funktion durchgängig: Oberfläche, API, Datenmodell, oft auch das Deployment. Der Wert ist durchgängige Verantwortung: weniger Übergaben, schnellere MVPs und eine Person, die versteht, wie eine Änderung durchs System läuft.",
       fr: "Un full-stack livre une fonctionnalité de bout en bout : interface, API, modèle de données, souvent le déploiement. La valeur, c’est une responsabilité complète : moins de passations, des MVP plus vite, et quelqu’un qui voit comment un changement se propage.",
       es: "Un full-stack entrega la funcionalidad de punta a punta: interfaz, API, modelo de datos y a menudo el despliegue. El valor es una responsabilidad completa: menos traspasos, MVP más rápidos y alguien que entiende cómo un cambio recorre el sistema.",
@@ -1337,12 +1337,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -1428,7 +1428,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -1488,12 +1488,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Best for startups, SMB products, CRMs, internal tools, and agencies/freelancers where one senior engineer can move faster than a fragmented squad - until scale demands deeper specialists.",
-            ua: "Найкраще для стартапів, продуктів малого бізнесу, CRM, внутрішніх інструментів, агенцій і фрилансу: один сильний інженер часто швидший за розколотий загін — доки масштаб не вимагає глибших спеціалістів.",
-            de: "Am besten für Start-ups, KMU-Produkte, CRMs, interne Tools, Agenturen und Freelancer: eine starke Senior-Person ist oft schneller als ein zersplittertes Squad — bis die Skala tiefere Spezialist:innen braucht.",
-      fr: "Idéal pour startups, produits PME, CRM, outils internes, agences et freelance : une personne senior avance souvent plus vite qu’une squad éclatée — jusqu’à ce que l’échelle exige des spécialistes plus profonds.",
-      es: "Encaja en startups, productos pyme, CRM, herramientas internas, agencias y freelance: una persona senior suele ir más rápido que un escuadrón fragmentado — hasta que la escala pide especialistas más profundos.",
-      it: "Ideale per startup, prodotti PMI, CRM, tool interni, agenzie e freelance: una persona senior spesso va più veloce di una squadra spezzata — finché la scala non chiede specialisti più profondi.",
-      tr: "Girişimler, KOBİ ürünleri, CRM, iç araçlar, ajanslar ve freelance için en iyisi: güçlü bir senior, bölünmüş ekipten çoğu zaman daha hızlıdır — ölçek daha derin uzman isteyene kadar."
+            ua: "Найкраще для стартапів, продуктів малого бізнесу, CRM, внутрішніх інструментів, агенцій і фрилансу: один сильний інженер часто швидший за розколотий загін – доки масштаб не вимагає глибших спеціалістів.",
+            de: "Am besten für Start-ups, KMU-Produkte, CRMs, interne Tools, Agenturen und Freelancer: eine starke Senior-Person ist oft schneller als ein zersplittertes Squad – bis die Skala tiefere Spezialist:innen braucht.",
+      fr: "Idéal pour startups, produits PME, CRM, outils internes, agences et freelance : une personne senior avance souvent plus vite qu’une squad éclatée – jusqu’à ce que l’échelle exige des spécialistes plus profonds.",
+      es: "Encaja en startups, productos pyme, CRM, herramientas internas, agencias y freelance: una persona senior suele ir más rápido que un escuadrón fragmentado – hasta que la escala pide especialistas más profundos.",
+      it: "Ideale per startup, prodotti PMI, CRM, tool interni, agenzie e freelance: una persona senior spesso va più veloce di una squadra spezzata – finché la scala non chiede specialisti più profondi.",
+      tr: "Girişimler, KOBİ ürünleri, CRM, iç araçlar, ajanslar ve freelance için en iyisi: güçlü bir senior, bölünmüş ekipten çoğu zaman daha hızlıdır – ölçek daha derin uzman isteyene kadar."
           }
         ]
       },
@@ -1510,12 +1510,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Full-stack is not “knows a bit of everything.” Senior full-stack means owning outcomes: a working product in production, not two half-finished layers.",
-            ua: "Full-stack — це не «трохи вміє все». Сеньйорний full-stack означає відповідати за результат: робочий продукт у продакшені, а не два напівзроблені шари.",
+            ua: "Full-stack – це не «трохи вміє все». Сеньйорний full-stack означає відповідати за результат: робочий продукт у продакшені, а не два напівзроблені шари.",
             de: "Full-Stack heißt nicht „von allem ein bisschen“. Senior Full-Stack heißt, Ergebnisse zu tragen: ein laufendes Produkt im Produktivbetrieb, nicht zwei halbfertige Schichten.",
       fr: "Full-stack, ce n’est pas « un peu de tout ». Un full-stack senior porte le résultat : un produit qui tourne en production, pas deux couches à moitié finies.",
       es: "Full-stack no es «un poco de todo». Un full-stack senior responde del resultado: un producto que funciona en producción, no dos capas a medio hacer.",
       it: "Full-stack non è «un po’ di tutto». Un full-stack senior risponde del risultato: un prodotto che gira in produzione, non due strati a metà.",
-      tr: "Full-stack «her şeyden biraz» değildir. Kıdemli full-stack, sonucu sahiplenmektir: canlıda çalışan bir ürün — yarım kalmış iki katman değil."
+      tr: "Full-stack «her şeyden biraz» değildir. Kıdemli full-stack, sonucu sahiplenmektir: canlıda çalışan bir ürün – yarım kalmış iki katman değil."
           }
         ]
       }
@@ -1535,7 +1535,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: "Mobile developers build native or cross-platform apps. Responsibilities, skill sets, and when a mobile specialist is the right hire.",
-      ua: "Mobile-розробники збирають нативні чи кросплатформені застосунки. Обов’язки, стек і коли спеціаліст із мобайлу — правильний найм.",
+      ua: "Mobile-розробники збирають нативні чи кросплатформені застосунки. Обов’язки, стек і коли спеціаліст із мобайлу – правильний найм.",
       de: "Mobile-Entwickler bauen native oder plattformübergreifende Apps. Aufgaben, Skillset und wann eine Mobile-Spezialistin die richtige Einstellung ist.",
       fr: "Les développeurs mobile construisent des apps natives ou multiplateformes. Missions, compétences, et quand ce profil est le bon recrutement.",
       es: "Los desarrolladores mobile construyen apps nativas o multiplataforma. Funciones, competencias y cuándo este perfil es la contratación correcta.",
@@ -1607,21 +1607,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A mobile developer builds applications for phones and tablets - native (Swift/Kotlin) or cross-platform (React Native, Flutter). They own app architecture, offline behavior, store releases, push notifications, and device-specific UX.",
-            ua: "Mobile-розробник збирає застосунки для телефонів і планшетів — нативно (Swift/Kotlin) або кросплатформою (React Native, Flutter). У зоні відповідальності: архітектура, офлайн, релізи в сторах, пуші й UX під пристрій.",
-            de: "Ein Mobile-Entwickler baut Apps für Handy und Tablet — nativ (Swift/Kotlin) oder plattformübergreifend (React Native, Flutter). Dazu gehören Architektur, Offline-Verhalten, Store-Releases, Push und gerätespezifische UX.",
-      fr: "Un développeur mobile construit des apps pour téléphone et tablette — natives (Swift/Kotlin) ou multiplateformes (React Native, Flutter). Il porte l’architecture, le hors-ligne, les mises en store, les push et l’UX propre à l’appareil.",
-      es: "Un desarrollador mobile construye apps para teléfono y tableta — nativas (Swift/Kotlin) o multiplataforma (React Native, Flutter). Responde de arquitectura, modo sin conexión, publicaciones en tiendas, push y UX del dispositivo.",
-      it: "Uno sviluppatore mobile costruisce app per telefono e tablet — native (Swift/Kotlin) o multipiattaforma (React Native, Flutter). Risponde di architettura, offline, rilasci negli store, push e UX del dispositivo.",
-      tr: "Bir mobil geliştirici telefon ve tablet uygulamaları kurar — yereli (Swift/Kotlin) veya çapraz platform (React Native, Flutter). Mimari, çevrimdışı davranış, mağaza yayınları, push ve cihaza özgü UX onundur."
+            ua: "Mobile-розробник збирає застосунки для телефонів і планшетів – нативно (Swift/Kotlin) або кросплатформою (React Native, Flutter). У зоні відповідальності: архітектура, офлайн, релізи в сторах, пуші й UX під пристрій.",
+            de: "Ein Mobile-Entwickler baut Apps für Handy und Tablet – nativ (Swift/Kotlin) oder plattformübergreifend (React Native, Flutter). Dazu gehören Architektur, Offline-Verhalten, Store-Releases, Push und gerätespezifische UX.",
+      fr: "Un développeur mobile construit des apps pour téléphone et tablette – natives (Swift/Kotlin) ou multiplateformes (React Native, Flutter). Il porte l’architecture, le hors-ligne, les mises en store, les push et l’UX propre à l’appareil.",
+      es: "Un desarrollador mobile construye apps para teléfono y tableta – nativas (Swift/Kotlin) o multiplataforma (React Native, Flutter). Responde de arquitectura, modo sin conexión, publicaciones en tiendas, push y UX del dispositivo.",
+      it: "Uno sviluppatore mobile costruisce app per telefono e tablet – native (Swift/Kotlin) o multipiattaforma (React Native, Flutter). Risponde di architettura, offline, rilasci negli store, push e UX del dispositivo.",
+      tr: "Bir mobil geliştirici telefon ve tablet uygulamaları kurar – yereli (Swift/Kotlin) veya çapraz platform (React Native, Flutter). Mimari, çevrimdışı davranış, mağaza yayınları, push ve cihaza özgü UX onundur."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -1707,7 +1707,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -1718,12 +1718,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         list: [
           {
             en: "Swift/SwiftUI or Kotlin/Jetpack - or Flutter/React Native",
-            ua: "Swift/SwiftUI або Kotlin/Jetpack — або Flutter/React Native",
-            de: "Swift/SwiftUI oder Kotlin/Jetpack — oder Flutter/React Native",
-      fr: "Swift/SwiftUI ou Kotlin/Jetpack — ou Flutter/React Native",
-      es: "Swift/SwiftUI o Kotlin/Jetpack — o Flutter/React Native",
-      it: "Swift/SwiftUI o Kotlin/Jetpack — oppure Flutter/React Native",
-      tr: "Swift/SwiftUI veya Kotlin/Jetpack — ya da Flutter/React Native"
+            ua: "Swift/SwiftUI або Kotlin/Jetpack – або Flutter/React Native",
+            de: "Swift/SwiftUI oder Kotlin/Jetpack – oder Flutter/React Native",
+      fr: "Swift/SwiftUI ou Kotlin/Jetpack – ou Flutter/React Native",
+      es: "Swift/SwiftUI o Kotlin/Jetpack – o Flutter/React Native",
+      it: "Swift/SwiftUI o Kotlin/Jetpack – oppure Flutter/React Native",
+      tr: "Swift/SwiftUI veya Kotlin/Jetpack – ya da Flutter/React Native"
           },
           {
             en: "Mobile architecture (MVVM, clean), state, networking",
@@ -1886,21 +1886,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A DevOps engineer improves how software is built, tested, deployed, and operated. They automate infrastructure and delivery so developers ship often without fear - and production stays observable and recoverable.",
-            ua: "DevOps-інженер покращує те, як ПЗ збирають, тестують, викладають і експлуатують. Автоматизує інфраструктуру й поставку, щоб розробники релизили часто і без страху — а продакшен лишався спостережуваним і відновлюваним.",
-            de: "Ein DevOps-Ingenieur verbessert, wie Software gebaut, getestet, ausgeliefert und betrieben wird. Infrastruktur und Lieferung werden automatisiert, damit Entwickler oft und ohne Angst releasen — und der Produktivbetrieb beobachtbar und wiederherstellbar bleibt.",
-      fr: "Un ingénieur DevOps améliore la façon dont on construit, teste, déploie et exploite le logiciel. Il automatise l’infra et la livraison pour que les devs publient souvent, sans peur — et que la production reste observable et récupérable.",
-      es: "Un ingeniero DevOps mejora cómo se construye, prueba, despliega y opera el software. Automatiza infra y entrega para que desarrollo publique a menudo y sin miedo — y producción siga observable y recuperable.",
-      it: "Un ingegnere DevOps migliora come si costruisce, testa, rilascia ed esercita il software. Automatizza infra e consegna così gli sviluppatori rilasciano spesso e senza paura — e la produzione resta osservabile e ripristinabile.",
-      tr: "Bir DevOps mühendisi yazılımın nasıl derlendiğini, test edildiğini, yayınlandığını ve işletildiğini iyileştirir. Altyapı ve teslimi otomatikleştirir ki geliştiriciler sık ve korkusuz yayınlasın — canlı ortam da gözlemlenebilir ve kurtarılabilir kalsın."
+            ua: "DevOps-інженер покращує те, як ПЗ збирають, тестують, викладають і експлуатують. Автоматизує інфраструктуру й поставку, щоб розробники релизили часто і без страху – а продакшен лишався спостережуваним і відновлюваним.",
+            de: "Ein DevOps-Ingenieur verbessert, wie Software gebaut, getestet, ausgeliefert und betrieben wird. Infrastruktur und Lieferung werden automatisiert, damit Entwickler oft und ohne Angst releasen – und der Produktivbetrieb beobachtbar und wiederherstellbar bleibt.",
+      fr: "Un ingénieur DevOps améliore la façon dont on construit, teste, déploie et exploite le logiciel. Il automatise l’infra et la livraison pour que les devs publient souvent, sans peur – et que la production reste observable et récupérable.",
+      es: "Un ingeniero DevOps mejora cómo se construye, prueba, despliega y opera el software. Automatiza infra y entrega para que desarrollo publique a menudo y sin miedo – y producción siga observable y recuperable.",
+      it: "Un ingegnere DevOps migliora come si costruisce, testa, rilascia ed esercita il software. Automatizza infra e consegna così gli sviluppatori rilasciano spesso e senza paura – e la produzione resta osservabile e ripristinabile.",
+      tr: "Bir DevOps mühendisi yazılımın nasıl derlendiğini, test edildiğini, yayınlandığını ve işletildiğini iyileştirir. Altyapı ve teslimi otomatikleştirir ki geliştiriciler sık ve korkusuz yayınlasın – canlı ortam da gözlemlenebilir ve kurtarılabilir kalsın."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -1986,7 +1986,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -2068,7 +2068,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "DevOps is not “the person who SSHs into servers.” Mature DevOps is a product: a reliable delivery platform for the whole team.",
-            ua: "DevOps — це не «людина, яка ходить на сервери по SSH». Зрілий DevOps — це продукт: надійна платформа поставки для всієї команди.",
+            ua: "DevOps – це не «людина, яка ходить на сервери по SSH». Зрілий DevOps – це продукт: надійна платформа поставки для всієї команди.",
             de: "DevOps ist nicht „die Person, die sich per SSH auf Server schaltet“. Reifes DevOps ist ein Produkt: eine verlässliche Lieferplattform fürs ganze Team.",
       fr: "Le DevOps n’est pas « la personne qui SSH sur les serveurs ». Un DevOps mature est un produit : une plateforme de livraison fiable pour toute l’équipe.",
       es: "DevOps no es «quien entra por SSH a los servidores». Un DevOps maduro es un producto: una plataforma de entrega fiable para todo el equipo.",
@@ -2165,21 +2165,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A QA engineer verifies that the product behaves as intended - and finds what nobody planned for. Modern QA ranges from exploratory/manual testing to automation frameworks that guard every release.",
-            ua: "QA-інженер перевіряє, що продукт поводиться як задумано, — і знаходить те, чого ніхто не планував. Сучасний QA — від дослідницького/ручного тесту до автофреймворків, які стережуть кожен реліз.",
-            de: "Ein QA-Ingenieur prüft, ob das Produkt sich wie gedacht verhält — und findet, was niemand eingeplant hat. Modernes QA reicht von explorativem/manuellem Testen bis zu Automatisierung, die jeden Release bewacht.",
-      fr: "Un ingénieur QA vérifie que le produit se comporte comme prévu — et trouve ce que personne n’avait prévu. La QA moderne va du test exploratoire/manuel aux cadres d’automatisation qui gardent chaque release.",
-      es: "Un ingeniero QA comprueba que el producto se comporte como se pensó — y encuentra lo que nadie planeó. El QA moderno va del test exploratorio/manual a marcos de automatización que vigilan cada publicación.",
-      it: "Un ingegnere QA verifica che il prodotto si comporti come previsto — e trova ciò che nessuno aveva pianificato. Il QA moderno va dal test esplorativo/manuale ai framework di automazione che custodiscono ogni rilascio.",
-      tr: "Bir QA mühendisi ürünün tasarlandığı gibi davrandığını doğrular — ve kimsenin planlamadığı şeyi bulur. Modern QA, keşif/manuel testten her sürümü koruyan otomasyon çerçevelerine uzanır."
+            ua: "QA-інженер перевіряє, що продукт поводиться як задумано, – і знаходить те, чого ніхто не планував. Сучасний QA – від дослідницького/ручного тесту до автофреймворків, які стережуть кожен реліз.",
+            de: "Ein QA-Ingenieur prüft, ob das Produkt sich wie gedacht verhält – und findet, was niemand eingeplant hat. Modernes QA reicht von explorativem/manuellem Testen bis zu Automatisierung, die jeden Release bewacht.",
+      fr: "Un ingénieur QA vérifie que le produit se comporte comme prévu – et trouve ce que personne n’avait prévu. La QA moderne va du test exploratoire/manuel aux cadres d’automatisation qui gardent chaque release.",
+      es: "Un ingeniero QA comprueba que el producto se comporte como se pensó – y encuentra lo que nadie planeó. El QA moderno va del test exploratorio/manual a marcos de automatización que vigilan cada publicación.",
+      it: "Un ingegnere QA verifica che il prodotto si comporti come previsto – e trova ciò che nessuno aveva pianificato. Il QA moderno va dal test esplorativo/manuale ai framework di automazione che custodiscono ogni rilascio.",
+      tr: "Bir QA mühendisi ürünün tasarlandığı gibi davrandığını doğrular – ve kimsenin planlamadığı şeyi bulur. Modern QA, keşif/manuel testten her sürümü koruyan otomasyon çerçevelerine uzanır."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -2265,7 +2265,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -2325,12 +2325,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "When release risk is high, regressions keep returning, or developers are too close to the code to see user-breaking paths - especially in fintech, health, e-commerce, and complex SaaS.",
-            ua: "Коли ризик релізу високий, регресії повертаються, або розробка занадто близько до коду, щоб бачити шляхи, які ламають користувача, — особливо у фінтеху, медицині, e-commerce і складному SaaS.",
-            de: "Wenn Release-Risiko hoch ist, Regressionen wiederkehren oder Entwickler dem Code zu nah sind, um nutzerbrechende Pfade zu sehen — vor allem in Fintech, Gesundheit, E-Commerce und komplexem SaaS.",
-      fr: "Quand le risque de release est élevé, les régressions reviennent, ou les devs sont trop près du code pour voir les chemins qui cassent l’usage — surtout en fintech, santé, e-commerce et SaaS complexe.",
-      es: "Cuando el riesgo de publicación es alto, las regresiones vuelven o desarrollo está demasiado cerca del código para ver caminos que rompen al usuario — sobre todo en fintech, salud, e-commerce y SaaS complejo.",
-      it: "Quando il rischio di rilascio è alto, le regressioni tornano o lo sviluppo è troppo vicino al codice per vedere i percorsi che rompono l’uso — soprattutto in fintech, salute, e-commerce e SaaS complesso.",
-      tr: "Sürüm riski yüksekse, regresyonlar geri geliyorsa veya geliştiriciler koda o kadar yakın ki kullanıcıyı kıran yolları görmüyorsa — özellikle fintech, sağlık, e-ticaret ve karmaşık SaaS’te."
+            ua: "Коли ризик релізу високий, регресії повертаються, або розробка занадто близько до коду, щоб бачити шляхи, які ламають користувача, – особливо у фінтеху, медицині, e-commerce і складному SaaS.",
+            de: "Wenn Release-Risiko hoch ist, Regressionen wiederkehren oder Entwickler dem Code zu nah sind, um nutzerbrechende Pfade zu sehen – vor allem in Fintech, Gesundheit, E-Commerce und komplexem SaaS.",
+      fr: "Quand le risque de release est élevé, les régressions reviennent, ou les devs sont trop près du code pour voir les chemins qui cassent l’usage – surtout en fintech, santé, e-commerce et SaaS complexe.",
+      es: "Cuando el riesgo de publicación es alto, las regresiones vuelven o desarrollo está demasiado cerca del código para ver caminos que rompen al usuario – sobre todo en fintech, salud, e-commerce y SaaS complejo.",
+      it: "Quando il rischio di rilascio è alto, le regressioni tornano o lo sviluppo è troppo vicino al codice per vedere i percorsi che rompono l’uso – soprattutto in fintech, salute, e-commerce e SaaS complesso.",
+      tr: "Sürüm riski yüksekse, regresyonlar geri geliyorsa veya geliştiriciler koda o kadar yakın ki kullanıcıyı kıran yolları görmüyorsa – özellikle fintech, sağlık, e-ticaret ve karmaşık SaaS’te."
           }
         ]
       },
@@ -2372,12 +2372,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: "UI/UX designers shape how products feel and work. UX research, UI systems, handoff - and when design is the growth lever.",
-      ua: "UI/UX формує, як продукт відчувається і як ним користуються. Дослідження, візуальна система, передача в розробку — і коли дизайн є важелем росту.",
-      de: "UI/UX formt, wie sich Produkte anfühlen und funktionieren. Recherche, UI-Systeme, Übergabe — und wann Design der Wachstumshebel ist.",
-      fr: "L’UI/UX façonne le ressenti et le fonctionnement du produit. Recherche, systèmes visuels, passation — et quand le design est le levier de croissance.",
-      es: "UI/UX da forma a cómo se siente y funciona el producto. Investigación, sistemas visuales, traspaso — y cuándo el diseño es la palanca de crecimiento.",
-      it: "UI/UX dà forma a come il prodotto si percepisce e funziona. Ricerca, sistemi visivi, passaggio — e quando il design è la leva di crescita.",
-      tr: "UI/UX, ürünün nasıl hissedildiğini ve işlediğini şekillendirir. Araştırma, görsel sistemler, teslim — ve tasarımın ne zaman büyüme kaldıracı olduğu."
+      ua: "UI/UX формує, як продукт відчувається і як ним користуються. Дослідження, візуальна система, передача в розробку – і коли дизайн є важелем росту.",
+      de: "UI/UX formt, wie sich Produkte anfühlen und funktionieren. Recherche, UI-Systeme, Übergabe – und wann Design der Wachstumshebel ist.",
+      fr: "L’UI/UX façonne le ressenti et le fonctionnement du produit. Recherche, systèmes visuels, passation – et quand le design est le levier de croissance.",
+      es: "UI/UX da forma a cómo se siente y funciona el producto. Investigación, sistemas visuales, traspaso – y cuándo el diseño es la palanca de crecimiento.",
+      it: "UI/UX dà forma a come il prodotto si percepisce e funziona. Ricerca, sistemi visivi, passaggio – e quando il design è la leva di crescita.",
+      tr: "UI/UX, ürünün nasıl hissedildiğini ve işlediğini şekillendirir. Araştırma, görsel sistemler, teslim – ve tasarımın ne zaman büyüme kaldıracı olduğu."
     },
     readTime: {
       en: "6 min read",
@@ -2444,7 +2444,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A UI/UX designer designs the experience and the visual interface. UX focuses on user goals, flows, and clarity; UI focuses on visual hierarchy, components, and consistency. Many specialists combine both.",
-            ua: "UI/UX-дизайнер проєктує і досвід, і візуальний інтерфейс. UX дивиться на цілі людини, сценарії й ясність; UI — на ієрархію, компоненти й узгодженість. Багато спеціалістів тримають обидва.",
+            ua: "UI/UX-дизайнер проєктує і досвід, і візуальний інтерфейс. UX дивиться на цілі людини, сценарії й ясність; UI – на ієрархію, компоненти й узгодженість. Багато спеціалістів тримають обидва.",
             de: "Ein UI/UX-Designer gestaltet Erlebnis und visuelle Oberfläche. UX zielt auf Nutzerziele, Abläufe und Klarheit; UI auf Hierarchie, Komponenten und Konsistenz. Viele Spezialist:innen vereinen beides.",
       fr: "Un designer UI/UX conçoit l’expérience et l’interface visuelle. L’UX vise les buts de l’utilisateur, les parcours et la clarté ; l’UI, la hiérarchie, les composants et la cohérence. Beaucoup de profils tiennent les deux.",
       es: "Un diseñador UI/UX diseña la experiencia y la interfaz visual. UX mira objetivos, flujos y claridad; UI, jerarquía, componentes y consistencia. Muchos perfiles cubren ambos.",
@@ -2453,12 +2453,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -2544,7 +2544,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -2604,12 +2604,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "When conversion is low, onboarding confuses users, or engineering builds screens without a coherent system - design debt becomes product debt.",
-            ua: "Коли конверсія низька, онбординг плутає, або інженерія збирає екрани без єдиної системи — борги дизайну стають боргами продукту.",
-            de: "Wenn Conversion niedrig ist, Onboarding verwirrt oder Engineering Screens ohne kohärentes System baut — Desigschulden werden Produktschulden.",
-      fr: "Quand la conversion est basse, l’onboarding embrouille, ou l’ingénierie assemble des écrans sans système cohérent — la dette design devient dette produit.",
-      es: "Cuando la conversión es baja, el onboarding confunde o ingeniería monta pantallas sin un sistema coherente — la deuda de diseño se vuelve deuda de producto.",
-      it: "Quando la conversione è bassa, l’onboarding confonde o l’engineering monta schermate senza un sistema coerente — il debito di design diventa debito di prodotto.",
-      tr: "Dönüşüm düşükse, karşılama kafa karıştırıyorsa veya mühendislik tutarlı bir sistem olmadan ekran kuruyorsa — tasarım borcu ürün borcu olur."
+            ua: "Коли конверсія низька, онбординг плутає, або інженерія збирає екрани без єдиної системи – борги дизайну стають боргами продукту.",
+            de: "Wenn Conversion niedrig ist, Onboarding verwirrt oder Engineering Screens ohne kohärentes System baut – Desigschulden werden Produktschulden.",
+      fr: "Quand la conversion est basse, l’onboarding embrouille, ou l’ingénierie assemble des écrans sans système cohérent – la dette design devient dette produit.",
+      es: "Cuando la conversión es baja, el onboarding confunde o ingeniería monta pantallas sin un sistema coherente – la deuda de diseño se vuelve deuda de producto.",
+      it: "Quando la conversione è bassa, l’onboarding confonde o l’engineering monta schermate senza un sistema coerente – il debito di design diventa debito di prodotto.",
+      tr: "Dönüşüm düşükse, karşılama kafa karıştırıyorsa veya mühendislik tutarlı bir sistem olmadan ekran kuruyorsa – tasarım borcu ürün borcu olur."
           }
         ]
       },
@@ -2626,12 +2626,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Great design reduces support tickets and rewrites. It is not decoration - it is product risk management.",
-            ua: "Добрий дизайн зменшує тікети підтримки й переписування. Це не декор — це керування ризиком продукту.",
-            de: "Gutes Design senkt Support-Tickets und Rewrites. Es ist keine Dekoration — es ist Risikomanagement am Produkt.",
+            ua: "Добрий дизайн зменшує тікети підтримки й переписування. Це не декор – це керування ризиком продукту.",
+            de: "Gutes Design senkt Support-Tickets und Rewrites. Es ist keine Dekoration – es ist Risikomanagement am Produkt.",
       fr: "Un bon design réduit les tickets support et les réécritures. Ce n’est pas de la déco : c’est de la gestion de risque produit.",
       es: "Un buen diseño reduce tickets de soporte y reescrituras. No es decoración: es gestión de riesgo de producto.",
       it: "Un buon design riduce i ticket di supporto e le riscritture. Non è decorazione: è gestione del rischio di prodotto.",
-      tr: "İyi tasarım destek taleplerini ve yeniden yazmaları azaltır. Süs değildir — ürün risk yönetimidir."
+      tr: "İyi tasarım destek taleplerini ve yeniden yazmaları azaltır. Süs değildir – ürün risk yönetimidir."
           }
         ]
       }
@@ -2716,8 +2716,8 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A product manager owns the “why” and “what”: problem discovery, prioritization, roadmap, and success metrics. They do not manage people day-to-day; they align business goals with user value and engineering capacity.",
-            ua: "Product Manager тримає «навіщо» і «що»: дослідження задачі, пріоритети, дорожню карту й метрики успіху. Це не щоденне керування людьми — це звести бізнес-цілі з цінністю для користувача і місткістю інженерії.",
-            de: "Ein Product Manager trägt das „Warum“ und „Was“: Problemfindung, Priorisierung, Roadmap und Erfolgsmetriken. Er führt nicht den Alltag der Menschen — er richtet Geschäftsziele an Nutzwert und Engineering-Kapazität aus.",
+            ua: "Product Manager тримає «навіщо» і «що»: дослідження задачі, пріоритети, дорожню карту й метрики успіху. Це не щоденне керування людьми – це звести бізнес-цілі з цінністю для користувача і місткістю інженерії.",
+            de: "Ein Product Manager trägt das „Warum“ und „Was“: Problemfindung, Priorisierung, Roadmap und Erfolgsmetriken. Er führt nicht den Alltag der Menschen – er richtet Geschäftsziele an Nutzwert und Engineering-Kapazität aus.",
       fr: "Un Product Manager porte le « pourquoi » et le « quoi » : découvrir le problème, prioriser, feuille de route, métriques de succès. Il ne manage pas les gens au quotidien : il aligne buts business, valeur utilisateur et capacité d’ingénierie.",
       es: "Un Product Manager sostiene el «por qué» y el «qué»: descubrir el problema, priorizar, hoja de ruta y métricas de éxito. No gestiona personas día a día: alinea metas de negocio con valor para quien usa el producto y con la capacidad de ingeniería.",
       it: "Un Product Manager porta il «perché» e il «cosa»: scoperta del problema, priorità, roadmap e metriche di successo. Non gestisce le persone nel quotidiano: allinea obiettivi di business, valore per chi usa il prodotto e capacità engineering.",
@@ -2725,12 +2725,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -2816,7 +2816,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -2898,7 +2898,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "PM is not a ticket clerk. Strong PMs reduce wasted engineering months by choosing the right problems.",
-            ua: "PM — не клерк по тікетах. Сильний PM зменшує змарновані інженерні місяці, обираючи правильні задачі.",
+            ua: "PM – не клерк по тікетах. Сильний PM зменшує змарновані інженерні місяці, обираючи правильні задачі.",
             de: "PM ist kein Ticket-Sachbearbeiter. Starke PMs sparen verschwendete Engineering-Monate, weil sie die richtigen Probleme wählen.",
       fr: "Le PM n’est pas un commis à tickets. Un PM fort évite des mois d’ingénierie gaspillés en choisissant les bons problèmes.",
       es: "El PM no es un oficinista de tickets. Un PM fuerte evita meses de ingeniería tirados eligiendo los problemas correctos.",
@@ -2988,7 +2988,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A project manager owns delivery: timeline, scope control, dependencies, risks, and clear status. Where Product asks “what should we build?”, Project asks “how do we ship what we committed to on time?”",
-            ua: "Проєктний менеджер відповідає за поставку: терміни, контроль обсягу, залежності, ризики й зрозумілий статус. Продукт питає «що будуємо?», проєкт — «як вчасно віддати те, на що зобов’язались?».",
+            ua: "Проєктний менеджер відповідає за поставку: терміни, контроль обсягу, залежності, ризики й зрозумілий статус. Продукт питає «що будуємо?», проєкт – «як вчасно віддати те, на що зобов’язались?».",
             de: "Ein Projektmanager trägt die Lieferung: Zeitplan, Scope-Kontrolle, Abhängigkeiten, Risiken und klaren Status. Produkt fragt „was sollen wir bauen?“, Projekt fragt „wie liefern wir das Zugesagte rechtzeitig?“",
       fr: "Un chef de projet porte la livraison : calendrier, maîtrise du périmètre, dépendances, risques et un statut lisible. Le produit demande « que construire ? », le projet « comment livrer à l’heure ce à quoi on s’est engagés ? »",
       es: "Un jefe de proyecto responde de la entrega: plazos, control de alcance, dependencias, riesgos y un estado claro. Producto pregunta «qué construimos»; proyecto, «cómo entregamos a tiempo lo prometido».",
@@ -2997,12 +2997,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -3088,7 +3088,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -3148,12 +3148,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Fixed-scope client projects, multi-team programs, regulated delivery, or any situation where missed deadlines cost real money and trust.",
-            ua: "Клієнтські проєкти з фіксованим обсягом, програми на кілька команд, регульована поставка — або будь-яка ситуація, де зірвані дедлайни коштують грошей і довіри.",
-            de: "Kundenprojekte mit festem Scope, Programme über mehrere Teams, regulierte Lieferung — oder jede Lage, in der verpasste Termine echtes Geld und Vertrauen kosten.",
-      fr: "Projets clients à périmètre fixe, programmes multi-équipes, livraison réglementée — ou toute situation où un délai raté coûte de l’argent et de la confiance.",
-      es: "Proyectos de cliente de alcance fijo, programas de varios equipos, entrega regulada — o cualquier situación en la que un plazo fallido cueste dinero y confianza de verdad.",
-      it: "Progetti cliente a perimetro fisso, programmi multi-team, consegna regolamentata — o ogni situazione in cui una scadenza saltata costa soldi e fiducia veri.",
-      tr: "Sabit kapsamlı müşteri projeleri, çok ekipli programlar, düzenlemeli teslim — veya kaçan tarihin gerçek para ve güven olduğu her durum."
+            ua: "Клієнтські проєкти з фіксованим обсягом, програми на кілька команд, регульована поставка – або будь-яка ситуація, де зірвані дедлайни коштують грошей і довіри.",
+            de: "Kundenprojekte mit festem Scope, Programme über mehrere Teams, regulierte Lieferung – oder jede Lage, in der verpasste Termine echtes Geld und Vertrauen kosten.",
+      fr: "Projets clients à périmètre fixe, programmes multi-équipes, livraison réglementée – ou toute situation où un délai raté coûte de l’argent et de la confiance.",
+      es: "Proyectos de cliente de alcance fijo, programas de varios equipos, entrega regulada – o cualquier situación en la que un plazo fallido cueste dinero y confianza de verdad.",
+      it: "Progetti cliente a perimetro fisso, programmi multi-team, consegna regolamentata – o ogni situazione in cui una scadenza saltata costa soldi e fiducia veri.",
+      tr: "Sabit kapsamlı müşteri projeleri, çok ekipli programlar, düzenlemeli teslim – veya kaçan tarihin gerçek para ve güven olduğu her durum."
           }
         ]
       },
@@ -3261,20 +3261,20 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "A business analyst bridges business and engineering: gathers requirements, models processes, clarifies edge cases, and documents what “done” means before code is written (and while it changes).",
             ua: "Бізнес-аналітик є містком між бізнесом і інженерією: збирає вимоги, моделює процеси, прояснює крайові випадки й фіксує, що означає «готово», до коду (і поки він змінюється).",
-            de: "Ein Business Analyst brückt Business und Engineering: Anforderungen sammeln, Prozesse modellieren, Randfälle klären und dokumentieren, was „fertig“ heißt — bevor Code geschrieben wird und während er sich ändert.",
-      fr: "Un Business Analyst fait le pont entre métier et ingénierie : recueillir les exigences, modéliser les processus, clarifier les cas limites et documenter ce que « terminé » veut dire — avant le code, et pendant qu’il change.",
-      es: "Un Business Analyst tiende el puente entre negocio e ingeniería: recoger requisitos, modelar procesos, aclarar casos límite y documentar qué significa «hecho» — antes del código y mientras cambia.",
-      it: "Un Business Analyst fa da ponte tra business ed engineering: raccoglie requisiti, modella processi, chiarisce i casi limite e documenta cosa significa «fatto» — prima del codice e mentre cambia.",
+            de: "Ein Business Analyst brückt Business und Engineering: Anforderungen sammeln, Prozesse modellieren, Randfälle klären und dokumentieren, was „fertig“ heißt – bevor Code geschrieben wird und während er sich ändert.",
+      fr: "Un Business Analyst fait le pont entre métier et ingénierie : recueillir les exigences, modéliser les processus, clarifier les cas limites et documenter ce que « terminé » veut dire – avant le code, et pendant qu’il change.",
+      es: "Un Business Analyst tiende el puente entre negocio e ingeniería: recoger requisitos, modelar procesos, aclarar casos límite y documentar qué significa «hecho» – antes del código y mientras cambia.",
+      it: "Un Business Analyst fa da ponte tra business ed engineering: raccoglie requisiti, modella processi, chiarisce i casi limite e documenta cosa significa «fatto» – prima del codice e mentre cambia.",
       tr: "Bir iş analisti iş ile mühendislik arasında köprüdür: gereksinim toplar, süreçleri modeller, uç durumları netleştirir ve «bitti»nin ne demek olduğunu kod yazılmadan (ve değişirken) belgeler."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -3360,7 +3360,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -3389,7 +3389,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "Domain learning speed; SQL/analytics basics are a plus",
-            ua: "Швидкість освоєння домену; основи SQL/аналітики — плюс",
+            ua: "Швидкість освоєння домену; основи SQL/аналітики – плюс",
             de: "Schnelles Lernen der Domäne; SQL-/Analytics-Grundlagen sind ein Plus",
       fr: "Vitesse d’apprentissage du métier ; bases SQL/analytique en plus",
       es: "Velocidad para aprender el dominio; bases de SQL/analítica son un plus",
@@ -3420,12 +3420,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Enterprise integrations, complex domains (finance, logistics, insurance), or when “everyone understood differently” keeps burning budget.",
-            ua: "Корпоративні інтеграції, складні домени (фінанси, логістика, страхування) — або коли «кожен зрозумів по-своєму» далі палить бюджет.",
-            de: "Enterprise-Integrationen, komplexe Domänen (Finance, Logistik, Versicherung) — oder wenn „jeder hat es anders verstanden“ weiter Budget verbrennt.",
-      fr: "Intégrations d’entreprise, domaines complexes (finance, logistique, assurance) — ou quand « chacun a compris autrement » continue de brûler le budget.",
-      es: "Integraciones empresariales, dominios complejos (finanzas, logística, seguros) — o cuando «cada uno lo entendió distinto» sigue quemando presupuesto.",
-      it: "Integrazioni enterprise, domini complessi (finanza, logistica, assicurazioni) — o quando «ognuno ha capito diversamente» continua a bruciare budget.",
-      tr: "Kurumsal entegrasyonlar, karmaşık alanlar (finans, lojistik, sigorta) — veya «herkes farklı anladı» bütçeyi yakmaya devam ediyorsa."
+            ua: "Корпоративні інтеграції, складні домени (фінанси, логістика, страхування) – або коли «кожен зрозумів по-своєму» далі палить бюджет.",
+            de: "Enterprise-Integrationen, komplexe Domänen (Finance, Logistik, Versicherung) – oder wenn „jeder hat es anders verstanden“ weiter Budget verbrennt.",
+      fr: "Intégrations d’entreprise, domaines complexes (finance, logistique, assurance) – ou quand « chacun a compris autrement » continue de brûler le budget.",
+      es: "Integraciones empresariales, dominios complejos (finanzas, logística, seguros) – o cuando «cada uno lo entendió distinto» sigue quemando presupuesto.",
+      it: "Integrazioni enterprise, domini complessi (finanza, logistica, assicurazioni) – o quando «ognuno ha capito diversamente» continua a bruciare budget.",
+      tr: "Kurumsal entegrasyonlar, karmaşık alanlar (finans, lojistik, sigorta) – veya «herkes farklı anladı» bütçeyi yakmaya devam ediyorsa."
           }
         ]
       },
@@ -3442,11 +3442,11 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A good BA makes engineers faster by removing guesswork - not by writing novels nobody reads.",
-            ua: "Добрий BA прискорює інженерів, знімаючи здогадки, — а не романами, які ніхто не читає.",
-            de: "Ein guter BA macht Engineers schneller, indem er Rätselraten nimmt — nicht durch Romane, die niemand liest.",
-      fr: "Un bon BA accélère les ingénieurs en enlevant le flou — pas en écrivant des romans que personne ne lit.",
-      es: "Un buen BA hace más rápido a ingeniería quitando conjeturas — no escribiendo novelas que nadie lee.",
-      it: "Un buon BA rende più veloci gli ingegneri togliendo le congetture — non scrivendo romanzi che nessuno legge.",
+            ua: "Добрий BA прискорює інженерів, знімаючи здогадки, – а не романами, які ніхто не читає.",
+            de: "Ein guter BA macht Engineers schneller, indem er Rätselraten nimmt – nicht durch Romane, die niemand liest.",
+      fr: "Un bon BA accélère les ingénieurs en enlevant le flou – pas en écrivant des romans que personne ne lit.",
+      es: "Un buen BA hace más rápido a ingeniería quitando conjeturas – no escribiendo novelas que nadie lee.",
+      it: "Un buon BA rende più veloci gli ingegneri togliendo le congetture – non scrivendo romanzi che nessuno legge.",
       tr: "İyi bir BA, kimsenin okumadığı romanlar yazarak değil, tahmini kaldırarak mühendisleri hızlandırır."
           }
         ]
@@ -3532,21 +3532,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A data analyst helps the business ask better questions and answer them with data: funnels, cohorts, revenue drivers, operational KPIs, and experiment readouts - usually with SQL, BI tools, and clear narratives.",
-            ua: "Data Analyst допомагає бізнесу ставити кращі запитання і відповідати даними: воронки, когорти, драйвери виручки, операційні KPI, розбір експериментів — зазвичай SQL, BI і зрозуміла розповідь.",
-            de: "Ein Data Analyst hilft dem Business, bessere Fragen zu stellen und sie mit Daten zu beantworten: Funnel, Kohorten, Umsatztreiber, operative KPIs, Experiment-Auswertungen — meist mit SQL, BI und klarer Erzählung.",
-      fr: "Un Data Analyst aide le métier à mieux questionner et à répondre par la donnée : tunnels, cohortes, leviers de revenu, KPI ops, lectures d’expériences — souvent SQL, BI et un récit clair.",
-      es: "Un Data Analyst ayuda al negocio a preguntar mejor y a responder con datos: embudos, cohortes, palancas de ingreso, KPI operativos y lecturas de experimentos — suele ser SQL, BI y una narración clara.",
-      it: "Un Data Analyst aiuta il business a fare domande migliori e a rispondere con i dati: funnel, coorti, leve di ricavo, KPI operativi e letture degli esperimenti — di solito SQL, BI e un racconto chiaro.",
-      tr: "Bir Data Analyst işin daha iyi soru sormasına ve veriyle cevaplamasına yardım eder: huniler, kohortlar, gelir sürücüleri, operasyon KPI’ları, deney okumaları — çoğu zaman SQL, BI ve net bir anlatı."
+            ua: "Data Analyst допомагає бізнесу ставити кращі запитання і відповідати даними: воронки, когорти, драйвери виручки, операційні KPI, розбір експериментів – зазвичай SQL, BI і зрозуміла розповідь.",
+            de: "Ein Data Analyst hilft dem Business, bessere Fragen zu stellen und sie mit Daten zu beantworten: Funnel, Kohorten, Umsatztreiber, operative KPIs, Experiment-Auswertungen – meist mit SQL, BI und klarer Erzählung.",
+      fr: "Un Data Analyst aide le métier à mieux questionner et à répondre par la donnée : tunnels, cohortes, leviers de revenu, KPI ops, lectures d’expériences – souvent SQL, BI et un récit clair.",
+      es: "Un Data Analyst ayuda al negocio a preguntar mejor y a responder con datos: embudos, cohortes, palancas de ingreso, KPI operativos y lecturas de experimentos – suele ser SQL, BI y una narración clara.",
+      it: "Un Data Analyst aiuta il business a fare domande migliori e a rispondere con i dati: funnel, coorti, leve di ricavo, KPI operativi e letture degli esperimenti – di solito SQL, BI e un racconto chiaro.",
+      tr: "Bir Data Analyst işin daha iyi soru sormasına ve veriyle cevaplamasına yardım eder: huniler, kohortlar, gelir sürücüleri, operasyon KPI’ları, deney okumaları – çoğu zaman SQL, BI ve net bir anlatı."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -3632,7 +3632,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -3670,7 +3670,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "Python/R for deeper analysis is a strong plus",
-            ua: "Python/R для глибшого аналізу — сильний плюс",
+            ua: "Python/R для глибшого аналізу – сильний плюс",
             de: "Python/R für tiefere Analysen ist ein starkes Plus",
       fr: "Python/R pour une analyse plus profonde est un vrai plus",
       es: "Python/R para un análisis más hondo es un plus fuerte",
@@ -3804,21 +3804,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A data engineer builds and maintains data infrastructure: ingestion, transformation, warehouses/lakes, orchestration, and quality so analysts and ML teams can trust what they query.",
-            ua: "Data Engineer будує й тримає інфраструктуру даних: збір, перетворення, сховища/лейки, оркестрацію й якість — щоб аналітики та ML могли вірити тому, що запитують.",
-            de: "Ein Data Engineer baut und betreibt Dateninfrastruktur: Ingestion, Transformation, Warehouses/Lakes, Orchestrierung und Qualität — damit Analysten und ML dem vertrauen können, was sie abfragen.",
-      fr: "Un Data Engineer construit et tient l’infra data : ingestion, transformation, entrepôts/lacs, orchestration et qualité — pour que analystes et ML puissent se fier à ce qu’ils interrogent.",
-      es: "Un Data Engineer construye y mantiene la infra de datos: ingesta, transformación, almacenes/lagos, orquestación y calidad — para que analistas y ML puedan fiarse de lo que consultan.",
-      it: "Un Data Engineer costruisce e tiene l’infra dati: ingestione, trasformazione, warehouse/lake, orchestrazione e qualità — così analyst e ML possono fidarsi di ciò che interrogano.",
-      tr: "Bir Data Engineer veri altyapısını kurar ve tutar: içe alma, dönüştürme, depolar/göller, orkestrasyon ve kalite — analistler ve ML sorguladıklarına güvenebilsin."
+            ua: "Data Engineer будує й тримає інфраструктуру даних: збір, перетворення, сховища/лейки, оркестрацію й якість – щоб аналітики та ML могли вірити тому, що запитують.",
+            de: "Ein Data Engineer baut und betreibt Dateninfrastruktur: Ingestion, Transformation, Warehouses/Lakes, Orchestrierung und Qualität – damit Analysten und ML dem vertrauen können, was sie abfragen.",
+      fr: "Un Data Engineer construit et tient l’infra data : ingestion, transformation, entrepôts/lacs, orchestration et qualité – pour que analystes et ML puissent se fier à ce qu’ils interrogent.",
+      es: "Un Data Engineer construye y mantiene la infra de datos: ingesta, transformación, almacenes/lagos, orquestación y calidad – para que analistas y ML puedan fiarse de lo que consultan.",
+      it: "Un Data Engineer costruisce e tiene l’infra dati: ingestione, trasformazione, warehouse/lake, orchestrazione e qualità – così analyst e ML possono fidarsi di ciò che interrogano.",
+      tr: "Bir Data Engineer veri altyapısını kurar ve tutar: içe alma, dönüştürme, depolar/göller, orkestrasyon ve kalite – analistler ve ML sorguladıklarına güvenebilsin."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -3904,7 +3904,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -3915,7 +3915,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         list: [
           {
             en: "SQL, Python, Spark or similar; dbt is common",
-            ua: "SQL, Python, Spark або подібне; dbt — звична річ",
+            ua: "SQL, Python, Spark або подібне; dbt – звична річ",
             de: "SQL, Python, Spark oder ähnlich; dbt ist üblich",
       fr: "SQL, Python, Spark ou équivalent ; dbt est courant",
       es: "SQL, Python, Spark o similar; dbt es habitual",
@@ -3986,11 +3986,11 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Without data engineering, AI and analytics projects stall on messy inputs - not on model quality.",
-            ua: "Без data engineering проєкти AI й аналітики буксують на брудному вході — а не на якості моделі.",
-            de: "Ohne Data Engineering bleiben KI- und Analytics-Projekte an schmutzigen Inputs hängen — nicht an der Modellqualität.",
-      fr: "Sans data engineering, les projets IA et analytique calent sur des entrées sales — pas sur la qualité du modèle.",
-      es: "Sin data engineering, los proyectos de IA y analítica se atascan en entradas sucias — no en la calidad del modelo.",
-      it: "Senza data engineering, i progetti di AI e analytics si bloccano su input sporchi — non sulla qualità del modello.",
+            ua: "Без data engineering проєкти AI й аналітики буксують на брудному вході – а не на якості моделі.",
+            de: "Ohne Data Engineering bleiben KI- und Analytics-Projekte an schmutzigen Inputs hängen – nicht an der Modellqualität.",
+      fr: "Sans data engineering, les projets IA et analytique calent sur des entrées sales – pas sur la qualité du modèle.",
+      es: "Sin data engineering, los proyectos de IA y analítica se atascan en entradas sucias – no en la calidad del modelo.",
+      it: "Senza data engineering, i progetti di AI e analytics si bloccano su input sporchi – non sulla qualità del modello.",
       tr: "Data engineering olmadan AI ve analitik projeleri model kalitesinde değil, kirli girdide takılır."
           }
         ]
@@ -4092,12 +4092,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -4183,7 +4183,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -4243,12 +4243,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "When rules and dashboards are not enough - recommendations, forecasting, fraud, ranking, or LLM features that must be evaluated and operated, not demoed once.",
-            ua: "Коли правил і дашбордів уже мало — рекомендації, прогнози, фрод, ранжування або LLM-функції, які треба оцінювати й експлуатувати, а не один раз показати на демо.",
-            de: "Wenn Regeln und Dashboards nicht reichen — Empfehlungen, Forecasts, Betrug, Ranking oder LLM-Funktionen, die bewertet und betrieben werden müssen, nicht einmal demoen.",
-      fr: "Quand règles et tableaux de bord ne suffisent plus : reco, prévision, fraude, ranking, ou des fonctions LLM à évaluer et exploiter — pas à démo une fois.",
+            ua: "Коли правил і дашбордів уже мало – рекомендації, прогнози, фрод, ранжування або LLM-функції, які треба оцінювати й експлуатувати, а не один раз показати на демо.",
+            de: "Wenn Regeln und Dashboards nicht reichen – Empfehlungen, Forecasts, Betrug, Ranking oder LLM-Funktionen, die bewertet und betrieben werden müssen, nicht einmal demoen.",
+      fr: "Quand règles et tableaux de bord ne suffisent plus : reco, prévision, fraude, ranking, ou des fonctions LLM à évaluer et exploiter – pas à démo une fois.",
       es: "Cuando reglas y paneles no bastan: recomendaciones, previsión, fraude, ranking o funciones LLM que hay que evaluar y operar, no demos una vez.",
-      it: "Quando regole e dashboard non bastano: raccomandazioni, forecast, frode, ranking o funzioni LLM da valutare ed esercire — non da mostrare una volta.",
-      tr: "Kurallar ve panolar yetmiyorsa — öneriler, tahmin, dolandırıcılık, sıralama veya bir kez demo değil, değerlendirilip işletilmesi gereken LLM özellikleri."
+      it: "Quando regole e dashboard non bastano: raccomandazioni, forecast, frode, ranking o funzioni LLM da valutare ed esercire – non da mostrare una volta.",
+      tr: "Kurallar ve panolar yetmiyorsa – öneriler, tahmin, dolandırıcılık, sıralama veya bir kez demo değil, değerlendirilip işletilmesi gereken LLM özellikleri."
           }
         ]
       },
@@ -4265,7 +4265,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "The expensive failure mode is a notebook that never becomes a monitored service. Hire for the path to production, not only accuracy slides.",
-            ua: "Дорогий провал — ноутбук, який ніколи не стає сервісом з моніторингом. Наймайте під шлях до продакшену, не лише під слайди з accuracy.",
+            ua: "Дорогий провал – ноутбук, який ніколи не стає сервісом з моніторингом. Наймайте під шлях до продакшену, не лише під слайди з accuracy.",
             de: "Der teure Fehlschlag ist ein Notebook, das nie ein überwachter Dienst wird. Stellen Sie für den Weg in den Produktivbetrieb ein, nicht nur für Accuracy-Folien.",
       fr: "L’échec cher, c’est un notebook qui ne devient jamais un service supervisé. Recrutez pour le chemin vers la production, pas seulement pour des slides d’accuracy.",
       es: "El fallo caro es un notebook que nunca llega a ser un servicio monitorizado. Contrate para el camino a producción, no solo para diapositivas de accuracy.",
@@ -4362,21 +4362,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "An AI engineer designs and ships applications powered by foundation models: chat assistants, copilots, document Q&A, agents with tools, and workflow automation. The craft is systems engineering around models - not training giant nets from scratch.",
-            ua: "AI-інженер проєктує й випускає застосунки на фундаментних моделях: чат-асистенти, копілоти, Q&A по документах, агенти з інструментами, автоматизація процесів. Ремесло — системна інженерія навколо моделей, а не тренування гігантських мереж з нуля.",
-            de: "Ein AI Engineer entwirft und liefert Anwendungen auf Foundation Models: Chat-Assistenten, Copiloten, Dokument-Q&A, Agenten mit Tools, Workflow-Automatisierung. Das Handwerk ist Systemengineering um Modelle herum — nicht, riesige Netze von null zu trainieren.",
-      fr: "Un AI Engineer conçoit et livre des applications sur des modèles de fondation : assistants chat, copilotes, Q&A documentaire, agents avec outils, automatisation de flux. Le métier, c’est l’ingénierie système autour des modèles — pas d’entraîner des filets géants from scratch.",
-      es: "Un AI Engineer diseña y saca aplicaciones sobre modelos de fundamento: asistentes de chat, copilots, Q&A de documentos, agentes con herramientas y automatización de flujos. El oficio es ingeniería de sistemas alrededor de los modelos — no entrenar redes gigantes desde cero.",
-      it: "Un AI Engineer progetta e rilascia applicazioni su foundation model: assistenti chat, copilot, Q&A sui documenti, agent con tool, automazione di flussi. Il mestiere è systems engineering intorno ai modelli — non addestrare reti giganti da zero.",
-      tr: "Bir AI mühendisi temel modellerle çalışan uygulamalar tasarlar ve çıkarır: sohbet asistanları, yardımcı pilotlar, belge S&C, araçlı ajanlar, iş akışı otomasyonu. Zanaat, sıfırdan dev ağ eğitmek değil — modellerin etrafında sistem mühendisliğidir."
+            ua: "AI-інженер проєктує й випускає застосунки на фундаментних моделях: чат-асистенти, копілоти, Q&A по документах, агенти з інструментами, автоматизація процесів. Ремесло – системна інженерія навколо моделей, а не тренування гігантських мереж з нуля.",
+            de: "Ein AI Engineer entwirft und liefert Anwendungen auf Foundation Models: Chat-Assistenten, Copiloten, Dokument-Q&A, Agenten mit Tools, Workflow-Automatisierung. Das Handwerk ist Systemengineering um Modelle herum – nicht, riesige Netze von null zu trainieren.",
+      fr: "Un AI Engineer conçoit et livre des applications sur des modèles de fondation : assistants chat, copilotes, Q&A documentaire, agents avec outils, automatisation de flux. Le métier, c’est l’ingénierie système autour des modèles – pas d’entraîner des filets géants from scratch.",
+      es: "Un AI Engineer diseña y saca aplicaciones sobre modelos de fundamento: asistentes de chat, copilots, Q&A de documentos, agentes con herramientas y automatización de flujos. El oficio es ingeniería de sistemas alrededor de los modelos – no entrenar redes gigantes desde cero.",
+      it: "Un AI Engineer progetta e rilascia applicazioni su foundation model: assistenti chat, copilot, Q&A sui documenti, agent con tool, automazione di flussi. Il mestiere è systems engineering intorno ai modelli – non addestrare reti giganti da zero.",
+      tr: "Bir AI mühendisi temel modellerle çalışan uygulamalar tasarlar ve çıkarır: sohbet asistanları, yardımcı pilotlar, belge S&C, araçlı ajanlar, iş akışı otomasyonu. Zanaat, sıfırdan dev ağ eğitmek değil – modellerin etrafında sistem mühendisliğidir."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -4462,7 +4462,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -4522,12 +4522,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "When you want AI features in a real product - not a ChatGPT tab - with quality bars, security, and unit economics that survive growth.",
-            ua: "Коли AI-функції мають жити в реальному продукті, а не у вкладці ChatGPT, — з планкою якості, безпекою й економікою, яка витримує ріст.",
-            de: "Wenn KI-Funktionen in einem echten Produkt leben sollen — nicht in einem ChatGPT-Tab — mit Qualitätsleiste, Sicherheit und Stückkosten, die Wachstum aushalten.",
-      fr: "Quand vous voulez des fonctions IA dans un vrai produit — pas un onglet ChatGPT — avec une barre de qualité, de la sécu et une économie unitaire qui tient la croissance.",
-      es: "Cuando quiere funciones de IA en un producto de verdad — no en una pestaña de ChatGPT — con listón de calidad, seguridad y economía unitaria que aguante el crecimiento.",
-      it: "Quando volete funzioni AI in un prodotto vero — non in una scheda ChatGPT — con un’asticella di qualità, security ed economia unitaria che regga la crescita.",
-      tr: "AI özelliklerini ChatGPT sekmesinde değil, gerçek bir üründe istiyorsanız — kalite çıtası, güvenlik ve büyümeyi taşıyan birim ekonomiyle."
+            ua: "Коли AI-функції мають жити в реальному продукті, а не у вкладці ChatGPT, – з планкою якості, безпекою й економікою, яка витримує ріст.",
+            de: "Wenn KI-Funktionen in einem echten Produkt leben sollen – nicht in einem ChatGPT-Tab – mit Qualitätsleiste, Sicherheit und Stückkosten, die Wachstum aushalten.",
+      fr: "Quand vous voulez des fonctions IA dans un vrai produit – pas un onglet ChatGPT – avec une barre de qualité, de la sécu et une économie unitaire qui tient la croissance.",
+      es: "Cuando quiere funciones de IA en un producto de verdad – no en una pestaña de ChatGPT – con listón de calidad, seguridad y economía unitaria que aguante el crecimiento.",
+      it: "Quando volete funzioni AI in un prodotto vero – non in una scheda ChatGPT – con un’asticella di qualità, security ed economia unitaria che regga la crescita.",
+      tr: "AI özelliklerini ChatGPT sekmesinde değil, gerçek bir üründe istiyorsanız – kalite çıtası, güvenlik ve büyümeyi taşıyan birim ekonomiyle."
           }
         ]
       },
@@ -4544,7 +4544,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "In 2026, AI engineering is often closest to full-stack product work with an evaluation mindset. Demos are cheap; reliable assistants are not.",
-            ua: "У 2026 AI-інженерія часто найближча до full-stack продуктової роботи з головою на оцінювання. Демо дешеві; надійні асистенти — ні.",
+            ua: "У 2026 AI-інженерія часто найближча до full-stack продуктової роботи з головою на оцінювання. Демо дешеві; надійні асистенти – ні.",
             de: "2026 liegt AI Engineering oft am nächsten an Full-Stack-Produktarbeit mit Evaluationshaltung. Demos sind billig; verlässliche Assistenten nicht.",
       fr: "En 2026, l’ingénierie IA est souvent le plus proche d’un travail produit full-stack, avec un esprit d’évaluation. Les démos sont bon marché ; les assistants fiables, non.",
       es: "En 2026, la ingeniería de IA suele estar más cerca de un trabajo de producto full-stack con mentalidad de evaluación. Las demos son baratas; los asistentes fiables, no.",
@@ -4634,7 +4634,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A cybersecurity specialist protects systems and data from misuse: vulnerabilities, misconfigurations, phishing, identity abuse, and supply-chain risk. Titles vary (AppSec, SecOps, pentester, GRC), but the mission is reducing real-world risk.",
-            ua: "Спеціаліст із кібербезпеки захищає системи й дані від зловживання: вразливості, криві конфіги, фішинг, зловживання ідентичністю, ризик ланцюга постачання. Назви різні (AppSec, SecOps, пентестер, GRC), місія одна — знизити реальний ризик.",
+            ua: "Спеціаліст із кібербезпеки захищає системи й дані від зловживання: вразливості, криві конфіги, фішинг, зловживання ідентичністю, ризик ланцюга постачання. Назви різні (AppSec, SecOps, пентестер, GRC), місія одна – знизити реальний ризик.",
             de: "Ein Cybersicherheitsspezialist schützt Systeme und Daten vor Missbrauch: Schwachstellen, Fehlkonfigurationen, Phishing, Identitätsmissbrauch, Lieferkettenrisiko. Titel variieren (AppSec, SecOps, Pentester, GRC), die Mission ist, reales Risiko zu senken.",
       fr: "Un spécialiste cybersécurité protège systèmes et données contre l’abus : failles, mauvaises configs, phishing, abus d’identité, risque de chaîne d’approvisionnement. Les titres varient (AppSec, SecOps, pentester, GRC), la mission est de réduire le risque réel.",
       es: "Un especialista en ciberseguridad protege sistemas y datos del abuso: vulnerabilidades, malas configs, phishing, abuso de identidad y riesgo de cadena de suministro. Los títulos varían (AppSec, SecOps, pentester, GRC); la misión es bajar el riesgo real.",
@@ -4643,12 +4643,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -4713,7 +4713,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           {
             en: "Support compliance needs (where relevant) without theater.",
             ua: "Закривати потреби комплаєнсу (де треба) без театру.",
-            de: "Compliance-Bedarf (wo nötig) stützen — ohne Theater.",
+            de: "Compliance-Bedarf (wo nötig) stützen – ohne Theater.",
       fr: "Soutenir les besoins de conformité (là où c’est pertinent) sans théâtre.",
       es: "Cubrir necesidades de cumplimiento (donde aplique) sin teatro.",
       it: "Sostenere i bisogni di compliance (dove serve) senza teatro.",
@@ -4734,7 +4734,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -4794,12 +4794,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Handling sensitive data, payments, healthcare, public APIs, or after growth makes “we’ll secure it later” an existential risk.",
-            ua: "Коли є чутливі дані, платежі, медицина, публічні API — або ріст уже зробив «потім захистимо» екзистенційним ризиком.",
-            de: "Bei sensiblen Daten, Zahlungen, Gesundheit, öffentlichen APIs — oder wenn Wachstum „sichern wir später“ zum existenziellen Risiko macht.",
-      fr: "Dès qu’il y a des données sensibles, des paiements, de la santé, des API publiques — ou que la croissance a rendu « on sécurisera plus tard » existentiel.",
-      es: "Cuando hay datos sensibles, pagos, salud, APIs públicas — o el crecimiento ya hizo existencial el «lo aseguramos luego».",
-      it: "Quando ci sono dati sensibili, pagamenti, sanità, API pubbliche — o la crescita ha reso esistenziale il «lo mettiamo in sicurezza dopo».",
-      tr: "Hassas veri, ödeme, sağlık, kamuya açık API varsa — veya büyüme «sonra güvenceye alırız»ı varoluşsal risk yaptıysa."
+            ua: "Коли є чутливі дані, платежі, медицина, публічні API – або ріст уже зробив «потім захистимо» екзистенційним ризиком.",
+            de: "Bei sensiblen Daten, Zahlungen, Gesundheit, öffentlichen APIs – oder wenn Wachstum „sichern wir später“ zum existenziellen Risiko macht.",
+      fr: "Dès qu’il y a des données sensibles, des paiements, de la santé, des API publiques – ou que la croissance a rendu « on sécurisera plus tard » existentiel.",
+      es: "Cuando hay datos sensibles, pagos, salud, APIs públicas – o el crecimiento ya hizo existencial el «lo aseguramos luego».",
+      it: "Quando ci sono dati sensibili, pagamenti, sanità, API pubbliche – o la crescita ha reso esistenziale il «lo mettiamo in sicurezza dopo».",
+      tr: "Hassas veri, ödeme, sağlık, kamuya açık API varsa – veya büyüme «sonra güvenceye alırız»ı varoluşsal risk yaptıysa."
           }
         ]
       },
@@ -4816,7 +4816,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Security that only writes policies fails. Security that partners with builders and measures residual risk succeeds.",
-            ua: "Безпека, яка лише пише політики, провалюється. Безпека, яка працює з тими, хто будує, і міряє залишковий ризик, — працює.",
+            ua: "Безпека, яка лише пише політики, провалюється. Безпека, яка працює з тими, хто будує, і міряє залишковий ризик, – працює.",
             de: "Security, die nur Policies schreibt, scheitert. Security, die mit den Bauenden partnerschaftlich arbeitet und Restrisiko misst, gelingt.",
       fr: "Une sécu qui n’écrit que des politiques échoue. Une sécu qui s’allie aux bâtisseurs et mesure le risque résiduel réussit.",
       es: "La seguridad que solo escribe políticas fracasa. La que se alía con quien construye y mide el riesgo residual, funciona.",
@@ -4906,21 +4906,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A system administrator operates and maintains IT infrastructure: servers, workstations, directories, backups, updates, and user access. In cloud-native companies parts of this merge into DevOps/SRE - but classic sysadmin work still exists wherever systems must stay up.",
-            ua: "Системний адміністратор експлуатує ІТ-інфраструктуру: сервери, робочі станції, директорії, бекапи, оновлення, доступи. У cloud-native компаніях частина цього зливається з DevOps/SRE — але класична сисадмінська робота лишається всюди, де системи мають стояти.",
-            de: "Ein Systemadministrator betreibt IT-Infrastruktur: Server, Arbeitsplätze, Verzeichnisse, Backups, Updates, Nutzerzugänge. In cloud-nativen Firmen geht ein Teil in DevOps/SRE auf — klassische Sysadmin-Arbeit bleibt aber überall, wo Systeme stehen müssen.",
-      fr: "Un administrateur système exploite l’infra IT : serveurs, postes, annuaires, sauvegardes, mises à jour, accès. Dans les entreprises cloud-native, une partie fusionne avec DevOps/SRE — mais le travail sysadmin classique existe partout où les systèmes doivent tenir.",
-      es: "Un administrador de sistemas opera la infra IT: servidores, puestos, directorios, copias, actualizaciones y accesos. En empresas cloud-native parte de esto se funde con DevOps/SRE — pero el trabajo clásico sigue donde los sistemas tienen que aguantar.",
-      it: "Un sistemista esercisce l’infra IT: server, postazioni, directory, backup, aggiornamenti e accessi. Nelle aziende cloud-native parte di questo si fonde in DevOps/SRE — ma il lavoro classico resta ovunque i sistemi debbano stare in piedi.",
-      tr: "Bir sistem yöneticisi IT altyapısını işletir: sunucular, iş istasyonları, dizinler, yedekler, güncellemeler, kullanıcı erişimi. Bulut-yerel şirketlerde bunun bir kısmı DevOps/SRE’ye karışır — ama sistemlerin ayakta kalması gereken her yerde klasik sysadmin işi durur."
+            ua: "Системний адміністратор експлуатує ІТ-інфраструктуру: сервери, робочі станції, директорії, бекапи, оновлення, доступи. У cloud-native компаніях частина цього зливається з DevOps/SRE – але класична сисадмінська робота лишається всюди, де системи мають стояти.",
+            de: "Ein Systemadministrator betreibt IT-Infrastruktur: Server, Arbeitsplätze, Verzeichnisse, Backups, Updates, Nutzerzugänge. In cloud-nativen Firmen geht ein Teil in DevOps/SRE auf – klassische Sysadmin-Arbeit bleibt aber überall, wo Systeme stehen müssen.",
+      fr: "Un administrateur système exploite l’infra IT : serveurs, postes, annuaires, sauvegardes, mises à jour, accès. Dans les entreprises cloud-native, une partie fusionne avec DevOps/SRE – mais le travail sysadmin classique existe partout où les systèmes doivent tenir.",
+      es: "Un administrador de sistemas opera la infra IT: servidores, puestos, directorios, copias, actualizaciones y accesos. En empresas cloud-native parte de esto se funde con DevOps/SRE – pero el trabajo clásico sigue donde los sistemas tienen que aguantar.",
+      it: "Un sistemista esercisce l’infra IT: server, postazioni, directory, backup, aggiornamenti e accessi. Nelle aziende cloud-native parte di questo si fonde in DevOps/SRE – ma il lavoro classico resta ovunque i sistemi debbano stare in piedi.",
+      tr: "Bir sistem yöneticisi IT altyapısını işletir: sunucular, iş istasyonları, dizinler, yedekler, güncellemeler, kullanıcı erişimi. Bulut-yerel şirketlerde bunun bir kısmı DevOps/SRE’ye karışır – ama sistemlerin ayakta kalması gereken her yerde klasik sysadmin işi durur."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -5006,7 +5006,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -5185,21 +5185,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A cloud engineer designs, implements, and optimizes infrastructure on public clouds. They translate product needs into secure, scalable, cost-aware architectures - often with infrastructure as code and strong automation.",
-            ua: "Cloud Engineer проєктує, впроваджує й оптимізує інфраструктуру в публічних хмарах. Перекладає продуктові потреби на захищені, масштабовані, вартісно свідомі архітектури — часто інфраструктурою як кодом і сильною автоматизацією.",
-            de: "Ein Cloud Engineer entwirft, setzt um und optimiert Infrastruktur in Public Clouds. Produktbedarf wird in sichere, skalierbare, kostensensible Architekturen übersetzt — oft als Code und mit starker Automatisierung.",
-      fr: "Un Cloud Engineer conçoit, implémente et optimise l’infra sur les clouds publics. Il traduit le besoin produit en architectures sûres, évolutives, conscientes du coût — souvent en IaC et avec une automation solide.",
-      es: "Un Cloud Engineer diseña, implementa y optimiza infra en nubes públicas. Traduce necesidades de producto en arquitecturas seguras, escalables y conscientes del coste — a menudo como código y con automatización fuerte.",
-      it: "Un Cloud Engineer progetta, implementa e ottimizza l’infra sui cloud pubblici. Traduce i bisogni di prodotto in architetture sicure, scalabili e attente al costo — spesso come codice e con automazione solida.",
-      tr: "Bir Cloud Engineer kamuya açık bulutlarda altyapı tasarlar, uygular ve iyileştirir. Ürün ihtiyacını güvenli, ölçeklenen, maliyeti bilen mimarilere çevirir — çoğu zaman kod olarak altyapı ve güçlü otomasyonla."
+            ua: "Cloud Engineer проєктує, впроваджує й оптимізує інфраструктуру в публічних хмарах. Перекладає продуктові потреби на захищені, масштабовані, вартісно свідомі архітектури – часто інфраструктурою як кодом і сильною автоматизацією.",
+            de: "Ein Cloud Engineer entwirft, setzt um und optimiert Infrastruktur in Public Clouds. Produktbedarf wird in sichere, skalierbare, kostensensible Architekturen übersetzt – oft als Code und mit starker Automatisierung.",
+      fr: "Un Cloud Engineer conçoit, implémente et optimise l’infra sur les clouds publics. Il traduit le besoin produit en architectures sûres, évolutives, conscientes du coût – souvent en IaC et avec une automation solide.",
+      es: "Un Cloud Engineer diseña, implementa y optimiza infra en nubes públicas. Traduce necesidades de producto en arquitecturas seguras, escalables y conscientes del coste – a menudo como código y con automatización fuerte.",
+      it: "Un Cloud Engineer progetta, implementa e ottimizza l’infra sui cloud pubblici. Traduce i bisogni di prodotto in architetture sicure, scalabili e attente al costo – spesso come codice e con automazione solida.",
+      tr: "Bir Cloud Engineer kamuya açık bulutlarda altyapı tasarlar, uygular ve iyileştirir. Ürün ihtiyacını güvenli, ölçeklenen, maliyeti bilen mimarilere çevirir – çoğu zaman kod olarak altyapı ve güçlü otomasyonla."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -5285,7 +5285,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -5345,12 +5345,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "When traffic, compliance, or multi-service architecture outgrows a single VPS - and misconfigured cloud can burn money faster than it saves.",
-            ua: "Коли трафік, комплаєнс або багатосервісна архітектура переростають один VPS — і криво налаштована хмара спалює гроші швидше, ніж економить.",
-            de: "Wenn Traffic, Compliance oder Multi-Service-Architektur einen einzelnen VPS überwachsen — und falsch konfigurierte Cloud Geld schneller verbrennt, als sie spart.",
-      fr: "Quand le trafic, la conformité ou une architecture multi-services dépassent un seul VPS — et qu’un cloud mal configuré brûle l’argent plus vite qu’il n’en économise.",
-      es: "Cuando el tráfico, el cumplimiento o una arquitectura de varios servicios se salen de un solo VPS — y un cloud mal configurado quema dinero más rápido de lo que ahorra.",
-      it: "Quando traffico, compliance o un’architettura multi-servizio superano un singolo VPS — e un cloud mal configurato brucia soldi più in fretta di quanto ne risparmi.",
-      tr: "Trafik, uyum veya çok servisli mimari tek VPS’i aştıysa — ve yanlış yapılandırılmış bulut kazandığından hızlı para yakıyorsa."
+            ua: "Коли трафік, комплаєнс або багатосервісна архітектура переростають один VPS – і криво налаштована хмара спалює гроші швидше, ніж економить.",
+            de: "Wenn Traffic, Compliance oder Multi-Service-Architektur einen einzelnen VPS überwachsen – und falsch konfigurierte Cloud Geld schneller verbrennt, als sie spart.",
+      fr: "Quand le trafic, la conformité ou une architecture multi-services dépassent un seul VPS – et qu’un cloud mal configuré brûle l’argent plus vite qu’il n’en économise.",
+      es: "Cuando el tráfico, el cumplimiento o una arquitectura de varios servicios se salen de un solo VPS – y un cloud mal configurado quema dinero más rápido de lo que ahorra.",
+      it: "Quando traffico, compliance o un’architettura multi-servizio superano un singolo VPS – e un cloud mal configurato brucia soldi più in fretta di quanto ne risparmi.",
+      tr: "Trafik, uyum veya çok servisli mimari tek VPS’i aştıysa – ve yanlış yapılandırılmış bulut kazandığından hızlı para yakıyorsa."
           }
         ]
       },
@@ -5367,7 +5367,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Cloud skill is leverage. Without cost and security discipline, it is also a fast way to create expensive chaos.",
-            ua: "Хмарна майстерність — це важіль. Без дисципліни вартості й безпеки це ще й швидкий шлях до дорогого хаосу.",
+            ua: "Хмарна майстерність – це важіль. Без дисципліни вартості й безпеки це ще й швидкий шлях до дорогого хаосу.",
             de: "Cloud-Können ist Hebel. Ohne Kosten- und Sicherheitsdisziplin ist es auch ein schneller Weg in teures Chaos.",
       fr: "La compétence cloud est un levier. Sans discipline de coût et de sécu, c’est aussi un chemin rapide vers un chaos cher.",
       es: "La pericia cloud es palanca. Sin disciplina de coste y seguridad, también es un atajo hacia un caos caro.",
@@ -5473,12 +5473,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -5564,7 +5564,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -5624,12 +5624,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "High-traffic products, strict uptime promises, complex microservices, or when outages repeatedly damage revenue and trust.",
-            ua: "Продукти з високим трафіком, жорсткі обіцянки аптайму, складні мікросервіси — або коли аварії знову й знову б’ють по виручці й довірі.",
-            de: "Produkte mit hohem Traffic, strenge Uptime-Versprechen, komplexe Microservices — oder wenn Ausfälle wiederholt Umsatz und Vertrauen beschädigen.",
-      fr: "Produits à fort trafic, promesses d’uptime strictes, microservices complexes — ou quand les pannes abîment encore et encore le chiffre et la confiance.",
-      es: "Productos de mucho tráfico, promesas estrictas de uptime, microservicios complejos — o cuando los cortes dañan una y otra vez ingreso y confianza.",
-      it: "Prodotti ad alto traffico, promesse di uptime strette, microservizi complessi — o quando i disservizi danneggiano di nuovo fatturato e fiducia.",
-      tr: "Yüksek trafikli ürünler, sıkı ayakta kalma vaatleri, karmaşık mikroservisler — veya kesintiler ciro ve güveni tekrar tekrar zedeliyorsa."
+            ua: "Продукти з високим трафіком, жорсткі обіцянки аптайму, складні мікросервіси – або коли аварії знову й знову б’ють по виручці й довірі.",
+            de: "Produkte mit hohem Traffic, strenge Uptime-Versprechen, komplexe Microservices – oder wenn Ausfälle wiederholt Umsatz und Vertrauen beschädigen.",
+      fr: "Produits à fort trafic, promesses d’uptime strictes, microservices complexes – ou quand les pannes abîment encore et encore le chiffre et la confiance.",
+      es: "Productos de mucho tráfico, promesas estrictas de uptime, microservicios complejos – o cuando los cortes dañan una y otra vez ingreso y confianza.",
+      it: "Prodotti ad alto traffico, promesse di uptime strette, microservizi complessi – o quando i disservizi danneggiano di nuovo fatturato e fiducia.",
+      tr: "Yüksek trafikli ürünler, sıkı ayakta kalma vaatleri, karmaşık mikroservisler – veya kesintiler ciro ve güveni tekrar tekrar zedeliyorsa."
           }
         ]
       },
@@ -5646,7 +5646,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "SRE is not “DevOps with a new title.” It is reliability as a product with explicit trade-offs.",
-            ua: "SRE — це не «DevOps під новою назвою». Це надійність як продукт із явними компромісами.",
+            ua: "SRE – це не «DevOps під новою назвою». Це надійність як продукт із явними компромісами.",
             de: "SRE ist nicht „DevOps mit neuem Titel“. Es ist Zuverlässigkeit als Produkt mit expliziten Kompromissen.",
       fr: "Le SRE n’est pas « du DevOps sous un nouveau titre ». C’est la fiabilité comme produit, avec des arbitrages explicites.",
       es: "SRE no es «DevOps con otro título». Es fiabilidad como producto, con compromisos explícitos.",
@@ -5671,12 +5671,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: "Architects set technical direction: boundaries, patterns, and quality attributes. When architecture work saves (or wastes) years.",
-      ua: "Архітектор задає технічний напрям: межі, патерни, атрибути якості. Коли архітектурна робота рятує роки — або їх спалює.",
-      de: "Architekten setzen die technische Richtung: Grenzen, Muster, Qualitätsattribute. Wann Architekturarbeit Jahre spart — oder verschwendet.",
-      fr: "L’architecte fixe la direction technique : frontières, motifs, attributs de qualité. Quand ce travail sauve des années — ou les gaspille.",
-      es: "El arquitecto fija la dirección técnica: límites, patrones y atributos de calidad. Cuándo este trabajo ahorra años — o los tira.",
-      it: "L’architect fissa la direzione tecnica: confini, pattern e attributi di qualità. Quando questo lavoro salva anni — o li spreca.",
-      tr: "Mimar teknik yönü koyar: sınırlar, kalıplar, kalite öznitelikleri. Mimari işin yılları ne zaman kurtardığı — veya yaktığı."
+      ua: "Архітектор задає технічний напрям: межі, патерни, атрибути якості. Коли архітектурна робота рятує роки – або їх спалює.",
+      de: "Architekten setzen die technische Richtung: Grenzen, Muster, Qualitätsattribute. Wann Architekturarbeit Jahre spart – oder verschwendet.",
+      fr: "L’architecte fixe la direction technique : frontières, motifs, attributs de qualité. Quand ce travail sauve des années – ou les gaspille.",
+      es: "El arquitecto fija la dirección técnica: límites, patrones y atributos de calidad. Cuándo este trabajo ahorra años – o los tira.",
+      it: "L’architect fissa la direzione tecnica: confini, pattern e attributi di qualità. Quando questo lavoro salva anni – o li spreca.",
+      tr: "Mimar teknik yönü koyar: sınırlar, kalıplar, kalite öznitelikleri. Mimari işin yılları ne zaman kurtardığı – veya yaktığı."
     },
     readTime: {
       en: "6 min read",
@@ -5736,21 +5736,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A software (or solutions) architect designs how systems fit together: service boundaries, data ownership, integration patterns, and non-functional requirements like scalability, security, and operability. They guide teams through trade-offs, not only draw diagrams.",
-            ua: "Архітектор ПЗ (або рішень) проєктує, як системи складаються разом: межі сервісів, відповідальність за дані, патерни інтеграцій і нефункціональні вимоги — масштаб, безпека, експлуатація. Він веде команди через компроміси, а не лише малює схеми.",
-            de: "Ein Software- oder Lösungsarchitekt entwirft, wie Systeme zusammenpassen: Servicegrenzen, Datenverantwortung, Integrationsmuster und nichtfunktionale Anforderungen wie Skalierbarkeit, Sicherheit, Betrieb. Er führt Teams durch Kompromisse — zeichnet nicht nur Diagramme.",
-      fr: "Un architecte logiciel (ou solutions) conçoit comment les systèmes s’emboîtent : frontières de services, responsabilité des données, motifs d’intégration, exigences non fonctionnelles (échelle, sécu, exploitabilité). Il guide les équipes dans les arbitrages — il ne dessine pas seulement des schémas.",
+            ua: "Архітектор ПЗ (або рішень) проєктує, як системи складаються разом: межі сервісів, відповідальність за дані, патерни інтеграцій і нефункціональні вимоги – масштаб, безпека, експлуатація. Він веде команди через компроміси, а не лише малює схеми.",
+            de: "Ein Software- oder Lösungsarchitekt entwirft, wie Systeme zusammenpassen: Servicegrenzen, Datenverantwortung, Integrationsmuster und nichtfunktionale Anforderungen wie Skalierbarkeit, Sicherheit, Betrieb. Er führt Teams durch Kompromisse – zeichnet nicht nur Diagramme.",
+      fr: "Un architecte logiciel (ou solutions) conçoit comment les systèmes s’emboîtent : frontières de services, responsabilité des données, motifs d’intégration, exigences non fonctionnelles (échelle, sécu, exploitabilité). Il guide les équipes dans les arbitrages – il ne dessine pas seulement des schémas.",
       es: "Un arquitecto de software (o de soluciones) diseña cómo encajan los sistemas: límites de servicios, responsabilidad de datos, patrones de integración y requisitos no funcionales como escala, seguridad y operabilidad. Guía al equipo en los compromisos; no solo dibuja diagramas.",
-      it: "Un software (o solutions) architect progetta come i sistemi stanno insieme: confini dei servizi, responsabilità dei dati, pattern di integrazione e requisiti non funzionali come scala, security e operabilità. Guida i team nei compromessi — non si limita a disegnare diagrammi.",
+      it: "Un software (o solutions) architect progetta come i sistemi stanno insieme: confini dei servizi, responsabilità dei dati, pattern di integrazione e requisiti non funzionali come scala, security e operabilità. Guida i team nei compromessi – non si limita a disegnare diagrammi.",
       tr: "Bir yazılım (veya çözüm) mimarı sistemlerin nasıl birleştiğini tasarlar: servis sınırları, veri sorumluluğu, entegrasyon kalıpları ve ölçek, güvenlik, işletilebilirlik gibi işlevsel olmayan gereksinimler. Yalnızca şema çizmez; ekipleri ödünlerden geçirir."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -5836,7 +5836,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -5896,12 +5896,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Multi-team products, platform migrations, complex integrations, or when “just add another service” is creating a maze.",
-            ua: "Продукти на кілька команд, міграції платформ, складні інтеграції — або коли «просто додамо ще один сервіс» уже будує лабіринт.",
-            de: "Produkte über mehrere Teams, Plattform-Migrationen, komplexe Integrationen — oder wenn „einfach noch einen Service“ ein Labyrinth baut.",
-      fr: "Produits multi-équipes, migrations de plateforme, intégrations complexes — ou quand « on ajoute juste un service » dessine un labyrinthe.",
-      es: "Productos de varios equipos, migraciones de plataforma, integraciones complejas — o cuando «añadimos otro servicio» ya está armando un laberinto.",
-      it: "Prodotti multi-team, migrazioni di piattaforma, integrazioni complesse — o quando «aggiungiamo un altro servizio» sta creando un labirinto.",
-      tr: "Çok ekipli ürünler, platform göçleri, karmaşık entegrasyonlar — veya «bir servis daha ekleyelim» labirent örüyorsa."
+            ua: "Продукти на кілька команд, міграції платформ, складні інтеграції – або коли «просто додамо ще один сервіс» уже будує лабіринт.",
+            de: "Produkte über mehrere Teams, Plattform-Migrationen, komplexe Integrationen – oder wenn „einfach noch einen Service“ ein Labyrinth baut.",
+      fr: "Produits multi-équipes, migrations de plateforme, intégrations complexes – ou quand « on ajoute juste un service » dessine un labyrinthe.",
+      es: "Productos de varios equipos, migraciones de plataforma, integraciones complejas – o cuando «añadimos otro servicio» ya está armando un laberinto.",
+      it: "Prodotti multi-team, migrazioni di piattaforma, integrazioni complesse – o quando «aggiungiamo un altro servizio» sta creando un labirinto.",
+      tr: "Çok ekipli ürünler, platform göçleri, karmaşık entegrasyonlar – veya «bir servis daha ekleyelim» labirent örüyorsa."
           }
         ]
       },
@@ -5943,7 +5943,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: "Tech leads own technical excellence in a team; EMs own people and delivery systems. Clear boundaries and collaboration model.",
-      ua: "Tech Lead тримає технічну якість у команді; EM — людей і систему поставки. Чіткі межі й модель співпраці.",
+      ua: "Tech Lead тримає технічну якість у команді; EM – людей і систему поставки. Чіткі межі й модель співпраці.",
       de: "Tech Leads tragen technische Exzellenz im Team; EMs tragen Menschen und das Liefersystem. Klare Grenzen und ein Kollaborationsmodell.",
       fr: "Le Tech Lead porte l’excellence technique dans l’équipe ; l’EM porte les gens et le système de livraison. Frontières claires et modèle de collaboration.",
       es: "El Tech Lead sostiene la excelencia técnica del equipo; el EM, a las personas y el sistema de entrega. Límites claros y un modelo de colaboración.",
@@ -6015,21 +6015,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A tech lead is primarily a technical multiplier: architecture within the team, code quality, mentoring, and unblocking hard problems - often still coding. An engineering manager is primarily a people and system multiplier: hiring, growth, performance, team health, and predictable delivery.",
-            ua: "Tech Lead — насамперед технічний множник: архітектура в команді, якість коду, менторство, розблокування складних задач — часто досі пише код. Engineering Manager — множник людей і системи: найм, ріст, перформанс, здоров’я команди, передбачувана поставка.",
-            de: "Ein Tech Lead ist vor allem ein technischer Multiplikator: Architektur im Team, Codequalität, Mentoring, harte Probleme entblocken — oft noch am Code. Ein Engineering Manager ist vor allem ein Menschen- und Systemmultiplikator: Einstellen, Wachstum, Performance, Teamgesundheit, planbare Lieferung.",
-      fr: "Un Tech Lead est d’abord un multiplicateur technique : architecture dans l’équipe, qualité du code, mentorat, déblocage des problèmes durs — souvent encore au code. Un Engineering Manager est d’abord un multiplicateur de gens et de système : recrutement, croissance, perf, santé d’équipe, livraison prévisible.",
-      es: "Un Tech Lead es ante todo un multiplicador técnico: arquitectura en el equipo, calidad de código, mentoría y desbloquear problemas duros — a menudo sigue programando. Un Engineering Manager es ante todo un multiplicador de personas y de sistema: contratación, crecimiento, desempeño, salud del equipo y entrega previsible.",
-      it: "Un Tech Lead è soprattutto un moltiplicatore tecnico: architettura nel team, qualità del codice, mentoring, sbloccare i problemi duri — spesso ancora al codice. Un Engineering Manager è soprattutto un moltiplicatore di persone e di sistema: assunzioni, crescita, performance, salute del team e consegna prevedibile.",
-      tr: "Bir Tech Lead her şeyden önce teknik çarpandır: ekip içi mimari, kod kalitesi, mentorluk, zor sorunları açmak — çoğu zaman hâlâ kod yazar. Bir Engineering Manager her şeyden önce insan ve sistem çarpanıdır: işe alım, büyüme, performans, ekip sağlığı, öngörülebilir teslim."
+            ua: "Tech Lead – насамперед технічний множник: архітектура в команді, якість коду, менторство, розблокування складних задач – часто досі пише код. Engineering Manager – множник людей і системи: найм, ріст, перформанс, здоров’я команди, передбачувана поставка.",
+            de: "Ein Tech Lead ist vor allem ein technischer Multiplikator: Architektur im Team, Codequalität, Mentoring, harte Probleme entblocken – oft noch am Code. Ein Engineering Manager ist vor allem ein Menschen- und Systemmultiplikator: Einstellen, Wachstum, Performance, Teamgesundheit, planbare Lieferung.",
+      fr: "Un Tech Lead est d’abord un multiplicateur technique : architecture dans l’équipe, qualité du code, mentorat, déblocage des problèmes durs – souvent encore au code. Un Engineering Manager est d’abord un multiplicateur de gens et de système : recrutement, croissance, perf, santé d’équipe, livraison prévisible.",
+      es: "Un Tech Lead es ante todo un multiplicador técnico: arquitectura en el equipo, calidad de código, mentoría y desbloquear problemas duros – a menudo sigue programando. Un Engineering Manager es ante todo un multiplicador de personas y de sistema: contratación, crecimiento, desempeño, salud del equipo y entrega previsible.",
+      it: "Un Tech Lead è soprattutto un moltiplicatore tecnico: architettura nel team, qualità del codice, mentoring, sbloccare i problemi duri – spesso ancora al codice. Un Engineering Manager è soprattutto un moltiplicatore di persone e di sistema: assunzioni, crescita, performance, salute del team e consegna prevedibile.",
+      tr: "Bir Tech Lead her şeyden önce teknik çarpandır: ekip içi mimari, kod kalitesi, mentorluk, zor sorunları açmak – çoğu zaman hâlâ kod yazar. Bir Engineering Manager her şeyden önce insan ve sistem çarpanıdır: işe alım, büyüme, performans, ekip sağlığı, öngörülebilir teslim."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -6115,7 +6115,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -6197,12 +6197,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Healthy orgs separate the jobs clearly, then expect close partnership. Confused titles create gaps - or power struggles.",
-            ua: "Здорові організації чітко розділяють роботи, а тоді чекають тісної партнерки. Плутані назви створюють дірки — або боротьбу за владу.",
-            de: "Gesunde Orgs trennen die Jobs klar und erwarten dann enge Partnerschaft. Verwirrte Titel erzeugen Lücken — oder Machtkämpfe.",
-      fr: "Les orgs saines séparent clairement les métiers, puis attendent un partenariat serré. Des titres flous créent des trous — ou des luttes de pouvoir.",
-      es: "Las organizaciones sanas separan los oficios con claridad y luego esperan una alianza estrecha. Títulos confusos crean huecos — o luchas de poder.",
-      it: "Le org sane separano i mestieri con chiarezza, poi si aspettano una partnership stretta. Titoli confusi creano buchi — o lotte di potere.",
-      tr: "Sağlıklı örgütler işleri net ayırır, sonra sıkı ortaklık bekler. Karışık unvanlar boşluk — veya güç kavgası — yaratır."
+            ua: "Здорові організації чітко розділяють роботи, а тоді чекають тісної партнерки. Плутані назви створюють дірки – або боротьбу за владу.",
+            de: "Gesunde Orgs trennen die Jobs klar und erwarten dann enge Partnerschaft. Verwirrte Titel erzeugen Lücken – oder Machtkämpfe.",
+      fr: "Les orgs saines séparent clairement les métiers, puis attendent un partenariat serré. Des titres flous créent des trous – ou des luttes de pouvoir.",
+      es: "Las organizaciones sanas separan los oficios con claridad y luego esperan una alianza estrecha. Títulos confusos crean huecos – o luchas de poder.",
+      it: "Le org sane separano i mestieri con chiarezza, poi si aspettano una partnership stretta. Titoli confusi creano buchi – o lotte di potere.",
+      tr: "Sağlıklı örgütler işleri net ayırır, sonra sıkı ortaklık bekler. Karışık unvanlar boşluk – veya güç kavgası – yaratır."
           }
         ]
       }
@@ -6222,12 +6222,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: "Scrum masters improve team flow: remove impediments, coach agile habits, and protect focus. When the role helps - and when it is overhead.",
-      ua: "Scrum Master покращує потік команди: знімає перешкоди, коучить agile-звички, захищає фокус. Коли роль допомагає — і коли це накладні витрати.",
-      de: "Scrum Master verbessern den Teamfluss: Hindernisse räumen, agile Gewohnheiten coachen, Fokus schützen. Wann die Rolle hilft — und wann sie Overhead ist.",
-      fr: "Le Scrum Master améliore le flux de l’équipe : lever les obstacles, coacher des habitudes agile, protéger le focus. Quand le rôle aide — et quand c’est du surcoût.",
-      es: "El Scrum Master mejora el flujo del equipo: quitar impedimentos, acompañar hábitos agile y proteger el foco. Cuándo el rol ayuda — y cuándo es sobrecoste.",
-      it: "Lo Scrum Master migliora il flusso del team: togliere impedimenti, allenare abitudini agile, proteggere il focus. Quando il ruolo aiuta — e quando è overhead.",
-      tr: "Scrum Master ekip akışını iyileştirir: engelleri kaldırmak, agile alışkanlık koçluğu, odağı korumak. Rolün ne zaman yardım ettiği — ve ne zaman yük olduğu."
+      ua: "Scrum Master покращує потік команди: знімає перешкоди, коучить agile-звички, захищає фокус. Коли роль допомагає – і коли це накладні витрати.",
+      de: "Scrum Master verbessern den Teamfluss: Hindernisse räumen, agile Gewohnheiten coachen, Fokus schützen. Wann die Rolle hilft – und wann sie Overhead ist.",
+      fr: "Le Scrum Master améliore le flux de l’équipe : lever les obstacles, coacher des habitudes agile, protéger le focus. Quand le rôle aide – et quand c’est du surcoût.",
+      es: "El Scrum Master mejora el flujo del equipo: quitar impedimentos, acompañar hábitos agile y proteger el foco. Cuándo el rol ayuda – y cuándo es sobrecoste.",
+      it: "Lo Scrum Master migliora il flusso del team: togliere impedimenti, allenare abitudini agile, proteggere il focus. Quando il ruolo aiuta – e quando è overhead.",
+      tr: "Scrum Master ekip akışını iyileştirir: engelleri kaldırmak, agile alışkanlık koçluğu, odağı korumak. Rolün ne zaman yardım ettiği – ve ne zaman yük olduğu."
     },
     readTime: {
       en: "6 min read",
@@ -6294,21 +6294,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A scrum master (or agile coach in a lighter form) helps the team deliver continuously: facilitating events with purpose, removing blockers, coaching collaboration, and improving the system of work - not policing story points.",
-            ua: "Scrum Master (або легший agile-коуч) допомагає команді постачати безперервно: вести події з сенсом, знімати блокери, коучити співпрацю й покращувати систему роботи — а не поліціювати сторі-поінти.",
-            de: "Ein Scrum Master (oder ein leichtgewichtiger Agile Coach) hilft dem Team, kontinuierlich zu liefern: Events mit Zweck moderieren, Blocker räumen, Zusammenarbeit coachen und das Arbeitssystem verbessern — nicht Story Points polizieren.",
-      fr: "Un Scrum Master (ou un agile coach plus léger) aide l’équipe à livrer en continu : animer des événements qui ont un but, lever les blocages, coacher la collab et améliorer le système de travail — pas policer les story points.",
-      es: "Un Scrum Master (o un agile coach más ligero) ayuda al equipo a entregar en continuo: facilitar eventos con propósito, quitar bloqueos, acompañar la colaboración y mejorar el sistema de trabajo — no policiar story points.",
-      it: "Uno Scrum Master (o un agile coach più leggero) aiuta il team a consegnare in continuo: facilitare eventi con uno scopo, togliere blocker, allenare la collaborazione e migliorare il sistema di lavoro — non fare la polizia sui story point.",
-      tr: "Bir Scrum Master (veya daha hafif bir agile koç) ekibin sürekli teslim etmesine yardım eder: amaçlı etkinlikleri kolaylaştırmak, engelleri kaldırmak, işbirliği koçluğu ve iş sistemini iyileştirmek — hikâye puanı polislik etmek değil."
+            ua: "Scrum Master (або легший agile-коуч) допомагає команді постачати безперервно: вести події з сенсом, знімати блокери, коучити співпрацю й покращувати систему роботи – а не поліціювати сторі-поінти.",
+            de: "Ein Scrum Master (oder ein leichtgewichtiger Agile Coach) hilft dem Team, kontinuierlich zu liefern: Events mit Zweck moderieren, Blocker räumen, Zusammenarbeit coachen und das Arbeitssystem verbessern – nicht Story Points polizieren.",
+      fr: "Un Scrum Master (ou un agile coach plus léger) aide l’équipe à livrer en continu : animer des événements qui ont un but, lever les blocages, coacher la collab et améliorer le système de travail – pas policer les story points.",
+      es: "Un Scrum Master (o un agile coach más ligero) ayuda al equipo a entregar en continuo: facilitar eventos con propósito, quitar bloqueos, acompañar la colaboración y mejorar el sistema de trabajo – no policiar story points.",
+      it: "Uno Scrum Master (o un agile coach più leggero) aiuta il team a consegnare in continuo: facilitare eventi con uno scopo, togliere blocker, allenare la collaborazione e migliorare il sistema di lavoro – non fare la polizia sui story point.",
+      tr: "Bir Scrum Master (veya daha hafif bir agile koç) ekibin sürekli teslim etmesine yardım eder: amaçlı etkinlikleri kolaylaştırmak, engelleri kaldırmak, işbirliği koçluğu ve iş sistemini iyileştirmek – hikâye puanı polislik etmek değil."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -6394,7 +6394,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -6454,12 +6454,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Multiple interdependent teams, chronic thrash, or when process problems are stealing more time than coding - and nobody owns improvement.",
-            ua: "Кілька взаємозалежних команд, хронічний хаос, або коли процес краде більше часу, ніж код, — і ніхто не тримає покращення.",
-            de: "Mehrere abhängige Teams, chronisches Thrash, oder wenn Prozessprobleme mehr Zeit stehlen als Coding — und niemand Verbesserung trägt.",
-      fr: "Plusieurs équipes interdépendantes, chaos chronique, ou quand le process vole plus de temps que le code — et que personne ne porte l’amélioration.",
-      es: "Varios equipos interdependientes, caos crónico, o cuando el proceso roba más tiempo que el código — y nadie sostiene la mejora.",
-      it: "Più team interdipendenti, caos cronico, o quando il processo ruba più tempo del codice — e nessuno porta il miglioramento.",
-      tr: "Birbirine bağlı birçok ekip, kronik savrulma veya süreç koddan çok zaman çalıyorsa — ve iyileştirmeyi kimse sahiplenmiyorsa."
+            ua: "Кілька взаємозалежних команд, хронічний хаос, або коли процес краде більше часу, ніж код, – і ніхто не тримає покращення.",
+            de: "Mehrere abhängige Teams, chronisches Thrash, oder wenn Prozessprobleme mehr Zeit stehlen als Coding – und niemand Verbesserung trägt.",
+      fr: "Plusieurs équipes interdépendantes, chaos chronique, ou quand le process vole plus de temps que le code – et que personne ne porte l’amélioration.",
+      es: "Varios equipos interdependientes, caos crónico, o cuando el proceso roba más tiempo que el código – y nadie sostiene la mejora.",
+      it: "Più team interdipendenti, caos cronico, o quando il processo ruba più tempo del codice – e nessuno porta il miglioramento.",
+      tr: "Birbirine bağlı birçok ekip, kronik savrulma veya süreç koddan çok zaman çalıyorsa – ve iyileştirmeyi kimse sahiplenmiyorsa."
           }
         ]
       },
@@ -6476,7 +6476,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "If the only output is more meetings, the role failed. If lead time drops and people breathe, it worked.",
-            ua: "Якщо єдиний вихід — більше мітингів, роль провалилась. Якщо lead time падає і людям легше дихати — спрацювало.",
+            ua: "Якщо єдиний вихід – більше мітингів, роль провалилась. Якщо lead time падає і людям легше дихати – спрацювало.",
             de: "Ist der einzige Output mehr Meetings, ist die Rolle gescheitert. Sinkt die Lead Time und können Menschen atmen, hat sie funktioniert.",
       fr: "Si le seul livrable est plus de réunions, le rôle a échoué. Si le lead time baisse et que les gens respirent, ça a marché.",
       es: "Si la única salida son más reuniones, el rol falló. Si baja el lead time y la gente respira, funcionó.",
@@ -6501,12 +6501,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: "DBAs keep databases fast, safe, and recoverable. Responsibilities in the age of managed cloud databases - and when you still need one.",
-      ua: "DBA тримає бази швидкими, безпечними й відновлюваними. Обов’язки в добу керованих хмарних баз — і коли ця людина все ще потрібна.",
-      de: "DBAs halten Datenbanken schnell, sicher und wiederherstellbar. Aufgaben im Zeitalter gemanagter Cloud-Datenbanken — und wann Sie trotzdem eine brauchen.",
-      fr: "Le DBA tient les bases rapides, sûres et récupérables. Missions à l’ère des bases cloud managées — et quand vous en avez encore besoin.",
-      es: "El DBA mantiene las bases rápidas, seguras y recuperables. Funciones en la era de las bases gestionadas en cloud — y cuándo sigue haciendo falta.",
-      it: "Il DBA tiene i database veloci, sicuri e ripristinabili. Mansioni nell’era dei database gestiti in cloud — e quando serve ancora.",
-      tr: "DBA veritabanlarını hızlı, güvenli ve kurtarılabilir tutar. Yönetilen bulut veritabanları çağında görevler — ve hâlâ ne zaman ihtiyaç olduğu."
+      ua: "DBA тримає бази швидкими, безпечними й відновлюваними. Обов’язки в добу керованих хмарних баз – і коли ця людина все ще потрібна.",
+      de: "DBAs halten Datenbanken schnell, sicher und wiederherstellbar. Aufgaben im Zeitalter gemanagter Cloud-Datenbanken – und wann Sie trotzdem eine brauchen.",
+      fr: "Le DBA tient les bases rapides, sûres et récupérables. Missions à l’ère des bases cloud managées – et quand vous en avez encore besoin.",
+      es: "El DBA mantiene las bases rápidas, seguras y recuperables. Funciones en la era de las bases gestionadas en cloud – y cuándo sigue haciendo falta.",
+      it: "Il DBA tiene i database veloci, sicuri e ripristinabili. Mansioni nell’era dei database gestiti in cloud – e quando serve ancora.",
+      tr: "DBA veritabanlarını hızlı, güvenli ve kurtarılabilir tutar. Yönetilen bulut veritabanları çağında görevler – ve hâlâ ne zaman ihtiyaç olduğu."
     },
     readTime: {
       en: "6 min read",
@@ -6582,12 +6582,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -6673,7 +6673,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -6733,12 +6733,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Large datasets, strict RPO/RTO, multi-tenant SaaS, or when “the database is slow” becomes a weekly crisis.",
-            ua: "Великі набори даних, жорсткі RPO/RTO, мультитентний SaaS — або коли «база гальмує» стає щотижневою кризою.",
-            de: "Große Datensätze, strenge RPO/RTO, Multi-Tenant-SaaS — oder wenn „die Datenbank ist langsam“ zur Wochenkrise wird.",
-      fr: "Gros volumes, RPO/RTO stricts, SaaS multi-tenant — ou quand « la base est lente » devient une crise hebdo.",
-      es: "Conjuntos grandes, RPO/RTO estrictos, SaaS multiinquilino — o cuando «la base va lenta» se vuelve crisis semanal.",
-      it: "Dataset grandi, RPO/RTO stretti, SaaS multi-tenant — o quando «il database è lento» diventa una crisi settimanale.",
-      tr: "Büyük veri kümeleri, sıkı RPO/RTO, çok kiracılı SaaS — veya «veritabanı yavaş» haftalık kriz olduysa."
+            ua: "Великі набори даних, жорсткі RPO/RTO, мультитентний SaaS – або коли «база гальмує» стає щотижневою кризою.",
+            de: "Große Datensätze, strenge RPO/RTO, Multi-Tenant-SaaS – oder wenn „die Datenbank ist langsam“ zur Wochenkrise wird.",
+      fr: "Gros volumes, RPO/RTO stricts, SaaS multi-tenant – ou quand « la base est lente » devient une crise hebdo.",
+      es: "Conjuntos grandes, RPO/RTO estrictos, SaaS multiinquilino – o cuando «la base va lenta» se vuelve crisis semanal.",
+      it: "Dataset grandi, RPO/RTO stretti, SaaS multi-tenant – o quando «il database è lento» diventa una crisi settimanale.",
+      tr: "Büyük veri kümeleri, sıkı RPO/RTO, çok kiracılı SaaS – veya «veritabanı yavaş» haftalık kriz olduysa."
           }
         ]
       },
@@ -6780,7 +6780,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: "Web3 developers build on-chain logic and wallet-connected apps. Responsibilities, risks, and when blockchain is the wrong tool.",
-      ua: "Web3-розробники збирають ончейн-логіку й застосунки з гаманцем. Обов’язки, ризики і коли блокчейн — неправильний інструмент.",
+      ua: "Web3-розробники збирають ончейн-логіку й застосунки з гаманцем. Обов’язки, ризики і коли блокчейн – неправильний інструмент.",
       de: "Web3-Entwickler bauen On-Chain-Logik und Wallet-Apps. Aufgaben, Risiken und wann Blockchain das falsche Werkzeug ist.",
       fr: "Les développeurs Web3 construisent la logique on-chain et des apps reliées au portefeuille. Missions, risques, et quand la blockchain est le mauvais outil.",
       es: "Los desarrolladores Web3 construyen lógica on-chain y apps conectadas a wallet. Funciones, riesgos y cuándo blockchain es la herramienta equivocada.",
@@ -6845,21 +6845,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A blockchain/Web3 developer builds decentralized applications: smart contracts, wallet integrations, indexers, and often the web UI that talks to chains. Correctness and security matter more than shipping speed - bugs on-chain are expensive.",
-            ua: "Blockchain/Web3-розробник збирає децентралізовані застосунки: смартконтракти, інтеграції гаманців, індексатори й часто вебінтерфейс до чейнів. Коректність і безпека важливіші за швидкість релізу — баги ончейн дорогі.",
-            de: "Ein Blockchain-/Web3-Entwickler baut dezentrale Anwendungen: Smart Contracts, Wallet-Anbindung, Indexer und oft die Web-UI zur Chain. Korrektheit und Sicherheit zählen mehr als Release-Tempo — Bugs on-chain sind teuer.",
-      fr: "Un développeur blockchain/Web3 construit des apps décentralisées : smart contracts, intégrations wallet, indexeurs, et souvent l’UI web qui parle aux chaînes. Exactitude et sécu pèsent plus que la vitesse de livraison — un bug on-chain coûte cher.",
+            ua: "Blockchain/Web3-розробник збирає децентралізовані застосунки: смартконтракти, інтеграції гаманців, індексатори й часто вебінтерфейс до чейнів. Коректність і безпека важливіші за швидкість релізу – баги ончейн дорогі.",
+            de: "Ein Blockchain-/Web3-Entwickler baut dezentrale Anwendungen: Smart Contracts, Wallet-Anbindung, Indexer und oft die Web-UI zur Chain. Korrektheit und Sicherheit zählen mehr als Release-Tempo – Bugs on-chain sind teuer.",
+      fr: "Un développeur blockchain/Web3 construit des apps décentralisées : smart contracts, intégrations wallet, indexeurs, et souvent l’UI web qui parle aux chaînes. Exactitude et sécu pèsent plus que la vitesse de livraison – un bug on-chain coûte cher.",
       es: "Un desarrollador blockchain/Web3 construye aplicaciones descentralizadas: smart contracts, integraciones de wallet, indexadores y a menudo la UI web que habla con las cadenas. Corrección y seguridad pesan más que la velocidad de entrega: un bug on-chain es caro.",
-      it: "Uno sviluppatore blockchain/Web3 costruisce applicazioni decentralizzate: smart contract, integrazioni wallet, indexer e spesso la UI web che parla alle chain. Correttezza e security pesano più della velocità di rilascio — i bug on-chain costano.",
-      tr: "Bir blockchain/Web3 geliştirici merkeziyetsiz uygulamalar kurar: smart contract’lar, cüzdan entegrasyonları, dizinleyiciler ve çoğu zaman zincirle konuşan web arayüzü. Doğruluk ve güvenlik teslim hızından önemlidir — zincir üstü hatalar pahalıdır."
+      it: "Uno sviluppatore blockchain/Web3 costruisce applicazioni decentralizzate: smart contract, integrazioni wallet, indexer e spesso la UI web che parla alle chain. Correttezza e security pesano più della velocità di rilascio – i bug on-chain costano.",
+      tr: "Bir blockchain/Web3 geliştirici merkeziyetsiz uygulamalar kurar: smart contract’lar, cüzdan entegrasyonları, dizinleyiciler ve çoğu zaman zincirle konuşan web arayüzü. Doğruluk ve güvenlik teslim hızından önemlidir – zincir üstü hatalar pahalıdır."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -6945,7 +6945,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -7005,12 +7005,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "When decentralization, on-chain settlement, or token/NFT logic is a core product requirement - not a buzzword bolted onto a normal database app.",
-            ua: "Коли децентралізація, ончейн-розрахунки чи логіка токенів/NFT — ядрова вимога продукту, а не модне слово, прикручене до звичайного застосунку з базою.",
-            de: "Wenn Dezentralisierung, On-Chain-Settlement oder Token-/NFT-Logik eine Kernanforderung ist — kein Buzzword an einer normalen Datenbank-App.",
-      fr: "Quand la décentralisation, le règlement on-chain ou la logique token/NFT est un besoin cœur — pas un mot à la mode boulonné sur une app base classique.",
-      es: "Cuando la descentralización, la liquidación on-chain o la lógica de token/NFT es un requisito de núcleo — no un eslogan atornillado a una app de base normal.",
-      it: "Quando decentralizzazione, settlement on-chain o logica token/NFT è un requisito di nucleo — non uno slogan avvitato su un’app database normale.",
-      tr: "Merkeziyetsizlik, zincir üstü uzlaşma veya token/NFT mantığı çekirdek ürün gereksinimiyse — sıradan bir veritabanı uygulamasına vidalanmış moda sözcük değilse."
+            ua: "Коли децентралізація, ончейн-розрахунки чи логіка токенів/NFT – ядрова вимога продукту, а не модне слово, прикручене до звичайного застосунку з базою.",
+            de: "Wenn Dezentralisierung, On-Chain-Settlement oder Token-/NFT-Logik eine Kernanforderung ist – kein Buzzword an einer normalen Datenbank-App.",
+      fr: "Quand la décentralisation, le règlement on-chain ou la logique token/NFT est un besoin cœur – pas un mot à la mode boulonné sur une app base classique.",
+      es: "Cuando la descentralización, la liquidación on-chain o la lógica de token/NFT es un requisito de núcleo – no un eslogan atornillado a una app de base normal.",
+      it: "Quando decentralizzazione, settlement on-chain o logica token/NFT è un requisito di nucleo – non uno slogan avvitato su un’app database normale.",
+      tr: "Merkeziyetsizlik, zincir üstü uzlaşma veya token/NFT mantığı çekirdek ürün gereksinimiyse – sıradan bir veritabanı uygulamasına vidalanmış moda sözcük değilse."
           }
         ]
       },
@@ -7027,7 +7027,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Most businesses do not need a blockchain. Those that do need engineers who treat security as the product.",
-            ua: "Більшості бізнесів блокчейн не потрібен. Тим, кому потрібен, — інженери, для яких безпека і є продукт.",
+            ua: "Більшості бізнесів блокчейн не потрібен. Тим, кому потрібен, – інженери, для яких безпека і є продукт.",
             de: "Die meisten Unternehmen brauchen keine Blockchain. Wer sie braucht, braucht Engineers, die Sicherheit als das Produkt behandeln.",
       fr: "La plupart des entreprises n’ont pas besoin d’une blockchain. Celles qui en ont besoin veulent des ingénieurs qui traitent la sécu comme le produit.",
       es: "La mayoría de los negocios no necesitan blockchain. Los que sí, necesitan ingenieros que traten la seguridad como el producto.",
@@ -7052,7 +7052,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
     },
     excerpt: {
       en: "Support engineers keep customers unblocked and feed product quality. L1-L3 scope, skills, and why great support is a growth channel.",
-      ua: "Підтримка розблоковує клієнтів і живить якість продукту. Обсяг L1–L3, навички і чому сильна підтримка — канал росту.",
+      ua: "Підтримка розблоковує клієнтів і живить якість продукту. Обсяг L1–L3, навички і чому сильна підтримка – канал росту.",
       de: "Support hält Kund:innen entblockt und speist Produktqualität. L1–L3-Umfang, Skills und warum starker Support ein Wachstumskanal ist.",
       fr: "Le support débloque les clients et nourrit la qualité produit. Périmètre L1–L3, compétences, et pourquoi un bon support est un canal de croissance.",
       es: "El soporte desbloquea a los clientes y alimenta la calidad de producto. Alcance L1–L3, competencias y por qué un gran soporte es un canal de crecimiento.",
@@ -7126,12 +7126,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -7217,7 +7217,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -7299,7 +7299,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Support is not a cost center if it shortens time-to-value and feeds a better roadmap.",
-            ua: "Підтримка — не центр витрат, якщо скорочує шлях до цінності й живить кращу дорожню карту.",
+            ua: "Підтримка – не центр витрат, якщо скорочує шлях до цінності й живить кращу дорожню карту.",
             de: "Support ist kein Cost Center, wenn er Time-to-Value verkürzt und eine bessere Roadmap speist.",
       fr: "Le support n’est pas un centre de coûts s’il raccourcit le temps jusqu’à la valeur et nourrit une meilleure feuille de route.",
       es: "El soporte no es un centro de coste si acorta el tiempo hasta el valor y alimenta una hoja de ruta mejor.",
@@ -7389,21 +7389,21 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A technical writer turns complex systems into usable documentation: user guides, API references, release notes, runbooks, and in-product help. Great docs are a growth and efficiency feature, not an afterthought PDF.",
-            ua: "Технічний письменник перетворює складні системи на придатну документацію: гайди, API-довідники, реліз-ноти, ранбуки, підказки в продукті. Добрі доки — це функція росту й ефективності, а не PDF наостанок.",
-            de: "Ein Technical Writer macht aus komplexen Systemen nutzbare Dokumentation: User Guides, API-Referenzen, Release Notes, Runbooks, Hilfe im Produkt. Gute Docs sind eine Wachstums- und Effizienzfunktion — kein PDF hinterher.",
-      fr: "Un rédacteur technique transforme des systèmes complexes en doc utilisable : guides, références d’API, notes de version, runbooks, aide dans le produit. Une bonne doc est une fonction de croissance et d’efficacité — pas un PDF après coup.",
+            ua: "Технічний письменник перетворює складні системи на придатну документацію: гайди, API-довідники, реліз-ноти, ранбуки, підказки в продукті. Добрі доки – це функція росту й ефективності, а не PDF наостанок.",
+            de: "Ein Technical Writer macht aus komplexen Systemen nutzbare Dokumentation: User Guides, API-Referenzen, Release Notes, Runbooks, Hilfe im Produkt. Gute Docs sind eine Wachstums- und Effizienzfunktion – kein PDF hinterher.",
+      fr: "Un rédacteur technique transforme des systèmes complexes en doc utilisable : guides, références d’API, notes de version, runbooks, aide dans le produit. Une bonne doc est une fonction de croissance et d’efficacité – pas un PDF après coup.",
       es: "Un redactor técnico convierte sistemas complejos en documentación usable: guías, referencias de API, notas de versión, runbooks y ayuda en el producto. Unos buenos docs son una función de crecimiento y eficiencia, no un PDF de último momento.",
       it: "Un technical writer trasforma sistemi complessi in documentazione usabile: guide, riferimenti API, note di rilascio, runbook e aiuto nel prodotto. Dei buoni docs sono una funzione di crescita ed efficienza, non un PDF a posteriori.",
-      tr: "Bir teknik yazar karmaşık sistemleri kullanılabilir belgelere çevirir: kullanıcı rehberleri, API başvuruları, sürüm notları, çalışma kitapları, ürün içi yardım. İyi doküman büyüme ve verimlilik özelliğidir — sonradan eklenen PDF değil."
+      tr: "Bir teknik yazar karmaşık sistemleri kullanılabilir belgelere çevirir: kullanıcı rehberleri, API başvuruları, sürüm notları, çalışma kitapları, ürün içi yardım. İyi doküman büyüme ve verimlilik özelliğidir – sonradan eklenen PDF değil."
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -7489,7 +7489,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -7549,12 +7549,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Developer platforms, APIs, complex B2B products, or when support volume is mostly “how do I…?” questions.",
-            ua: "Платформи для розробників, API, складні B2B-продукти — або коли підтримка майже вся з питань «а як зробити…?».",
-            de: "Entwicklerplattformen, APIs, komplexe B2B-Produkte — oder wenn das Support-Volumen vor allem „wie mache ich…?“-Fragen ist.",
-      fr: "Plateformes développeur, API, produits B2B complexes — ou quand le volume support est surtout des « comment je fais… ? ».",
-      es: "Plataformas para desarrolladores, APIs, productos B2B complejos — o cuando el volumen de soporte es sobre todo «¿cómo hago…?».",
-      it: "Piattaforme per sviluppatori, API, prodotti B2B complessi — o quando il volume di support è soprattutto «come si fa…?».",
-      tr: "Geliştirici platformları, API’ler, karmaşık B2B ürünler — veya destek hacmi çoğunlukla «nasıl yapılır…?» sorularıysa."
+            ua: "Платформи для розробників, API, складні B2B-продукти – або коли підтримка майже вся з питань «а як зробити…?».",
+            de: "Entwicklerplattformen, APIs, komplexe B2B-Produkte – oder wenn das Support-Volumen vor allem „wie mache ich…?“-Fragen ist.",
+      fr: "Plateformes développeur, API, produits B2B complexes – ou quand le volume support est surtout des « comment je fais… ? ».",
+      es: "Plataformas para desarrolladores, APIs, productos B2B complejos – o cuando el volumen de soporte es sobre todo «¿cómo hago…?».",
+      it: "Piattaforme per sviluppatori, API, prodotti B2B complessi – o quando il volume di support è soprattutto «come si fa…?».",
+      tr: "Geliştirici platformları, API’ler, karmaşık B2B ürünler – veya destek hacmi çoğunlukla «nasıl yapılır…?» sorularıysa."
           }
         ]
       },
@@ -7571,12 +7571,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "If users cannot learn your product, they will not trust it - no matter how good the engineering is.",
-            ua: "Якщо люди не можуть навчитися вашому продукту, вони йому не довірять — хоч би якою сильною була інженерія.",
-            de: "Wenn Menschen Ihr Produkt nicht lernen können, vertrauen sie ihm nicht — egal, wie stark das Engineering ist.",
-      fr: "Si l’on ne peut pas apprendre votre produit, on ne lui fera pas confiance — quelle que soit la qualité de l’ingénierie.",
-      es: "Si no se puede aprender su producto, no se confiará en él — por muy buena que sea la ingeniería.",
-      it: "Se non si può imparare il vostro prodotto, non ci si fiderà — per quanto sia buona l’engineering.",
-      tr: "İnsanlar ürününüzü öğrenemezse güvenmez — mühendislik ne kadar iyi olursa olsun."
+            ua: "Якщо люди не можуть навчитися вашому продукту, вони йому не довірять – хоч би якою сильною була інженерія.",
+            de: "Wenn Menschen Ihr Produkt nicht lernen können, vertrauen sie ihm nicht – egal, wie stark das Engineering ist.",
+      fr: "Si l’on ne peut pas apprendre votre produit, on ne lui fera pas confiance – quelle que soit la qualité de l’ingénierie.",
+      es: "Si no se puede aprender su producto, no se confiará en él – por muy buena que sea la ingeniería.",
+      it: "Se non si può imparare il vostro prodotto, non ci si fiderà – per quanto sia buona l’engineering.",
+      tr: "İnsanlar ürününüzü öğrenemezse güvenmez – mühendislik ne kadar iyi olursa olsun."
           }
         ]
       }
@@ -7661,7 +7661,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "A network engineer designs, configures, and troubleshoots the pathways data travels: office and data-center networks, VPNs, firewalls, load balancing, DNS, and hybrid cloud connectivity. Quiet networks are a competitive advantage.",
-            ua: "Мережевий інженер проєктує, налаштовує й діагностує шляхи, якими йдуть дані: офісні й датацентрові мережі, VPN, фаєрволи, балансування, DNS, гібридний хмарний зв’язок. Тиха мережа — конкурентна перевага.",
+            ua: "Мережевий інженер проєктує, налаштовує й діагностує шляхи, якими йдуть дані: офісні й датацентрові мережі, VPN, фаєрволи, балансування, DNS, гібридний хмарний зв’язок. Тиха мережа – конкурентна перевага.",
             de: "Ein Netzwerkingenieur entwirft, konfiguriert und diagnostiziert die Wege der Daten: Büro- und Rechenzentrumsnetze, VPNs, Firewalls, Lastverteilung, DNS und hybride Cloud-Anbindung. Stille Netze sind ein Wettbewerbsvorteil.",
       fr: "Un ingénieur réseau conçoit, configure et diagnostique les chemins des données : réseaux de bureau et de datacenter, VPN, pare-feu, répartition de charge, DNS et connectivité cloud hybride. Un réseau silencieux est un avantage concurrentiel.",
       es: "Un ingeniero de red diseña, configura y diagnostica los caminos de los datos: redes de oficina y de centro de datos, VPN, cortafuegos, equilibrio de carga, DNS y conectividad cloud híbrida. Una red silenciosa es una ventaja competitiva.",
@@ -7670,12 +7670,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -7761,7 +7761,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -7821,12 +7821,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Enterprises, ISPs, large offices, factories, or any environment where “the internet is slow” is actually a network design problem.",
-            ua: "Ентерпрайз, провайдери, великі офіси, заводи — або будь-яке середовище, де «інтернет гальмує» насправді є проблемою дизайну мережі.",
-            de: "Unternehmen, ISPs, große Büros, Fabriken — oder jede Umgebung, in der „das Internet ist langsam“ in Wahrheit ein Netzdesign-Problem ist.",
-      fr: "Grandes entreprises, FAI, gros bureaux, usines — ou tout environnement où « internet est lent » est en fait un problème de conception réseau.",
-      es: "Empresas, ISP, oficinas grandes, fábricas — o cualquier entorno en el que «internet va lento» es en realidad un problema de diseño de red.",
-      it: "Enterprise, ISP, uffici grandi, fabbriche — o ogni ambiente in cui «internet è lento» è in realtà un problema di design di rete.",
-      tr: "Kurumlar, ISS’ler, büyük ofisler, fabrikalar — veya «internet yavaş»ın aslında bir ağ tasarımı sorunu olduğu her ortam."
+            ua: "Ентерпрайз, провайдери, великі офіси, заводи – або будь-яке середовище, де «інтернет гальмує» насправді є проблемою дизайну мережі.",
+            de: "Unternehmen, ISPs, große Büros, Fabriken – oder jede Umgebung, in der „das Internet ist langsam“ in Wahrheit ein Netzdesign-Problem ist.",
+      fr: "Grandes entreprises, FAI, gros bureaux, usines – ou tout environnement où « internet est lent » est en fait un problème de conception réseau.",
+      es: "Empresas, ISP, oficinas grandes, fábricas – o cualquier entorno en el que «internet va lento» es en realidad un problema de diseño de red.",
+      it: "Enterprise, ISP, uffici grandi, fabbriche – o ogni ambiente in cui «internet è lento» è in realtà un problema di design di rete.",
+      tr: "Kurumlar, ISS’ler, büyük ofisler, fabrikalar – veya «internet yavaş»ın aslında bir ağ tasarımı sorunu olduğu her ortam."
           }
         ]
       },
@@ -7843,12 +7843,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Cloud abstracts some networking - it does not eliminate the need for people who understand packets, paths, and failure domains.",
-            ua: "Хмара ховає частину мережі — але не скасовує потребу в людях, які розуміють пакети, шляхи й домени відмови.",
-            de: "Cloud abstrahiert etwas Netz — sie ersetzt nicht Menschen, die Pakete, Pfade und Ausfalldomänen verstehen.",
-      fr: "Le cloud abstrait une partie du réseau — il n’élimine pas le besoin de gens qui comprennent paquets, chemins et domaines de panne.",
-      es: "El cloud abstrae algo de red — no elimina la necesidad de quien entiende paquetes, caminos y dominios de fallo.",
-      it: "Il cloud astrae un po’ di rete — non elimina il bisogno di chi capisce pacchetti, percorsi e domini di guasto.",
-      tr: "Bulut ağın bir kısmını soyutlar — paket, yol ve arıza alanlarını anlayan insan ihtiyacını kaldırmaz."
+            ua: "Хмара ховає частину мережі – але не скасовує потребу в людях, які розуміють пакети, шляхи й домени відмови.",
+            de: "Cloud abstrahiert etwas Netz – sie ersetzt nicht Menschen, die Pakete, Pfade und Ausfalldomänen verstehen.",
+      fr: "Le cloud abstrait une partie du réseau – il n’élimine pas le besoin de gens qui comprennent paquets, chemins et domaines de panne.",
+      es: "El cloud abstrae algo de red – no elimina la necesidad de quien entiende paquetes, caminos y dominios de fallo.",
+      it: "Il cloud astrae un po’ di rete – non elimina il bisogno di chi capisce pacchetti, percorsi e domini di guasto.",
+      tr: "Bulut ağın bir kısmını soyutlar – paket, yol ve arıza alanlarını anlayan insan ihtiyacını kaldırmaz."
           }
         ]
       }
@@ -7942,12 +7942,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -8033,7 +8033,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -8093,12 +8093,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Hardware products, industrial monitoring, smart devices, robotics-adjacent systems - anywhere software must survive the physical world.",
-            ua: "Залізні продукти, промисловий моніторинг, розумні пристрої, системи поруч із робототехнікою — скрізь, де ПЗ має вижити у фізичному світі.",
-            de: "Hardwareprodukte, industrielle Überwachung, Smart Devices, robotiknahe Systeme — überall, wo Software die physische Welt überleben muss.",
-      fr: "Produits hardware, supervision industrielle, appareils connectés, systèmes proches de la robotique — partout où le logiciel doit survivre au monde physique.",
-      es: "Productos de hardware, monitorización industrial, dispositivos inteligentes, sistemas junto a la robótica — donde el software tiene que sobrevivir al mundo físico.",
-      it: "Prodotti hardware, monitoraggio industriale, dispositivi smart, sistemi vicini alla robotica — ovunque il software debba sopravvivere al mondo fisico.",
-      tr: "Donanım ürünleri, endüstriyel izleme, akıllı cihazlar, robotiğe komşu sistemler — yazılımın fiziksel dünyada ayakta kalması gereken her yer."
+            ua: "Залізні продукти, промисловий моніторинг, розумні пристрої, системи поруч із робототехнікою – скрізь, де ПЗ має вижити у фізичному світі.",
+            de: "Hardwareprodukte, industrielle Überwachung, Smart Devices, robotiknahe Systeme – überall, wo Software die physische Welt überleben muss.",
+      fr: "Produits hardware, supervision industrielle, appareils connectés, systèmes proches de la robotique – partout où le logiciel doit survivre au monde physique.",
+      es: "Productos de hardware, monitorización industrial, dispositivos inteligentes, sistemas junto a la robótica – donde el software tiene que sobrevivir al mundo físico.",
+      it: "Prodotti hardware, monitoraggio industriale, dispositivi smart, sistemi vicini alla robotica – ovunque il software debba sopravvivere al mondo fisico.",
+      tr: "Donanım ürünleri, endüstriyel izleme, akıllı cihazlar, robotiğe komşu sistemler – yazılımın fiziksel dünyada ayakta kalması gereken her yer."
           }
         ]
       },
@@ -8221,12 +8221,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
           },
           {
             en: "This guide explains the role in practical terms: what the person actually does, core skills, and when a business should hire for this position - without buzzword fog.",
-            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати — без порожнього жаргону.",
-            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten — ohne leere Buzzwords.",
-      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter — sans jargon creux.",
+            ua: "Тут я розкладаю роль по поличках: чим людина займається на практиці, які навички справді потрібні і коли бізнесу є сенс наймати – без порожнього жаргону.",
+            de: "Ich erkläre die Rolle praxisnah: was die Person wirklich tut, welche Kompetenzen zählen und wann Sie diese Stelle besetzen sollten – ohne leere Buzzwords.",
+      fr: "Je vous explique le métier concrètement : ce que la personne fait au quotidien, les compétences qui comptent, et quand vous avez intérêt à recruter – sans jargon creux.",
       es: "Le explico el puesto con claridad: qué hace la persona de verdad, qué competencias importan y cuándo conviene contratarla, sin jerga vacía.",
-      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere — senza fumo di parole vuote.",
-      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız — boş jargon olmadan."
+      it: "Vi spiego il ruolo in concreto: cosa fa davvero la persona, quali competenze servono e quando ha senso assumere – senza fumo di parole vuote.",
+      tr: "Rolü pratik dilde anlatıyorum: kişi gerçekten ne yapar, hangi yetkinlikler işe yarar ve bu pozisyonu ne zaman açmalısınız – boş jargon olmadan."
           }
         ]
       },
@@ -8312,7 +8312,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Tools change; the underlying competencies stay valuable:",
-            ua: "Інструменти змінюються, фундамент — ні:",
+            ua: "Інструменти змінюються, фундамент – ні:",
             de: "Tools kommen und gehen; die Grundlagen bleiben:",
       fr: "Les outils changent, les bases restent :",
       es: "Las herramientas cambian; lo de fondo sigue valiendo:",
@@ -8372,7 +8372,7 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "When engineering is a core competitive advantage, headcount is scaling, or founders can no longer be both chief product visionary and daily eng ops lead.",
-            ua: "Коли інженерія — ядрова конкурентна перевага, штат росте, або фаундери вже не можуть бути і головним продуктовим візіонером, і щоденним операційним лідом інженерії.",
+            ua: "Коли інженерія – ядрова конкурентна перевага, штат росте, або фаундери вже не можуть бути і головним продуктовим візіонером, і щоденним операційним лідом інженерії.",
             de: "Wenn Engineering ein zentraler Wettbewerbsvorteil ist, Headcount skaliert oder Gründer nicht mehr zugleich Produktvisionär und tägliche Engineering-Ops-Führung sein können.",
       fr: "Quand l’ingénierie est un avantage concurrentiel cœur, que l’effectif scale, ou que les fondateurs ne peuvent plus être à la fois visionnaire produit et lead ops d’ingénierie au quotidien.",
       es: "Cuando la ingeniería es una ventaja competitiva de núcleo, la plantilla escala o los fundadores ya no pueden ser a la vez visionarios de producto y lead diario de ops de ingeniería.",
@@ -8394,12 +8394,12 @@ export const itRoleBlogPosts: RawBlogPost[] = [
         paragraphs: [
           {
             en: "Titles without mandate fail. CTO/VPE succeed when they create leverage for every team - not when they become the bottleneck approver.",
-            ua: "Назви без мандата провалюються. CTO/VPE спрацьовують, коли дають важіль кожній команді, — а не коли стають вузьким місцем на погодженнях.",
-            de: "Titel ohne Mandat scheitern. CTO/VPE gelingen, wenn sie Hebel für jedes Team schaffen — nicht, wenn sie zum Engpass-Genehmiger werden.",
-      fr: "Un titre sans mandat échoue. CTO/VPE réussissent quand ils créent du levier pour chaque équipe — pas quand ils deviennent le goulot qui approuve.",
-      es: "Un título sin mandato falla. CTO/VPE funcionan cuando crean palanca para cada equipo — no cuando se vuelven el cuello de botella que aprueba.",
-      it: "Un titolo senza mandato fallisce. CTO/VPE funzionano quando creano leva per ogni team — non quando diventano il collo di bottiglia che approva.",
-      tr: "Yetkisiz unvan düşer. CTO/VPE, her ekibe kaldıraç yarattığında başarır — darboğaz onaycı olduklarında değil."
+            ua: "Назви без мандата провалюються. CTO/VPE спрацьовують, коли дають важіль кожній команді, – а не коли стають вузьким місцем на погодженнях.",
+            de: "Titel ohne Mandat scheitern. CTO/VPE gelingen, wenn sie Hebel für jedes Team schaffen – nicht, wenn sie zum Engpass-Genehmiger werden.",
+      fr: "Un titre sans mandat échoue. CTO/VPE réussissent quand ils créent du levier pour chaque équipe – pas quand ils deviennent le goulot qui approuve.",
+      es: "Un título sin mandato falla. CTO/VPE funcionan cuando crean palanca para cada equipo – no cuando se vuelven el cuello de botella que aprueba.",
+      it: "Un titolo senza mandato fallisce. CTO/VPE funzionano quando creano leva per ogni team – non quando diventano il collo di bottiglia che approva.",
+      tr: "Yetkisiz unvan düşer. CTO/VPE, her ekibe kaldıraç yarattığında başarır – darboğaz onaycı olduklarında değil."
           }
         ]
       }

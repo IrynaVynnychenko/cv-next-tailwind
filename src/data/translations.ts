@@ -23,7 +23,7 @@ export const translations = {
       tagline:
         'Senior UI Engineer & Full Stack on React and Next.js: SaaS, MVPs, AI-powered web apps, Telegram Mini Apps.',
       fullCycle:
-        'I ship product UI in React and Next.js — App Router, Server Components, TypeScript. From Figma or a brief to production.',
+        'I ship product UI in React and Next.js – App Router, Server Components, TypeScript. From Figma or a brief to production.',
       whyTitle: 'What I take on',
       whyItems: [
         '8+ years in production: SaaS, MVPs, Web Apps on React and Next.js',
@@ -374,7 +374,7 @@ export const translations = {
       tagline:
         'Продуктовий фронтенд на React і Next.js: SaaS, MVP, AI-powered web apps, Telegram Mini Apps.',
       fullCycle:
-        'Збираю продуктовий UI на React і Next.js — App Router, Server Components, TypeScript. З Figma або з бриффа до продакшену.',
+        'Збираю продуктовий UI на React і Next.js – App Router, Server Components, TypeScript. З Figma або з бриффа до продакшену.',
       whyTitle: 'За що берусь',
       whyItems: [
         '8+ років у проді: SaaS, MVP, Web Apps на React і Next.js',
@@ -725,7 +725,7 @@ export const translations = {
       tagline:
         'Senior UI Engineer & Full Stack mit React und Next.js: SaaS, MVPs, AI-powered Web Apps, Telegram Mini Apps.',
       fullCycle:
-        'Ich liefere Produkt-UI in React und Next.js — App Router, Server Components, TypeScript. Aus Figma oder aus dem Briefing in Produktion.',
+        'Ich liefere Produkt-UI in React und Next.js – App Router, Server Components, TypeScript. Aus Figma oder aus dem Briefing in Produktion.',
       whyTitle: 'Worum ich mich kümmere',
       whyItems: [
         '8+ Jahre in Produktion: SaaS, MVPs, Web Apps mit React und Next.js',
@@ -1082,7 +1082,7 @@ export const translations = {
       tagline:
         'Frontend produit en React et Next.js : SaaS, MVPs, web apps IA, Telegram Mini Apps.',
       fullCycle:
-        'Je livre l’UI produit en React et Next.js — App Router, Server Components, TypeScript. De Figma ou du brief jusqu’en production.',
+        'Je livre l’UI produit en React et Next.js – App Router, Server Components, TypeScript. De Figma ou du brief jusqu’en production.',
       whyTitle: 'Ce que je prends en charge',
       whyItems: [
         '8+ ans en prod : SaaS, MVPs, Web Apps en React et Next.js',
@@ -1439,7 +1439,7 @@ export const translations = {
       tagline:
         'Frontend de producto en React y Next.js: SaaS, MVPs, web apps con IA, Telegram Mini Apps.',
       fullCycle:
-        'Entrego UI de producto en React y Next.js — App Router, Server Components, TypeScript. De Figma o del brief a producción.',
+        'Entrego UI de producto en React y Next.js – App Router, Server Components, TypeScript. De Figma o del brief a producción.',
       whyTitle: 'Qué asumo',
       whyItems: [
         '8+ años en producción: SaaS, MVPs, Web Apps en React y Next.js',
@@ -1790,7 +1790,7 @@ export const translations = {
       tagline:
         'Frontend di prodotto su React e Next.js: SaaS, MVP, web app con IA, Telegram Mini Apps.',
       fullCycle:
-        'Consegno UI di prodotto in React e Next.js — App Router, Server Components, TypeScript. Da Figma o dal brief in produzione.',
+        'Consegno UI di prodotto in React e Next.js – App Router, Server Components, TypeScript. Da Figma o dal brief in produzione.',
       whyTitle: 'Di cosa mi occupo',
       whyItems: [
         '8+ anni in produzione: SaaS, MVP, Web Apps su React e Next.js',
@@ -2141,7 +2141,7 @@ export const translations = {
       tagline:
         'React ve Next.js ile ürün frontend’i: SaaS, MVP, AI destekli web app, Telegram Mini Apps.',
       fullCycle:
-        'Ürün UI’sini React ve Next.js ile teslim ederim — App Router, Server Components, TypeScript. Figma’dan veya briften üretime.',
+        'Ürün UI’sini React ve Next.js ile teslim ederim – App Router, Server Components, TypeScript. Figma’dan veya briften üretime.',
       whyTitle: 'Neleri alıyorum',
       whyItems: [
         '8+ yıl üretimde: React ve Next.js ile SaaS, MVP, Web Apps',

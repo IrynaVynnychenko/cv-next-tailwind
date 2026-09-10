@@ -8,13 +8,13 @@ import { ROUND_SECONDS } from './PixiCatchScene'
 
 const copy = {
   kicker: {
-    en: 'Live stage — move to catch',
-    ua: 'Жива сцена — рухайте, щоб ловити',
-    de: 'Live-Bühne — bewegen zum Fangen',
-    fr: 'Scène live — déplacez pour attraper',
-    es: 'Escenario en vivo — mueva para atrapar',
-    it: 'Palco live — muovete per prendere',
-    tr: 'Canlı sahne — yakalamak için hareket ettirin',
+    en: 'Live stage – move to catch',
+    ua: 'Жива сцена – рухайте, щоб ловити',
+    de: 'Live-Bühne – bewegen zum Fangen',
+    fr: 'Scène live – déplacez pour attraper',
+    es: 'Escenario en vivo – mueva para atrapar',
+    it: 'Palco live – muovete per prendere',
+    tr: 'Canlı sahne – yakalamak için hareket ettirin',
   },
   hint: {
     en: 'Catch fruit. Dodge the wormy ones. Pointer or ← →.',
@@ -35,13 +35,13 @@ const copy = {
     tr: '2D sahne açılıyor…',
   },
   fail: {
-    en: 'WebGL did not init on this device. The article below still stands — the game is a product stage, not the only way to read it.',
-    ua: 'WebGL на цьому пристрої не стартував. Текст нижче лишається — гра не єдиний спосіб її прочитати.',
-    de: 'WebGL ist auf diesem Gerät nicht gestartet. Der Text darunter gilt trotzdem — das Spiel ist nicht der einzige Weg, ihn zu lesen.',
-    fr: 'WebGL n’a pas démarré sur cet appareil. L’article dessous tient — le jeu n’est pas le seul moyen de le lire.',
-    es: 'WebGL no arrancó en este dispositivo. El artículo debajo sigue — el juego no es la única forma de leerlo.',
-    it: 'WebGL non è partito su questo dispositivo. L’articolo sotto resta — il gioco non è l’unico modo di leggerlo.',
-    tr: 'WebGL bu cihazda başlamadı. Aşağıdaki yazı duruyor — oyun onu okumanın tek yolu değil.',
+    en: 'WebGL did not init on this device. The article below still stands – the game is a product stage, not the only way to read it.',
+    ua: 'WebGL на цьому пристрої не стартував. Текст нижче лишається – гра не єдиний спосіб її прочитати.',
+    de: 'WebGL ist auf diesem Gerät nicht gestartet. Der Text darunter gilt trotzdem – das Spiel ist nicht der einzige Weg, ihn zu lesen.',
+    fr: 'WebGL n’a pas démarré sur cet appareil. L’article dessous tient – le jeu n’est pas le seul moyen de le lire.',
+    es: 'WebGL no arrancó en este dispositivo. El artículo debajo sigue – el juego no es la única forma de leerlo.',
+    it: 'WebGL non è partito su questo dispositivo. L’articolo sotto resta – il gioco non è l’unico modo di leggerlo.',
+    tr: 'WebGL bu cihazda başlamadı. Aşağıdaki yazı duruyor – oyun onu okumanın tek yolu değil.',
   },
   score: {
     en: 'Score',
@@ -112,13 +112,13 @@ const copy = {
     storm: { en: 'Storm', ua: 'Шторм', de: 'Sturm', fr: 'Tempête', es: 'Tormenta', it: 'Tempesta', tr: 'Fırtına' },
   },
   reduced: {
-    en: 'Reduced motion is on — the ticker is slower. The stage still plays.',
-    ua: 'Reduced motion увімкнено — ticker повільніший. Сцена все одно грається.',
-    de: 'Reduced motion ist an — der Ticker ist langsamer. Die Bühne spielt trotzdem.',
-    fr: 'Reduced motion est actif — le ticker est plus lent. La scène se joue encore.',
-    es: 'Reduced motion está activo — el ticker va más lento. El escenario sigue jugándose.',
-    it: 'Reduced motion è attivo — il ticker è più lento. Il palco si gioca comunque.',
-    tr: 'Reduced motion açık — ticker daha yavaş. Sahne yine oynanır.',
+    en: 'Reduced motion is on – the ticker is slower. The stage still plays.',
+    ua: 'Reduced motion увімкнено – ticker повільніший. Сцена все одно грається.',
+    de: 'Reduced motion ist an – der Ticker ist langsamer. Die Bühne spielt trotzdem.',
+    fr: 'Reduced motion est actif – le ticker est plus lent. La scène se joue encore.',
+    es: 'Reduced motion está activo – el ticker va más lento. El escenario sigue jugándose.',
+    it: 'Reduced motion è attivo – il ticker è più lento. Il palco si gioca comunque.',
+    tr: 'Reduced motion açık – ticker daha yavaş. Sahne yine oynanır.',
   },
 } as const
 

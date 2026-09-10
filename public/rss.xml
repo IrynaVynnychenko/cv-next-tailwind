@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Iryna Vynnychenko — Senior UI Engineer &amp; Full Stack Developer (React, Next.js)</title>
+    <title>Iryna Vynnychenko – Senior UI Engineer &amp; Full Stack Developer (React, Next.js)</title>
     <link>https://vynnychenko.dev/blog/</link>
     <description>Iryna Vynnychenko, senior UI engineer &amp; full stack developer in Kyiv. React and Next.js for SaaS, MVPs, and Telegram Mini Apps. 8+ years in production, 4,200+ Upwork hours, 100+ launched projects.</description>
     <language>en</language>
@@ -12,7 +12,7 @@
       <link>https://vynnychenko.dev/blog/pandas-polars-dask-live-charts/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/pandas-polars-dask-live-charts/</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Three Python dataframe libraries, three live Chart.js charts: a bubble chart for the ecosystem, a scriptable bubble chart where color comes from the value not the library, and a progressive-line chart for adoption. No screenshots — the canvases above render in your browser.</description>
+      <description>Three Python dataframe libraries, three live Chart.js charts: a bubble chart for the ecosystem, a scriptable bubble chart where color comes from the value not the library, and a progressive-line chart for adoption. No screenshots – the canvases above render in your browser.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>Python</category><category>Data Engineering</category><category>Chart.js</category><category>Pandas</category><category>Polars</category><category>Dask</category>
     </item>
@@ -26,11 +26,11 @@
       <category>Load Testing</category><category>Stress Testing</category><category>Performance Testing</category><category>QA</category><category>Web Performance</category>
     </item>
     <item>
-      <title>Why I Use Cursor With the Figma MCP — and Why I Still Test on a Cabled iPhone</title>
+      <title>Why I Use Cursor With the Figma MCP – and Why I Still Test on a Cabled iPhone</title>
       <link>https://vynnychenko.dev/blog/cursor-figma-mcp-ios-safari-testing/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/cursor-figma-mcp-ios-safari-testing/</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Cursor's Figma MCP means I stopped eyeballing screenshots for spacing and color — I get the real node data. And nothing ships until I have watched it live on an iPhone plugged into my Mac, because Safari, not desktop Chrome, is the browser most of my clients' actual customers use.</description>
+      <description>Cursor's Figma MCP means I stopped eyeballing screenshots for spacing and color – I get the real node data. And nothing ships until I have watched it live on an iPhone plugged into my Mac, because Safari, not desktop Chrome, is the browser most of my clients' actual customers use.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>Cursor</category><category>Figma</category><category>MCP</category><category>iOS Safari</category><category>Web Inspector</category><category>Frontend Testing</category>
     </item>
@@ -39,12 +39,12 @@
       <link>https://vynnychenko.dev/blog/how-i-use-ai-as-a-fullstack-developer/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/how-i-use-ai-as-a-fullstack-developer/</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Not a hype post about &quot;10x with AI.&quot; A concrete walkthrough of where AI actually sits in my daily work as a full-stack developer — code, content pipelines, translations, tests, deploys — and where I still do the work myself.</description>
+      <description>Not a hype post about &quot;10x with AI.&quot; A concrete walkthrough of where AI actually sits in my daily work as a full-stack developer – code, content pipelines, translations, tests, deploys – and where I still do the work myself.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>AI</category><category>Automation</category><category>Full-Stack</category><category>Developer Workflow</category><category>Next.js</category><category>CI/CD</category>
     </item>
     <item>
-      <title>Five SQL Patterns That Replace a Python Loop — And Why They Win</title>
+      <title>Five SQL Patterns That Replace a Python Loop – And Why They Win</title>
       <link>https://vynnychenko.dev/blog/sql-window-functions-instead-of-python-loops/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/sql-window-functions-instead-of-python-loops/</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
@@ -66,16 +66,16 @@
       <link>https://vynnychenko.dev/blog/frontend-fullstack-beside-ai-backend-2026/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/frontend-fullstack-beside-ai-backend-2026/</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <description>The product already has — or is hiring — the person for pipelines, embeddings, workers, notebooks, LangChain or LlamaIndex in Python. I am the other seat: frontend and fullstack for the product that specialist feeds. Not a substitute for them. Not the whole ML contour in one body.</description>
+      <description>The product already has – or is hiring – the person for pipelines, embeddings, workers, notebooks, LangChain or LlamaIndex in Python. I am the other seat: frontend and fullstack for the product that specialist feeds. Not a substitute for them. Not the whole ML contour in one body.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>Frontend</category><category>Fullstack</category><category>AI Backend</category><category>Next.js</category><category>Hiring</category><category>LLM</category>
     </item>
     <item>
-      <title>The Market Wants a Python AI Engineer With LangGraph — Not an “AI Person”</title>
+      <title>The Market Wants a Python AI Engineer With LangGraph – Not an “AI Person”</title>
       <link>https://vynnychenko.dev/blog/ai-engineer-python-langgraph-rag-demand-2026/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/ai-engineer-python-langgraph-rag-demand-2026/</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Job posts in 2026 name LangChain or LangGraph, a RAG pipeline, and an LLM system that already ran in production. That is a Python systems seat around the model — not a researcher, not a chat-widget freelancer, and not the fullstack LLM hire.</description>
+      <description>Job posts in 2026 name LangChain or LangGraph, a RAG pipeline, and an LLM system that already ran in production. That is a Python systems seat around the model – not a researcher, not a chat-widget freelancer, and not the fullstack LLM hire.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>Hiring</category><category>AI Engineer</category><category>LangGraph</category><category>RAG</category><category>Python</category><category>Job Market</category>
     </item>
@@ -84,7 +84,7 @@
       <link>https://vynnychenko.dev/blog/fullstack-python-react-llm-demand-2026/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/fullstack-python-react-llm-demand-2026/</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <description>The second posting on the 2026 market is not a softer AI engineer. It is one person who owns Python and the React TypeScript screen — and who has already put an LLM feature in front of real users. Mixing it with the LangGraph-production seat is how a JD asks for two seniors and pays for one.</description>
+      <description>The second posting on the 2026 market is not a softer AI engineer. It is one person who owns Python and the React TypeScript screen – and who has already put an LLM feature in front of real users. Mixing it with the LangGraph-production seat is how a JD asks for two seniors and pays for one.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>Hiring</category><category>Fullstack</category><category>Python</category><category>React</category><category>TypeScript</category><category>LLM</category>
     </item>
@@ -93,7 +93,7 @@
       <link>https://vynnychenko.dev/blog/pixijs-animated-game-nextjs/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/pixijs-animated-game-nextjs/</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
-      <description>The last article was the 3D object. This one is the 2D stage. Catch the fruit. Dodge the rotten ones. The GPU keeps the sprites at 60 fps; the score under it stays HTML. How I wire a branded minigame as a Next.js island — and why Pixi is still not a game engine.</description>
+      <description>The last article was the 3D object. This one is the 2D stage. Catch the fruit. Dodge the rotten ones. The GPU keeps the sprites at 60 fps; the score under it stays HTML. How I wire a branded minigame as a Next.js island – and why Pixi is still not a game engine.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>Pixi.js</category><category>WebGL</category><category>Next.js</category><category>Frontend</category><category>Animation</category><category>Game</category>
     </item>
@@ -102,7 +102,7 @@
       <link>https://vynnychenko.dev/blog/threejs-product-scene-nextjs/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/threejs-product-scene-nextjs/</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <description>The last article was when I would leave the DOM. This one is the object. Drag it. Switch glass to chrome. The GPU paints the SKU; the copy around it stays HTML. How I wire that island in Next.js — and why it still does not live on the homepage.</description>
+      <description>The last article was when I would leave the DOM. This one is the object. Drag it. Switch glass to chrome. The GPU paints the SKU; the copy around it stays HTML. How I wire that island in Next.js – and why it still does not live on the homepage.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>Three.js</category><category>WebGL</category><category>Next.js</category><category>Frontend</category><category>Animation</category><category>Product</category>
     </item>
@@ -678,7 +678,7 @@
       <link>https://vynnychenko.dev/blog/ai-solutions-for-business-process-automation-guide/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/ai-solutions-for-business-process-automation-guide/</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>AI solutions for business: custom RAG on your data, agents with a human confirm, CRM hooks, and metrics that show ROI — not a chatbot demo.</description>
+      <description>AI solutions for business: custom RAG on your data, agents with a human confirm, CRM hooks, and metrics that show ROI – not a chatbot demo.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>AI for Business</category><category>Artificial Intelligence</category><category>Business Automation</category><category>RAG Architecture</category><category>AI Agents</category>
     </item>
@@ -701,7 +701,7 @@
       <category>Telegram Mini Apps</category><category>Web3 Development</category><category>Crypto Payments</category><category>Next.js</category><category>TypeScript</category>
     </item>
     <item>
-      <title>Choosing a Telegram Mini App Development Company — Engineer vs Agency</title>
+      <title>Choosing a Telegram Mini App Development Company – Engineer vs Agency</title>
       <link>https://vynnychenko.dev/blog/choosing-telegram-mini-app-development-company/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/choosing-telegram-mini-app-development-company/</guid>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
@@ -714,7 +714,7 @@
       <link>https://vynnychenko.dev/blog/telegram-bot-payment-integration-guide/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/telegram-bot-payment-integration-guide/</guid>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>How to take card and crypto payments in a Telegram bot: invoices, webhooks, Mini App checkout, Stripe, LiqPay, Monobank — without a broken checkout.</description>
+      <description>How to take card and crypto payments in a Telegram bot: invoices, webhooks, Mini App checkout, Stripe, LiqPay, Monobank – without a broken checkout.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>Payments</category><category>Telegram Bots</category><category>Monobank</category><category>Stripe</category><category>LiqPay</category><category>Crypto</category><category>Fintech</category>
     </item>
@@ -944,11 +944,11 @@
       <category>Telegram Bots</category><category>Payments</category><category>Automation</category><category>Stripe</category><category>PayPal</category>
     </item>
     <item>
-      <title>How to Automate Business Processes with AI — Without Giving It the Keys</title>
+      <title>How to Automate Business Processes with AI – Without Giving It the Keys</title>
       <link>https://vynnychenko.dev/blog/how-to-automate-business-processes-with-ai/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/how-to-automate-business-processes-with-ai/</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description>How to automate business processes with AI: support, documents, code, sales — with a human confirm on money and public actions. A four-track roadmap, not a chatbot demo.</description>
+      <description>How to automate business processes with AI: support, documents, code, sales – with a human confirm on money and public actions. A four-track roadmap, not a chatbot demo.</description>
       <dc:creator>Iryna Vynnychenko</dc:creator>
       <category>AI</category><category>Automation</category><category>Business</category><category>Web Development</category><category>Productivity</category>
     </item>

@@ -7,13 +7,13 @@ import type { Language } from '@/lib/i18n'
 
 const copy = {
   kicker: {
-    en: 'Live charts — Chart.js, rendered in your browser',
-    ua: 'Живі графіки — Chart.js, малює ваш браузер',
-    de: 'Live-Diagramme — Chart.js, gerendert in Ihrem Browser',
-    fr: 'Graphiques en direct — Chart.js, rendus dans votre navigateur',
-    es: 'Gráficos en vivo — Chart.js, renderizados en su navegador',
-    it: 'Grafici live — Chart.js, renderizzati nel vostro browser',
-    tr: 'Canlı grafikler — Chart.js, tarayıcınızda çiziliyor',
+    en: 'Live charts – Chart.js, rendered in your browser',
+    ua: 'Живі графіки – Chart.js, малює ваш браузер',
+    de: 'Live-Diagramme – Chart.js, gerendert in Ihrem Browser',
+    fr: 'Graphiques en direct – Chart.js, rendus dans votre navigateur',
+    es: 'Gráficos en vivo – Chart.js, renderizados en su navegador',
+    it: 'Grafici live – Chart.js, renderizzati nel vostro browser',
+    tr: 'Canlı grafikler – Chart.js, tarayıcınızda çiziliyor',
   },
   loading: {
     en: 'Booting the charts…',
