@@ -92,9 +92,9 @@ const ROOT_METADATA: Record<Language, RootMetadataEntry> = {
 export function getRootMetadata(lang: Language): Metadata {
   const entry = ROOT_METADATA[lang]
   const author = AUTHOR_NAME[lang]
-  // `en` has always pointed at the bare origin (no trailing slash); every
-  // other locale points at its home path, e.g. https://vynnychenko.dev/de/.
-  const url = lang === 'en' ? BASE_URL : `${BASE_URL}${getHomePath(lang)}`
+  // Must match the homepage's own canonical exactly (getPageAlternates('/', lang)) - including
+  // the trailing slash on `en` - or Open Graph's og:url disagrees with <link rel="canonical">.
+  const url = `${BASE_URL}${getHomePath(lang)}`
 
   return {
     metadataBase: new URL(BASE_URL),

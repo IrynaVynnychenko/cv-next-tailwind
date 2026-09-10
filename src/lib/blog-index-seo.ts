@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import type { Language } from '@/lib/i18n'
-import { getBlogIndexAlternates } from '@/lib/seo'
+import { getBlogIndexAlternates, getOgLocale, getOpenGraphImages, getTwitterImageMetadata } from '@/lib/seo'
 
 type BlogIndexEntry = {
   title: string
@@ -76,19 +76,23 @@ const BLOG_INDEX: Record<Language, BlogIndexEntry> = {
  */
 export function getBlogIndexMetadata(lang: Language, page?: number): Metadata {
   const entry = BLOG_INDEX[lang]
-
-  if (page === undefined || page <= 1) {
-    return {
-      title: entry.title,
-      description: entry.description,
-      alternates: getBlogIndexAlternates(lang),
-    }
-  }
+  const isFirstPage = page === undefined || page <= 1
+  const title = isFirstPage ? entry.title : entry.pageTitle(page as number)
+  const alternates = isFirstPage ? getBlogIndexAlternates(lang) : getBlogIndexAlternates(lang, page)
 
   return {
-    title: entry.pageTitle(page),
+    title,
     description: entry.description,
-    alternates: getBlogIndexAlternates(lang, page),
+    alternates,
+    openGraph: {
+      title,
+      description: entry.description,
+      url: alternates.canonical,
+      type: 'website',
+      locale: getOgLocale(lang),
+      images: getOpenGraphImages(),
+    },
+    twitter: getTwitterImageMetadata(),
   }
 }
 
