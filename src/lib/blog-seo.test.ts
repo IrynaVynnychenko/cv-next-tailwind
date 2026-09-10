@@ -56,21 +56,35 @@ describe('getBlogPostMetadata', () => {
     expect(metadata).toEqual({ title: 'Статтю не знайдено' })
   })
 
-  it('builds full metadata for a real post in en', () => {
+  it('builds full metadata for a real post in en, dropping the brand suffix when the title is already long', () => {
     const metadata = getBlogPostMetadata(SLUG, 'en')
     const post = getBlogPost(SLUG, 'en')!
-    expect(metadata.title).toBe(`${post.title} - Iryna Vynnychenko | Senior Web & Frontend Engineer`)
+    // This fixture's title alone is already close to the truncation budget, so appending
+    // " - Iryna Vynnychenko" would push <title> well past what Google displays - the bare
+    // title is used instead. See buildBlogPostTitle in blog-seo.ts.
+    expect(metadata.title).toBe(post.title)
+    expect((metadata.title as string).length).toBeLessThanOrEqual(65)
     expect(metadata.description).toBe(post.excerpt)
     expect(metadata.alternates?.canonical).toBe(`${BASE_URL}/blog/${SLUG}/`)
     expect(metadata.openGraph?.locale).toBe('en_US')
     expect(metadata.openGraph?.type).toBe('article')
+    expect(metadata.openGraph?.url).toBe(metadata.alternates?.canonical)
   })
 
   it('builds full metadata for a real post in a prefixed locale (de)', () => {
     const metadata = getBlogPostMetadata(SLUG, 'de')
     const post = getBlogPost(SLUG, 'de')!
-    expect(metadata.title).toBe(`${post.title} - Iryna Vynnychenko | Senior Web- & Frontend-Entwicklerin`)
+    expect(metadata.title).toBe(post.title)
     expect(metadata.alternates?.canonical).toBe(`${BASE_URL}/de/blog/${SLUG}/`)
     expect(metadata.openGraph?.locale).toBe('de_DE')
+    expect(metadata.openGraph?.url).toBe(metadata.alternates?.canonical)
+  })
+
+  it('appends the brand suffix when the title leaves room for it', () => {
+    const shortSlug = 'pixijs-animated-game-nextjs'
+    const metadata = getBlogPostMetadata(shortSlug, 'en')
+    const post = getBlogPost(shortSlug, 'en')!
+    expect(metadata.title).toBe(`${post.title} - Iryna Vynnychenko`)
+    expect((metadata.title as string).length).toBeLessThanOrEqual(65)
   })
 })
