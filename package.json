@@ -15,6 +15,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "chart.js": "^4.5.1",
     "next": "14.2.32",
     "pixi.js": "^8.20.1",
     "react": "^18",

@@ -7,6 +7,7 @@ import ContactInfo from '@/components/ContactInfo'
 import RelatedPosts from '@/components/RelatedPosts'
 import PixiDemoIsland from '@/components/pixi/PixiDemoIsland'
 import ThreeDemoIsland from '@/components/three/ThreeDemoIsland'
+import ChartsDemoIsland from '@/components/charts/ChartsDemoIsland'
 import { getBlogPost } from '@/data/blog-posts'
 import { getServiceIdForSlug, services } from '@/data/services'
 import { useLanguage } from '@/context/LanguageContext'
@@ -166,6 +167,7 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
 
         {slug === 'threejs-product-scene-nextjs' && <ThreeDemoIsland />}
         {slug === 'pixijs-animated-game-nextjs' && <PixiDemoIsland />}
+        {slug === 'pandas-polars-dask-live-charts' && <ChartsDemoIsland />}
 
         <BlogPostContent
           sections={post.content}

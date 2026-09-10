@@ -11,6 +11,7 @@ import { mcpPosts } from './posts-mcp'
 import { databasePosts } from './posts-databases'
 import { sqlPythonPosts } from './posts-sql-python'
 import { engineeringPosts } from './posts-engineering'
+import { chartsPosts } from './posts-charts'
 import { graphicsPosts } from './posts-graphics'
 import { pixiJsPosts } from './posts-pixi'
 import { threeJsPosts } from './posts-three'
@@ -31,6 +32,7 @@ export type {
 } from './types'
 
 const ALL_POSTS: RawBlogPost[] = [
+  ...chartsPosts,
   ...cursorFigmaMcpPosts,
   ...aiWorkflowPosts,
   ...productAiPosts,
@@ -56,6 +58,7 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'pandas-polars-dask-live-charts',
   'what-is-load-stress-testing',
   'cursor-figma-mcp-ios-safari-testing',
   'how-i-use-ai-as-a-fullstack-developer',
