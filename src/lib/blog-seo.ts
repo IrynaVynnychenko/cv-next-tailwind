@@ -11,13 +11,23 @@ import {
 } from '@/lib/seo'
 
 const TITLE_SUFFIX: Record<Language, string> = {
-  en: 'Iryna Vynnychenko | Senior Web & Frontend Engineer',
-  ua: 'Ірина Винниченко | Senior Web & Frontend розробниця',
-  de: 'Iryna Vynnychenko | Senior Web- & Frontend-Entwicklerin',
-  fr: 'Iryna Vynnychenko | Développeuse Web & Frontend Senior',
-  es: 'Iryna Vynnychenko | Desarrolladora Web y Frontend Senior',
-  it: 'Iryna Vynnychenko | Sviluppatrice Web e Frontend Senior',
-  tr: 'Iryna Vynnychenko | Kıdemli Web ve Frontend Geliştirici',
+  en: 'Iryna Vynnychenko',
+  ua: 'Ірина Винниченко',
+  de: 'Iryna Vynnychenko',
+  fr: 'Iryna Vynnychenko',
+  es: 'Iryna Vynnychenko',
+  it: 'Iryna Vynnychenko',
+  tr: 'Iryna Vynnychenko',
+}
+
+// Google truncates <title> around ~60 characters in search results. Post headlines are already
+// full sentences by design, so only tack on the brand suffix when there's room for it - never
+// let it push an already-long title further past the point where it would just get cut off.
+const TITLE_MAX_LENGTH = 65
+
+function buildBlogPostTitle(postTitle: string, lang: Language): string {
+  const withSuffix = `${postTitle} - ${TITLE_SUFFIX[lang]}`
+  return withSuffix.length <= TITLE_MAX_LENGTH ? withSuffix : postTitle
 }
 
 const NOT_FOUND_TITLE: Record<Language, string> = {
@@ -60,7 +70,7 @@ export function getBlogPostMetadata(slug: string, lang: Language): Metadata {
   const modified = getBlogPostModified(post)
 
   return {
-    title: `${post.title} - ${TITLE_SUFFIX[lang]}`,
+    title: buildBlogPostTitle(post.title, lang),
     description: post.excerpt,
     authors: [{ name: author, url: 'https://vynnychenko.dev' }],
     alternates,

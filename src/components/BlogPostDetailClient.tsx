@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import BlogPostContent from '@/components/BlogPostContent'
 import ContactInfo from '@/components/ContactInfo'
 import RelatedPosts from '@/components/RelatedPosts'
+import PrevNextPosts from '@/components/PrevNextPosts'
 import PixiDemoIsland from '@/components/pixi/PixiDemoIsland'
 import ThreeDemoIsland from '@/components/three/ThreeDemoIsland'
 import ChartsDemoIsland from '@/components/charts/ChartsDemoIsland'
@@ -218,6 +219,7 @@ export default function BlogPostDetailClient({ slug }: BlogPostDetailClientProps
           </div>
         )}
 
+        <PrevNextPosts slug={slug} />
         <RelatedPosts slug={slug} />
 
         <div className="mt-12 border-t border-edge pt-8">

@@ -348,6 +348,8 @@ export const translations = {
       clearSearch: 'Clear search',
       relatedTitle: 'More on this topic',
       updated: 'Updated',
+      prevPost: 'Previous article',
+      nextPost: 'Next article',
     },
   },
   ua: {
@@ -699,6 +701,8 @@ export const translations = {
       clearSearch: 'Очистити пошук',
       relatedTitle: 'Ще з цієї теми',
       updated: 'Оновлено',
+      prevPost: 'Попередня стаття',
+      nextPost: 'Наступна стаття',
     },
   },
   de: {
@@ -1056,6 +1060,8 @@ export const translations = {
       clearSearch: 'Suche löschen',
       relatedTitle: 'Mehr zu diesem Thema',
       updated: 'Aktualisiert',
+      prevPost: 'Vorheriger Artikel',
+      nextPost: 'Nächster Artikel',
     },
   },
   fr: {
@@ -1413,6 +1419,8 @@ export const translations = {
       clearSearch: 'Effacer la recherche',
       relatedTitle: 'Dans le même sujet',
       updated: 'Mis à jour',
+      prevPost: 'Article précédent',
+      nextPost: 'Article suivant',
     },
   },
   es: {
@@ -1764,6 +1772,8 @@ export const translations = {
       clearSearch: 'Borrar búsqueda',
       relatedTitle: 'Más sobre este tema',
       updated: 'Actualizado',
+      prevPost: 'Artículo anterior',
+      nextPost: 'Artículo siguiente',
     },
   },
   it: {
@@ -2115,6 +2125,8 @@ export const translations = {
       clearSearch: 'Cancella ricerca',
       relatedTitle: 'Altri sullo stesso tema',
       updated: 'Aggiornato',
+      prevPost: 'Articolo precedente',
+      nextPost: 'Articolo successivo',
     },
   },
   tr: {
@@ -2466,6 +2478,8 @@ export const translations = {
       clearSearch: 'Aramayı temizle',
       relatedTitle: 'Bu konuda daha fazla',
       updated: 'Güncellendi',
+      prevPost: 'Önceki yazı',
+      nextPost: 'Sonraki yazı',
     },
   },
 } as const

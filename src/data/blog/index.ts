@@ -260,6 +260,25 @@ function slugTokenOverlap(a: string, b: string): number {
   return count
 }
 
+/**
+ * Previous/next post in SLUG_ORDER, wrapping around at the ends. Every post links to exactly
+ * two neighbors and is linked from exactly two neighbors, so no post can end up with only the
+ * blog-index link as its sole incoming internal link, regardless of how getRelatedPosts scores it.
+ */
+export function getAdjacentPosts(slug: string, lang: BlogLang = 'en'): { prev?: BlogPost; next?: BlogPost } {
+  const idx = rawBlogPosts.findIndex((post) => post.slug === slug)
+  if (idx === -1) return {}
+
+  const count = rawBlogPosts.length
+  const prevRaw = rawBlogPosts[(idx - 1 + count) % count]
+  const nextRaw = rawBlogPosts[(idx + 1) % count]
+
+  return {
+    prev: prevRaw.slug === slug ? undefined : getBlogPost(prevRaw.slug, lang),
+    next: nextRaw.slug === slug ? undefined : getBlogPost(nextRaw.slug, lang),
+  }
+}
+
 export function getRelatedPosts(slug: string, lang: BlogLang = 'en', limit = RELATED_LIMIT): BlogPost[] {
   const current = rawBlogPosts.find((post) => post.slug === slug)
   if (!current) return []

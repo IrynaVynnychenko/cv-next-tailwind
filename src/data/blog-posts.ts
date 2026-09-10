@@ -10,6 +10,7 @@ export type {
 export {
   BLOG_POSTS_PER_PAGE,
   blogPosts,
+  getAdjacentPosts,
   getAllBlogPosts,
   getAllBlogSlugs,
   getBlogPageCount,

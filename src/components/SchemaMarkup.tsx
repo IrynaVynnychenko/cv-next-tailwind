@@ -205,11 +205,15 @@ const copy = {
   },
 } as const
 
+const PROFILE_CREATED_DATE = '2025-09-14'
+
 export function ProfilePageSchema({ lang }: SchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'ProfilePage',
     url: `https://vynnychenko.dev${getHomePath(lang)}`,
+    dateCreated: PROFILE_CREATED_DATE,
+    dateModified: new Date().toISOString().split('T')[0],
     mainEntity: {
       '@type': 'Person',
       name: copy.name[lang],
@@ -444,7 +448,6 @@ export function ServicePageSchema({ id, lang }: SchemaProps & { id: ServiceId })
     name,
     description,
     url,
-    inLanguage: LOCALE_TAGS[lang],
     provider: {
       '@type': 'Person',
       name: authorName,
@@ -454,10 +457,6 @@ export function ServicePageSchema({ id, lang }: SchemaProps & { id: ServiceId })
     },
     areaServed: 'Worldwide',
     email: 'i.vynnychenko@gmail.com',
-    speakable: {
-      '@type': 'SpeakableSpecification',
-      cssSelector: ['#service-lead'],
-    },
   }
 
   const faqSchema = {

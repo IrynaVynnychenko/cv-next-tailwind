@@ -5,12 +5,16 @@ export function Panel({
   title,
   count,
   children,
+  headingLevel = 'h2',
 }: {
   id?: string
   title: string
   count?: number | string
   children: ReactNode
+  /** The page's first/only Panel should be 'h1' when nothing else on the page provides one. */
+  headingLevel?: 'h1' | 'h2'
 }) {
+  const Heading = headingLevel
   return (
     <section
       id={id}
@@ -18,14 +22,14 @@ export function Panel({
       className="screen-line-before border-x border-edge"
     >
       <header className="screen-line-after px-4 py-4">
-        <h2 className="text-xl font-semibold tracking-tight">
+        <Heading className="text-xl font-semibold tracking-tight">
           {title}
           {count != null && count !== '' && (
             <sup className="-top-[0.25em] ml-1 text-sm font-medium text-muted-foreground tabular-nums select-none">
               ({count})
             </sup>
           )}
-        </h2>
+        </Heading>
       </header>
       {children}
     </section>

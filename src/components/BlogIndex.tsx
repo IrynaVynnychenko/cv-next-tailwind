@@ -45,7 +45,7 @@ export default function BlogIndex({ currentPage }: BlogIndexProps) {
   return (
     <div className="pt-20">
       <div className="pattern-hatch h-8 w-full border-x border-edge" />
-      <Panel title={t.title}>
+      <Panel title={t.title} headingLevel="h1">
         <div className="space-y-5 p-4">
           <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">{t.headerTag}</p>
           <p className="text-sm leading-relaxed text-muted-foreground">{t.description}</p>
