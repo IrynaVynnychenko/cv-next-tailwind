@@ -59,3 +59,19 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # Runs after the site is actually live, not in the build job - IndexNow fetches the key
+      # file at KEY_LOCATION to verify the submission, which only works once Pages has
+      # published. Fetches the live sitemap itself (see scripts/submit-indexnow.mjs) rather
+      # than needing the build job's local output. Never fails the workflow - it's a
+      # crawl-speed nicety, not a deploy gate.
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Submit changed pages to IndexNow
+        run: npm run submit:indexnow
