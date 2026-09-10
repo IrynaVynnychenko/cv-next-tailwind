@@ -169,13 +169,19 @@ const GROWTH = {
   dask: [0.35, 0.42, 0.5, 0.6, 0.72, 0.85, 0.95, 1.0],
 }
 
-function directLabelPlugin(getLabel: (datasetIndex: number, index: number, raw: unknown) => string | null): Plugin<'bubble' | 'line'> {
+type LabelOpts = {
+  getLabel: (datasetIndex: number, index: number, raw: unknown) => string | null
+  getDy?: (datasetIndex: number, index: number) => number
+}
+
+function directLabelPlugin({ getLabel, getDy }: LabelOpts): Plugin<'bubble' | 'line'> {
   return {
     id: 'directLabels',
     afterDatasetsDraw(chart) {
       const width = chart.width
       if (width < 260) return // too narrow for any label to help – legend/tooltip carry identity instead
 
+      const area = chart.chartArea
       const ctx = chart.ctx
       ctx.save()
       const fontSize = width < 420 ? 10 : 11
@@ -206,12 +212,19 @@ function directLabelPlugin(getLabel: (datasetIndex: number, index: number, raw: 
             const leftX = pos.x - r - gap - textWidth
             x = leftX >= 4 ? leftX : Math.max(4, width - 4 - textWidth)
           }
-          let y = pos.y
+          let y = pos.y + (getDy ? getDy(di, i) : 0)
+
+          const top = area?.top ?? 4
+          const bottom = area?.bottom ?? chart.height - 4
+          const clamp = (v: number) => Math.min(Math.max(v, top + h / 2), bottom - h / 2)
+          y = clamp(y)
 
           let box = { left: x, right: x + textWidth, top: y - h / 2, bottom: y + h / 2 }
           let attempts = 0
           while (placed.some((p) => overlaps(p, box)) && attempts < 6) {
-            y += h + 2
+            const next = clamp(y + h + 2)
+            if (next === y) break // pinned against the plot edge – accept the overlap rather than escape it
+            y = next
             box = { left: x, right: x + textWidth, top: y - h / 2, bottom: y + h / 2 }
             attempts += 1
           }
@@ -222,6 +235,68 @@ function directLabelPlugin(getLabel: (datasetIndex: number, index: number, raw: 
           ctx.fillText(text, x, y)
         })
       })
+      ctx.restore()
+    },
+  }
+}
+
+// The perf chart packs 3 libraries into each of 2 x-clusters (2GB, 20GB), and their y-values
+// (a few seconds apart on a 0-72s axis) sit too close together for per-point collision-avoidance
+// to separate reliably. Instead, group by x, sort by y, and stack labels at a fixed vertical
+// gap around the cluster's center — deterministic regardless of how compressed the raw values are.
+function perfClusterLabelPlugin(points: PerfPoint[], muted: string): Plugin<'bubble'> {
+  return {
+    id: 'perfClusterLabels',
+    afterDatasetsDraw(chart) {
+      const width = chart.width
+      if (width < 260) return
+
+      const meta = chart.getDatasetMeta(0)
+      if (meta.hidden) return
+
+      const area = chart.chartArea
+      const ctx = chart.ctx
+      ctx.save()
+      const fontSize = width < 420 ? 10 : 11
+      ctx.font = `600 ${fontSize}px ui-monospace, "SFMono-Regular", Menlo, monospace`
+      ctx.textBaseline = 'middle'
+      const rowGap = fontSize + 6
+
+      const byX = new Map<number, { idx: number; x: number; y: number; r: number; lib: string }[]>()
+      meta.data.forEach((el, i) => {
+        const p = points[i]
+        if (!p) return
+        const elXY = el as unknown as { x: number; y: number }
+        const opts = (el as unknown as { options?: { radius?: number } }).options
+        const group = byX.get(p.x) ?? []
+        group.push({ idx: i, x: elXY.x, y: elXY.y, r: opts?.radius ?? 8, lib: p.lib })
+        byX.set(p.x, group)
+      })
+
+      byX.forEach((group) => {
+        const clusterX = group.reduce((sum, g) => sum + g.x, 0) / group.length
+        const maxR = Math.max(...group.map((g) => g.r))
+        const clusterCenterY = group.reduce((sum, g) => sum + g.y, 0) / group.length
+        const sorted = [...group].sort((a, b) => a.y - b.y)
+        const top = area?.top ?? 4
+        const bottom = area?.bottom ?? chart.height - 4
+        const spanTop = clusterCenterY - ((sorted.length - 1) / 2) * rowGap
+        const clampedTop = Math.min(Math.max(spanTop, top + rowGap / 2), bottom - rowGap * sorted.length + rowGap / 2)
+
+        const textWidth = Math.max(...sorted.map((g) => ctx.measureText(g.lib).width))
+        let x = clusterX + maxR + 6
+        if (x + textWidth > width - 4) {
+          const leftX = clusterX - maxR - 6 - textWidth
+          x = leftX >= 4 ? leftX : Math.max(4, width - 4 - textWidth)
+        }
+
+        ctx.fillStyle = muted
+        ctx.textAlign = 'left'
+        sorted.forEach((g, row) => {
+          ctx.fillText(g.lib, x, clampedTop + row * rowGap)
+        })
+      })
+
       ctx.restore()
     },
   }
@@ -292,7 +367,7 @@ export default function PythonLibsCharts({ theme, language }: Props) {
             },
           },
         },
-        plugins: [directLabelPlugin((di) => cfg.data.datasets[di]?.label ?? null)],
+        plugins: [directLabelPlugin({ getLabel: (di) => cfg.data.datasets[di]?.label ?? null })],
       }
       charts.push(new Chart(ecoRef.current, cfg))
     }
@@ -357,10 +432,7 @@ export default function PythonLibsCharts({ theme, language }: Props) {
             },
           },
         },
-        plugins: [directLabelPlugin((_di, i) => {
-          const p = PERF_POINTS[i]
-          return p ? `${p.lib} · ${p.x}GB` : null
-        })],
+        plugins: [perfClusterLabelPlugin(PERF_POINTS, c.ink2)],
       }
       charts.push(new Chart(perfRef.current, cfg))
     }
@@ -429,7 +501,14 @@ export default function PythonLibsCharts({ theme, language }: Props) {
         type: 'line',
         data: { labels: YEARS, datasets: [mkLine('pandas', c.pandas, GROWTH.pandas), mkLine('polars', c.polars, GROWTH.polars), mkLine('dask', c.dask, GROWTH.dask)] },
         options: growthOptions,
-        plugins: [directLabelPlugin((di, i) => (i === YEARS.length - 1 ? cfg.data.datasets[di]?.label ?? null : null))],
+        plugins: [
+          directLabelPlugin({
+            getLabel: (di, i) => (i === YEARS.length - 1 ? cfg.data.datasets[di]?.label ?? null : null),
+            // polars and dask end close together (2.8M vs 1.0M) — bias them apart so neither
+            // label sits on top of the other line's stroke; pandas ends far enough away to need none.
+            getDy: (di) => (di === 1 ? -9 : di === 2 ? 9 : 0),
+          }),
+        ],
       }
       charts.push(new Chart(growthRef.current, cfg))
     }
