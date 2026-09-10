@@ -8,6 +8,15 @@
     <lastBuildDate>Thu, 10 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://vynnychenko.dev/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AEO vs GEO vs SEO: What Actually Ranks in 2026</title>
+      <link>https://vynnychenko.dev/blog/aeo-vs-geo-vs-seo-2026/</link>
+      <guid isPermaLink="true">https://vynnychenko.dev/blog/aeo-vs-geo-vs-seo-2026/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Search fragmented into three jobs: ranking in blue links, being the extracted answer, and getting cited inside an AI chat reply. Two live Chart.js charts compare what each discipline optimizes for and where the click actually goes, then what I build so a page has a shot at all three.</description>
+      <dc:creator>Iryna Vynnychenko</dc:creator>
+      <category>SEO</category><category>AEO</category><category>GEO</category><category>AI Search</category><category>ChatGPT</category><category>Chart.js</category>
+    </item>
+    <item>
       <title>Pandas vs Polars vs Dask, Charted Live</title>
       <link>https://vynnychenko.dev/blog/pandas-polars-dask-live-charts/</link>
       <guid isPermaLink="true">https://vynnychenko.dev/blog/pandas-polars-dask-live-charts/</guid>
