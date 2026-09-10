@@ -173,10 +173,19 @@ function directLabelPlugin(getLabel: (datasetIndex: number, index: number, raw: 
   return {
     id: 'directLabels',
     afterDatasetsDraw(chart) {
+      const width = chart.width
+      if (width < 260) return // too narrow for any label to help — legend/tooltip carry identity instead
+
       const ctx = chart.ctx
       ctx.save()
-      ctx.font = '600 11px ui-monospace, "SFMono-Regular", Menlo, monospace'
+      const fontSize = width < 420 ? 10 : 11
+      ctx.font = `600 ${fontSize}px ui-monospace, "SFMono-Regular", Menlo, monospace`
       ctx.textBaseline = 'middle'
+
+      const placed: { left: number; right: number; top: number; bottom: number }[] = []
+      const overlaps = (a: { left: number; right: number; top: number; bottom: number }, b: typeof a) =>
+        a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top
+
       chart.data.datasets.forEach((ds, di) => {
         const meta = chart.getDatasetMeta(di)
         if (meta.hidden) return
@@ -188,9 +197,29 @@ function directLabelPlugin(getLabel: (datasetIndex: number, index: number, raw: 
           const pos = 'tooltipPosition' in el ? (el as unknown as { tooltipPosition: () => { x: number; y: number } }).tooltipPosition() : { x: elXY.x, y: elXY.y }
           const opts = (el as unknown as { options?: { radius?: number } }).options
           const r = opts?.radius ?? 6
+          const textWidth = ctx.measureText(text).width
+          const gap = 6
+          const h = fontSize + 4
+
+          let x = pos.x + r + gap
+          if (x + textWidth > width - 4) {
+            const leftX = pos.x - r - gap - textWidth
+            x = leftX >= 4 ? leftX : Math.max(4, width - 4 - textWidth)
+          }
+          let y = pos.y
+
+          let box = { left: x, right: x + textWidth, top: y - h / 2, bottom: y + h / 2 }
+          let attempts = 0
+          while (placed.some((p) => overlaps(p, box)) && attempts < 6) {
+            y += h + 2
+            box = { left: x, right: x + textWidth, top: y - h / 2, bottom: y + h / 2 }
+            attempts += 1
+          }
+          placed.push(box)
+
           ctx.fillStyle = (ds as { borderColor?: string }).borderColor || '#71717a'
           ctx.textAlign = 'left'
-          ctx.fillText(text, pos.x + r + 6, pos.y)
+          ctx.fillText(text, x, y)
         })
       })
       ctx.restore()
@@ -244,7 +273,7 @@ export default function PythonLibsCharts({ theme, language }: Props) {
           responsive: true,
           maintainAspectRatio: false,
           animation: reduceMotion ? false : { duration: 700, easing: 'easeOutQuart' },
-          layout: { padding: { right: 60, top: 10 } },
+          layout: { padding: { right: 12, top: 10 } },
           scales: {
             x: { title: { display: true, text: tr('ecoX'), color: c.ink2, font }, min: 0, max: 55, grid: { color: c.grid }, ticks: { color: c.muted, font } },
             y: { title: { display: true, text: tr('ecoY'), color: c.ink2, font }, min: 0, max: 21, grid: { color: c.grid }, ticks: { color: c.muted, font } },
@@ -277,7 +306,7 @@ export default function PythonLibsCharts({ theme, language }: Props) {
           responsive: true,
           maintainAspectRatio: false,
           animation: reduceMotion ? false : { duration: 700, easing: 'easeOutQuart' },
-          layout: { padding: { right: 90, top: 10 } },
+          layout: { padding: { right: 12, top: 10 } },
           scales: {
             x: {
               type: 'logarithmic',
@@ -379,7 +408,7 @@ export default function PythonLibsCharts({ theme, language }: Props) {
         maintainAspectRatio: false,
         animation: growthAnimation,
         interaction: { intersect: false, mode: 'index' },
-        layout: { padding: { right: 56, top: 10 } },
+        layout: { padding: { right: 12, top: 10 } },
         scales: {
           x: { grid: { color: c.grid }, ticks: { color: c.muted, font } },
           y: { title: { display: true, text: tr('growthY'), color: c.ink2, font }, min: 0, max: 20, grid: { color: c.grid }, ticks: { color: c.muted, font } },
