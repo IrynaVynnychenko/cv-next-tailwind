@@ -58,6 +58,7 @@ const postsBySlug = new Map(ALL_POSTS.map((post) => [post.slug, post]))
 
 /** Display / pagination order. Prepend a slug here when adding a new post. */
 const SLUG_ORDER = [
+  'ai-bot-leads-own-article-blog-domain-2026',
   'aeo-vs-geo-vs-seo-2026',
   'pandas-polars-dask-live-charts',
   'what-is-load-stress-testing',
